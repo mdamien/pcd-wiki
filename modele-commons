@@ -1,3 +1,4 @@
+<!-- DO NOT!! change {{{1}}} to {{PAGENAME}}, some commons pages do not bear the same name as the Wikipedia article - Ævar Arnfjörð Bjarmason --> 
 {| border="0" width="35%" cellpadding="5" class="noprint" style="font-weight:bold; float:right; clear:right; border:solid #008 2px;margin-left:5px;margin-bottom:5px;" 
 |[[Image:CommonsLogo.png|50px|none|Commons|]] 
 | See the images for '''[[Commons:{{{1}}}|{{{1}}}]]''' on the '''[[Commons:Main Page|Commons]]'''.

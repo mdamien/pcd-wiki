@@ -1,4 +1,7 @@
-{| width="35%" cellpadding="5" class="noprint" style="font-weight:bold; float:right; clear:right; border:solid #008 2px; margin-left:5px; margin-bottom:5px;" 
-| [[Image:CommonsLogo.png|50px|none|Commons|]] 
-| See images and other multimedia for '''[[Commons:{{{1}}}|{{{1}}}]]''' on the '''[[Commons:Main Page|Commons]]'''.
+{| width="35%" align="right" cellpadding="5" class="noprint" style="float:right; clear:both; border:solid #008 2px; margin:0em 0em 0.5em 0.5em; width:35%;" 
+|-
+| [[Image:CommonsLogo.png|50px|none|Commons|<nowiki> </nowiki>]] 
+| width="100%" | 
+;[[Commons:Main Page|Wikimedia Commons]] has images and other multimedia related to this article:
+:<div style="white-space: nowrap;">'''''[[Commons:{{{1}}}|{{{1}}}]]'''''</div>
 |}

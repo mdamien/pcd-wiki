@@ -1,5 +1,11 @@
 <div class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9; width: 250px; padding: 4px; spacing: 0px; text-align: left; float: right;">
-<div style="float: left;"> </div>
+<div style="float: left;"> 
+<!--
+Please make sure the issues detailed on http://meta.wikimedia.org/wiki/Image_server_overload_2005-03
+are resolved before removing this comment and restoring the image.
+[[Image:CommonsLogo.png|50px|none|Commons]]
+-->
+</div>
 <div style="margin-left: 60px;">[[Wikimedia Commons]] has more images and possibly other types of media related to:
 <div style="margin-left: 10px;">'''''[[Commons:{{{1}}}|{{{1}}}]]'''''</div>
 </div>

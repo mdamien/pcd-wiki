@@ -1,6 +1,6 @@
-{| border="0" align=right width=250 cellpadding="4" cellspacing=0 class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9"
-|-
-|[[Image:CommonsLogo.png|50px|none|Commons]]
-| width="100%" | '''[[Wikimedia Commons]] has multimedia related to:'''
-:<div style="white-space: nowrap;">'''''[[Commons:{{{1}}}|{{{1}}}]]'''''</div>
-|}
+<div class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9; width: 250px; padding: 4px; spacing: 0px; text-align: left; float: right;">
+<div style="float: left;">[[Image:CommonsLogo.png|50px|none|Commons]]</div>
+<div style="margin-left: 60px;">[[Wikimedia Commons]] has multimedia related to:
+<div style="margin-left: 10px;">'''''[[Commons:{{{1}}}|{{{1}}}]]'''''</div>
+</div>
+</div>

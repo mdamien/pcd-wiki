@@ -1,4 +1,6 @@
-{| border="0" width="200" cellpadding="2" class="noprint" style="float:right; text-align: left; border:solid #4A708B 2px; margin:0.5ex 0 0.5ex 1ex; clear:right;" 
-|[[Image:CommonsLogo.png|50px|none|Commons|]] 
-| [[Wikimedia Commons]] has more images and possibly other types of media related to: '''[[Commons:{{{1}}}|{{{1}}}]]'''.
-|}
+<div class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9; width: 250px; padding: 4px; spacing: 0px; text-align: left; float: right;">
+<div style="float: left;"> </div>
+<div style="margin-left: 60px;">[[Wikimedia Commons]] has more images and possibly other types of media related to:
+<div style="margin-left: 10px;">'''''[[Commons:{{{1}}}|{{{1}}}]]'''''</div>
+</div>
+</div>

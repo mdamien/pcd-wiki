@@ -3,7 +3,7 @@
 [[Image:Commons-logo.svg|50px|none|Commons]]
 </div>
 <div style="margin-left: 60px;">[[Wikimedia Commons]] has more media related to:
-<div style="margin-left: 10px;">'''''[[Commons:{{{1}}}|{{PAGENAME}}]]'''''</div>
+<div style="margin-left: 10px;">'''''[[Commons:{{{1}}}|{{{2|{{PAGENAME}}}}}]]'''''</div>
 </div>
 </div>
 {{Clearright}}

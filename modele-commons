@@ -5,9 +5,7 @@
 <div style="margin-left: 60px;">[[Wikimedia Commons]] has media related to:
 <div style="margin-left: 10px;">'''''[[Commons:{{{1}}}|{{{2|{{PAGENAME}}}}}]]'''''</div>
 </div>
-</div>
-{{Clearright}}
-<noinclude>
+</div>{{Clearright}}<noinclude>
 [[ar:قالب:كومونز]]
 [[id:Templat:Commons]]
 [[bg:Шаблон:Commons]]

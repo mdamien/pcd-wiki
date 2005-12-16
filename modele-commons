@@ -1,9 +1,11 @@
-<div class="infobox sisterproject">
-<div style="float: left;">[[Image:Commons-logo.svg|50px|none|Commons]]</div>
+<div class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9; color:black; width: 250px; padding: 4px; text-align: left; float: right;">
+<div style="float: left;"> 
+[[Image:Commons-logo.svg|50px|none|Commons]]
+</div>
 <div style="margin-left: 60px;">[[Wikimedia Commons]] has media related to:
 <div style="margin-left: 10px;">'''''[[Commons:{{{1}}}|{{{2|{{PAGENAME}}}}}]]'''''</div>
 </div>
-</div><noinclude>
+</div>{{Clearright}}<noinclude>
 [[ar:قالب:كومونز]]
 [[id:Templat:Commons]]
 [[bg:Шаблон:Commons]]

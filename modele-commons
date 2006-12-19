@@ -2,7 +2,8 @@
 | style="width:50px; height:67px;" | [[Image:Commons-logo.svg|50px|none|]] 
 | style="padding-left:5px;" | [[Wikimedia Commons]] has media related to:
 <div style="margin-left: 10px;"> '''''[[Commons:{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''</div>
-|}<noinclude>[[Category:Interwiki link templates|Commons]]
+|}
+<noinclude>[[Category:Interwiki link templates|Commons]]
 [[af:Template:Commons]]
 [[ar:قالب:كومونز]]
 [[ast:Template:Commons]]

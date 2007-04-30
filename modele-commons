@@ -1,11 +1,13 @@
 <div class="infobox sisterproject">[[Image:Commons-logo.svg|left|50px| ]]<div style="margin-left: 60px;">[[Wikimedia Commons]] has media related to:<div style="margin-left: 10px;"> '''''[[Commons:{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]''''' </div></div></div><noinclude>
 [[Category:Interwiki link templates|Commons]]
+<!-- interwiki -->
 [[af:Sjabloon:Commons]]
 [[als:Vorlage:Commons]]
 [[ar:قالب:كومنز]]
 [[ast:Plantilla:Commons]]
 [[az:Şablon:Commons]]
-[[be:Шаблён:Commons]]
+[[be:Шаблон:Commons]]
+[[be-x-old:Шаблён:Commons]]
 [[bar:Vorlage:Commons]]
 [[bs:Šablon:Commons]]
 [[bg:Шаблон:Общомедия]]
@@ -16,6 +18,7 @@
 [[de:Vorlage:Commons]]
 [[el:Πρότυπο:Commons]]
 [[et:Mall:Commons]]
+[[en:Template:Commons]]
 [[es:Plantilla:Commons]]
 [[eo:Ŝablono:Commons]]
 [[eu:Txantiloi:Commons]]
@@ -35,7 +38,7 @@
 [[ik:Template:Commons]]
 [[is:Snið:Commons]]
 [[it:Template:Commons]]
-[[he:תבנית:ויקישיתוף]]
+[[he:תבנית:Commons]]
 [[kn:ಟೆಂಪ್ಲೇಟು:Commons]]
 [[ku:Şablon:Commons]]
 [[la:Formula:Communia2]]
@@ -73,5 +76,6 @@
 [[wa:Modele:Commons]]
 [[uk:Шаблон:Commons]]
 [[ur:سانچہ:Commons]]
+[[zh-yue:Template:同享]]
 [[zh:Template:Commons]]
 </noinclude>

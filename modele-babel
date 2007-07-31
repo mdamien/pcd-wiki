@@ -1,6 +1,6 @@
-{| name="userboxes" id="userboxes" style="float: {{{align|right}}}; margin-left: 1em; margin-bottom: 0.5em; width: 242px; border: #99B3FF solid 1px; clear: right"
+{| name="userboxes" id="userboxes" style="float:{{{align|right}}}; margin-left:1em; margin-bottom:0.5em; width:242px; border:#99B3FF solid 1px; clear:{{{clear|{{{align|right}}}}}}"
 |-
-! style="background-color: {{{color|}}}; text-align: center" colspan="10" | {{{header|[[:en:Wikipedia:Babel|Language skills]]}}}
+! style="background-color:{{{color|{{{background-color|}}}}}}; text-align:center" colspan="10" | {{{header|[[:en:Wikipedia:Babel|Language skills]]}}}
 |-
 | {{#if:{{{1|}}}|{{User {{{1}}}}}
 }}{{#if:{{{2|}}}|{{User {{{2}}}}}
@@ -103,6 +103,5 @@
 }}{{#if:{{{99|}}}|{{User {{{99}}}}}
 }}{{#if:{{{100|}}}|{{User {{{100}}}}}}}
 |-
-
-| style="background-color: {{{color|}}}; text-align: center" colspan="10" | {{{footer|[[:Category:Users|Search for language skills]]}}}
+| style="background-color:{{{color|{{{background-color|}}}}}}; text-align:center" colspan="10" | {{{footer|[[:Category:Users|Search for language skills]]}}}
 |}

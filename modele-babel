@@ -103,7 +103,7 @@
 }}{{#if:{{{99|}}}|{{User {{{99}}}}}
 }}{{#if:{{{100|}}}|{{User {{{100}}}}}}}
 |-
-| style="background-color:{{{color|{{{background-color|}}}}}}; text-align:center" colspan="10" | {{{footer|[[:Category:Users|Search for language skills]]}}}
+| style="background-color:{{{color|{{{background-color|}}}}}}; text-align:center" colspan="10" | {{{footer|[[:Category:Users:(all)|Search for language skills]]}}}
 |}<noinclude>
 Use:
  <nowiki>{{Babel|native|possible-3|possible-2|possible-1}}</nowiki>

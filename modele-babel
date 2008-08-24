@@ -106,7 +106,7 @@
 | style="background-color:{{{color|{{{background-color|}}}}}}; text-align:center" colspan="10" | {{{footer|[[:Category:Users:(all)|Search for language skills]]}}}
 |}<noinclude>
 Use:
- <nowiki>{{Babel|bakhtiari|fr|en|bqi}}</nowiki>
+ <nowiki>{{Babel|native|possible-3|possible-2|possible-1}}</nowiki>
 
 Example:
  <nowiki>{{Babel|en|fr-2|de-2}}</nowiki>

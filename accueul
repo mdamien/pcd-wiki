@@ -7,7 +7,6 @@ Comme ch'est juste pour vir et qu'in peut pas incore eul faire sur un site dédi
 
 Eul kose à savoir aussi, ch'est qu'in a pas d'convention pour commin qu'c'est qu'on doit écrire eul'patois sur c'te site web là. Pour commincer, ça peut être bio d'argarder c'qui a djà mais c'est pas eun obligation qu'eud faire pareil. Après to, in peu pas faire d'fautes in patois ! In timps voulu, si c't'affaire-là elle aboutit, in porra in discuter plus sérieusmint.
 
-'''Créer eun pache :'''
 <inputbox>
  type=create
  width=90
@@ -15,7 +14,9 @@ Eul kose à savoir aussi, ch'est qu'in a pas d'convention pour commin qu'c'est q
  preload=Template:Standard content for new page
  editintro=Template:Instructions
  default=
+ buttonlabel= '''Créer eun pache'''
 </inputbox>
+</div>
 
 ''Désolé pour c'te bouton in anglais, mais in peut pas l'changer.''
 

@@ -1,0 +1,193 @@
+          ébauche en traduction
+
+{| class="infobox" width="300" style="background-color: #f3fff3;"
+| colspan="2" style="background-color: #ddffdd; color:black;font-size:large;" | '''{{{nomcommune}}}'''
+{{#if:{{{image|}}}|
+{{!}}- 
+{{!}}colspan="2" style="padding: 0px" align=center{{!}}
+[[Image:{{{image}}}|{{{taille|290px}}}|center]] {{#if:{{{légende|}}}|<small>{{{légende}}}</small>}}
+|
+}}
+|-<!--Géolocalisation sur une carte de France métropolitaine-->
+{{#if: {{#ifexpr: {{{latitude}}} AND {{{longitude}}} }} | | {{!}}-
+{{!}} colspan="2" style="background-color: #ffffff;" {{!}} {{Fragéoloc|{{{longitude}}}|{{{latitude}}}|taille=290|desc=Carte de localisation de {{{nomcommune}}}}}
+}}
+|-
+! scope=row | [[Liste des pays du monde|Pays]]
+| style="background-color: #f3fff3;" | {{France}}
+|-
+! scope=row | [[Région française|Région]]
+| style="background-color: #f3fff3;" | {{{région}}}
+|-
+! scope=row | [[Département français|Département]]
+| style="background-color: #f3fff3;" | {{{département}}}
+|-
+! scope=row | [[Arrondissement français|Arrondissement]]
+| style="background-color: #f3fff3;" | {{{arrondissement}}}
+|-
+! scope=row | [[Canton français|Canton]]
+| style="background-color: #f3fff3;" | {{{canton}}}
+|-
+! scope=row | [[Code Insee]]
+| style="background-color: #f3fff3;" | {{{insee}}}
+|-
+! scope=row | [[Code postal en France|Code postal]]
+| style="background-color: #f3fff3;" | {{{80680}}}
+|-
+! scope=row | [[Maire]]<br />[[Mandat politique|Mandat]] en cours 
+| style="background-color: #f3fff3;" | {{{maire}}}<br />{{{mandat}}}
+|-
+! scope=row | [[Intercommunalité]]
+| style="background-color: #f3fff3;" | {{{intercomm}}}
+|-
+! scope=row | [[Latitude]]<br />[[Longitude]]
+| style="background-color: #f3fff3;" | {{#if:{{{latitude|}}} | {{#if:{{{longitude|}}}| {{#if: {{#ifexpr: {{{latitude}}} }} | {{{latitude|}}}<br />{{{longitude|}}} | {{coord|{{{latitude|}}}|{{{longitude|}}}|type:city_region:FR|format=dms long}} }} }} }}
+|-
+! scope=row | [[Altitude]]
+| style="background-color: #f3fff3;" | {{formatnum:{{{alt mini}}}}} (mini) – {{formatnum:{{{alt maxi}}}}} (maxi) 
+|-
+! scope=row | [[Superficie]]
+| style="background-color: #f3fff3;" | {{{km²}}} km²
+|-
+! scope=row | [[Chiffres de population en France|Population sans<br />doubles comptes]] 
+| style="background-color: #f3fff3;" | {{formatnum:{{{sans}}}}} hab. <br /><small>({{{date-sans}}})</small>
+|-
+! scope=row | [[Densité de population|Densité]]
+| style="background-color: #f3fff3;" | {{{dens}}} hab./km²
+{{#switch:{{{département}}}|[[Hauts-de-Seine]]|[[Seine-Saint-Denis]]|[[Val-de-Marne]]=
+{{!}}-
+{{!}}colspan="2" style="background-color: #ddffdd;" align="center" {{!}}[[Image:{{{nomcommune|{{PAGENAME}}}}} map.svg|150px|{{{nomcommune|{{PAGENAME}}}}} sur le plan de Paris et proche banlieue]]
+|[[Pyrénées-Atlantiques]]=
+{{!}}-
+{{!}}colspan="2" class="infoboximage" {{!}} {{Début de carte}}[[Image:{{Géolocalisation/Pyrénées-Atlantiques|image}}|295px]]
+{{Géolocalisation de ville avec lien|Pyrénées-Atlantiques|{{{latitude}}}|{{{longitude}}}|{{{nomcommune}}}{{!}}'''{{{nomcommune}}}'''|2|n|largeur=295}}
+{{Fin de carte}}<div align=center>Localisation sur la carte départementale</div>
+|[[Hautes-Pyrénées]]=
+{{!}}-
+{{!}}colspan="2" class="infoboximage" {{!}} {{Début de carte}}[[Image:{{Géolocalisation/Hautes-Pyrénées|image}}|295px]]
+{{Géolocalisation de ville avec lien|Hautes-Pyrénées|{{{latitude}}}|{{{longitude}}}|{{{nomcommune}}}{{!}}'''{{{nomcommune}}}'''|2|n|largeur=295}}
+{{Fin de carte}}<div align=center>Localisation sur la carte départementale</div>
+|#default=}}
+|}<noinclude>{{/Documentation}}</
+
+'''Saint-Fuschien''' est une [[Commune française|commune]] [[france|française]], située dans le [[départements français|département]] de la [[Somme (département)|Somme]] et la [[régions françaises|région]] [[Picardie]].
+
+==Géographie==
+
+La Picardie peut être subdivisée en dix-huit régions naturelles ou petits pays. Saint-Fuscien se trouve dans l’Amiénois.  Situé sur le plateau sud d'Amiens, la commune se situe à une distance de 6 km au sud d'Amiens,  capitale départementale et capitale régionale picarde.  Saint-Fuscien est un village résidentiel de plus de 900 habitants. Le village fait partie du District du Grand Amiens, devenu par la suite "Amiens Métropole".
+
+D’un point de vue géologique, la commune est sur le plateau picard formé au crétacé supérieur  (terrains secondaires ou [[mésozoïque]]); c'est un plateau crayeux recouvert de limon. La couche de limon assez mince laisse parfois affleurer la craie.  Pendant longtemps, la région a été un pays de petites terres qui étaient difficiles à cultiver et ceci obligeait les paysans parcellaires à trouver un second métier durant l'hiver. Jusqu'au 19{{exp|e}} siècle,  les coupeurs de velours et les culottières ont travaillé à domicile pour le textile amiénois. A présent, les remembrements et la modernisation des fermes permettent une exploitation plus aisée des terres agricoles sous forme de polyculture et d'élevage<ref>Picardie, Bonneton Ed, (1980)</ref>.
+
+
+==Histoire==
+L'histoire du village de Saint-Fuscien débute réellement avec la fondation du monastère à la fin du VI° siècle.
+
+'''que s'est-il-passé en ce lieu avant la fondation du monastère?'''
+ 
+les hommes de la civilisation acheuléenne (-300 000 à -90 000 av JC) avaient taillés des silex pour se confectionner des armes et des outils. Ensuite, les [[celtes]] se sont installés dans la région. Ce furent d'abord des tribus hallstattiennes. Les princes de ces tribus vont décliner au V{{exp|e}} siècle av JC et une nouvelle migration celtique se produit alors en provenance du Nord-Est (période de la Tène). Les celtes de la Tène étaient de redoutables guerriers. Enfin ce furent les celtes-belges qui ont traversé le Rhin pour s'installer dans le nord-ouest.  La tribu belge qui s'est installée ici était la tribu des Ambiens (ambiani). Ces tribus belges ont été soumises par les légions romaines de César en 57 av JC<ref>''Histoire des Gaules'', C. Delaplace et J. France, A Colin Ed (1995)</ref>. Durant la période gallo-romaine, la voie romaine qui part de [[Samarobriva]] (Amiens) vers le sud traverse la région. 
+
+'''Le martyr de Fuscien et la fondation du monastère de Saint-Fuscien-au-bois'''
+
+Au 3{{exp|e}} siècle, le chrétien Fuscianus quitte Rome pour aller évangéliser la tribu gauloise des Morins. Cette tribu était située au nord des Ambiens. Avec Victoric, Fuscien  est de passage en 303  dans le village de Sama (actuel sains-en-amiénois) où ils ont converti Gentien. A cette période, les chrétiens sont persécutés. Le 11 décembre 303, les soldats romains décapitent Gentien à Sains, puis emmènent Fuscien et Victoric dans les bois où ils leur tranchent la tête. La légende dit alors que les 2 martyrs seraient ensuite revenus à Sains en portant leur tête dans les mains<ref>-a- ''Actes inédits des saints martyrs Fuscien, Victoric et Gentien'',  Charles Salmon  in  Mémoires de la Société d'Archéologie du Département de la Somme . Tome XVIII -   imprimerie Lemer-Amiens, (1861) . -b-  ''Vie des Saints pour tous les jours de l'année'', Abbé L. Jaud,  Tours, Mame, (1950)</ref>. Au 6{{exp|e}} siècle, un prêtre retrouve le tombeau des 3 martyrs qui devient alors un lieu de culte.
+La vénération du culte de saint Fuscien amène à la fondation, à la fin du 6e siècle, d'un monastère sur le lieu de sa décapitation. Lors des invasions normandes, le monastère sera détruit (859), reconstruit (880) puis détruit à nouveau en 925, Il restera alors en ruine pendant environ 2 siècles. 
+
+'''L'abbaye de Saint-Fuscien-au-bois'''
+
+En 1105, [[Enguerrand de Boves]], comte d'Amiens, 1042-1116, dote l'[[abaïe de Saint-Fuschien]] qui est restaurée et occupée par des bénédictins qui viennent de l'abbaye de Corbie. L'abbaye est mise en commende en 1533. En 1648, la réforme de Saint Maur (voir: [[Congrégation de Saint-Maur]] ) est introduite dans l'abbaye pour revenir à un régime monastique strict fidèle à la vie bénédictine. A cette époque, le logis abbatial (dit à présent « château de Saint-Fuscien ») est reconstruit. L'église de l'abbaye sert pour le culte du village et les moines font l'école et instruisent les enfants gratuitement et charitablement<ref>Charles Salmon, ''Notice historique sur l'ancienne abbaye et le village de Saint-Fuscien-au-Bois, près Amiens'',  Lenoël-Hérouart Imprimeur - Amiens (1857)</ref>. 
+
+Lors de la révolution française, la congrégation bénédictine de Saint Maur est dissoute (1790) et les biens de l'abbaye deviennent propriété de la nation. En avril 1791, une pétition (73 signatures) des habitants demande à l'évêque du département de la somme d'intervenir auprès du préfet pour  la conservation de l'église, du cimetière, de l'école et du logement d'un prêtre car un décret de l'Assemblée Nationale ordonne la vente des biens de l'abbaye. Les bâtiments conventuels sont vendus à un particulier. De grandes modifications sont effectuées et une partie des bâtiments est démolie pour récupérer des matériaux de construction. 
+Le Septidi 17 Thermidor an 12 (Dimanche 5 Août 1804), le conseil municipal demande la restauration de l'église pour y accueillir les paroissiens car il y a plus de 500 habitants dans la commune composée de 125 maisons pour 135 ménages et il n'y a plus d'église dans le village. En 1820, une chapelle sera aménagée dans une ancienne grange et la construction d'une nouvelle église sera décidée en 1865. Cette église a été très endommagée lors de l'incendie criminel de 2005.
+
+'''l'école des Frères'''
+
+En 1825, le révérend père Lardeur (1776-1863) achète ce qui reste de l'abbaye pour y installer une école de la congrégation des Frères de Saint Joseph. Les écoles de cette congrégation ont eu une grande renommée sous le second empire. Cependant, une affaire de mœurs dans l'école de Cîteaux en 1888 provoqua un scandale en France qui conduisit à la disparition de la congrégation des Frères de Saint Joseph<ref>Revue d'histoire de l'Eglise de France, E. Baratay, 1998, vol 85, n° 213, p. 299</ref>. Les bâtiments conventuels furent alors à nouveau vendus à un particulier.  A présent, il ne subsiste que l'hôtel abbatial (dit château) et un petit pavillon de l'ancienne abbaye de Saint-Fuscien-au-bois.
+
+'''le village de Saint-Fuscien et les guerres'''<ref>G Bacquet, ''Les batailles de la Somme'', Le courrier-picard-CA-Somme Ed, (1980)</ref>:
+
+Saint-Fuscien a subi les invasions normandes et les vikings ont détruit deux fois le monastère (en 859 et en 925). Les villages de la seigneurie de Boves étaient reliés au château (11° siècle) par des galeries creusées dans la craie qui permettaient aux habitants de se "mucher" en cas d'attaque.
+
+Le [[traité de Troyes]] en 1420 octroya la région aux Bourguignons. En 1470, Louis XI attaque les Bourguignons de Charles-le-Téméraire et les combats durent plusieurs années. En 1472, les bourguignons saccagent et  brulent l'abbaye de Saint-Fuscien-aux-Bois. Il faudra attendre le traité de Picquigny entre Louis XI et Edouard IV d'Angleterre (1475) puis la mort de Charles-le-Téméraire (1477) pour que Saint-Fuscien soit dans le royaume de France.
+
+Pendant la guerre de 1870-71, les prussiens viennent par le sud pour attaquer Amiens qui est protégée par une ligne fortifiée longue d'environ 9 km. Cette ligne  est constituée par 12 ouvrages de défense reliés par des tranchées et passe par Saint-Fuscien (côte 102). Le village de Saint-Fuscien est alors occupé par les Prussiens. Fin novembre 1870, de violents combats ont lieu  et Amiens tombe le 28 novembre.
+
+Pendant la première guerre mondiale, le 4 août 1914 les allemands entrent en Belgique. La VI{{exp|e}} armée de Joffre ne peut pas empêcher que la ville d'Amiens tombe le 31 août aux mains des allemands. Le front est  venu jusqu'à Saint-Fuscien. Des pièces d'artillerie françaises sont installées dans le bas du village et le montjoie (côte 102) est le lieu de combats. Des habitations de Saint-Fuscien seront détruites. La VI{{exp|e}} armée doit se replier sur Montdidier. Une contre-attaque de l'armée française permet de repousser les allemands le 10 septembre 1914 et Amiens est libérée le 12. 
+
+Des destructions ont eu lieu en 1940 lors de l'attaque de l'armée allemande. Le 5 juin 1940, une violente offensive allemande se produit et des combats se font au sud d'Amiens de Dury à Boves. Des habitants de Saint-Fuscien qui avaient vu leur maison détruite en 1914 vont trouver à nouveau leur maison endommagée lors de leur retour d'exode. Fin août-début septembre 1944, le village est libéré par les troupes alliées.
+
+'''La vie des habitants de Saint-Fuscien'''
+
+Au 18° siècle et au 19° siècle, plusieurs familles du village sont des coupeurs de velours à domicile pour l'industrie textile d'Amiens. Des culottières travaillent aussi dans leurs maisons alors que d'autres habitants allaient travailler tous les jours à Amiens à pied. D'autres encore partaient avec leurs paniers  pour vendre quelques oeufs, une poule ou un lapin sur les marchés d'Amiens.
+
+En 1847, des vaches hollandaises sont acclimatées à Saint-Fuscien<ref>Charles Salmon, “''De la race bovine hollandaise, ou notice sur les animaux de cette race, acclimatée à Saint-Fuscien depuis 1847''” E. Yvert Ed, Amiens (1855) in Catalogue de la bibliothèque communale d'Amiens, page 449</ref>.  Au début du XX° siècle, il existait une culture d'orchidée sous une très belle serre chauffée, créée par monsieur Graire (maire de Saint-Fuscien de 1904 à 1919).
+
+
+==Administration==
+
+[[Image:blason_saint_fuscien.jpg|thumb|center|blason de Saint-Fuscien.]]
+
+{{ÉluDébut |Titre= Liste des maires successifs}}
+{{Élu |Début= mars 2008 |Fin=      |Identité= Dominique de Thézy  |Parti=''sans étiquette''  |Qualité=''- ''  }}
+{{Élu |Début= mars 2001 |Fin= 2008 |Identité= Richard Magnaud  |Parti=''sans étiquette''  |Qualité=''- ''  }}
+{{Élu |Début= ??? |Fin= mars 2001 |Identité= Elie Ducros  |Parti=''sans étiquette''  |Qualité=''- ''  }}
+{{ÉluDonnées}}
+{{ÉluFin}}
+
+|Début= mars 2008 |Fin=      |Identité= Dominique de Thézy  
+
+|Début= mars 2001 |Fin= 2008 |Identité= Richard Magnaud  
+
+|Début= ??? |Fin= mars 2001 |Identité= Elie Ducros  
+
+Avec Dury et Sains-en-Amiénois, Saint-Fuscien est jumelé à la ville de Bessenbach en Allemagne.
+
+
+
+==Démographie==
+{{Démographie|
+1962= 363|
+1968= 431|
+1975= 687|
+1982= 1026|
+1990= 1031|
+1999= 966|
+2004= 903|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=80702&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Saint-Fuscien sur le site de l'Insee]</ref>}}
+1962= 363|
+1968= 431|
+1975= 687|
+1982= 1026|
+1990= 1031|
+1999= 966|
+2004= 903|
+
+==Lieux et monuments==
+* Église : Ravagée par un incendie criminel en février 2005, elle est en cours de restauration en 2008.
+[[Image:Saint-Fuscien restauration église 1.jpg|thumb|center|L'édifice incendié est désormais muni d'un clocher en charpente (Vue de l'avancée des travaux de restauration en février 2008).]]
+
+* château (logis abbatial - XVIII{{exp|e}} siècle) et restes de l'abbaye
+
+==Voir aussi==
+* [[Communes de la Somme]]
+
+== Notes pi référinches ==
+<references />
+
+== Liens externes ==
+* [http://www.mairie-saint-fuscien.fr/index.html?idr=18 Site municipal officiel]
+* [http://clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/80/accueil_80702.htm Clochers.org], <small>proposant (en février 2008) 4 vues antérieures aux travaux de restauration.</small>
+* [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=75337 Saint-Fuscien sur le site de l'Institut géographique national]
+* [http://incubator.wikimedia.org/wiki/aba%C3%AFe_d%27Saint_Fuschien  abaïe d'Saint Fuschien (en picard)]
+
+
+
+
+{{Portail Somme}}
+[[Catégorie:Commune de la Somme|Saint-Fuscien]]
+
+[[ca:Saint-Fuscien]]
+[[en:Saint-Fuscien]]
+[[it:Saint-Fuscien]]
+[[nl:Saint-Fuscien]]
+[[pl:Saint-Fuscien]]
+[[pt:Saint-Fuscien]]
+[[vo:Saint-Fuscien]]

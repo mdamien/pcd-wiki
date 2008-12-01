@@ -1,7 +1,5 @@
-          ébauche en traduction
-
 {| class="infobox" width="300" style="background-color: #f3fff3;"
-| colspan="2" style="background-color: #ddffdd; color:black;font-size:large;" | '''{{{nomcommune}}}'''
+| colspan="2" style="background-color: #ddffdd; color:black;font-size:large;" | '''     SAINT-FUSCHIEN'''
 {{#if:{{{image|}}}|
 {{!}}- 
 {{!}}colspan="2" style="padding: 0px" align=center{{!}}
@@ -14,46 +12,46 @@
 }}
 |-
 ! scope=row | [[Liste des pays du monde|Pays]]
-| style="background-color: #f3fff3;" | {{Franche}}
+| style="background-color: #f3fff3;" | Franche
 |-
 ! scope=row | [[Région française|Région]]
-| style="background-color: #f3fff3;" | {{{Picardie}}}
+| style="background-color: #f3fff3;" | Picardie
 |-
 ! scope=row | [[Département français|Département]]
-| style="background-color: #f3fff3;" | {{{Sonme}}}
+| style="background-color: #f3fff3;" | Sonme
 |-
 ! scope=row | [[Arrondissement français|Arrondissement]]
-| style="background-color: #f3fff3;" | {{{arrondissement}}}
+| style="background-color: #f3fff3;" | Anmyin
 |-
 ! scope=row | [[Canton français|Canton]]
-| style="background-color: #f3fff3;" | {{{canton}}}
+| style="background-color: #f3fff3;" | Boves
 |-
 ! scope=row | [[Code Insee]]
-| style="background-color: #f3fff3;" | {{{insee}}}
+| style="background-color: #f3fff3;" | 80702
 |-
 ! scope=row | [[Code postal en France|Code postal]]
-| style="background-color: #f3fff3;" | {{{80680}}}
+| style="background-color: #f3fff3;" | 80680
 |-
 ! scope=row | [[Maire]]<br />[[Mandat politique|Mandat]] en cours 
-| style="background-color: #f3fff3;" | {{{de Thezy}}}<br />{{{marche 2008}}}
+| style="background-color: #f3fff3;" | de Thezy<br />marche 2008
 |-
 ! scope=row | [[Intercommunalité]]
-| style="background-color: #f3fff3;" | {{{Grand Anmyin}}}
+| style="background-color: #f3fff3;" | Anmyin Métropole
 |-
-! scope=row | [[Latitude]]<br />[[Longitude]]
-| style="background-color: #f3fff3;" | {{#if:{{{latitude|}}} | {{#if:{{{longitude|}}}| {{#if: {{#ifexpr: {{{latitude}}} }} | {{{latitude|}}}<br />{{{longitude|}}} | {{coord|{{{latitude|}}}|{{{longitude|}}}|type:city_region:FR|format=dms long}} }} }} }}
+! scope=row | [[latitude]]<br />[[Longitude]]
+| style="background-color: #f3fff3;" | {{#if:{{{49° 50' Nord|}}} | {{#if:{{{longitude|}}}| {{#if: {{#ifexpr: {{{latitude}}} }} | coord49° 50' Nord|2° 18' Est| {{coord49° 50' Nord|2° 18' Est|}}}|type:city_region:FR|format=dms long}} }} }} }}
 |-
 ! scope=row | [[Altitude]]
-| style="background-color: #f3fff3;" | {{formatnum:{{{alt mini}}}}} (mini) – {{formatnum:{{{alt maxi}}}}} (maxi) 
+| style="background-color: #f3fff3;" | {{formatnum:38 m}} (mini) – {{formatnum:113 m}} (maxi) 
 |-
 ! scope=row | [[Superficie]]
-| style="background-color: #f3fff3;" | {{{km²}}} km²
+| style="background-color: #f3fff3;" | 9,92 km²
 |-
-! scope=row | [[Chiffres de population en France|Population sans<br />doubles comptes]] 
-| style="background-color: #f3fff3;" | {{formatnum:{{{sans}}}}} hab. <br /><small>({{{date-sans}}})</small>
+! scope=row | [[Chiffres de population en France|nombe d'gins sans<br />doubles comptes]] 
+| style="background-color: #f3fff3;" | {{formatnum:966}} gins <br /><small>(1999)</small>
 |-
 ! scope=row | [[Densité de population|Densité]]
-| style="background-color: #f3fff3;" | {{{dens}}} hab./km²
+| style="background-color: #f3fff3;" | 97 hab./km²
 {{#switch:{{{département}}}|[[Hauts-de-Seine]]|[[Seine-Saint-Denis]]|[[Val-de-Marne]]=
 {{!}}-
 {{!}}colspan="2" style="background-color: #ddffdd;" align="center" {{!}}[[Image:{{{nomcommune|{{PAGENAME}}}}} map.svg|150px|{{{nomcommune|{{PAGENAME}}}}} sur le plan de Paris et proche banlieue]]
@@ -72,7 +70,7 @@
 
 xx==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==oo==o==o==o==o==oo==o==o==o==o==o==xx
 
-'''Saint-Fuschien''' est unne [[Commune française|commune]] [[france|française]], située dins ch' [[départements français|départmint]] del [[Somme (département)|Sonme]] et pi dins el [[régions françaises|région]] del [[Picardie]].
+'''Saint-Fuschien''' est unne [[Conmune franchoèse|conmune]] [[franche|franchoèse]], située dins ch' [[départements français|départmint]] del [[Somme (département)|Sonme]] et pi dins el [[régions françaises|région]] del [[Picardie]].
 
 ==Djéografi==
 
@@ -151,7 +149,7 @@ In 1847, des vakes hollandaises, il sont alvées à Saint-Fuschien<ref>Charles S
 
 ==Administration==
 
-{{ÉluDébut |Titre= Liste des maires successifs}}
+{{ÉluDébut |Titre= Liste d'ches moaires }}
 {{Élu |Début= mars 2008 |Fin=      |Identité= Dominique de Thézy  |Parti=''sans étiquette''  |Qualité=''- ''  }}
 {{Élu |Début= mars 2001 |Fin= 2008 |Identité= Richard Magnaud  |Parti=''sans étiquette''  |Qualité=''- ''  }}
 {{Élu |Début= ??? |Fin= mars 2001 |Identité= Elie Ducros  |Parti=''sans étiquette''  |Qualité=''- ''  }}
@@ -162,9 +160,9 @@ In 1847, des vakes hollandaises, il sont alvées à Saint-Fuschien<ref>Charles S
 
 |Début= mars 2001 |Fin= 2008 |Identité= Richard Magnaud  
 
-|Début= ??? |Fin= mars 2001 |Identité= Elie Ducros  
+|Début= ??? |Fin= mars 2001 |Identité= Elie Ducrocq
 
-Avec Dury et Sains-en-Amiénois, Saint-Fuscien est jumelé à la ville de Bessenbach en Allemagne.
+Aveuc Dury pi Sains-in-Amiénoés, Saint-Fuschien est jumelé à el ville d'Bessenbach in Alemane.
 
 
 
@@ -186,8 +184,8 @@ sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/
 1999= 966|
 2004= 903|
 
-==Lieux et monuments==
-* Église : Ravagée par un incendie criminel en février 2005, elle est en cours de restauration en 2008.
+==Agès pi monumints==
+* Église : Ravagée par un incendie criminel in févrié 2005, ch'est en cours de restauration in 2008.
 [[Image:Saint-Fuscien restauration église 1.jpg|thumb|center|L'édifice incendié est désormais muni d'un clocher en charpente (Vue de l'avancée des travaux de restauration en février 2008).]]
 
 * château (logis abbatial - XVIII{{exp|e}} siècle) et restes de l'abbaye
@@ -203,17 +201,3 @@ sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/
 * [http://clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/80/accueil_80702.htm Clochers.org], <small>proposant (en février 2008) 4 vues antérieures aux travaux de restauration.</small>
 * [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=75337 Saint-Fuscien sur le site de l'Institut géographique national]
 * [http://incubator.wikimedia.org/wiki/aba%C3%AFe_d%27Saint_Fuschien  abaïe d'Saint Fuschien (en picard)]
-
-
-
-
-{{Portail Somme}}
-[[Catégorie:Commune de la Somme|Saint-Fuscien]]
-
-[[ca:Saint-Fuscien]]
-[[en:Saint-Fuscien]]
-[[it:Saint-Fuscien]]
-[[nl:Saint-Fuscien]]
-[[pl:Saint-Fuscien]]
-[[pt:Saint-Fuscien]]
-[[vo:Saint-Fuscien]]

@@ -1,0 +1,131 @@
+= Groupe éd chés Chonc =
+
+Ch'est un groupe éd compositeurs russes.
+
+
+* [[Moussorgski|Moussorgski]], 
+
+* [[César Cui|Cui]], 
+
+* [[Balakirev|Balakirev]], 
+
+* [[Alexandre Borodine|Borodine]], 
+
+* [[Rimski-Korsakov|Rimski-Korsakov]]. 
+
+Leu conmune éstétique aveuc ech Groupe éd chés Sis influinchée par [[Satie]] pi [[Cocteau]], est une réaction conte ech [[romantisme]] pi ech [[wagnérisme]], et pi étous,  conte ech courint [[impréchionisse]]. 
+
+= Notes pi Référinches =
+
+===Note un ===
+
+Ech ''Groupe éd chés Chonc'' :
+
+*(in frinsé: '''Groupe des cinq''') 
+
+*( in russe | Могучая кучка, ch'est-à-dire «&nbsp;puichant p'tit groupe&nbsp;». Cha vient éd [[Vladimir Stassov]] in [[1867]]) 
+
+=== Note deus ===
+
+Ech créateur =  [[Mili Balakirev]] (1837-1910), 
+
+Ches autes mimbes = 
+* [[Nikolaï Rimski-Korsakov]] (1844-1908)
+* [[Alexandre Borodine]] (1833-1887)
+* [[Modeste Moussorgski]] (1839-1881)
+* [[César Cui]] (1835-1918)
+
+= Fotos =
+<center><small>'''Ech Groupe éd chés chonc'''</small>
+<gallery perrow="5" widths="120" heights="150">
+Image:Aleksandr Borodin.jpg|<center>Alexandre Borodine</center>
+Image:Cui 1870s CuiIP 81 600.jpg|<center>César Cui</center>
+Image:Mily Balakirev.jpg|<center>Mili Balakirev</center>
+Image:Mussorgsky.jpg|<center>Modeste Moussorgski</center>
+Image:Nikolai Rimski-Korsakov.jpg|<center>Nicolas Rimski-Korsakov</center>
+</gallery>
+
+<timeline>
+ImageSize  = width:800 height:155
+PlotArea   = width:620 height:135 left:100 bottom:20
+AlignBars  = justify
+
+Colors =
+  id:Borodine           value:tan1
+  id:Cui                value:rgb(1,0.6,0.5)
+  id:Balakirev          value:lightorange
+  id:Moussorgski        value:gray(0.8)
+  id:Rimski-Korsakov    value:coral
+  id:Règne              value:white
+    
+Period      = from:1830 till:1920
+TimeAxis    = orientation:horizontal
+ScaleMajor  = unit:year increment:20 start:1830
+ScaleMinor  = unit:year increment:10 start:1830
+
+Define $markred = text:"*" textcolor:red shift:(0,3) fontsize:10
+
+PlotData=
+  align:center textcolor:black fontsize:8 mark:(line,black) width:18 shift:(0,-5)
+
+  bar:Règne color:white text:""
+  from: 1830 till: 1855 color: orange text: Nicolas_Ier       
+  from: 1855 till: 1881 color: yellow text: Alexandre_II
+  from: 1881 till: 1894 color: orange text: Alexandre_III
+  from: 1894 till: 1917 color: yellow text: Nicolas_II
+  bar:Borodine color:Borodine
+  from: 1833 till: 1887  
+  bar:Cui color:Cui
+  from: 1835 till: 1918 
+  bar:Balakirev color:Balakirev
+  from: 1837 till: 1910  
+  bar:Moussorgski color:Moussorgski
+  from: 1839 till: 1881  
+  bar:Rimski-Korsakov color:Rimski-Korsakov
+  from: 1844 till: 1908  
+
+LineData=
+   at:1861 color:red width:1
+   at:1917 color:red width:1
+   at:1855 color:black width:0.5 layer:back
+   at:1881 color:black width:0.5 layer:back
+   at:1894 color:black width:0.5 layer:back
+
+TextData = 
+   pos: (305,170)    textcolor:red fontsize:S
+   tabs: (10-right, 395-right)
+   text: ^Abolition^Révolution
+   text: ^du servage^de 1917
+
+</timeline>
+</center>
+
+[[ca:Grup dels Cinc]]
+[[cs:Pětka (umělecká skupina)]]
+[[da:De Fem]]
+[[de:Gruppe der Fünf]]
+[[el:Η Ομάδα των Πέντε]]
+[[en:The Five]]
+[[eo:Kvinopo]]
+[[es:Grupo de los Cinco]]
+[[et:Võimas rühm]]
+[[fi:Viiden ryhmä]]
+[[fr:Groupe des Cinq]]
+[[he:החמישה]]
+[[hr:Moćna gomilica]]
+[[hu:Orosz Ötök]]
+[[it:Gruppo dei Cinque]]
+[[ja:ロシア5人組]]
+[[ka:მძლავრი ჯგუფი]]
+[[ko:러시아 5인조]]
+[[nl:Het Machtige Hoopje]]
+[[no:De Fem]]
+[[pl:Potężna gromadka]]
+[[pt:Grupo dos Cinco]]
+[[ru:Могучая кучка]]
+[[sk:Mocná hŕstka]]
+[[sl:Ruska peterka]]
+[[sv:De fem]]
+[[tr:Rus Beşleri]]
+[[uk:Могутня купка]]
+[[zh:强力集团]]

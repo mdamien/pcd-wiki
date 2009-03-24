@@ -1,9 +1,357 @@
 [[Image:Blason fr ville Amiens.svg|right|thumb|]]
-[[Image:Amiens - Hotel de Ville de nuit.jpg|right|thumb|200px|]]
-'''Anmien''', ch'est ch'préfecture ed [[Picardie]], ya 136 234 gins qui restent lo. 
-A ch'timps d'ches romains c'tait Samarobriva ("Ch'pont su la [[Sonme]]"). 
+'''Anmien''', ch'est el préfecture del [[Picardie|Picardie]]. Il y o 136 234 gins qui restent lo. 
+A ch'timps éd ches romains, ch'étoait [[Samarobriva|Samarobriva]].  ("Ch'pont su el [[Sonme|Sonme]]"). 
+
+=Anmien=
+
+région = [[Picardie]] ([[préfecture]])
+
+départemint = [[Sonme (départemint)|Sonme]] ([[préfecture]])
+
+arondichemint = [[Arondichemint d'Anmien|Anmien]] ([[chef-lieu]])
+
+canton = [[Chef-lieu]] ed uit cantons
+
+insee   = 80021
+
+cp      = 80000
+
+maÿeur              =[[Gilles Demailly]] ([[Parti socialiste (France)|PS]])
+
+mandat             = [[2008]]- [[2014]]
+
+intercomm          = [[Communauté d'agglomération Anmien Métropole]]
+
+longitude  = 2,3    /     latitude           = 49,9
+
+alt mini           =  14 m     /    alt maxi           = 106 m 
+
+superfichie                =  49.46  km²
+
+populachion               =  136 105 gins   (2006)
+
+nom ed ches gins =  Anmiénoèses, Anmiénoés
+
+chite ouèbe = [http://www.amiens.fr/ chite d'Anmien: www.amiens.fr]
+
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+==Jéografie==
+
+=== Wartiés pi vilaches ===
+
+==== Ech wartié Saint-Leu====
+
+[[Image:Amiens quartier saint leu canaux 200503.jpg|thumb|center|Canal din ch’wartié Saint-Leu]][[Image:Quai belu amiens.JPG|thumb|center|Quai Bélu]]
 
 
+====Ech wartié Saint-Maurice====
+
+====Henriville====
+
+====Wartiés populoères====
+
+
+
+====Saint-Acheul====
+
+
+[[Image:Amiens St Acheul Carré musulman de la nécropole nationale.jpg|thumb|center|Carré musulman de la nécropole nationale de Saint-Acheul.<br />Au premier plan, tombe d'un soldat du 45e régimint ed ches  [[tirailleurs sénégalais]] tombé pindint el [[Bataille del Sonme]]]]
+
+[[Image:LL 65 - AMIENS - Le lycée de Jeunes Filles.JPG|thumb|center|Un [[tramway]] d'Anmien, au début du XXe sièke]]
+
+== chés monumints ==
+
+=== El catédrale Note-Dame ===
+
+[[Image:Amiens-cathédrale.jpg|thumb|center|upright=0.7|Catédrale d'Anmien]]
+
+===Ech Befroé===
+
+
+[[Image:Le beffroi d'Amiens 2004.JPG|thumb|center|upright=0.7|Ch’ befroé d'Anmien]]
+
+[[Image:Cirque Amiens foule début XXe.jpg|center|thumb|Ch’cirque d'Anmien in 1912, lors de la fête de la Saint-Jean]]
+
+
+[[Image:Cirque municipale amiens.jpg|thumb|right|Cirque Municipal d'Amiens]]
+
+=== XIXe sièke ===
+
+[[Image:P7210050 Palais de justice Amiens.JPG|thumb|center|Palais d’justiche d'Anmien]]
+
+[[Image:Monument JVerne Amiens.jpg|thumb|left|Monumint à Jules Verne à Anmien]]
+
+[[Image:Visite hortillonages amiens.jpg|thumb|right|Ches ortillonaches d'Anmien]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+==démografie==
+
+<center>
+'''Histogramme'''
+<br><small>(élaboration graphique par Wikipédia)</small>
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8) 
+ImageSize = width:600 height:300
+PlotArea = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period = from:0 till:150000
+TimeAxis = orientation:vertical
+AlignBars = justify
+ScaleMajor = gridcolor:darkgrey increment:20000 start:0
+ScaleMinor = gridcolor:lightgrey increment:10000 start:0
+BackgroundColors = canvas:sfondo
+
+BarData= 	 	
+  bar:1901 text:1901 
+  bar:1911 text:1911 
+  bar:1921 text:1921 
+  bar:1931 text:1931 
+  bar:1946 text:1946 
+  bar:1954 text:1954  
+  bar:1962 text:1962
+  bar:1968 text:1968
+  bar:1975 text:1975
+  bar:1982 text:1982
+  bar:1990 text:1990
+  bar:1999 text:1999
+  bar:2006 text:2006
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:1901 from:0 till: 90758
+  bar:1911 from:0 till: 93207
+  bar:1921 from:0 till: 92780
+  bar:1931 from:0 till: 90211
+  bar:1946 from:0 till: 84761
+  bar:1954 from:0 till: 92506
+  bar:1962 from:0 till: 105433
+  bar:1968 from:0 till: 117888
+  bar:1975 from:0 till: 131476
+  bar:1982 from:0 till: 131332
+  bar:1990 from:0 till: 131872
+  bar:1999 from:0 till: 135501
+  bar:2006 from:0 till: 136105
+
+PlotData=
+
+  bar:1901 at: 90758 fontsize:S text: 7.115 shift:(-8,5)
+  bar:1911 at: 93207 fontsize:S text: 93.207 shift:(-10,5)
+  bar:1921 at: 92780 fontsize:S text: 92.780 shift:(-10,5)
+  bar:1931 at: 90211 fontsize:S text: 90.211 shift:(-10,5)
+  bar:1946 at: 84761 fontsize:S text: 84.761 shift:(-10,5)
+  bar:1954 at: 92506 fontsize:S text: 92.506 shift:(-10,5)
+  bar:1962 at: 105433 fontsize:S text: 105.433 shift:(-10,5)
+  bar:1968 at: 117888 fontsize:S text: 117.888 shift:(-10,5)
+  bar:1975 at: 131476 fontsize:S text: 131.476 shift:(-10,5)
+  bar:1982 at: 131332 fontsize:S text: 131.332 shift:(-10,5)
+  bar:1990 at: 131872 fontsize:S text: 131.872 shift:(-10,5)
+  bar:1999 at: 135501 fontsize:S text: 135.501 shift:(-10,5)
+  bar:2006 at: 135105 fontsize:S text: 136.105 shift:(-10,5)
+</timeline>
+</center>
+
+==Administrachion==
+
+[[Image:Vue d'Amiens.jpg|thumb|center|Vue d'Anmien dech rond-point d’Grace. Outre el [[Note-Dame d'Anmien|catédrale]], in voit ech befroé et pi l'église saint Germain.]]
+
+
+===Période contemporaine===
+
+loupe|Lisse ed ches comtes d'Anmien|Lisse ed ches évéques d'Anmien|Anchiens maïeurs d'Anmien
+
+Dpuis l’16 marche 2008, le maÿeur d'Amiens est [[Gilles Demailly]] ; succédant à [[Gilles de Robien]], il o té élu aveuc 56,21 %  éd ches voix. Ch’est étous ch’ présidint del [[conmunoté d'agglomérachion Anmien Métropole]].
+
+
+
+ Boîte déroulante =  Maÿeurs d'Anmien edpuis el [[Révoluchion franchoèse|Révoluchion franchoèse]]}} 
+
+<div  align="{{ #switch:{{{alignB}}} | gauche = left | droite = right | centre = center | left = left | right = right | center = center | #default = left }}">
+<div class="NavFrame" style="clear:both; margin-bottom:{{{margeBas|1em}}}; width:{{{largeur|99%}}}; border-style:solid; -moz-border-radius:{{{arrondi|0}}}; border-color:{{{couleurBordure|#AAAAAA}}}; background-color:{{{couleurFondB|#FFFFFF}}};" title="{{{label|[Dérouler]}}}" >
+{{#if:{{{image|}}}|<div class="NavPic" style="{{{style|}}}background-color:{{{couleurFondT|#EFEFEF}}};">{{{image}}}</div>}}
+<div class="NavHead" align="{{ #switch: {{{alignT|center}}}| gauche = left| droite = right| centre = center
+| left = left| right = right| center = center | centre}}" style="height:{{{hauteur|1.6em}}}; background-color:{{{couleurFondT|#EFEFEF}}}; color:{{{couleurTexteT|black}}}; {{#ifeq:{{{thinning|no}}}|yes|font-weight:normal;|}}">Maÿeurs d'Anmien </div>
+<div class="NavContent" style="margin:{{{marge|0px}}}; background:{{{couleurFond|white}}}; display:block;" align="{{{align|left}}}">
+
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom: 2px solid #999; background: #ddffdd"
+|-style="background: #ddffdd"
+! Période !! Idintité !! Parti !! Observachions
+|-
+| align=right| 16|mars|2008- || [[Gilles Demailly]]||align="center"| [[Parti sochialisse (Franche)|PS]]   ||
+|-
+| align=right| 29|mars|2007-[[2008]] || [[Gilles de Robien]]||align="center"| [[Union pou l’démocrachie franchoèse |UDF]] puis [[Nouvieu Chintre]]  ||
+|-
+| align=right| [[2002]]-[[2007]]  || [[Brigitte Fouré]]  ||align="center" | [[Union pou l’démocrachie franchoèse|UDF]] || démichionnaire l'23 marche 2007
+|-
+| align=right| [[1989]]-[[2002]] || [[Gilles de Robien]]||align="center"| UDF-PR puis [[Union pou l’démocrachie franchoèse |UDF]]  || démichionnoère pou intrer au gouvernemint
+|-
+| align=right| [[1971]]-[[1989]] || [[René Lamps]] ||align="center" |[[Parti conmunisse frinsé|PCF]] || déchédé l'8 moai 2007
+|-
+| align=right| [[1959]]-[[1971]] || Maurice Vast ||align="center"| [[Sekchion franchoèse ed l'Internationale ouvrière|SFIO]] puis [[Divers gauche|DVG]] allié à l'[[Union pou l’nouvèle République|UNR]] ||
+|-
+| align=right| [[1953]]-[[1959]]|| Camille Goret ||align="center" | [[Sekchion franchoèse ed l'Internationale ouvrière|SFIO]]||
+|-
+| align=right| [[1950]]-[[1953]]|| Maurice Vast||align="center"| [[Sekchion franchoèse ed l'Internationale ouvrière|SFIO]] ||
+|-
+| align=right| [[1950]]|| Eugène Jolibois||align="center"|  ||présidint del délégation éspéchiale, suite à la démission ed Vast, mis in minorité
+|-
+| align=right| [[1944]]-[[1950]]|| Maurice Vast||align="center"| [[Sekchion franchoèse ed l'Internationale ouvrière|SFIO]] || 
+|-
+| align=right| [[1941]]-[[1944]]|| Pierre Rollin  ||align="center" | || 
+|-
+| align=right| [[1940]]-[[1941]] || Léon Debouverie||align="center"| [[Mouvement républicain populoère|MRP]] || 
+|-
+| align=right| [[1925]]-[[1940]]|| [[Lucien Lecointe]]  ||align="center" | [[Parti républicain-sochialisse|PRS]] || 
+|-
+| align=right| [[1919]]-[[1925]]|| René Caumartin||align="center"|  || 
+|-
+| align=right| [[1916]]-[[1919]]|| [[Herménégilde Duchaussoy]] ||align="center" | || intérim 
+|-
+| align=right| [[1912]]-[[1916]]|| [[Alphonse Fiquet]]||align="center"|  || déchédé l’14 moai 1916
+|-
+| align=right| [[1910]]-[[1912]]|| Georges Antoine ||align="center"|  || 
+|-
+| align=right| [[1910]]|| Georges Antoine||align="center"|  || interim
+|-
+| align=right| [[1908]]-[[1910]]|| Albert Catoire||align="center"|  || 
+|-
+| align=right| [[1903]]-[[1908]]|| [[Alphonse Fiquet]]||align="center"|  || 
+|-
+| align=right| [[1897]]-[[1903]]||  Paul Tellier||align="center"|  || 
+|-
+| align=right| [[1897]]|| Alcide Huber||align="center"|  || intérim
+|-
+| align=right| [[1896]]-[[1897]] || [[Alphonse Fiquet]]||align="center"|  || 
+|-
+| align=right| [[1895]]-[[1896]] || Decaix-Matifas||align="center"|  || 
+|-
+| align=right| [[1895]] || Decaix-Matifas||align="center"|  || intérim
+|-
+| align=right| [[1884]]-[[1895]] || Frédéric Petit ||align="center"| républicain || 
+|-
+| align=right| [[1884]] || Ferdinand Levecque||align="center"|  || intérim
+|-
+| align=right| [[1882]]-[[1884]] || [[Alphonse Fiquet]] ||align="center"|  || 
+|-
+| align=right| [[1881]]-[[1882]] ||Fernand Levecque ||align="center"|  || intérim
+|-
+| align=right| [[1881]]  || Decaix-Matifas  ||align="center" | || intérim
+|-
+| align=right| [[1881]] ||  [[Alphonse Fiquet]] ||align="center" | || 
+|-
+| align=right| [[1880]]-[[1881]] ||  Frédéric Petit ||align="center" | [[République|républicain]] ||intérim 
+|-
+| align=right| [[1879]]-[[1880]] || Alphonse Delpech  ||align="center" | ||
+|-
+| align=right| [[1877]]-[[1879]] || [[René Goblet]]  ||align="center" | ||
+|-
+| align=right| [[1876]]-[[1877]] ||  Charles Dufour ||align="center" | ||présidint del conmichion munichipale
+|-
+| align=right| [[1875]]-[[1876]] || Alphonse Delpech  ||align="center" | ||
+|-
+| align=right| [[1875]] || Charles Dubois ||align="center" | ||
+|-
+| align=right| [[1875]] || [[René Goblet]] ||align="center" | || intérim
+|-
+| align=right| [[1875]] || [[Alphonse Fiquet]] ||align="center" | || intérim
+|-
+| align=right| [[1873]]-[[1874]] || Louis Dewailly ||align="center" | ||
+|-
+| align=right| [[1868]]-[[1873]] || Albert Dauphin ||align="center" | ||
+|-
+| align=right| [[1865]]-[[1868]] || Pierre Dhavernas ||align="center" | ||
+|-
+| align=right| [[1861]]-[[1865]] || JB Ferdinand Allou ||align="center" | ||
+|-
+| align=right| [[1860]]-[[1861]] || Léon de Chassepot ||align="center" | ||
+|-
+| align=right| [[1851]]-[[1860]] || Prudent Allart ||align="center" | ||
+|-
+| align=right| [[1848]]-[[1851]] || Louis Porion ||align="center" | ||
+|-
+| align=right| [[1839]]-[[1848]] || Frédéric Boistel Duroyer ||align="center" | ||
+|-
+| align=right| [[1835]]-[[1839]] || Docteur Lemerchier ||align="center" | ||
+|-
+| align=right| [[1832]]-[[1835]] || Frédéric Boistel Duroyer ||align="center" | ||
+|-
+| align=right| [[1830]]-[[1832]] || Alexandre Thiérion de Chipilly ||align="center" | ||
+|-
+| align=right| [[1823]]-[[1830]] || Nicolas Daveluy Bellencourt ||align="center" | ||
+|-
+| align=right| [[1817]]-[[1823]] || Nicolas Dargent ||align="center" | ||
+|-
+| align=right| [[1816]]-[[1817]] || Blin de Bourdon ||align="center" | ||
+|-
+| align=right| [[1808]]-[[1815]] || Adrien [[Morgan de Belloy]] ||align="center" | ||
+|-
+| align=right| [[1800]]-[[1807]] || Augustin Debray ||align="center" | ||
+|-
+| align=right| [[1798]]-[[1800]] || Le Caron Crépin||align="center" | ||
+|-
+| align=right| [[1797]]-[[1798]] || Rigollot||align="center" | ||
+|-
+| align=right| [[1797]] || Laurendeau ||align="center" | ||
+|-
+| align=right| [[1796]]-[[1797]] || Rigollot ||align="center" | ||
+|-
+| align=right| [[1795]]-[[1796]] || Laurendeau ||align="center" | ||
+|-
+| align=right| [[1795]] || Antoine Chamont ||align="center" | ||
+|-
+| align=right| [[1795]] || Poullain Cotte ||align="center" | ||
+|-
+| align=right| [[1794]]-[[1795]] || Devismes ||align="center" | ||
+|-
+| align=right| [[1792]] -[[1794]] || Lescouvé ||align="center" | ||
+|-
+| align=right| [[1791]] || Charles Leroux ||align="center" | ||
+|-
+| align=right| [[1790]]-[[1791]] || Jacques ed Gand ||align="center" | ||
+|-°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+| colspan="4" align="center" | <small> ''Ches données avint is n’sont poin coère connues.''
+|}
+<includeonly></div>
+<div class="NavEnd">&nbsp;</div>
+</div></div></includeonly><noinclude>
+</div></div>
+</noinclude>
+
+
+
+=Loïens intarnètes=
+* [http://www.amiens.fr/ Chite d’Anmien]
+* [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=74003 Anmien su ech chite éd l'Institut Géographique National]
+
+[[Image:Amiens - Hotel de Ville de nuit.jpg|center|thumb|200px|]]
+
+
+= Filmografie =
+* [[Roselyne et les Lions]] (sorti in [[1989]]), film ed [[Jean-Jacques Beineix]], aveuc [[Isabelle Pasco]].
+* [[Ricky (film, 2009)|Ricky]] (sorti in [[2009]]), film ed [[François Ozon]]
+
+= Référinches =
+* '''Quartier Nord''', [[François Ruffin]] (2003) ches pérégrinachions d'un jornalisse dian ch' Pigeonnier.
+* '''Amiens et le pays de Somme''', Pascal Lando et Emmanuelle Poiret, éditions Déclics (2007)
+
+
+
+[[Category:Viles picardes]]
 
 [[bg:Амиен]]
 [[br:Amiens]]
@@ -23,6 +371,7 @@ A ch'timps d'ches romains c'tait Samarobriva ("Ch'pont su la [[Sonme]]").
 [[frp:Amiens]]
 [[gl:Amiens]]
 [[he:אמיין]]
+[[hu:Amiens]]
 [[id:Amiens]]
 [[ie:Amiens]]
 [[io:Amiens]]
@@ -38,8 +387,10 @@ A ch'timps d'ches romains c'tait Samarobriva ("Ch'pont su la [[Sonme]]").
 [[pl:Amiens]]
 [[pt:Amiens]]
 [[ro:Amiens]]
+[[roa-rup:Amiens]]
 [[ru:Амьен]]
 [[simple:Amiens]]
+[[sk:Amiens]]
 [[sl:Amiens]]
 [[sq:Amiens]]
 [[sr:Амјен]]

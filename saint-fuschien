@@ -11,66 +11,52 @@
 {{!}} colspan="2" style="background-color: #ffffff;" {{!}} {{Fragéoloc|{{{longitude}}}|{{{latitude}}}|taille=290|desc=Carte de localisation de {{{nomcommune}}}}}
 }}
 |-
-! scope=row | [[Liste des pays du monde|Pays]]
+! scope=row | [[Poéis|Poéis]]
 | style="background-color: #f3fff3;" | Franche
 |-
-! scope=row | [[Région française|Région]]
+! scope=row | [[Région|Région]]
 | style="background-color: #f3fff3;" | Picardie
 |-
-! scope=row | [[Département français|Département]]
+! scope=row | [[Départemint|Départemint]]
 | style="background-color: #f3fff3;" | Sonme
 |-
-! scope=row | [[Arrondissement français|Arrondissement]]
+! scope=row | [[Arondichemint|Arondichemint]]
 | style="background-color: #f3fff3;" | Anmyin
 |-
-! scope=row | [[Canton français|Canton]]
+! scope=row | [[Canton|Canton]]
 | style="background-color: #f3fff3;" | Boves
 |-
-! scope=row | [[Code Insee]]
+! scope=row | Code Insee
 | style="background-color: #f3fff3;" | 80702
 |-
-! scope=row | [[Code postal en France|Code postal]]
+! scope=row | Code postal
 | style="background-color: #f3fff3;" | 80680
 |-
-! scope=row | [[Maire]]<br />[[Mandat politique|Mandat]] en cours 
+! scope=row | [[Maïeu|Maïeu]]<br />Mandat en cours 
 | style="background-color: #f3fff3;" | de Thezy<br />marche 2008
 |-
-! scope=row | [[Intercommunalité]]
+! scope=row | [[Interconmunalité|Interconmunalité]]
 | style="background-color: #f3fff3;" | Anmyin Métropole
 |-
-! scope=row | [[latitude]]<br />[[Longitude]]
-| style="background-color: #f3fff3;" | {{#if:{{{49° 50' Nord|}}} | {{#if:{{{longitude|}}}| {{#if: {{#ifexpr: {{{latitude}}} }} | coord49° 50' Nord|2° 18' Est| {{coord49° 50' Nord|2° 18' Est|}}}|type:city_region:FR|format=dms long}} }} }} }}
+! scope=row | [[latitude|latitude]]<br />[[Longitude|Longitude]]
+| style="background-color: #f3fff3;"  |49° 50' Nord <br /> 2° 18' Est
 |-
 ! scope=row | [[Altitude]]
 | style="background-color: #f3fff3;" | {{formatnum:38 m}} (mini) – {{formatnum:113 m}} (maxi) 
 |-
-! scope=row | [[Superficie]]
+! scope=row | [[Superfichie]]
 | style="background-color: #f3fff3;" | 9,92 km²
 |-
-! scope=row | [[Chiffres de population en France|nombe d'gins sans<br />doubles comptes]] 
-| style="background-color: #f3fff3;" | {{formatnum:966}} gins <br /><small>(1999)</small>
+! scope=row | nombe d'gins sins<br />doubes comptes
+| style="background-color: #f3fff3;" | 966 gins <br /><small>(1999)</small>
 |-
-! scope=row | [[Densité de population|Densité]]
+! scope=row | Dinsité
 | style="background-color: #f3fff3;" | 97 hab./km²
-{{#switch:{{{département}}}|[[Hauts-de-Seine]]|[[Seine-Saint-Denis]]|[[Val-de-Marne]]=
-{{!}}-
-{{!}}colspan="2" style="background-color: #ddffdd;" align="center" {{!}}[[Image:{{{nomcommune|{{PAGENAME}}}}} map.svg|150px|{{{nomcommune|{{PAGENAME}}}}} sur le plan de Paris et proche banlieue]]
-|[[Pyrénées-Atlantiques]]=
-{{!}}-
-{{!}}colspan="2" class="infoboximage" {{!}} {{Début de carte}}[[Image:{{Géolocalisation/Pyrénées-Atlantiques|image}}|295px]]
-{{Géolocalisation de ville avec lien|Pyrénées-Atlantiques|{{{latitude}}}|{{{longitude}}}|{{{nomcommune}}}{{!}}'''{{{nomcommune}}}'''|2|n|largeur=295}}
-{{Fin de carte}}<div align=center>Localisation sur la carte départementale</div>
-|[[Hautes-Pyrénées]]=
-{{!}}-
-{{!}}colspan="2" class="infoboximage" {{!}} {{Début de carte}}[[Image:{{Géolocalisation/Hautes-Pyrénées|image}}|295px]]
-{{Géolocalisation de ville avec lien|Hautes-Pyrénées|{{{latitude}}}|{{{longitude}}}|{{{nomcommune}}}{{!}}'''{{{nomcommune}}}'''|2|n|largeur=295}}
-{{Fin de carte}}<div align=center>Localisation sur la carte départementale</div>
-|#default=}}
-|}<noinclude>{{/Documentation}}</
+|}<noinclude>
 
-xx==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==o==oo==o==o==o==o==oo==o==o==o==o==o==xx
 
-'''Saint-Fuschien''' est unne [[Conmune franchoèse|conmune]] [[franche|franchoèse]], située dins ch' [[départements français|départmint]] del [[Somme (département)|Sonme]] et pi dins el [[régions françaises|région]] del [[Picardie]].
+
+'''Saint-Fuschien''' est eune [[Conmune franchoèse|conmune]] franchoèse, située dins ch' départmint del [[Sonme|Sonme]] et pi dins el [[région|région]] del [[Picardie|Picardie]].
 
 ==Djéografi==
 
@@ -118,7 +104,7 @@ Achteure, i ene a tojors lo que el moaison dechl’abé (lonmé "ch’catieu" ) 
 Ches neurminds, is ont broéyé ch’monastère in 860 pi in 925. is ont bouté l’fu à ch’monastère. Ch’fière monastère, ech n’étoait pu qu’un mont d’ruinnes pi d’chinnes feumantes.
 Apreu chés ravages d’chés Neurmands,  in est in plein tchoeur d’el Djerre ed Chint Ans. Toute s’in vo à l’berdandouille. In Picardie conme tout partoute, chés seigneurs i n’décessoait’t poin d’es foaire el djerre.
 
-Ch’[[traité de Troyes]] in 1420 o baillé ch’poei à ches Bourdjignons. In 1470, Louis XI attaque ches Bourguignons d’Charles-le-Téméraire pi ches djerres durent plusieurs années. In 1472, ches bourdjignons is avoait’t défustiné, démanglé et pi bouté l’fu à el abaïe d’Saint-Fuschien-à-Bos. Aveuc ch’traité d’Picquigny intre Louwis XI pi Doère IV d'Ingueltère (1475) et pi  el mort d’Charles-le-Téméraire (1477), Saint-Fuschien est rvnu din ch’royaume d’Franche.
+Ch’[[traité de Troyes|traité de Troyes]] in 1420 o baillé ch’poei à ches Bourdjignons. In 1470, Louis XI attaque ches Bourguignons d’Charles-le-Téméraire pi ches djerres durent plusieurs années. In 1472, ches bourdjignons is avoait’t défustiné, démanglé et pi bouté l’fu à el abaïe d’Saint-Fuschien-à-Bos. Aveuc ch’traité d’Picquigny intre Louwis XI pi Doère IV d'Ingueltère (1475) et pi  el mort d’Charles-le-Téméraire (1477), Saint-Fuschien est rvnu din ch’royaume d’Franche.
 
 Pindant el djerre d’ 1870-71, ches prussiens i attatche’te Anmyin. Unne ligne (environ 9 km)  est constituée par 12 ouvrages de défense reliés par des tranchées et passe par Saint-Fuschien (côte 102). Ch’ village d’Saint-Fuschien est alors otchupé par ches Prussiens. In novimbe 1870, il y o d’violents combats pi ch’est conme o qu’Anmyin tombe ch’28 d’novimbe.
 
@@ -132,7 +118,7 @@ Pindant ch’18° sièke pi ch’19° sièke, plusieurs familles dech village is
 In 1847, des vakes hollandaises, il sont alvées à Saint-Fuschien<ref>Charles Salmon, “''De la race bovine hollandaise, ou notice sur les animaux de cette race, acclimatée à Saint-Fuscien depuis 1847''” E. Yvert Ed, Amiens (1855) in Catalogue de la bibliothèque communale d'Amiens, page 449</ref>.  Au début du XX° sièke, il y avoait unne culture d'orchidée, créée par ch’moaire d’Saint-Fuschien (monsieur Graire moaire d’1904 à 1919).
 
 == Notes pi  référenches ==
-{{Références}}
+<references/>
 
 1.	↑ Histoire des Gaules, C. Delaplace et J. France, A Colin Ed (1995) 
 
@@ -149,58 +135,72 @@ In 1847, des vakes hollandaises, il sont alvées à Saint-Fuschien<ref>Charles S
 
 ==Administration==
 
-{{ÉluDébut |Titre= Liste d'ches moaires }}
-{{Élu |Début= mars 2008 |Fin=      |Identité= Dominique de Thézy  |Parti=''sans étiquette''  |Qualité=''- ''  }}
-{{Élu |Début= mars 2001 |Fin= 2008 |Identité= Richard Magnaud  |Parti=''sans étiquette''  |Qualité=''- ''  }}
-{{Élu |Début= ??? |Fin= mars 2001 |Identité= Elie Ducros  |Parti=''sans étiquette''  |Qualité=''- ''  }}
-{{ÉluDonnées}}
-{{ÉluFin}}
 
-|Début= mars 2008 |Fin=      |Identité= Dominique de Thézy  
+''' ''Lisse d'chés mayeus'' '''
 
-|Début= mars 2001 |Fin= 2008 |Identité= Richard Magnaud  
+{| width="80%" cellpadding="3"
+| ''' Début '''
+| ''' fin '''
+| ''' Idintité '''
+|-
+| ''' '''             
+|
+|
+|-
+| marche 2008             
+| ...
+|Dominique de Thézy
+|-
+| marche 2001             
+| 2008
+|Richard Magnaud
+|-
+|  ?            
+| marche 2001
+|Elie Ducrocq
+|-
+|}
 
-|Début= ??? |Fin= mars 2001 |Identité= Elie Ducrocq
-
-Aveuc Dury pi Sains-in-Amiénoés, Saint-Fuschien est jumelé à el ville d'Bessenbach in Alemane.
+Aveuc Dury pi Sains-in-Amiénoés, Saint-Fuschien est jumelé à el vile d'Bessenbach in Alemane.
 
 
 
 ==Démographie==
-{{Démographie|
-1962= 363|
-1968= 431|
-1975= 687|
-1982= 1026|
-1990= 1031|
-1999= 966|
-2004= 903|
-sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=80702&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Saint-Fuscien sur le site de l'Insee]</ref>}}
-1962= 363|
-1968= 431|
-1975= 687|
-1982= 1026|
-1990= 1031|
-1999= 966|
-2004= 903|
+ 
+::* 1962 = 363
+::* 1968 = 431
+::* 1975 = 687
+::* 1982 = 1026
+::* 1990 = 1031
+::* 1999 = 966
+::* 2004 = 903
+
+sins doubes comptes in 1962
+
+source = INSEE (vir : [http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=80702&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Saint-Fuschien su ch'chite éd l'Insee] ).
+
+
 
 ==Agès pi monumints==
+
 * Église : Ravagée par un incendie criminel in févrié 2005, ch'est en cours de restauration in 2008.
 [[Image:Saint-Fuscien restauration église 1.jpg|thumb|center|L'édifice incendié est désormais muni d'un clocher en charpente (Vue de l'avancée des travaux de restauration en février 2008).]]
 
-* château (logis abbatial - XVIII{{exp|e}} siècle) et restes de l'abbaye
+* catieu (logis abbatial - XVIII° sièke) pi restes del' abaïe
 
-==Voir aussi==
-* [[Communes de la Somme]]
+==Vir auchi==
+
+::* [[Conmunes del Sonme|Conmunes del Sonme]]
+::* [[abaïe d'Saint Fuschien|abaïe d'Saint Fuschien]]
+
 
 == Notes pi référinches ==
-<references />
+<references/>
 
-== Liens externes ==
-* [http://www.mairie-saint-fuscien.fr/index.html?idr=18 Site municipal officiel]
+== Loïens intarnètes ==
+* [http://www.mairie-saint-fuscien.fr/index.html?idr=18 Chite munichipal ofichiel]
 * [http://clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/80/accueil_80702.htm Clochers.org], <small>proposant (en février 2008) 4 vues antérieures aux travaux de restauration.</small>
-* [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=75337 Saint-Fuscien sur le site de l'Institut géographique national]
-* [http://incubator.wikimedia.org/wiki/aba%C3%AFe_d%27Saint_Fuschien  abaïe d'Saint Fuschien (en picard)]
+* [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=75337 Saint-Fuschien su ch'chite éd l'Institut géographique national]
 
 
 

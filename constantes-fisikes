@@ -1,0 +1,216 @@
+ 
+=== Constantes univarsèles ===
+
+{| border="0" cellpadding="2" rules="all" style="border: 1px solid #999; background-color:#FFFFFF"
+|- align="center" bgcolor="#cccccc"
+! Nom || Simbole || Origine || Valeur || Inchertitude relative
+|-
+| [[Vitesse del lumière|Célérité del lumière]] din l’vide || c (ou c<sub>0</sub>) || || 299 792 458 [[Mète|m]]·[[Seconde (tans)|s]]<sup>-1</sup> || ''exacte (définition du mète)''
+|-
+| [[Perméabilité magnétique du vide|Perméabilité magnétique du vide]] || μ<sub>0</sub> || || 4π×10<sup>-7</sup> [[kilogramme|kg]]·[[Mète|m]]·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-2</sup> (ou [[Henry (unité)|H]]·[[Mète|m]]<sup>-1</sup>)<br />1,256 637 061 4... × 10<sup>-6</sup> [[kilogramme|kg]]·[[Mète|m]]·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-2</sup> || ''exacte (définition d’l'Ampère)''
+|-
+| [[Permittivité diéléktrike du vide|Permittivité diéléktrike du vide]] || ε<sub>0</sub> || 1/μ<sub>0</sub>·c² || 8,854 187 817...×10<sup>-12</sup> [[Ampère (unité)|A]]²·[[Seconde (tans)|s]]<sup>4</sup>·[[kilogramme|kg]]<sup>-1</sup>·[[Mète|m]]<sup>-3</sup> || ''Par définition''
+|-
+| [[Impédance caractéristique du vide|Impédance caractéristique du vide]] || ''Z<sub>0</sub>'' || μ<sub>0</sub>·c || 376,730 313 461... [[kilogramme|kg]]·[[Mète|m]]²·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-3</sup> || ''Par définition''
+|-
+| [[Constante d’Planck|Constante d’Planck]] || ℎ || || 6,626 069 3(11)×10<sup>-34</sup> [[kilogramme|kg]]·[[Mète|m]]²·[[Seconde (tans)|s]]<sup>-1</sup> (ou [[Joule (unité)|J]]·[[Seconde (tans)|s]]) || 1,7×10<sup>-7</sup>
+|-
+| [[Constante d’Planck réduite|Constante d’Planck réduite]] || ℏ || ℎ/2π || 1,054 571 68(18)×10<sup>-34</sup> [[kilogramme|kg]]·[[Mète|m]]²·[[Seconde (tans)|s]]<sup>-1</sup> || 1,7×10<sup>-7</sup>
+|}
+
+=== Éléktromagnétisme ===
+
+{| border="0" cellpadding="2" rules="all" style="border: 1px solid #999; background-color:#FFFFFF"
+|- align="center" bgcolor="#cccccc"
+! Nom || Simbole || Origine || Valeur || Inchertitude relative
+|-
+| [[Carge élémintaire|Carge élémintaire]] || ''e'' || || 1,602 176 53(14)×10<sup>-19</sup> [[Ampère (unité)|A]]·[[Seconde (tans)|s]] || 8,5×10<sup>-8</sup>
+|-
+| [[Constante d’Coulomb|Constante d’Coulomb]] || κ || 1/4πε<sub>0</sub> || 8,987 551 787 368 176 4×10<sup>9</sup> [[kilogramme|kg]]·[[Mète|m]]³·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-4</sup> || ''Par définition''
+|}
+
+=== Gravitation ===
+
+{| border="0" cellpadding="2" rules="all" style="border: 1px solid #999; background-color:#FFFFFF"
+|- align="center" bgcolor="#cccccc"
+! Nom || Simbole || Origine || Valeur || Inchertitude relative
+|-
+| [[Constante gravitationnèle|Constante gravitationnèle]] || G || ''Mesure'' || 6,674 2(10)×10<sup>-11</sup> [[Mète|m]]³·[[kilogramme|kg]]<sup>-1</sup>·[[Seconde (tans)|s]]<sup>-2</sup> || 1,5×10<sup>-4</sup>
+|-
+| Acéléracion normale del pesinteur al surfache del Tére || ''g''<sub>0</sub> || ''Convention'' || 9,806 65 [[Mète|m]]·[[Seconde (tans)|s]]<sup>-2</sup> || ''Par définition''
+|}
+
+=== Constantes fisico-kémiques ===
+
+{| border="0" cellpadding="2" rules="all" style="border: 1px solid #999; background-color:#FFFFFF"
+|- align="center" bgcolor="#cccccc"
+! Nom || Simbole || Origine || Valeur || Incertitude relative
+|-
+| [[Timpérature|Timpérature]] du [[point triple|point triple]] d’l'[[eau|eau]] || ''T''<sub>0</sub> || || 273,16 [[Kelvin|K]] || ''Par définition''
+|-
+| [[Pression atmosphérique|Pression standard d’l'atmosphère]] || atm || ''Convention'' || 101 325 [[Pascal (unité)|Pa]] || ''Par définition''
+|-
+| [[Nombe d'Avogadro|Nombe d'Avogadro]] || N<sub>A</sub> ou ''L'' || ''Mesure'' || 6,022 141 99(47)×10<sup>23</sup> [[Mole (unité)|mol]]<sup>-1</sup> || 1,7×10<sup>-7</sup>
+|-
+| [[Constante éd chés gaz parfaits|Constante éd chés gaz parfaits]] || R ou R<sub>0</sub> || ''Mesure'' || 8,314 472(15) [[Joule (unité)|J]]·[[Kelvin|K]]<sup>-1</sup>·[[Mole (unité)|mol]]<sup>-1</sup> || 1,7×10<sup>-6</sup>
+|-
+| [[Constante d’Boltzmann|Constante d’Boltzmann]] || ''k'' ou ''k''<sub>B</sub> || R/N<sub>A</sub> || 1,380 650 5(24)×10<sup>-23</sup> [[Joule (unité)|J]]·[[Kelvin|K]]<sup>-1</sup> || 1,8×10<sup>-6</sup>
+|-
+| [[Constante d’Faraday|Constante d’Faraday]] || ''F'' || N<sub>A</sub>''e'' || 96485,3383(83) [[Coulomb (unité)|C]]·[[Mole (unité)|mol]]<sup>-1</sup> || 8,6×10<sup>-8</sup>
+|-
+| Volume molére d'un [[gaz parfait|gaz parfait]],<br />p = 101,325 kPa, T = 273,15 K || ''V''<sub>0</sub> || RT/p || 22,413 996(39)×10<sup>-3</sup> [[Mète|m]]³·[[Mole (unité)|mol]]<sup>-1</sup> || 1,7×10<sup>-6</sup>
+|-
+| Volume molére d'un [[gaz parfait|gaz parfait]],<br />p = 100 kPa, T = 273,15 K || || RT/p || 22,710 981(40)×10<sup>-3</sup> [[Mète|m]]³·[[Mole (unité)|mol]]<sup>-1</sup> || 1,7×10<sup>-6</sup>
+|-
+| [[Unité d’masse atomique|Unité d’masse atomique]] || uma || || 1,660 538 86(28)×10<sup>-27</sup> [[kilogramme|kg]] || 1,7×10<sup>-7</sup>
+|-
+|rowspan=2|[[Preumière constante d’rayonnemint|Preumière constante d’rayonnemint]]
+| 
+|c<sub>1</sub> = 2 π h c<sup>2</sup> 
+|3.741 771 18(19) × 10<sup>−16</sup> W·m²
+|5.0 × 10<sup>−8</sup>
+|-
+|pou  l' radiance éspectrale
+|c<sub>1L</sub>=2hc<sup>2</sup>
+|1.191 042 82(20) × 10<sup>−16</sup> W·m² sr<sup>−1</sup>
+|5.0 x 10<sup>−8</sup>
+|-
+|colspan|[[Deusième constante d’rayonnemint|Deusième constante d’rayonnemint]]
+|
+|c<sub>2</sub> = h c / k
+|1.4387752(25) × 10<sup>−2</sup> m·K
+|1.7 × 10<sup>−6</sup>
+|-
+| [[Constante d’Stefan-Boltzmann|Constante d’Stefan-Boltzmann]] || σ || 2π⁵''k''<sub>B</sub>⁴/15ℎ³c² || 5,670 400(40)×10<sup>-8</sup> [[Watt|W]]·[[Mète|m]]<sup>-2</sup>·[[Kelvin|K]]<sup>-4</sup> || 7,0×10<sup>-6</sup>
+|-
+| [[Loi du déplachemint d’Wien|Constante d’Wien]] || ''b'' ou σ<sub>w</sub> || || 2,897 768 5(51)×10<sup>-3</sup> [[Mète|m]]·[[Kelvin|K]] || 1,7×10<sup>-6</sup>
+|-
+| [[Constante d’Loschmidt|Constante d’Loschmidt]] || ''N''<sub>L</sub> || N<sub>A</sub>/''V''<sub>0</sub> || 2,686 777 3(47)×10<sup>25</sup> [[Mète|m]]<sup>-3</sup> || 1,8×10<sup>-6</sup>
+|}
+
+=== Constantes atonmiques pi nuclééres ===
+{| border="0" cellpadding="2" rules="all" style="border: 1px solid #999; background-color:#FFFFFF"
+|- align="center" bgcolor="#cccccc"
+! Nom || Simbole || Origine || Valeur || Incertitude relative
+|-
+| [[Constante d’structure fine|Constante d’structure fine]] || α || ''e''²μ<sub>0</sub>c/2ℎ || 7,297 352 568(24)×10<sup>-3</sup> || 3,3×10<sup>-9</sup>
+|-
+| [[Constante d’Rydberg|Constante d’Rydberg]] || R<sub>∞</sub> || ''m''<sub>e</sub>α²c/2ℎ || 1,097 373 156 852 5(73)×10<sup>7</sup> [[Mète|m]]<sup>-1</sup> || 6,6×10<sup>-12</sup>
+|-
+| [[Hartree|Énérgie d’Hartree]] || ''E''<sub>H</sub> || 2R<sub>∞</sub>ℎc || 4,359 744 17(75)×10<sup>-18</sup> [[Joule (unité)|J]] || 1,7×10<sup>-7</sup>
+|-
+| [[Quantum d’conductance|Quantum d’conductance]] || ''G''<sub>0</sub> || 2/R<sub>K</sub> || 7,748 091 733(26)×10<sup>-5</sup> [[siemens (unité)|S]] || 
+|-
+| [[Quantum d’flux magnétique|Quantum d’flux magnétique]] || Φ<sub>0</sub> || 1/K<sub>J</sub> || 2,067 833 72(18)×10<sup>-15</sup> [[Weber (unité)|Wb]] || 
+|-
+| [[Quantum d’circulation|Quantum d’circulation]] || || ℎ/2''m''<sub>e</sub> || 3,636 947 550(24)×10<sup>-4</sup> [[Mète|m]]²·[[Seconde (tans)|s]]<sup>-1</sup> || 
+|-
+| [[Rayon d’Bohr|Rayon d’Bohr]] || ''a''<sub>0</sub> || ℎ/2π''m''<sub>e</sub>cα || 5,291 772 108(18)×10<sup>-11</sup> [[Mète|m]] || 
+|-
+| Longueur d'onde d’Compton pou  l'éléktron || λ<sub>C</sub> || ℎ/''m''<sub>e</sub> c || 2,4263×10<sup>-12</sup> [[Mète|m]] || 
+|-
+| Rayon classique d’l'[[éléktron|éléktron]]<br />Rayon d’[[Arthur Holly Compton|Compton]] || ''r''<sub>e</sub> || ''e''²/4πε<sub>0</sub>''m''<sub>e</sub>c² || 2,817 940 325(28)×10<sup>-15</sup> [[Mète|m]] || 
+|-
+| [[Magnéton d’Bohr|Magnéton d’Bohr]] || ''μ''<sub>B</sub> || K<sub>J</sub>ℎ²/8π''m''<sub>e</sub> || 9,274 009 49(80)×10<sup>-24</sup> [[Ampère (unité)|A]]·[[Mète|m]]² || 
+|-
+| [[Magnéton nucléaire|Magnéton nucléaire]] || ''μ''<sub>N</sub> || K<sub>J</sub>ℎ²/8π''m''<sub>p</sub> || 5,050 783 43(43)×10<sup>-27</sup> [[Ampère (unité)|A]]·[[Mète|m]]² ||  
+|-
+| Masse du [[proton|proton]] || ''m''<sub>p</sub> || ''Mesure'' || 1,672 621 71(29)×10<sup>-27</sup> [[kilogramme|kg]]
+|-
+| Masse du [[neutron|neutron]] || ''m''<sub>n</sub> || ''Mesure'' || 1,674 927 28(29)×10<sup>-27</sup> [[kilogramme|kg]]
+|-
+| Masse d’l'[[éléktron|éléktron]] || ''m''<sub>e</sub> || ''Mesure'' || 9,109 382 6(16)×10<sup>-31</sup> [[kilogramme|kg]]
+|-
+| Masse du [[muon|muon]] || ''m''<sub>μ</sub> || ''Mesure'' || 1,883 531 40(33)×10<sup>-28</sup> [[kilogramme|kg]]
+|-
+| Masse du [[tau|tau]] || ''m''<sub>τ</sub> || ''Mesure'' || 3,167 77(52)×10<sup>-27</sup> [[kilogramme|kg]]
+|-
+| Masse du [[boson|boson]] Z° || ''m''<sub>Z°</sub> || ''Mesure'' || 1,625 56(13)×10<sup>-25</sup> [[kilogramme|kg]]
+|-
+| Masse du [[boson|boson]] W || ''m''<sub>W</sub> || ''Mesure'' || 1,4334(18)×10<sup>-25</sup> [[kilogramme|kg]]
+|}
+
+Ech Nombe intre parintèses érprésinte l'inchertitude su chés derniers chifes.
+
+Par eximpe : 6,673(10)×10<sup>-11</sup>
+
+Cha vut dire    6,673×10<sup>-11</sup> ± 0,010×10<sup>-11</sup>
+
+=== Unités d’Planck ===
+{| border="0" cellpadding="2" rules="all" style="border: 1px solid #999; background-color:#FFFFFF"
+|- align="center" bgcolor="#cccccc"
+! Nom || Simbole || Origine || Valeur || Incertitude relative
+|-
+| [[Constante d’Planck|Constante d’Planck]] || ℎ || || 6,626 069 3(11)×10<sup>-34</sup> [[kilogramme|kg]]·[[Mète|m]]²·[[Seconde (tans)|s]]<sup>-1</sup> (ou [[Joule (unité)|J]]·[[Seconde (tans)|s]]) || 1,7×10<sup>-7</sup>
+|-
+| [[Constante d’Planck réduite|Constante d’Planck réduite]] || ℏ || ℎ/2π || 1,054 571 68(18)×10<sup>-34</sup> [[kilogramme|kg]]·[[Mète|m]]²·[[Seconde (tans)|s]]<sup>-1</sup> || 1,7×10<sup>-7</sup>
+|-
+| [[Masse d’Planck|Masse d’Planck]] || ''m''<sub>p</sub> || (ℎc/2πG)<sup>1/2</sup> || 2,176 45(16)×10<sup>-8</sup> [[kilogramme|kg]] || 7,4×10<sup>-5</sup>
+|-
+| [[Longueur d’Planck|Longueur d’Planck]] || ''l''<sub>p</sub> || (ℎG/2πc³)<sup>1/2</sup> || 1,616 24(12)×10<sup>-35</sup> [[Mète|m]] || 7,4×10<sup>-5</sup>
+|-
+| [[Tans d’Planck|Tans d’Planck]] || ''t''<sub>p</sub> || (ℎG/2πc<sup>5</sup>)<sup>1/2</sup> || 5,391 21(40)×10<sup>-44</sup> [[Seconde (tans)|s]] || 7,4×10<sup>-5</sup>
+|-
+| [[Température d’Planck|Température d’Planck]] || ''T''<sub>p</sub> || (ℎc<sup>5</sup>/2πG''k''<sub>B</sub>²)<sup>1/2</sup>|| 1,416 79(11)×10<sup>32</sup> [[Kelvin|K]] || 7,8×10<sup>-5</sup>
+|-
+| [[Tension d’Planck|Tension d’Planck]] ||  || || 10<sup>39</sup> [[Tonne|T]] ||
+|}
+
+
+== Bibliografie ==
+
+* Rev Mod Fi (vol 77,jan 2005) 
+
+
+== Vir auchi ==
+ 
+* [[Sistème intérnational|Sistème intérnational d'unités]] 
+* [[Constante fondamintale|Constante fondamintale]] 
+ 
+
+== Loïens intarnètes ==
+
+* [http://www.bipm.fr/ Burieu intérnacional d'chés poés pi mesures]
+* [http://fisics.nist.gov/constants Valeurs érconmindées CODATA 2002]
+* [http://www.codata.org/ CODATA (Committee on Data for Science and Technology)]
+* [http://www.icsu.org/5_abouticsu/STRUCT.html ICSU (International Council for Science)]
+
+
+
+
+[[ar:ثابت فيزيائي]]
+[[be-x-old:Фундамэнтальныя фізычныя канстанты]]
+[[bn:ভৌত ধ্রুবক]]
+[[bs:Fizikalna konstanta]]
+[[ca:Constant física]]
+[[cs:Fyzikální konstanty]]
+[[da:Fysiske konstanter]]
+[[de:Fisikalische Konstante]]
+[[en:Fisical constant]]
+[[eo:Fizika konstanto]]
+[[es:Constante física]]
+[[fi:Luonnonvakio]]
+[[fr:Constante fisique]]
+[[gl:Constante física]]
+[[he:קבוע פיזיקלי]]
+[[hr:Fizikalne konstante]]
+[[it:Costante fisica]]
+[[ja:物理定数]]
+[[ko:물리 상수]]
+[[lb:Fisikalesch Konstant]]
+[[ms:Pemalar fizik]]
+[[nl:Natuurkundige constante]]
+[[no:Fysisk konstant]]
+[[pl:Stałe fizyczne]]
+[[pt:Constante física]]
+[[ro:Constantă fizică]]
+[[ru:Фундаментальные физические постоянные]]
+[[simple:Fisical constants]]
+[[sk:Zoznam fyzikálnych konštánt]]
+[[sl:Fizikalna konstanta]]
+[[sv:Fysikalisk konstant]]
+[[tr:Fizik sabiti]]
+[[uk:Фізичні константи]]
+[[vi:Hằng số vật lý]]
+[[zh:物理常數]]
+[[zh-min-nan:Bu̍t-lí tiāⁿ-sò͘]]

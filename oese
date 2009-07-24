@@ -1,9 +1,158 @@
 l''''Oése''' ch'est eune rivière pi ch'est auchi un départmint frinsé.
 
-[[Image:Oise-Position.svg|250px|Localisation de l'Oise en France]]
+[[Image:Vallée de l'Oise.JPG|thumb|right|290px|Valée éd l'Oése in Thiérache]]
+
+
+== Étimolodjie ==
+
+L'Oése ch'a vient du latin Isara (du ligure ''Is'' ou ''viz'', « rivière » pi ''ar'' « cours d'ieu »).
+Ch' nom ISARA est d'venu OÉSE par des mutacions fonétiques :
+#[[Sigmatisme]] de R in S : ISARA > ISASA
+#[[Amuïssemint]] éd chés voïèles pi assimilacion du SS in S : iSaSa > iSSa > OÉSE.
+
+[[Image:Charles-François Daubigny 002.jpg|300px|Batieus su l'Oése par Charles-François Daubigny.]]
+ 
+
+== el rivière Oése ==
+
+L'Oése prind s'source din l'conmune éd [[Chimay]] (Thuin - hénau - Bergike)]]). [[Image:Source de l'Oise Belgique.jpg|thumb|center|Source éd l'Oése in Hénau]]
+
+:: * longueur = 341.1 km
+
+
+[[Image:Hirson.jpg|thumb|left|L'Oése à [[Hirson]]]]
+[[Image:Guise - L'Oise.jpg|thumb|L'Oése à [[Guise]]]]
+
+[[Image:Noisy-sur-Oise - Vue aerienne 01.jpg|thumb|left|[[Noisy-sur-Oése]]]]
+[[Image:Beaumont sur oise.JPG|thumb|[[Beaumont-sur-Oése]]]]
+[[Image:L'Isle-Adam - Oise - Ecluse 01.jpg|thumb|Écluse sur l'Oése à [[L'Isle-Adam]]]]
+[[Image:L'Oise à Butry-sur-Oise.JPG|thumb|center|L'Oése à [[Butry-sur-Oése]]]]
+
+
+
+
+
+
+
+
+
+
+
+== Princhipaux affluints ==
+
+=== Rive droéte ===
+
+*Le [[Noirieu]] ou Noirrieu, et son affluent l' [[Iron (rivière)|Iron]]
+*La Verse
+*La [[Divette (Oise)|Divette]]
+*Le [[Matz]]
+[[Image:Breche 001.jpg|thumb|center|La [[Brêche]]]]
+*L'[[Aronde (rivière)|Aronde]]
+*La [[Frette (rivière)|Frette]]
+*Le [[Rhony]]
+*Le Rû Macquart
+*La [[Brêche]]
+*Le [[Thérain]]
+*L' [[Esches (rivière)|Esches]]
+*Le [[Sausseron]]
+*La [[Viosne]]
+
+=== Rive gôche ===
+
+*Le [[Gland (rivière)|Gland]]
+*Le [[Thon (rivière)|Thon]]
+*la [[Serre (rivière)|Serre]] et son affluent la [[Souche (rivière)|Souche]] 
+[[Image:Aisne Panorama.JPG|thumb|center|L'[[Aisne (rivière française)|Aisne]]]]
+*l' [[Ailette (rivière)|Ailette]] 
+*Le ru de Servais
+*L' [[Aisne (rivière française)|Aisne]]
+*L' [[Automne (rivière)|Automne]]
+*Le ru Macquart
+*La [[Nonette (rivière)|Nonette]]
+*La [[Thève]]
+*L' [[Ysieux]]
+*Le [[ru de Presles]]
+*Le [[ru de Liesse]]
+
+
+
+<center>
+
+<u>'''Débit moïen mensuel éd l'Oése (in m³/s) mesuré à l'stacion idrologique éd Pont-Sainte-Maxence'''</u><br /><u>'''Données calculées sur 49 ans'''</u> 
+
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.8)
+  id:darkgrey  value:gray(0.3)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.8,0.9)
+
+ImageSize  = width:600 height:320
+PlotArea   = left:40 bottom:40 top:20 right:20
+DateFormat = x.y
+Period     = from:0 till:220
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:lightgrey increment:20 start:0
+ScaleMinor = gridcolor:lightgrey increment:10 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:Jan text:Janvié
+  bar:Fév text:Févrié
+  bar:Mar text:Marche
+  bar:Avr text:Avri
+  bar:Mai text:Moai
+  bar:Jun text:Juin
+  bar:Jul text:Juillet
+  bar:Aoû text:Aout
+  bar:Sep text:Setimbe
+  bar:Oct text:Octobe
+  bar:Nov text:Novimbe
+  bar:Déc text:Décimbe
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:Jan from:0 till: 172.0 
+  bar:Fév from:0 till: 187.0 
+  bar:Mar from:0 till: 170.0 
+  bar:Avr from:0 till: 153.0 
+  bar:Mai from:0 till: 108.0 
+  bar:Jun from:0 till: 76.30 
+  bar:Jul from:0 till: 63.50 
+  bar:Aoû from:0 till: 49.70 
+  bar:Sep from:0 till: 47.40 
+  bar:Oct from:0 till: 61.50 
+  bar:Nov from:0 till: 87.70 
+  bar:Déc from:0 till: 142.0 
+  
+
+PlotData=
+  bar:Jan at: 172.0 fontsize:S text: 172 shift:(-10,5)
+  bar:Fév at: 187.0 fontsize:S text: 187 shift:(-10,5)
+  bar:Mar at: 170.0 fontsize:S text: 170 shift:(-10,5)
+  bar:Avr at: 153.0 fontsize:S text: 153 shift:(-10,5)
+  bar:Mai at: 108.0 fontsize:S text: 108 shift:(-10,5)
+  bar:Jun at: 76.30 fontsize:S text: 76,3 shift:(-10,5)
+  bar:Jul at: 63.50 fontsize:S text: 63,5 shift:(-10,5)
+  bar:Aoû at: 49.70 fontsize:S text: 49,7 shift:(-10,5)
+  bar:Sep at: 47.40 fontsize:S text: 47,4 shift:(-10,5)
+  bar:Oct at: 61.50 fontsize:S text: 61,5 shift:(-10,5)
+  bar:Nov at: 87.70 fontsize:S text: 87,7 shift:(-10,5)
+  bar:Déc at: 142.0 fontsize:S text: 142 shift:(-10,5)
+  
+</timeline>
+</center>
+
+
 
 
 == Départmint ==
+[[Image:Oise-Position.svg|250px|center|Localisation de l'Oise en France]]
+
+
+
 
 
 Ch'départemint o té créé à l'Révolucion franchoèse, l'4 marche 1790 ( loé du 22-décimbe-1789 ). 
@@ -54,6 +203,10 @@ queques viles aveuc pus éd 10 000 abitints : [[Creil]], [[Bieuvais|Bieuvais]], 
 
 [[Image:Logo 60 oise.png|100px]]
 
+== Notes pi référinches ==
+
+<references />
+
 
 
 
@@ -103,3 +256,31 @@ queques viles aveuc pus éd 10 000 abitints : [[Creil]], [[Bieuvais|Bieuvais]], 
 [[war:Oise]]
 [[zh:瓦兹省]]
 [[zh-min-nan:Oise]]
+[[br:Oise (stêr)]]
+[[cs:Oise (řeka)]]
+[[cy:Afon Oise]]
+[[de:Oise (Fluss)]]
+[[en:Oise River]]
+[[eo:Oise (rivero)]]
+[[es:Río Oise]]
+[[et:Oise'i jõgi]]
+[[fi:Oise (joki)]]
+[[gl:Río Oise]]
+[[he:נהר אואז]]
+[[hr:Oise (rijeka)]]
+[[hu:Oise (folyó)]]
+[[it:Oise (fiume)]]
+[[ja:オワーズ川]]
+[[la:Esia]]
+[[lb:Oise (Floss)]]
+[[nl:Oise (rivier)]]
+[[nn:Elva Oise]]
+[[no:Oise]]
+[[oc:Oise (riu)]]
+[[pl:Oise (rzeka)]]
+[[pt:Rio Oise]]
+[[ro:Râul Oise]]
+[[ru:Уаза (река)]]
+[[sl:Oise (reka)]]
+[[sv:Oise (flod)]]
+[[zh:瓦兹河]]

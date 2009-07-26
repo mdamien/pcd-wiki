@@ -1,0 +1,143 @@
+L''''Ainne''' ch'est eune rivière dech nord del [[Franche]].
+
+[[Image:Ainne Panorama.JPG|300px|thumb|Panorama éd l'Ainne à [[Soupir (Ainne)|Soupir]].]]
+
+longueur = 353.3 km
+
+source (altitude = 238 m) = [[Argonne]] à [[Rembercourt-SommAinne]], [[Franche]]
+
+confluence ( 30 m ) = [[Oése (rivière)|Oése]] à [[Compiègne]], [[Franche]]
+
+
+== Etimolodjie ==
+
+Ech nom '''Ainne''' cha vient du celtique ''' ''Axonna'' ''' <ref>Jules César, ''Commentaires sur l' Guerre des Gaules'', Live II, 5.</ref>, d'un radical ''ax-'' pi du suffixe [[-onna]], fréquint din chés noms d'rivières.
+
+[[Image:Soissons.jpg|thumb|right|300px|L'Ainne à [[Soissons]] ]]
+
+
+== Princhipaux affluints : ==
+
+* l' [[Ante (rivière)|Ante]]
+* l' [[Auve (rivière)|Auve]], grossie de l'Yèvre
+* l' [[Bionne (Marne)|Bionne]]
+* l' [[Biesme (affluent de l'Ainne)|Biesme]]
+* l' [[Tourbe (rivière)|Tourbe]]
+* l' [[Aire (rivière)|Aire]] qui reçoit les eaux de l' [[Cousances]] pi de l'[[Agron]]
+* l' [[Vaux (rivière)|Vaux]]
+* l' [[Retourne]]
+* l' [[Suippe]] grossie des eaux de l' [[Py (rivière)|Py]]
+* l' [[Vesle]] qui reçoit les eaux de l'[[Ardre]]
+* l' [[Crise (rivière)|Crise]]
+* le Ru de Bernes
+
+
+<center>
+
+<u>'''Débit moïen mensuel éd l'Ainne (in m³/s) mesuré à l'stacion idrolodjique éd Trosly-Breuil'''</u><br /><u>'''Données calculées su 42 ans'''</u> 
+
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.8)
+  id:darkgrey  value:gray(0.3)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.8,0.9)
+
+ImageSize  = width:600 height:300
+PlotArea   = left:40 bottom:40 top:20 right:20
+DateFormat = x.y
+Period     = from:0 till:140
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:lightgrey increment:20 start:0
+ScaleMinor = gridcolor:lightgrey increment:10 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:Jan text:Janvié
+  bar:Fév text:Févrié
+  bar:Mar text:Marche
+  bar:Avr text:Avri
+  bar:Mai text:Moai
+  bar:Jun text:Juin
+  bar:Jul text:Juillet
+  bar:Aoû text:Aout
+  bar:Sep text:Setimbe
+  bar:Oct text:Octobe
+  bar:Nov text:Novimbe
+  bar:Déc text:Déchimbe
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:Jan from:0 till: 110.0 
+  bar:Fév from:0 till: 118.0 
+  bar:Mar from:0 till: 105.0 
+  bar:Avr from:0 till: 96.70 
+  bar:Mai from:0 till: 63.40 
+  bar:Jun from:0 till: 44.00 
+  bar:Jul from:0 till: 34.80 
+  bar:Aoû from:0 till: 26.00 
+  bar:Sep from:0 till: 24.00 
+  bar:Oct from:0 till: 32.30 
+  bar:Nov from:0 till: 47.50 
+  bar:Déc from:0 till: 86.00 
+  
+
+PlotData=
+  bar:Jan at: 110.0 fontsize:S text: 110 shift:(-10,5)
+  bar:Fév at: 118.0 fontsize:S text: 118 shift:(-10,5)
+  bar:Mar at: 105.0 fontsize:S text: 105 shift:(-10,5)
+  bar:Avr at: 96.70 fontsize:S text: 96,7 shift:(-10,5)
+  bar:Mai at: 63.40 fontsize:S text: 63,4 shift:(-10,5)
+  bar:Jun at: 44.00 fontsize:S text: 44,0 shift:(-10,5)
+  bar:Jul at: 34.80 fontsize:S text: 34,8 shift:(-10,5)
+  bar:Aoû at: 26.00 fontsize:S text: 26,0 shift:(-10,5)
+  bar:Sep at: 24.00 fontsize:S text: 24,0 shift:(-10,5)
+  bar:Oct at: 32.30 fontsize:S text: 32,3 shift:(-10,5)
+  bar:Nov at: 47.50 fontsize:S text: 47,5 shift:(-10,5)
+  bar:Déc at: 86.00 fontsize:S text: 86,0 shift:(-10,5)
+  
+</timeline>
+</center>
+
+
+== Loïens intarnètes ==
+
+* [http://www.hydro.eaufrance.fr/selection.php?consulte=rechercher Banque Hydro - recherche] (ne pas cocher l' case "station en service")
+
+== Notes pi référinches ==
+<references />
+
+
+
+
+
+
+[[ar:نهر آيسن]]
+[[br:Aisne (stêr)]]
+[[cs:Aisne (přítok Oise)]]
+[[da:Aisne (flod)]]
+[[de:Aisne (Fluss)]]
+[[en:Aisne River]]
+[[es:Río Aisne]]
+[[et:Aisne'i jõgi]]
+[[eu:Aisne ibaia]]
+[[fi:Aisne (joki)]]
+[[fr:Aisne (rivière française)]]
+[[ga:Abhainn na hAisne]]
+[[hr:Aisne (rijeka)]]
+[[hu:Aisne (folyó)]]
+[[it:Aisne (fiume)]]
+[[ja:エーヌ川]]
+[[la:Axona]]
+[[nl:Aisne (rivier in Frankrijk)]]
+[[nn:Elva Aisne]]
+[[oc:Aisne (riu)]]
+[[pl:Aisne (rzeka)]]
+[[pt:Rio Aisne]]
+[[ro:Râul Aisne]]
+[[ru:Эна (река)]]
+[[sl:Aisne (reka)]]
+[[sv:Aisne (flod)]]
+[[zh:埃纳河]]

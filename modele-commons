@@ -1,6 +1,6 @@
 <div class="infobox sisterproject">[[Image:Commons-logo.svg|left|50px| ]]<div style="margin-left: 60px;">Wikimedia Commons has media related to:<div style="margin-left: 10px;"> '''''[[Commons:{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]''''' </div></div></div><noinclude>
 <br /><br />
-{{note|<big>'''Please create/use your own prefixed template, for example "Template:Wx/xx/Commons"'''</big>}}
+{{Inc/Prefixed template}}
 [[af:Sjabloon:Commons]]
 [[als:Vorlage:Commons]]
 [[ar:قالب:كومنز]]

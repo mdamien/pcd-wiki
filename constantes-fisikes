@@ -7,11 +7,11 @@
 |-
 | [[Vitesse del lumière|Célérité del lumière]] din l’vide || c (ou c<sub>0</sub>) || || 299 792 458 [[Mète|m]]·[[Seconde (tans)|s]]<sup>-1</sup> || ''exacte (définition du mète)''
 |-
-| [[Perméabilité magnétique du vide|Perméabilité magnétique du vide]] || μ<sub>0</sub> || || 4π×10<sup>-7</sup> [[kilogramme|kg]]·[[Mète|m]]·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-2</sup> (ou [[Henry (unité)|H]]·[[Mète|m]]<sup>-1</sup>)<br />1,256 637 061 4... × 10<sup>-6</sup> [[kilogramme|kg]]·[[Mète|m]]·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-2</sup> || ''exacte (définition d’l'Ampère)''
+| [[Perméabilité magnétique dech vide|Perméabilité magnétique dech vide]] || μ<sub>0</sub> || || 4π×10<sup>-7</sup> [[kilogramme|kg]]·[[Mète|m]]·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-2</sup> (ou [[Henry (unité)|H]]·[[Mète|m]]<sup>-1</sup>)<br />1,256 637 061 4... × 10<sup>-6</sup> [[kilogramme|kg]]·[[Mète|m]]·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-2</sup> || ''exacte (définition d’l'Ampère)''
 |-
-| [[Permittivité diéléktrike du vide|Permittivité diéléktrike du vide]] || ε<sub>0</sub> || 1/μ<sub>0</sub>·c² || 8,854 187 817...×10<sup>-12</sup> [[Ampère (unité)|A]]²·[[Seconde (tans)|s]]<sup>4</sup>·[[kilogramme|kg]]<sup>-1</sup>·[[Mète|m]]<sup>-3</sup> || ''Par définition''
+| [[Permittivité diéléktrike dech vide|Permittivité diéléktrike dech vide]] || ε<sub>0</sub> || 1/μ<sub>0</sub>·c² || 8,854 187 817...×10<sup>-12</sup> [[Ampère (unité)|A]]²·[[Seconde (tans)|s]]<sup>4</sup>·[[kilogramme|kg]]<sup>-1</sup>·[[Mète|m]]<sup>-3</sup> || ''Par définition''
 |-
-| [[Impédance caractéristique du vide|Impédance caractéristique du vide]] || ''Z<sub>0</sub>'' || μ<sub>0</sub>·c || 376,730 313 461... [[kilogramme|kg]]·[[Mète|m]]²·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-3</sup> || ''Par définition''
+| [[Impédance caractéristique dech vide|Impédance caractéristique dech vide]] || ''Z<sub>0</sub>'' || μ<sub>0</sub>·c || 376,730 313 461... [[kilogramme|kg]]·[[Mète|m]]²·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-3</sup> || ''Par définition''
 |-
 | [[Constante d’Planck|Constante d’Planck]] || ℎ || || 6,626 069 3(11)×10<sup>-34</sup> [[kilogramme|kg]]·[[Mète|m]]²·[[Seconde (tans)|s]]<sup>-1</sup> (ou [[Joule (unité)|J]]·[[Seconde (tans)|s]]) || 1,7×10<sup>-7</sup>
 |-
@@ -24,7 +24,7 @@
 |- align="center" bgcolor="#cccccc"
 ! Nom || Simbole || Origine || Valeur || Inchertitude relative
 |-
-| [[Carge élémintaire|Carge élémintaire]] || ''e'' || || 1,602 176 53(14)×10<sup>-19</sup> [[Ampère (unité)|A]]·[[Seconde (tans)|s]] || 8,5×10<sup>-8</sup>
+| [[Carge élémintèr|Carge élémintèr]] || ''e'' || || 1,602 176 53(14)×10<sup>-19</sup> [[Ampère (unité)|A]]·[[Seconde (tans)|s]] || 8,5×10<sup>-8</sup>
 |-
 | [[Constante d’Coulomb|Constante d’Coulomb]] || κ || 1/4πε<sub>0</sub> || 8,987 551 787 368 176 4×10<sup>9</sup> [[kilogramme|kg]]·[[Mète|m]]³·[[Ampère (unité)|A]]<sup>-2</sup>·[[Seconde (tans)|s]]<sup>-4</sup> || ''Par définition''
 |}
@@ -46,9 +46,9 @@
 |- align="center" bgcolor="#cccccc"
 ! Nom || Simbole || Origine || Valeur || Incertitude relative
 |-
-| [[Timpérature|Timpérature]] du [[point triple|point triple]] d’l'[[eau|eau]] || ''T''<sub>0</sub> || || 273,16 [[Kelvin|K]] || ''Par définition''
+| [[Timpérature|Timpérature]] du [[point tripe|point tripe]] del [[ieu|ieu]] || ''T''<sub>0</sub> || || 273,16 [[Kelvin|K]] || ''Par définition''
 |-
-| [[Pression atmosphérique|Pression standard d’l'atmosphère]] || atm || ''Convention'' || 101 325 [[Pascal (unité)|Pa]] || ''Par définition''
+| [[Pression atmosférique|Pression standard del atmosfère]] || atm || ''Convinchon'' || 101 325 [[Pascal (unité)|Pa]] || ''Par définition''
 |-
 | [[Nombe d'Avogadro|Nombe d'Avogadro]] || N<sub>A</sub> ou ''L'' || ''Mesure'' || 6,022 141 99(47)×10<sup>23</sup> [[Mole (unité)|mol]]<sup>-1</sup> || 1,7×10<sup>-7</sup>
 |-

@@ -1,0 +1,302 @@
+=biére=
+
+El '''biére''' ch'est eune [[booéchon arcoolisée|booéchon arcoolisée]] obtenue pèr [[férmintachon|férmintachon]], fabriquée à partir d’[[ieu|ieu]], d' [[malt|malt]]  pi dechl [[houblon|houblon]].
+
+Ch'malt ch'est un [[grin|grin]] germé,  généralemint de l'[[orge|orge]], parfoé du [[froment|froment]] ou du [[seigle|seigle]].
+
+
+
+[[File:Canya cervesa2.jpg|thumb|upright=0.8|biére.]]
+
+
+Echl’Institut del biére donne  23 tipes pi 78 dsous-tipes d' biéres.
+
+L' Bergike ch'est ech poéis del biére ( pus d' 700 biéres diférintes aveuc 6 d'chés 7 biéres trappisses : [[Orval (biére)|Orval]], [[Chimai (biére)|Chimai]], [[Westvleteren (biére)|Westvleteren]], [[Rochefort (biére)|Rochefort]], [[Westmalle (biére)|Westmalle]] et pi [[Achel (biére)|Achel]] ).
+
+
+
+== Dégrés ==
+ 
+*  ''[[dégré d'arcol|dégré d'arcol]]'' =  pourchintage d’[[éthanol|éthanol]] in volume ;
+
+*  ''dégré Balling'' =  pourchintage d’éstrait sec du moût avint férmintachon (utilisé in [[Alemanne|Alemanne]] pi din chés  poéis d’[[Urope chintrale|Urope chintrale]] ;
+
+* ''dégré Régie'' franchoés correspond à l'dinchité du moût avint férmintachon : eune dinchité d' 1,10 ch'est 10° Régie.
+
+Pèr eximpe l’Eku 28 ale o  28° Balling pi inviron 12° d’arcol. 
+
+== consonmchon ==
+
+inviron 1 400 millons d’hectolites éd biére bus din ch’monne.
+
+
+[[InBev|InBev]] ch’est ch’ preumié producteu éd biére din ch’monne in 2004 (fusion dech berche  Interbrew pi ech brésilien Ambev).
+
+{| border="0"
+| valign="top" |
+<timeline>
+ImageSize = width:450 height:400
+PlotArea = left:30 bottom:20 top:20 right:20 
+TimeAxis = orientation:horizontal format:yyyy
+AlignBars = justify
+DateFormat = x.y
+Period     = from:0 till:175.0
+TimeAxis   = orientation:horizontal
+AlignBars  = early
+Colors     =
+  id:gray     value:rgb(0.97,0.97,0.97)
+  id:orange      value:rgb(0.94, 0.59, 0.13)
+  id:jaune     value:rgb(1, 0.84314, 0)
+  id:rouge      value:rgb(0.80,0.33,0.02)
+  id:jaune2      value:rgb(1, 1, 0.7)
+  id:NA       value:rgb(0,0.6667,0.6667)
+  id:darkgray     value:rgb(0.27,0.27,0.27)
+  id:midgray     value:rgb(0.57,0.57,0.57)
+ScaleMajor = gridcolor:midgray increment:20 start:0
+ScaleMinor = gridcolor:gray increment:5 start:0
+
+BarData=
+  barset:Candidates
+
+PlotData=
+  width:15 fontsize:S textcolor:black align:left anchor:from shift:(10,-4) color:red
+  barset:Candidates  
+ from:0 till:160 color:rouge width:12 align:left fontsize:S text:[[Alemanne|Alemanne]]
+ from:0 till:157 color:rouge width:12 align:left fontsize:S text:[[Rep. Tchèque|Rep. Tchèque]]
+ from:0 till:141.2 color:rouge width:12 align:left fontsize:S text:[[Irlinde|Irlinde]]
+ from:0 till:110.6 color:rouge width:12 align:left fontsize:S text:[[Otriche|Otriche]]
+ from:0 till:101.6 color:orange width:12 align:left fontsize:S text:[[Luxembourg|Luxembourg]]
+ from:0 till:101.5 color:orange width:12 align:left fontsize:S text:[[Roéyôme-Uni|Roéyôme-Uni]]
+ from:0 till:96.2 color:orange width:12 align:left fontsize:S text:[[Danemark|Danemark]]
+ from:0 till:96.2 color:orange width:12 align:left fontsize:S text:[[Bergike|Bergike]]
+ from:0 till:91.5 color:orange width:12 align:left fontsize:S text:[[Australie|Australie]]
+ from:0 till:88.4 color:orange width:12 align:left fontsize:S text:[[Slovaquie|Slovaquie]]
+ from:0 till:82.1 color:orange width:12 align:left fontsize:S text:[[Vénézuela|Vénézuela]]
+ from:0 till:81.6 color:orange width:12 align:left fontsize:S text:[[Étots-Unis|Étots-Unis]]
+ from:0 till:80.2 color:orange width:12 align:left fontsize:S text:[[Finlande|Finlande]]
+ from:0 till:79 color:orange width:12 align:left fontsize:S text:[[Pologn|Polonne]]
+ from:0 till:78.7 color:orange width:12 align:left fontsize:S text:[[Bos-Poéis|Bos-Poéis]]
+ from:0 till:75 color:orange width:12 align:left fontsize:S text:[[Éstonie|Éstonie]]
+ from:0 till:72.8 color:jaune width:12 align:left fontsize:S text:[[Nouvèle-Zélinde|Nouvèle-Zélinde]]
+ from:0 till:72.2 color:jaune width:12 align:left fontsize:S text:[[Hongri|Hongrie]]
+ from:0 till:67.8 color:jaune width:12 align:left fontsize:S text:[[Canada|Canada]]
+ from:0 till:50.5 color:jaune width:12 align:left fontsize:S text:[[Norvège|Norvège]]
+ from:0 till:49.7 color:jaune2 width:12 align:left fontsize:S text:[[Brésil|Brésil]]
+ from:0 till:35.4 color:jaune2 width:12 align:left fontsize:S text:[[Franche|Franche]]
+TextData=
+  pos:(250,190) fontsize:M text:consonmchon éd biére
+  pos:(250,170) fontsize:S text:Données World Drink Trends 2007
+  pos:(400,30) fontsize:S text:L/an/hab
+</timeline>
+|[[Image:Beer consumption map.png|thumb|300px| consonmchon  d'biére  pèr  an  pi  pèr  habitant -  * moins de 1 lite.  * d' 10 à 50 lites.  * d' 50 à 75 lites.   * d' 75 à 110 lites. * Pus d' 110 lites. ]]
+|}
+
+{| class="wikitable centré"
+! Poéis
+! consonmchon<ref>vir ''[http://www.ias.org.uk/publications/warc/warc_worlddrinks2005.html World Drink Trends 2005]''. Pou l’innée 2003.</ref>
+! Poéis
+! l/an/hab.
+|----- align="center"
+| [[Alemanne|Alemanne]]
+| 161,5 l/an/hab.
+| [[Irlinde|Irlinde]]
+| 141,2 l/an/hab.
+|-bgcolor="#EFEFEF" align="center"
+| [[Australie|Australie]]
+| 91,5 l/an/hab.
+| [[Luxembourg|Luxembourg]]
+| 101,6 l/an/hab.
+|----- align="center"
+| [[Otriche|Otriche]]
+| 110,6 l/an/hab.
+| [[Nouvèle-Zélinde|Nouvèle-Zélinde]]
+| 72,8 l/an/hab.
+|-bgcolor="#EFEFEF" align="center"
+| [[Bergike|Bergike]]
+| 96,2 l/an/hab.
+| [[Norvège|Norvège]]
+| 50,5 l/an/hab.
+|----- align="center"
+| [[Brésil|Brésil]]
+| 49,7 l/an/hab.
+| [[Bos-Poéis|Bos-Poéis]]
+| 78,7 l/an/hab.
+|-bgcolor="#EFEFEF" align="center"
+| [[Portugal|Portugal]]
+| 78,9 l/an/hab.
+| [[Polonne|Polonne]]
+| 79 l/an/hab.
+|----- align="center"
+| [[Danemark|Danemark]]
+| 96,2 l/an/hab.
+| [[Roéyôme-Uni|Roéyôme-Uni]]
+| 101,5 l/an/hab.
+|-bgcolor="#EFEFEF" align="center"
+| [[Éstonie|Éstonie]]
+| 75 l/an/hab.
+| [[Slovaquie|Slovaquie]]
+| 88,4 l/an/hab.
+|----- align="center"
+| [[Étots-Unis|Étots-Unis]]
+| 81,6 l/an/hab.
+| [[Suisse|Suisse]]<ref>vir l’''[http://www.bier.ch/sites/de/medien2.php?3_MedienID=3 Association Suisse des Brasseries]''. innée 2003.</ref>
+| 58,2 l/an/hab.
+|-bgcolor="#EFEFEF" align="center"
+| [[Finlande|Finlande]]
+| 80,2 l/an/hab.
+| [[République tchèque|République tchèque]]
+| 157 l/an/hab.
+|----- align="center"
+| [[Franche|Franche]]
+| 35,4 l/an/hab.
+| [[Vénézuela|Vénézuela]]
+| 82,1 l/an/hab.
+|-bgcolor="#EFEFEF" align="center"
+| [[Hongri|Hongrie]]
+| 72,2 l/an/hab.
+| 
+| 
+|}
+
+
+
+
+
+= Notes pi référinches =
+
+<references/>
+
+== Bibliografie ==
+
+* (in frinsé) ''Atlas mondial de la bière'', Mario D’Eer, Trécarré, (2005)  
+ 
+* (in frinsé)  ''La bière'', Katherine Khodorowsky pi Hervé Robert, (2002) 
+
+* (in frinsé)  ''La bière. Son histoire, sa fabrication et sa dégustation'' , Claude Boivin , Arion Éditions, Lac Beauport, (2005). 
+
+* (in frinsé)  ''La bière et la brasserie'', Claude Bourgeois, [[Presses universitaires de France|PUF]], (1998) 
+
+
+
+== Vir étou ==
+
+* [http://www.musee-de-la-biere.com/ Musée uropéïen del Biére]
+ 
+ 
+* [[Tégestofilie|Tégestofilie]] : ch’est chés rédries à pérpos del biére (botéles, [[dsous-bock|dsous-bock]]s, etc.).
+
+* El [[biére d’banade|biére d’banade]] est eune « biére » à base éd [[banade|banade]]. In l’boét in  [[Afrike|Afrike]] ( au [[Rwanda|Rwanda]] pi in  [[Ouganda|Ouganda]] ).
+
+* El [[biére d’mié|biére d’mié]] est eune « biére » à base éd mié bue pèr chés [[Tatare|Tatare]]s din l’provinche du [[Xinjiang|Xinjiang]] in [[République populoère éd Chine|République populoère éd Chine]]. Chol biére-lo ale est lonmée [[keerxima|keerxima]] din l’langue dech tchuin.
+
+
+
+[[Category:Bouéchon]]
+
+
+[[af:Bier]]
+[[als:Bier]]
+[[an:Biera]]
+[[ang:Bēor]]
+[[ar:بيرة (مشروب كحولي)]]
+[[arz:بيره]]
+[[ast:Cerveza]]
+[[az:Pivə]]
+[[bar:Bia]]
+[[bat-smg:Alus]]
+[[be:Піва]]
+[[be-x-old:Піва]]
+[[bg:Бира]]
+[[bn:বিয়ার]]
+[[br:Bier]]
+[[bs:Pivo]]
+[[ca:Cervesa]]
+[[cs:Pivo]]
+[[csb:Piwò]]
+[[cv:Сăра]]
+[[cy:Cwrw]]
+[[da:Øl]]
+[[de:Bier]]
+[[el:Μπίρα]]
+[[en:Beer]]
+[[eo:Biero]]
+[[es:Cerveza]]
+[[et:Õlu]]
+[[eu:Garagardo]]
+[[fa:آبجو]]
+[[fi:Olut]]
+[[fiu-vro:Oluq]]
+[[fr:Bière]]
+[[fur:Bire]]
+[[ga:Beoir]]
+[[gan:啤酒]]
+[[gd:Leann]]
+[[gl:Cervexa]]
+[[he:בירה]]
+[[hr:Pivo]]
+[[hu:Sör]]
+[[ia:Bira]]
+[[id:Bir]]
+[[io:Biro]]
+[[is:Bjór (öl)]]
+[[it:Birra]]
+[[ja:ビール]]
+[[jbo:birje]]
+[[jv:Bir]]
+[[ka:ლუდი]]
+[[ko:맥주]]
+[[ksh:Bier (för ze drinke)]]
+[[ku:Bîra]]
+[[kv:Сур]]
+[[la:Cervisia]]
+[[lb:Béier (Gedrénks)]]
+[[li:Beer]]
+[[lij:Bïra]]
+[[lt:Alus]]
+[[lv:Alus]]
+[[mg:Labiera]]
+[[mk:Пиво]]
+[[ml:ബിയര്]]
+[[ms:Bir]]
+[[nah:Teixhuinotl]]
+[[nds:Beer (Drunk)]]
+[[nds-nl:Bier]]
+[[nl:Bier]]
+[[nn:Øl]]
+[[no:Øl]]
+[[nrm:Biéthe]]
+[[oc:Bièrra]]
+[[pl:Piwo]]
+[[pt:Cerveja]]
+[[qu:Sirwisa]]
+[[ro:Bere]]
+[[ru:Пиво]]
+[[sah:Пиибэ]]
+[[scn:Birra]]
+[[sco:Beer]]
+[[sh:Pivo]]
+[[simple:Beer]]
+[[sk:Pivo]]
+[[sl:Pivo]]
+[[sq:Birra]]
+[[sr:Пиво]]
+[[sv:Öl]]
+[[sw:Bia]]
+[[szl:Bjyr]]
+[[ta:பியர்]]
+[[te:బీరు]]
+[[tg:Пиво]]
+[[th:เบียร์]]
+[[tl:Serbesa]]
+[[tr:Bira]]
+[[uk:Пиво]]
+[[uz:Pivo]]
+[[vec:Bira]]
+[[vi:Bia (đồ uống)]]
+[[vls:Bier]]
+[[vo:Bir]]
+[[wa:Bire]]
+[[war:Serbesa]]
+[[yi:ביר]]
+[[zh:啤酒]]
+[[zh-yue:啤酒]]

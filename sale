@@ -2,11 +2,11 @@
 
  [[image:Wiesensalbei 1.jpg |thumb| ''Salvia pratensis'' ''sale'']]
 
-L'sale ch'est ène [[Herbe aromatique|herbe aromatique]].  
+L'sale ch'est ène [[Hèrbe aronmatique|hèrbe aronmatique]].  
 
-Ale vo boin aveuc ch' [[Porcheu|porcheu]] et pi chés plats d' [[Volalle|volalles]] ([[Glaine|glaine]], [[Pourdinne|pourdinne]], [[Canèrd|canèrd]]).
+Ale vo bin aveuc ch' [[Couéchon|couéchon]] et pi chés plats d' [[Volalle|volalles]] ([[Glaine|glaine]], [[Pourdinne|pourdinne]], [[Canèrd|canèrd]]).
 
-Il y o granmin éd érchétes d' ledjeumes aveuc l'sale  ([[peumés-terre|peumés-terre]], [[Féculent|féculent]]s,...).
+Il y o granmin d'érchétes d' ledjeumes aveuc l'sale  ([[peumés-terre|peumés-terre]], [[Féculent|féculent]]s,...).
 
 
 
@@ -26,7 +26,7 @@ Il y o des  éspèches éd sale éq' sont puremint ornemintales.
 
 
 
-* ''"ch'lui qu'o del sale din s'corti, i n'o poin b'soin d'un sérusyin"'' (dicton)
+* ''"échti qu'o del sale din s'corti, i n'o poin b'soin d'un sérusyin"'' (dicton)
 
 
 
@@ -38,7 +38,15 @@ Il y o des  éspèches éd sale éq' sont puremint ornemintales.
 
 == Princhipales éspéches ==
 
-{{Boîte déroulante|largeur=99%|couleurFondT=#DDDDFF|couleurTexteT=#000000|couleurBordure=#9D99DD|alignT=left|titre='''Lisses d'chés princhipales éspéches d' sales'''|contenu=
+<div  align="{{ #switch:{{{alignB}}} | gauche = left | droite = right | centre = center | left = left | right = right | center = center | #default = left }}">
+<div class="NavFrame" style="clear:both; margin-bottom:{{{margeBas|1em}}}; width:{{{largeur|99%}}}; border-style:solid; -moz-border-radius:{{{arrondi|0}}}; border-color:{{{couleurBordure|#AAAAAA}}}; background-color:{{{couleurFondB|#FFFFFF}}};" title="{{{label|[Dérouler]}}}" >
+{{#if:{{{image|}}}|<div class="NavPic" style="{{{style|}}}background-color:{{{couleurFondT|#EFEFEF}}};">{{{image}}}</div>}}
+<div class="NavHead" align="{{ #switch: {{{alignT|center}}}| gauche = left| droite = right| centre = center
+| left = left| right = right| center = center | centre}}" style="height:{{{hauteur|1.6em}}}; background-color:{{{couleurFondT|#EFEFEF}}}; color:{{{couleurTexteT|black}}}; {{#ifeq:{{{thinning|no}}}|yes|font-weight:normal;|}}">princhipales éspéches d'sales'''</div>
+<div class="NavContent" style="margin:{{{marge|0px}}}; background:{{{couleurFond|white}}}; display:block;" align="{{{align|left}}}">
+
+
+:::'''Lisses d'chés princhipales éspéches d'sales'''
 * ''[[Salvia aegyptiaca|Salvia aegyptiaca]]'' L. 
 * ''[[Salvia aethiopis|Salvia aethiopis]]'' L., l'[[sale d'Éthiopie|sale d'Éthiopie]] 
 * ''[[Salvia africana|Salvia africana]]'' L. 
@@ -62,7 +70,7 @@ Il y o des  éspèches éd sale éq' sont puremint ornemintales.
 * ''[[Salvia canariensis|Salvia canariensis]]'' L. 
 * ''[[Salvia candelabrum|Salvia candelabrum]]'' Boiss., l'[[sale candélabre|sale candélabre]] 
 * ''[[Salvia carduacea|Salvia carduacea]]'' Benth. 
-''[[Salvia chionantha|Salvia chionantha]]'' Boiss.
+* ''[[Salvia chionantha|Salvia chionantha]]'' Boiss.
 * ''[[Salvia clevelandii|Salvia clevelandii]]'' (A. Gray) Greene 
 * ''[[Salvia coccinea|Salvia coccinea]]'' Buc'hoz ex Etl. 
 * ''[[Salvia columbariae|Salvia columbariae]]'' Benth.
@@ -159,6 +167,12 @@ Il y o des  éspèches éd sale éq' sont puremint ornemintales.
 * ''[[Salvia virgata|Salvia virgata]]'' Jacq. 
 * ''[[Salvia viridis|Salvia viridis]]'' L. 
 * ''[[Salvia whitehousei|Salvia whitehousei]]'' Alziar}}
+<includeonly></div>
+<div class="NavEnd">&nbsp;</div>
+</div></div></includeonly><noinclude>
+</div></div>
+</noinclude>
+
 
 
 

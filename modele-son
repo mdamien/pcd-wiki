@@ -1,0 +1,13 @@
+<noinclude>[[Category:Subroutines-pcd]]</noinclude>
+
+<includeonly>{{Wikilien
+| image=Gnome-speakernotes.svg 
+| alignement={{{align|right}}}
+| largeur={{{largeur|300px}}}
+| couleur_fond = {{{couleur_fond|F9F9F9}}}
+| couleur_bordure = {{{couleur_bordure|AAAAAA}}}
+| texte='''[[Media:{{{filename|{{{nomfichier|{{{2|}}}}}}}}}|{{{title|{{{titre|{{{1|}}}}}}}}}]]''' ([[:Fichier:{{{filename|{{{nomfichier|{{{2|}}}}}}}}}|info]]) {{{suitetexte|{{{description|}}}}}}
+<div style="margin:.35em 0">[[Image:{{{filename|{{{nomfichier|{{{2|}}}}}}}}}|230px|noicon]]</div>
+<small>''Des problèmes pour écouter le fichier ? [[Aide:Écouter des sons ogg|Aidez-moi'']]</small>
+|couleur_fond=f9f9f9}}</includeonly><noinclude>
+<nowiki> {{/Documentation}} </nowiki> </noinclude>

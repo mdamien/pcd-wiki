@@ -1,0 +1,7 @@
+<div class="noprint float{{{alignement|right}}}" style="width:{{{largeur|250px}}};border:solid #{{{couleur_bordure|AAAAAA}}} 1px;background:#{{{couleur_fond|FFFFFF}}};padding:4px;font-size:90%;text-align:left;">
+<div style="float:left;">[[Image:{{{image}}}|50px]]</div>
+<div style="margin-left:60px;">{{{texte}}}</div>
+<div style="clear:left;" />
+</div><noinclude>
+<nowiki>{{/Documentation}}</nowiki>
+</noinclude>[[Category:Subroutines-pcd]]</noinclude>

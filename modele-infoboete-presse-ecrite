@@ -1,0 +1,133 @@
+{| class="infobox_v2" cellspacing="7" border="0"
+|-
+! colspan="2" class="entete {{#if:{{{entete|}}}|{{{entete|}}}|defaut}}" | {{{nom|{{PAGENAME}}}}}
+|-
+{{#if: {{{nomorigine|}}} |
+{{!}} align="center" colspan="2" style="font-size: larger" {{!}} {{{nomorigine}}}
+{{!}}-
+}}
+{{#if: {{{image|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" align="center" {{!}} {{{image}}}
+{{!}}-
+}}
+|- 
+! colspan="2"  | <hr />
+|-
+!colspan="1" valign="top" align="left" valign="top"  | Poéis
+|colspan="1"  valign="top" align="left"|{{{poéis}}}
+|-
+!colspan="1" align="left" valign="top"  | Langue(s)
+|colspan="1"  valign="top" align="left"|{{{langue}}}
+|-
+!colspan="1" align="left" valign="top"  | Périodicité
+|colspan="1"  valign="top" align="left"|{{{périodicité}}}
+|-
+{{#if: {{{format|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}}Format
+{{!}}colspan="1"  valign="top"{{!}}{{{format}}}
+{{!}}-
+}}
+!colspan="1" align="left" valign="top"  | Ginre
+|colspan="1"  valign="top" align="left"| {{{ginre}}}
+|-
+|-
+{{#if: {{{diffusion|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}}'''Diffusion '''
+{{!}}colspan="1"  valign="top" align="left"{{!}}{{{diffusion}}} ex. ({{{diffusion (date)}}})
+{{!}}-
+}}
+{{#if: {{{fondateur|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}}Fondateu
+{{!}}colspan="1"  valign="top"{{!}}{{{fondateu}}}
+{{!}}-
+}}
+!colspan="1" align="left" valign="top"  |Date éd fondachon
+|colspan="1"  valign="top"|{{{date éd fondachon}}}
+|-
+{{#if: {{{date de fin|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}}Date du darin liméro
+{{!}}colspan="1"  valign="top"{{!}}{{{date éd fin}}}
+{{!}}-
+}}
+!colspan="1" align="left" valign="top"  |Vile d’édichon
+|colspan="1"  valign="top"|{{{vile}}}
+|-
+{{#if: {{{éditeur|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}}Éditeu
+{{!}}colspan="1"  valign="top"{{!}}{{{éditeu}}}
+{{!}}-
+}}
+! colspan="2"  | <hr />
+|-
+{{#if: {{{dirécteu del publicachon|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}} Dirécteu del publicachon
+{{!}}colspan="1"  valign="top"{{!}}{{{ dirécteu del publicachon }}}
+{{!}}-
+}}
+{{#if: {{{dirécteu del rédacchon|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}} Dirécteu del rédacchon
+{{!}}colspan="1"  valign="top"{{!}}{{{ dirécteu del rédacchon }}}
+{{!}}-
+}}
+{{#if: {{{rédacteu in chef|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}}Rédacteu in chef
+{{!}}colspan="1"  valign="top"{{!}}{{{rédacteu in chef}}}
+{{!}}-
+}}
+{{#if: {{{comité éditorial|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}}Comité éditorial
+{{!}}colspan="1"  valign="top"{{!}}{{{comité éditorial}}}
+{{!}}-
+}}
+{{#if: {{{propriétaire|<noinclude>-</noinclude>}}} |
+!colspan="1" align="left" valign="top"  {{!}}Propriétaire
+{{!}}colspan="1"  valign="top"{{!}}{{{propriétaire}}}
+{{!}}-
+}}
+!colspan="1" align="left" valign="top"  |[[ISSN|ISSN]]
+|colspan="1"  valign="top"|{{#if:{{{ISSN|}}}|{{#ifeq:{{{rechercher ISSN|}}}|non|{{{ISSN|}}}|{{Recherche ISSN|{{{ISSN|}}}}}}}|-}}
+|-
+! colspan="2"  | <hr />
+|-
+{{#if: {{{site|<noinclude>-</noinclude>}}} |
+!colspan="2" align="center" valign="top"  {{!}}{{{site}}}
+{{!}}-
+}}
+|}
+<noinclude>{{-}}
+
+==Utilisachon==
+<table align="right" width="30%" style="margin-left: 2em">
+<tr><td>
+V'lo ch' code à copier-coller :
+ <nowiki>{{</nowiki>Infoboéte Presse écrite|
+ | nom                      = 
+ | nomorigine               = 
+ | image                    = 
+ | poéis                     = 
+ | langue                   = 
+ | périodicité              = 
+ | format                   = 
+ | ginre                    = 
+ | diffusion                = 
+ | diffusion (date)         = 
+ | fondateu                = 
+ | date éd fondachon        = 
+ | date éd fin              = 
+ | vile                    =
+ | éditeur                  =
+ | Dirécteu del publicachon  = 
+ | Dirécteu del rédacchon   = 
+ | Rédacteu in chef     = 
+ | comité éditorial         = 
+ | propriétaire             = 
+ | site                     = 
+ | ISSN                     = 
+ <nowiki>}}</nowiki>
+</td></tr>
+</table>
+Chés camps ''nomorigine'', ''image'', ''format'',  ''fondateu'', ''date éd fin'', ''Dirécteu del publicachon'' , ''Dirécteu del rédacchon, ''Rédacteu in chef'', ''comité éditorial'', ''propriétaire'' pi ''chite'' sont facultatifs.
+
+[[Category:Subroutines-pcd]]
+ 
+</noinclude>

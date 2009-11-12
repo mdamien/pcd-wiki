@@ -1,4 +1,8 @@
-{| class="infobox_v2" cellspacing="7" border="0"
+{| class="infobox_v2" cellspacing="7" border="0" style="text-align:left;" 
+|-
+! colspan="2" class="entete" style="background-color:{{{couleurfamille|#B4B9C3}}};" | {{{nom}}}{{#if:{{{nomnatif|}}}|<br /><font size="-1">{{{nomnatif}}}</font>}}
+|-
+
 |-
 ! colspan="2" class="entete {{#if:{{{entete|}}}|{{{entete|}}}|defaut}}" | {{{nom|{{PAGENAME}}}}}
 |-

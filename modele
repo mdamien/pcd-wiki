@@ -1,10 +1,1 @@
-<includeonly><!--
--->&nbsp;• <!--
---></includeonly><!--
---><noinclude>
-
-{{pp-template|small=yes}}
-{{template doc}}
-
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
-</noinclude>
+|<noinclude>{{Wp/shi/template doc}}</noinclude>

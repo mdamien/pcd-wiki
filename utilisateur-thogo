@@ -1,0 +1,22 @@
+{| cellpadding="2" style="border-color:#008B45; empty-cells:show;" <!-- Beginn Hauptrahmen -->
+|-
+| heigth="2px" bgcolor="#7EC0EE" colspan="2" |
+|- <!------------ Kopf mit Willkommenstext und der Navileiste ------------>
+| colspan="2" | <!------ Willkommenstext ------>
+<span style="text-align:center; font-size:127%; line-height:1.3;">
+Welcome to my user page!
+</span>
+<br /><br />
+My name is Thomas Goldammer, I'm from Leipzig, Germany. I'm a [[m:Stewards|steward]] of the Wikimedia Foundation. I visit this wiki mainly to undo vandalism and put deletion requests on nonsense pages.
+<br />
+{| align="center" style="padding:5px; text-align:center;"
+|-
+| width="48%" style="border-bottom:1px dashed #AAA;" |
+|-
+| '''«[[m:User talk:Thogo|Discussion]]»''' | [[Special:Emailuser/Thogo|E-Mail]] | [[Special:Contributions/Thogo|Contribs]]
+<br />
+This wiki has '''{{NUMBEROFARTICLES}}''' articles.
+|-
+| width="48%" style="border-top:1px dashed #AAA;" |
+|}
+|}

@@ -1,3 +1,4 @@
+{{nobots}}
 <includeonly>{| class="infobox_v2" cellspacing="7" border="0"
 | colspan="2" class="entete cinema" style="background-color:rgb(23,165,165);" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
 |-

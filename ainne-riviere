@@ -1,6 +1,6 @@
 L''''Ainne''' ch'est eune rivière dech nord del [[Franche]].
 
-[[Image:Ainne Panorama.JPG|300px|thumb|Panorama éd l'Ainne à [[Soupir (Ainne)|Soupir]].]]
+[[Fichier:Ainne Panorama.JPG|300px|thumb|Panorama éd l'Ainne à [[Soupir (Ainne)|Soupir]].]]
 
 longueur = 353.3 km
 
@@ -13,7 +13,7 @@ confluence ( 30 m ) = [[Oése (rivière)|Oése]] à [[Compiègne]], [[Franche]]
 
 Ech nom '''Ainne''' cha vient du celtique ''' ''Axonna'' ''' <ref>Jules César, ''Commentaires sur l' Guerre des Gaules'', Live II, 5.</ref>, d'un radical ''ax-'' pi du suffixe [[-onna]], fréquint din chés noms d'rivières.
 
-[[Image:Soissons.jpg|thumb|right|300px|L'Ainne à [[Soissons]] ]]
+[[Fichier:Soissons.jpg|thumb|right|300px|L'Ainne à [[Soissons]] ]]
 
 
 == Princhipaux affluints : ==
@@ -43,12 +43,12 @@ Colors=
   id:sfondo value:rgb(1,1,1)
   id:barra value:rgb(0.6,0.8,0.9)
 
-ImageSize  = width:600 height:300
-PlotArea   = left:40 bottom:40 top:20 right:20
+ImageSize = width:600 height:300
+PlotArea = left:40 bottom:40 top:20 right:20
 DateFormat = x.y
-Period     = from:0 till:140
-TimeAxis   = orientation:vertical
-AlignBars  = justify
+Period = from:0 till:140
+TimeAxis = orientation:vertical
+AlignBars = justify
 ScaleMajor = gridcolor:lightgrey increment:20 start:0
 ScaleMinor = gridcolor:lightgrey increment:10 start:0
 BackgroundColors = canvas:sfondo
@@ -109,17 +109,13 @@ PlotData=
 == Notes pi référinches ==
 <references />
 
-
-
-
-
-
 [[ar:نهر آيسن]]
+[[bn:এন নদী]]
 [[br:Aisne (stêr)]]
 [[cs:Aisne (přítok Oise)]]
 [[da:Aisne (flod)]]
 [[de:Aisne (Fluss)]]
-[[en:Aisne River]]
+[[en:Aisne (river)]]
 [[es:Río Aisne]]
 [[et:Aisne'i jõgi]]
 [[eu:Aisne ibaia]]

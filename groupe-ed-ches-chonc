@@ -3,31 +3,31 @@
 Ch'est un groupe éd compositeurs russes.
 
 
-* [[Moussorgski|Moussorgski]], 
+* [[Moussorgski]], 
 
 * [[César Cui|Cui]], 
 
-* [[Balakirev|Balakirev]], 
+* [[Balakirev]], 
 
 * [[Alexandre Borodine|Borodine]], 
 
-* [[Rimski-Korsakov|Rimski-Korsakov]]. 
+* [[Rimski-Korsakov]]. 
 
-Leu conmune éstétique aveuc ech Groupe éd chés Sis influinchée par [[Satie]] pi [[Cocteau]], est une réaction conte ech [[romantisme]] pi ech [[wagnérisme]], et pi étous,  conte ech courint [[impréchionisse]]. 
+Leu conmune éstétique aveuc ech Groupe éd chés Sis influinchée par [[Satie]] pi [[Cocteau]], est une réaction conte ech [[romantisme]] pi ech [[wagnérisme]], et pi étous, conte ech courint [[impréchionisse]]. 
 
 = Notes pi Référinches =
 
-===Note un ===
+=== Note un ===
 
 Ech ''Groupe éd chés Chonc'' :
 
-*(in frinsé: '''Groupe des cinq''') 
+* (in frinsé: '''Groupe des cinq''') 
 
-*( in russe | Могучая кучка, ch'est-à-dire «&nbsp;puichant p'tit groupe&nbsp;». Cha vient éd [[Vladimir Stassov]] in [[1867]]) 
+* ( in russe | Могучая кучка, ch'est-à-dire «&nbsp;puichant p'tit groupe&nbsp;». Cha vient éd [[Vladimir Stassov]] in [[1867]]) 
 
 === Note deus ===
 
-Ech créateur =  [[Mili Balakirev]] (1837-1910), 
+Ech créateur = [[Mili Balakirev]] (1837-1910), 
 
 Ches autes mimbes = 
 * [[Nikolaï Rimski-Korsakov]] (1844-1908)
@@ -46,9 +46,9 @@ Image:Nikolai Rimski-Korsakov.jpg|<center>Nicolas Rimski-Korsakov</center>
 </gallery>
 
 <timeline>
-ImageSize  = width:800 height:155
-PlotArea   = width:620 height:135 left:100 bottom:20
-AlignBars  = justify
+ImageSize = width:800 height:155
+PlotArea = width:620 height:135 left:100 bottom:20
+AlignBars = justify
 
 Colors =
   id:Borodine           value:tan1
@@ -58,10 +58,10 @@ Colors =
   id:Rimski-Korsakov    value:coral
   id:Règne              value:white
     
-Period      = from:1830 till:1920
-TimeAxis    = orientation:horizontal
-ScaleMajor  = unit:year increment:20 start:1830
-ScaleMinor  = unit:year increment:10 start:1830
+Period = from:1830 till:1920
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:20 start:1830
+ScaleMinor = unit:year increment:10 start:1830
 
 Define $markred = text:"*" textcolor:red shift:(0,3) fontsize:10
 
@@ -113,7 +113,7 @@ TextData =
 [[fr:Groupe des Cinq]]
 [[he:החמישה]]
 [[hr:Moćna gomilica]]
-[[hu:Orosz Ötök]]
+[[hu:Orosz ötök]]
 [[it:Gruppo dei Cinque]]
 [[ja:ロシア5人組]]
 [[ka:მძლავრი ჯგუფი]]

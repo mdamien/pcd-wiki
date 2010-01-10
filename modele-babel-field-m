@@ -7,6 +7,6 @@
   |language={{{language|}}}
   |text={{{text}}}
   |text2={{{text2|}}}
-}}<includeonly>{{#ifeq:{{NAMESPACE}}|Utilisateur|{{#if:{{{nocat|}}}||[[Catégorie:Utilisateur {{{letter code}}}-M|{{PAGENAME}}]]}}}}</includeonly><noinclude>
+}}<includeonly>{{#ifeq:{{NAMESPACE}}|Uzeu|{{#if:{{{nocat|}}}||[[Catégorie:Uzeu {{{letter code}}}-M|{{PAGENAME}}]]}}}}</includeonly><noinclude>
 
 [[Catégorie:Modèle Babel|Babel field M]]

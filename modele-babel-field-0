@@ -1,0 +1,12 @@
+{{Babel field
+  |color 1=#FFBBBB
+  |color 2=#FFEEEE
+  |letter code={{#if:{{{lien langue|}}}|[[{{{lien langue}}}|{{{letter code}}}]]|{{{letter code}}}}}-0
+  |letter code size={{{letter code size|1.5em}}}
+  |text size={{{text size|0.83em}}}
+  |language={{{language|}}}
+  |text={{{text}}}
+  |text2={{{text2|}}}
+}}<includeonly>{{#ifeq:{{NAMESPACE}}|Utilisateur|{{#if:{{{nocat|}}}||[[Catégorie:Utilisateur {{{letter code}}}-0|{{PAGENAME}}]]}}}}</includeonly><noinclude>
+
+[[Catégorie:Modèle Babel|Babel field 0]]

@@ -1,0 +1,13 @@
+{{Butilisateur
+  |bordure={{{color 1|#999999}}}
+  |img-couleur={{{color 1|#999999}}}
+  |img-texte-couleur=#000000
+  |img-texte-taille={{{letter code size|1.5em}}}
+  |img-texte='''{{{letter code}}}'''
+  |couleur={{{color 2|#EEEEEE}}}
+  |texte-couleur=#000000
+  |texte-taille={{{text size|0.83em}}}
+  |titre={{{language|}}}
+  |texte={{{text}}}
+  |texte2={{{text2|}}}
+}}<noinclude>[[Catégorie:Modèle Babel|!Babel field]]</noinclude>

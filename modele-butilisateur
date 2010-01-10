@@ -1,0 +1,36 @@
+<div class="ModeleBUtilisateur" style="float:{{{align|left}}}; margin:1px; width:238px; border:1px solid {{{bordure|#999999}}}; -moz-border-radius:{{{arrondi|0}}};">
+{|width="100%" border="0" cellspacing="0" cellpadding="1" style="background-color:{{{couleur|#eee}}}; color:{{{texte-couleur|black}}}; -moz-border-radius:{{{arrondi|0}}};"
+|-
+|class="ModeleBUtilisateurGauche" valign="middle" align="center" style="width:47px; height:47px; background-color:{{{img-couleur|white}}}; color:{{{img-texte-couleur|black}}}; text-align:center; -moz-border-radius:{{{arrondi|0}}};"|<!--
+  -->{{#if:{{{img|}}}|[[Fichier:{{{img}}}|{{{img-taille|45px}}}|{{{img-titre|{{{titre|{{{img}}}}}}}}}]]}}<!--
+  -->{{#if:{{{imgd|}}}|[[Fichier:{{{imgd}}}|{{{imgd-taille|45px}}}|{{{imgd-titre|{{{imgd}}}}}}]]}}<!--
+  -->{{#if:{{{img2|}}}|<br />[[Fichier:{{{img2}}}|{{{img2-taille|45px}}}|{{{img2-titre|{{{img2}}}}}}]]}}<!--
+  -->{{#if:{{{imgd2|}}}|[[Fichier:{{{imgd2}}}|{{{imgd2-taille|45px}}}|{{{imgd2-titre|{{{imgd2}}}}}}]]}}<!--
+  -->{{#if:{{{img-texte|}}}|<div class="ModeleBUtilisateurImgTexte" style="font-size:{{{img-texte-taille|14px}}}; line-height:1.25;">{{{img-texte}}}</div>}}
+|class="ModeleBUtilisateurInfo" valign="middle" align="center" style="padding:1px; padding-right:4px; padding-left:4px; text-align:center;"|<!--
+  -->{{#if:{{{catégorie|}}}{{{lien|}}}|<!--
+    --><div class="ModeleBUtilisateurLien plainlinks" style="float:right; margin:0; margin-left:1px; font-size:12px; line-height:1;"><!--
+      -->{{#if:{{{catégorie|}}}|<!--
+        -->[[:Catégorie:{{{catégorie}}}|∇]]|<!--
+        -->[{{fullurl:Special:Pages_liées/Modèle:Utilisateur {{{lien}}}|namespace=2&hidelinks=1}} ∇]<!--
+      -->}}<!--
+    --></div><!--
+  -->}}<!--
+  -->{{#if:{{{titre|}}}|<!--
+    --><div class="ModeleBUtilisateurTitre" style="font-size:{{{titre-taille|11px}}}; line-height:1.25;">'''{{{titre}}}'''</div><!--
+  -->}}<!--
+  --><div class="ModeleBUtilisateurTexte plainlinks" style="font-size:{{{texte-taille|11px}}}; line-height:1.25;">{{{texte}}}</div><!--
+  -->{{#if:{{{texte2|}}}|<!--
+    --><div style="margin:0; margin-top:1px; margin-bottom:1px; height:1px; border:0; background-color:{{{bordure|#999999}}}; padding:0;"></div><!--
+    --><div class="ModeleBUtilisateurTexte2 plainlinks" style="font-size:{{{texte2-taille|11px}}}; line-height:1.25;">{{{texte2}}}</div><!--
+  -->}}
+|}
+</div><includeonly><!--
+-->{{#if:{{{nocat|}}}||<!--
+  -->{{#ifeq:{{NAMESPACE}}|Utilisateur|<!--
+    -->{{#if:{{{catégorie|}}}|[[Catégorie:{{{catégorie}}}|{{PAGENAME}}]]}}<!--
+    -->{{#if:{{{catégorie2|}}}|[[Catégorie:{{{catégorie2}}}|{{PAGENAME}}]]}}<!--
+  -->}}<!--
+-->}}</includeonly><noinclude>
+<br clear="all" />
+{{doc modèle}}</noinclude>

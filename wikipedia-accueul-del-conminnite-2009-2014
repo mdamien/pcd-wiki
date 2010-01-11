@@ -1,0 +1,36 @@
+::::;Binv'nute su eul Wikipédia in lingue picarde. 
+
+:::::::;Ch'est un prodjé copératif pou foaire eune libe inciclopédie in Picard. 
+
+
+
+Vlo quèques trucs pou chés nouvieus uzeus su ch' Wikipédia picard.
+
+
+
+'''<u>''Métte chés modèles Babel por chés langues su vote pache d'Uzeu''</u>'''
+
+<!-- faux modèle babel pour que cette sous-page et Wikipédia:Accueil ne soient pas incluses dans les catégories babel --> 
+{| style="float: right; margin-left: 1em; margin-bottom: 0.5em; width: 242px; border: #99B3FF solid 1px"
+|-
+| style="text-align: center" | '''[[Wikipédia:Babel]]'''
+|-
+| {{Babel field|color 1=#6EF7A7|color 2=#C5FCDC|letter code size=1.5em|text size=0.83em|letter code= fr |text=Cet utilisateur a pour '''[[:Category:Uzeu fr-M|langue maternelle]]''' le '''[[:Category:Uzeu fr|français]]'''.}}
+|-
+| {{Babel field|color 1=#99B3FF|color 2=#E0E8FF|letter code size=1.5em|text size=0.83em|letter code= en-2 |text=This user is able to contribute with an '''[[:Category:Uzeu en-2|intermediate]]''' level of '''[[:Category:Uzeu en|English]].'''}}
+|-
+| {{Babel field|color 1=#99B3FF|color 2=#E0E8FF|letter code size=1.5em|text size=0.83em|letter code= wa-1 |text=Cist uzeu chal pout contribouwer avou on '''[[:Category:Uzeu wa-1|livea fwebe]]''' e '''[[:Category:Uzeu wa|walon]]'''.}}
+|}
+<!-- fin faux modèle babel --> 
+
+Conme chés uzeus is pérle'te diférintes lingues, il y o su Wikipédia des modèles pou chés langues (Modèles Babel).
+
+O r'treuve chés boétes Babel din tous chés prodjés Wiki ( [[commons:Commons:Babel/fr|Wikimedia Commons]] ou [[meta:Template:User language|Meta-Wiki]] ).
+
+I feut mètte chés boétes Babel su vote ''Pache d'Uzeu''.  L' sintacse, pèr egzimpe, pou troés langues ch'est:
+
+:::;<nowiki>{{babel-3|fr|en-2|wa-1}}</nowiki>    
+::::::::::(vir chés boétes éd-sérant).
+
+L' sintacse ale est détalhée pi éspliquée [[Wikipédia:Babel|ici]].
+<noinclude>[[Catégorie:Trucs|Babel]]</noinclude>

@@ -1,0 +1,181 @@
+'''Kimbré'''   (''Cambrai'' in [[frinsé]] ,  ''Kamerijk'' in [[nirlindé]], ''Camaracum'' in [[latin]] )  ch’est eune conmune  d'inviron 33000 gins, plachée din ech départémint dech [[Nord (départémint)|Nord]] pi din  l’ région  [[Nord-Pas-d’Caleus]].
+[[image:Blason cambrai.svg|150px|right]]
+
+
+[[Image:Cambrai-Position.png|thumb|left|Kimbré]]
+
+
+[[Image:NPdC relief Cambrai.png|thumb|left|jéografie]]
+
+
+<center>
+<small>'''[[Diagramme ombrothermique]]'''</small>
+<timeline>
+
+ImageSize  = width:464 height:220
+PlotArea   = left:40 right:30 top:40 bottom:20
+TimeAxis   = orientation:vertical
+Colors     = 
+           id:blue value:blue
+AlignBars  = justify
+Period     = from:0 till:80
+ScaleMajor = increment:10 start:0 gridcolor:black start:0
+   
+PlotData =  
+  align:center mark:(line,black) width:31 
+  bar:Jan color:blue
+  from:start till:47.5
+  bar:Fév color:blue
+  from:start till:39.7
+  bar:Mar color:blue
+  from:start till:51
+  bar:Avr color:blue
+  from:start till:46.2         
+  bar:Mai color:blue
+  from:start till:59.1
+  bar:Jun color:blue
+  from:start till:66.3
+  bar:Jul color:blue
+  from:start till:57.4
+  bar:Aoû color:blue
+  from:start till:52.4
+  bar:Sep color:blue
+  from:start till:51.3
+  bar:Oct color:blue
+  from:start till:58.1
+  bar:Nov color:blue
+  from:start till:60.9
+  bar:Déc color:blue
+  from:start till:52.1 
+   
+LineData =
+  layer:front
+  points:(56,30)(89,33)      color:red    width:1
+  points:(89,33)(122,43)     color:red    width:1
+  points:(122,43)(155,54)    color:red    width:1
+  points:(155,54)(188,70)    color:red    width:1
+  points:(188,70)(222,81)   color:red    width:1
+  points:(222,81)(254,89)   color:red    width:1
+  points:(254,89)(287,89)   color:red    width:1
+  points:(287,89)(320,79)   color:red    width:1
+  points:(320,79)(353,64)   color:red    width:1
+  points:(353,64)(386,44)    color:red    width:1
+  points:(386,44)(419,33)    color:red    width:1
+  at:10                      color:black  width:0.5
+  at:20                      width:0.5
+  at:30                      width:0.5
+  at:40                      width:0.5
+  at:50                      width:0.5
+  at:60                      width:0.5
+  from:0 till:80 atpos:435   width:0.5
+
+TextData = 
+  pos:(16,190)  fontsize:S     text:"Précipitations"
+  pos:(32,182)  fontsize:XS    text:"(mm)"
+  pos:(390,190) fontsize:S     text:"Températures"
+  pos:(418,181) fontsize:XS    text:"(°C)"
+  pos: (438,29)    textcolor:red fontsize:S
+  text: "0"
+  pos: (438,49)
+  text: "5"
+  pos: (438,69)    textcolor:red fontsize:S
+  text: "10"
+  pos: (438,89)
+  text: "15"
+  pos: (438,109)    textcolor:red fontsize:S
+  text: "20"
+
+</timeline>
+</center>
+
+
+
+=== D’vise ===
+
+* 1579 : ''Cambray, cité de paix''
+* 1580 : ''Concordia res parvae crescunt'' (« Par la concorde grandissent les petites choses »). Cette devise est la même que celle des [[Provinces-Unies]] (cf. [[L'union fait la force]])
+* D’vise achteure : ''Fière de son passé, sûre de son avenir''
+{{Clr}}
+
+=== Jumelaches ===
+
+* Houma (Louisiane)|États-Unis
+* Châteauguay|Canada
+* Kamp-Lintfort|Allemagne|année=1989
+* Gravesend|Royaume-Uni|année=1989
+* Esztergom|Hongrie|année=1992
+* Pouchkine (ville)|Russie|ville=Pouchkine|année=2002 <ref>[http://www.ambafrance.ru/article.php3?id_article=1735 Vir ech chite del' inbassate d' Franche in Russie]</ref>)
+* Kantchari|Burkina Faso}} 
+* Cieszyn|Pologne|année=2007
+{{clr}}
+
+
+
+
+
+
+[[Image:Gare de Cambrai 1913.jpg|thumb|right|tiote gare  d'Kimbré in 1913]]
+[[Image:Gare cambrésis cambrai.jpg|thumb|right|L' gare du Kimbrésis]]
+
+[[Image:Cathédrale Notre-Dame Cambrai .JPG|thumb|L'catédrale Note-Dame]]
+
+=== Éspéchialités  === 
+
+* l'[[indoulète d’ Kimbré]],  
+
+* la [[bétisse d’ Kimbré]], chuchuc inrobé d’minte 
+
+
+<gallery>
+Image:Eglise St-Géry Cambrai.JPG|<small>L'église Saint-Géry</small>
+Image:Porte chapelle vaucelette cambrai.JPG|<small>capèle Vaucelette</small>
+Image:Béguinage Notre-dame Cambrai (1).jpg|<small>Ch' bédjinache Note-Dame, rue d'chés Capucins</small>
+Image:Rue des capucins Cambrai.jpg|<small>Rue d'chés Capucins</small>
+Image:Maison des Canonniers Cambrai.JPG|<small>L' moaison d'chés Canonniers, arkitectchure flaminde du XVIIe sièke</small>
+Image:Tour des Arquets Cambrai.JPG|<small>L' tour des Arquets, anthieusse porte d'ieu su l'Escaut (XIVe sièke)</small> 
+Image:Marché couvert Cambrai.JPG|<small>Ch' martché covert</small>
+Image:Chapelle du couvent des récollets Cambrai.JPG|<small>Capèle du covint d'chés récollets<small>
+</gallery>
+
+[[Image:François Fénelon.jpg|thumb|François Fénelon pèr Joseph Vivien]]
+
+[[Image:Blason cambrai.svg|center|150 px]]
+
+=== Référinches ===
+
+<references/>
+
+
+[[Catégorie:viles picardes]]
+
+[[af:Cambrai]]
+[[ar:كامبراي]]
+[[br:Cambrai]]
+[[ca:Cambrai]]
+[[ceb:Cambrai]]
+[[cs:Cambrai]]
+[[de:Cambrai]]
+[[en:Cambrai]]
+[[eo:Cambrai]]
+[[es:Cambrai]]
+[[eu:Cambrai]]
+[[hu:Cambrai]]
+[[it:Cambrai]]
+[[ja:カンブレー]]
+[[la:Cameracum]]
+[[lb:Cambrai]]
+[[nl:Cambrai]]
+[[nn:Cambrai]]
+[[no:Cambrai]]
+[[pl:Cambrai]]
+[[pt:Cambrai]]
+[[ro:Cambrai]]
+[[ru:Камбре]]
+[[sk:Cambrai]]
+[[sl:Cambrai]]
+[[sr:Камбре]]
+[[sv:Cambrai]]
+[[sw:Cambrai]]
+[[vi:Cambrai]]
+[[vo:Cambrai]]
+[[zh:康布雷]]

@@ -1,0 +1,22 @@
+@import url("http://meta.wikimedia.org/w/index.php?title=User:Gz260/monobook_global.css&action=raw&ctype=text/css");
+
+#p-personal li {
+text-transform: none;
+font-variant: normal;
+}
+ 
+.detail, .details {
+font-family: "HelveticaNeueLT Std", "HelveticaNeueLT Pro 55 Roman", "Myriad Pro", Verdana, sans-serif;
+}
+
+.infobox {
+font-family: "HelveticaNeueLT Std", "HelveticaNeueLT Pro 55 Roman", "Myriad Pro", Verdana, sans-serif;
+}
+
+.infobox a:external {
+font-family: "HelveticaNeueLT Std", "HelveticaNeueLT Pro 55 Roman", "Myriad Pro", Verdana, sans-serif;
+}
+
+.catlinks-allhidden { 
+display: block; 
+}

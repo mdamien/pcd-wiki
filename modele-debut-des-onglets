@@ -1,0 +1,34 @@
+<includeonly><!--
+
+  --><table width="100%" cellspacing="0" cellpadding="0" valign="top" border="0" style="background-color: transparent;"><!--
+
+    --><tr><!--     
+
+-->{{#if:{{{Onglet-1|}}}|{{Onglet|URL={{{URL-1}}}|URLType={{{URLType-1}}}|Onglet={{{Onglet-1}}}|Image={{{Image-1|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-1|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}|preums=1}}}}<!--
+-->{{#if:{{{Onglet-2|}}}|{{Onglet|URL={{{URL-2}}}|URLType={{{URLType-2}}}|Onglet={{{Onglet-2}}}|Image={{{Image-2|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-2|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+-->{{#if:{{{Onglet-3|}}}|{{Onglet|URL={{{URL-3}}}|URLType={{{URLType-3}}}|Onglet={{{Onglet-3}}}|Image={{{Image-3|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-3|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+-->{{#if:{{{Onglet-4|}}}|{{Onglet|URL={{{URL-4}}}|URLType={{{URLType-4}}}|Onglet={{{Onglet-4}}}|Image={{{Image-4|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-4|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+-->{{#if:{{{Onglet-5|}}}|{{Onglet|URL={{{URL-5}}}|URLType={{{URLType-5}}}|Onglet={{{Onglet-5}}}|Image={{{Image-5|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-5|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+-->{{#if:{{{Onglet-6|}}}|{{Onglet|URL={{{URL-6}}}|URLType={{{URLType-6}}}|Onglet={{{Onglet-6}}}|Image={{{Image-6|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-6|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+-->{{#if:{{{Onglet-7|}}}|{{Onglet|URL={{{URL-7}}}|URLType={{{URLType-7}}}|Onglet={{{Onglet-7}}}|Image={{{Image-7|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-7|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+-->{{#if:{{{Onglet-8|}}}|{{Onglet|URL={{{URL-8}}}|URLType={{{URLType-8}}}|Onglet={{{Onglet-8}}}|Image={{{Image-8|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-8|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+-->{{#if:{{{Onglet-9|}}}|{{Onglet|URL={{{URL-9}}}|URLType={{{URLType-9}}}|Onglet={{{Onglet-9}}}|Image={{{Image-9|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-9|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+-->{{#if:{{{Onglet-10|}}}|{{Onglet|URL={{{URL-10}}}|URLType={{{URLType-10}}}|Onglet={{{Onglet-10}}}|Image={{{Image-10|}}}|{{{Onglet-1}}}|{{{Onglet-2}}}|{{{Onglet-3}}}|{{{Onglet-4}}}|{{{Onglet-5}}}|{{{Onglet-6}}}|{{{Onglet-7}}}|{{{Onglet-8}}}|{{{Onglet-9}}}|{{{Onglet-10}}}|arrondi={{{arrondi|}}}|bordure={{{bordure|}}}|fond onglets={{{fond onglet-10|{{{fond onglets|}}}}}}|fond cadre={{{fond cadre|}}}|alignement onglet={{{alignement onglet|}}}}}}}<!--
+
+    --></tr><!--
+
+ --></table><!--
+ --><div style="border:{{{bordure|solid 2px #A3B1BF}}}; padding: .5em 1em 1em 1em; border-top: none; background-color:{{{fond cadre|transparent}}}; color:#000;zoom: 1"><!--
+   --><div style="padding:1ex; "><!--
+
+--></includeonly><!--
+
+--><noinclude>
+ 
+
+
+[[Catégorie: Subroutines-pcd]]
+[[fr:Modèle:Début des onglets]]
+
+ 
+</noinclude>

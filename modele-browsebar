@@ -1,0 +1,11 @@
+<div style="font-variant:; text-align: center; font-size: 102%; background:transparent; {{#if:{{{color|}}}|color:#{{{color|}}}; | }}">
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Cultchure|Cultchure]]</font> | [[Portail:Cultchure|Cultchure]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:jéografi|jéografi]]</font> | [[Portail:jéografi|jéografi]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Histoère|Histoère]]</font> | [[Portal:Histoère|Histoère]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Syinches|Syinches]]</font> |  [[Portal:Syinches|Syinches]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Biètes|Biètes]]</font> |  [[Portal:Biètes|Biètes]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Ésports|Ésports]]</font> | [[Portal:Ésports|Ésports]]}} <br/>
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Tous chés portals|'''Lisse d'chés portals témétiques''']]</font> | '''[[Portal:Tous chés portals|'''Lisse d'chés portals témétiques]]''' }}
+</div><noinclude>
+
+[[Catégorie:Subroutines-pcd|{{PAGENAME}}]]

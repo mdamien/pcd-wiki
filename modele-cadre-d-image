@@ -1,0 +1,16 @@
+{|{{#ifeq:{{{1|left}}}|center|align="center"|}} cellspacing="0" cellpadding="0" style="float:{{{1|left}}};{{#switch:{{{1|left}}}|left=margin-right:8px;|right=margin-left:8px;}}border:{{{largeurbordure|1px}}} solid {{{couleur|#AAAAAA}}};background-color:{{{fond|#FFFFFF}}};padding:0"
+|-
+|align="center"|{{{2}}}{{#if:{{{titre|}}}|<nowiki/>
+{{!}}-
+!th align="center" style="border-top:0;background-color:{{{fondtitre|#F4F4F4}}};font-size:smaller"{{!}}{{{titre|}}}
+<nowiki />}}
+|}
+<noinclude><!--
+  N'poin métte éd blanke ou d'saut d'line din l'line édvint !
+-->
+
+
+[[Catégorie:Subroutines-pcd]]
+
+[[fr:Modèle:Cadre d'Image]]
+</noinclude>

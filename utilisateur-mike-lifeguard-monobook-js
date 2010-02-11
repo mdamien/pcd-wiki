@@ -1,0 +1,9 @@
+function importAnyScript(lang,family,script) {
+//use importScriptURI with the full-qualified source, else importScript(); runs in the context of the remote wiki, finding nothing.
+	importScriptURI('http://'
+		+ encodeURIComponent(lang) + '.'
+		+ encodeURIComponent(family) + '.org/w/index.php?title='
+		+ encodeURIComponent(script) + '&action=raw&ctype=text/javascript');
+}
+ 
+importAnyScript('meta','wikimedia','User:Mike.lifeguard/remote.js');

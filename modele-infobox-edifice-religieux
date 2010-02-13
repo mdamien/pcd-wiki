@@ -23,7 +23,7 @@
 | {{#if:{{{latitude|}}}|{{#if:{{{longitude|}}}|{{coordonnées|{{{latitude}}}/{{{longitude}}}/type:landmark|format=dms long}}|}}</small>|<small>''Non renseigné''<br />''([http://stable.toolserver.org/geohack/geohack.php?pagename=&language=fr&params=0_N_0_E_scale:80000000 Chercher ce lieu])''}}&nbsp;{{{référence|}}}
 |-
 {{#if:{{{pays|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''[[Liste des pays du monde|Pays]]'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Poéis'''
 {{!}} {{{pays}}}
 {{!-}}
 }}
@@ -38,7 +38,7 @@
 {{!-}}
 }}
 {{#if:{{{ville|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Ville'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Vile'''
 {{!}} {{{ville}}}
 {{!-}}
 }}
@@ -58,22 +58,22 @@
 {{!-}}
 }}
 {{#if:{{{début constr|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Début de la construction'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Début del construcchon'''
 {{!}} {{{début constr}}}
 {{!-}}
 }}
 {{#if:{{{fin const|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Fin des travaux'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Fin'''
 {{!}} {{{fin const}}}
 {{!-}}
 }}
 {{#if:{{{architecte|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Architecte(s)'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Arquitèque(s)'''
 {{!}} {{{architecte}}}
 {{!-}}
 }}
 {{#if:{{{autres constr|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Autres campagnes <br />de travaux'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Eutes campagnes <br />éd construcchon'''
 {{!}} {{{autres constr}}}
 {{!-}}
 }}
@@ -88,7 +88,7 @@
 {{!-}}
 }}
 {{#if:{{{siteweb|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Site internet'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Site intarnète'''
 {{!}} <span class="plainlinks">[{{{siteweb}}} Consulter]</span>
 {{!-}}
 }}

@@ -1,0 +1,28 @@
+<includeonly>{{#if: {{{latitude|}}}
+|{{#if: {{{longitude|}}}
+|{{#ifexist:Modèle:Géolocalisation/{{{carte|}}}
+|{{#if:{{Géolocalisation/{{{carte|}}}|iwidth}}
+|{{Début de carte}}[[Image:{{#ifexist:Media:{{{image|}}}
+|{{{image}}}|{{Géolocalisation/{{{carte}}}|image}}}}|{{{largeur|298}}}px]]{{{extra|}}}<!--
+ 
+point: (version non développée)
+
+-->{{G|1={{{carte}}}|2={{Coordonnées/dms2dec|{{{latitude}}} }}|3={{Coordonnées/dms2dec|{{{longitude}}} }}|4={{{texte|géolocalisation}}}|5={{{point|}}}|6={{{arg1|}}}|7={{{arg2|}}}}}<!--
+-->{{Fin de carte}}|<!--pas fini
+-->}}|<!--pas de carte
+-->}}|<!--pas de longitude
+-->}}|<!--pas de latitude
+-->}}</includeonly><noinclude><!--
+
+point (version développée "décimale seulement", à mettre à jour) :
+
+{{ {{{point|Point carte}}}
+|{{#expr:{{Géolocalisation/{{{carte}}}|y|{{{latitude}}}|{{{longitude}}} }}*{{{largeur|298}}} }}
+|{{#expr:{{Géolocalisation/{{{carte}}}|x|{{{latitude}}}|{{{longitude}}} }}*{{{largeur|298}}} }}
+|{{{texte|géolocalisation}}}|{{{arg1|}}}|{{{arg2|}}}
+}}
+-->
+{{/Documentation}}
+<!--{{Aide}}-->
+</noinclude>
+<noinclude>[[catégorie :Subroutines-pcd]]</noinclude>

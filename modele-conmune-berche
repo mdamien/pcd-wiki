@@ -1,0 +1,86 @@
+<includeonly>{| style="margin:0 0 0.5em 0.5em; border: 1px #CCCCCC solid; border-collapse: collapse; font-size:90%;" border=1 cellpadding="4" cellspacing="0" align="right" bgcolor="#ffffff"
+|-----
+! colspan="2" bgcolor="#FFFFBB" align="center" |[[Image:Flag_of_Belgium_(civil).svg|27px]]&nbsp;&nbsp;{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+{{#if: {{{image|{{{carte|}}}}}}|
+{{!}}-----
+{{!}} colspan="2" align="center" style="padding:0px<!--trbl-->;background-color: #ffffff;" {{!}}<!--
+-->[[Image:{{{image|{{{carte}}}}}}|292px|{{{légende|{{{carte-legende|image de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}<!---->}}}<!---->}}}]]<br/><small>{{{légende|{{{carte-legende|image de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}<!---->}}}<!---->}}}</small>
+}}
+{{#if: {{{lat_deg|}}}|
+{{!}}-----
+{{!}}colspan="2" align="center"{{!}}{{Carte avec géolocalisation dans l'infobox
+|carte=Belgique
+|latitude={{#expr: {{{lat_deg|50}}} + {{{lat_min|0}}} / 60}}
+|longitude={{#expr: {{{lon_deg|3}}} + {{{lon_min|0}}} / 60}}
+|texte={{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+|point=Ville sans toponyme
+|arg1=15|
+|largeur=248
+}}
+}}
+{{!}}-----
+{{ #switch: {{{armoiries|}}}{{{drapeau|}}}
+| {{{armoiries|}}} = {{#if:{{{armoiries|}}}|
+{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}[[Héraldique|Armoiries]]
+{{!}}-----
+{{!}}colspan="2" align="center"{{!}}[[Image:{{{armoiries|Sin escudo.svg}}}|85px]] }}
+| {{{drapeau|}}} = {{#if:{{{drapeau|}}}|
+{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}[[Drapeau]]
+{{!}}-----
+{{!}}colspan="2" align="center"{{!}}<span style="display:table-cell; border-collapse:collapse; border: solid 1px #BBBBBB;">[[Image:{{{drapeau|Sin bandera.svg}}}|125px]]</span> }}
+| {{{armoiries|}}}{{{drapeau|}}} = {{#if:{{{drapeau|}}}|
+{{!}}colspan="1" bgcolor="#FFFFBB" align="center"{{!}}[[Héraldique|Armoiries]]
+{{!}} colspan="1" bgcolor="#FFFFBB" align="center"{{!}} [[Drapeau]]
+{{!}}-----
+{{!}}colspan="1" align="center"{{!}}[[Image:{{{armoiries|Sin escudo.svg}}}|85px]]
+{{!}}colspan="1" align="center" {{!}}<span style="display:table-cell; border-collapse:collapse; border: solid 1px #BBBBBB;">[[Image:{{{drapeau|Sin bandera.svg}}}|125px]]</span> }}
+| Résultat par défaut
+}}
+|-----
+! colspan="2" bgcolor="#FFFFBB" align="center" |Administration
+|-----
+|'''Poéis'''
+|[[Image:Flag of Belgium (civil).svg|21px]] [[Belgique]]
+|-----
+|'''Région'''
+|{{{region|(inconnu)}}}
+|-----
+|'''Conmunauté'''
+|{{{communaute|(inconnu)}}}
+|-----
+|'''Province'''
+|{{{province|(inconnu)}}}
+|-----
+|'''Arrondichemint'''
+| {{{arrondissement|(inconnu)}}}
+|-----
+|'''Conmune'''
+| {{{commune|(inconnu)}}}
+|-----
+! colspan="2" bgcolor="#FFFFBB" align="center" |Géographie
+|-----
+|'''Coordonnées''' ||{{coord|{{{lat_deg|}}}|{{{lat_min|}}}|{{{lat_sec|0}}}|N|{{{lon_deg|}}}|{{{lon_min|}}}|{{{lon_sec|0}}}|E|region:BE_type:city}}
+|-----
+|'''Supérfichie'''
+|{{{superficie|(inconnue)}}} [[Kilomètre carré|km²]]
+|-----
+|'''Nombe éd gins'''<br/> '''Dinchité'''
+|{{{population-totale|(inconnue)}}} hab. ''<small>({{{date-recensement|??/??/????}}})</small>''<br/>{{{densité|(inconnue)}}} hab./km²
+|-----
+! colspan="2" bgcolor="#FFFFBB" align="center" |Autres informations
+|-----
+|'''Gentilé'''
+|{{{gentile|(inconnu)}}}
+|-----
+|'''Code postal'''
+|{{{code-postal|(inconnue)}}}
+|-----
+|'''Zone téléfonique'''
+|{{{zone-telephonique|(inconnue)}}}
+|-----
+|'''[[Site web|Site officiel]]'''
+|{{{site|(inconnu)}}}
+|}{{#if:{{{carte|}}}|{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|Belgique]]}}
+}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

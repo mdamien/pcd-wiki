@@ -48,7 +48,7 @@
 |'''Conmunauté'''
 |{{{communaute|(inconnu)}}}
 |-----
-|'''Province'''
+|'''Provinche'''
 |{{{province|(inconnu)}}}
 |-----
 |'''Arrondichemint'''
@@ -83,4 +83,5 @@
 |}{{#if:{{{carte|}}}|{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|Belgique]]}}
 }}</includeonly><noinclude>
 {{/Documentation}}
+[[catégorie:Subroutines-pcd]]
 </noinclude>

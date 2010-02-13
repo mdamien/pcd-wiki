@@ -1,0 +1,5 @@
+<div class="template-documentation" style="clear:both;border:1px solid #AAAAAA;background-color:#{{#if:{{{background|}}}|{{{background}}}|ECFCF4}};padding:5px;zoom: 1;">
+{{#ifexpr: {{#if:{{{parser|}}}|1|0}}|{{Documentation modèle utilisant les ParserFunctions en sous-page|{{{1|{{FULLPAGENAME}}/Documentation}}}|preload=Modèle:Doc modèle/Preload}}|
+{{Documentation modèle en sous-page|{{{1|{{FULLPAGENAME}}/Documentation}}}|preload=Modèle:Doc modèle/Preload}}}}
+{{ {{#ifexist:{{{1|{{FULLPAGENAME}}/Documentation}}}|{{{1|{{FULLPAGENAME}}/Documentation}}}|ns:0}} }}
+</div>

@@ -1,0 +1,15 @@
+<includeonly><span title="{{#if: {{{texte|}}} |{{{texte}}}|Consultez la documentation du modèle}}">[[Image:Gtk-dialog-info.svg|12px|link={{fullurl:{{{lien|{{{link|Modèle:Lien vers modèle}}}}}}}}|{{#if: {{{texte|}}} |{{{texte}}}|Consultez la documentation du modèle}}]]</span></includeonly><noinclude>
+Ce modèle permet d'insérer l'icône d'information [[Image:Gtk-dialog-info.svg|12px|]] au bas d'un modèle, qui permet au lecteur d'aller sur la page de celui-ci afin de connaître sa documentation.
+
+==Paramètre==
+Le modèle accepte deux paramètres:
+{| class="infobox_v2" cellspacing="7" border="0"
+|-
+| class="entete" style="background-color:#323996;color:white;" | Exemple Infobox
+|-
+| class="navigation-only" colspan="2" style="border-top: 2px #C5C9E6 solid; font-size: 80%; font-weight: lighter; background:#eeeeff" | <div style="float:left; text-align:left"><span class="plainlinks">[{{fullurl:{{FULLPAGENAME}}|action=edit&section=0}} <span style="color:#555555;">modifier</span>]</span></div><div style="float:right; text-align:right">{{Lien vers modèle|link=Modèle:Infobox}}</div>
+|}
+*'''lien''' : page du modèle (ne pas oubliez l'[[Aide:Espace de noms|espace de noms]] Modèle:)
+*'''texte''' (facultatif) : alternative textuelle de l'image et contenu de l'infobulle, qui doit servir à désigner précisément la cible du lien si nécessaire.
+[[Catégorie:Subroutines-pcd|{{PAGENAME}}]]
+</noinclude>

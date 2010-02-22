@@ -10,4 +10,4 @@
   |text2={{{text2|}}}
 }}<includeonly>{{#ifeq:{{NAMESPACE}}|Utilisateur|{{#if:{{{nocat|}}}||[[Catégorie:Utilisateur {{{letter code}}}-5|{{PAGENAME}}]]}}}}</includeonly><noinclude>
 
-[[Catégorie:Modèle Babel|Babel field 5]]
+[[Catégorie:Modèles:Babel|Babel field 5]]

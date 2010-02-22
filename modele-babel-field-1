@@ -8,4 +8,4 @@
   |text={{{text}}}
   |text2={{{text2|}}}
 }}<includeonly>{{#ifeq:{{NAMESPACE}}|Utilisateur|{{#if:{{{nocat|}}}||}}}}</includeonly><noinclude>
-[[Catégorie:Modèle Babel|Babel field 1]]
+[[Catégorie:Modèles:Babel|Babel field 1]]

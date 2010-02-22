@@ -6,7 +6,7 @@
  &#123;{col-2}}
  &#123;{col-end}}
 
-Example:
+Ecsimpe:
 {{col-begin}}
 {{col-2}}
 item 1
@@ -14,18 +14,10 @@ item 1
 item 2
 {{col-end}}
 
-Parâmetros:
+Paramètes:
 * align (default: left)
 * valign (default: top)
 
-=={{Ver também}}==
-* {{tl|Col-begin}}
-* {{tl|Col-break}}
-* {{tl|Col-2}}
-* {{tl|Col-3}}
-* {{tl|Col-4}}
-* {{tl|Col-5}}
-* {{tl|Col-end}}
 
-[[Category:!Wp/mwl/Modelos]]
+[[Category:Subroutines-pcd]]
 </noinclude>

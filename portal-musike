@@ -80,10 +80,10 @@ __NOTOC__
 |tourint=#808080
 |fondtexte=#FFFFFF
 |couleurtitre=#000000
-|titre=<span id="Actualités">Actualités <small>([http://fr.wikinews.org/w/index.php?title=Page:Musique/Wikipedia&action=purge mettre à jour])</small></span>
+|titre=<span id="Image">Instrumints</span>
 |logo=Newspaper Cover.svg
-|editonly=Portal:Musique/Actualités
-|contenu=Portal:Musique/Actualités/format
+|editonly=Portal:Musique/Instrumints
+|contenu=Portal:Musique/Instrumints
 }}
 
 {{Cadre 3D
@@ -94,10 +94,10 @@ __NOTOC__
 |tourint=#808080
 |fondtexte=#FFFFFF
 |couleurtitre=#000000
-|titre=<span id="Articles récents">Articles récents</span>
+|titre=<span id="Articles récents">Darins Artikes</span>
 |logo=Stock alarm.svg
-|editonly=Portal:Musique/Articles récents
-|contenu=Portal:Musique/Articles récents
+|editonly=Portal:Musique/Darins Artikes
+|contenu=Portal:Musique/Darins Artikes
 }}
 
 </div>
@@ -131,20 +131,20 @@ __NOTOC__
 </div>
 
 {{Début des onglets
-|Onglet-1=<font color="navy">'''Portail'''</font>
-|URL-1=Portail:Musique
+|Onglet-1=<font color="navy">'''Portal'''</font>
+|URL-1=Portal:Musique
 |fond onglet-1=#D9EFFE
-|Onglet-2=<font color=black>'''Arborescence'''</font>
-|URL-2=Portail:Musique/Arborescence
+|Onglet-2=<font color=black>'''Aboréschinche'''</font>
+|URL-2=Portal:Musique/Aboréschinche
 |fond onglet-2=#D9EFFE
-|Onglet-3=<font color=black>'''Projet'''</font>
-|URL-3=Projet:Musique
+|Onglet-3=<font color=black>'''Prodjé'''</font>
+|URL-3=Prodjé:Musique
 |fond onglet-3=#D9EFFE
-|Onglet-4=<font color=black>'''Discussions'''</font>
-|URL-4=Discussion Projet:Musique
+|Onglet-4=<font color=black>'''Distchuchons'''</font>
+|URL-4=Distchuchon Prodjé:Musique
 |fond onglet-4=#D9EFFE
-|Onglet-5=<font color=black>'''Articles liés'''</font>
-|URL-5=:Catégorie:Portail:Musique/Articles_liés
+|Onglet-5=<font color=black>'''Artikes liés'''</font>
+|URL-5=:Catégorie:Portal:Musique/Artikes_liés
 |fond onglet-5=#D9EFFE
 |bordure=1px solid #aaa
 |fond cadre=#FFFFFF

@@ -7,10 +7,10 @@
 }}
 | colspan="2" align="center" | {{{loc}}}
 |-
-! colspan="2" style="text-align:center;background-color:#F6F3DD" | Administration
+! colspan="2" style="text-align:center;background-color:#F6F3DD" | Aménistrachon
 |-
 ! Poéyis
-| [[France]]
+| [[Franche]]
 |-
 ! Région
 | {{{région}}}
@@ -30,7 +30,7 @@
 ! Préfé
 | {{{préfet}}}
 |-
-! colspan="2" style="text-align:center;background-color:#F6F3DD" | Statistiques
+! colspan="2" style="text-align:center;background-color:#F6F3DD" | Éstatistiques
 |- 
 ! Nombe éd gins
 | {{formatnum:{{{population}}}}} hab. <small>({{{DatePop}}})</small>

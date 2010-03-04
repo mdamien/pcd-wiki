@@ -37,11 +37,11 @@
 |-
 {{#if:{{{population|}}} |{{#if:{{{sup|}}} | 
 ! Dinchité
-{{!}} {{#if: {{{sup|}}} {{{population|}}}|{{formatnum:{{#expr: ({{{population|}}}/{{{sup|}}}) round 0}}}} hab./km{{2}}}}
+{{!}} {{#if: {{{sup|}}} {{{population|}}}|{{formatnum:{{#expr: ({{{population|}}}/{{{sup|}}}) round 0}}}} hab./km<sup>2</sup>}}
 {{!-}}
 }}}}
 ! Supérfichie
-| {{formatnum:{{{sup}}}}} km{{2}}
+| {{formatnum:{{{sup}}}}} km<sup>2</sup>
 |-
 ! colspan="2" style="text-align:center;background-color:#F6F3DD" | Subdivisions
 |-

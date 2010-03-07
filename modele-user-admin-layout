@@ -1,0 +1,9 @@
+{{Userbox
+|id={{#if:{{{id|}}}|{{{id}}}|[[Image:Commons-logo.svg|30px]]}}
+|id-c={{#if:{{{id-c|}}}|{{{id-c}}}|#fbfbfb}}
+|info={{#if:{{{info|}}}|{{{info}}}|empty}}
+|info-c={{#if:{{{info-c|}}}|{{{info-c}}}|#d4eaf7}}
+|border-c={{#if:{{{border-c|}}}|{{{border-c}}}|#146598}}
+}}<noinclude>
+[[Category:Format d'chés modèles|{{PAGENAME}}]]
+</noinclude>

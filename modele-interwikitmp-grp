@@ -1,0 +1,128 @@
+<table style=" clear: right; float:right; border: 1px solid black; padding: 5px; margin:5px;">
+<tr>
+<th colspan="4"><small>Similar templates at English sister projects <small>[<span class="plainlinks">[{{fullurl:Template:Interwikitmp-grp|action=edit}} edit]</span>]</small></small></th><!--
+--></tr>
+{{#if:{{{mta|}}}{{{meta|}}}| <!-- Meta -->
+<tr>
+ <td>[[Image:Wikimedia-logo.svg|25x25px]]</td>
+ <td>mta</td> 
+ <td>Meta-wiki</td>
+ <td>[[m:Template:{{{mta|{{{meta|{{{2|{{PAGENAME}} }}} }}} }}}<!--
+     -->|{{{mta|{{{meta|{{{2|{{PAGENAME}} }}} }}} }}}]]<!--
+--></td>
+</tr>
+}}<!--
+-->{{#if:{{{wpd}}}{{{wp|}}}| <!-- en.Wikipedia -->
+<tr>
+ <td>[[Image:Wikipedia-logo.png|25x25px]]</td>
+ <td>wpd</td> 
+ <td>Wikipedia</td>
+ <td>[[w:Template:{{{w|{{{wp|{{{2|{{PAGENAME}} }}} }}} }}}<!--
+     -->|{{{w|{{{wp|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>
+</tr>
+}}<!--
+-->
+{{#if:{{{cms}}}{{{com|}}}| <!-- Commons -->
+<tr>
+ <td>[[Image:Commons-logo.svg|25x25px]]</td>
+ <td>cms</td> 
+ <td>Commons</td>
+{{#ifeq:{{SITENAME}}|Wikimedia Commons<!---
+-->|<td>[[Template:{{{cms|{{{com|{{{2|{{PAGENAME}} }}} }}} }}}|<!--
+ -->{{{cms|{{{com|{{{2|{{PAGENAME}} }}} }}} }}}]]</td><!--
+
+ -->|<td>[[commons:Template:{{{cms|{{{com|{{{2|{{PAGENAME}} }}} }}} }}}|<!--
+-->{{{cms|{{{com|{{{2|{{PAGENAME}} }}} }}} }}}]]</td><!--
+-->}}
+</tr>
+}}<!--
+-->
+{{#if:{{{wbk}}}{{{wb|}}}| <!-- Wikibooks -->
+<tr>
+ <td>[[Image:Wikibooks-logo.svg|25x25px]]</td>
+ <td>wbk</td> 
+ <td>Wikibooks</td>
+ {{#ifeq:{{SITENAME}}|Wikibooks <!--
+-->|<td>[[Template:{{{wbk|{{{wb|{{{2|{{PAGENAME}} }}} }}} }}}<!--
+ -->|{{{wbk|{{{wb|{{{2|{{PAGENAME}} }}} }}} }}}]]</td><!--
+-->|<td>[[b:Template:{{{wbk|{{{wb|{{{2|{{PAGENAME}} }}} }}} }}}<!--
+ -->|{{{wbk|{{{wb|{{{2|{{PAGENAME}} }}} }}} }}}]]</td><!--
+-->}}  
+</tr>
+}}<!--
+-->{{#if:{{{wqt|}}}{{{wq|}}}{{{WQT|}}}{{{ALL|}}}| <!-- Wikiquote -->
+<tr>
+ <td>[[Image:Wikiquote-logo.svg|25x25px]]</td>
+ <td>wqt</td>
+ <td>Wikiquote</td>
+ {{#ifeq:{{SITENAME}}|Wikiquote|<td>[[Template:{{{wqt|{{{wq|{{{2|{{PAGENAME}} }}} }}} }}}|{{{wqt|{{{wq|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>
+ |<td>[[q:Template:{{{wqt|{{{wq|{{{2|{{PAGENAME}} }}} }}} }}}|{{{wqt|{{{wq|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>}}
+</tr>
+}}<!--
+-->{{#if:{{{wsr|}}}{{{ws|}}}{{{WSR|}}}{{{ALL|}}}| <!-- Wikisource -->
+<tr>
+ <td>[[Image:Wikisource-logo.svg|25x25px]]</td>
+ <td>wsr</td>
+ <td>Wikisource</td>
+{{#ifeq:{{SITENAME}}|Wikisource| <td>[[Template:{{{wsr|{{{2|{{PAGENAME}} }}}}}}|{{{wsr|{{{ws|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>
+| <td>[[s:Template:{{{wsr|{{{ws|{{{2|{{PAGENAME}} }}} }}} }}}|{{{wsr|{{{ws|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>}}
+</tr>
+}}<!--
+-->{{#if:{{{WDY|{{{ALL|}}} }}}| <!-- Wiktionary -->
+{{#if:{{{wdy|{{{ALL|}}} }}}|
+<tr>
+ <td>[[Image:Wiktionary-logo-en.png|25x25px]]</td>
+ <td>wdy</td>
+ <td>Wiktionary</td>
+ <td>[[wikt:Template:{{{wdy|{{{2|{{ lcfirst:{{PAGENAME}}}}}}}}}}|{{{wdy|{{{2|{{lcfirst:{{PAGENAME}}}}}}}}}}]]</td>
+</tr>
+}}
+}}<!--
+-->{{#if:{{{WNW|{{{ALL|}}} }}}{{{wn|}}}{{{wnw|}}}|
+{{#if:{{{wnw|{{{wn|{{{ALL|}}} }}} }}}|
+<tr>
+ <td>[[Image:Wikinews-logo.svg|25x25px]]</td>
+ <td>wnw</td>
+ <td>Wikinews</td>
+ <td>[[n:Template:{{{wnw|{{{wn|{{{2|{{PAGENAME}} }}} }}} }}}|{{{wnw|{{{wn|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>
+</tr>
+}}
+}}<!--
+-->{{#if:{{{wsp}}}{{{species|}}}| <!-- Wikispecies -->
+<tr> 
+ <td>[[Image:Wikispecies-logo.svg|25x25px]]</td>
+ <td>wsp</td>
+ <td>Wikispecies</td>
+{{#ifeq:{{SITENAME}}|Wikispecies| <td>[[Template:{{{wsp|{{{species|{{{2|{{PAGENAME}} }}} }}} }}}<!--
+-->|{{{wsp|{{{species|{{{2|{{PAGENAME}} }}} }}} }}}]]</td> 
+ |<td>[[wikispecies:Template:{{{wsp|{{{species|{{{2|{{PAGENAME}} }}} }}} }}}<!--
+-->|{{{wsp|{{{species|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>}}
+</tr>
+}}<!--
+-->{{#if:{{{wvy}}}|<!-- Wikiversity -->
+<tr>
+ <td>[[Image:Wikiversity-logo.svg|25x25px]]</td>
+ <td>wvy</td>
+ <td>Wikiversity</td>
+{{#ifeq:{{SITENAME}}|Wikiversity
+| <td>[[Template:{{{wvy|{{{wv|{{{2|{{PAGENAME}} }}} }}} }}}<!--
+-->|{{{wvy|{{{wv|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>
+| <td>[[v:Template:{{{wvy|{{{wv|{{{2|{{PAGENAME}} }}} }}} }}}<!--
+-->|{{{wvy|{{{wv|{{{2|{{PAGENAME}} }}} }}} }}}]]</td> }}
+</tr>
+}}<!--
+-->{{#if:{{{mdw|{{{ALL|}}} }}}{{{mw|}}}|
+<tr>
+ <td>[[Image:Mediawiki.png|25x25px]]</td>
+ <td>mdw</td>
+ <td>MediaWiki</td>
+ <td>[[mw:Template:{{{mdw|{{{mw|{{{2|{{PAGENAME}} }}} }}} }}}|{{{mdw|{{{mw|{{{2|{{PAGENAME}} }}} }}} }}}]]</td>
+</tr>
+}}</table><noinclude>
+
+
+==Usage==
+Use interwiki links instead of this ugly box. Projects have different needs and thus different templates. Linking to them isn't always relevant or helpful. Very few are the same across all projects (and those that are, like {{t|!}}, don't really need to be linked anyway). To link to other projects besides Wikipedias, you can use something like {{tl|InterProject/all}} (a little more elegant at least).
+
+[[Category:Deprecated templates|{{PAGENAME}}]]
+</noinclude>

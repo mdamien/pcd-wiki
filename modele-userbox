@@ -1,0 +1,39 @@
+<div class="ubx" style="float:{{{float|left}}}; margin:{{{margin|1px}}}; width:238px; border:{{{border-s|1}}}px solid {{{1|{{{border-c|{{{id-c|#999999}}}}}}}}};">
+{| border="0" cellspacing="0" cellpadding="1" style="background-color:{{{2|{{{info-c|#EEEEEE}}}}}}; width:100%;"
+| style="width:{{{id-w|45px}}}; height:{{{id-h|45px}}}; background-color:{{{1|{{{id-c|#FFFFFF}}}}}}; color:{{{id-fc|#000}}}; padding:{{{id-p|1px}}}; line-height:{{{id-lh|1.25}}}; text-align:center; vertical-align:middle; font-size:{{{5|{{{id-s|14}}}}}}pt; {{{id-op|}}}" | '''{{{3|{{{id|id}}}}}}'''
+| style="font-size:{{{info-s|8}}}pt; padding:{{{info-p|1px 4px}}}; line-height:{{{info-lh|1.25}}}; color:{{{info-fc|#000}}}; vertical-align:middle; {{{info-op|}}}" | {{{4|{{{info|''info''}}}}}}
+|}</div><noinclude><br style="clear:both" />
+
+----
+
+'''Usage:''' <nowiki>{{</nowiki>Userbox|id background color|info background color|image or text|your text|id text size}}
+
+'''Extended usage:'''
+ <nowiki>
+ {{Userbox
+ | id       = id text or image (#3)
+ | id-c     = id background color (#1) - also the default box border color (or #999)
+ | id-fc    = id font color
+ | id-s     = id text size (#5) - in 'pt', defaults to 14. :-(
+ | id-p     = id cell padding space
+ | id-lh    = id line height
+ | id-w     = id box width
+ | id-h     = id box height
+ | id-op    = id other (CSS) parameter(s)
+ | info     = info text (#4)
+ | info-c   = info background color (#2) - background color of the whole table, really
+ | info-fc  = info font color
+ | info-s   = info text size - in 'pt', defaults to 8. :-(
+ | info-p   = info padding (distance between cell contents & cell border)
+ | info-lh  = info line height (or distance in between text lines)
+ | info-op  = info other (CSS) parameter(s)
+ | border-c = border color
+ | border-s = border width in pixels
+ | float    = css float property; left, right, none, w/default of left
+ | margin   = css margin property; left, right, none, w/default of left
+             (combined with 'float: none;' 'margin: 1px auto;' will center box in parent)
+ }}
+ </nowiki>
+
+[[Category:Modèles boètes| ]]
+</noinclude>

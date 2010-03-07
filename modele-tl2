@@ -1,0 +1,17 @@
+<tt>{{[[{{{LANG|}}}{{{SISTER|}}}Template:{{{1|}}}|{{{1|}}}]]{{#if:{{{2|}}}|&#124;{{{2}}}}}{{#if:{{{3|}}}|&#124;{{{3}}}}}}}</tt><noinclude>
+
+
+----
+Same as {{tl|tl}} except adds <nowiki><tt></tt></nowiki> around it and allows for one or two parameters.
+
+'''Comparison:'''
+* <nowiki>{{</nowiki>tl|template}} → {{tl|template}}
+* <nowiki>{{</nowiki>tl2|template}} → {{tl2|template}}
+
+'''Comparison 2:'''
+* <nowiki>{{</nowiki>tl|template|arg1|arg2}} → {{tl|template|arg1|arg2}}
+* <nowiki>{{</nowiki>tl2|template|arg1|arg2}} → {{tl2|template|arg1|arg2}}
+
+{{interwikitmp-grp}}
+[[Category:Internal link templates|{{PAGENAME}}]]
+</noinclude>

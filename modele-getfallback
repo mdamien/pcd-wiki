@@ -1,0 +1,25 @@
+{{#switch: {{#if: {{{1|}}} |{{{1}}}|{{int:Lang}}}}
+| af = nl
+| als = de
+| crh-cyrl | crh-latn = crh
+| de-formal | de-at | de-ch = de
+| hif-deva | hif-latn = hif
+| ike-cans | ike-latn = ike
+| ksh = de
+| kk-arab | kk-cyrl | kk-latn | kk-cn | kk-kz | kk-tr = kk
+| ku-latn | ku-arab = ku
+| mg = fr
+| nds = nds-nl
+| nds-nl = nds
+| pdt = nds
+| pt-br = pt
+| ruq-cyrl | ruq-grek | ruq-latn = ruq
+| sr-ec | sr-el = sr
+| tg-cyrl | tg-latn = tg
+| tt-cyrl | tt-latn = tt
+| vec = it
+| zh-cn | zh-hans | zh-hant | zh-hk | zh-mo | zh-my | zh-sg | zh-tw = zh
+| en-gb | #default = en
+}}<noinclude>
+[[Category:Modèles éd localisachon]]
+</noinclude>

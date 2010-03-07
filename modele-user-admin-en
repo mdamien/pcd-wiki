@@ -1,0 +1,9 @@
+{{User admin/layout
+|id={{{id|}}}
+|id-c={{{id-c|}}}
+|info=This user is an '''[[Commons:Administrators|<span style="color:#146598">administrator</span>]]''' on [[{{int:mainpage}}|<span style="color:#146598">Wikimedia Commons</span>]]. <span class ="plainlinks" style="font-size:0.9em">([{{fullurl:Special:Listusers|limit=1&username={{PAGENAMEE}}}} <span style="color:#005896">verify</span>])</span>
+|info-c={{{info-c|}}}
+|border-c={{{border-c|}}}
+}}<noinclude>
+{{translated tag|user}}
+</noinclude>

@@ -1,0 +1,6 @@
+{{#switch:{{{3}}}|b=<b>|r=<font color="red">}}[[{{{1}}}{{{2}}}{{{4}}}|{{{2}}}]]{{#switch:{{{3}}}|b=</b>|r=</font>}} &nbsp;<noinclude>
+==Notes==
+<br>'''Part of Sisterlinks project'''<br>Example: [[:Category:CommonsRoot]] For futher info: [[Template talk:Sisterlinks]]<br /> {{WikiPtmp}}
+[[Category:Interwiki link templates]]
+[[Category:Interwiki utility templates]]
+</noinclude>

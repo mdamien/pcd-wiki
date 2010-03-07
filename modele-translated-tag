@@ -1,0 +1,45 @@
+{{#ifeq:{{NAMESPACE}}|{{ns:4}}||<!-- ignore commons namespace for demonstration pages -->
+{{#switch:{{FULLPAGENAME}} 
+ |{{{ns|{{{ns1|{{ns:10}}}}}}}}:{{ucfirst:{{{page|{{{page1}}}}}}}}{{{sub|/{{SUBPAGENAME}}}}}
+ |{{{ns2|{{ns:10}}}}}:{{ucfirst:{{{page2}}}}}{{{sub|/{{SUBPAGENAME}}}}}
+ |{{{ns3|{{ns:10}}}}}:{{ucfirst:{{{page3}}}}}{{{sub|/{{SUBPAGENAME}}}}}
+ |{{{ns4|{{ns:10}}}}}:{{ucfirst:{{{page4}}}}}{{{sub|/{{SUBPAGENAME}}}}} = <!-- for any exceptions -->
+ |#default =
+{{#switch:localisation|{{{1}}}|{{{2}}}=<!-- it may be used directly so the message doesn't apply -->|#default =
+<div class="translatedTag" style="text-align:center">
+{{#ifexist:Template:Translated tag/{{{lang|{{SUBPAGENAME}}}}}<!-- check if we have a translation -->
+| {{Translated tag/{{{lang|{{SUBPAGENAME}}}}}|{{{template|{{#ifexist:{{BASEPAGENAME}}|{{BASEPAGENAME}}|{{#titleparts:{{PAGENAME}}|1}}}}}}}}}
+}}
+<div>{{lang|en|'''''NOTE:'' N'poin utiliser ch'modèle-lo diréctémint ! Ch'est seulemint por l'translachon.<!--
+-->{{#ifeq:{{NAMESPACE}}|{{ns:10}}<!-- leave this part out on non-template pages because it won't make sense -->
+   | &#32;Use {{tl|{{{template|{{#ifexist:{{BASEPAGENAME}}|{{BASEPAGENAME}}|{{#titleparts:{{PAGENAME}}|1}}}}}}}}} instead!'''
+   }}<!--
+-->}}</div>
+</div>
+}}<!--
+auto-categorizer
+-->{{#ifeq:{{FULLPAGENAME}}|{{ns:10}}:{{BASEPAGENAME}}/{{SUBPAGENAME}}
+  | {{DEFAULTSORT:{{PAGENAME}}}}<!--
+-->{{{localcat|[[Category:{{#ifexist:Template:Translated tag/local category-{{SUBPAGENAME}}
+   | {{translated tag/local category-{{SUBPAGENAME}}|{{{1}}}}}
+   | Commons templates-{{SUBPAGENAME}} }}]]}}}<!--
+-->[[Category:Translated {{#switch:{{lc:{{{1}}}}}
+   | cleanup = media cleanup templates
+   | license = license tags
+   | marker = marker templates
+   | problem = problem tags
+   | restriction = restriction tags
+   | header = header templates
+   | infobox = infobox templates
+   | navigational = navigational templates
+   | protection = protection templates
+   | documentation = documentation templates
+   | user = user templates
+   | localisation = templates for localisation
+   | templates needing categories
+   }}]]
+ | {{#ifeq:{{NAMESPACE}}|{{ns:6}}|[[Category:Images using translated tags]]}}<!-- check for misuse -->
+ }}<!--
+end auto-categorizer
+-->}}
+}}<noinclude>    </noinclude>

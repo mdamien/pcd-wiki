@@ -1,0 +1,6 @@
+|<div style="float: left; border: solid #bbb 1px; margin: 1px;">
+{| cellspacing="0" style="width: 238px; background: #f6f6f6"
+| style="width: 45px; height: 45px; background: #fff; text-align: center; font-size: 14pt; color: #fff" | [[Image:Wikinews-logo.svg|42px]]
+| style="font-size: 8pt; padding: 4pt; line-height: 1.25em;" |[[:n:{{FULLPAGENAME}}|Echl uzeu-lo]] ch'est un '''[[:fr:n:Wikinews:Administrateurs|aménistrateu]]''' dsu ch'Frinsé '''[[:fr:n:Accueil_principal|Wikinews]]'''. {{#if:{{{1|}}}
+|<span style="font-size:0.9em;" class="plainlinks">([{{fullurl:n:{{{lang_code|fr}}}:Special:ListUsers|limit=1&username={{urlencode:{{{username|{{BASEPAGENAME}}}}}}}}} <span style="color:#5871C6;">verify{{#if:{{{lang_code|}}}|&nbsp;{{{lang_code}}}|}}</span>])</span>|<span style="font-size:0.9em;" class="plainlinks">([{{fullurl:fr:n:Special:ListUsers|limit=1&username={{urlencode:{{{username|{{BASEPAGENAME}}}}}}}}} <span style="color:#5871C6;">verify</span>])</span>}}
+|}</div>

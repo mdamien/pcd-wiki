@@ -1,0 +1,12 @@
+[[Template:{{{1}}}|{&#123;{{{1}}}&#125;}]]<noinclude>
+
+
+----
+The same as {{tl|tl}} but this makes the brackets part of the link.
+
+'''Usage:''' <nowiki>{{</nowiki>t|template}} gives {{t|template}}.
+
+[[Category:Internal link templates|{{PAGENAME}}]]
+
+[[fr:Modèle:m]]
+</noinclude>

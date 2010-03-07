@@ -2,7 +2,7 @@
 |en|eo|ru={{User admin/{{int:Lang}}|id={{{id|}}}|id-c={{{id-c|}}}|info-c={{{info-c|}}}|border-c={{{border-c|}}}}}
 |{{#switch:{{GetFallback}}
 |en|eo|ru={{User admin/{{GetFallback}}|id={{{id|}}}|id-c={{{id-c|}}}|info-c={{{info-c|}}}|border-c={{{border-c|}}}}}
-|{{User admin/en}}
+|{{User admin/pcd}}
 }}}}<includeonly>{{#ifeq:{{FULLPAGENAME}}|User:{{BASEPAGENAME}}|[[Category:Commons administrators|{{PAGENAME}}]]}}</includeonly><noinclude>
 
 

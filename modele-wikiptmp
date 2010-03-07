@@ -1,0 +1,24 @@
+<div class="infobox sisterproject">
+<div style="float: left;">[[Image:Logo you were the missing piece.png|50px|none|Wikipedia]]</div>
+<div style="margin-left: 3px;">English [[w:Wikipedia|Wikipedia]] has the similar ''Template'':
+<div style="margin-left: 3px;">'''''[[W:template:{{{2|{{PAGENAME}}}}}|{{{2|{{PAGENAME}}}}}]]'''''</div>
+{{#if:{{{3|}}}|<div style="float:left;">''See <u>Master</u> (en.wp) Talk page: {{I}}[[W:Template talk:{{{2|{{PAGENAME}}}}}|{{{2|{{PAGENAME}}}}}]]'''''</div>}}
+</div></div>
+</div><noinclude>
+
+
+----
+[[w:Sister project|Sister project]] Complimentary templates. (All Link to template space here from a sister template page)
+Source and Master: [[template:Wikipediatmp]] (aka & formerly: WikiPtmp)
+[[Category:Interwiki link templates]]
+
+==Usage==
+Purpose: Cross-link and Normalize all [[:en:wikipedia]] templates also used <u>of the same name</u> on the Commons and other English 
+[[w:sister projects|sister projects]]. These are not used the same way, nor necessarily have the same form as those here due to the different missions of the [[:w:sister projects|sister projects]].<br><br>
+[[w:Template:Commonstmp|Commonstmp]] is the original converse to {{[[Template:WikiPtmp|WikiPtmp]]}} (see others on this sister project: {{[[Template:Interwikitmp-grp|Interwikitmp-grp]]}}. All link to {{w|Wikipedia}} template space. 
+
+{{indent|5}}Default linked page is to page of same name (only, see below), and specified argument is automatically prefixed by 'Wikipedia:Template:' to create an alternate link. A parameter may be given for name variations.
+
+{{indent|5}}NOTE: This template may be safely included in See Also or Usage sections nested in template 'noinclude' blocks.
+
+{{indent|5}}NOTE: This template means the en.wikipedia uses a template of the same name, which is not normally <u>exactly</u> the same as the commons via MediaWiki, et. al., due to differing needs. (Operationally, one emphasizes Article Space, one category space.) Wikipedia versions should operate on other sister projects without changes.</noinclude>

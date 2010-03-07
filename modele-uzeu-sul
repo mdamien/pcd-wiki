@@ -1,0 +1,152 @@
+{{Userbox
+  |id       = [[File:Wikimedia-logo.svg|40px]]
+  |id-c     = {{{3|#fff}}}
+  |info-c   = {{{4|#f6f6f6}}}
+  |border-c = {{{5|#bbb}}}
+  |border-s = {{{6|1}}}
+ |info     = This user has created a [[:m:Help:Unified login|global account]] and the main one is on <!--
+ -->{{#switch:{{{2|commons}}}<!--
+    -->|commons=[[User:{{PAGENAME}}|Commons]]<!--
+    -->|meta=[[meta:User:{{PAGENAME}}|Meta]]<!--
+    -->|mw=[[mw:User:{{PAGENAME}}|Media-Wiki]]<!--
+    -->|species=[[species:User:{{PAGENAME}}|Species]]<!--
+    -->|w=[[:w:{{{1|en}}}:User:{{PAGENAME}}|Wikipedia ({{{1|en}}})]]<!--
+    -->|wikt=[[:wikt:{{{1|en}}}:user:{{PAGENAME}}|Wiktionary ({{{1|en}}})]]<!--
+    -->|v=[[:v:{{{1|en}}}:User:{{PAGENAME}}|Wikiversity ({{{1|en}}})]]<!--
+    -->|b=[[:b:{{{1|en}}}:User:{{PAGENAME}}|Wikibooks ({{{1|en}}})]]<!--
+    -->|s=[[:s:{{{1|en}}}:User:{{PAGENAME}}|Wikisource ({{{1|en}}})]]<!--
+    -->|q=[[:q:{{{1|en}}}:User:{{PAGENAME}}|Wikiquote ({{{1|en}}})]]<!--
+    -->|n=[[:n:{{{1|en}}}:User:{{PAGENAME}}|Wikinews ({{{1|en}}})]]<!--
+  -->}}
+}}
+
+<noinclude>
+
+{{Sisterheader}}
+{{Sisterwikipedia|
+ |de:| |Vorlage:Benutzer SUL|
+ |af:| |Sjabloon:Gebruiker globale rekening|
+ |als:| |Vorlage:Benutzer SUL|
+ |an:| |Plantilla:Usuario SUL|
+ |ar:| |قالب:SUL Box|
+ |ca:| |Plantilla:Usuari SUL|
+ |cs:| |Šablona:Uživatel SUL|
+ |de:| |Vorlage:Benutzer SUL|
+ |dsb:| |Pśedłoga:Wužywaŕ SUL|
+ |fi:| |Malline:Käyttäjä SUL|
+ |fr:| |Modèle:Utilisateur Identifiant unique|
+ |el:| |Πρότυπο:Χρήστης SUL|
+ |en:| |Template:SUL Box|
+ |eo:| |Ŝablono:Vikipediisto SUL|
+ |es:| |Usuario:Userbox/SUL|
+ |ga:| |Teimpléad:Úsáideoir SUL|
+ |gd:| |Template:User SUL|
+ |hsb:| |Předłoha:User SUL|
+ |ht:| |Modèl:Itilizatè SUL|
+ |id:| |Templat:User SUL|
+ |it:| |Template:Utente SUL|
+ |ja:| |Template:User SUL|
+ |ko:| |틀:사용자 통합계정|
+ |la:| |Formula:Usor globalis|
+ |lb:| |Schabloun:Benotzer SUL|
+ |lt:| |Šablonas:User SUL|
+ |mt:| |Template:Utent SUL|
+ |nl:| |Sjabloon:Gebruiker SUL|
+ |oc:| |Modèl:Utilizaire SUL|
+ |pl:| |Szablon:User SUL|
+ |pms:| |Stamp:User SUL|
+ |pt:| |Predefinição:SUL Box|
+ |ru:| |Шаблон:Пользователь SUL|
+ |sc:| |Template:Utente_SUL|
+ |scn:| |Template:Utenti_SUL|
+ |sk:| |Šablóna:Užívateľ SUL|
+ |sl:| |Predloga:Uporabnik SUL|
+ |sv:| |Mall:SUL Box|
+ |tr:| |Şablon:User SUL|
+ |uk:| |Шаблон:User SUL|
+ |vi:| |Tiêu bản:SUL Box|
+ |zh:| |Template:SUL Box|
+}}
+{{Sisterwiktionary|
+ |de:| |Vorlage:Benutzer SUL|
+ |fi:| |Malline:Käyttäjä SUL|
+ |fr:| |Modèle:Utilisateur Identifiant unique|
+ |it:| |Template:Utente SUL|
+ |nl:| |Sjabloon:Universele gebruiker|
+ |pt:| |Predefinição:SUL Box|
+}}
+{{Sisterwikinews|
+ |en:| |Template:User SUL|
+ |es:| |Plantilla:SUL|
+ |fi:| |Malline:Käyttäjä SUL|
+ |fr:| |Modèle:Utilisateur SUL|
+ |it:| |Template:Utente SUL|
+}}
+{{Sisterwikibooks|
+ |fi:| |Malline:Käyttäjä SUL|
+ |fr:| |Modèle:Utilisateur SUL|
+}}
+{{Sisterwikisource|
+ |fi:| |Malline:Käyttäjä SUL|
+}}
+{{Sisterwikiquote|
+ |fi:| |Malline:Käyttäjä SUL|
+ |fr:| |Modèle:Utilisateur Identifiant unique|
+ |it:| |Template:Utente SUL|
+}}
+{{Sisterwikiversity|
+ |cs:| |Šablona:Uživatel SUL|
+ |el:| |Πρότυπο:Χρήστης SUL|
+ |en:| |Template:SUL Box|
+ |es:| |Plantilla:Usuario SUL|
+ |fi:| |Malline:Käyttäjä SUL|
+ |fr:| |Modèle:Utilisateur SUL|
+ |it:| |Template:User SUL|
+ |ja:| |Template:User SUL|
+ |pt:| |Predefinição:SUL Box|
+}}
+{{Sistermetawiki| |Template:SUL Box}}
+{{Sisterend}}
+
+
+[[Category:Modèles boètes|SUL]]
+
+[[af:Sjabloon:Gebruiker globale rekening]]
+[[als:Vorlage:Benutzer SUL]]
+[[an:Plantilla:Usuario SUL]]
+[[ar:قالب:SUL Box]]
+[[ca:Plantilla:Usuari SUL]]
+[[cs:Šablona:Uživatel SUL]]
+[[de:Vorlage:Benutzer SUL]]
+[[dsb:Pśedłoga:Wužywaŕ SUL]]
+[[fr:Modèle:Utilisateur SUL]]
+[[el:Πρότυπο:Χρήστης SUL]]
+[[en:Template:SUL Box]]
+[[eo:Ŝablono:Vikipediisto SUL]]
+[[es:Usuario:Userbox/SUL]]
+[[ga:Teimpléad:Úsáideoir SUL]]
+[[gd:Template:User SUL]]
+[[hsb:Předłoha:User SUL]]
+[[ht:Modèl:Itilizatè SUL]]
+[[id:Templat:User SUL]]
+[[it:Template:Utente SUL]]
+[[ja:Template:User SUL]]
+[[ko:틀:사용자 통합계정]]
+[[la:Formula:Usor globalis]]
+[[lb:Schabloun:Benotzer SUL]]
+[[lt:Šablonas:User SUL]]
+[[mt:Template:Utent SUL]]
+[[nl:Sjabloon:Gebruiker SUL]]
+[[oc:Modèl:Utilizaire SUL]]
+[[pms:Stamp:User SUL ]]
+[[pt:Predefinição:SUL Box]]
+[[ru:Шаблон:Пользователь SUL]]
+[[sc:Template:Utente_SUL]]
+[[scn:Template:Utenti_SUL]]
+[[sk:Šablóna:Užívateľ SUL]]
+[[sl:Predloga:Uporabnik SUL]]
+[[fi:Malline:User SUL]]
+[[sv:Mall:SUL Box]]
+[[tr:Şablon:User SUL]]
+[[zh:Template:SUL Box]]
+</noinclude>

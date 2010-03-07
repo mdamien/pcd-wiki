@@ -1,0 +1,16 @@
+[[:{{{3|w}}}:{{{1}}}|{{#if: {{{2|}}} |{{{2}}}|{{{1}}}}}]]<noinclude>
+
+
+----
+This is used to help create interwiki links to Wikipedia.
+* The default prefix default is simply <tt>w:</tt> however the language can be specified in the third parameter.
+
+====Usage====
+<nowiki>{{</nowiki>w|Page name}} → {{w|Page name}}
+
+<nowiki>{{</nowiki>w|Page name|Display name}} → {{w|Page name|Display name}}
+
+<nowiki>{{</nowiki>w|Page name|Display name|de}} → {{w|Page name|Display name|de}}
+
+[[Category:Interwiki link templates|{{PAGENAME}}]]
+</noinclude>

@@ -1,0 +1,50 @@
+<includeonly>{{#if:{{{2|}}}|<br />}}</includeonly>
+<br />{{#switch: {{{1}}}
+| 1=&nbsp;
+| 2=&nbsp;&nbsp; 
+| 3=&nbsp;&nbsp;&nbsp;
+| 4=&nbsp; &emsp; &nbsp;
+| 5=&nbsp; &emsp; &nbsp;
+| 6=&nbsp; &emsp; &nbsp;&nbsp;
+| 7=&nbsp; &emsp; &nbsp; &emsp;
+| 8=&nbsp; &emsp; &nbsp; &emsp;&nbsp;
+| 9=&nbsp; &emsp; &nbsp; &emsp; &nbsp;
+|10=&nbsp; &emsp; &nbsp; &emsp; &nbsp;&nbsp;
+|11=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;
+|12=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;&nbsp;
+|13=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;
+|14=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;&nbsp;
+|15=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;
+|16=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;&nbsp;
+|17=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;
+|18=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;&nbsp;
+|19=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;
+|20=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;&nbsp;
+|21=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;
+|22=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;&nbsp;
+|23=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;
+|24=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;&nbsp;
+|25=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;
+|26=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;&nbsp;
+|27=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;
+|28=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp;&nbsp;
+|29=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;
+|30=&nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp; &emsp; &nbsp;&nbsp;
+|0|#default=}}<noinclude>
+The indenter [[Template:Indent]] puts a newline and indents the specified count of spaces.
+
+'''Usage:''' <nowiki>{{</nowiki>indent|''# of spaces''}}
+* Indents up to 30 spaces, mixing en-size & em-size spaces.
+* Indent differs from {{tl|space}} only in that it automatically begins a wrapped-newline, then spaces<br>across ''n'' spaces, whereas {{tl|space}} spaces over ''n'' in the same (current) line.
+
+'''Example ''(indenting by 5)'':'''&nbsp; Some text.<nowiki>{{</nowiki>indent|5}}Some more text.
+<br>'''''Result:'''''<br>
+Some text.{{indent|5}}Some more text.
+
+For more detailed examples, and for comparisons with colon-shifts ":" or "::" for indenting,<br>see the full documentation: [[Template:Indent/doc]].
+
+Also see: {{tl2|in|n}} - to shift by ''n'' equal-size spaces.
+
+[[Category:Formatting templates|{{PAGENAME}}]]
+
+</noinclude>

@@ -1,0 +1,557 @@
+{{Conmune|nomcommune=Saint-Quintin
+ | nomcommune         = Saint-Quintin
+ | image              = 
+ | image-desc         = Echl hotel d’vile d’ Saint-Kintin
+ | armoiries          = Blason St-Quentin 02.svg
+ | armoiries-desc     = Saint-Quentin#Héraldique
+ | armoiries-taille   =	
+ | logo               = 
+ | logo-desc          = 
+ | logo-taille        = 
+ | région             = [[Picardie]]
+ | département        = [[Ainne (départémint)|Ainne]] (dsous-préfecture)
+ | arrondissement     = Saint-Kintin (chéf-yu)
+ | canton             = Saint-Quintin-Chinte (chéf-yu)<br /> Saint-Kintin Nord (chéf-yu)<br />Saint-Quintin Sud (chéf-yu)
+ | insee              = 02691
+ | cp                 = 02100
+ | maire              = Pierre André
+ | mandat             = 2008 - 2014
+ | intercomm          = Conmunauté d'agglomérachon d’ Saint-Quintin
+ | longitude          = 3.28638888889
+ | latitude           = 49.8486111111
+ | alt mini           = 68
+ | alt maxi           = 125
+ | km²                = 22.56
+ | sans               = 56471
+ | date-sans          = 2007
+ | aire-urbaine       = 
+ | nomhab             = Saint-Quintinoé
+ | siteweb            = 
+ | géoloc-département = }}
+
+
+'''Saint-Quintin''' ou '''Saint-Kintin''' ,  ch’est eune vile picarte plachée su l’ [[Sonme (fleuve)|Sonme]] din l’région [[Picardie]]. Al est l’ dsous-préfecture du départémint éd l’ [[Ainne (départémint)|Ainne]]. 
+
+
+[[image:Blason St-Quentin 02.svg|100px|center]]
+
+
+ 
+=== Démografie ===
+ 
+| 1793= 10 800
+| 1800= 10 477
+| 1806= 10 535
+| 1821= 12 351
+| 1831= 17 686
+| 1836= 20 570
+| 1841= 21 400
+| 1846= 23 852
+| 1851= 24 953
+| 1856= 26 887
+| 1861= 30 790
+| 1866= 32 690
+| 1872= 34 811
+| 1876= 38 924
+| 1881= 45 838
+| 1886= 47 353
+| 1891= 47 551
+| 1896= 48 868
+| 1901= 50 278
+| 1906= 52 768
+| 1911= 55 571
+| 1921= 37 345
+| 1926= 49 683
+| 1931= 49 448
+| 1936= 49 028
+| 1946= 48 556
+| 1954= 53 866
+| 1962= 61 071
+| 1968= 64 196
+| 1975= 67 243
+| 1982= 63 567
+| 1990= 60 644
+| 1999= 59 066
+| date1= 2006 | pop1 = 56 792<ref> [http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/pages2008/pdf/dep02.pdf Recensement de 2006 des communes de l'Aisne]</ref>
+| date2= 2007 | pop2= 56 471<ref>[http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/pages2009/pdf/dep02.pdf Recensement de la population de 2007 des communes de l'Aisne]</ref>|
+|source = Cassini<ref>[http://cassini.ehess.fr/cassini/fr/html/6_index.htm http://cassini.ehess.fr/ Population par commune avant 1962 (résultats publiés au journal officiel ou conservés aux archives départementales)]</ref> et [[Institut national de la statistique et des études économiques|INSEE]]<ref>[http://www.insee.fr/fr/ffc/docs_ffc/psdc.htm INSEE : Population depuis le recensement de 1962]</ref>
+|sansdoublescomptes=1962}}
+
+<center>
+'''Histogramme'''
+<br><small>(élaboration graphique par Wikipédia)</small>
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8) 
+ImageSize = width:600 height:300
+PlotArea = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period = from:0 till:70000
+TimeAxis = orientation:vertical
+AlignBars = justify
+ScaleMajor = gridcolor:darkgrey increment:5000 start:0
+ScaleMinor = gridcolor:lightgrey increment:2500 start:0
+BackgroundColors = canvas:sfondo
+
+BarData= 	 	
+  bar:1901 text:1901 
+  bar:1911 text:1911 
+  bar:1921 text:1921 
+  bar:1931 text:1931 
+  bar:1946 text:1946 
+  bar:1954 text:1954  
+  bar:1962 text:1962
+  bar:1968 text:1968
+  bar:1975 text:1975
+  bar:1982 text:1982
+  bar:1990 text:1990
+  bar:1999 text:1999
+  bar:2006 text:2006
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:1901 from:0 till: 50278
+  bar:1911 from:0 till: 55571
+  bar:1921 from:0 till: 37345
+  bar:1931 from:0 till: 49448
+  bar:1946 from:0 till: 48556
+  bar:1954 from:0 till: 53866
+  bar:1962 from:0 till: 61071
+  bar:1968 from:0 till: 64196
+  bar:1975 from:0 till: 67243
+  bar:1982 from:0 till: 63567
+  bar:1990 from:0 till: 60644
+  bar:1999 from:0 till: 59066
+  bar:2006 from:0 till: 56762
+
+PlotData=
+
+  bar:1901 at: 50278 fontsize:S text: 50.278 shift:(-8,5)
+  bar:1911 at: 55571 fontsize:S text: 55.571 shift:(-10,5)
+  bar:1921 at: 37345 fontsize:S text: 37.345 shift:(-10,5)
+  bar:1931 at: 49448 fontsize:S text: 49.448 shift:(-10,5)
+  bar:1946 at: 48556 fontsize:S text: 48.556 shift:(-10,5)
+  bar:1954 at: 53866 fontsize:S text: 53.866 shift:(-10,5)
+  bar:1962 at: 61071 fontsize:S text: 61.071 shift:(-10,5)
+  bar:1968 at: 64196 fontsize:S text: 64.196 shift:(-10,5)
+  bar:1975 at: 67243 fontsize:S text: 67.243 shift:(-10,5)
+  bar:1982 at: 63567 fontsize:S text: 63.567 shift:(-10,5)
+  bar:1990 at: 60644 fontsize:S text: 60.644 shift:(-10,5)
+  bar:1999 at: 59066 fontsize:S text: 59.066 shift:(-10,5)
+  bar:2006 at: 56762 fontsize:S text: 56.762shift:(-10,5)
+</timeline>
+</center>
+<!-- DÉBUT DU CODE DE L'HISTOGRAMME DÉMOGRAPHIE -->
+<center>'''Évolution démographique de 1793 à 2006''' <br /><small>(Élaboration graphique par Wikipédia)</small><br />
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.7,0.9,0.7)
+
+ImageSize  = width:780 height:300
+PlotArea   = left:50 bottom:30 top:30 right:50
+DateFormat = x.y
+Period =from:0 till:70000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:10000 start:0
+ScaleMinor = gridcolor:lightgrey increment:5000 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1793 text:1793
+  bar:1800 
+  bar:1806 
+  bar:1821 text:1821
+  bar:1831
+  bar:1836 
+  bar:1841 text:1841
+  bar:1846 
+  bar:1851 
+  bar:1856 text:1856
+  bar:1861 
+  bar:1866 
+  bar:1872 text:1872
+  bar:1876 
+  bar:1881 
+  bar:1886 text:1886
+  bar:1891 
+  bar:1896 
+  bar:1901 text:1901
+  bar:1906 
+  bar:1911 
+  bar:1921 text:1921
+  bar:1926 
+  bar:1931
+  bar:1936 text:1936
+  bar:1946 
+  bar:1954 
+  bar:1962 text:1962
+  bar:1968 
+  bar:1975 
+  bar:1982 text:1982
+  bar:1990 
+  bar:1999
+  bar:2006 text:2006
+  bar:2009
+
+PlotData=
+ color:barra width:15 align:left
+ bar:1793 from:0 till: 10800
+ bar:1800 from:0 till: 10477
+ bar:1806 from:0 till: 10535
+ bar:1821 from:0 till: 12351
+ bar:1831 from:0 till: 17686
+ bar:1836 from:0 till: 20570
+ bar:1841 from:0 till: 21400
+ bar:1846 from:0 till: 23852
+ bar:1851 from:0 till: 24953
+ bar:1856 from:0 till: 26887
+ bar:1861 from:0 till: 30790
+ bar:1866 from:0 till: 32690
+ bar:1872 from:0 till: 34811
+ bar:1876 from:0 till: 38924
+ bar:1881 from:0 till: 45838
+ bar:1886 from:0 till: 47353
+ bar:1891 from:0 till: 47551
+ bar:1896 from:0 till: 48868
+ bar:1901 from:0 till: 50278
+ bar:1906 from:0 till: 52768
+ bar:1911 from:0 till: 55571
+ bar:1921 from:0 till: 37345
+ bar:1926 from:0 till: 49683 
+ bar:1931 from:0 till: 49448
+ bar:1936 from:0 till: 49028
+ bar:1946 from:0 till: 48556
+ bar:1954 from:0 till: 53866
+ bar:1962 from:0 till: 61071
+ bar:1968 from:0 till: 64196
+ bar:1975 from:0 till: 67243
+ bar:1982 from:0 till: 63567
+ bar:1990 from:0 till: 60644
+ bar:1999 from:0 till: 59066
+ bar:2006 from:0 till: 56792
+</timeline></center>
+<!-- FIN DU CODE DE L'HISTOGRAMME DÉMOGRAPHIE -->
+
+
+
+[[image:Stadhuis Saint Quentin.JPG|thumb|300px|Echl hotel d’vile d’ Saint-Kintin]]
+
+
+
+
+
+ 
+
+== Aménistrachon ==
+ 
+:;Lisse d’chés mayeus
+ 
+* 2008-2014 = Pierre André (UMP)
+* 1995 - 2008  = Pierre André (UMP)
+* 1989 - 1995 = Daniel Le Meur (PCF) 
+* 1983 – 1989 = Jacques Braconnier (RPR)
+* 1977 – 1983 = Daniel Le Meur (PCF)
+* 1966 – 1977 = Jacques Braconnier (UDR)
+* 1965 – 1966 = Pierre Dupuy (UNR)
+* 1960 – 1965 =  Pierre Laroche (SFIO)
+* 1959 – 1960 ) = François Collery (SFIO)
+*  ….. - …..
+*  4 juillet 1861 - 8 mai 1863 = Charles Picard   
+
+
+
+=== Monumints ===
+
+[[Image:Basilique Saint-Quentin (Picardie).jpg|thumb|Basilique d’ Saint-Kintin]]
+
+
+*L’ '''Bazilique''' :
+
+XIII° sièke – XV° sièke = 
+:: « le moutier de Saint-Quentin, qui n'a ni commencement, ni fin »
+
+* Echl  ''''hotel d’ vile''':  éstile gotique, aveuc troés pignons. Il est orné d’ 173 ésculptchures. Il est plaché su   eune très grande plache fremée (1509). Il y o un bieu càrion  (37 cloques). 
+
+*'''Chés béguinages''' : L’ vile o granmint  [[Béguine|béguinages]] .
+ 
+* Moésons  Art déco .
+
+[[Image:Oriel Saint-Quentinois.JPG|thumb|center|[[Oriel]]s éd l'École d' musique d' Saint-Quintin - stile [[Art déco]]]]
+
+ 
+
+  
+=== Chés fétes ===
+
+* Chés deus gayants = 
+::Herbert (comte du [[Vérmindoé]] Herbert IV. Il o foait chés preumières franchises del vile in 1080. Ch’est chés preumières cartres singnées in Franche  pi 
+::Eléonore (darinne comteche du [[Vérmindoé]]. Ale o confreumé, aveuc [[Philippe II d’ Franche|Philippe Auguste]], l’ cartre d’ Saint-Quintin, in 1195).
+
+* L’ Foére au boudin (wartié Saint-Jean)
+* Chés fétes du paillasse (Pintecote)
+* L’ bradrie inSectimbe
+* Ech martché aux fleurs et pi ch’ martché dol poésie
+* Ech Salon du Live  in octobe 
+* L’foère éd Saint-Denis in octobe
+* ch’ villache éd Noé
+* Ech féstival d’chés achuchons
+* Chés jornées del BD
+* Jornée del glisse
+ 
+[[Image:St Quentin quartier nord.jpg|thumb|center|350px|Ch’ wartier Nord vers 1900]]
+
+== Onmes célébes loyés à l’ vile ==
+
+=== Savants ===
+
+* [[Dudon de Saint-Quentin]] (v. 970-av. 1043), chanoine, historien des troés preumiés  ducs d' [[Neurmindie]].
+* Guerric de Saint-Quentin (?- 1245 à Paris), dominicain, professeur d' téolodjie au collége Saint-Jacques, missionnaire. Ech pape Innocent IV li o donné commission d'aler précher chées Tartares. I passe deus ans din leu poéyis pi érvint mourir à Paris. Guerric avoait écrit granmin d'lives pérdus achteure.
+* [[Charles de Bovelles]] (ca. 1475-1566), humanisse célèbe, mathématicien, géomète, filosofe, téolodjien, granmairien, composa un rébus su l' construction del hotel d' vile, et pi fit don d'un vitrail à la collégiale in 1521.
+* [[Omer Talon]] (1595-1652), marquis du [[Le Boullay-Thierry|Boullay]] pi d' [[Tremblay-les-Villages|Tremblay-le-Vicomte]], né à Saint-Quintin, avocat général au parlement d' Paris, humaniste, enseignant, jurisconsulte pi grand orateu.
+* Claude Hémeré ou Emmerez (1574 - 1650), né à Saint-Quintin, docteur in téolodjie, chanoine d' Saint-Kintin.
+* Quentin De La Fons (vers 1591-1592 - vers 1650), né à Saint-Quintin, chanoine. 
+* Martin Grandin (1604 - 1691), né à Saint-Quintin, théologien, professeur d' téolodjie à la Sorbonne, princhipal du ''collége d' Dainville'' à Paris.
+* [[Luc d'Achery]] (Saint-Quintin 1609 - Paris 29 d'avri 1685), historien bénédictin.
+* Jean Heuzet (1660 - 1728), né à Saint-Kintin, professeur d' lètes à l'univarsité d' Paris. Il enseigna au ''collége d' Bieuvais'' à Paris.
+*[[Pierre-François-Xavier de Charlevoix]] (1682-1761), né à Saint-Quintin, voyageu pi historien jésuite, auteu d'lives historiques su ech Japon, Saint-Domingue, ch' Paraguay pi ch' Canada.
+* Louis-Paul Colliette (? - 1786) né Saint-Quintin, doyen du doyenné de Saint-Kintin, tchuré d' Grigourt, capelin éd l'église roéyale d' Saint-Quintin, publia in 1771 chés ''Mémoires pour servir à l'histoire ecclésiastique, civile et militaire de la province du Vermandois''.
+* [[Antoine Bénézet]] (1713-1784), enseignant philanthrope pi anti-esclavagisse anméritchin, natif d' Saint-Quintin.
+* [[Jean-Louis Marie Poiret]] (Saint-Quintin, 1755 - Paris, 1834), abé, botanisse pi ésplorateu.
+* [[Henri Martin (historien)|Henri Martin]] (1810-1883),  historiens éd l' Franche au XIX° sièke, mimbe del Académie française, mimbe del Académie des sciences morales et politiques, député, connu pou avoèr dés idées progressisses.
+* [[Paul Desains|Quentin-Paul Desains]] (1817 - 1885), né à Saint-Quintin, fisicien, professeur à la Sorbonne, mimbe del Institut et pi  del Académie des sciences. Il étudie chés lois del caleure rayonnante, l' caleure latinte del vapeur, l' polarisachon d'ché rayons calorifiques.
+* Natalis Rondot (1821-1900), né à Saint-Quintin, économiste frinsé partisan du libre-échange, chargé de missions commerciales in Chine, publia granmin d'lives in éconnomie, histoère, tekniques. 
+* [[Paul Brouardel|Paul-Camile-Hippolyte Brouardel]] (1837- 1906), né à Saint-Quintin, médecin des hôpitaux, mimbe de l'Académie de médecine, doyen del faculté d' médecine de Paris, mimbe libre de l'Académie des sciences, preusidint del Société de médecine légale, auteu d' travaux importants dsu l'hygiène pi l' médecine légale.   
+* [[Serge Boutinot]] ornithologue , il o participé à l' création del résérve naturèle du Parc d'Isle.
+* [[Jacques-Émile Dubois]], (1920-2005), professeur, kémisse, résistant, pionnier del [[informatique-kémique]].
+
+=== onmes éd lètes ===
+
+*[[Jean-Baptiste-Henri de Valincour|Jean-Baptiste-Henri du Trousset de Valincourt]] (1643-1730), né à Saint-Quintin, historiographe du Roé, mimbe del Académie française, auteu d' contes, fabes, stances, ouvraches historiques pi d' értérduchons.
+* [[Félix Davin]] (1807-1836), écrivin, fondateu dech jornal ''Le Guetteur''.
+* [[Pierre Louis Pinguet]] (Saint-Quintin, 1793 - Paris, 1871), auteu d'chés [[Lètes picartes]] in picard Vérmindoé.
+* [[Xavier Aubryet]] (Pierry, près d'Epernay, 1827 - Paris, 1880), romancier pi publicisse. Jonne, i vit à  à Saint-Quintin. Il fonda in 1845 eune érvue litéroère et pi i collabora ach jornal ''Le Guetteur''
+* [[André Billy]] (1882-1971), écrivin, mimbe del'[[Académie Goncourt]] in 1943.
+* [[Jean Leune]] (1889-1944), journalisse écrivin mort pou l' Franche don ch' nom est inscrit au [[Panthéon (Paris)|Panthéon de Paris]].
+* [[Sylvie Dervin]] (1954), écriveu, auteu dramatique pi éscénarisse (''La Cyprina, L'Affaire du père Noël, Les Amants de la nuit'').
+
+=== Artisses ===
+
+* [[Mathieu (de) Bléville]], né à Saint-Quintin au début du XVI° sièke, pinte su verre (vitraux) célébe in s' temps.
+* [[Pierre Berton]] (XVIe s.), ''Pierre de Saint-Quentin'', moète tailleu d' pierres fut employé aux travaux les plus délicats que nous ait légués la Renaissance. C'est à lui que Pierre Lescot et Jean Goujon confièrent l'exécution des bâtiments du nouveau Louvre et ceux du célèbre jubé de Saint-Germain l'Auxerrois.
+* [[Michel Dorigny]] (1617 - 1665), né à Saint-Quentin, pinte pi graveur, professeur à l'Académie de peinture de Paris.
+* [[Maurice Quentin de La Tour]] (1704-1788), natif d' Saint-Quintin, pastelliste passé maitre dans l'art du portrait, portraitiste officiel de [[Louis XV d'Franche|Louis XV]], bienfaiteur de la ville (fondation de l'École de dessin).
+* [[Ulysse Butin]] (1838-1883), artisse pinte.
+* [[Édouard Hippolyte Margottet]] (1848-1887), artisse pinte.
+* [[Maurice Pillard]] dit Verneuil,(né l' 29 d' avri 1869 à Saint-Quintin - défuncté in 1942 à Genève), illustrateur célèbe in Art nouvieu.
+* [[Amédée Ozenfant]] (1886-1966), chéf d' file du [[Purisme (art)|purisme]], mouvemint d’avant-garde des innées vint.
+* [[Arthur Midy]], pinte, né in 1887 à Saint-Kintin, mort in 1944.
+* [[Paul Guiramand]], (1926-2007), artisse pinte, Grand Prix d' Rome (1953)
+* [[Delphine Gleize]] ([[1973]]-), réalisatrice née à Saint-Quintin
+
+=== Musiciens ===
+
+* [[Antoine Francisque]] (v. 1570, Saint-Quintin-1605, Paris), luthiste pi compositeu.
+* [[Antoine Renard]] (1825-1872), ténor d'opéra
+* [[Josquin des Prés]] (1450-1521), compositeu del Renaissance, il étoait moète éd tcheur del catédrale éd Saint-Quintin in 1509
+
+=== Arkitéctes ===
+
+* Augustin Bacquet (1895-1975), Arkitécte DPLG.
+voir « Société Académique de Saint-Quintin » pi « Académie des Sciences de Toulouse ».
+* Édouard Bacquet (1863-1941) Arkitécte Honorifique del vile d' Saint-Quintin, Rebatisseur éd l'Église d' [[Lizy]] (Ainne) vers 1930.
+* [[Louis Brassart-Mariage]] (1875-1933) Arkitécte (Art déco). Vir  Wikipedia :  conmune d' [[Remigny (Ainne)|Remigny]] (02).
+* [[Hyacinthe Perrin]] (1877-1965), architecte DPLG.
+
+=== Onmes politiques ===
+
+* [[Gracchus Babeuf]] (1760-1797), révolutionnaire frinsé, natif d' Saint-Quintin.
+*Guy-Félix [[de Pardieu]] (comte de), né in 1758 à [[Saint-Domingue (vile)|Saint-Domingue]] descendant de François Depardieu de Franquesnay, lieutenant du Roé à Saint-Domingue, où sin père colons tchultivoait l' canne à suke, commandant d'chés Gardes Nationaux du district d' Saint-Quintin, seigneur d' [[Château de Vadancourt|Vadancourt]], Bray-Saint-Christophe, Bracheux, Hérouel et pi eutes agés, demeurant à Paris il est élu député aux Étots Généraux d' 1789 pou ch' bailliage d' Saint-Quintin pis d'vint ech '''mayeu ''' dech conmune-lo in 1792, l'innée apreu i vo bruler chés tites d' noblesses pi chés tites féodaux. Il est défuncté in 1799.
+* [[Charles Rogier]], (Saint-Quintin, 1800 - Bruxelles, 1885), onme politique, il étoait din ch' prumié gouvern'mint national berche.
+* [[Xavier Bertrand]] (21 mars 1965 -), mayeu-abjòn in 1995 ; il o té ministe del Santé d' 2002 à 2007, pis ministe du Travail d' 2007 à janvié 2009. D'puis janvié 2009, il est le s'crétaire général éd l'UMP.
+
+=== Mirlitoères ===
+
+* D'Amerval, seigneur d'Applaincourt, il o participé à l'définse del vile pindint ech siège d'chés Espagnols in 1557.
+*[[Pierre Dumoustier]] (Saint-Quintin 1771 - 1831 Nantes), comte, général divisionnaire éd l'Impire.
+* [[Philippe Peschaud]], (1915-2006) anthiu combattant del 2e division blindée  pi pérsidint pindint 32 ans del fondation du maréchal [[Philippe Leclerc de Hauteclocque|Leclerc]]
+
+=== Ecclésiastiques ===
+
+*[[Jean Hennuyer]] (1497- 1578), né à Saint-Quintin, fit l'éducation éd pusieus prinches d' sang roéyal, d'vient confesseur éd Diane d' Poitiers, éd Catherine de Médicis. Aumônier à la Cour d'Henri II, pis d'Henri III, il obtint ch' tite d' confesseur du roé. Il fut lonmé évêque d' Lisieux in 1559.
+*Jacques Lescot (1594 - 1656), né à Saint-Quintin, docteur à el Sorbonne, princhipal du [[collége d' Dainville]], confesseur éd Richelieu, évêques d' Chartres in 1642.
+* [[Claude Marolles]] (1753-1794), curé d' Saint-Jean-Batisse, député du clergé aux Etots Généraux, évêque éd l'Ainne
+*[[Léon Dehon|Léon Jean Dehon]], né à La Capelle, chanoine, auteus d' travaux su chés questions sociales pi l'Église catolique. Il est ch' fondateur del Société dés prètes dech Sacré-tcheur d' Jézus (SCJ). Il o étou organisé des euves sociales à Saint-Quintin. Il est inhumé din l'église Saint-Martin.
+
+=== Ésportifs ===
+
+* [[Paul Roux]], anthiu campion d' boxe
+* [[Cyril Thomas]], boxeu, campion d'Urope professionnèl - poids pleume.
+* Olivie Dannoville (1978-), campion d' Franche éd triathlon.
+* [[Jérôme Thomas (boxeu)|Jérôme Thomas]] (1979-), boxeu.
+* [[José Catieau]], cyclisse  
+
+=== Eutes===
+* [[Nadine de Rothschild]] (née l' 18 d'avri 1932 à Saint-Quintin), née Nadine Nelly Jeannette Lhopitalier, actrice dsou ch' pseudo éd [[Nadine Tallier]],  ale épouse in 1962 ch' baron [[Edmond de Rothschild (1926-1997)|Edmond de Rothschild]] (1926-1997), banquire frinsé.
+* Antoine Picchi (''1389 Saint-Quintin, 1456 Gap'') Tour à tour ménéstrèl, bindit d' grand k'min, i fut célébe pou ses ésploés à ch'ju éd "pière, papié, ciseus".
+
+== Jumelaches ==
+
+* Kaiserslautern (Alemanne) (1967)
+* L'Escurial (Madrid – Éspaigne)  - San Lorenzo de El Escorial (1987)
+* Rotherham (Roéyome-Uni) (1990)
+
+Il y o étou dés loïens aveuc l’ vile dech Canada  [[Saint-Quintin (Nouvieu-Brunswick)|Saint-Quintin]] au Nouvieu-Brunswick<ref>[http://www.tourisme-saintquentinois.fr/photos_ftp/A_3/DOSSIER%20GENERAL.pdf Saint-Quintin et pi ech Saint-Quintinoé] vu l’ 7 éd janvié 2009</ref>.
+
+=== Monumints ===
+
+==== El basilique ====
+*Quentin Delafons [Charles Gomart éd.], ''Extraits originaux d’un manuscrit de Quentin De La Fons intitulé Histoire particulière de l’Église de Saint-Quentin'', t. I, St-Q. : Doloy, 1854, XX-506 p. [manuscrit de 1649]
+*Jules Hachet, ''L’œuvre de Colard Noël, architecte du roi Louis XI à la collégiale de Saint-Quentin (1477-1500)'', St-Quentin, 1924. V-65 p.
+*Pierre Héliot, ''La Basilique de Saint-Quentin'', Paris : Picard, 1967, 111p. et 36 pl. h. t.
+==== Echl hotel d’ vile ====
+*''Saint-Quentin, Hôtel de ville'', 1980, St-Quentin : Société académique de St-Quentin, 16 pl. et table.
+"''Démons et merveilles de l'Hotel de ville de Saint-Quentin''", 2009 : Bernard Lebrun, Editions du Quesne. 159 pages.
+
+==== Echl  Art déco ====
+*Claude Richard, ''Saint-Quentin et l’Art déco'', St-Quentin, 1995, 127 p.
+
+==== Ech lycée Henri Martin ====
+Il o té fondé in 1854 par [[Henri Martin (historien)|Henri Martin]].
+
+=== Personnalités ===
+
+====Saint Quentin ====
+*Jean-Luc Villette, ''Hagiographie et culte d’un saint dans le haut Moyen Âge : saint Quentin, apôtre du Vermandois, VIe-XIe siècle''. 2 vol, thèse de III{{e}} cycle, université de Paris X-Nanterre, 1982, 598 p.
+*Jean-Luc Villette, Passiones et inventiones S. Quintini, l'élaboration d'un corpus hagiographique du haut Moyen Âge, ''Vies de saints dans le Nord de la France (VIe- XIe siècles), Mélanges de science religieuse'', t. 56, 1999, n°2, p. 49-76.
+
+==== Maurice Quentin De La Tour ====
+*Christine Debrie, ''Maurice Quentin de la Tour, peintre de portraits au pastel 1704-1788, au musée Antoine-Lécuyer de Saint-Quentin'', Thonon-les-Bains : l'Albaron, Société Présence du Livre & St-Quentin : Ville de Saint-Quentin, musée Antoine-Lécuyer, 1991, 237 p., ill.
+
+=== Notes pi référinches ===
+<references />
+
+== Bibliografie ==
+
+*André Fiette, Suzanne Fiette, ''Saint-Quentin'', Colmar - Ingersheim, 1972, 108 p.
+*Jean-Luc A. d'Asciano, Francis Normand, ''Le Piéton de Saint-Quentin'', éditions Du Quesne, Lille, 2004.
+
+=== Histoère ===
+
+*Georges Lecocq, ''Histoire de la ville de Saint-Quentin'', St-Q. : C. Poëtte, 1875, 206 p . (réimpression : Marseille : Laffitte, 1977).
+*Maxime de Sars, ''Petite histoire de Saint-Quentin'', Laon, 1936, X-174 p. (réimpression  : Bruxelles : Culture et civilisation, 1978)
+*Nelly Boutinot, ''Saint-Quentin, notre ville à travers les siècles'', Amiens : CRDP, 1969, 138 p. 
+*Jean-Paul Besse, ''Saint-Quentin et sa contrée dans l'Histoire'', Versailles, 2006, 450p.
+
+*Claude Hemeræus, ''Augusta Viromanduorum vindicata et illustrata duobus libris quibus antiquitates urbis et ecclesiae sancti Quintini viromandensiumque comitum series explicantur'', Paris : Bessin, 1643, [12]-374-76 p.
+*Louis-Paul Colliette, ''Mémoires pour servir à l'histoire ecclésiastique, civile et militaire de la province du Vermandois'', 3 vol. Cambrai : S. Berthoud, 1771-1772, 700, 870 et 486 p. 
+*Louis Hordret, ''Histoire des droits anciens et des prérogatives et franchises de la ville de Saint-Quentin, capitale du Vermandois en Picardie'', Paris : Dessain, 1781, XVI-510 p. 
+*Quentin Delafons [Charles Gomart éd.], ''Extraits originaux d’un manuscrit de Quentin De La Fons intitulé Histoire particulière de la Ville de Saint-Quentin. Première partie'', t. II, St-Q. : Doloy, 1856, XVI-343 p.
+*Quentin Delafons [Charles Gomart éd.], ''Extraits originaux d’un manuscrit de Quentin De La Fons intitulé Histoire particulière de la Ville de Saint-Quentin. Seconde partie'', t. III, St-Q. : Doloy, 1856, 380 p.
+*Charles Gomart, ''Études saint-quentinoises'', 5 vol. Saint-Quentin : Ad. Moureau, 1851-1878.
+*Charles Picard, ''Saint-Quentin, de son commerce et de ses industries'', 2 vol., St Quentin : Moureau, 1865 et 1867, 467 et 616 p. 
+
+*Antoine Chabaud [Emmanuel Lemaire éd.], ''Mémoire historique sur la ville de Saint-Quentin, écrit en 1775 par Antoine Chabaud'', Saint-Quentin : Poëtte, 1885, 198 p.
+*Jean-Luc Collart, « Saint-Quentin », dans Bruno Desachy, Jean-Olivier Guilhot dir., ''Archéologie des villes. Démarches et exemples en Picardie : Abbeville, Amiens, Beauvais, Château-Thierry, Chaumont-en-Vexin, Compiègne, Crépy-en-Valois, Laon, Noyon, Saint-Quentin, Senlis, Soissons, Vervins.'' Amiens,1999, p. 67-128, pl. h.t. X et XI (''Numéro spécial de la Revue archéologique de Picardie'' ; 16). [archéologie et topographie]
+
+====Antiquité====
+*Emmanuel Lemaire, « Essai sur l’histoire de la ville de Saint-Quentin. Introduction. Livre I : Époque gallo-romaine », ''Mémoires de la Société académique de Saint-Quentin'', 4° série, t. I, ''Années 1876-1878'', 1878, p. 349-501
+
+====Moyin age====
+*Emmanuel Lemaire, « Essai sur l’histoire de la ville de Saint-Quentin, livre II. Histoire de la ville et de l’église de Saint-Quentin sous l’empire barbare et les comtes bénéficiaires du Vermandois »,''Mémoires de la Société académique de Saint-Quentin'', 4{{e}} série, t. II, ''Années 1878-1879'', 1879, p. 383-510.
+*Emmanuel Lemaire, « Essai sur l’histoire de la ville de Saint-Quentin. Livre III : Histoire de la ville et de l’église de Saint-Quentin sous les comtes héréditaires de Vermandois (de l’an 892 environ à l’an 1214) », ''Mémoires de la Société académique de Saint-Quentin'', 4e série, t. VIII, Années 1886-1887, 1888. p. 264-361.
+*Henri Bouchot, Emmanuel Lemaire, ''Le livre rouge de l’hôtel de ville de Saint-Quentin. Cartulaire des franchises et privilèges de la ville au Moyen Âge'', Saint-Quentin: Poëtte, 1882, XC-491 p.
+*Emmanuel Lemaire, Alfred Giry, ''Archives anciennes de la ville de Saint-Quentin, publiées par Emmanuel Lemaire et précédées d’une étude sur les origines de la commune de Saint-Quentin, par A. Giry'', t. I (1076-1328), Saint-Quentin, 1888.
+*Emmanuel Lemaire, ''Archives anciennes de la ville de Saint-Quentin'', t. II (1328-1400), Saint-Quentin, 1910.
+*Jacques Ducastelle, Les institutions communales de Saint-Quentin au XII° sièke : étude comparée du document d’Eu et de la charte de Philippe-Auguste, ''Les chartes et le mouvement communal, Colloque régional (octobre 1980) organisé en commémoration du neuvième centenaire de la Commune de Saint-Quentin'', s.l., 1982, p. 11-25.
+*André Triou, Les origines de la commune de Saint-Quentin et ses vicissitudes, ''Les chartes et le mouvement communal, Colloque régional (octobre 1980) organisé en commémoration du neuvième centenaire de la Commune de Saint-Quentin'', s.l., 1982, p. 3-10.
+
+*Alain Verhille, L'intégration de Saint-Quentin au commerce de la guède à l'époque médiévale,  ''Mémoires de la fédération des sociétés d'histoire et d'archéologie de l'Aisne'', tome LI, 2006, p. 247-270.
+
+==== 1557 ====
+
+[[Image:St Quentin monument.jpg|thumb|center|350px|« Monumint d’ 1557 »]]
+*Charles Gomart, ''Siège de Saint-Quentin et bataille de la Saint-Laurent en 1557'', St-Quentin, 1859, 87 p. et 3 pl.
+*Emmanuel Lemaire ''et alii'', ''La guerre de 1557 en Picardie. Bataille de Saint-Laurent, siège de Saint-Quentin, prises du Catelet, de Ham, de Chauny et de Noyon, par Emmanuel Lemaire, Henri Courteault, Elie Fleury, lieutenant-colonel Édouard Theillier, Édouard Eude, Léon Déjardin, Henri Tausin, Abel Patoux, membres de la Société académique de Saint-Quentin avec le concours de MM. Claudio Perez y Gredilla, A. Verkooren, A. Dietens, A. Gooværts et C. Couderc'', Saint-Quentin, : Poëtte, 1896, CCXXIX-456 p., fig., pl. et cartes.
+*Emmanuel Lemaire, « Saint-Quentin vers le milieu du XVI e sièke », ''Mémoires de la Société académique de Saint-Quentin'', 4° série, t. XIV, ''Années 1899-1900'', 1902, p. 56-139.
+
+==== Époque modérne ====
+*Charles Normand, ''Étude sur les relations de l’État et des communautés aux XVII° et  XVIII° siècles. Saint-Quentin et la royauté'', Paris : Champion, 1881, XXXVIII-220 p.
+*Alfred Daullé, ''La Réforme à Saint-Quentin et aux environs du XVI° sièke à la fin du XVIII° sièke'', Le Cateau : Roland, 1901, in-8, 302 p. (2° éd. revue et augmentée : Le Cateau, 1905, 308 p.).
+
+==== Occupation d' 1814-1815 ====
+*Éloi Q. A.Fouquier-Cholet, ''Précis historique des occupations militaires de la ville de Saint-Quentin en 1814 et 1815'', St-Quentin, 1824. 
+
+==== Djérre d' 1870 ====
+
+[[Image:PD 204 - SAINT-QUENTIN - Les prussiens sur la Grand'Place en 1871.jpg|thumb|L'occupation prussienne en 1871]]
+
+*Abel Deroux, ''L'Invasion de 1870-71 dans l'arrondissement de Saint-Quentin, etc.'', St-Q., 1871, in-12, 157 p.
+*Élie Fleury, ''Il y a vingt-cinq ans. Documents, récits, souvenirs sur les événements de la guerre de 1870-71 à Saint-Quentin et dans le saint-quentinois'', St-Quentin : Imp. du Journal de St-Q., 1895-1896, 574 p.
+
+==== Preumière djérre mondiale ====
+*''Saint-Quentin - Cambrai. La Ligne Hindenburg. 1914-1918. Itinéraire : Arras. Cambrai. Saint-Quentin. Un guide. Un panorama. Une histoire'', Clermont-Ferrand : Michelin et Cie, 1921, in-8, 128 p. (Guides illustrés Michelin des champs de bataille 1914-1919 ; Publié sous le patronage du ministère de l'instruction publique et des beaux arts et du ministère des affaires étrangères).
+*Élie Fleury, ''Sous la botte. Histoire de la ville de Saint-Quentin pendant l'occupation allemande. Août 1914-février 1917. (Ouvrage honoré d'une souscription du ministère des affaires étrangères). Croquis de M. Paul Séret''. St-Q. : Impr. Lambert, Dupont et Cie, 18, rue Raspail ; Paul Dupré, éditeur, 34, rue Croix-Belle-Porte, 1925. (16 juin 1926.), in-4, 348 p. 
+*Élie Fleury, ''[Les ]Murailles de Saint-Quentin ou reproduction et commentaire des 213 affiches apposées sur les murs de la ville du 25 août 1914 au 28 février 1917'', Paris : E. Feuillâtre ; St-Q. : P. Dupré, 1923,416 p.
+*Marc Ferrand, ''La ville mourut : Saint-Quentin 1914-1917'', Paris : la vie universitaire, 1923, 415 p.
+*''Sur les traces de la Grande Guerre dans la région de Saint-Quentin, la Première Guerre mondiale dans l'Aisne'', Saint-Quentin : Imprimerie de l'Aisne, 2000, 63 p.
+
+* '''Bacquet Robert'''. Engagé volontaire a 17 ans 1/2. Soldat au 133e régiment d'infanterie de ligne. Décoré de la médaille militaire et de la Croix de Guerre aveuc palme. Tué à l'ennemi à [[Hooglede]] ( Bergike) l' 3 d' octobe 1918 à l'âge de 18 ans 1/2.
+* '''Baudoux Auguste'''. Soldat au 87e régiment d'infanterie de ligne. Tué à l'ennemi à [[Changy]] (51300 Marne) l' 30 éd sectimbe 1914.
+* '''Pouch Émile'''. Capitaine au 87e régiment d'infanterie de ligne. Décoré de la Croix de Guerre avec 3 citations. Tué à l'ennemi à [[Esnes-en-Argonne]] (55100 Meuse) l' 18 ed juillet 1917.
+
+==== Deusième djérre mondiale ====
+*Pierre Séret, L’histoire municipale de la ville de Saint-Quentin au cours de la guerre 1939-1945, ''Mémoires de la Fédération des Sociétés d'Histoire et d'Archéologie de l'Aisne'', 29, St-Quentin : Debrez, 1984, p. 79-104.
+
+
+
+== Vir étou ==
+{{commonscat}}
+
+=== Loyens intarnètes ===
+* [http://www.ville-saintquentin.fr/ mérrie d’Saint-Kintin] 
+* [http://www.tourisme-saintquentinois.fr/  Office éd tourisme d’ Saint-Quintin]
+* [http://inventaire.picardie.fr/docs/MERIMEEIA02002800.html/ Patrimoène industriel d’ Saint-Quintin]
+* [http://clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/02/accueil_02691.htm Clotchés.org]
+* [http://40000clochers.com/Visite.asp?CP=02100&Ville=SAINT%2DQUENTIN 40000clochers.com]
+
+ 
+
+{{DEFAULTSORT:Saint-Quentin}}
+ 
+[[Catégorie:Conmunes éd l'Ainne]]
+
+[[fr:Saint-Quentin]]
+[[ca:Saint-Quentin]]
+[[ceb:Saint-Quentin]]
+[[de:Saint-Quentin]]
+[[en:Saint-Quentin, Aisne]]
+[[eo:Saint-Quentin (Aisne)]]
+[[es:San Quintín (Aisne)]]
+[[he:סן-קנטן]]
+[[it:Saint-Quentin]]
+[[ja:サン＝カンタン]]
+[[lmo:Saint-Quentin, Aisne]]
+[[nl:Saint-Quentin (Aisne)]]
+[[nn:Saint-Quentin]]
+[[no:Saint-Quentin]]
+[[oc:Saint-Quentin]]
+[[pam:Saint-Quentin, Aisne]]
+[[pl:Saint-Quentin]]
+[[pt:Saint-Quentin]]
+[[ro:Saint-Quentin]]
+[[ru:Сен-Кантен]]
+[[simple:Saint-Quentin, Aisne]]
+[[sl:Saint-Quentin]]
+[[sv:Saint-Quentin]]
+[[sw:Saint-Quentin]]
+[[uk:Сен-Кантен]]
+[[vi:Saint-Quentin, Aisne]]
+[[vo:Saint-Quentin]]

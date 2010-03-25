@@ -1,0 +1,8 @@
+<includeonly>{| {{ #switch:{{{Charte}}}|défaut=class{{=}}"wikitable centre"|align{{=}}"center" rules{{=}}"all" cellspacing{{=}}"0" cellpadding{{=}}"4" style{{=}}"border: 1px solid #999; background: #f9f9f9"}}
+{{#if: {{{Titre|}}} | {{!+}} '''{{{Titre}}}''' }}
+|-style="background: #{{ #switch:{{{Charte}}}| commune=ddffdd|intercommunalité=ffe2bf|canton=ece5ca|arrondissement=e1e1e1|département=f6f3dd|région=bbdefd|défaut=|ddffdd}}"
+! scope=col colspan="2" | innées
+! scope=col | Identité
+! scope=col | Étitchète
+! scope=col | Qualitè
+|-</includeonly><noinclude></noinclude>

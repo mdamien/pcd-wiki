@@ -1,0 +1,6 @@
+<includeonly>|- style="vertical-align: top"
+| style="text-align: right" | {{#if:{{{Début|}}}|{{{Début|}}}| &nbsp; }}
+| style="text-align: right" | {{#if:{{{Fin|}}}|{{{Fin|}}}| &nbsp; }}
+| {{#if:{{{Identité|}}}|{{{Identité|}}}| &nbsp; }}
+| style="text-align: center" | {{#if:{{{Parti|}}}|{{{Parti|}}}| &nbsp; }}
+| {{#if:{{{Qualité|}}}|{{{Qualité|}}}| &nbsp; }}</includeonly><noinclude></noinclude>

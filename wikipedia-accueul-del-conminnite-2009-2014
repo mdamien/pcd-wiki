@@ -34,14 +34,14 @@ I feut mètte chés boétes Babel su vote ''Pache d'Uzeu''.  L' sintacse, pèr e
 :::;<nowiki>{{babel|fr|en-2|wa-1}}</nowiki>    
 ::::::::::(vir chés boétes éd-sérant).
 
-L' sintacse ale est détalhée pi éspliquée [[Wikipédia:Babel|ici]].
+L' sintacse ale est détalhée pi éspliquée [[Wikipédia:Babel|ichi]].
 <noinclude>[[Catégorie:Trucs|Babel]] [[Catégorie:Wikipédia|Accueul del conminnité]]</noinclude>
 ==Foaire des écrivures dseur ch'Wikipédia==
 * i feut éditer l'nouvèle pache o bin éditer eune pache anthieusse.
 
 ::;Chés balisses
-Eune balisse cha foait ech stile:
-* <nowiki><br></nowiki>  pou aller à l'line<br>
+Eune balisse cha foait l'mise in pache:
+* <nowiki><br /> ou <br></nowiki>  pou foaire un értour al line<br>
 * <nowiki><I>teske</I></nowiki> : ''teske in italique''
 * <nowiki><u>teske</u></nowiki> : <u>teske ... :</u>
 * <nowiki><b>teske</b></nowiki> : '''teske in cros'''
@@ -53,9 +53,9 @@ Eune balisse cha foait ech stile:
 * <nowiki>teske <tt>coucou</tt></nowiki> : teske <tt>coucou</tt>
 * <nowiki>teske <center>coucou</center></nowiki> : teske <center>coucou</center>
 
-cha foait aveuc tout
+cha foait aveuc tertous chés balisses
 
-* <nowiki><I><u><b><big>teske</u></I></b></big> <sup>33</sup> <center><tt>coucou</center></tt></nowiki> : <br><I><u><b><big>teske</u> <sup>33</sup> </I></b></big> <center><tt>coucou</center></tt>
+* <nowiki><I><u><b><big>teske</big></b></u></I> <sup>33</sup> <center><tt>coucou<sub>2</sub></tt></center></nowiki> : <br><I><u><b><big>teske</big></b></u></I> <sup>33</sup> <center><tt>coucou<sub>2</sub> </tt></center>
 
 
 ==Translatewiki.net update==

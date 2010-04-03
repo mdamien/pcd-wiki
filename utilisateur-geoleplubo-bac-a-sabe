@@ -3,6 +3,56 @@
 [[image:wiktionary-en.png|80px]]<br />
 [[image:Wikiquote.png|80px]]<br />
 [[image:Wikibooks.png|80px]]<br />-->
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+{{Projets Wikimedia}}
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+<div style="position:relative; margin:0; height: 24px; overflow: hidden; width: 100%; background-color: #eef;border: solid 1px #ccd;">
+<div style="height: 24px; overflow: hidden; width: 100%; background-color: #eef;border: none;">
+<div style="opacity:0.5">[[Image:Wikimedia-logo.svg|48px|right]]</div>
+<div style="position:relative; top: 2px; left:4px; text-align:center">'''Autres projets Wikimedia'''</div>
+</div>
+</div>
+<div style="text-align:center;font-size:80%" class="plainlinks">
+La Wikiversité bénéficie du soutien de la [[Foundation:Accueil?uselang=fr|Wikimedia Foundation]] qui héberge sur ses serveurs plusieurs projets [[w:wiki|wiki]] libres, multilingues et gratuits :
+</div>
+{| class="plainlinks" align="center" cellpadding="2" width="100%"
+| align="right" |<div style="position:relative;width:35px;height:35px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:35px;overflow:hidden;line-height:35px;letter-spacing:35px;">[[w:fr:Accueil|<span title="fr:Accueil" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Wikipedia-logo.svg|35px|http://fr.wikipedia.org/wiki/Accueil]]</div>
+| align="left" |[[w:fr:Accueil|'''Wikipédia''']]<br /><small>Encyclopédie libre</small>
+|
+| align="right" | <div style="position:relative;width:35px;height:35px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:35px;overflow:hidden;line-height:35px;letter-spacing:35px;">[[wikt:Page d'accueil|<span title="wikt:Wiktionnaire:Page d'accueil" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Wiktprintable_without_text.svg|35px|wikt:Wiktionnaire:Page d'accueil]]</div>
+| align="left" | [[wikt:fr:Wiktionnaire:Page_d'accueil|'''Wiktionnaire''']]<br /><small>Dictionnaire universel</small>
+|
+| align="right" |<div style="position:relative;width:35px;height:19px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:19px;overflow:hidden;line-height:19px;letter-spacing:35px;">[[n:Accueil|<span title="n:Accueil" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Wikinews-logo.svg|35px|w:Accueil]]</div>
+| align="left" |[[n:fr:Accueil|'''Wikinews''']]<br /><small>Actualités libres</small>
+|-
+| align="right" |<div style="position:relative;width:35px;height:35px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:35px;overflow:hidden;line-height:35px;letter-spacing:35px;">[[b:Accueil|<span title="b:Accueil" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Wikibooks-logo.svg|35px|b:Accueil]]</div>
+| align="left"  | [[b:fr:Accueil|'''Wikibooks''']]<br /><small>Ensemble de textes pédagogiques</small>
+|
+| align="right" | <div style="position:relative;width:30px;height:35px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:35px;overflow:hidden;line-height:35px;letter-spacing:30px;">[[q:en:Main Page|<span title="q:en:Main Page" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Wikiquote-logo.svg|30px|q:Accueil]]</div>
+| align="left" | [[q:fr:Accueil|'''Wikiquote''']]<br /><small>Recueil de citations</small>
+|
+| align="right" |<div style="position:relative;width:30px;height:35px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:35px;overflow:hidden;line-height:35px;letter-spacing:30px;">[[s:Accueil|<span title="s:Accueil" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Wikisource-logo.svg|30px|s:Accueil]]</div>
+| align="left" | [[s:fr:Accueil|'''Wikisource''']]<br /><small>Bibliothèque universelle</small>
+|-
+| align="right" |<div style="position:relative;width:35px;height:35px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:35px;overflow:hidden;line-height:35px;letter-spacing:35px;">[[m:Accueil|<span title="m:Accueil" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Wikimedia Community Logo.svg|35px|m:Accueil]]</div>
+| align="left" | [[meta:Accueil|'''Meta-Wiki''']]<br /><small>Coordination de tous les projets</small>
+|
+| align="right" |<div style="position:relative;width:35px;height:41px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:41px;overflow:hidden;line-height:41px;letter-spacing:35px;">[[wikispecies:Accueil|<span title="wikispecies:Accueil" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Wikispecies-logo.svg|35px|wikispecies:Accueil]]</div>
+| align="left" | [http://species.wikimedia.org/wiki/Accueil '''Wikispecies''']<br /><small>Inventaire du vivant</small>
+|
+| align="right" |<div style="position:relative;width:30px;height:40px;z-index:2;overflow:hidden;"><div class="nodeco" style="position:absolute;font-size:40px;overflow:hidden;line-height:40px;letter-spacing:30px;">[[commons:Accueil|<span title="commons:Accueil" style="text-decoration:none;">&nbsp; &nbsp;</span>]]</div>[[Image:Commons-logo.svg|30px|commons:Accueil]]</div>
+| align="left" |[[commons:Accueil|'''Wikimedia Commons''']]<br /><small>Base de données multimédia</small>
+|}
+
+<noinclude>
+[[Catégorie:Modèle interwiki]]
+[[de:Vorlage:Hauptseite:Schwesterprojekte]]
+[[el:Βικιεπιστήμιο:Άλλα εγχειρήματα]]
+[[en:Template:Sisterprojects]]
+[[es:Plantilla:Proyectos de Wikimedia]]
+[[it:Pagina principale/Progetti]]
+</noinclude>
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 </div>
 <div id="globalWrapper">
 <div id="column-content">

@@ -37,26 +37,44 @@ I feut mètte chés boétes Babel su vote ''Pache d'Uzeu''.  L' sintacse, pèr e
 L' sintacse ale est détalhée pi éspliquée [[Wikipédia:Babel|ichi]].
 <noinclude>[[Catégorie:Trucs|Babel]] [[Catégorie:Wikipédia|Accueul del conminnité]]</noinclude>
 ==Foaire des écrivures dseur ch'Wikipédia==
-* i feut éditer l'nouvèle pache o bin éditer eune pache anthieusse.
+* i feut éditer l'nouvèle pache édpui l'Moaite Pache o bin éditer eune pache anthieusse.
 
 ::;Chés balisses
 Eune balisse cha foait l'mise in pache:
-* <nowiki><br /> ou <br></nowiki>  pou foaire un értour al line<br>
-* <nowiki><I>teske</I></nowiki> : ''teske in italique''
-* <nowiki><u>teske</u></nowiki> : <u>teske ... :</u>
-* <nowiki><b>teske</b></nowiki> : '''teske in cros'''
-* <nowiki><big>teske</big></nowiki> : <big>teske in grand</big>
-* <nowiki><small>teske</small></nowiki> : <small>tiot teske</small>
-* <nowiki>teske<sup>coucou</sup></nowiki> : teske<sup>coucou</sup>
-* <nowiki>teske<sub>indice</sub></nowiki> : teske<sub>indice</sub>
-* <nowiki>teske<strike> berlure </strike></nowiki> teske... : teske<strike> berlure </strike> teske...
-* <nowiki>teske <tt>coucou</tt></nowiki> : teske <tt>coucou</tt>
-* <nowiki>teske <center>coucou</center></nowiki> : teske <center>coucou</center>
+{| class="wikitable" style="text-align:center; width:80%;"
+|-
+! scope=col | Balisse Html
+! scope=col | Eute fachon wiki
+|-
+| <nowiki><br /> ou <br></nowiki>  pou foaire un értour al line<br>
+| foaire deus intrés dsu ech cleftieu.
+|-
+| <nowiki><I>teske</I></nowiki> : ''teske in italique''  
+|           <nowiki>' ' teske ' '</nowiki> cha donne ''teske''
+|-
+| <nowiki><b>teske</b></nowiki> : '''teske in cros'''
+| <nowiki>' ' ' teske ' ' '</nowiki> cha donne '''teske'''
+|-
+| <nowiki><u>teske</u></nowiki> : <u>teske ... </u>
+|-
+| <nowiki><big>teske</big></nowiki> : <big>teske in grand</big>
+|-
+| <nowiki><small>teske</small></nowiki> : <small>tiot teske</small>
+|-
+| <nowiki>teske<sup>coucou</sup></nowiki> : teske<sup>coucou</sup>
+|-
+| <nowiki>teske<sub>indice</sub></nowiki> : teske<sub>indice</sub>
+|-
+| <nowiki>teske<strike> berlure </strike></nowiki> teske... : teske<strike> berlure </strike> teske...
+|-
+| <nowiki>teske <tt>coucou</tt></nowiki> : teske <tt>coucou</tt>
+|-
+| <nowiki>teske <center>coucou</center></nowiki> : teske <center>coucou</center>
+|}
 
 cha foait aveuc tertous chés balisses
 
 * <nowiki><I><u><b><big>teske</big></b></u></I> <sup>33</sup> <center><tt>coucou<sub>2</sub></tt></center></nowiki> : <br><I><u><b><big>teske</big></b></u></I> <sup>33</sup> <center><tt>coucou<sub>2</sub> </tt></center>
-
 
 ==Translatewiki.net update==
 *Currently 27.67% of the MediaWiki messages and 0.51% of the messages of the extensions used by the Wikimedia Foundation projects have been localised. Please help us help your language by localising and proof reading at [[betawiki:Special:LanguageStats/{{CONTENTLANGUAGE}}|translatewiki.net]]. This is the [http://translatewiki.net/w/i.php?title=Special:RecentChanges&translations=only&trailer=/{{CONTENTLANGUAGE}} recent localisation activity] for your language. Thanks, [[Utilisateur:GerardM|GerardM]] 18 Janvié 2010 à 14:51 (UTC)

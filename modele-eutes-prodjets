@@ -1,26 +1,26 @@
 <includeonly><div class="noprint" id="autres_projets">
-<p>Sur les autres projets Wikimedia :</p>
+<p>Chés eutes prodjéts Wikimedia :</p>
 <ul class="noarchive">
 {{#if:{{{commons|{{{1|{{{Commons|}}}}}}}}}|
-<li class="commons"><span class="plainlinks">[{{fullurl:Commons:{{{commons|{{{1|{{{Commons|}}}}}}}}}}}?uselang=fr {{{commons titre|{{PAGENAME}}}}} sur <span>Wikimedia Commons</span>] (ressources multimédia)</span>
+<li class="commons"><span class="plainlinks">[{{fullurl:Commons:{{{commons|{{{1|{{{Commons|}}}}}}}}}}}?uselang=pcd {{{commons titre|{{PAGENAME}}}}} dseur <span>Wikimedia Commons</span>] (ressources multimédia)</span>
 }}{{#if:{{{commons2|{{{1|{{{Commons2|}}}}}}}}}|
-<li class="commons"><span class="plainlinks">[{{fullurl:Commons:{{{commons2|{{{1|{{{Commons2|}}}}}}}}}}}?uselang=fr {{{commons titre2|{{PAGENAME}}}}} sur <span>Wikimedia Commons</span>] (ressources multimédia)</span>
+<li class="commons"><span class="plainlinks">[{{fullurl:Commons:{{{commons2|{{{1|{{{Commons2|}}}}}}}}}}}?uselang=pcd {{{commons titre2|{{PAGENAME}}}}} dseur <span>Wikimedia Commons</span>] (ressources multimédia)</span>
 }}{{#if:{{{wikispecies|{{{species|{{{Wikispecies|}}}}}}}}}|
-<li class="species">[[wikispecies:{{{wikispecies|{{{species|{{{Wikispecies|}}}}}}}}}|{{{wikispecies titre|{{PAGENAME}}}}} sur <span>Wikispecies</span>]] (inventaire du vivant)
+<li class="species">[[wikispecies:{{{wikispecies|{{{species|{{{Wikispecies|}}}}}}}}}|{{{wikispecies titre|{{PAGENAME}}}}} dseur <span>Wikispecies</span>]] (invintoère dech vivant)
 }}{{#if:{{{wikt|{{{wiktionary|{{{Wiktionary|}}}}}}}}}|
-<li class="dictionary">[[wikt:{{{wikt|{{{wiktionary|{{{Wiktionary|}}}}}}}}}|{{{wiktionary titre|{{PAGENAME}}}}} sur <span>Wiktionnaire</span>]] (dictionnaire universel)
+<li class="dictionary">[[wikt:{{{wikt|{{{wiktionary|{{{Wiktionary|}}}}}}}}}|{{{wiktionary titre|{{PAGENAME}}}}} dseur <span>Wiktionnaire</span>]] (lifamote univarsèl)
 }}{{#if:{{{v|{{{wikiversity|{{{Wikiversity|}}}}}}}}}|
-<li class="versity">[[v:{{{v|{{{wikiversity|{{{Wikiversity|}}}}}}}}}|{{{wikiversity titre|{{PAGENAME}}}}} sur <span>Wikiversity</span>]] (communauté pédagogique libre)
+<li class="versity">[[v:{{{v|{{{wikiversity|{{{Wikiversity|}}}}}}}}}|{{{wikiversity titre|{{PAGENAME}}}}} dseur <span>Wikiversity</span>]] (conmunauté pédagodjique libe)
 }}{{#if:{{{b|{{{wikibooks|{{{Wikibooks|}}}}}}}}}|
-<li class="books">[[b:{{{b|{{{wikibooks|{{{Wikibooks|}}}}}}}}}|{{{wikibooks titre|{{PAGENAME}}}}} sur <span>Wikibooks</span>]] (livres pédagogiques)
+<li class="books">[[b:{{{b|{{{wikibooks|{{{Wikibooks|}}}}}}}}}|{{{wikibooks titre|{{PAGENAME}}}}} dseur <span>Wikibooks</span>]] (lives pédagodjiques)
 }}{{#if:{{{s|{{{wikisource|{{{Wikisource|}}}}}}}}}|
-<li class="source">[[s:{{{s|{{{wikisource|{{{Wikisource|}}}}}}}}}|{{{wikisource titre|{{PAGENAME}}}}} sur <span>Wikisource</span>]] (bibliothèque universelle)
+<li class="source">[[s:{{{s|{{{wikisource|{{{Wikisource|}}}}}}}}}|{{{wikisource titre|{{PAGENAME}}}}} dseur <span>Wikisource</span>]] (bibliothèque univarsèle)
 }}{{#if:{{{q|{{{wikiquote|{{{Wikiquote|}}}}}}}}}|
-<li class="quote">[[q:{{{q|{{{wikiquote|{{{Wikiquote|}}}}}}}}}|{{{wikiquote titre|{{PAGENAME}}}}} sur <span>Wikiquote</span>]] (recueil de citations)
+<li class="quote">[[q:{{{q|{{{wikiquote|{{{Wikiquote|}}}}}}}}}|{{{wikiquote titre|{{PAGENAME}}}}} dseur <span>Wikiquote</span>]] (recueul éd citations)
 }}{{#if:{{{n|{{{wikinews|{{{Wikinews|}}}}}}}}}|
-<li class="news">[[n:{{{n|{{{wikinews|{{{Wikinews|}}}}}}}}}|{{{wikinews titre|{{PAGENAME}}}}} sur <span>Wikinews</span>]] (actualités libres)
+<li class="news">[[n:{{{n|{{{wikinews|{{{Wikinews|}}}}}}}}}|{{{wikinews titre|{{PAGENAME}}}}} dseur <span>Wikinews</span>]] (actualités libres)
 }}{{#if:{{{m|{{{meta|}}}}}}|
-<li class="meta">[[m:{{{m|{{{meta|}}}}}}|{{{meta titre|{{PAGENAME}}}}} sur <span>Meta-Wiki</span>]] (coordination des projets)
+<li class="meta">[[m:{{{m|{{{meta|}}}}}}|{{{meta titre|{{PAGENAME}}}}} sur <span>Meta-Wiki</span>]] (coordination d'chés prodjéts)
 }}
 </ul>
 </div></includeonly><noinclude>

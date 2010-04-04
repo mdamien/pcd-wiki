@@ -1,0 +1,28 @@
+<includeonly><div class="noprint" id="autres_projets">
+<p>Sur les autres projets Wikimedia :</p>
+<ul class="noarchive">
+{{#if:{{{commons|{{{1|{{{Commons|}}}}}}}}}|
+<li class="commons"><span class="plainlinks">[{{fullurl:Commons:{{{commons|{{{1|{{{Commons|}}}}}}}}}}}?uselang=fr {{{commons titre|{{PAGENAME}}}}} sur <span>Wikimedia Commons</span>] (ressources multimédia)</span>
+}}{{#if:{{{commons2|{{{1|{{{Commons2|}}}}}}}}}|
+<li class="commons"><span class="plainlinks">[{{fullurl:Commons:{{{commons2|{{{1|{{{Commons2|}}}}}}}}}}}?uselang=fr {{{commons titre2|{{PAGENAME}}}}} sur <span>Wikimedia Commons</span>] (ressources multimédia)</span>
+}}{{#if:{{{wikispecies|{{{species|{{{Wikispecies|}}}}}}}}}|
+<li class="species">[[wikispecies:{{{wikispecies|{{{species|{{{Wikispecies|}}}}}}}}}|{{{wikispecies titre|{{PAGENAME}}}}} sur <span>Wikispecies</span>]] (inventaire du vivant)
+}}{{#if:{{{wikt|{{{wiktionary|{{{Wiktionary|}}}}}}}}}|
+<li class="dictionary">[[wikt:{{{wikt|{{{wiktionary|{{{Wiktionary|}}}}}}}}}|{{{wiktionary titre|{{PAGENAME}}}}} sur <span>Wiktionnaire</span>]] (dictionnaire universel)
+}}{{#if:{{{v|{{{wikiversity|{{{Wikiversity|}}}}}}}}}|
+<li class="versity">[[v:{{{v|{{{wikiversity|{{{Wikiversity|}}}}}}}}}|{{{wikiversity titre|{{PAGENAME}}}}} sur <span>Wikiversity</span>]] (communauté pédagogique libre)
+}}{{#if:{{{b|{{{wikibooks|{{{Wikibooks|}}}}}}}}}|
+<li class="books">[[b:{{{b|{{{wikibooks|{{{Wikibooks|}}}}}}}}}|{{{wikibooks titre|{{PAGENAME}}}}} sur <span>Wikibooks</span>]] (livres pédagogiques)
+}}{{#if:{{{s|{{{wikisource|{{{Wikisource|}}}}}}}}}|
+<li class="source">[[s:{{{s|{{{wikisource|{{{Wikisource|}}}}}}}}}|{{{wikisource titre|{{PAGENAME}}}}} sur <span>Wikisource</span>]] (bibliothèque universelle)
+}}{{#if:{{{q|{{{wikiquote|{{{Wikiquote|}}}}}}}}}|
+<li class="quote">[[q:{{{q|{{{wikiquote|{{{Wikiquote|}}}}}}}}}|{{{wikiquote titre|{{PAGENAME}}}}} sur <span>Wikiquote</span>]] (recueil de citations)
+}}{{#if:{{{n|{{{wikinews|{{{Wikinews|}}}}}}}}}|
+<li class="news">[[n:{{{n|{{{wikinews|{{{Wikinews|}}}}}}}}}|{{{wikinews titre|{{PAGENAME}}}}} sur <span>Wikinews</span>]] (actualités libres)
+}}{{#if:{{{m|{{{meta|}}}}}}|
+<li class="meta">[[m:{{{m|{{{meta|}}}}}}|{{{meta titre|{{PAGENAME}}}}} sur <span>Meta-Wiki</span>]] (coordination des projets)
+}}
+</ul>
+</div></includeonly><noinclude>
+[[catégorie:Subroutines-pcd]]
+</noinclude>

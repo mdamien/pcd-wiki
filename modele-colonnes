@@ -1,0 +1,9 @@
+<includeonly><div style="-moz-column-width: {{{taille|}}}em; -webkit-column-width:{{{taille|}}}em;
+-moz-column-gap:1em; -webkit-column-gap:1em;
+-moz-column-count: {{{nombre|}}}; -webkit-column-count: {{{nombre|}}};
+text-align: {{{align|left}}};
+{{{style|}}}">
+{{{1|}}}
+</div></includeonly><noinclude>
+[[Catégorie:Subroutines-pcd]]
+</noinclude>

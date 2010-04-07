@@ -1,0 +1,114 @@
+<includeonly><div style="width:616px;margin:0 auto;overflow:hidden;padding-left:1px">
+<table class="wikitable" style="table-layout:fixed;width: 616px;text-align:center;margin: 3px 0;">
+<caption>'''Évolution démographique''' {{#if:{{{source|}}}{{{sources|}}}|<br /><small>(Source{{#if:{{{sources|}}}|s|}} : {{{source|}}}{{{sources|}}})</small>}}</caption>
+{{#if:{{{dateA1|}}}{{{dateA2|}}}{{{dateA3|}}}{{{dateA4|}}}{{{dateA5|}}}{{{dateA6|}}}{{{dateA7|}}}{{{dateA8|}}}{{{dateA9|}}}|
+<th scope="col">{{#if:{{{dateA1|}}}|[[{{{dateA1}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{dateA2|}}}|[[{{{dateA2}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{dateA3|}}}|[[{{{dateA3}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{dateA4|}}}|[[{{{dateA4}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{dateA5|}}}|[[{{{dateA5}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{dateA6|}}}|[[{{{dateA6}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{dateA7|}}}|[[{{{dateA7}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{dateA8|}}}|[[{{{dateA8}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{dateA9|}}}|[[{{{dateA9}}}]]|&nbsp;}}
+<tr>
+<td>{{#if:{{{popA1|}}}|{{{popA1}}}|&nbsp;}}
+<td>{{#if:{{{popA2|}}}|{{{popA2}}}|&nbsp;}}
+<td>{{#if:{{{popA3|}}}|{{{popA3}}}|&nbsp;}}
+<td>{{#if:{{{popA4|}}}|{{{popA4}}}|&nbsp;}}
+<td>{{#if:{{{popA5|}}}|{{{popA5}}}|&nbsp;}}
+<td>{{#if:{{{popA6|}}}|{{{popA6}}}|&nbsp;}}
+<td>{{#if:{{{popA7|}}}|{{{popA7}}}|&nbsp;}}
+<td>{{#if:{{{popA8|}}}|{{{popA8}}}|&nbsp;}}
+<td>{{#if:{{{popA9|}}}|{{{popA9}}}|&nbsp;}}
+</table>}}{{#if:{{{1793|}}}{{{1800|}}}{{{1806|}}}{{{1821|}}}{{{1831|}}}{{{1836|}}}{{{1841|}}}{{{1846|}}}{{{1851|}}}|
+<table class="wikitable" style="table-layout:fixed;width: 616px;text-align:center;margin: 3px 0;">
+<th scope="col">[[1793]]
+<th scope="col">[[1800]]
+<th scope="col">[[1806]]
+<th scope="col">[[1821]]
+<th scope="col">[[1831]]
+<th scope="col">[[1836]]
+<th scope="col">[[1841]]
+<th scope="col">[[1846]]
+<th scope="col">[[1851]]
+<tr>
+<td>{{#if:{{{1793|}}}|{{{1793}}}|&nbsp;}}
+<td>{{#if:{{{1800|}}}|{{{1800}}}|&nbsp;}}
+<td>{{#if:{{{1806|}}}|{{{1806}}}|&nbsp;}}
+<td>{{#if:{{{1821|}}}|{{{1821}}}|&nbsp;}}
+<td>{{#if:{{{1831|}}}|{{{1831}}}|&nbsp;}}
+<td>{{#if:{{{1836|}}}|{{{1836}}}|&nbsp;}}
+<td>{{#if:{{{1841|}}}|{{{1841}}}|&nbsp;}}
+<td>{{#if:{{{1846|}}}|{{{1846}}}|&nbsp;}}
+<td>{{#if:{{{1851|}}}|{{{1851}}}|&nbsp;}}
+</table>}}{{#if:{{{1856|}}}{{{1861|}}}{{{1866|}}}{{{1872|}}}{{{1876|}}}{{{1881|}}}{{{1886|}}}{{{1891|}}}{{{1896|}}}|
+<table class="wikitable" style="table-layout:fixed;width: 616px;text-align:center;margin: 3px 0;">
+<th scope="col">[[1856]]
+<th scope="col">[[1861]]
+<th scope="col">[[1866]]
+<th scope="col">[[1872]]
+<th scope="col">[[1876]]
+<th scope="col">[[1881]]
+<th scope="col">[[1886]]
+<th scope="col">[[1891]]
+<th scope="col">[[1896]]
+<tr>
+<td>{{#if:{{{1856|}}}|{{{1856}}}|&nbsp;}}
+<td>{{#if:{{{1861|}}}|{{{1861}}}|&nbsp;}}
+<td>{{#if:{{{1866|}}}|{{{1866}}}|&nbsp;}}
+<td>{{#if:{{{1872|}}}|{{{1872}}}|&nbsp;}}
+<td>{{#if:{{{1876|}}}|{{{1876}}}|&nbsp;}}
+<td>{{#if:{{{1881|}}}|{{{1881}}}|&nbsp;}}
+<td>{{#if:{{{1886|}}}|{{{1886}}}|&nbsp;}}
+<td>{{#if:{{{1891|}}}|{{{1891}}}|&nbsp;}}
+<td>{{#if:{{{1896|}}}|{{{1896}}}|&nbsp;}}
+</table>}}{{#if:{{{1901|}}}{{{1906|}}}{{{1911|}}}{{{1921|}}}{{{1926|}}}{{{1931|}}}{{{1936|}}}{{{1946|}}}{{{1954|}}}|
+<table class="wikitable" style="table-layout:fixed;width: 616px;text-align:center;margin: 3px 0;">
+<th scope="col">[[1901]]
+<th scope="col">[[1906]]
+<th scope="col">[[1911]]
+<th scope="col">[[1921]]
+<th scope="col">[[1926]]
+<th scope="col">[[1931]]
+<th scope="col">[[1936]]
+<th scope="col">[[1946]]
+<th scope="col">[[1954]]
+<tr>
+<td>{{#if:{{{1901|}}}|{{{1901}}}|&nbsp;}}
+<td>{{#if:{{{1906|}}}|{{{1906}}}|&nbsp;}}
+<td>{{#if:{{{1911|}}}|{{{1911}}}|&nbsp;}}
+<td>{{#if:{{{1921|}}}|{{{1921}}}|&nbsp;}}
+<td>{{#if:{{{1926|}}}|{{{1926}}}|&nbsp;}}
+<td>{{#if:{{{1931|}}}|{{{1931}}}|&nbsp;}}
+<td>{{#if:{{{1936|}}}|{{{1936}}}|&nbsp;}}
+<td>{{#if:{{{1946|}}}|{{{1946}}}|&nbsp;}}
+<td>{{#if:{{{1954|}}}|{{{1954}}}|&nbsp;}}
+</table>}}{{#if:{{{1962|}}}{{{1968|}}}{{{1975|}}}{{{1982|}}}{{{1990|}}}{{{1999|}}}{{{date1|}}}{{{date2|}}}{{{date3|}}}|
+<table class="wikitable" style="table-layout:fixed;width: 616px;text-align:center;margin: 3px 0;">
+<th scope="col">[[1962]]
+<th scope="col">[[1968]]
+<th scope="col">[[1975]]
+<th scope="col">[[1982]]
+<th scope="col">[[1990]]
+<th scope="col">[[1999]]
+<th scope="col">{{#if:{{{date1|}}}|[[{{{date1}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{date2|}}}|[[{{{date2}}}]]|&nbsp;}}
+<th scope="col">{{#if:{{{date3|}}}|[[{{{date3}}}]]|&nbsp;}}
+<tr>
+<td>{{#if:{{{1962|}}}|{{{1962}}}|&nbsp;}}
+<td>{{#if:{{{1968|}}}|{{{1968}}}|&nbsp;}}
+<td>{{#if:{{{1975|}}}|{{{1975}}}|&nbsp;}}
+<td>{{#if:{{{1982|}}}|{{{1982}}}|&nbsp;}}
+<td>{{#if:{{{1990|}}}|{{{1990}}}|&nbsp;}}
+<td>{{#if:{{{1999|}}}|{{{1999}}}|&nbsp;}}
+<td>{{#if:{{{pop1|}}}|{{{pop1}}}|&nbsp;}}
+<td>{{#if:{{{pop2|}}}|{{{pop2}}}|&nbsp;}}
+<td>{{#if:{{{pop3|}}}|{{{pop3}}}|&nbsp;}}
+</table>
+<p style="text-align:center;font-size: 0.9em;">Nombre retenu à partir de [[{{{sansdoublescomptes|1962}}}]] : [[Chiffres de population en France|population sans doubles comptes]]</p>
+}}</div>
+</includeonly><noinclude><!---->__NOTOC__
+
+[[Catégorie:Subroutines-pcd]]
+</noinclude>

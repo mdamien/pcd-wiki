@@ -14,25 +14,25 @@
 |largeur=280
 }}
 }}
-{{Infobox/Ligne donnée optionnel|[[Image:{{#if:{{{armoiries|}}}|{{{armoiries}}}|Sin escudo.svg}}|100x100px|center|{{#if:{{{armoiries|}}}|Armoiries de l'entité|Armoiries indisponibles}}]]|{{{armoiries|}}}{{{drapeau|}}}|[[Image:{{#if:{{{drapeau|}}}|{{{drapeau}}}|Flag of None.svg}}|120px|center|{{#if:{{{drapeau|}}}|Drapeau de l'entité|Drapeau indisponible}}]]}}
-{{Infobox/Sous-titre|Administration|DDFFDD}}
-{{Infobox/Ligne mixte|[[Liste des pays du monde|Pays]]|{{Belgique}}|50}}
-{{Infobox/Ligne mixte|[[Régions de Belgique|Région]]|{{{region|?}}}}}
-{{Infobox/Ligne mixte|[[Communautés de Belgique|Communauté]]|{{{communaute|?}}}}}
-{{Infobox/Ligne mixte optionnel|[[Province de Belgique|Province]]|{{{province|}}}}}
-{{Infobox/Ligne mixte|[[Arrondissement administratif de Belgique|Arrondissement]]|{{{arrondissement|?}}}}}
-{{Infobox/Ligne mixte|[[Commune de Belgique|Commune]]|{{{commune|?}}}}}
+{{Infobox/Ligne donnée optionnel|[[Image:{{#if:{{{armoiries|}}}|{{{armoiries}}}|Sin escudo.svg}}|100x100px|center|{{#if:{{{armoiries|}}}|Armoiries de l'entité|Armoiries indisponibles}}]]|{{{armoiries|}}}{{{drapeau|}}}|[[Image:{{#if:{{{drapeau|}}}|{{{drapeau}}}|Flag of None.svg}}|120px|center|{{#if:{{{drapeau|}}}|Drapiau|Drapiau indisponibe}}]]}}
+{{Infobox/Sous-titre|Aménistrachon|DDFFDD}}
+{{Infobox/Ligne mixte|Poéis|{{Bergike}}|50}}
+{{Infobox/Ligne mixte|Région|{{{region|?}}}}}
+{{Infobox/Ligne mixte|Conmunauté|{{{communaute|?}}}}}
+{{Infobox/Ligne mixte optionnel|Provinche|{{{province|}}}}}
+{{Infobox/Ligne mixte|Arondichemint]]|{{{arrondissement|?}}}}}
+{{Infobox/Ligne mixte|Conmune|{{{commune|?}}}}}
 {{Infobox/Sous-titre|Géographie|DDFFDD}}
-{{Infobox/Ligne mixte|[[Coordonnées géographiques|Coordonnées]]|{{coord|{{{lat_deg|}}}|{{{lat_min|0}}}|{{{lat_sec|}}}|N|{{{lon_deg|}}}|{{{lon_min|0}}}|{{{lon_sec|}}}|E|region:BE_type:city}}}}
-{{Infobox/Ligne mixte|[[Superficie]]|{{unité|{{{superficie|?}}}|km²}}}}
-{{Infobox/Ligne mixte|[[Population]]|{{unité|{{{population-totale|?}}}|hab.}} <small>''({{#if:{{{date-recensement|}}}|{{{date-recensement}}}|date inconnue}})''</small>}}
-{{Infobox/Ligne mixte|[[Densité de population|Densité]]|{{unité|{{{densité|?}}}|hab./km²}}}}
+{{Infobox/Ligne mixte|Coordonnées|{{coord|{{{lat_deg|}}}|{{{lat_min|0}}}|{{{lat_sec|}}}|N|{{{lon_deg|}}}|{{{lon_min|0}}}|{{{lon_sec|}}}|E|region:BE_type:city}}}}
+{{Infobox/Ligne mixte|Superfichie|{{unité|{{{superficie|?}}}|km²}}}}
+{{Infobox/Ligne mixte|Populachon|{{unité|{{{population-totale|?}}}|hab.}} <small>''({{#if:{{{date-recensement|}}}|{{{date-recensement}}}|date inconnue}})''</small>}}
+{{Infobox/Ligne mixte|Denchité|{{unité|{{{densité|?}}}|hab./km²}}}}
 {{Infobox/Sous-titre|Autres informations|DDFFDD}}
 {{Infobox/Ligne mixte|[[Gentilé]]|{{{gentile|?}}}}}
-{{Infobox/Ligne mixte|[[Liste des codes postaux belges|Code postal]]|{{{code-postal|?}}}}}
-{{Infobox/Ligne mixte|Zone téléphonique|{{{zone-telephonique|?}}}}}
-{{Infobox/Ligne mixte optionnel|[[Site Web|Site officiel]]|{{{site|}}}}}
+{{Infobox/Ligne mixte|[[Lisse des codes postaux berches|Code postal]]|{{{code-postal|?}}}}}
+{{Infobox/Ligne mixte|Zone téléfonique|{{{zone-telephonique|?}}}}}
+{{Infobox/Ligne mixte optionnel|[[Site Ouèbe|Site officiel]]|{{{site|}}}}}
 {{Infobox/Ligne optionnel|{{{carte|}}}|
-[[Image:{{{carte|}}}|280x225px|{{{carte-legende|Localisation de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} dans la commune de {{{commune}}}}}}]]<br/><small>{{{carte-legende|Localisation de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} dans la commune de {{{commune}}}}}}</small>}}
+[[Image:{{{carte|}}}|280x225px|{{{carte-legende|Localisation éd {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} din l' conmune éd {{{commune}}}}}}]]<br/><small>{{{carte-legende|Localisation de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} dans la commune de {{{commune}}}}}}</small>}}
 {{Infobox/Notice|Infobox Localité de Belgique|DDFFDD}}
 |}</includeonly><noinclude>[[catégorie:Subroutines-pcd]]</noinclude>

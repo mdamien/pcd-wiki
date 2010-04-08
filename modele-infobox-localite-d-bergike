@@ -28,10 +28,10 @@
 {{Infobox/Ligne mixte|Populachon|{{unité|{{{population-totale|?}}}|hab.}} <small>''({{#if:{{{date-recensement|}}}|{{{date-recensement}}}|date inconnue}})''</small>}}
 {{Infobox/Ligne mixte|Denchité|{{unité|{{{densité|?}}}|hab./km²}}}}
 {{Infobox/Sous-titre|Autres informations|DDFFDD}}
-{{Infobox/Ligne mixte|[[Gentilé]]|{{{gentile|?}}}}}
-{{Infobox/Ligne mixte|[[Lisse des codes postaux berches|Code postal]]|{{{code-postal|?}}}}}
+{{Infobox/Ligne mixte|Gintilé|{{{gentile|?}}}}}
+{{Infobox/Ligne mixte|Code postal|{{{code-postal|?}}}}}
 {{Infobox/Ligne mixte|Zone téléfonique|{{{zone-telephonique|?}}}}}
-{{Infobox/Ligne mixte optionnel|[[Site Ouèbe|Site officiel]]|{{{site|}}}}}
+{{Infobox/Ligne mixte optionnel|Site oficièl|{{{site|}}}}}
 {{Infobox/Ligne optionnel|{{{carte|}}}|
 [[Image:{{{carte|}}}|280x225px|{{{carte-legende|Localisation éd {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} din l' conmune éd {{{commune}}}}}}]]<br/><small>{{{carte-legende|Localisation de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} dans la commune de {{{commune}}}}}}</small>}}
 {{Infobox/Notice|Infobox Localité de Belgique|DDFFDD}}

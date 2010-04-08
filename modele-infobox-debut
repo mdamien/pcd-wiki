@@ -1,0 +1,1 @@
+<includeonly>{| class="infobox_v2" {{#switch:{{{1|}}}|infobox de section=style{{=}}"width:170px;"|}} cellspacing="7" {{#if:{{{3|}}}|id{{=}}"{{{3|}}}"|}} {{#if:{{{2|}}}|style{{=}}"width:{{{2|}}}px;"|}}</includeonly><noinclude></noinclude>

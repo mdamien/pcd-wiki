@@ -1,7 +1,7 @@
 <includeonly>{{Infobox/Début}}
 {{Infobox/Titre|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}<br />|DDFFDD|entete map}}
 {{Infobox/Ligne optionnel|{{{image|}}}|
-[[Image:{{{image|}}}|280x225px|{{{légende|Photo prise à {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}}}}]]<br/><small>{{{légende|Photo prise à {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}}}}</small>
+[[Image:{{{image|}}}|280x225px|{{{légende|Foto éd {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}}}}]]<br/><small>{{{légende|Foto éd {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}}}}</small>
 }}
 {{Infobox/Ligne optionnel|{{{lat_deg|}}}|
 {{Carte avec géolocalisation dans l'infobox

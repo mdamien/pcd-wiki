@@ -1,0 +1,24 @@
+<includeonly><!--
+À cause d'un bogue de IE 5 Mac, il faut que la classe « bandeau » soit à la fin de la liste dans le paramètre « class »
+--><div {{#if:{{{id|}}}| id="{{{id}}}"}} class="plainlinks bandeau-niveau-{{#switch: {{{niveau|}}}|modéré=modere|ébauche=ebauche|#default={{{niveau|}}} }} bandeau">
+<table style="background-color:transparent">
+<tr>
+<td class="bandeau-icone">
+{{{icône-complexe |
+<div style="width:45px; text-align:center">[[Fichier:{{#if:{{{icône|}}} | {{{icône}}} | {{#switch:{{{niveau}}}
+| grave       = Fairytale_no.png
+| modéré      = Emblem-important.svg
+| information = Information_icon.svg
+| ébauche     = Nuvola_apps_kedit.png
+| Icon apps query.svg
+}} }} |45x35px|link=]]</div> }}}
+</td>
+<td>
+<div class="bandeau-titre"><strong>{{{titre|<span class="error">Erreur dans {{m|Méta bandeau d'avertissement}} : paramètre « titre » manquant</span>}}}</strong>{{{date|}}}</div><!--
+-->{{#if:{{{texte|}}} | <div class="bandeau-texte">{{{texte}}}</div> }}
+</td>
+</tr>
+</table>
+{{{supplément|}}}<!--
+--></div></includeonly><noinclude>
+</noinclude>

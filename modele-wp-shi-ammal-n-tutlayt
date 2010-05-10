@@ -1,4 +1,1 @@
-<includeonly><span style="cursor:help;font-family:monospace;font-weight:bold;font-size:small" title="Langue : {{{1|{{{2}}}}}}">({{{2}}})</span>{{#if:{{{aṭṛiṣ|}}}|&nbsp;{{{{#if:{{{aṭṛiṣ|}}}|lang|}}|{{{2}}}|dir={{{dir|}}}|aṭṛiṣ={{{}}}}}}}</includeonly><noinclude>{{/Arratn}}</noinclude>
-
-[[Category:Wp/shi]]
-[[Category:Wp/shi/Ammal n tutlayt]]
+<includeonly><span style="cursor:help;font-family:monospace;font-weight:bold;font-size:small" title="Langue : {{{1|{{{2}}}}}}">({{{2}}})</span>{{#if:{{{aṭṛiṣ|}}}|&nbsp;{{{{#if:{{{aṭṛiṣ|}}}|lang|}}|{{{2}}}|dir={{{dir|}}}|aṭṛiṣ={{{}}}}}}}</includeonly><noinclude></noinclude>

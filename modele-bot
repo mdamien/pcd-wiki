@@ -1,15 +1,5 @@
-{{ombox
-|image = [[Image:Crystal Clear action run.png|50px]]
-|text  = <div>
-'''This user account is a [[Wikipedia:Bot policy|bot]] operated by [[:{{{site|en}}}:User:{{{1}}}|{{{1}}}]] ([[:{{{site|en}}}:User talk:{{{1}}}|talk]]).'''
+{{{category|[[Category:Wikipedia bots|<includeonly>{{PAGENAME}}</includeonly> ]]}}}<noinclude>
 
-It is not a [[Wikipedia:Sock puppetry|sock puppet]], but rather an automated or semi-automated account for making repetitive edits that would be extremely tedious to do manually.
-
-<small>''Administrators: if this bot is malfunctioning or causing harm, please [{{fullurl:Special:Blockip|wpBlockAddress={{PAGENAMEE}}&wpBlockExpiry=indefinite&wpAnonOnly=0&wpEnableAutoblock=0&wpCreateAccount=0&wpBlockReason=Bot%20malfunctioning:%20}} block it].''</small>
-</div>
-}}{{{category|[[Category:Wikipedia bots|<includeonly>{{PAGENAME}}</includeonly> ]]}}}<noinclude>
-{{pp-template|small=yes}}
-{{documentation}}
 
 [[ab:Шаблон:Bot]]
 [[ace:Templat:Bot]]

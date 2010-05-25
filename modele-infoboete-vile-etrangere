@@ -1,0 +1,210 @@
+<includeonly>{| class="infobox_v2" cellspacing="7" style="float:{{{float|right}}};width:{{{largeur|300}}}px;background:#fcfcfc;"
+|-
+! colspan="2" class="entete map" style="color:{{{couleur titre|black}}};background-color:{{{couleur|#ffdead}}};font-size:150%"|'''{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}'''{{#if:{{{autre nom|{{{autres noms|}}}}}}|<br /><small>{{{autre nom|{{{autres noms|}}}}}}</small>|}}
+{{#if:{{{blason|}}}{{{drapeau|}}}|
+{{!-}}valign="top"
+{{!}} colspan="2" style="text-align:center;"{{!}}
+{{(!}} cellspacing="7" width="100%" style="background: none;"
+{{!-}} valign="top"
+{{#if:{{{blason|}}}|
+{{!}}[[Fichier:{{{blason}}}|65px|Blason de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Héraldique]]</small>|}}
+{{#if:{{{drapeau|}}}|
+{{!}}[[Fichier:{{{drapeau}}}|130px|Drapeau de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Drapeau]]</small>|}}
+{{!)}}
+{{!-}}valign="top"
+{{!}} colspan="2" style="text-align:center;"{{!}}<hr />
+|<nowiki></nowiki>}}
+{{#if:{{{image|}}}|
+{{!-}}valign="top" 
+{{!}} colspan="2" style="text-align:center;background:#ffffff;color:black;"{{!}}{{#ifexist:Media:{{{image}}}|[[Fichier:{{{image}}}|{{#if:{{{taille image|}}}|{{#ifexpr:{{{taille image|280}}}<280|{{{taille image}}}|280}}|280}}px|{{{légende|{{PAGENAME}}}}}]]|{{{image}}}}}{{#if:{{{légende|}}}|<br /><small>{{{légende}}}</small>|}}
+|}}<!-- 
+
+Administration 
+
+-->
+{{Sous-titre optionnel|Administration|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle|[[Liste des pays du monde|Pays]]| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
+{{Ligne optionnelle|{{{nom d'état|État}}}|{{{état|}}}}}
+{{Ligne optionnelle|{{{nom de collectivité|Collectivité}}}|{{{collectivité|}}}}}
+{{Ligne optionnelle|{{{nom de région|Région}}}|{{{région|}}}}}
+{{Ligne optionnelle|{{{nom de province|Province}}}|{{{province|}}}}}
+{{Ligne optionnelle|{{{nom de département|Département}}}|{{{département|}}}}}
+{{Ligne optionnelle|{{{nom de municipalité|Municipalité}}}|{{{municipalité|}}}}}
+{{Ligne optionnelle|{{{nom de paroisse|Paroisse}}}|{{{paroisse|}}}}}
+{{Ligne optionnelle|{{{nom d'arrondissement|Arrondissement}}}|{{{arrondissement|}}}}}
+{{Ligne optionnelle|{{{nom de district|District}}}|{{{district|}}}}}
+{{Ligne optionnelle|Agglomération|{{{agglomération|}}}}}
+{{Ligne optionnelle|[[Maire]]|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
+{{Ligne optionnelle|[[Préfet]]|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|<br />{{{mandat préfet}}}|}}|}}}}
+{{Ligne optionnelle|Gouverneur|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|<br />{{{mandat gouverneur}}}|}}|}}}}
+{{Ligne optionnelle|{{{nom de division|}}}|{{{division|}}}}}
+{{Ligne optionnelle|{{{titre autorité|}}}|{{#if:{{{autorité|}}}|{{{autorité}}}{{#if:{{{mandat autorité|}}}|<br />{{{mandat autorité}}}|}}|}}}}
+{{Ligne optionnelle|{{{nom de division2|}}}|{{{division2|}}}}}
+{{Ligne optionnelle|{{{titre autorité2|}}}|{{#if:{{{autorité2|}}}|{{{autorité2}}}{{#if:{{{mandat autorité2|}}}|<br />{{{mandat autorité2}}}|}}|}}}}
+{{Ligne optionnelle|{{{nom de division3|}}}|{{{division3|}}}}}
+{{Ligne optionnelle|{{{titre autorité3|}}}|{{#if:{{{autorité3|}}}|{{{autorité3}}}{{#if:{{{mandat autorité3|}}}|<br />{{{mandat autorité3}}}|}}|}}}}
+{{Ligne optionnelle|{{{nom de division4|}}}|{{{division4|}}}}}
+{{Ligne optionnelle|{{{titre autorité4|}}}|{{#if:{{{autorité4|}}}|{{{autorité4}}}{{#if:{{{mandat autorité4|}}}|<br />{{{mandat autorité4}}}|}}|}}}}
+{{Ligne optionnelle|{{{nom de code postal|[[Code postal]]}}}|{{{cp|}}}}}
+{{Ligne optionnelle|{{{nom de code1|}}}|{{{code1|}}}}}
+{{Ligne optionnelle|{{{nom de code2|}}}|{{{code2|}}}}}
+{{Ligne optionnelle|{{{nom de code3|}}}|{{{code3|}}}}}<!-- 
+
+Géographie 
+
+-->
+{{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{Superficie de l'agglomération|}}}|
+{{Sous-titre optionnel|Géographie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle coordonnées|{{{latitude|}}}|{{{longitude|}}}|ref={{{réf coord|}}}}}
+{{Ligne optionnelle|[[Altitude]]|{{#if:{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}{{espace}}|}}{{#if:{{{alt mini|}}}|(mini&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}})&nbsp;|}}{{#if:{{{alt maxi|}}}|(maxi&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})|}}}}
+{{Ligne optionnelle|[[Superficie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie}}}|km²}}}}|}}}}
+{{Ligne optionnelle|Superficie de l'agglomération|{{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agglomération}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
+|<nowiki></nowiki>}}<!-- 
+
+Démographie 
+
+-->
+{{#if:{{{population|}}}{{{population agglomération|}}}{{{gentilé|}}}|
+{{Sous-titre optionnel|Démographie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle|[[gentilé|Gentilé]]|{{{gentilé|}}}}}
+{{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}
+{{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|densité={{{densité agglomération|}}}|année={{{année_pop agglomération|}}}|nom=de l'agglomération}}
+{{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|densité={{{densité division|}}}|année={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
+|<nowiki></nowiki>}}
+<!--
+
+Divers
+
+-->{{#if:{{{sites touristiques|}}}{{{divers|}}}|
+{{Sous-titre optionnel|Divers|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle|Site(s) touristique(s)|{{{sites touristiques|}}}}}
+{{Ligne optionnelle|{{{nom divers|Divers}}}|{{{divers|}}}}}
+{{Ligne optionnelle|{{{nom divers2|}}}|{{{divers2|}}}}}
+{{Ligne optionnelle|{{{nom divers3|}}}|{{{divers3|}}}}}
+{{Ligne optionnelle|{{{nom divers4|}}}|{{{divers4|}}}}}
+|<nowiki></nowiki>}}
+<!--
+
+Géolocalisation 
+
+-->{{#if:{{{imageloc|}}}|
+{{Sous-titre optionnel|Localisation|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{!-}}valign="top"
+{{!}} colspan="2" {{!}} <center>{{#ifexist:Media:{{{imageloc}}}|[[Fichier:{{{imageloc}}}|{{#ifexpr:{{{taille imageloc|280}}}<280|{{{taille imageloc}}}|280}}px|{{{légende imageloc|Localisation de {{{nom|{{PAGENAME}}}}}}}}]]|{{{imageloc}}}}}{{#if:{{{légende imageloc|}}}|<br /><small>{{{légende imageloc}}}</small>|}}</center>
+|<nowiki></nowiki>}}
+{{#ifexist:Modèle:Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|<!--
+-->{{#if:{{{latitude|}}}|{{#iferror:{{#expr:{{Coordonnées/dms2dec|{{{latitude}}}}}}}||<!--
+-->{{#if:{{{longitude|}}}|{{#iferror:{{#expr:{{Coordonnées/dms2dec|{{{longitude}}}}}}}||<!--
+-->{{#ifexpr:({{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|bottom}}<={{Coordonnées/dms2dec|{{{latitude}}}}}) AND ({{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|top}}>={{Coordonnées/dms2dec|{{{latitude}}}}}) AND (-180<={{Coordonnées/dms2dec|{{{longitude}}}}}) AND (180>={{Coordonnées/dms2dec|{{{longitude}}}}})|
+{{#if:{{{imageloc|}}}|<!--Pour ne pas répéter le titre-->|
+{{Sous-titre optionnel|Localisation|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+}}
+{{!-}} valign="top"
+{{!}} colspan="2" style="text-align:center;"{{!}} {{#if:{{#titleparts:{{{carte|}}}|1|2}}|<div class="img_toogle">
+  <div class="geobox">
+&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{carte|}}}|1|2}}|name}}]] </small>
+<center>{{Début de carte}}<!--
+-->[[Image:{{#ifexist:Media:{{{image de carte2|}}}|{{{image de carte2}}}|{{Géolocalisation/{{#titleparts:{{{carte|}}}|1|2}}|image}}}}|{{#ifexpr:{{{taille carte2|280}}}<280|{{{taille carte2}}}|280}}px|Voir sur la carte : {{#titleparts:{{{carte|}}}|1|2}}]]<!--
+-->{{G/dms
+  |1={{#titleparts:{{{carte|}}}|1|2}}
+  |2={{{latitude}}}
+  |3={{{longitude}}}
+  |4={{{nom|{{{nomville|{{PAGENAME}}}}}}}}
+  |5=Ville sans {{#ifeq:{{{position|ne}}}|aucune|toponyme|lien}}
+  |6={{#if:{{{statut|}}}|{{#expr:10+{{{statut}}}}}|14}}
+  |7={{{position|ne}}}
+}}<!--
+-->{{Fin de carte}}</center>
+  </div>
+  <div class="geobox">
+&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|name}}]] </small>
+<center>{{Début de carte}}<!--
+-->[[Image:{{#ifexist:Media:{{{image de carte|}}}|{{{image de carte}}}|{{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|image}}}}|{{#if:{{{taille carte|}}}|{{#ifexpr:{{{taille carte1|{{{taille carte|280}}}}}}<280|{{{taille carte1|{{{taille carte}}}}}}|280}}|280}}px|Voir sur la carte : {{#titleparts:{{{carte|}}}|1|1}}]]<!--
+-->{{G/dms
+  |1={{#titleparts:{{{carte|}}}|1|1}}
+  |2={{{latitude}}}
+  |3={{{longitude}}}
+  |4={{{nom|{{{nomville|{{PAGENAME}}}}}}}}
+  |5=Ville sans {{#ifeq:{{{position|ne}}}|aucune|toponyme|lien}}
+  |6={{#if:{{{statut|}}}|{{#expr:10+{{{statut}}}}}|14}}
+  |7={{{position|ne}}}
+}}<!--
+-->{{Fin de carte}}</center>
+  </div>
+</div>
+|<center>{{Début de carte}}<!--
+-->[[Image:{{#ifexist:Media:{{{image de carte|}}}|{{{image de carte}}}|{{Géolocalisation/{{{carte}}}|image}}}}|{{#if:{{{taille carte|}}}|{{#ifexpr:{{{taille carte|280}}}<280|{{{taille carte}}}|280}}|280}}px]]<!--
+-->{{G/dms
+  |1={{{carte}}}
+  |2={{{latitude}}}
+  |3={{{longitude}}}
+  |4={{{nom|{{{nomville|{{PAGENAME}}}}}}}}
+  |5=Ville sans {{#ifeq:{{{position|ne}}}|aucune|toponyme|lien}}
+  |6={{#if:{{{statut|}}}|{{#expr:10+{{{statut}}}}}|14}}
+  |7={{{position|ne}}}
+}}<!--
+-->{{Fin de carte}}</center>
+}}
+|<!-- Coordonnées invalides
+-->}}}}|<!-- Pas de longitude
+-->}}}}|<!-- Pas de latitude
+-->}}|<!-- Pas de modèle de géolocalisation
+-->}}<!-- 
+
+Internet 
+
+-->
+{{#if:{{{site ville|}}}{{{url|}}}{{{url2|}}}{{{url3|}}}{{{url4|}}}|
+{{Sous-titre optionnel|Internet|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle|[[site Web|Site de la ville]]|{{{site ville|{{{url|}}}}}}}}
+{{Ligne optionnelle|{{{nom site2|}}}|{{{url2|}}}}}
+{{Ligne optionnelle|{{{nom site3|}}}|{{{url3|}}}}}
+{{Ligne optionnelle|{{{nom site4|}}}|{{{url4|}}}}}
+|<nowiki></nowiki>}}<!-- 
+
+Sources statistiques
+
+-->
+{{#if:{{{source1|}}}{{{source2|}}}{{{source3|}}}{{{source4|}}}|
+{{Sous-titre optionnel|Sources|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{#if:{{{source1|}}}|
+{{!-}}
+{{!}}colspan="2" {{!}}{{{source1}}}
+|<nowiki></nowiki>}}
+{{#if:{{{source2|}}}|
+{{!-}}
+{{!}}colspan="2" {{!}}{{{source2}}}
+|<nowiki></nowiki>}}
+{{#if:{{{source3|}}}|
+{{!-}}
+{{!}}colspan="2" {{!}}{{{source3}}}
+|<nowiki></nowiki>}}
+{{#if:{{{source4|}}}|
+{{!-}}
+{{!}}colspan="2" {{!}}{{{source4}}}
+|<nowiki></nowiki>}}
+|<nowiki></nowiki>}}
+{{#if:{{{lien Infobox|}}}|
+{{!-}}
+{{Infodoc|colspan=2|{{{couleur|#ffdead}}}|{{{lien Infobox}}}}}
+|<nowiki></nowiki>}}
+|}<!--
+
+les mauvais paramétrages
+
+-->{{#if:{{NAMESPACE}}||
+{{#if:{{{nomville|}}}{{{nomville2|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|nomville]]|}}
+{{#if:{{{état|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|état]]|}}
+{{#if:{{{collectivité|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|collectivité]]|}}
+{{#if:{{{région|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|région]]|}}
+{{#if:{{{province|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|province]]|}}
+{{#if:{{{département|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|département]]|}}
+{{#if:{{{municipalité|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|municipalité]]|}}
+{{#if:{{{paroisse|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|paroisse]]|}}
+{{#if:{{{arrondissement|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|arrondissement]]|}}
+{{#if:{{{district|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|district]]|}}
+{{#if:{{{agglomération|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|agglomération]]|}}
+{{#if:{{{imageloc|}}}|[[Catégorie:Page utilisant un modèle avec une géolocalisation statique]]|}}
+
+}}</includeonly>
+<nowiki><noinclude>{{Doc modèle}}</noinclude>

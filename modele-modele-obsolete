@@ -1,0 +1,6 @@
+<includeonly>{{Méta bandeau d'avertissement
+| niveau = modéré
+| icône = Symbol opinion vote.svg
+| titre = Ech modèle-lo il est obsolète
+| texte = Ech [[Aide:Modèle|modèle]] '''{{PAGENAME}}''' il est obsolète {{{raison|{{{2|}}}}}} <small>([[Special:Whatlinkshere/{{FULLPAGENAME}}|vérifier son utilisation]])</small>.<br />{{{message|Veuillez utiliser {{#if:{{{nouveau|{{{1|}}}}}}|'''{{m|{{{nouveau|{{{1|}}}}}}}}'''|un autre modèle}} à la place ou solliciter l’aide des modélistes du [[Projet:Modèle|projet Modèle]].}}}
+}}{{#ifeq:{{NAMESPACE}} | Modèle | {{#if:{{{nocat|}}} | | {{#ifeq:{{SUBPAGENAME}} | Documentation | | [[Catégorie:Modèle obsolète|{{#ifeq:{{PAGENAME}}|Modèle:Modèle obsolète|*|{{PAGENAME}}}}]] }} }} }}</includeonly><noinclude>   </noinclude>

@@ -54,7 +54,7 @@ Géographie
 
 -->
 {{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{Superficie de l'agglomération|}}}|
-{{Sous-titre optionnel|Géographie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Sous-titre optionnel|Jéografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle coordonnées|{{{latitude|}}}|{{{longitude|}}}|ref={{{réf coord|}}}}}
 {{Ligne optionnelle|[[Altitude]]|{{#if:{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}{{espace}}|}}{{#if:{{{alt mini|}}}|(mini&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}})&nbsp;|}}{{#if:{{{alt maxi|}}}|(maxi&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})|}}}}
 {{Ligne optionnelle|[[Superficie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie}}}|km²}}}}|}}}}
@@ -65,7 +65,7 @@ Démographie
 
 -->
 {{#if:{{{population|}}}{{{population agglomération|}}}{{{gentilé|}}}|
-{{Sous-titre optionnel|Démographie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Sous-titre optionnel|Démografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|[[gentilé|Gentilé]]|{{{gentilé|}}}}}
 {{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}
 {{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|densité={{{densité agglomération|}}}|année={{{année_pop agglomération|}}}|nom=de l'agglomération}}
@@ -88,7 +88,7 @@ Divers
 Géolocalisation 
 
 -->{{#if:{{{imageloc|}}}|
-{{Sous-titre optionnel|Localisation|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Sous-titre optionnel|Localisacion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{!-}}valign="top"
 {{!}} colspan="2" {{!}} <center>{{#ifexist:Media:{{{imageloc}}}|[[Fichier:{{{imageloc}}}|{{#ifexpr:{{{taille imageloc|280}}}<280|{{{taille imageloc}}}|280}}px|{{{légende imageloc|Localisation de {{{nom|{{PAGENAME}}}}}}}}]]|{{{imageloc}}}}}{{#if:{{{légende imageloc|}}}|<br /><small>{{{légende imageloc}}}</small>|}}</center>
 |<nowiki></nowiki>}}
@@ -155,7 +155,7 @@ Internet
 
 -->
 {{#if:{{{site ville|}}}{{{url|}}}{{{url2|}}}{{{url3|}}}{{{url4|}}}|
-{{Sous-titre optionnel|Internet|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Sous-titre optionnel|Intarnète|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|[[site Web|Site de la ville]]|{{{site ville|{{{url|}}}}}}}}
 {{Ligne optionnelle|{{{nom site2|}}}|{{{url2|}}}}}
 {{Ligne optionnelle|{{{nom site3|}}}|{{{url3|}}}}}
@@ -193,18 +193,17 @@ Sources statistiques
 les mauvais paramétrages
 
 -->{{#if:{{NAMESPACE}}||
-{{#if:{{{nomville|}}}{{{nomville2|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|nomville]]|}}
-{{#if:{{{état|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|état]]|}}
-{{#if:{{{collectivité|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|collectivité]]|}}
-{{#if:{{{région|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|région]]|}}
-{{#if:{{{province|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|province]]|}}
-{{#if:{{{département|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|département]]|}}
-{{#if:{{{municipalité|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|municipalité]]|}}
-{{#if:{{{paroisse|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|paroisse]]|}}
-{{#if:{{{arrondissement|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|arrondissement]]|}}
-{{#if:{{{district|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|district]]|}}
-{{#if:{{{agglomération|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|agglomération]]|}}
-{{#if:{{{imageloc|}}}|[[Catégorie:Page utilisant un modèle avec une géolocalisation statique]]|}}
+{{#if:{{{nomville|}}}{{{nomville2|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|nomville]]|}}
+{{#if:{{{état|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|état]]|}}
+{{#if:{{{collectivité|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|collectivité]]|}}
+{{#if:{{{région|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|région]]|}}
+{{#if:{{{province|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|province]]|}}
+{{#if:{{{département|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|département]]|}}
+{{#if:{{{municipalité|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|municipalité]]|}}
+{{#if:{{{paroisse|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|paroisse]]|}}
+{{#if:{{{arrondissement|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|arrondissement]]|}}
+{{#if:{{{district|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|district]]|}}
+{{#if:{{{agglomération|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|agglomération]]|}}
+{{#if:{{{imageloc|}}}|[[Catégorie:modèle aveuc eune géolocalisacion éstatique]]|}}
 
-}}</includeonly>
-<nowiki><noinclude>{{Doc modèle}}</noinclude>
+}}</includeonly><noinclude>{{Doc modèle}}</noinclude>

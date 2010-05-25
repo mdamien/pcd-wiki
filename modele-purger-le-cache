@@ -1,0 +1,22 @@
+<includeonly><span class="plainlinks">[{{fullurl:{{FULLPAGENAME}}|action=purge}} {{#if:{{{1|}}}|{{{1|}}}|Cliquez ici pour purger le cache}}]</span></includeonly><noinclude>
+
+{{Documentation modèle}}
+
+==En bref==
+; But : Insérer un lien permettant de rafraîchir une page qui est restée inchangée, alors que les modèles qu’elle contient ont été modifiés.
+; Syntaxe : <code><nowiki>{{</nowiki>{{PAGENAME}}}}</code>
+; Affichage : {{ {{PAGENAME}} }} 
+
+==Notes==
+En principe, le logiciel [[MediaWiki]] détecte automatiquement ces cas lorsqu'il affiche une telle page. On doit donc l'éviter dans les articles, car l’utilisation du lien proposé a un coût pour le serveur.
+
+Ainsi, ce modèle est surtout fait pour être inclus dans la section <code><nowiki>&lt;noinclude&gt;…&lt;/noinclude&gt;</nowiki></code> d’un ''[[Wikipédia:modèle|modèle]]'' variable qui contient une section <code><nowiki>&lt;includeonly&gt;…&lt;/includeonly&gt;</nowiki></code> : dans ce cas particulier, la modification du code source du modèle (section noinclude) n'est pas directement répercutée au niveau de la page de documentation du modèle (section includeonly) ; un clic sur le lien proposé permet de rafraîchir la page du modèle.
+
+==Voir aussi==
+* [[Aide:Purge du cache]]
+* {{m|Documentation modèle}}
+
+[[Catégorie:Modèle lien interne|{{PAGENAME}}]]
+[[Catégorie:Espace Modèle|{{PAGENAME}}]]
+
+</noinclude>

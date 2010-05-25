@@ -23,7 +23,7 @@ Administration
 
 -->
 {{Sous-titre optionnel|Aménistrachon|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle|[[Liste des pays du monde|Pays]]| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
+{{Ligne optionnelle|[[Liste des pays du monde|Poéis]]| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
 {{Ligne optionnelle|{{{nom d'état|État}}}|{{{état|}}}}}
 {{Ligne optionnelle|{{{nom de collectivité|Collectivité}}}|{{{collectivité|}}}}}
 {{Ligne optionnelle|{{{nom de région|Région}}}|{{{région|}}}}}
@@ -33,10 +33,10 @@ Administration
 {{Ligne optionnelle|{{{nom de paroisse|Paroisse}}}|{{{paroisse|}}}}}
 {{Ligne optionnelle|{{{nom d'arrondissement|Arrondissement}}}|{{{arrondissement|}}}}}
 {{Ligne optionnelle|{{{nom de district|District}}}|{{{district|}}}}}
-{{Ligne optionnelle|Agglomération|{{{agglomération|}}}}}
+{{Ligne optionnelle|Ramòÿmint|{{{agglomération|}}}}}
 {{Ligne optionnelle|[[Maire]]|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
 {{Ligne optionnelle|[[Préfet]]|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|<br />{{{mandat préfet}}}|}}|}}}}
-{{Ligne optionnelle|Gouverneur|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|<br />{{{mandat gouverneur}}}|}}|}}}}
+{{Ligne optionnelle|Govérneu|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|<br />{{{mandat gouverneur}}}|}}|}}}}
 {{Ligne optionnelle|{{{nom de division|}}}|{{{division|}}}}}
 {{Ligne optionnelle|{{{titre autorité|}}}|{{#if:{{{autorité|}}}|{{{autorité}}}{{#if:{{{mandat autorité|}}}|<br />{{{mandat autorité}}}|}}|}}}}
 {{Ligne optionnelle|{{{nom de division2|}}}|{{{division2|}}}}}
@@ -57,8 +57,8 @@ Géographie
 {{Sous-titre optionnel|Jéografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle coordonnées|{{{latitude|}}}|{{{longitude|}}}|ref={{{réf coord|}}}}}
 {{Ligne optionnelle|[[Altitude]]|{{#if:{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}{{espace}}|}}{{#if:{{{alt mini|}}}|(mini&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}})&nbsp;|}}{{#if:{{{alt maxi|}}}|(maxi&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})|}}}}
-{{Ligne optionnelle|[[Superficie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie}}}|km²}}}}|}}}}
-{{Ligne optionnelle|Superficie de l'agglomération|{{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agglomération}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
+{{Ligne optionnelle|[[Supérfichie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie}}}|km²}}}}|}}}}
+{{Ligne optionnelle|Supérfichie del conmeune|{{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agglomération}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
 |<nowiki></nowiki>}}<!-- 
 
 Démographie 
@@ -67,9 +67,9 @@ Démographie
 {{#if:{{{population|}}}{{{population agglomération|}}}{{{gentilé|}}}|
 {{Sous-titre optionnel|Démografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|[[gentilé|Gentilé]]|{{{gentilé|}}}}}
-{{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}
-{{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|densité={{{densité agglomération|}}}|année={{{année_pop agglomération|}}}|nom=de l'agglomération}}
-{{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|densité={{{densité division|}}}|année={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
+{{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|dinchité={{{densité|}}}|innée={{{année_pop|}}}}}
+{{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|dinchité={{{densité agglomération|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agglomération}}
+{{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|dinchité={{{densité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
 |<nowiki></nowiki>}}
 <!--
 

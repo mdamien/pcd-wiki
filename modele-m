@@ -1,0 +1,4 @@
+<includeonly>[[{{#if:{{{namespace|}}}||Modèle:}}{{{1}}}|<nowiki>{{</nowiki>{{{1}}}{{#if:{{{2|}}}|<nowiki>|</nowiki>{{{2|}}}}}{{#if:{{{3|}}}|<nowiki>|</nowiki>{{{3|}}}}}{{#if:{{{4|}}}|<nowiki>|</nowiki>{{{4|}}}}}{{#if:{{{5|}}}|<nowiki>|</nowiki>{{{5|}}}}}<nowiki>}}</nowiki>]]</includeonly><noinclude>
+
+{{/Documentation}}
+</noinclude>

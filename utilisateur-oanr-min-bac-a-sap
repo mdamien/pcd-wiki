@@ -11,7 +11,7 @@ __NOTOC__
 |- valign="top"
 {{#if:{{{armoiries|}}}|
 {{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}}
-| {{{armoiries|}}} =[[Fichier:{{{armoiries}}} {{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]] }}
+[[Fichier:{{{armoiries}}} {{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]] }}
 |- valign="top"
 {{#if:{{{image|}}}|
 {{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}} {{{image}}} }}

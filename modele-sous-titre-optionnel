@@ -1,0 +1,32 @@
+<includeonly>{{ #if: {{{1|}}} |
+{{!-}} style="vertical-align: top;"
+! class="infoboxsoustitre" colspan="{{{colonnes|2}}}" style="text-align:center;color:{{{couleur|black}}};background:{{{couleur fond|#cccccc}}};" {{!}} {{{1}}}
+|<nowiki></nowiki>}}</includeonly><noinclude>
+{{Bandeau Infobox V2}}
+{{Purger le cache}}
+
+== Utilisation ==
+Ce modèle affiche une ligne de sous-titre seulement si le paramètre “le texte du titre” n'est pas vide.
+{|
+|-
+!Syntaxe!!Modèle
+|-
+|<pre><nowiki>
+{{Sous-titre optionnel | <le texte du titre> 
+|couleur=	<couleur du texte;			par défaut	“black” > 
+|couleur fond=	<couleur du fond;			par défaut	“#cccccc”> 
+|colonnes=	<nombre de colonnes dans le tableau;	par défaut	“2” > 
+}}</nowiki></pre>
+|
+<pre><nowiki>
+{{Sous-titre optionnel | 
+|couleur=	
+|couleur fond=	
+|colonnes=	
+}}</nowiki></pre>
+|}
+
+
+[[Catégorie:Modèle infobox V2]]
+[[Catégorie:Modèle infobox informatique]]
+<noinclude>

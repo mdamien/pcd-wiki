@@ -1,62 +1,28 @@
-{| class="infobox" width="300" style="background-color: #f3fff3;"
-| colspan="2" style="background-color: #ddffdd; color:black;font-size:large;" | '''     SAINT-FUSCHIEN'''
-{{#if:{{{image|}}}|
-{{!}}- 
-{{!}}colspan="2" style="padding: 0px" align=center{{!}}
-[[Image:{{{image}}}|{{{taille|290px}}}|center]] {{#if:{{{légende|}}}|<small>{{{légende}}}</small>}}
-|
-}}
-|-<!--Géolocalisation sur une carte de France métropolitaine-->
-{{#if: {{#ifexpr: {{{latitude}}} AND {{{longitude}}} }} | | {{!}}-
-{{!}} colspan="2" style="background-color: #ffffff;" {{!}} {{Fragéoloc|{{{longitude}}}|{{{latitude}}}|taille=290|desc=Carte de localisation de {{{nomcommune}}}}}
-}}
-|-
-! scope=row | [[Poéis|Poéis]]
-| style="background-color: #f3fff3;" | Franche
-|-
-! scope=row | [[Région|Région]]
-| style="background-color: #f3fff3;" | Picardie
-|-
-! scope=row | [[Départemint|Départemint]]
-| style="background-color: #f3fff3;" | Sonme
-|-
-! scope=row | [[Arondichemint|Arondichemint]]
-| style="background-color: #f3fff3;" | Anmyin
-|-
-! scope=row | [[Canton|Canton]]
-| style="background-color: #f3fff3;" | Boves
-|-
-! scope=row | Code Insee
-| style="background-color: #f3fff3;" | 80702
-|-
-! scope=row | Code postal
-| style="background-color: #f3fff3;" | 80680
-|-
-! scope=row | [[Maïeu|Maïeu]]<br />Mandat en cours 
-| style="background-color: #f3fff3;" | de Thezy<br />marche 2008
-|-
-! scope=row | [[Interconmunalité|Interconmunalité]]
-| style="background-color: #f3fff3;" | Anmyin Métropole
-|-
-! scope=row | [[latitude|latitude]]<br />[[Longitude|Longitude]]
-| style="background-color: #f3fff3;"  |49° 50' Nord <br /> 2° 18' Est
-|-
-! scope=row | [[Altitude]]
-| style="background-color: #f3fff3;" | {{formatnum:38 m}} (mini) – {{formatnum:113 m}} (maxi) 
-|-
-! scope=row | [[Superfichie]]
-| style="background-color: #f3fff3;" | 9,92 km²
-|-
-! scope=row | nombe d'gins sins<br />doubes comptes
-| style="background-color: #f3fff3;" | 966 gins <br /><small>(1999)</small>
-|-
-! scope=row | Dinsité
-| style="background-color: #f3fff3;" | 97 hab./km²
-|}<noinclude>
+{{Conmune|nomcommune=Saint-Fuschien
+|région=[[Picardie]]
+|département=[[Sonme (départémint)|Sonme]]
+|arrondissement=[[Anmien]]
+|canton=[[Bofe]]
+|insee=80702
+|cp=80680
+|maire= Dominique de Witasse Thézy
+|mandat= élu in marche 2008
+|intercomm=Conmunauté d'ramòÿmint Anmyin Métropole
+|longitude= 2.315555555
+|latitude= 49.8383333333
+|alt moy= 108 m
+|alt mini= 38 m
+|alt maxi= 113 m
+|hectares= 992
+|km²= 9,92
+|sans= 874
+|date-sans= 2006
+|dens= 88|}}
 
 
 
-'''Saint-Fuschien''' est eune [[Conmune franchoèse|conmune]] franchoèse, située dins ch' départmint del [[Sonme|Sonme]] et pi dins el [[région|région]] del [[Picardie|Picardie]].
+
+'''Saint-Fuschien''' est eune conmeune picarde, située dins ch' départmint del [[Sonme (départémint)|Sonme]] et pi dins el région[[Picardie|Picardie]].
 
 ==Djéografi==
 
@@ -133,7 +99,7 @@ In 1847, des vakes hollandaises, il sont alvées à Saint-Fuschien<ref>Charles S
 6.      ↑ Charles Salmon, “De la race bovine hollandaise, ou notice sur les animaux de cette race, acclimatée à Saint-Fuscien depuis 1847” E. Yvert Ed, Amiens (1855) in Catalogue de la bibliothèque communale d'Amiens, page 449
 
 
-==Administration==
+==Aménistrachon==
 
 
 {| class="wikitable" width="100%"
@@ -176,17 +142,10 @@ Aveuc Dury pi Sains-in-Amiénoés, Saint-Fuschien est jumelé à el vile d'Besse
 
 
 
-==Démographie==
- 
-::* 1962 = 363
-::* 1968 = 431
-::* 1975 = 687
-::* 1982 = 1026
-::* 1990 = 1031
-::* 1999 = 966
-::* 2004 = 903
+==Démografie==
+{{Démografie|1962 = 363|1968 = 431|1975 = 687|1982 = 1026|1990 = 1031|1999 = 966|2004 = 903|
 
-sins doubes comptes in 1962
+sins doubes comptes in 1962}}
 
 source = INSEE (vir : [http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=80702&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Saint-Fuschien su ch'chite éd l'Insee] ).
 

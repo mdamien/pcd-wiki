@@ -1,0 +1,17 @@
+<noinclude>{{Modèle obsolète |message= Il est préférable d'utiliser le modèle générique {{m|Infobox/Ligne optionnel}}.}}
+[[Catégorie:Subroutines-pcd]]
+</noinclude>{{ #if: {{{2|}}} |
+{{!}}- style="vertical-align: top;"
+! scope=row style="text-align:left;" {{!}} {{{1}}}
+{{!}} {{{3|{{{2}}}}}} | <nowiki></nowiki> }}
+<noinclude>
+
+== Utilisation ==
+Ce modèle affiche une ligne seulement si le paramètre n'est pas vide.
+
+== Syntaxe ==
+<pre style=overflow:auto><nowiki>
+{{Ligne optionnelle | Titre de la ligne | {{{nom du paramètre|}}} }}
+</nowiki></pre>
+
+<noinclude>

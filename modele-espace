@@ -1,0 +1,15 @@
+<nowiki> </nowiki><noinclude>
+
+{{Documentation modèle}}
+
+; But : Insérer une espace simple qui ne soit pas « mangée » par MediaWiki lors de l'évaluation des modèles.
+; Syntaxe : <nowiki>{{</nowiki>{{PAGENAME}}}}
+; Exemple : <code><nowiki>mot1{{#if:</nowiki>1|{{((}}{{BASEPAGENAME}}}}mot2}}</nowiki></code> rend « mot1{{#if:1|{{ {{BASEPAGENAME}} }}mot2}} ».<br><code><nowiki>mot1{{#if:</nowiki>1| mot2}}</code> affiche « mot1{{#if:1| mot2}} ».
+
+==Voir aussi==
+* {{m|1==}}
+* {{m|!}}
+
+[[Catégorie:Subroutines-pcd|{{PAGENAME}}]]
+
+</noinclude>

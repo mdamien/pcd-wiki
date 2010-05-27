@@ -1,0 +1,4 @@
+{{#if:{{{variant|}}}|{{{{{{name|{{{nom|}}}}}} alias-{{{variant}}}|{{{alias-{{{variant}}}}}}}}|{{{alias}}}|{{{alias}}}}}<noinclude>
+{{Documentation, template|content=This template is used internally by [[Template:getalias]]. It is not intended to be transcluded directly.}}
+[[Catégorie:Modèle drapieu|{{PAGENAME}}]]
+</noinclude>

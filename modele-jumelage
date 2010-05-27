@@ -1,0 +1,58 @@
+<includeonly><!--
+-->{{#ifexist: Modèle:Country_flag_alias_{{{2}}} |<!--
+Affichage du drapeau
+-->{{Drapeau|{{{2}}}|taille=20}}&nbsp;
+|<!--
+Erreur de paramétrage
+--><span style="display:none">{{Jumelage/Erreur (flag alias)}}</span><!--
+-->}}<!--
+
+Affichage de la ville
+-->{{#if: {{{trad|}}}{{{lang|}}} | {{Lien|fr={{{1}}}|trad={{{trad|{{{1}}}}}}|lang={{{lang|en}}}|texte={{{ville|{{{1}}}}}}}} | {{#if: {{{ville|}}} | [[{{{1}}}|{{{ville|}}}]] | [[{{{1}}}]] }} }}<!--
+
+-->{{#ifexist: Modèle:Country_data_{{{2}}} |&nbsp;([[{{getalias|{{{2|}}}}}|{{country alias {{{2|}}}}}]])|<!--
+Affichage du pays
+-->&nbsp;([[{{#switch:{{{2}}}
+               | Chypre=Chypre (pays){{!}}
+               | Comores=Comores (pays){{!}}
+               | Dominique=Dominique (pays){{!}}
+               | Équateur=Équateur (pays){{!}}
+               | Géorgie=Géorgie (pays){{!}}
+               | Grenade=Grenade (pays){{!}}
+               | Irlande=Irlande (pays){{!}}
+               | Luxembourg=Luxembourg (pays){{!}}
+               | Macédoine=Macédoine (pays){{!}}
+               | Maurice=Maurice (pays){{!}}
+               | Micronésie=Micronésie (pays){{!}}
+               | Palestine=Autorité palestinienne{{!}}
+            }}<!--
+-->{{Country_alias_{{{2}}}}}]])
+}}<!--
+
+-->{{#if: {{{année|}}} |<!--
+
+Affichage de la date
+-->{{#if: {{{jour|}}} |<!--
+-->{{#if: {{{mois|}}} |<!--
+-->{{#if: {{{année|}} }|<!--
+-->&nbsp;depuis le {{Date|{{{jour|}}}|{{{mois|}}}|{{{année|}}}}}<!--
+-->}} }}
+|<!--
+-->{{#if: {{{mois|}}} |<!--
+-->{{#if: {{{année|}}} |<!--
+-->&nbsp;depuis {{Date||{{{mois|}}}|{{{année|}}}}}<!--
+-->}}
+|<!--
+-->{{#if: {{{année|}}} |<!--
+-->&nbsp;depuis [[{{{année|}}}]]<!--
+-->}}<!--
+-->}}<!--
+-->}}<!--
+
+-->}}<!--
+
+-->{{#ifexist: {{{1}}} | {{#if: {{{trad|}}}{{{lang|}}} | <span style="display:none">{{Jumelage/Modèle Lien superflu}}</span> }} | <span style="display:none">{{Jumelage/Ville en lien rouge}}</span> {{#if: {{{trad|}}}{{{lang|}}} | | <span style="display:none">{{Jumelage/Ville en lien rouge/Modèle Lien absent}}</span> }}}}<!--
+
+-->{{#if: {{{3|}}} | <span style="display:none">{{Jumelage/Paramètre superflu}}</span> }}<!--
+
+--></includeonly><noinclude> </noinclude>

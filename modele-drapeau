@@ -1,0 +1,8 @@
+{{#ifexist:modèle:country data {{country alias {{{1}}}}}|
+  {{country data {{country alias {{{1}}}}}
+    |country flagicon2
+    |variant={{{variant|{{{2|}}}}}}
+    |size={{{size|{{{taille|20x18}}}}}}px
+  }}
+|[[Fichier:{{Country flag alias {{{1|}}}}}|{{{size|{{{taille|20x18}}}}}}px|border|{{Country alias {{{1|}}}}}]]
+}}<noinclude>{{doc modèle}}</noinclude>

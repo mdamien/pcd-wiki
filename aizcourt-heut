@@ -1,0 +1,126 @@
+{{Conmune |nomcommune= Aizcourt-Heut
+|région=[[Picardie]]
+|département=[[Sonme (départémint)|Sonme]]
+|arrondissement=[[Péronne]]
+|canton=[[Péronne]]
+|insee=80015
+|cp=80200
+|maire=Jean-Marie Deleau
+|mandat=2008-2014
+|intercomm=Conmunauté d’conmeunes ed la Heute Sonme
+|longitude=2.98416666667
+|latitude=49.9641666667
+|alt moy=120 m
+|alt mini=78 m
+|alt maxi=147 m
+|hectares=365
+|km²=3,65
+|sans=91
+|date-sans=2006
+|dens=25|}}
+''' Aizcourt-Heut '''  ( '' Aizecourt-le-Haut '' in franchoé ) ch' est eune conmeune picarte, plachée dins ch' départémint éd la [[Sonme (départémint)|Sonme]] et pi dins l'région [[Picardie]].
+
+== Aménistrachon ==
+{{ÉluDébut |Titre= Lisse d’chés maires }}
+{{Élu |Début= mars 2001 |Fin=2014 |Identité= Jean-Marie Deleau |Parti=  |Qualité= }}
+{{ÉluDonnées}}
+{{ÉluFin}}
+
+
+== Démografie ==
+{{Démografie|
+1962=  58 |
+1968=  69 |
+1975=  72 |
+1982=  54 |
+1990=  80 |
+1999= 100 |
+2006=  91 |
+enquêteannuelle=       |
+sansdoublescomptes=1962|
+source=[[Insee]]}}
+
+''Démografie''
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:350 height:373
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:150
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:50 start:0
+ScaleMinor = gridcolor:lightgrey increment:10 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1962 text:1962
+  bar:1968 text:1968
+  bar:1975 text:1975
+  bar:1982 text:1982
+  bar:1990 text:1990
+  bar:1999 text:1999
+  bar:2006 text:2006
+
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:1962 from:0 till: 58
+  bar:1968 from:0 till: 69
+  bar:1975 from:0 till: 72
+  bar:1982 from:0 till: 54
+  bar:1990 from:0 till: 80
+  bar:1999 from:0 till: 100
+  bar:2006 from:0 till: 91
+
+PlotData=
+
+  bar:1962 at: 58 fontsize:S text: 58 shift:(-8,5)
+  bar:1968 at: 69 fontsize:S text: 69 shift:(-10,5)
+  bar:1975 at: 72 fontsize:S text: 72 shift:(-10,5)
+  bar:1982 at: 54 fontsize:S text: 54 shift:(-10,5)
+  bar:1990 at: 80 fontsize:S text: 80 shift:(-10,5)
+  bar:1999 at: 100 fontsize:S text: 100 shift:(-10,5)
+  bar:2006 at: 91 fontsize:S text: 91 shift:(-10,5)
+
+TextData=
+  fontsize:S pos:(20,20)
+  text:source INSEE
+
+</timeline>
+
+==Molumints==
+
+* église Saint-Antoine 
+
+==Chés honmes célébes del conmeune==
+'''Jacques Louis Jaucourt-Latour''', général d'brigate éd chés càrabinniés dsous l’Révoluchon franchoèse. Il est  né l’17 d’marche 1736 à Aizcourt-Heut et pi il est mort l’ 8 d’octobe 1807 à Gray (Heute-Saone).
+
+
+== Notes pi référinches ==
+<references />
+
+=== Loïens intarnètes ===
+* [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=73993 Aizcourt-Heut dseur ch'site ed l'Institut géographique national]
+
+[[Catégorie:Conmunes del Sonme]]
+
+[[ceb:Aizecourt-le-Haut]]
+[[en:Aizecourt-le-Haut]]
+[[es:Aizecourt-le-Haut]]
+[[fr:Aizecourt-le-Haut]]
+[[it:Aizecourt-le-Haut]]
+[[nl:Aizecourt-le-Haut]]
+[[pl:Aizecourt-le-Haut]]
+[[pt:Aizecourt-le-Haut]]
+[[sr:Езкур ле О]]
+[[uk:Езекур-ле-О]]
+[[vi:Aizecourt-le-Haut]]
+[[vo:Aizecourt-le-Haut]]
+[[war:Aizecourt-le-Haut]]

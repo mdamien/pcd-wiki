@@ -2,7 +2,7 @@
 {{#if: {{{Titre|}}} | {{!+}} '''{{{Titre}}}''' }}
 |-style="background: #{{ #switch:{{{Charte}}}| commune=ddffdd|intercommunalité=ffe2bf|canton=ece5ca|arrondissement=e1e1e1|département=f6f3dd|région=bbdefd|défaut=|ddffdd}}"
 ! scope=col colspan="2" | innées
-! scope=col | Identité
+! scope=col | Idintité
 ! scope=col | Étitchète
 ! scope=col | Qualitè
 |-</includeonly><noinclude></noinclude>

@@ -57,17 +57,17 @@
 |'''Conmune'''
 | {{{commune|(inconnu)}}}
 |-----
-! colspan="2" bgcolor="#FFFFBB" align="center" |Géographie
+! colspan="2" bgcolor="#FFFFBB" align="center" |Jéografie
 |-----
 |'''Coordonnées''' ||{{coord|{{{lat_deg|}}}|{{{lat_min|}}}|{{{lat_sec|0}}}|N|{{{lon_deg|}}}|{{{lon_min|}}}|{{{lon_sec|0}}}|E|region:BE_type:city}}
 |-----
 |'''Supérfichie'''
-|{{{superficie|(inconnue)}}} [[Kilomètre carré|km²]]
+|{{{superficie|(inconnue)}}} km²
 |-----
 |'''Nombe éd gins'''<br/> '''Dinchité'''
 |{{{population-totale|(inconnue)}}} hab. ''<small>({{{date-recensement|??/??/????}}})</small>''<br/>{{{densité|(inconnue)}}} hab./km²
 |-----
-! colspan="2" bgcolor="#FFFFBB" align="center" |Autres informations
+! colspan="2" bgcolor="#FFFFBB" align="center" |Autes données
 |-----
 |'''Gentilé'''
 |{{{gentile|(inconnu)}}}
@@ -78,7 +78,7 @@
 |'''Zone téléfonique'''
 |{{{zone-telephonique|(inconnue)}}}
 |-----
-|'''[[Site web|Site deul mérrie]]'''
+|'''Site deul mérrie'''
 |{{{site|(inconnu)}}}
 |}{{#if:{{{carte|}}}|{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|Belgique]]}}
 }}</includeonly><noinclude>

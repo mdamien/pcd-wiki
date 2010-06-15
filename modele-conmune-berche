@@ -21,23 +21,23 @@
 {{!}}-----
 {{ #switch: {{{armoiries|}}}{{{drapeau|}}}
 | {{{armoiries|}}} = {{#if:{{{armoiries|}}}|
-{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}[[Héraldique|Armoiries]]
+{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}[[Héraldique|Armoéries]]
 {{!}}-----
 {{!}}colspan="2" align="center"{{!}}[[Image:{{{armoiries|Sin escudo.svg}}}|85px]] }}
 | {{{drapeau|}}} = {{#if:{{{drapeau|}}}|
-{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}[[Drapeau]]
+{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}[[Drapiau]]
 {{!}}-----
 {{!}}colspan="2" align="center"{{!}}<span style="display:table-cell; border-collapse:collapse; border: solid 1px #BBBBBB;">[[Image:{{{drapeau|Sin bandera.svg}}}|125px]]</span> }}
 | {{{armoiries|}}}{{{drapeau|}}} = {{#if:{{{drapeau|}}}|
-{{!}}colspan="1" bgcolor="#FFFFBB" align="center"{{!}}[[Héraldique|Armoiries]]
-{{!}} colspan="1" bgcolor="#FFFFBB" align="center"{{!}} [[Drapeau]]
+{{!}}colspan="1" bgcolor="#FFFFBB" align="center"{{!}}[[Héraldique|Armoéries]]
+{{!}} colspan="1" bgcolor="#FFFFBB" align="center"{{!}} [[Drapiau]]
 {{!}}-----
 {{!}}colspan="1" align="center"{{!}}[[Image:{{{armoiries|Sin escudo.svg}}}|85px]]
 {{!}}colspan="1" align="center" {{!}}<span style="display:table-cell; border-collapse:collapse; border: solid 1px #BBBBBB;">[[Image:{{{drapeau|Sin bandera.svg}}}|125px]]</span> }}
 | Résultat par défaut
 }}
 |-----
-! colspan="2" bgcolor="#FFFFBB" align="center" |Administration
+! colspan="2" bgcolor="#FFFFBB" align="center" |Aménistrachon
 |-----
 |'''Poéis'''
 |[[Image:Flag of Belgium (civil).svg|21px]] [[Bergike]]
@@ -78,7 +78,7 @@
 |'''Zone téléfonique'''
 |{{{zone-telephonique|(inconnue)}}}
 |-----
-|'''[[Site web|Site officiel]]'''
+|'''[[Site web|Site deul mérrie]]'''
 |{{{site|(inconnu)}}}
 |}{{#if:{{{carte|}}}|{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|Belgique]]}}
 }}</includeonly><noinclude>

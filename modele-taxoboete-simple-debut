@@ -1,0 +1,17 @@
+{| align="right" rules="all" cellpadding="3" cellspacing="0" border="0"  style="margin: 0 0 1em 1em; border: 1px solid #999; background-color: {{taxoboxoutils couleur mineure|{{{1}}}}}"
+! colspan="3" style="background:{{taxoboxoutils couleur titre|{{{1}}}}};  padding:5px;" align="center"|<font color=white size=4><span style="position:relative; float:right;"><imagemap>Image:Gtk-dialog-info.svg|20px|Comment lire une taxobox
+rect 0 0 50 50 [[Wikipédia:Lecture d'une taxobox]]
+desc none</imagemap></span>'''{{{2}}}'''</font>
+|----
+| colspan="2" style="padding:0px;" align="center"| [[Image:{{#if:{{{3|}}}|{{{3}}}|Defaut.svg}}|{{{extraimage|250px}}}|alt={{{4|}}}]]
+|----
+! colspan="2" align="center" | <small>{{{4|}}}</small>
+|----
+{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Article avec taxobox-{{#if:x|{{{1}}}}}]]}}<noinclude>|}
+
+{{/Documentation}}
+
+[[Catégorie:Subroutines-pcd]]
+
+
+</noinclude>

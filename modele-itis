@@ -1,0 +1,5 @@
+<span class="ouvrage" id=" {{ #if:{{{ancre|}}} |{{{ancre}}} |{{anchorencode:ITIS }} }}">Référence [[Système d'information taxonomique intégré|ITIS]] : [http://www.cbif.gc.ca/pls/itisca/next?taxa=&p_format=&p_ifx=&p_lang=fr&v_tsn={{#if:x|{{{1}}}}} {{{2|<small>TSN </small>{{{1}}}}}}{{#ifeq:{{{3|}}}|nv| ''' Non Valide'''}}] {{fr}} (<span class="plainlinksneverexpand"><small>[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value={{#if:x|{{{1}}}}} +version]</small></span> {{en}})</span><noinclude>
+
+{{Documentation}}
+
+</noinclude>

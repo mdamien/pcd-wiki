@@ -1,0 +1,13 @@
+{{Taxoboète simple début|{{{1}}}|{{{2}}}|{{{3|}}}|{{{4|}}} }}
+! colspan="2" style="background:{{taxoboxoutils couleur majeure|{{{1}}}}};" | {{Taxoboxoutils classification classique|{{{classification|}}}|{{{1}}} }}
+|-
+{{#ifeq:{{{5|}}}|phylo|<td colspan="2" align="center" cellpadding="0"> [[Image:danger.png|25px|left]]<small>Taxon inexistant en {{Taxoboxoutils classification classique|{{{classification|}}}|{{{1}}} }}<br/>Voir le texte pour plus d'information.</small></td></tr>|{{Taxoboxoutils premier parent|{{{1}}}|règne={{{règne|afficher}}} }} }}
+<!-- Catégories automatiques -->
+{{#ifeq:{{{5|}}}|phylo|{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Taxon inexistant en classification classique]]}} }}
+{{#switch: {{{3|Defaut.svg}}}|Defaut.svg|defaut.svg|={{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Article à illustrer/Taxobox {{{1}}}]]}}}}<noinclude>
+|}
+{{/Documentation}}
+
+[[Catégorie:Modèle taxobox|Début]]
+
+</noinclude>

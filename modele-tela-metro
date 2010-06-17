@@ -1,0 +1,5 @@
+<span class="ouvrage" id="{{#if:{{{ancre|}}}|{{{ancre}}}|{{anchorencode:Tela-métro}}}}">Référence [[Tela Botanica]] ([http://www.tela-botanica.org/page:eflore France métro]) : [http://www.tela-botanica.org/eflore/BDNFF/4.02/nn/{{#if:x|{{{1}}}}} {{#if:{{{2|}}}|{{{2}}}|nn{{{1}}}}}{{#ifeq:{{{3|}}}|nv| ''' Non Valide'''}}] {{fr}}</span><noinclude>
+
+{{Documentation}}
+
+</noinclude>

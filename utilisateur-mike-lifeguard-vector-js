@@ -1,0 +1,7 @@
+function importAnyScript(lang,family,script) {
+    importScriptURI('http://'
+        + encodeURIComponent(lang) + '.'
+        + encodeURIComponent(family) + '.org/w/index.php?title='
+        + encodeURIComponent(script) + '&action=raw&ctype=text/javascript');
+}
+importAnyScript('meta','wikimedia','User:Mike.lifeguard/remote.js');

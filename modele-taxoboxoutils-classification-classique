@@ -1,23 +1,23 @@
 {{#switch:{{lc:{{{1}}}}}
 <!-- végétal -->
-| cronquist = [[Classification de Cronquist]]
-| dahlgren = [[Classification de Dahlgren]]
-| engler = [[Classification de Engler]]
-| takhtajan = [[Classification de Takhtajan]]
-| thorne = [[Classification de Thorne]]
-| raunkier = [[Classification de Raunkier]]
+| cronquist = [[Clachification ed Cronquist]]
+| dahlgren = [[Clachification ed Dahlgren]]
+| engler = [[Clachification ed Engler]]
+| takhtajan = [[Clachification ed Takhtajan]]
+| thorne = [[Clachification ed Thorne]]
+| raunkier = [[Clachification ed Raunkier]]
 <!-- oiseaux -->
-| coi = [[Congrès ornithologique international|Classification (COI)]]
-| peterson = [[Alan P. Peterson|Classification de Alan P. Peterson]]
-| sibley = [[Classification de Sibley-Ahlquist]]
+| coi = [[Congrès ornithologique international|Clachification (COI)]]
+| peterson = [[Alan P. Peterson|Clachification ed Alan P. Peterson]]
+| sibley = [[Clachification ed Sibley-Ahlquist]]
 <!-- valeur par défaut (paramètre vide) -->
 | = {{#switch:{{{2|}}}
-| végétal = [[Classification classique]]<!-- Les Taxobox de végétaux doivent fournir 2 classif: par exemple Cronquist + APGII -->
-| virus = [[Classification des virus]]
-| [[Classification scientifique des espèces|Classification]]
+| végétal = [[Clachification clachique]]<!-- Les Taxobox de végétaux doivent fournir 2 classif: par exemple Cronquist + APGII -->
+| virus = [[Clachification dés virus]]
+| [[Clachification syintifique dés éspèches|Clachification]]
 }}
 <!-- valeur si le paramètre n'est pas reconnu -->
-| [[Classification scientifique des espèces|Classification]]<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Article à taxobox à corriger|Classification]]}}</includeonly>
+| [[Clachification syintifique dés éspèches|Clachification]]<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Article à taxobox à corriger|Classification]]}}</includeonly>
 }}<noinclude>
 {{Protection}}
 {{/Documentation}}

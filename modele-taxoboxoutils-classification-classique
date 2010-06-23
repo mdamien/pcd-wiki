@@ -17,7 +17,7 @@
 | [[Clachification syintifique dés éspèches|Clachification]]
 }}
 <!-- valeur si le paramètre n'est pas reconnu -->
-| [[Clachification syintifique dés éspèches|Clachification]]<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Article à taxobox à corriger|Classification]]}}</includeonly>
+| [[Clachification syintifique dés éspèches|Clachification]]<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Artike aveuc taxoboète à corrigier|Clachification]]}}</includeonly>
 }}<noinclude>
 {{Protection}}
 {{/Documentation}}

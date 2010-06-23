@@ -1,0 +1,31 @@
+{{#if: {{{1|}}} | ?{{{1}}} | [[:Catégorie:Auteu à vir|— auteu à vir —]]}}
+[[Catégorie:Auteu à vir]]<noinclude>
+
+{{Documentation modèle}}
+
+;Utilisation
+: Ch' modèle ch'est pour eune taxoboète quand echl auteu éd l'éspèche décrite pèr l'artike il est poin connu.
+: I put étou être mis quand l'abréviachon dechl auteu al est connue, mais qu' l'article wikipédia i n'o poin été treuvé.
+;pèr ampes
+: <nowiki>{{auteur}}</nowiki>
+: <nowiki>{{auteur | [[P. Brown]]}}</nowiki>
+: <nowiki>{{auteur | P. Brown}}</nowiki>
+
+
+;Résultats
+: {{auteur}}
+: {{auteur | [[P. Brown]]}}
+: {{auteur | P. Brown}}
+
+;Syntaxe
+: <pre><nowiki>{{auteur | auteurIncomplet}}</nowiki></pre>
+
+;Paramètres
+:* '''auteurIncomplet''' (facultatif)
+:: Si vos avez l'abréviachon dehl auteu, mais vos n'avez poin treuvé l'article wikipédia éq vo aveuc.
+:: '''Ex1''': ''P. Brown''
+:: '''Ex2''': ''[[P. Brown]]''
+
+[[Catégorie:Modèle biolodjie]]
+
+</noinclude>

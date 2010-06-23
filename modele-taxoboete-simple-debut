@@ -7,7 +7,7 @@ desc none</imagemap></span>'''{{{2}}}'''</font>
 |----
 ! colspan="2" align="center" | <small>{{{4|}}}</small>
 |----
-{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Article avec taxobox-{{#if:x|{{{1}}}}}]]}}<noinclude>|}
+{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Artike aveuc taxoboète-{{#if:x|{{{1}}}}}]]}}<noinclude>|}
 
 {{/Documentation}}
 

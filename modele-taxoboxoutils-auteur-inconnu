@@ -1,0 +1,21 @@
+{{#switch:{{{1}}}
+| test = {{auteur}}, {{Date à préciser}}
+| algue = {{auteur}}, {{Date à préciser}}
+| animal = {{auteur}}, {{Date à préciser}}
+| archaea = {{auteur}}, {{Date à préciser}}
+| bactérie = {{auteur}}, {{Date à préciser}}
+| champignon = {{auteur}}, {{Date à préciser}}
+| protiste =
+| végétal = {{auteur}}, {{Date à préciser}}
+| virus =
+| neutre =
+| eucaryote = {{auteur}}, {{Date à préciser}}
+| procaryote = {{auteur}}, {{Date à préciser}}
+| {{auteur}}, {{Date à préciser}} {{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Artike aveuc taxoboète à corrigier|Ègne]]}}
+}}<noinclude>
+
+{{/Documentation}}
+
+[[Catégorie:Subroutines-pcd]]
+
+</noinclude>

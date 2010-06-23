@@ -34,9 +34,9 @@
 | sous-classe = [[Sous-clache (biolodjie)|Sous-clache]]
 | classe = [[Clache (biolodjie)|Clache]]
 | super-classe = [[Superclache|Super-clache]]
-| sous-embranchement = {{#ifeq:{{{format}}}|long|[[Dsous-imbranchemint]]|[[Dsous-imbranchemint|Dsous-imbr.]]}}
-| embranchement = {{#ifeq:{{{format}}}|long|[[Embranchement (biologie)|Embranchement]]|[[Embranchement (biologie)|Embranchement]]}}
-| super-embranchement = {{#ifeq:{{{format}}}|long|[[Super-imbranchemint (biolodjie)|Super-imbranchemint]]|[[Super-imbranchemint (biologie)|Super-imbr.]]}}
+| sous-embranchement = {{#ifeq:{{{format}}}|long|[[Dsous-inbranchemint]]|[[Dsous-inbranchemint|Dsous-inbr.]]}}
+| embranchement = {{#ifeq:{{{format}}}|long|[[Inbranchemint (biolodjie)|Inbranchemint]]|[[Inbranchemint (biolodjie)|Inbranchemint]]}}
+| super-embranchement = {{#ifeq:{{{format}}}|long|[[Super-inbranchemint (biolodjie)|Super-inbranchemint]]|[[Super-inbranchemint (biologie)|Super-inbr.]]}}
 | sous-division = [[Dsous-division (biolodjie)|Dsous-division]]
 | division = [[Division (biolodjie)|Division]]
 | super-division = [[Division (biolodjie)|Super-Division]]

@@ -11,7 +11,7 @@
 | neutre = {{Taxobox | règne | Neutre }}
 | eucaryote = {{Taxobox | domaine | Eukaryota }}
 | procaryote = {{Taxobox | domaine | Procaryote }}
-| {{Taxobox | règne | Règne à préciser | '''Règne à préciser''' }}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Article à taxobox à corriger|Ègne]]}}
+| {{Taxobox | règne | Règne à préciser | '''Règne à préciser''' }}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Artike aveuc taxoboète à corrigier|Ègne]]}}
 }} }}<noinclude>
 {{Documentation}}
 

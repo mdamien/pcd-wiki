@@ -1,0 +1,23 @@
+{{Boîte déroulante/début|titre={{{titre}}}
+|br={{{br|yes}}}
+|arrondi={{{arrondi|}}}
+|image={{{image|}}}
+|alignB={{{alignB|}}}
+|hauteur={{{hauteur|}}}
+|margeHaut={{{margeHaut|}}}|margeBas={{{margeBas|}}}
+|largeur={{{largeur|}}}
+|couleurBordure={{{couleurBordure|}}}
+|couleurFondB={{{couleurFondB|}}}
+|couleurFond={{{couleurFond|}}}
+|align={{#if:{{{align|}}} | {{{align|}}} | left }}
+|alignT={{{alignT|}}}
+|taille={{{taille|}}}
+|label={{{label|}}}
+|couleurFondT={{{couleurFondT|}}}
+|couleurTexteT={{{couleurTexteT|}}}
+|thinning={{{thinning|}}}
+}}{{{contenu}}}{{Boîte déroulante/fin}}<noinclude>
+{{Documentation modèle compliqué en sous-page}}
+{{Boîte déroulante/Documentation}}
+<!-- Catégories et interwikis en sous-page de documentation, merci. -->
+</noinclude>

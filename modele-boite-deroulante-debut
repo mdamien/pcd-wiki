@@ -1,0 +1,22 @@
+<div  align="{{ #switch:{{{alignB}}} | gauche = left | droite = right | centre = center | left = left | right = right | center = center | #default = left }}">
+<div class="NavFrame" style="clear:both; margin-bottom:{{{margeBas|1em}}}; width:{{{largeur|99%}}}; border-style:solid; -moz-border-radius:{{{arrondi|0}}}; -webkit-border-radius:{{{arrondi|0}}}; border-color:{{{couleurBordure|#AAAAAA}}}; background-color:{{{couleurFondB|#FFFFFF}}};" title="{{{label|[Dérouler]}}}" >
+{{#if:{{{image|}}}|<div class="NavPic" style="{{{style|}}}background-color:{{{couleurFondT|#EFEFEF}}};">{{{image}}}</div>}}
+<div class="NavHead" align="{{ #switch: {{{alignT|center}}}| gauche = left| droite = right| centre = center
+| left = left| right = right| center = center | centre}}" style="height:{{{hauteur|1.6em}}}; background-color:{{{couleurFondT|#EFEFEF}}}; color:{{{couleurTexteT|black}}}; {{#ifeq:{{{thinning|no}}}|yes|font-weight:normal;|}}">{{{titre}}}</div>
+<div class="NavContent" style="margin:{{{marge|0px}}}; background:{{{couleurFond|white}}}; display:block;" align="{{{align|left}}}">
+<noinclude>
+</div></div>
+{{Documentation modèle}}
+
+: Voir '''[[Modèle:Boîte déroulante/Documentation|documentation]]''' et '''[[Discussion Modèle:Boîte déroulante|page de discussion]] '''
+
+: {{Attention|Ce modèle doit obligatoirement être utilisé avec le modèle {{M|Boîte déroulante/fin}}}}
+
+
+== Voir aussi ==
+{{Modèles navigationnels}}
+
+[[en:Template:Hidden begin]]
+[[ru:Шаблон:Начало скрытого блока]]
+[[uk:Шаблон:Початок прихованого блоку]]
+</noinclude>

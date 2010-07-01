@@ -1,0 +1,24 @@
+{| class="wikitable droite" style="margin:1em;margin-right:0;font-size:87%"
+|-
+|Blank||style="background:#FFFFFF;color:#000000"|<tt>#FFFFFF</tt>
+|Cyan||style="background:#00FFFF;color:#000000"|<tt>#00FFFF</tt>
+|Ganne||style="background:#FFFF00;color:#000000"|<tt>#FFFF00</tt>
+|Fuchsia||style="background:#FF00FF;color:#000000"|<tt>#FF00FF</tt>
+|-
+|Érgint||style="background:#C0C0C0;color:#000000"|<tt>#C0C0C0</tt>
+|Bleu||style="background:#0000FF;color:#FFFFFF"|<tt>#0000FF</tt>
+|Vért||style="background:#00FF00;color:#000000"|<tt>#00FF00</tt>
+|Rouche||style="background:#FF0000;color:#FFFFFF"|<tt>#FF0000</tt>
+|-
+|Gris||style="background:#808080;color:#FFFFFF"|<tt>#808080</tt>
+|Bleu||style="background:#008080;color:#FFFFFF"|<tt>#008080</tt>
+|Kaki||style="background:#808000;color:#FFFFFF"|<tt>#808000</tt>
+|Violet||style="background:#800080;color:#FFFFFF"|<tt>#800080</tt>
+|-
+|Noère||style="background:#000000;color:#FFFFFF"|<tt>#000000</tt>
+|Bleu marine||style="background:#000080;color:#FFFFFF"|<tt>#000080</tt>
+|Vért||style="background:#008000;color:#FFFFFF"|<tt>#008000</tt>
+|Rouche foncé||style="background:#800000;color:#FFFFFF"|<tt>#800000</tt>
+|}
+
+[[Catégorie:Subroutines-pcd]]

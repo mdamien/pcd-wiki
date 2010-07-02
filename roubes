@@ -33,10 +33,10 @@
 
 '''Roubais''' (in frinsé ''Roubaix'') ch'est eune vile dech [[Nord (départémint)|Nord]] (région [[Nord-Pas-d'Caleus]]).
 
-[[image:Mairie de Roubaix.JPG|200px]]
+[[Fichier:Mairie de Roubaix.JPG|200px]]
 
-==Chés cantons==
-[[Image:Roubaix.jpg|thumb|center|<small>Chés cantons d'Roubais </small>|380px]]
+== Chés cantons ==
+[[Fichier:Roubaix.jpg|thumb|center|<small>Chés cantons d'Roubais </small>|380px]]
 
 
 
@@ -135,12 +135,12 @@ Colors=
   id:sfondo value:rgb(1,1,1)
   id:barra value:rgb(0.7,0.9,0.7)
 
-ImageSize  = width:700 height:300
-PlotArea   = left:50 bottom:50 top:30 right:30
+ImageSize = width:700 height:300
+PlotArea = left:50 bottom:50 top:30 right:30
 DateFormat = x.y
-Period     = from:0 till:125000
-TimeAxis   = orientation:vertical
-AlignBars  = justify
+Period = from:0 till:125000
+TimeAxis = orientation:vertical
+AlignBars = justify
 ScaleMajor = gridcolor:darkgrey increment:25000 start:0
 ScaleMinor = gridcolor:lightgrey increment:5000 start:0
 BackgroundColors = canvas:sfondo
@@ -229,14 +229,14 @@ TextData=
 
 deus blasons :
 
- [[image :Blason ville fr Roubaix (Nord).svg|100px| ]]
+ [[Fichier:Blason ville fr Roubaix (Nord).svg|100px| ]]
 
 
-[[Image:Roubaix Euroteleport 2.jpg|thumb|upright=1.2|Chés Arkives nationales dech monne du travail dins l’antiusse usine Motte-Bossut]]
+[[Fichier:Roubaix Euroteleport 2.jpg|thumb|upright=1.2|Chés Arkives nationales dech monne du travail dins l’antiusse usine Motte-Bossut]]
 
-[[Image:Peignage Motte, Roubaix.png|thumb|upright=1.3|Ech chrinchage Motte éd Roubais]]
+[[Fichier:Peignage Motte, Roubaix.png|thumb|upright=1.3|Ech chrinchage Motte éd Roubais]]
 
-[[Image:Roubaix St Martin.jpg|thumb|right|L'église Saint-Martin]]
+[[Fichier:Roubaix St Martin.jpg|thumb|right|L'église Saint-Martin]]
 
 == Notes pi référinches ==
 <references />
@@ -246,11 +246,10 @@ deus blasons :
 * [http://www.ville-roubaix.fr/ Mérrie d’ Roubais]
 * [http://www.recensement.insee.fr/searchResults.action?zoneSearchField=&codeZone=59512-COM Roubais dseur ch’site ed l’Insee]
 
+[[Catégorie:Viles dech Nord]]
+[[Catégorie:Conmunes dech Nord]]
 
-[[catégorie: Viles dech Nord]]
-[[catégorie:Conmunes dech Nord]]
-
-[[fr:Roubaix]]
+[[ar:مدينة روبيه]]
 [[bg:Рубе]]
 [[br:Roubaix]]
 [[ca:Roubaix]]
@@ -262,6 +261,7 @@ deus blasons :
 [[es:Roubaix]]
 [[eu:Roubaix]]
 [[fi:Roubaix]]
+[[fr:Roubaix]]
 [[id:Roubaix]]
 [[it:Roubaix]]
 [[ja:ルーベ]]

@@ -15,7 +15,7 @@
 
 '''É'''<ref>http://www.languepicarde.fr/dico.html Variantes: ''eps, éye, è, zé, és, ais, aix, hé, aie, ès, eys''</ref> o '''Abéle'''<ref>Variantes: ''abeile, abelle, abel', abèle, abèlye, abèye''</ref>,  '''Mouque-à-mié'''<ref>Variantes: ''mouke a myé, mouque à miel, mouque à mié, mouque à mii, mouque à mièl, mouque a myé, mouke a myél, mouk'à mi.yé, mouch'-à-mîl(e)''</ref> (''Apis mellifera'') (in frinsé: ''abeille'')
 
-*'''İtalhyin·ne'''<ref>Variantes: ''italienne''</ref> (in frinsé: ''abeille de race italienne'') 
+*'''Italhyin·ne'''<ref>Variantes: ''italienne''</ref> (in frinsé: ''abeille de race italienne'') 
 
 == Voir aussi   ==
 *[[Dàrdilhon ]] 

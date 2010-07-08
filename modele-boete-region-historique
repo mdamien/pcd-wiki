@@ -1,0 +1,58 @@
+<noinclude>
+<!--
+  poin d'blanc o d'saut d'line avant < noinclude > o bin apré < /noinclude >.
+-->
+
+== Utilisation ==
+Vous pouvez placer ce modèle dans un article, généralement au début, en utilisant la syntaxe suivante et en remplissant chaque champ connu (après le signe « = ») avec la valeur adaptée :
+ <nowiki>{{</nowiki>Boète Région Historique
+ | nomrégion=
+ | armes=
+ | dates=
+ | carte=
+ | légende=
+ | populations=
+ | fondation=
+ | disparition=
+ | souverains=
+ | histoire=
+ | divisions=
+ | villes=
+ <nowiki>}}</nowiki>
+== Rendu dans les articles : ==
+</noinclude>
+<div>
+{| align="right" border="0" rules="all" width="300" cellpadding="4" cellspacing="0"  style="clear: right; margin: 0 0 1em 1em; border: 1px solid #999; border-right-width: 2px; border-bottom-width: 2px; background-color: aliceblue"
+! colspan="2" style="background-color: #BBDEFD; color:black;" |<font size="5"> '''{{{nomrégion}}}''' </font><font size="3"><br>Région historique<br>{{{dates}}}</font>
+|- class="hiddenStructure{{{carte|}}}" style="background: aliceblue; text-align: center;"
+| style="width: 193px;" | <span class="hiddenStructure{{{armes||}}}">[[Image:{{{armes}}}|100px|Armes de {{{nomrégion}}}]]</span>
+| style="width: 145px;" | <span class="hiddenStructure{{{carte||}}}">[[Image:{{{carte}}}|200px|Carte de {{{nomrégion}}}]]</span>
+|- class="hiddenStructure{{{légende|}}}" style="vertical-align: top;"
+| colspan="2" style="background-color: aliceblue; color:black;" | {{{légende}}}
+|- 
+! colspan="2" style="background-color: #BBDEFD; color:black;" |<font size="3"> '''Subdivisions actuelles''' </font>
+|- class="hiddenStructure{{{divisions|}}}" style="vertical-align: top;"
+| colspan="2" style="background-color: aliceblue; color:black; horizontal-align: center;" | {{{divisions}}}
+|- 
+! colspan="2" style="background-color: #BBDEFD; color:black;" |<font size="3"> '''Villes''' </font>
+|- class="hiddenStructure{{{villes|}}}" style="vertical-align: top;"
+| colspan="2" style="background-color: aliceblue; color:black; horizontal-align: center;" | {{{villes}}}
+|- 
+! colspan="2" style="background-color: #BBDEFD; color:black;" |<font size="3"> '''Chronologie''' </font>
+|- class="hiddenStructure{{{fondation|}}}" style="vertical-align: top;"
+| colspan="2" style="background-color: aliceblue; color:black;" | {{{fondation}}}
+|- class="hiddenStructure{{{histoire|}}}" style="vertical-align: top;"
+| colspan="2" style="background-color: aliceblue; color:black;" | {{{histoire}}}
+|-class="hiddenStructure{{{disparition|}}}" style="vertical-align: top;"
+| colspan="2" style="background-color: aliceblue; color:black;" | {{{disparition}}}
+|- 
+! colspan="2" style="background-color: #BBDEFD; color:black;" |<font size="3"> '''Souverains''' </font>
+|- class="hiddenStructure{{{souverains|}}}" style="vertical-align: top;"
+| colspan="2" style="background-color: aliceblue; color:black;" | {{{souverains}}}
+|-
+! colspan="2" style="background-color: #BBDEFD; color:black;" |<font size="3"> '''Populations''' </font>
+|- class="hiddenStructure{{{populations|}}}" style="vertical-align: top;"
+| colspan="2" style="background-color: aliceblue; color:black;" | {{{populations}}}
+|}
+</div>
+[[Catégorie:Région historique d'Urope|{{{nomrégion}}}]]

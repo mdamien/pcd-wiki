@@ -1,0 +1,12 @@
+<noinclude>{|
+</noinclude>! style="background-color:{{taxoboxoutils couleur majeure|{{{1}}}}};" colspan="2" | {{#if:{{{3|}}}|{{taxoboxoutils rang|{{{2}}}|format=long}}s|Taxons}} de rang inférieur {{Taxoboxoutils règne vérification|{{{1}}} }}
+|-----
+| colspan="2" | {{#if:{{{3|}}}|{{#ifeq: {{uc:{{{3| }}}}}|VOIR TEXTE|*Voir texte|{{{3}}} }}|{{#ifeq: {{uc:{{{2|VOIR TEXTE}}}}}|VOIR TEXTE|*Voir texte|{{{2|*Voir texte}}} }} }}
+|-----
+<noinclude>|}
+
+{{/Documentation}}
+
+[[Catégorie:Subroutines-pcd]]
+
+</noinclude>

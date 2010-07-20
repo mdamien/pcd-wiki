@@ -1,0 +1,83 @@
+<noinclude>
+__NOTOC__
+<!--
+  N’insérer AUCUN blanc ou saut de ligne avant < noinclude > ou après < /noinclude >.
+-->
+<!-- ne pas déplacer ce qui suit, et surtout pas en dehors du < noinclude > ... < noinclude > -->
+
+<!-- fin de la zone à ne pas déplacer -->
+</noinclude>{| class="infobox" border="1" align="right" width="300" style="background-color: #f3fff3;text-align: center"
+| style="background-color: #ddffdd; color:black;font-size:larger;" colspan="2" | '''{{{nomcommune}}}'''
+|- valign="top"
+{{#if:{{{armoiries|}}}|
+{{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}}
+[[Fichier:{{{armoiries}}} {{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]
+{{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détail]]</small>|}} }}
+|- valign="top"
+{{#if:{{{image|}}}|
+{{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}} {{{image}}} }}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="middle"| Poéis
+| style="background-color: #f3fff3;" | <div style="float: right; padding: 0.2em 0.2em 0.2em 0.1em">[[Image:Flag of France.svg|20px|drapeau de la France]]</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Franche]]<!-- test pour aligner le drapeau à droite et le nom du pays au centre, impossible avec le modèle {{{FRA}}} -->
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Région
+| style="background-color: #f3fff3;" | {{{région}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Départmint
+| style="background-color: #f3fff3;" | {{{département}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Rondichmint
+| style="background-color: #f3fff3;" | {{{arrondissement}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Cainton
+| style="background-color: #f3fff3;" | {{{canton}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" | Code Insee
+| style="background-color: #f3fff3;" | {{{insee}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" | Code postal
+| style="background-color: #f3fff3;" | {{{cp}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" | Maire<br />&nbsp; 
+| style="background-color: #f3fff3;" | {{{maire}}}<br />{{{mandat}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Intarconmeunalité
+| style="background-color: #f3fff3;" | {{{intercomm}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" | Coordonnées<br />jourgrafiques
+| style="background-color: #f3fff3;" | {{#if:{{{latitude|}}} | {{#if:{{{longitude|}}} | {{coord|{{{latitude|}}}|{{{longitude|}}}|type:city_region:FR|format=dms long}} {{coord|{{{latitude|}}}|{{{longitude|}}}|type:city_region:FR|format=dms|display=title}} {{#if:{{{lieu|}}} |<br /><small>{{{lieu}}}</small>}} }} }}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign=top| Altitudes
+| style="background-color: #f3fff3;" | moyenne : {{{alt moy}}}<br />minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Supérfichie
+| style="background-color: #f3fff3;" |  {{{km²}}}  km²  ({{{hectares}}} ha)
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" | Populachon sins<br />doubes contes
+| style="background-color: #f3fff3;" | {{formatnum: {{{sans}}}}} gins <br /><small>({{{date-sans}}})</small>
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" | Dinchité
+| style="background-color: #f3fff3;" | {{formatnum: {{{dens}}}}} gins/km²
+|- 
+{{#if: {{{unité urbaine|}}} | 
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Unité urbaine
+{{!}} style="background-color: #f3fff3;" {{!}} {{{unité urbaine}}} gins}} 
+|-
+{{#if: {{{aire urbaine|}}} | 
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Aire urbaine
+{{!}} style="background-color: #f3fff3;" {{!}} {{{aire urbaine}}} gins}} 
+|-
+{{#if: {{{nomhab|}}} | 
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} gintilé
+{{!}} style="background-color: #f3fff3;" {{!}}  {{{nomhab}}}}}
+|-
+{{#if: {{{siteweb|}}} | 
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Chite intarnète
+{{!}} style="background-color: #f3fff3;" {{!}}  {{{siteweb}}}}}
+|- <!--Géolocalisation sur une carte de France métropolitaine-->
+{{#ifeq: {{{géoloc}}} | non | |
+{{#if: {{#ifexpr: {{{latitude}}} AND {{{longitude}}} }} | | {{!}}-
+{{!}} colspan="2" border="1" align="left" style="background-color: #ffffff; padding: 1em;" {{!}} {{Fragéoloc|{{{longitude}}}|{{{latitude}}}|desc=Carte de localisation de {{{nomcommune}}}}}
+}}
+}}
+|}<noinclude>[[Catégorie:Subroutines-pcd]]</noinclude>

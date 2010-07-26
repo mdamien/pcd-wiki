@@ -1,7 +1,7 @@
 <includeonly>{{Wikilien alternatif2
 |lien=s:
 |image=Wikisource-logo.svg
-|texte=Voir sur [[Wikisource]] : '''[[:s:{{{1|{{PAGENAME}}}}}|{{{2|{{PAGENAME}}}}}]]'''.
+|texte=Vir dseur [[Wikisource]] : '''[[:s:{{{1|{{PAGENAME}}}}}|{{{2|{{PAGENAME}}}}}]]'''.
 |couleur_fond=f9f9f9
 }}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|}}</includeonly><noinclude>
 

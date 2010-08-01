@@ -1,0 +1,96 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{#if:{{{nommusée|}}}|{{{nommusée}}}|{{PAGENAME}}}}|E1E1E1|entete defaut
+}}
+{{Infobox/Ligne optionnel
+ | {{{image|}}}|{{{image|}}}{{#if:{{{légende|}}}|<br /><small>{{{légende|}}}</small>|}}
+}}
+{{Infobox/Sous-titre
+ | Informations géographiques|E1E1E1
+}}
+{{Infobox/Ligne mixte latitude longitude optionnel
+ | Coordonnées|{{{latitude|}}}|{{{longitude|}}}|landmark|dms long
+}}
+{{Infobox/Ligne mixte
+ | Poéyis|{{{pays|}}}|40|
+}}
+{{Infobox/Ligne mixte optionnel
+ | Localité|{{{ville|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Informations générales|{{{dateouverture|}}}{{{collections|}}}{{{œuvres|}}}{{{superficie|}}}|E1E1E1
+}}
+{{Infobox/Ligne mixte optionnel
+ | Date d'ouverture|{{{dateouverture|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Réderies|{{{collections|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Nombe d'euves|{{{œuvres|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Superficie|{{{superficie|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Informations visiteurs|{{{visiteurs|}}}{{{adresse|}}}{{{site|}}}|E1E1E1
+}}
+{{Infobox/Ligne mixte optionnel
+ | Visiteurs/an|{{{visiteurs|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Adresse|{{{adresse|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Site intarnète|{{{site|}}}
+}}
+{{#if:{{{latitude|}}}|{{#if:{{{longitude|}}}|
+  {{#ifexist:Modèle:Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|
+    {{!}} colspan=2 align=center {{!}} {{#if:{{#titleparts:{{{géolocalisation|}}}|1|2}}|<div class=img_toogle>
+<div class=geobox>
+&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|name}}]]</small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|image}}|250px|(Voir situation sur carte : {{#titleparts:{{{géolocalisation|}}}|1|2}})]]
+{{G|{{#titleparts:{{{géolocalisation|}}}|1|2}}
+|{{Coordonnées/dms2dec|{{{latitude|}}}}}
+|{{Coordonnées/dms2dec|{{{longitude|}}}}}
+|{{#if:{{{nommusée|}}}|{{{nommusée}}}|{{PAGENAME}}}}
+|Localité sans toponyme}}
+{{Fin de carte}}
+</div><div class=geobox>
+&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|name}}]] </small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|image}}|250px|(Voir situation sur carte : {{#titleparts:{{{géolocalisation|}}}|1|1}})]]
+{{G|{{#titleparts:{{{géolocalisation|}}}|1|1}}
+|{{Coordonnées/dms2dec|{{{latitude|}}}}}
+|{{Coordonnées/dms2dec|{{{longitude|}}}}}
+|{{#if:{{{nommusée|}}}|{{{nommusée}}}|{{PAGENAME}}}}
+|Localité sans toponyme}}
+{{Fin de carte}}
+</div></div>|&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{{géolocalisation}}}|name}}]] </small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{{géolocalisation}}}|image}}|250px]]
+{{G|{{{géolocalisation}}}
+|{{Coordonnées/dms2dec|{{{latitude}}}}}
+|{{Coordonnées/dms2dec|{{{longitude}}}}}
+|{{#if:{{{nommusée|}}}|{{{nommusée}}}|{{PAGENAME}}}}
+|Localité sans toponyme}}
+{{Fin de carte}}
+    }}
+  {{!-}}
+  }}
+|}}}}
+|-
+{{Infobox/Notice
+ | Infobox Musée|E1E1E1
+}}
+{{Infobox/Fin}}</includeonly><noinclude>{{Doc modèle}}[[be:Шаблон:Музей]]
+[[en:Template:Infobox museum]]
+[[es:Plantilla:Ficha de museo]]
+[[fi:Malline:Museo]]
+[[gl:Modelo:Museo]]
+[[hy:Կաղապար:Տեղեկաքարտ Թանգարան]]
+[[it:Template:Museo]]
+[[ja:Template:博物館]]
+[[nl:Sjabloon:Infobox museum]]
+[[ru:Шаблон:Музей]]
+[[uk:Шаблон:Infobox Museum]]
+[[vi:Bản mẫu:Thông tin bảo tàng]]
+</noinclude>

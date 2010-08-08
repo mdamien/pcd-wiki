@@ -1,0 +1,13 @@
+{{babel|en|sco-2|eo-2|he-1|pcd-0}}
+{| class="wikitable" align="left"
+! Maintenance ([http://nrm.wikipedia.org/wiki/User:Avicennasis?action=purge Purge])
+! Entries
+|-
+| {{ #ifexpr: {{PAGESINCAT:Candidates for speedy deletion}} > 0 | bgcolor="#ffbbbb" |}} | [[:Category:Candidates for speedy deletion|Candidates for speedy deletion]] || {{ #ifexpr: {{PAGESINCAT:Candidates for speedy deletion}} > 0 | bgcolor="#ffbbbb" |}} | {{PAGESINCAT:Candidates for speedy deletion}}
+|}
+
+
+
+[[en:User:Avicennasis]]
+[[simple:User:Avicennasis]]
+[[sco:User:Avicennasis]]

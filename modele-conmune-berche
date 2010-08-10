@@ -80,7 +80,7 @@
 |-----
 |'''Site deul mérrie'''
 |{{{site|(inconnu)}}}
-|}{{#if:{{{carte|}}}|{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|Belgique]]}}
+|}{{#if:{{{carte|}}}|{{#if:{{NAMESPACE}}||}}
 }}</includeonly><noinclude>
 {{/Documentation}}
 [[catégorie:Subroutines-pcd]]

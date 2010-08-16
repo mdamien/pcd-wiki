@@ -12,7 +12,7 @@ __NOTOC__
 {{#if:{{{armoiries|}}}|
 {{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}}
 [[Fichier:{{{armoiries}}} {{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]
-{{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détail]]</small>|}} }}
+{{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détalle]]</small>|}} }}
 |- valign="top"
 {{#if:{{{image|}}}|
 {{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}} {{{image}}} }}

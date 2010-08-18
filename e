@@ -25,7 +25,7 @@
 ==  Notes pi référinches == 
 <references/>  
 
-[[Catégorie:Insecques]] 
+[[Catégorie:Insecques]]
 
 [[af:Heuningby]]
 [[bar:Imp]]
@@ -34,7 +34,7 @@
 [[cs:Včela medonosná]]
 [[da:Honningbi]]
 [[de:Westliche Honigbiene]]
-[[en:European honey bee]]
+[[en:Western honey bee]]
 [[es:Apis mellifera]]
 [[et:Meemesilane]]
 [[fi:Tarhamehiläinen]]

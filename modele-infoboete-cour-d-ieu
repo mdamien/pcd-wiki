@@ -10,14 +10,14 @@
 }}
 ! colspan="2" style="text-align:center; background-color:#80B0E0; color:white" | Caractéristiques
 |-
-{{!}} Longueur
+{{!}} Londjeur
 | {{#if:{{{longueur|}}}|{{Unité|{{{longueur}}}|km}}|?}}{{#if:{{{longueur notes|}}}|&nbsp;{{{longueur notes}}}|}}
 |- 
-{{!}} [[Bassin versant|Bassin]]
+{{!}} Bachin
 | {{#if:{{{bassin|{{{surf. bass.|}}}}}}|{{Unité|{{{bassin|{{{surf. bass.}}}}}}|km|2}}|?}}{{#if:{{{bassin notes|}}}|&nbsp;{{{bassin notes}}}|}}
 |-
 {{#if:{{{bassin collecteur|{{{bass. fluv. coll.|}}}}}}|
-{{!}} [[Bassin versant|Bassin collecteur]]
+{{!}} Bachin collécteu
 {{!}} {{{bassin collecteur|{{{bass. fluv. coll.|}}}}}}
 {{!-}}
 }}
@@ -26,7 +26,7 @@
 | {{#if:{{{débit|{{{module|}}}}}}|{{Unité|{{{débit|{{{module}}}}}}|m|3|s|-1}}|?}}{{#if:{{{débit lieu|{{{commune|}}}}}}|&nbsp;({{{débit lieu|{{{commune}}}}}})|}}{{#if:{{{débit notes|}}}|&nbsp;{{{débit notes}}}|}}
 |-
 {{#if:{{{régime|}}}|
-{{!}} [[Régime hydrologique|Régime]]
+{{!}} Rédjime hydrolodjique
 {{!}} {{{régime}}}
 {{!-}}
 }}
@@ -55,7 +55,7 @@
 }}
 }}
 {{#if:{{{source principale|}}}|
-{{!}} Source principale
+{{!}} Source princhipale
 {{!}} {{{source principale}}}
 {{!-}}
 {{#if:{{{source principale localisation|}}}|
@@ -75,7 +75,7 @@
 }}
 }}
 {{#if:{{{source secondaire|}}}|
-{{!}} Source secondaire
+{{!}} Source sgondoère
 {{!}} {{{source secondaire}}}
 {{!-}}
 {{#if:{{{source secondaire localisation|}}}|
@@ -95,11 +95,11 @@
 }}
 }}
 {{#if:{{{source confluence|}}}|
-{{!}} Confluence des sources
+{{!}} fourche d'yeu d'chés sources
 {{!}} {{{source confluence}}}
 {{!-}}
 {{#if:{{{source confluence localisation|}}}|
-{{!}} &nbsp;·&nbsp;Localisation
+{{!}} &nbsp;·&nbsp;Liu
 {{!}} {{{source confluence localisation}}}
 {{!-}}
 }}
@@ -115,11 +115,11 @@
 }}
 }}
 {{#if:{{{origine|}}}|
-{{!}} Origine
+{{!}} Oridjine
 {{!}} {{{origine}}}
 {{!-}}
 {{#if:{{{origine localisation|}}}|
-{{!}} &nbsp;·&nbsp;Localisation
+{{!}} &nbsp;·&nbsp;Liu
 {{!}} {{{origine localisation}}}
 {{!-}}
 }}
@@ -135,11 +135,11 @@
 }}
 }}
 {{#if:{{{embouchure|}}}|
-{{!}} Embouchure
+{{!}} Imbouchure
 {{!}} {{{embouchure}}}
 {{!-}}
 {{#if:{{{embouchure localisation|}}}|
-{{!}} &nbsp;·&nbsp;Localisation
+{{!}} &nbsp;·&nbsp;Liu
 {{!}} {{{embouchure localisation}}}
 {{!-}}
 }}
@@ -155,11 +155,11 @@
 }}
 }}
 {{#if:{{{confluence|}}}|
-{{!}} Confluence
+{{!}} fourche d'yeu
 {{!}} {{{confluence}}}
 {{!-}}
 {{#if:{{{confluence localisation|}}}|
-{{!}} &nbsp;·&nbsp;Localisation
+{{!}} &nbsp;·&nbsp;Liu
 {{!}} {{{confluence localisation}}}
 {{!-}}
 }}
@@ -175,12 +175,12 @@
 }}
 }}
 {{#if:{{{latitude|}}}{{{longitude|}}}|
-{{!}} Coordonnées de la source
+{{!}} Coordonnées del source
 {{!}} {{coordonnées|{{{latitude}}}/{{{longitude}}}/type:mountain|format=dms long}}{{#if:{{{référence|}}}|&nbsp;{{{référence|}}}}}
 {{!-}}
 }}
 {{#if:{{{se jette dans|}}}|
-{{!}} Se jette dans
+{{!}} S'jéte dins
 {{!}} {{{se jette dans|}}}
 {{!-}}
 }}
@@ -192,28 +192,28 @@
 {{!}} colspan="2" {{!}} Principaux affluents
 {{!-}}
 {{#if:{{{affluents rive gauche|}}}|
-{{!}} &nbsp;·&nbsp;Rive gauche
+{{!}} &nbsp;·&nbsp;Rive gueuche
 {{!}} {{{affluents rive gauche|}}}
 {{!-}}
 }}
 {{#if:{{{affluents rive droite|}}}|
-{{!}} &nbsp;·&nbsp;Rive droite
+{{!}} &nbsp;·&nbsp;Rive droéte
 {{!}} {{{affluents rive droite|}}}
 {{!-}}
 }}
 }}
 {{#if:{{{pays|}}}|
-{{!}} Pays traversés
+{{!}} Poéyis travérsés
 {{!}} {{{pays}}}
 {{!-}}
 }}
 {{#if:{{{régions|}}}|
-{{!}} Régions traversées
+{{!}} Régions travérsées
 {{!}} {{{régions}}}
 {{!-}}
 }}
 {{#if:{{{villes|}}}|
-{{!}} Principales villes
+{{!}} Grandes viles
 {{!}} {{{villes}}}
 {{!-}}
 }}

@@ -22,7 +22,7 @@
 {{!-}}
 }}
 |-
-{{!}} [[Module (hydrologie)|Débit moyen]]
+{{!}} Débit moéyin
 | {{#if:{{{débit|{{{module|}}}}}}|{{Unité|{{{débit|{{{module}}}}}}|m|3|s|-1}}|?}}{{#if:{{{débit lieu|{{{commune|}}}}}}|&nbsp;({{{débit lieu|{{{commune}}}}}})|}}{{#if:{{{débit notes|}}}|&nbsp;{{{débit notes}}}|}}
 |-
 {{#if:{{{régime|}}}|
@@ -39,7 +39,7 @@
 {{!}} {{{source}}}
 {{!-}}
 {{#if:{{{source localisation|}}}|
-{{!}} &nbsp;·&nbsp;Localisation
+{{!}} &nbsp;·&nbsp;Liu
 {{!}} {{{source localisation}}}
 {{!-}}
 }}

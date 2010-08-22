@@ -1,0 +1,224 @@
+<includeonly>{| class="infobox_v2" cellspacing="7" style="line-height:1.5em;"
+|-
+! colspan="2" class="entete map" style="background-color:#80B0E0; color:white" | {{{nom|{{PAGENAME}}}}}{{#if:{{{autres noms|}}}|<br /><small><small><small>({{{autres noms}}})</small></small></small>}}
+|-
+| colspan="2" align="center" | {{#if:{{{image|}}}|{{#ifexist:Media:{{{image}}}|[[Fichier:{{{image}}}|260px|{{{légende image|}}}]]|{{{image}}}}}<br /><small>{{{légende image|}}}</small>|[[Fichier:Defaut.svg|250px|Illustration sous licence libre bienvenue !]]}}
+|-
+{{#if:{{{carte|}}}|
+{{!}} colspan="2" align="center" {{!}} {{{carte|}}}{{#if:{{{légende carte|}}}|<br /><small>{{{légende carte}}}</small>}}
+{{!-}}
+}}
+! colspan="2" style="text-align:center; background-color:#80B0E0; color:white" | Caractéristiques
+|-
+{{!}} Longueur
+| {{#if:{{{longueur|}}}|{{Unité|{{{longueur}}}|km}}|?}}{{#if:{{{longueur notes|}}}|&nbsp;{{{longueur notes}}}|}}
+|- 
+{{!}} [[Bassin versant|Bassin]]
+| {{#if:{{{bassin|{{{surf. bass.|}}}}}}|{{Unité|{{{bassin|{{{surf. bass.}}}}}}|km|2}}|?}}{{#if:{{{bassin notes|}}}|&nbsp;{{{bassin notes}}}|}}
+|-
+{{#if:{{{bassin collecteur|{{{bass. fluv. coll.|}}}}}}|
+{{!}} [[Bassin versant|Bassin collecteur]]
+{{!}} {{{bassin collecteur|{{{bass. fluv. coll.|}}}}}}
+{{!-}}
+}}
+|-
+{{!}} [[Module (hydrologie)|Débit moyen]]
+| {{#if:{{{débit|{{{module|}}}}}}|{{Unité|{{{débit|{{{module}}}}}}|m|3|s|-1}}|?}}{{#if:{{{débit lieu|{{{commune|}}}}}}|&nbsp;({{{débit lieu|{{{commune}}}}}})|}}{{#if:{{{débit notes|}}}|&nbsp;{{{débit notes}}}|}}
+|-
+{{#if:{{{régime|}}}|
+{{!}} [[Régime hydrologique|Régime]]
+{{!}} {{{régime}}}
+{{!-}}
+}}
+{{#if:{{{source|}}}{{{source principale|}}}{{{source secondaire|}}}{{{source confluence|}}}{{{origine|}}}{{{embouchure|}}}{{{confluence|}}}{{{se jette dans|}}}{{{latitude|}}}{{{longitude|}}}{{{référence|}}}|
+! colspan="2" style="text-align:center; background-color:#80B0E0; color:white" {{!}} Cours
+{{!-}}
+}}
+{{#if:{{{source|}}}|
+{{!}} Source
+{{!}} {{{source}}}
+{{!-}}
+{{#if:{{{source localisation|}}}|
+{{!}} &nbsp;·&nbsp;Localisation
+{{!}} {{{source localisation}}}
+{{!-}}
+}}
+{{#if:{{{source altitude|}}}|
+{{!}} &nbsp;·&nbsp;Altitude
+{{!}} {{Unité|{{{source altitude}}}|m}}
+{{!-}}
+}}
+{{#if:{{{source latitude|}}}{{{source longitude|}}}|
+{{!}} &nbsp;·&nbsp;Coordonnées
+{{!}} {{Coordonnées|{{{source latitude}}}/{{{source longitude}}}/type:landmark|display=inline|format=dms}}
+{{!-}}
+}}
+}}
+{{#if:{{{source principale|}}}|
+{{!}} Source principale
+{{!}} {{{source principale}}}
+{{!-}}
+{{#if:{{{source principale localisation|}}}|
+{{!}} &nbsp;·&nbsp;Localisation
+{{!}} {{{source principale localisation}}}
+{{!-}}
+}}
+{{#if:{{{source principale altitude|}}}|
+{{!}} &nbsp;·&nbsp;Altitude
+{{!}} {{Unité|{{{source principale altitude}}}|m}}
+{{!-}}
+}}
+{{#if:{{{source principale latitude|}}}{{{source principale longitude|}}}|
+{{!}} &nbsp;·&nbsp;Coordonnées
+{{!}} {{Coordonnées|{{{source principale latitude}}}/{{{source principale longitude}}}/type:landmark|display=inline|format=dms}}
+{{!-}}
+}}
+}}
+{{#if:{{{source secondaire|}}}|
+{{!}} Source secondaire
+{{!}} {{{source secondaire}}}
+{{!-}}
+{{#if:{{{source secondaire localisation|}}}|
+{{!}} &nbsp;·&nbsp;Localisation
+{{!}} {{{source secondaire localisation}}}
+{{!-}}
+}}
+{{#if:{{{source secondaire altitude|}}}|
+{{!}} &nbsp;·&nbsp;Altitude
+{{!}} {{Unité|{{{source secondaire altitude}}}|m}}
+{{!-}}
+}}
+{{#if:{{{source secondaire latitude|}}}{{{source secondaire longitude|}}}|
+{{!}} &nbsp;·&nbsp;Coordonnées
+{{!}} {{Coordonnées|{{{source secondaire latitude}}}/{{{source secondaire longitude}}}/type:landmark|display=inline|format=dms}}
+{{!-}}
+}}
+}}
+{{#if:{{{source confluence|}}}|
+{{!}} Confluence des sources
+{{!}} {{{source confluence}}}
+{{!-}}
+{{#if:{{{source confluence localisation|}}}|
+{{!}} &nbsp;·&nbsp;Localisation
+{{!}} {{{source confluence localisation}}}
+{{!-}}
+}}
+{{#if:{{{source confluence altitude|}}}|
+{{!}} &nbsp;·&nbsp;Altitude
+{{!}} {{Unité|{{{source confluence altitude}}}|m}}
+{{!-}}
+}}
+{{#if:{{{source confluence latitude|}}}{{{source confluence longitude|}}}|
+{{!}} &nbsp;·&nbsp;Coordonnées
+{{!}} {{Coordonnées|{{{source confluence latitude}}}/{{{source confluence longitude}}}/type:landmark|display=inline|format=dms}}
+{{!-}}
+}}
+}}
+{{#if:{{{origine|}}}|
+{{!}} Origine
+{{!}} {{{origine}}}
+{{!-}}
+{{#if:{{{origine localisation|}}}|
+{{!}} &nbsp;·&nbsp;Localisation
+{{!}} {{{origine localisation}}}
+{{!-}}
+}}
+{{#if:{{{origine altitude|}}}|
+{{!}} &nbsp;·&nbsp;Altitude
+{{!}} {{Unité|{{{origine altitude}}}|m}}
+{{!-}}
+}}
+{{#if:{{{origine latitude|}}}{{{origine longitude|}}}|
+{{!}} &nbsp;·&nbsp;Coordonnées
+{{!}} {{Coordonnées|{{{origine latitude}}}/{{{origine longitude}}}/type:landmark|display=inline|format=dms}}
+{{!-}}
+}}
+}}
+{{#if:{{{embouchure|}}}|
+{{!}} Embouchure
+{{!}} {{{embouchure}}}
+{{!-}}
+{{#if:{{{embouchure localisation|}}}|
+{{!}} &nbsp;·&nbsp;Localisation
+{{!}} {{{embouchure localisation}}}
+{{!-}}
+}}
+{{#if:{{{embouchure altitude|}}}|
+{{!}} &nbsp;·&nbsp;Altitude
+{{!}} {{Unité|{{{embouchure altitude}}}|m}}
+{{!-}}
+}}
+{{#if:{{{embouchure latitude|}}}{{{embouchure longitude|}}}|
+{{!}} &nbsp;·&nbsp;Coordonnées
+{{!}} {{Coordonnées|{{{embouchure latitude}}}/{{{embouchure longitude}}}/type:landmark|display=inline|format=dms}}
+{{!-}}
+}}
+}}
+{{#if:{{{confluence|}}}|
+{{!}} Confluence
+{{!}} {{{confluence}}}
+{{!-}}
+{{#if:{{{confluence localisation|}}}|
+{{!}} &nbsp;·&nbsp;Localisation
+{{!}} {{{confluence localisation}}}
+{{!-}}
+}}
+{{#if:{{{confluence altitude|}}}|
+{{!}} &nbsp;·&nbsp;Altitude
+{{!}} {{Unité|{{{confluence altitude}}}|m}}
+{{!-}}
+}}
+{{#if:{{{confluence latitude|}}}{{{confluence longitude|}}}|
+{{!}} &nbsp;·&nbsp;Coordonnées
+{{!}} {{Coordonnées|{{{confluence latitude}}}/{{{confluence longitude}}}/type:landmark|display=inline|format=dms}}
+{{!-}}
+}}
+}}
+{{#if:{{{latitude|}}}{{{longitude|}}}|
+{{!}} Coordonnées de la source
+{{!}} {{coordonnées|{{{latitude}}}/{{{longitude}}}/type:mountain|format=dms long}}{{#if:{{{référence|}}}|&nbsp;{{{référence|}}}}}
+{{!-}}
+}}
+{{#if:{{{se jette dans|}}}|
+{{!}} Se jette dans
+{{!}} {{{se jette dans|}}}
+{{!-}}
+}}
+{{#if: {{{affluents rive gauche|}}}{{{affluents rive droite|}}}{{{pays|}}}{{{villes|}}}|
+! colspan="2" style="text-align:center; background-color:#80B0E0; color:white" {{!}} Géographie
+{{!-}}
+}}
+{{#if:{{{affluents rive gauche|}}}{{{affluents rive droite|}}}|
+{{!}} colspan="2" {{!}} Principaux affluents
+{{!-}}
+{{#if:{{{affluents rive gauche|}}}|
+{{!}} &nbsp;·&nbsp;Rive gauche
+{{!}} {{{affluents rive gauche|}}}
+{{!-}}
+}}
+{{#if:{{{affluents rive droite|}}}|
+{{!}} &nbsp;·&nbsp;Rive droite
+{{!}} {{{affluents rive droite|}}}
+{{!-}}
+}}
+}}
+{{#if:{{{pays|}}}|
+{{!}} Pays traversés
+{{!}} {{{pays}}}
+{{!-}}
+}}
+{{#if:{{{régions|}}}|
+{{!}} Régions traversées
+{{!}} {{{régions}}}
+{{!-}}
+}}
+{{#if:{{{villes|}}}|
+{{!}} Principales villes
+{{!}} {{{villes}}}
+{{!-}}
+}}
+{{#if:{{{sources|}}}|
+{{!}} colspan="2" style="border-top:thin solid silver;" {{!}} ''Sources&nbsp;: {{{sources}}}''
+}}
+|}</includeonly><noinclude>
+{{Doc modèle}}</noinclude>

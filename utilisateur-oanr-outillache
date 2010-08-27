@@ -1,0 +1,31 @@
+Ichi, j'ai mis tous ches outils pou les copier pindint ches édichions.
+
+=== Modèle d'vile ===
+
+<nowiki>{{</nowiki>Conmune<br/>
+|nomcommune       = <br/>
+|image            = <br/>
+|image-desc       = <br/>
+|armoiries        = .svg<br/>
+|armoiries-desc   = #Héraldique<br/>
+|armoiries-taille = 50<br/>
+|région           = <nowiki>[[</nowiki>Nord-Pas-d'Caleus<nowiki>]]</nowiki><br/>
+|département      = <nowiki>[[</nowiki>Nord (départémint)|Nord<nowiki>]][[</nowiki>Pas-d'Caleus (départémint)|Pas-d'Caleus<nowiki>]]</nowiki><br/>
+|arrondissement   = <br/>
+|canton           = <br/>
+|insee            = <br/>
+|cp               = <br/>
+|maire            = <br/>
+|mandat           = <br/>
+|intercomm        = <br/>
+|longitude        = <br/>
+|latitude         = <br/>
+|alt moy          =  m<br/>
+|alt mini         =  m<br/>
+|alt maxi         =  m<br/>
+|hectares         = <br/>
+|km²              = <br/>
+|sans             = <br/>
+|date-sans        = <br/>
+|nomhab           = <br/>
+<nowiki>}}</nowiki>

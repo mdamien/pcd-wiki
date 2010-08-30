@@ -81,6 +81,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[tl:Karbon (bato)]]
 [[tr:Kömür]]
 [[uk:Кам'яне вугілля]]
+[[ur:کوئلہ]]
 [[vi:Than đá]]
 [[wa:Hoye]]
 [[war:Uring]]

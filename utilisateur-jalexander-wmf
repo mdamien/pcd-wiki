@@ -1,0 +1,90 @@
+My name is James Alexander, I am an Associate Community Officer with the [[wmf:Main Page|Wikimedia Foundation]] and am working to help with this year's [[m:fundraising 2010|Fundraiser]]. This account is used for edits while officially working for the foundation. You can reach me either through email (Jalexander[[File:At_sign.svg|17px| at |link=]]wikimedia.org) or on my [[m:User talk:Jalexander|Meta talk page]]. 
+
+On wiki I use [[m:User:Jamesofur|Jamesofur]] in my volunteer role and this account [[m:User:Jalexander|Jalexander]] in my WMF staff role. In my volunteer capacity I can usually be found on the [[w:en:Main page|enWikipedia]], [[w:simple:Main page|SimpleWikipedia]] or on [[m:Main page|MetaWiki]] where I am an elected administrator as well as working on cross-wiki abuse as a [[m:Global sysop|Global sysop]]
+
+For more contact info please see [[m:User:Jalexander|my MetaWiki userpage]].
+
+{| class="prettytable userlang" style="float:right; clear:right; margin:0; width:19em; "
+|-
+! class="userlang_left" style="width:3em; background:#{{#switch:N
+  |1=ADA 
+  |2=8E8 
+  |3=6E6 
+  |4=3E3 
+  |N=0D0 
+  |CCC}}; font-size:1.3em; "| en-N
+|class="userlang_right" style="width:16em; font-size:0.9em; line-height:1.1em; " lang="en" xml:lang="en"| {{#switch:N
+  |0
+  |1
+  |2
+  |3
+  |4
+  |N={{#ifexist:template:user language/en|{{user language/en|text|N}}|{{user language/en|text|N|en}}<hr style="width:50%;"><small>''[[Template:User language#Translating the template|Translate this template!]]''</small>}}|'''invalid fluency level (see [[Template:User language|documentation]]).'''}}
+|}{{#switch:N
+  |0=<!-- no category -->
+  |1
+  |2
+  |3
+  |4
+  |N=[[Category:User en|{{#switch:N
+    |N=1
+    |4=2
+    |3=3
+    |2=4
+    |1=5}} {{PAGENAME}}]]{{#ifexist:Category:User en||[[Category:Missing user language categories]]}}|[[Category:Incorrect user language level]]}}
+{| class="prettytable userlang" style="float:right; clear:right; margin:0; width:19em; "
+|-
+! class="userlang_left" style="width:3em; background:#{{#switch:1
+  |1=ADA 
+  |2=8E8 
+  |3=6E6 
+  |4=3E3 
+  |N=0D0 
+  |CCC}}; font-size:1.3em; "| fr-1
+|class="userlang_right" style="width:16em; font-size:0.9em; line-height:1.1em; " lang="fr" xml:lang="fr"| {{#switch:1
+  |0
+  |1
+  |2
+  |3
+  |4
+  |N={{#ifexist:template:user language/fr|{{user language/fr|text|1}}|{{user language/en|text|1|fr}}<hr style="width:50%;"><small>''[[Template:User language#Translating the template|Translate this template!]]''</small>}}|'''invalid fluency level (see [[Template:User language|documentation]]).'''}}
+|}{{#switch:1
+  |0=<!-- no category -->
+  |1
+  |2
+  |3
+  |4
+  |N=[[Category:User fr|{{#switch:1
+    |N=1
+    |4=2
+    |3=3
+    |2=4
+    |1=5}} {{PAGENAME}}]]{{#ifexist:Category:User fr||[[Category:Missing user language categories]]}}|[[Category:Incorrect user language level]]}}
+{| class="prettytable userlang" style="float:right; clear:right; margin:0; width:19em; "
+|-
+! class="userlang_left" style="width:3em; background:#{{#switch:1
+  |1=ADA 
+  |2=8E8 
+  |3=6E6 
+  |4=3E3 
+  |N=0D0 
+  |CCC}}; font-size:1.3em; "| la-1
+|class="userlang_right" style="width:16em; font-size:0.9em; line-height:1.1em; " lang="la" xml:lang="la"| {{#switch:1
+  |0
+  |1
+  |2
+  |3
+  |4
+  |N={{#ifexist:template:user language/la|{{user language/la|text|1}}|{{user language/en|text|1|la}}<hr style="width:50%;"><small>''[[Template:User language#Translating the template|Translate this template!]]''</small>}}|'''invalid fluency level (see [[Template:User language|documentation]]).'''}}
+|}{{#switch:1
+  |0=<!-- no category -->
+  |1
+  |2
+  |3
+  |4
+  |N=[[Category:User la|{{#switch:1
+    |N=1
+    |4=2
+    |3=3
+    |2=4
+    |1=5}} {{PAGENAME}}]]{{#ifexist:Category:User la||[[Category:Missing user language categories]]}}|[[Category:Incorrect user language level]]}}

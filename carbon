@@ -39,7 +39,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[id:Batu bara]]
 [[io:Karbono]]
 [[is:Kol]]
-[[it:Carbone (minerale)]]
+[[it:Carbone (roccia)]]
 [[ja:石炭]]
 [[ko:석탄]]
 [[la:Carbo]]

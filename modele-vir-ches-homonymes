@@ -1,0 +1,11 @@
+<div class="homonymie" {{#if:{{{nohr|}}}|style="border-bottom:0"|}}>[[Image:Disambig colour.svg|20px|link=Aide:Homonymie|alt=Page d'aide sur l'homonymie]] Pou ches artic' [[Aide:homonymie|homonymes]], vir <!--
+-->{{#if:{{{mef|}}}|{{{mef}}}|<!--
+-->{{#if:{{{5|}}}|[[{{{1}}}]], [[{{{2}}}]], [[{{{3}}}]], [[{{{4}}}]] et [[{{{5}}}]]|<!--
+-->{{#if:{{{4|}}}|[[{{{1}}}]], [[{{{2}}}]], [[{{{3}}}]] et [[{{{4}}}]]|<!--
+-->{{#if:{{{3|}}}|[[{{{1}}}]], [[{{{2}}}]] et [[{{{3}}}]]|<!--
+-->{{#if:{{{2|}}}|[[{{{1}}}]] et [[{{{2}}}]]|<!--
+-->[[{{{1|{{PAGENAME}} (homonymie)}}}]]<!--
+-->}}}}}}}}}}.</div><noinclude>{{Vir ches homonymes/Documintation}}
+<!-- Métadonnées (catégories, interwikis) dans la documentation -->
+[[Catégorie:Exclure lors de l'impression]]
+</noinclude>

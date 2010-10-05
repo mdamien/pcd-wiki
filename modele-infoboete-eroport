@@ -38,7 +38,7 @@
 {{!-}}
 }}
 {{#if: {{{ville|}}}|
-! Ville desservie
+! Vile déssàrvie
 {{!}} {{{ville}}}
 {{!-}}
 }}
@@ -49,7 +49,7 @@
 {{!-}}
 }}|}}
 {{#if: {{{superficie|}}}|
-! [[Superficie]]
+! Supérfichie
 {{!}} {{{superficie}}}
 {{!-}}
 }}
@@ -101,7 +101,7 @@
 {{!-}}
 ! Direction
 ! Longueur
-! Surface
+! Surfache
 {{!-}}
 {{Infobox Aéroport/Piste|{{{direction piste1|}}}|{{{longueur piste1 m|}}}|{{{longueur piste1 ft|}}}|{{{revetement piste1|}}}}}
 {{!-}}
@@ -134,9 +134,9 @@
 {{!-}}
 ! colspan="3" style="background-color:#047391; color:white; text-align: center; padding: 3px; line-height: 13px;"{{!}} Hélisurfaces
 {{!-}}
-! Numéro
+! Liméro
 ! Longueur
-! Surface
+! Surfache
 {{!-}}
 {{Infobox Aéroport/Piste|{{{numero helisurface1|}}}|{{{longueur helisurface1 m|}}}|{{{longueur helisurface1 ft|}}}|{{{revetement helisurface1|}}}}}
 {{!-}}
@@ -154,7 +154,7 @@
 {{!-}}
 }}
 {{#if: {{{type|}}}|
-! Type d'aéroport
+! Type d'éroport
 {{!}} {{{type}}}
 {{!-}}
 }}

@@ -1,0 +1,1 @@
+<includeonly>{{#ifeq:{{#ifexpr:{{{1}}} * 0 = 0|}}| |{{{1}}}|}}</includeonly><noinclude>{{{{PAGENAME}}/Documentation}}</noinclude>

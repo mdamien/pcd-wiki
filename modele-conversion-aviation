@@ -1,0 +1,24 @@
+<includeonly>{{#if:{{{1}}}|
+{{#ifeq: {{{2}}}|m|{{formatnum:{{{1}}}}} [[mètre|m]] {{#if: {{IsNumeric|{{{1}}}}}|{{nobr|({{formatnum:{{#expr:{{{1}}}*3.2808399 round 0}}}} [[unité en aviation|ft]])}}}} |
+{{#ifeq: {{{2}}}|ft|{{formatnum:{{#expr:{{{1}}}/3.2808399 round 0}}}} [[mètre|m]] {{nobr|({{formatnum:{{{1}}}}} [[unité en aviation|ft]])}} }}|
+ }} }}</includeonly>
+<noinclude>
+
+== But ==
+Convertit chés pieds in mètes pi chés mètes in pieds in éronautique (mesures d'altitudes, d' longueurs d' pistes ou éd distances).
+
+Place systématiquement la mesure en mètres en priorité et la mesure en pieds entre parenthèses.
+
+== Usage ==
+
+<tt><nowiki>{{</nowiki>Conversion aviation|''valeur numérique''|''unité à convertir (m ou ft)''<nowiki>}}</nowiki></tt>
+
+Paramètres :
+* valeur limérique : la mesure à convertir. '''''Obligatoire'''''.
+* unité à convertir : l'unité de la mesure d'origine, '''m''' ou '''ft''' (aucune autre unité n'est admise). '''''Obligatoire'''''.
+
+Egzimpes :
+* <code><nowiki>{{Conversion aviation|1000|m}}</nowiki></code> affichera : 1&nbsp;000 mètres (3&nbsp;281 ft)
+* <code><nowiki>{{Conversion aviation|1000|ft}}</nowiki></code> affichera : 305 mètres (1&nbsp;000 ft)
+
+</noinclude>

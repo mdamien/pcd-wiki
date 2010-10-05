@@ -1,0 +1,203 @@
+<includeonly>{| class="infobox_v2" cellspacing="7"
+! colspan="2" class="entete" style="background-color:#047391; color:white;" | {{{nom|{{PAGENAME}}}}}<!--
+-->{{#if:{{{nom_po|}}}|<br /><big style="font-size:90%">{{{nom_po|}}}</big>{{#if:{{{code_langue_po|}}}|&nbsp;{{{{{code_langue_po|}}}}}}}|}}<!--
+-->{{#if:{{{nom_pa|}}}|<br /><big style="font-size:90%">{{{nom_pa|}}}</big>{{#if:{{{code_langue_pa|}}}|&nbsp;{{{{{code_langue_pa|}}}}}}}|}}
+|-
+{{#if:{{{image|}}}|
+  {{!}} colspan=2 class="infoboximage" {{!}} <center>{{{image|}}}<!--[[Image:{{{image|}}}{{!}}280px{{!}}{{ucfirst:{{{légende|}}}}}]]--><br /><small>{{ucfirst:{{{légende|}}}}}</small></center>
+{{!}}-
+}}
+|-
+{{#if:{{{cocarde|}}}|
+  {{!}} colspan=2 class="infoboximage" {{!}} <center>{{{cocarde|}}}</center>
+{{!}}-
+}}
+| colspan = "2" |
+{| width=100% style="text-align:center; margin-top:0; margin-bottom:0; background:#f9f9f9;" 
+|-
+| [[Code AITA]]
+| [[Code OACI]]
+|-
+| {{#if:{{{AITA|}}}|'''{{{AITA}}}'''}}
+| {{#if:{{{OACI|}}}|'''{{{OACI}}}'''}}
+|}
+|-
+! colspan="2" style="background-color:#047391; color:white; text-align: center; padding: 3px; line-height: 13px;"| Localisation
+|-
+! Pays
+| {{#if:{{{pays|}}}|{{Modèle:{{{pays}}}}}}}
+|-
+{{#if:{{{nom de division|}}} |
+! {{{nom de division}}}
+{{!}} {{{division}}}
+{{!-}}
+}}
+{{#if:{{{nom de division 2|}}} |
+! {{{nom de division 2}}}
+{{!}} {{{division 2}}}
+{{!-}}
+}}
+{{#if: {{{ville|}}}|
+! Ville desservie
+{{!}} {{{ville}}}
+{{!-}}
+}}
+|-
+{{#if:{{IsNumeric|{{{latitude|}}}}}|{{#if:{{IsNumeric|{{{longitude|}}}}}|
+! [[Latitude]]<br />[[Longitude]]
+{{!}} {{coord|{{{latitude|}}}|{{{longitude|}}}|type:airport_scale:30000|format=dms|display=inline,title}}
+{{!-}}
+}}|}}
+{{#if: {{{superficie|}}}|
+! [[Superficie]]
+{{!}} {{{superficie}}}
+{{!-}}
+}}
+{{#if: {{{altitude m|}}}{{{altitude ft|}}}|
+! [[Altitude]]
+{{!}} {{#if: {{{altitude ft|}}}|{{Conversion aviation|{{{altitude ft}}}|ft}}|
+{{#if: {{{altitude m|}}}|{{Conversion aviation|{{{altitude m}}}|m}}}}}}
+{{!-}}
+}}
+{{#if:{{IsNumeric|{{{latitude|}}}}}|{{#if:{{IsNumeric|{{{longitude|}}}}}|
+  {{#ifexist:Modèle:Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|
+    {{!}} colspan=2 align=center {{!}} {{#if:{{#titleparts:{{{géolocalisation|}}}|1|2}}|<div class=img_toogle>
+<div class=geobox>
+<small>Géolocalisation sur la carte {{Genre|du|{{#titleparts:{{{géolocalisation|}}}|1|2}}}}</small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|image}}|280px|(Voir situation sur la carte {{du?|{{#titleparts:{{{géolocalisation|}}}|1|2}}}}{{#titleparts:{{{géolocalisation|}}}|1|2}})]]
+{{G|{{#titleparts:{{{géolocalisation|}}}|1|2}}
+|{{Coordonnées/dms2dec|{{{latitude|}}}}}
+|{{Coordonnées/dms2dec|{{{longitude|}}}}}
+|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}}
+|Localité sans toponyme}}
+{{Fin de carte}}
+</div><div class=geobox>
+<small>Géolocalisation sur la carte {{Genre|du|{{#titleparts:{{{géolocalisation|}}}|1|1}}}}</small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|image}}|280px|<small>(Voir situation sur la carte {{du?|{{#titleparts:{{{géolocalisation|}}}|1|1}}}}{{#titleparts:{{{géolocalisation|}}}|1|1}})]]
+{{G|{{#titleparts:{{{géolocalisation|}}}|1|1}}
+|{{Coordonnées/dms2dec|{{{latitude|}}}}}
+|{{Coordonnées/dms2dec|{{{longitude|}}}}}
+|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}}
+|Localité sans toponyme}}
+{{Fin de carte}}
+</div></div>|<small>Géolocalisation sur la carte {{Genre|du|{{{géolocalisation}}}}}</small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{{géolocalisation}}}|image}}|280px|Carte {{du?|{{{géolocalisation}}}}}{{{géolocalisation}}}]]
+{{G|{{{géolocalisation}}}
+|{{Coordonnées/dms2dec|{{{latitude}}}}}
+|{{Coordonnées/dms2dec|{{{longitude}}}}}
+|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}}
+|Localité sans toponyme}}
+{{Fin de carte}}
+    }}
+  {{!-}}
+  }}
+|}}}}
+|- 
+{{#if:{{{direction piste1|}}}{{{longueur piste1 m|}}}{{{longueur piste1 ft|}}}{{{revetement piste1|}}}|
+{{!}} colspan = "2" {{!}}
+{{(!}} width=100% class="wikitable" style="text-align:center; margin-top:0; margin-bottom:0;" 
+{{!-}}
+! colspan="3" style="background-color:#047391; color:white; text-align: center; padding: 3px; line-height: 13px;"{{!}} Pistes
+{{!-}}
+! Direction
+! Longueur
+! Surface
+{{!-}}
+{{Infobox Aéroport/Piste|{{{direction piste1|}}}|{{{longueur piste1 m|}}}|{{{longueur piste1 ft|}}}|{{{revetement piste1|}}}}}
+{{!-}}
+{{#if:{{{direction piste2|}}}{{{longueur piste2 m|}}}{{{longueur piste2 ft|}}}{{{revetement piste2|}}}|
+{{Infobox Aéroport/Piste|{{{direction piste2|}}}|{{{longueur piste2 m|}}}|{{{longueur piste2 ft|}}}|{{{revetement piste2|}}}}}
+}}
+{{#if:{{{direction piste3|}}}{{{longueur piste3 m|}}}{{{longueur piste3 ft|}}}{{{revetement piste3|}}}|
+{{Infobox Aéroport/Piste|{{{direction piste3|}}}|{{{longueur piste3 m|}}}|{{{longueur piste3 ft|}}}|{{{revetement piste3|}}}}}
+}}
+{{#if:{{{direction piste4|}}}{{{longueur piste4 m|}}}{{{longueur piste4 ft|}}}{{{revetement piste4|}}}|
+{{Infobox Aéroport/Piste|{{{direction piste4|}}}|{{{longueur piste4 m|}}}|{{{longueur piste4 ft|}}}|{{{revetement piste4|}}}}}
+}}
+{{#if:{{{direction piste5|}}}{{{longueur piste5 m|}}}{{{longueur piste5 ft|}}}{{{revetement piste5|}}}|
+{{Infobox Aéroport/Piste|{{{direction piste5|}}}|{{{longueur piste5 m|}}}|{{{longueur piste5 ft|}}}|{{{revetement piste5|}}}}}
+}}
+{{#if:{{{direction piste6|}}}{{{longueur piste6 m|}}}{{{longueur piste6 ft|}}}{{{revetement piste6|}}}|
+{{Infobox Aéroport/Piste|{{{direction piste6|}}}|{{{longueur piste6 m|}}}|{{{longueur piste6 ft|}}}|{{{revetement piste6|}}}}}
+}}
+{{#if:{{{direction piste7|}}}{{{longueur piste7 m|}}}{{{longueur piste7 ft|}}}{{{revetement piste7|}}}|
+{{Infobox Aéroport/Piste|{{{direction piste7|}}}|{{{longueur piste7 m|}}}|{{{longueur piste7 ft|}}}|{{{revetement piste7|}}}}}
+}}
+{{!)}}
+{{!-}}
+}}
+|- 
+
+{{#if:{{{numero helisurface1|}}}{{{longueur helisurface1 m|}}}{{{longueur helisurface1 ft|}}}{{{revetement helisurface1|}}}|
+{{!}} colspan = "2" {{!}}
+{{(!}} width=100% class="wikitable" style="text-align:center; margin-top:0; margin-bottom:0;" 
+{{!-}}
+! colspan="3" style="background-color:#047391; color:white; text-align: center; padding: 3px; line-height: 13px;"{{!}} Hélisurfaces
+{{!-}}
+! Numéro
+! Longueur
+! Surface
+{{!-}}
+{{Infobox Aéroport/Piste|{{{numero helisurface1|}}}|{{{longueur helisurface1 m|}}}|{{{longueur helisurface1 ft|}}}|{{{revetement helisurface1|}}}}}
+{{!-}}
+{{#if:{{{numero helisurface2|}}}{{{longueur helisurface2 m|}}}{{{longueur helisurface2 ft|}}}{{{revetement helisurface2|}}}|
+{{Infobox Aéroport/Piste|{{{direction helisurface2|}}}|{{{longueur helisurface2 m|}}}|{{{longueur helisurface2 ft|}}}|{{{revetement helisurface2|}}}}}
+}}
+{{!)}}
+{{!-}}
+}}
+! colspan="2" style="background-color:#047391; color:white; text-align: center; padding: 3px; line-height: 13px;"| Informations aéronautiques
+|-
+{{#if: {{{nom carto|}}}|
+!  Nom cartographique
+{{!}} {{{nom carto}}}
+{{!-}}
+}}
+{{#if: {{{type|}}}|
+! Type d'aéroport
+{{!}} {{{type}}}
+{{!-}}
+}}
+{{#if: {{{gestionnaire|}}}|
+! Gestionnaire
+{{!}} {{{gestionnaire}}}
+{{!-}}
+}}
+{{#if: {{{site web gestion|}}}|
+! Site web gestionnaire
+{{!}} <span class="plainlinks">[{{{site web gestion}}} Consulter]</span> 
+{{!-}}
+}}
+{{#if: {{{site web aéro|}}}|
+! Site web aéroport
+{{!}} <span class="plainlinks">[{{{site web aéro}}} Consulter]</span> 
+{{!-}}
+}}
+{{#ifeq:{{{pays|}}}|France|
+! Cartes [[Service de l'information aéronautique|SIA]]
+{{!}} [http://www.sia.aviation-civile.gouv.fr/aip/enligne/PDF_AIPparSSection/{{Modèle:Infobox Aéroport/SIA|{{{OACI|}}}|VAC}}/AD/2/{{#time:ym|+1 month}}_AD-2.{{{OACI}}}.pdf VAC] {{#if: {{Modèle:Infobox Aéroport/SIA|{{{OACI|}}}|IAC}}| - [http://www.sia.aviation-civile.gouv.fr/aip/enligne/PDF_AIPparSSection/{{Modèle:Infobox Aéroport/SIA|{{{OACI|}}}|IAC}}/AD/2/{{#time:ym|+1 month}}_AD-2.{{{OACI}}}.pdf IAC]}} {{#if: {{Modèle:Infobox Aéroport/SIA|{{{OACI|}}}|ARRDEP}}| - [http://www.sia.aviation-civile.gouv.fr/aip/enligne/PDF_AIPparSSection/{{Modèle:Infobox Aéroport/SIA|{{{OACI|}}}|ARRDEP}}/AD/2/{{#time:ym|+1 month}}_AD-2.{{{OACI}}}.pdf ARR/DEP]}}
+{{!-}}
+}}
+! colspan="2" style="background-color:#047391; color:white; text-align: center; padding: 3px; line-height: 13px;"| Catégories
+|-
+| colspan="2" style="font-size: smaller; text-align: center;"| [[:Catégorie:Aéroport|Aéroports]] • {{#if:{{{pays|}}}|[[:Catégorie:Aéroport {{gentilé|{{{pays}}}}}|Aéroports {{gentilé|{{{pays}}}|MP}}]]|[[:Catégorie:Aéroport par pays|Aéroports par pays]]}}
+|-
+{{infodoc|colspan=2|couleur=5D5EA1|lien=Infobox Aéroport}}
+|}</includeonly><noinclude>{{Doc modèle}}
+[[ar:قالب:معلومات مطار]]
+[[cs:Šablona:Infobox Letiště]]
+[[da:Skabelon:Infoboks lufthavn]]
+[[de:Vorlage:Infobox Flughafen]]
+[[en:Template:Infobox airport]]
+[[eo:Ŝablono:Informkesto flughaveno]]
+[[et:Mall:Lennujaam]]
+[[fi:Malline:Lentoasema]]
+[[he:תבנית:שדה תעופה]]
+[[hr:Predložak:Infookvir aerodrom]]
+[[ja:Template:Infobox 空港]]
+[[no:Mal:Infoboks flyplass]]
+[[pl:Szablon:Lotnisko infobox]]
+[[pt:Predefinição:Info/Aeroporto2]]
+[[sv:Mall:Flygplats]]
+[[zh:Template:Airport infobox]]
+</noinclude>

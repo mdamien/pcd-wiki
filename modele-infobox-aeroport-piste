@@ -1,0 +1,14 @@
+<includeonly>! align="center" {{!}} {{#if: {{{1|}}}|'''{{{1}}}'''|''à renseigner''}}
+{{!}} align="center" {{!}} {{#if: {{{2|}}}|{{Conversion aviation|{{{2}}}|m}}|{{#if: {{{3|}}}|{{Conversion aviation|{{{3}}}|ft}}|''à renseigner''}}}}
+{{!}} align="center" {{!}} {{#if: {{{4|}}}|{{{4}}}|''à renseigner''}}
+{{!-}}</includeonly><noinclude>{| width=100% class="wikitable" style="text-align:center; margin-top:0; margin-bottom:0;" 
+|-
+! colspan="3" style="background-color:#5D5EA1; color:white; text-align: center; padding: 3px; line-height: 13px;"| Pistes
+|-
+! Direction
+! Longueur
+! Surface
+|-
+{{Infobox Aéroport/Piste|06/24|650||béton bitumineux}}
+|}
+</noinclude>

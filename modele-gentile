@@ -1,0 +1,219 @@
+<includeonly>{{#switch: {{{1}}}
+| Afghanistan  = {{#switch: {{{2}}} | F = afghane | MP = afghans | FP = afghanes | afghan}}
+| Afrique du Sud  = {{#switch: {{{2}}} | F = sud-africaine | MP = sud-africains | FP = sud-africaines | sud-africain}}
+| Albanie  = {{#switch: {{{2}}} | F = albanaise | MP = albanais | FP = albanaises | albanais}}
+| Algérie  = {{#switch: {{{2}}} | F = algérienne | MP = algériens | FP = algériennes | algérien}}
+| Allemagne  = {{#switch: {{{2}}} | F = allemande | MP = allemands | FP = allemandes | allemand}}
+| Andorre  = {{#switch: {{{2}}} | F = andorrane | MP = andorrans | FP = andorranes | andorran}}
+| Angola  = {{#switch: {{{2}}} | F = angolaise | MP = angolais | FP = angolaises | angolais}}
+| Antigua-et-Barbuda  = {{#switch: {{{2}}} | F = antiguais | MP = antiguaise | FP = antiguaises | antiguais}}
+| Arabie saoudite = {{#switch: {{{2}}} | F = saoudienne | MP = saoudiens | FP = saoudiennes | saoudien}}
+| Argentine  = {{#switch: {{{2}}} | F = argentine | MP = argentins | FP = argentines | argentin}}
+| Arménie  = {{#switch: {{{2}}} | F = arménienne | MP = arméniens | FP = arméniennes | arménien}}
+| Australie  = {{#switch: {{{2}}} | F = australienne | MP = australiens | FP = australiennes | australien}}
+| Autriche   = {{#switch: {{{2}}} | F = autrichienne | MP = autrichiens | FP = autrichiennes | autrichien}}
+| Azerbaïdjan  = {{#switch: {{{2}}} | F = azerbaïdjanaise | MP = azerbaïdjanais | FP = azerbaïdjanaises | azerbaïdjanais}}
+| Bahamas  = {{#switch: {{{2}}} | F = bahaméenne | MP = bahaméens | FP = bahaméennes | bahaméen}}
+| Bahreïn  = {{#switch: {{{2}}} | F = bahreïnienne | MP = bahreïniens | FP = bahreïniennes | bahreïnien}}
+| Bangladesh  = {{#switch: {{{2}}} | F = bangladais | MP = bangladaise | FP = bangladaises | bangladais}}
+| Barbade  = {{#switch: {{{2}}} | F = barbadienne | MP = barbadiens | FP = barbadiennes | barbadien}}
+| Belgique  = {{#switch: {{{2}}} | F = belge | MP = belges | FP = belges | belge}}
+| Belize  = {{#switch: {{{2}}} | F = bélizienne | MP = béliziens | FP = béliziennes | bélizien}}
+| Bénin = {{#switch: {{{2}}} | F = béninois | MP = béninoise | FP = béninoises | béninois}}
+| Bhoutan  = {{#switch: {{{2}}} | F = bhoutanaise | MP = bhoutanais | FP = bhoutanaises | bhoutanais}}
+| Biélorussie = {{#switch: {{{2}}} | F = biélorusse | MP = biélorusses | FP = biélorusses | biélorusse}}
+| Birmanie = {{#switch: {{{2}}} | F = birmane | MP = birmans | FP = birmanes | birman}}
+| Bolivie  = {{#switch: {{{2}}} | F = bolivienne | MP = boliviens | FP = boliviennes | bolivien}}
+| Bosnie-Herzégovine  = {{#switch: {{{2}}} | F = bosnienne | MP = bosniens | FP = bosniennes | bosnien}}
+| Botswana = {{#switch: {{{2}}} | F = botswanaise | MP = botswanais | FP = botswanaises | botswanais}}
+| Brésil  = {{#switch: {{{2}}} | F = brésilienne | MP = brésiliens | FP = brésiliennes | brésilien}}
+| Brunei  = {{#switch: {{{2}}} | F = brunéienne | MP = brunéiens | FP = brunéiennes | brunéien}}
+| Bulgarie  = {{#switch: {{{2}}} | F = bulgare | MP = bulgares | FP = bulgares | bulgare}}
+| Burkina Faso = {{#switch: {{{2}}} | F = burkinabè | MP = burkinabè | FP = burkinabè | burkinabè}}
+| Burundi  = {{#switch: {{{2}}} | F = burundaise | MP = burundais | FP = burundaises | burundais}}
+| Cambodge  = {{#switch: {{{2}}} | F = cambodgienne | MP = cambodgiens | FP = cambodgiennes | cambodgien}}
+| Cameroun  = {{#switch: {{{2}}} | F = camerounaise | MP = camerounais | FP = camerounaises | camerounais}}
+| Canada  = {{#switch: {{{2}}} | F = canadienne | MP = canadiens | FP = canadiennes | canadien}}
+| Cap-Vert  = {{#switch: {{{2}}} | F = cap-verdienne | MP = cap-verdiens | FP = cap-verdiennes | cap-verdien}}
+| République centrafricaine = {{#switch: {{{2}}} | F = centrafricaine | MP = centrafricains | FP = centrafricaines | centrafricain}}
+| Chili  = {{#switch: {{{2}}} | F = chilienne | MP = chiliens | FP = chiliennes | chilien}}
+| Chine  = {{#switch: {{{2}}} | F = chinoise | MP = chinois | FP = chinoises | chinois}}
+| Chypre  = {{#switch: {{{2}}} | F = chypriote | MP = chypriotes | FP = chypriotes | chypriote}}
+| Colombie  = {{#switch: {{{2}}} | F = colombienne | MP = colombiens | FP = colombiennes | colombien}}
+| Comores  = {{#switch: {{{2}}} | F = comorienne | MP = comoriens | FP = comoriennes | comorien}}
+| République du Congo = {{#switch: {{{2}}} | F = congolaise | MP = congolais | FP = congolaises | congolais}}
+| République démocratique du Congo = {{#switch: {{{2}}} | F = congolaise (RDC) | MP = congolais (RDC) | FP = congolaises (RDC) | congolais (RDC)}}
+| Corée du Nord  = {{#switch: {{{2}}} | F = nord-coréenne | MP = nord-coréens | FP = nord-coréennes | nord-coréen}}
+| Corée du Sud  = {{#switch: {{{2}}} | F = sud-coréenne | MP = sud-coréens | FP = sud-coréennes | sud-coréen}}
+| Costa Rica  = {{#switch: {{{2}}} | F = costaricaine | MP = costaricains | FP = costaricaines | costaricain}}
+| Côte d'Ivoire  = {{#switch: {{{2}}} | F = ivoirienne | MP = ivoiriens | FP = ivoiriennes | ivoirien}}
+| Croatie  = {{#switch: {{{2}}} | F = croate | MP = croates | FP = croates | croate}}
+| Cuba  = {{#switch: {{{2}}} | F = cubaine | MP = cubains | FP = cubaines | cubain}}
+| Danemark  = {{#switch: {{{2}}} | F = danoise | MP = danois | FP = danoises | danois}}
+| Djibouti  = {{#switch: {{{2}}} | F = djiboutienne | MP = djiboutiens | FP = djiboutiennes | djiboutien}}
+| République dominicaine = {{#switch: {{{2}}} | F = dominicaine | MP = dominicains | FP = dominicaines | dominicain}}
+| Dominique  = {{#switch: {{{2}}} | F = dominiquaise | MP = dominiquais | FP = dominiquaises | dominiquais}}
+| Égypte  = {{#switch: {{{2}}} | F = égyptienne | MP = égyptiens | FP = égyptiennes | égyptien}}
+| Émirats arabes unis  = {{#switch: {{{2}}} | F = émiratie | MP = émiratis | FP = émiraties | émirati}}
+| Équateur  = {{#switch: {{{2}}} | F = équatorienne | MP = équatoriens | FP = équatoriennes | équatorien}}
+| Érythrée  = {{#switch: {{{2}}} | F = érythréenne | MP = érythréens | FP = érythréennes | érythréen}}
+| Espagne  = {{#switch: {{{2}}} | F = espagnole | MP = espagnols | FP = espagnoles | espagnol}}
+| Estonie  = {{#switch: {{{2}}} | F = estonienne | MP = estoniens | FP = estoniennes | estonien}}
+| États-Unis = {{#switch: {{{2}}} | F = américaine | MP = américains | FP = américaines | américain}}
+| Éthiopie = {{#switch: {{{2}}} | F = éthiopienne | MP = éthiopiens | FP = éthiopiennes | éthiopien}}
+| Fidji  = {{#switch: {{{2}}} | F = fidjienne | MP = fidjiens | FP = fidjiennes | fidjien}}
+| Finlande  = {{#switch: {{{2}}} | F = finlandaise | MP = finlandais | FP = finlandaises | finlandais}}
+| France  = {{#switch: {{{2}}} | F = française | MP = français | FP = françaises | français}}
+| Gabon  = {{#switch: {{{2}}} | F = gabonaise | MP = gabonais | FP = gabonaises | gabonais}}
+| Gambie  = {{#switch: {{{2}}} | F = gambienne | MP = gambiens | FP = gambiennes | gambien}}
+| Géorgie  = {{#switch: {{{2}}} | F = géorgienne | MP = géorgiens | FP = géorgiennes | géorgien}}
+| Ghana  = {{#switch: {{{2}}} | F = ghanéenne | MP = ghanéens | FP = ghanéennes | ghanéen}}
+| Grèce  = {{#switch: {{{2}}} | F = grecque | MP = grecs | FP = grecques | grec}}
+| Grenade  = {{#switch: {{{2}}} | F = grenadienne | MP = grenadiens | FP = grenadiennes | grenadien}}
+| Guatemala  = {{#switch: {{{2}}} | F = guatémaltèque | MP = guatémaltèques | FP = guatémaltèques | guatémaltèque}}
+| Guinée  = {{#switch: {{{2}}} | F = guinéenne | MP = guinéens | FP = guinéennes | guinéen}}
+| Guinée-Bissau = {{#switch: {{{2}}} | F = bissau-guinéenne | MP = bissau-guinéens | FP = bissau-guinéennes | bissau-guinéen}}
+| Guinée équatoriale  = {{#switch: {{{2}}} | F = équato-guinéenne | MP = équato-guinéens | FP = équato-guinéennes | équato-guinéen}}
+| Guyana = {{#switch: {{{2}}} | F = guyanienne | MP = guyaniens | FP = guyaniennes | guyanien}}
+| Haïti  = {{#switch: {{{2}}} | F = haïtienne | MP = haïtiens | FP = haïtiennes | haïtien}}
+| Honduras  = {{#switch: {{{2}}} | F = hondurienne | MP = honduriens | FP = honduriennes | hondurien}}
+| Hongrie  = {{#switch: {{{2}}} | F = hongroise | MP = hongrois | FP = hongroises | hongrois}}
+| Inde  = {{#switch: {{{2}}} | F = indienne | MP = indiens | FP = indiennes | indien}}
+| Indonésie = {{#switch: {{{2}}} | F = indonésienne | MP = indonésiens | FP = indonésiennes | indonésien}}
+| Irak = {{#switch: {{{2}}} | F = irakienne | MP = irakiens | FP = irakiennes | irakien}}
+| Iran = {{#switch: {{{2}}} | F = iranienne | MP = iraniens | FP = iraniennes | iranien}}
+| Irlande  = {{#switch: {{{2}}} | F = irlandaise | MP = irlandais | FP = irlandaises | irlandais}}
+| Islande  = {{#switch: {{{2}}} | F = islandaise | MP = islandais | FP = islandaises | islandais}}
+| Israël  = {{#switch: {{{2}}} | F = israélienne | MP = israéliens | FP = israéliennes | israélien}}
+| Italie  = {{#switch: {{{2}}} | F = italienne | MP = italiens | FP = italiennes | italien}}
+| Jamaïque  = {{#switch: {{{2}}} | F = jamaïcaine | MP = jamaïcains | FP = jamaïcaines | jamaïcain}}
+| Japon  = {{#switch: {{{2}}} | F = japonaise | MP = japonais | FP = japonaises | japonais}}
+| Jordanie  = {{#switch: {{{2}}} | F = jordanienne | MP = jordaniens | FP = jordaniennes | jordanien}}
+| Kazakhstan  = {{#switch: {{{2}}} | F = kazakh | MP = kazakhs | FP = kazakhs | kazakh}}
+| Kenya  = {{#switch: {{{2}}} | F = kényane | MP = kényans | FP = kényanes | kényan}}
+| Kirghizistan = {{#switch: {{{2}}} | F = kirghize | MP = kirghiz | FP = kirghizes | kirghiz}}
+| Kiribati  = {{#switch: {{{2}}} | F = gilbertine | MP = gilbertins | FP = gilbertines | gilbertin}}
+| Koweït  = {{#switch: {{{2}}} | F = koweïtienne | MP = koweïtiens | FP = koweïtiennes | koweïtien}}
+| Laos  = {{#switch: {{{2}}} | F = laotienne | MP = laotiens | FP = laotiennes | laotien}}
+| Lesotho  = {{#switch: {{{2}}} | F = lesothane | MP = lesothans | FP = lesothanes | lesothan}}
+| Lettonie  = {{#switch: {{{2}}} | F = lettone | MP = lettons | FP = lettones | letton}}
+| Liban  = {{#switch: {{{2}}} | F = libanaise | MP = libanais | FP = libanaises | libanais}}
+| Libéria = {{#switch: {{{2}}} | F = libérienne | MP = libériens | FP = libériennes | libérien}}
+| Libye  = {{#switch: {{{2}}} | F = libyenne | MP = libyens | FP = libyennes | libyen}}
+| Liechtenstein  = {{#switch: {{{2}}} | F = liechtensteinoise | MP = liechtensteinois | FP = liechtensteinoises | liechtensteinois}}
+| Lituanie  = {{#switch: {{{2}}} | F = lituanienne | MP = lituaniens | FP = lituaniennes | lituanien}}
+| Luxembourg  = {{#switch: {{{2}}} | F = luxembourgeoise | MP = luxembourgeois | FP = luxembourgeoises | luxembourgeois}}
+| Macédoine = {{#switch: {{{2}}} | F = macédonienne | MP = macédoniens | FP = macédoniennes | macédonien}}
+| Madagascar  = {{#switch: {{{2}}} | F = malgache | MP = malgaches | FP = malgaches | malgache}}
+| Malaisie = {{#switch: {{{2}}} | F = malaise | MP = malais | FP = malaises | malais}}
+| Malawi  = {{#switch: {{{2}}} | F = malawienne | MP = malawiens | FP = malawiennes | malawien}}
+| Maldives  = {{#switch: {{{2}}} | F = maldivienne | MP = maldiviens | FP = maldiviennes | maldivien}}
+| Mali  = {{#switch: {{{2}}} | F = malienne | MP = maliens | FP = maliennes | malien}}
+| Malte  = {{#switch: {{{2}}} | F = maltaise | MP = maltais | FP = maltaises | maltais}}
+| Maroc  = {{#switch: {{{2}}} | F = marocaine | MP = marocains | FP = marocaines | marocain}}
+| Marshall  = {{#switch: {{{2}}} | F = marshallaise | MP = marshallais | FP = marshallaises | marshallais}}
+| Maurice  = {{#switch: {{{2}}} | F = mauricienne | MP = mauriciens | FP = mauriciennes | mauricien}}
+| Mauritanie = {{#switch: {{{2}}} | F = mauritanienne | MP = mauritaniens | FP = mauritaniennes | mauritanien}}
+| Mexique  = {{#switch: {{{2}}} | F = mexicaine | MP = mexicains | FP = mexicaines | mexicain}}
+| Micronésie = {{#switch: {{{2}}} | F = micronésienne | MP = micronésiens | FP = micronésiennes | micronésien}}
+| Moldavie  = {{#switch: {{{2}}} | F = moldave  | MP = moldaves  | FP = moldaves  | moldave}}
+| Monaco  = {{#switch: {{{2}}} | F = monégasque | MP = monégasques | FP = monégasques | monégasque}}
+| Mongolie  = {{#switch: {{{2}}} | F = mongole | MP = mongols | FP = mongoles | mongol}}
+| Monténégro  = {{#switch: {{{2}}} | F = monténégrine | MP = monténégrins | FP = monténégrines | monténégrin}}
+| Mozambique  = {{#switch: {{{2}}} | F = mozambicaine | MP = mozambicains | FP = mozambicaines | mozambicain}}
+| Namibie  = {{#switch: {{{2}}} | F = namibienne | MP = namibiens | FP = namibiennes | namibien}}
+| Nauru  = {{#switch: {{{2}}} | F = nauruane | MP = nauruans | FP = nauruanes | nauruan}}
+| Népal  = {{#switch: {{{2}}} | F = népalaise | MP = népalais | FP = népalaises | népalais}}
+| Nicaragua  = {{#switch: {{{2}}} | F = nicaraguayenne | MP = nicaraguayens | FP = nicaraguayennes | nicaraguayen}}
+| Niger  = {{#switch: {{{2}}} | F = nigérienne | MP = nigériens | FP = nigériennes | nigérien}}
+| Nigeria  = {{#switch: {{{2}}} | F = nigériane | MP = nigérians | FP = nigérianes | nigérian}}
+| Niue = {{#switch: {{{2}}} | F = niuéenne | MP = niuéens | FP = niuéennes | niuéen}}
+| Norvège  = {{#switch: {{{2}}} | F = norvégienne | MP = norvégiens | FP = norvégiennes | norvégien}}
+| Nouvelle-Zélande  = {{#switch: {{{2}}} | F = néo-zélandaise | MP = néo-zélandais | FP = néo-zélandaises | néo-zélandais}}
+| Oman  = {{#switch: {{{2}}} | F = omanaise | MP = omanais | FP = omanaises | omanais}}
+| Ouganda  = {{#switch: {{{2}}} | F = ougandaise | MP = ougandais | FP = ougandaises | ougandais}}
+| Ouzbékistan  = {{#switch: {{{2}}} | F = ouzbèke | MP = ouzbeks | FP = ouzbèkes | ouzbek}}
+| Pakistan  = {{#switch: {{{2}}} | F = pakistanaise | MP = pakistanais | FP = pakistanaises | pakistanais}}
+| Palaos = {{#switch: {{{2}}} | F = palauane | MP = palauans | FP = palauanes | palauan}}
+| Palestine  = {{#switch: {{{2}}} | F = palestinienne | MP = palestiniens | FP = palestiniennes | palestinien}}
+| Panama  = {{#switch: {{{2}}} | F = panaméenne | MP = panaméens | FP = panaméennes | panaméen}}
+| Papouasie-Nouvelle-Guinée  = {{#switch: {{{2}}} | F = papouane-néo-guinéenne | MP = papouans-néo-guinéens | FP = papouanes-néo-guinéennes | papouan-néo-guinéen}}
+| Paraguay  = {{#switch: {{{2}}} | F = paraguayenne | MP = paraguayens | FP = paraguayennes | paraguayen}}
+| Pays-Bas  = {{#switch: {{{2}}} | F = néerlandaise | MP = néerlandais | FP = néerlandaises | néerlandais}}
+| Pérou  = {{#switch: {{{2}}} | F = péruvienne | MP = péruviens | FP = péruviennes | péruvien}}
+| Philippines  = {{#switch: {{{2}}} | F = philippine | MP = philippins | FP = philippines | philippin}}
+| Pologne = {{#switch: {{{2}}} | F = polonaise | MP = polonais | FP = polonaises | polonais}}
+| Portugal  = {{#switch: {{{2}}} | F = portugaise | MP = portugais | FP = portugaises | portugais}}
+| Qatar  = {{#switch: {{{2}}} | F = qatarie | MP = qataris | FP = qataries | qatari}}
+| Roumanie  = {{#switch: {{{2}}} | F = roumaine | MP = roumains | FP = roumaines | roumain}}
+| Royaume-Uni  = {{#switch: {{{2}}} | F = britannique | MP = britanniques | FP = britanniques | britannique}}
+| Russie  = {{#switch: {{{2}}} | F = russe | MP = russes | FP = russes | russe}}
+| Rwanda  = {{#switch: {{{2}}} | F = rwandaise | MP = rwandais | FP = rwandaises | rwandais}}
+| Saint-Christophe-et-Niévès  = {{#switch: {{{2}}} | F = kittitienne | MP = kittitiens | FP = kittitiennnes | kittitien}}
+| Sainte-Lucie  = {{#switch: {{{2}}} | F = saint-lucienne | MP = saint-luciens | FP = saint-luciennes | saint-lucien}}
+| Saint-Marin = {{#switch: {{{2}}} | F = saint-marinaise | MP = saint-marinais | FP = saint-marinaises | saint-marinais}}
+| Saint-Vincent-et-les-Grenadines  = {{#switch: {{{2}}} | F = saint-vincentaise | MP = saint-vincentais | FP = saint-vincentaises | saint-vincentais}}
+| Îles Salomon  = {{#switch: {{{2}}} | F = salomonaise | MP = salomonais | FP = salomonaises | salomonais}}
+| Salvador  = {{#switch: {{{2}}} | F = salvadorienne | MP = salvadoriens | FP = salvadoriennes | salvadorien}}
+| Samoa  = {{#switch: {{{2}}} | F = samoane | MP = samoans | FP = samoanes | samoan}}
+| Sao Tomé-et-Principe  = {{#switch: {{{2}}} | F = santoméenne | MP = santoméens | FP = santoméennes | santoméen}}
+| Sénégal  = {{#switch: {{{2}}} | F = sénégalaise | MP = sénégalais | FP = sénégalaises | sénégalais}}
+| Serbie  = {{#switch: {{{2}}} | F = serbe | MP = serbes | FP = serbes | serbe}}
+| Seychelles  = {{#switch: {{{2}}} | F = seychelloise | MP = seychellois | FP = seychelloises | seychellois}}
+| Sierra Leone  = {{#switch: {{{2}}} | F = sierra-léonaise | MP = sierra-léonais | FP = sierra-léonaises | sierra-léonais}}
+| Singapour  = {{#switch: {{{2}}} | F = singapourienne | MP = singapouriens | FP = singapouriennes | singapourien}}
+| Slovaquie  = {{#switch: {{{2}}} | F = slovaque | MP = slovaques | FP = slovaques | slovaque}}
+| Slovénie  = {{#switch: {{{2}}} | F = slovène | MP = slovènes | FP = slovènes | slovène}}
+| Somalie  = {{#switch: {{{2}}} | F = somalienne | MP = somaliens | FP = somaliennes | somalien}}
+| Soudan  = {{#switch: {{{2}}} | F = soudanaise | MP = soudanais | FP = soudanaises | soudanais}}
+| Sri Lanka  = {{#switch: {{{2}}} | F = srilankaise | MP = srilankais | FP = srilankaises | srilankais}}
+| Suède  = {{#switch: {{{2}}} | F = suédoise | MP = suédois | FP = suédoises | suédois}}
+| Suisse  = {{#switch: {{{2}}} | F = suissesse | MP = suisses | FP = suissesses | suisse}}
+| Surinam  = {{#switch: {{{2}}} | F = surinamaise | MP = surinamais | FP = surinamaises | surinamais}}
+| Swaziland  = {{#switch: {{{2}}} | F = swazie | MP = swazis | FP = swazies | swazi}}
+| Syrie  = {{#switch: {{{2}}} | F = syrienne | MP = syriens | FP = syriennes | syrien}}
+| Tadjikistan  = {{#switch: {{{2}}} | F = tadjike | MP = tadjiks | FP = tadjikes | tadjik}}
+| Taïwan = {{#switch: {{{2}}} | F = taïwanaise | MP = taïwanais | FP = taïwanaises | taïwanais}}
+| Tanzanie  = {{#switch: {{{2}}} | F = tanzanienne | MP = tanzaniens | FP = tanzaniennes | tanzanien}}
+| Tchad  = {{#switch: {{{2}}} | F = tchadienne | MP = tchadiens | FP = tchadiennes | tchadien}}
+| République tchèque = {{#switch: {{{2}}} | F = tchèque | MP = tchèques | FP = tchèques | tchèque}}
+| Thaïlande  = {{#switch: {{{2}}} | F = thaïlandaise | MP = thaïlandais | FP = thaïlandaises | thaïlandais}}
+| Timor oriental  = {{#switch: {{{2}}} | F = est-timoraise | MP = est-timorais | FP = est-timoraises | est-timorais}}
+| Togo  = {{#switch: {{{2}}} | F = togolaise | MP = togolais | FP = togolaises | togolais}}
+| Tonga  = {{#switch: {{{2}}} | F = tonguienne | MP = tonguiens | FP = tonguiennes | tonguien}}
+| Trinité-et-Tobago  = {{#switch: {{{2}}} | F = trinidadienne | MP = trinidadiens | FP = trinidadiennes | trinidadien}}
+| Tunisie  = {{#switch: {{{2}}} | F = tunisienne | MP = tunisiens | FP = tunisiennes | tunisien}}
+| Turkménistan = {{#switch: {{{2}}} | F = turkmène | MP = turkmènes | FP = turkmènes | turkmène}}
+| Turquie  = {{#switch: {{{2}}} | F = turque | MP = turcs | FP = turques | turc}}
+| Tuvalu  = {{#switch: {{{2}}} | F = tuvaluane | MP = tuvaluans | FP = tuvaluanes | tuvaluan}}
+| Ukraine  = {{#switch: {{{2}}} | F = ukrainienne | MP = ukrainiens | FP = ukrainiennes | ukrainien}}
+| Uruguay  = {{#switch: {{{2}}} | F = uruguayenne | MP = uruguayens | FP = uruguayennes | uruguayen}}
+| Vanuatu = {{#switch: {{{2}}} | F = vanuatuane | MP = vanuatuans | FP = vanuatuanes | vanuatuan}}
+| Venezuela  = {{#switch: {{{2}}} | F = vénézuélienne | MP = vénézuéliens | FP = vénézuéliennes | vénézuélien}}
+| Viêt Nam  = {{#switch: {{{2}}} | F = vietnamienne | MP = vietnamiens | FP = vietnamiennes | vietnamien}}
+| Yémen  = {{#switch: {{{2}}} | F = yéménite | MP = yéménites | FP = yéménites | yéménite}}
+| Zambie = {{#switch: {{{2}}} | F = zambienne | MP = zambiens | FP = zambiennes | zambien}}
+| Zimbabwe = {{#switch: {{{2}}} | F = zimbabwéenne | MP = zimbabwéens | FP = zimbabwéennes | zimbabwéen}}
+}}</includeonly><noinclude>
+
+;Objectif
+:Retourne la [[gentilé]] correspondant au [[Liste des pays du monde|pays]], en lettres minuscules.
+
+;Usage
+ '''<code><nowiki>{{gentilé|Nom du pays|paramètre}}</nowiki></code>'''
+
+avec comme paramètres possibles :
+:* <code>'''M'''</code> pour la forme au masculin singulier
+:* <code>'''F'''</code> pour la forme au féminin singulier
+:* <code>'''MP'''</code> pour la forme au masculin pluriel
+:* <code>'''FP'''</code> pour la forme au féminin pluriel
+
+En l'absence du paramètre, c'est la forme au masculier singulier qui est affichée.
+
+;Exemples
+*<code><nowiki>{{gentilé|Allemagne}}</nowiki></code> affiche <code>{{gentilé|Allemagne}}</code>.
+*<code><nowiki>{{gentilé|Allemagne|FP}}</nowiki></code> affiche <code>{{gentilé|Allemagne|FP}}</code>.
+*<code><nowiki>{{gentilé|Viêt Nam|F}}</nowiki></code> affiche <code>{{gentilé|Viêt Nam|F}}</code>.
+*<code><nowiki>{{gentilé|Afghanistan|MP}}</nowiki></code> affiche <code>{{gentilé|Afghanistan|MP}}</code>.
+*<code><nowiki>{{gentilé|Pérou|FP}}</nowiki></code> affiche <code>{{gentilé|Pérou|FP}}</code>.
+</noinclude>

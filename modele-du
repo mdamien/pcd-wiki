@@ -1,0 +1,11 @@
+<includeonly>{{#switch:{{Géolocalisation/{{{1}}}|genre}}
+|ms|msM|msiE=du<nowiki> </nowiki>
+|fs'|fsi'|ms'|msi'|msi'E=d'
+|fs|fsi|fsiP|msi|msiP=de<nowiki> </nowiki>
+|fs'M|ms'M=de l'
+|fsP=de la<nowiki> </nowiki>
+|fp|mp|fpM=des<nowiki> </nowiki>
+|#default=de la zone<nowiki> </nowiki>
+}}</includeonly><noinclude>
+{{Genre/Documentation}}
+</noinclude>

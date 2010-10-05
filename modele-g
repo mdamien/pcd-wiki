@@ -1,0 +1,6 @@
+<includeonly>{{Point/{{{5|}}}
+|1={{Géolocalisation/{{{1}}}|y|{{{2}}}|{{{3}}} }}
+|2={{Géolocalisation/{{{1}}}|x|{{{2}}}|{{{3}}} }}
+|3={{{4}}}|{{#if:{{{6|}}}||n}}4={{{6|}}}|{{#if:{{{7|}}}||n}}5={{{7|}}}<!---->}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

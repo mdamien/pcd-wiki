@@ -1,0 +1,25 @@
+<includeonly><table class="DebutCarte" border="0" cellspacing="0" cellpadding="0" style="{{{style table|margin:0;border:none;padding:0}}}">
+<tr><td style="border:none;padding:0"><div style="position:relative;{{{style|}}}"></includeonly><noinclude>
+{{Documentation modèle}}
+{{Accessibilité à corriger}}
+
+; Utilisation <nowiki>:</nowiki>
+: S'emploie (sans paramètres, sauf exception) avec {{M|Fin de carte}}. Ce modèle sert de base pour le mécanisme de [[Wikipédia:Jargon/Géolocalisation|géolocalisation]]. Il s’emploie notamment dans les infoboxes de villes et pour la création de « (modèle de) carte complétée ». {{Wikipédia:Jargon/Modèle de carte complétée}}
+
+; Note <nowiki>:</nowiki>
+: Ch’est un modèle générique pour d’eutes modèles similoères : {{M|Carte:début}}, {{M|Image label début}}, {{M|Carte avec géolocalisations}}.
+
+{{Catégorie principale|Modèle de carte complétée}}
+
+; Syntaxe <nowiki>:</nowiki>
+: <tt><nowiki>{{</nowiki>{{PAGENAME}}|style table|style<nowiki>}}</nowiki></tt>
+:* <tt>style table</tt> = commandes de style pour <tt>&lt;table&gt;</tt> (facultatif, "<tt>margin:0;border:none;padding:0</tt>" par défaut).
+:* <tt>style</tt> = commandes de style pour <tt>&lt;div&gt;</tt> (facultatif, vierge par défaut).
+
+; Egzimpes <nowiki>:</nowiki>
+:* Vir chés [[:Catégorie:Modèle de carte complétée|modèles de cartes complétées]].
+
+{{Aide détaillée|Wikipédia:Jargon/Modèle de carte complétée{{!}}Modèle de carte complétée}}
+
+[[Catégorie:Carte]]
+</noinclude>

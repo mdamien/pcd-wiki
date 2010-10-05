@@ -1,0 +1,21 @@
+{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-24.0)*-6.25}} 
+|x={{#expr: ({{{3}}}-101.8)*11.764705882353}}
+|image={{#switch: {{{2|}}}
+|relief=Vietnam relief location map.jpg
+|#default=Vietnam location map.svg
+}}
+|iwidth=1200
+|iheight=2349
+|name=Viêt Nam
+|zone=pays
+|genre=ms
+|geo=-231
+|top=24.0
+|bottom=8.0
+|left=101.8
+|right=110.3
+|projection=Projection équirectangulaire
+}}<noinclude>
+{{/Documentation}}
+</noinclude>

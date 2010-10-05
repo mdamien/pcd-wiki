@@ -1,0 +1,2 @@
+<includeonly><div style="position:absolute;border:none;top:{{{1}}}{{{unité|%}}};left:{{{2}}}{{{unité|%}}};"><div style="position:absolute;border:none;top:{{#expr:0-({{#if:{{{5|}}}|{{{5}}}|14}})/2}}px;left:{{#expr:0-({{#if:{{{5|}}}|{{{5}}}|14}})/2}}px;">[[Image:{{{4|Red pog.png}}}|{{#if:{{{5|}}}|{{{5}}}|14}}px|{{{3|localisation}}}]]<!--
+--></div></div></includeonly><noinclude>{{/Documentation}}</noinclude>

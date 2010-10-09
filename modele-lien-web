@@ -1,0 +1,32 @@
+<noinclude>{{modèle protégé}}</noinclude><includeonly>{{
+#if: {{#if: {{{url|}}} | {{#if: {{{titre|{{{title|}}}}}} |1}}}}|<!--
+
+OK
+
+--><cite style="font-style:normal" class="ouvrage" {{#if:{{{id|}}}|id="{{{id}}}"}}>{{#if: {{{auteur|}}}
+    |{{#if: {{{lien auteur|}}} | [[{{{lien auteur}}}|{{{auteur}}}]] | {{{auteur}}} }}<!--
+  -->{{#if: {{{coauteurs|}}}| <nowiki>,</nowiki>&#32;{{{coauteurs}}} }}, «&nbsp;[{{{url}}} {{{titre|{{{title|}}}}}}]&nbsp;»<!-- TITRE AVEC AUTEUR
+ -->|[{{{url}}} {{{titre|{{{title|}}}}}}]<!-- TITRE SANS AUTEUR
+-->}}<!--
+-->{{#if: {{{série|}}}|,&#32;''{{{série}}}''}}<!--
+-->{{#if: {{{site|}}}|&#32;sur ''{{{site|}}}''}}<!--
+-->{{#if: {{{éditeur|}}}|,&#32;{{{éditeur}}}}}<!--
+-->{{#if: {{{date|}}}
+     | ,&#32;{{{date}}}
+     | {{#if: {{{année|}}}| ,&#32;{{#if:{{{mois|}}}|{{{mois}}}}} {{{année}}}}}
+   }}<!--
+-->{{#if: {{{isbn|}}}|,&#32;{{ISBN|{{{isbn}}}}}}}<!--
+-->{{#if: {{{citation|}}}||{{#if: {{{page|}}}|,&#32;{{p.}}{{{page}}}<!---->}}<!---->}}<!--
+-->{{#if: {{{en ligne le|}}}| .&#32;Mis en ligne le {{{en ligne le}}}}}<!--
+-->{{#if: {{{consulté le|}}}| {{#if: {{{en ligne le|}}}|, c|. C}}onsulté le {{{consulté le}}}}}<!--
+-->{{#if: {{{citation|}}} |.&#32;«&nbsp;{{{citation}}}&nbsp;»<!--
+  -->{{#if: {{{page|}}}|,&#32;{{p.}}{{{page}}}}}<!--
+-->}}</cite><!--
+
+ERREUR
+
+-->|<span class="error">Erreur de paramétrage de {{M|Lien web}} : les paramètres <code>url</code> et <code>titre</code> sont obligatoires{{#if: {{{url|}}}| (url : {{{url}}})}}{{#if: {{{titre|{{{title|}}}}}}| (titre : {{{titre|{{{title|}}}}}})}}.</span>
+{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec une syntaxe erronée|Lien web]]}}
+}}</includeonly><noinclude>
+{{Lien web/Documentation}}
+</noinclude>

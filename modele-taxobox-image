@@ -1,0 +1,9 @@
+| colspan=2 align="center" style="padding:0px;" | [[{{{1}}}|250px|alt={{{2|{{{label| }}} }}}]]
+{{#if: {{{2|{{{label|}}} }}} | <small>{{{2|{{{label|}}} }}}</small> | }}
+|-----
+<noinclude>
+
+
+[[Catégorie:Subroutines-pcd]]
+
+</noinclude>

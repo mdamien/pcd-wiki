@@ -1,12 +1,12 @@
 <center>
 {| class="wikitable" width=650px
-| [[File:Crystal Clear action run.svg|right|85px]] This user account is a [[w:en:Wikipedia:Bot policy|bot]] operated by [[w:es:User:Emijrp|emijrp]] from [[w:es:Mainpage|Spanish Wikipedia]]. It updates ([[Special:Contributions/BOTijo|see edits]]) some lists, rankings and statistics pages:
+| [[File:Crystal Clear action run.svg|right|85px]] This user account is a [[w:en:Wikipedia:Bot policy|bot]] operated by [[w:en:User:Emijrp|emijrp]] from [[w:en:Mainpage|English Wikipedia]]. It updates ([[Special:Contributions/BOTijo|see edits]]) some lists, rankings and statistics pages:
 * [[User:Emijrp/List of Wikipedians by number of edits]] ([[User:Emijrp/List of Wikipedians by number of edits (bots included)|bots included]], [[meta:User:Emijrp/List of Wikimedians by number of edits|all projects]])
 * [[User:Emijrp/List of Wikipedians by page count]]
 * [[User:Emijrp/Popular articles]]
-'''Note:''' Users who don't wish to be on these lists are welcome to replace their name with "[Placeholder]" and add themselves  to this [[meta:User:Emijrp/List of Wikimedians by number of edits/Anonymous|anonymizing list]] for future versions.
+'''Note:''' Users who don't wish to be on these lists are welcome to replace their name with "[Placeholder]" and add themselves to this [[meta:User:Emijrp/List of Wikimedians by number of edits/Anonymous|anonymizing list]] for future versions.
 
-{{#ifeq:{{{1|}}}|flag|Flag was granted to this bot ([{{SERVER}}/w/index.php?title=Special:Userlist&limit=1&username=BOTijo check]).|This bot edits at a '''very low rate''' (only a few edits per day), and '''only user subpages'''. If a flag is required for this, I will request it. Please, [[:es:User talk:Emijrp|notice me]], thanks : ).}}
+{{#ifeq:{{{1|}}}|flag|Flag was granted to this bot ([{{SERVER}}{{SCRIPTPATH}}/index.php?title=Special:Userlist&limit=1&username=BOTijo check]).|This bot edits at a '''very low rate''' (only a few edits per day), and '''only user subpages'''. If a flag is required for this, I will request it. Please, [[w:en:User talk:Emijrp|notice me]], thanks : ).}}
 <br clear="all" />
 <span class="plainlinks" style="clear: both; float: right;font-size: x-small;">''[http://toolserver.org/~vvv/sulutil.php?user=BOTijo Flag has been granted in the largest Wikimedia projects]''</span>
 |-

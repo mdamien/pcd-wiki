@@ -1,0 +1,18 @@
+<onlyinclude>{{Babel field 1
+|letter code size=1.2em
+|letter code=[[Schwäbische Dialekte|swg]]
+|text size=0.83em
+|text={{#ifeq: {{{mw|}}} | w | Des Mädele | Der {{#ifeq: {{{mw|}}} | m | Kerle | Benutzer }} }} schwätzt '''[[:Kategorie:Uzeu swg-1|a bisle]] [[:Kategorie:Uzeu swg|Schwäbisch]]'''.
+|lang=swg
+}}</onlyinclude>
+<br style="clear:both;" />
+{{Uzeu swg-1|mw=m}}
+<br style="clear:both;" />
+{{Uzeu swg-1|mw=w}}
+[[Catégorie:Modèles:Babel|swg-1]]
+
+[[bar:Vorlage:Benutzer swg-1]]
+[[nv:Template: User swg-1]]
+[[en:Template: User swg-1]]
+[[nds-nl:Mal:Gebruker swg-1]]
+[[zh:Template: User swg-1]]

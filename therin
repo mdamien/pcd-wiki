@@ -1,0 +1,142 @@
+'''Ch’Thérin'''  (in Françoé ''Le Thérain'') ch’est eune rivière qu’est un sous-affluint éd la [[Seine]] pèr l'[[Oése (rivière)|Oése]].<br>
+Chés eutes noms ch’est   ''Thérin'',    ''Thérain'' , ''Tharyn'' (in 1269), ''Thara'', ''Tara'' (in 988) <ref>Source: Précis Statistique sur le canton de Beauvais,  Louis Graves, pache 8  (1851), </ref>. 
+
+
+[[image:Thérain_(vue_du_pont,_rue_de_Wagicourt).JPG|200px|center|thumb|Ech Thérin  à Villers-su- Thère]]
+
+
+== Jourgrafie ==
+
+'''Ch’Thérin'''  i prind s’source dins ch’[[poéyis d’Bray]] inte [[Saint-Michel-d'Halescourt]] pi [[Grumesnil]] in Seine-Maritime à 175 mètes d'altitude. 
+
+L’rivière ale foait eune londjeur d‘ 94,3 kilomètes.
+
+
+==Chés Affluints==
+
+* Ruisseau d'Hardouins
+* Le Tahier
+* Ruisseau éd Wambez
+* Ech [[Tiot Thérin]]
+* L' [[Avelon]]
+* Rivière éd Saint-Quentin
+* Rivière éd Saint-Just
+* La Liovette
+* Le Wage
+* Ru d’ Berneuil
+* Fosse d'Orgueil
+* La Laversines
+* La Trye
+* Le Sillet
+* Ru éd la [[Maladrerie]]
+* Ru d’ Lombardie
+* Le Moineau
+* Fossé l' Evêque
+* Le Ruisseau éd Saint-Claude
+* Le Ruisseau d’ Cires
+* Le Ruisseau d’ Flandre
+
+==Sin parcours==
+
+Dins la Seine-Maritime :
+:[[Saint-Michel-d'Halescourt]] ~ [[Grumesnil]]
+
+Dins l'[[Oése (départémint)|Oése]] :
+:[[Canny-sur-Thérain]] ~ [[Saint-Samson-la-Poterie]] ~ [[Héricourt-sur-Thérain]] ~ [[Fontenay-Torcy]] ~ [[Sully (Oise)|Sully]] ~ [[Escames]] ~ [[Songeons]] ~ [[Lacapèle-dsou-Gérberoé‎
+]] ~ [[Vrocourt]] ~ [[Martincourt (Oése)|Martincourt]] ~ [[Crillon (Oése)|Crillon]] ~ [[Haucourt (Oése)|Haucourt]] ~ [[Bonnières (Oése)|Bonnières]] ~ [[Milly-sur-Thérain]] ~ [[Herchies (Oése)|Herchies]] ~ [[Troissereux]] ~ [[Fouquenies]] ~ [[Bieuvais|Saint-Just-des-Marais]] ~ [[Bieuvais]] ~ [[Allonne (Oése)|Villers-su-Thère]] ~[[Therdonne]]~ [[Rochy-Condé]] ~ [[Montreul-su-Thérin]] ~ [[Bailleul-su-Thérin]] ~ [[Villers-Saint-Sépulcre]] ~ [[Hermes (Oése)|Hermes]] ~ [[Heilles]] ~ [[Saint-Félix (Oése)|Saint-Félix]] ~ [[Hondainville]] ~ [[Mouy]] ~ [[Balagny-su-Thérin]] ~ [[Cires-lès-Mello]] ~ [[Mello]] ~ [[Maysel]] ~ [[Saint-Vaast-lès-Mello]] ~ [[Cramoisy]] ~ [[Montataire]] ~ [[Thiverny]] imboukure.
+
+[[image:Ch’Thérin.jpg|center|200px|thumb|Ch’Thérin à '''Lacapèle-dsou-Gérberoé'''  ]]
+
+
+==Hydrolodjie==
+
+
+<center>
+
+<u>'''Débit moéyin por un moé (in m³/s) à  Maysel - données caltchulées dseur 42 ans'''</u> 
+
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.8)
+  id:darkgrey  value:gray(0.3)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.8,0.9)
+
+ImageSize  = width:600 height:300
+PlotArea   = left:40 bottom:40 top:20 right:20
+DateFormat = x.y
+Period     = from:0 till:14
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:lightgrey increment:1 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:Jan text:Janvié
+  bar:Fév text:Févrié
+  bar:Mar text:Marche
+  bar:Avr text:Avri
+  bar:Mai text:Moai
+  bar:Jun text:Jouin
+  bar:Jul text:Juillet
+  bar:Aoû text:Aout
+  bar:Sep text:Sectimbe
+  bar:Oct text:Octobe
+  bar:Nov text:Novimbe
+  bar:Déc text:Déchimbe
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:Jan from:0 till: 10.30 
+  bar:Fév from:0 till: 10.50 
+  bar:Mar from:0 till: 9.950 
+  bar:Avr from:0 till: 9.220 
+  bar:Mai from:0 till: 7.890 
+  bar:Jun from:0 till: 6.900 
+  bar:Jul from:0 till: 6.080 
+  bar:Aoû from:0 till: 5.510 
+  bar:Sep from:0 till: 5.370 
+  bar:Oct from:0 till: 6.100 
+  bar:Nov from:0 till: 7.270 
+  bar:Déc from:0 till: 8.790 
+  
+
+PlotData=
+  bar:Jan at: 10.30 fontsize:S text: 10.30 shift:(-10,5)
+  bar:Fév at: 10.50 fontsize:S text: 10.50 shift:(-10,5)
+  bar:Mar at: 9.950 fontsize:S text: 9.950 shift:(-10,5)
+  bar:Avr at: 9.220 fontsize:S text: 9.220 shift:(-10,5)
+  bar:Mai at: 7.890 fontsize:S text: 7.890 shift:(-10,5)
+  bar:Jun at: 6.900 fontsize:S text: 6.900 shift:(-10,5)
+  bar:Jul at: 6.080 fontsize:S text: 6.080 shift:(-10,5)
+  bar:Aoû at: 5.510 fontsize:S text: 5.510 shift:(-10,5)
+  bar:Sep at: 5.370 fontsize:S text: 5.370 shift:(-10,5)
+  bar:Oct at: 6.100 fontsize:S text: 6.100 shift:(-10,5)
+  bar:Nov at: 7.270 fontsize:S text: 7.270 shift:(-10,5)
+  bar:Déc at: 8.790 fontsize:S text: 8.790 shift:(-10,5)
+  
+</timeline>
+</center>
+
+==Notes pi référinches==
+
+<references />
+
+==Loïens intarnètes==
+ 
+* Station H7702010 ech Thérin à [[Bonnières (Oise)|Bonnières]] (bassin versant de 202 km²)
+**[http://www.hydro.eaufrance.fr/selection.php Banque Hydro - Station H7702010] 
+
+* Station H7742010 ech Thérin  à [[Bieuvais]]  (bassin versant de 747 km²)
+**[http://www.hydro.eaufrance.fr/selection.php Banque Hydro - Station H7742010] 
+
+* Station H7742020 ech Thérin à [[Maysel]]  (bassin versant de 1200 km²)
+**[http://www.hydro.eaufrance.fr/selection.php Banque Hydro - Station H7742020] 
+
+
+[[Catégorie:Jéografi]]
+
+[[de:Thérain]]
+[[en:Thérain]]
+[[fr:Thérain]]

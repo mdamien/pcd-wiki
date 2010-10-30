@@ -13,6 +13,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[be:Вугаль]]
 [[be-x-old:Вугаль]]
 [[bg:Каменни въглища]]
+[[bjn:Batu arang]]
 [[bs:Ugalj]]
 [[ca:Carbó]]
 [[cs:Uhlí]]

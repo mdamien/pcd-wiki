@@ -6,14 +6,16 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 
 [[Catégorie:Mine]]
 
+[[bjn:Batu arang]]
+
 [[af:Steenkool]]
 [[an:Carbón]]
 [[ar:فحم حجري]]
 [[ay:K'illima]]
+[[az:Daş kömür]]
 [[be:Вугаль]]
 [[be-x-old:Вугаль]]
 [[bg:Каменни въглища]]
-[[bjn:Batu arang]]
 [[bs:Ugalj]]
 [[ca:Carbó]]
 [[cs:Uhlí]]

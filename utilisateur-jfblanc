@@ -1,1 +1,24 @@
-{{babel|oc-4|pcd-1|cs-3|fr|en-3|ca-3}}
+{{Babel|pcd-1|en-4|oc-4|fr|es-3|cs-3|ca-3|it-3|la-3|sh-2|sk-2}}
+{| cellpadding="2" style="border-color:#008B45; empty-cells:show;"  
+|-
+| heigth="2px" bgcolor="#FF3030" colspan="2" |
+|- 
+| colspan="2" | 
+<span style="text-align:center; font-size:127%; line-height:1.3;">
+[[file:Flag of Occitania (with star).svg|30px]] Welcome to my user page!
+</span>
+<br /><br />
+My username is Jfblanc.<br />
+{| align="center" style="padding:5px; text-align:center;"
+|-
+| width="48%" style="border-bottom:1px dashed #AAA;" |
+|-
+| '''«[[w:oc:User talk:Jfblanc|Talk to me]]»''' | [[Special:Emailuser/Jfblanc|E-Mail]] | [[Special:Contributions/Jfblanc|Contributions]]
+<br />
+This wiki has '''{{NUMBEROFARTICLES}}''' articles.
+|-
+| width="48%" style="border-top:1px dashed #AAA;" |
+|}
+|}
+
+[[oc:User:Jfblanc]]

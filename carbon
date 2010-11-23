@@ -63,6 +63,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[no:Kull]]
 [[nov:Karbone]]
 [[nv:Tsékǫʼ]]
+[[oc:Carbon]]
 [[pdc:Kohl]]
 [[pl:Węgle kopalne]]
 [[pt:Carvão mineral]]

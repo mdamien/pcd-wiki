@@ -1,3 +1,11 @@
+{| width="75%" align="center" style="text-align:justify; border:1px solid #B2B2B2; background-color:#FFFFFF; color:#000000;"
+|-  padding:1em;padding-top:0.5em;padding-right:2em;padding-left:3em"
+|[[Image:Wikimedia Community Logo-Toolserver.svg|40px]]
+|'''This [[Wikipedia:Bot|bot]] runs on the [[meta:Toolserver|Wikimedia Toolserver]]. / Ce [[Wikipedia:Bot|bot]] fonctionne sur le [[meta:Toolserver|Wikimedia Toolserver]]. ''' <br />
+<small>''Administrators: If this bot needs to be blocked due to a malfunction, please remember to disable autoblocks so that other Toolserver bots are not affected.<br>
+''Administrateurs: si ce bot doit &ecirc;tre bloqu&eacute; pour dysfonctionnement, pensez &agrave; suspendre l'autoblocage pour &eacute;viter d'affecter d'autres bots du Toolserver.''</small>
+|}<br>
+
 {{Bot|Grimlock|site=fr}}
 
 Operator's language : fr, en, es.<br>

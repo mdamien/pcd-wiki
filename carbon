@@ -46,6 +46,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[ja:石炭]]
 [[ko:석탄]]
 [[la:Carbo]]
+[[lbe:ХъуручI]]
 [[lmo:Carbun]]
 [[lt:Akmens anglis]]
 [[lv:Akmeņogles]]

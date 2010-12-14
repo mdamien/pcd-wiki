@@ -1,2 +1,2 @@
 /* Global JavaScript */
-importScriptURI('http://meta.wikimedia.org/w/index.php?title=User:Kwj2772/remote.js&ctype=text/javascript');
+importScriptURI('http://meta.wikimedia.org/w/index.php?title=User:Kwj2772/remote.js&action=raw&ctype=text/javascript');

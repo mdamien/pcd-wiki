@@ -1,5 +1,41 @@
-{{bot|Karol007|site=pl}}
+{|cellpadding="1" cellspacing="1" style="border:0px solid black; background-color:transparent;" width=100%
+|- valign=top valign=center
+|width=98% style="border:1px solid black; background-color:transparent;"|
+{{#ifexist:{{ns:Template}}:Bot|{{Bot|Karol007|site=w:pl|status=globalbot|status=active}}|
+<div>'''This user account is a [[Wikipedia:Bot policy|bot]] operated by [[:w:pl:User:Karol007|Karol007]] ([[:w:pl:User talk:Karol007|talk]]).'''
+It is not a [[Wikipedia:Sock puppetry|sock puppet]], but rather an automated or semi-automated account for making repetitive edits that would be extremely tedious to do manually.
+<br>
+<small>''Administrators: if this bot is malfunctioning or causing harm, please [{{fullurl:Special:Blockip|wpBlockAddress={{PAGENAMEE}}&wpBlockExpiry=indefinite&wpAnonOnly=0&wpEnableAutoblock=0&wpCreateAccount=0&wpBlockReason=Bot%20malfunctioning:%20}} block it].''</small>
+</div>
+----
+}}
+<br style="clear:{{{1|both}}};" />
+<div class="plainlinks plainlinks2" style="text-align:center;">
+<strong style="font-size: 2em;">Emergency {{{titlename|robot}}} shutoff button</strong>
 
-This global bot is an interwiki bot run by [[User:Karol007|Karol007]] starting at the [[:pl:Wikipedysta:Karol007|polish wikipedia]]. The bot uses the pywikipedia framework and runs about 16 h per day in autonomous mode. Sometimes the bot will run in manual assisted mode to solve interwiki conflicts.
+[[{{{icon|File:Crystal Clear action exit.svg}}}|{{{buttonsize|80}}}px|Emergency block button|link={{fullurl:Special:Block|wpBlockAddress={{BASEPAGENAMEE}}&wpBlockExpiry=indefinite&wpAnonOnly=0&wpEnableAutoblock=0&wpCreateAccount=0&wpBlockReason=Bot%20malfunctioning:%20}}]]
+
+<strong>Administrators:</strong> Use this button if {{{name|the bot}}} is malfunctioning. (<strong>[{{fullurl:Special:Block|wpBlockAddress={{BASEPAGENAMEE}}&wpBlockExpiry=indefinite&wpAnonOnly=0&wpEnableAutoblock=0&wpCreateAccount=0&wpBlockReason=Bot%20malfunctioning:%20}} direct link]</strong>)
+</div>
+----
+You can contact for the owner for requests, questions, and queries by either '''<span class="plainlinks">[http://pl.wikipedia.org/w/index.php?title=Dyskusja_wikipedysty:Karol007&action=edit&section=new leaving a message on my polish talk page in Wikipedia]'''</span> (prefered) or [[Special:Emailuser/Karol007|emailing them]]. Please be aware I may deny requests at my discretion without giving any reason. I am also on [irc://irc.freenode.net/wikipedia-pl IRC].
+----
+<span class="plainlinks"><small>[[Special:Contributions/KamikazeBot|contribs]] &bull; [http://toolserver.org/~soxred93/pcount/index.php?name=KamikazeBot&lang={{CONTENTLANG}}&wiki={{#switch:{{SERVERNAME}}
+|{{CONTENTLANG}}.wikipedia.org = wikipedia
+|{{CONTENTLANG}}.wikisource.org = wikisource
+|{{CONTENTLANG}}.wikinews.org = wikinews
+|{{CONTENTLANG}}.wiktionary.org = wiktionary
+|{{CONTENTLANG}}.wikiquote.org = wikiquote
+|{{CONTENTLANG}}.wikibooks.org = wikibooks
+}} <span style="color:#002bb8">count 1</span>] &bull; <small>[http://toolserver.org/~vvv/yaec.php?user=KamikazeBot&wiki={{#switch:{{SERVERNAME}}
+|{{CONTENTLANG}}.wikipedia.org = {{CONTENTLANG}}wiki_p
+|{{CONTENTLANG}}.wikisource.org = {{CONTENTLANG}}wikisource_p
+|{{CONTENTLANG}}.wikinews.org = {{CONTENTLANG}}wikinews_p
+|{{CONTENTLANG}}.wiktionary.org = {{CONTENTLANG}}wiktionary_p
+|{{CONTENTLANG}}.wikiquote.org = {{CONTENTLANG}}wikiquote_p
+|{{CONTENTLANG}}.wikibooks.org = {{CONTENTLANG}}wikibooks_p
+|commons.wikimedia.org = commonswiki_p
+}} <span style="color:#002bb8">count 2</span>] &bull; [{{SERVER}}/wiki/Special:Log?user={{urlencode:KamikazeBot}} <span style="color:#002bb8">logs</span>] &bull; [{{SERVER}}/wiki/Special:Log/move?user={{urlencode:KamikazeBot}} <span style="color:#002bb8">page moves</span>] &bull; [[Special:Blockip/KamikazeBot|block user]] &bull; [{{SERVER}}/wiki/Special:Log/block?page=User:{{urlencode:KamikazeBot}} <span style="color:#002bb8">block log</span>] &bull; [{{SERVER}}/w/index.php?title=Special%3ALog&type=makebot&user=&page=User:{{urlencode:KamikazeBot}} flag log] &bull; [[Special:Makebot/KamikazeBot|flag bot]]</small></span>
+|}
 
 [[pl:Wikipedysta:KamikazeBot]]

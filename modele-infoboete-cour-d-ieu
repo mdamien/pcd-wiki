@@ -1,4 +1,4 @@
-<includeonly>{| class="infobox_v2" cellspacing="7" style="line-height:1.5em;"
+<includeonly>{| class="infobox_v2" align="right" cellspacing="7" style="line-height:1.5em;"
 |-
 ! colspan="2" class="entete map" style="background-color:#80B0E0; color:white" | {{{nom|{{PAGENAME}}}}}{{#if:{{{autres noms|}}}|<br /><small><small><small>({{{autres noms}}})</small></small></small>}}
 |-
@@ -222,3 +222,4 @@
 }}
 |}</includeonly><noinclude>
 {{Doc modèle}}</noinclude>
+<noinclude>[[Catégorie:Subroutines-pcd]]</noinclude>

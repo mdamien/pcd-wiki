@@ -206,4 +206,5 @@ les mauvais paramétrages
 {{#if:{{{agglomération|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|agglomération]]|}}
 {{#if:{{{imageloc|}}}|[[Catégorie:modèle aveuc eune géolocalisacion éstatique]]|}}
 
-}}</includeonly><noinclude>{{Doc modèle}}</noinclude>
+}}</includeonly><noinclude>{{Doc modèle}}[[catégorie:Infoboète]]
+</noinclude>

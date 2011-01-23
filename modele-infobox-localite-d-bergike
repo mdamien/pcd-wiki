@@ -35,4 +35,4 @@
 {{Infobox/Ligne optionnel|{{{carte|}}}|
 [[Image:{{{carte|}}}|280x225px|{{{carte-legende|Localisation éd {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} din l' conmune éd {{{commune}}}}}}]]<br/><small>{{{carte-legende|Localisation de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} dans la commune de {{{commune}}}}}}</small>}}
 {{Infobox/Notice|Infobox Localité de Belgique|DDFFDD}}
-|}</includeonly><noinclude>[[catégorie:Subroutines-pcd]]</noinclude>
+|}</includeonly><noinclude>[[catégorie:Subroutines-pcd]][[catégorie:Infoboète]]</noinclude>

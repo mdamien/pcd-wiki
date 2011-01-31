@@ -1,5 +1,11 @@
 {| width="75%" align="center" style="text-align:justify; border:1px solid #B2B2B2; background-color:#FFFFFF; color:#000000;"
 |-  padding:1em;padding-top:0.5em;padding-right:2em;padding-left:3em"
+|[[File:Crystal Clear action run.svg|40px]]
+|'''This [[meta:Bot|bot]] is a [[meta:Special:GlobalUsers/Global_bot|Global bot]]. / Ce [[meta:Bot|bot]] est un [[meta:Special:GlobalUsers/Global_bot|bot global]]. ''' <br />
+<small>It can have bot rights on this wiki without being locally flagged / Ce bot peut avoir des droits bot sur ce wiki sans ''flag'' local.</small>
+|}<br>
+{| width="75%" align="center" style="text-align:justify; border:1px solid #B2B2B2; background-color:#FFFFFF; color:#000000;"
+|-  padding:1em;padding-top:0.5em;padding-right:2em;padding-left:3em"
 |[[Image:Wikimedia Community Logo-Toolserver.svg|40px]]
 |'''This [[Wikipedia:Bot|bot]] runs on the [[meta:Toolserver|Wikimedia Toolserver]]. / Ce [[Wikipedia:Bot|bot]] fonctionne sur le [[meta:Toolserver|Wikimedia Toolserver]]. ''' <br />
 <small>''Administrators: If this bot needs to be blocked due to a malfunction, please remember to disable autoblocks so that other Toolserver bots are not affected.<br>

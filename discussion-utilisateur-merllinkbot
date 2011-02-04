@@ -1,0 +1,25 @@
+== Please help my bot to write in pcd ==
+Can you help me tranlating the edit summaries of my bot for pcdwiki?
+;en
+* bot=Bot:
+* summary_replace_deadlink=replacing dead link {0} with {1}
+* summary_update_deadlink=repairing dead link {0}
+* summary_replace_outdated=replacing outdated link {0} with {1}
+* summary_update_outdaded=repairing outdated link {0}
+;de
+* bot=Bot:
+* summary_replace_deadlink=Ersetze defekten Weblink {0} durch {1}
+* summary_update_deadlink=Repariere defekten Weblink {0}
+* summary_replace_outdated=Ersetze veralteten Weblink {0} durch {1}
+* summary_update_outdated=Repariere veralteten Weblink {0}
+:"replace" is used if the domain has changed, "update" if the domain stays the same
+:"outdated" is used if the url is still available but will be switched off soon, "deadlink" if the url is already unreachable.
+:{0} and {1} are placeholders for the domain name(s)
+[[Utilisateur:Merlissimo|Merlissimo]] 4 ed Févrié 2011 à 09:07 (UTC)
+
+;pcd
+* bot=
+* summary_replace_deadlink=
+* summary_update_deadlink=
+* summary_replace_outdated=
+* summary_update_outdated=

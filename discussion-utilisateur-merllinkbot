@@ -18,8 +18,9 @@ Can you help me tranlating the edit summaries of my bot for pcdwiki?
 [[Utilisateur:Merlissimo|Merlissimo]] 4 ed Févrié 2011 à 09:07 (UTC)
 
 ;pcd
-* bot=
-* summary_replace_deadlink=
-* summary_update_deadlink=
-* summary_replace_outdated=
-* summary_update_outdated=
+* bot=Bot
+* summary_replace_deadlink=rimplaché ch'loïen mort {0} pèr {1}
+* summary_update_deadlink=rarringé ch'loïen mort {0}
+* summary_replace_outdated=rimplaché ch'loïen périmé {0} pèr {1}
+* summary_update_outdated=rarringé ch'loïen périmé {0}
+[[Utilisateur:Geoleplubo|Geoleplubo]] 6 ed Févrié 2011 à 11:15 (UTC)

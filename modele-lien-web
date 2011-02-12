@@ -9,7 +9,7 @@ OK
  -->|[{{{url}}} {{{titre|{{{title|}}}}}}]<!-- TITRE SANS AUTEUR
 -->}}<!--
 -->{{#if: {{{série|}}}|,&#32;''{{{série}}}''}}<!--
--->{{#if: {{{site|}}}|&#32;sur ''{{{site|}}}''}}<!--
+-->{{#if: {{{site|}}}|&#32;dseur ''{{{site|}}}''}}<!--
 -->{{#if: {{{éditeur|}}}|,&#32;{{{éditeur}}}}}<!--
 -->{{#if: {{{date|}}}
      | ,&#32;{{{date}}}
@@ -18,7 +18,7 @@ OK
 -->{{#if: {{{isbn|}}}|,&#32;{{ISBN|{{{isbn}}}}}}}<!--
 -->{{#if: {{{citation|}}}||{{#if: {{{page|}}}|,&#32;{{p.}}{{{page}}}<!---->}}<!---->}}<!--
 -->{{#if: {{{en ligne le|}}}| .&#32;Mis en ligne le {{{en ligne le}}}}}<!--
--->{{#if: {{{consulté le|}}}| {{#if: {{{en ligne le|}}}|, c|. C}}onsulté le {{{consulté le}}}}}<!--
+-->{{#if: {{{consulté le|}}}| {{#if: {{{en ligne le|}}}|, c|. C}}onsulté l' {{{consulté le}}}}}<!--
 -->{{#if: {{{citation|}}} |.&#32;«&nbsp;{{{citation}}}&nbsp;»<!--
   -->{{#if: {{{page|}}}|,&#32;{{p.}}{{{page}}}}}<!--
 -->}}</cite><!--

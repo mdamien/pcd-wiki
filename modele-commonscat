@@ -1,6 +1,6 @@
 <div class="noprint" style="clear: right; border: solid #aaa 1px; margin: 0 0 1em 1em; font-size: 90%; background: #f9f9f9; width: 250px; padding: 2px; spacing: 2px; text-align: center; float: right;">
 <div style="float: left; vertical-align:middle;">[[Image:Commons-logo.svg|22px|none|Commons]]</div>
-<div style="margin-left: 30px; line-height:normal; vertical-align:middle;">Din [[Commons:Página principal|Wikimedia Commons]] il y o eune ''catégorie'' aveuc des images pi d'eutes fichiés dsu '''<span class="plainlinks">[{{fullurl:Commons:Category:{{{1|{{PAGENAME}}}}}}}?uselang=pcd {{{2|{{PAGENAME}}}}}]</span>'''</div>
+<div style="margin-left: 30px; line-height:normal; vertical-align:middle;">Din [[Commons:Pache picarte|Wikimedia Commons]] il y o eune ''catégorie'' aveuc des images pi d'eutes fichiés dsu '''<span class="plainlinks">[{{fullurl:Commons:Category:{{{1|{{PAGENAME}}}}}}}?uselang=pcd {{{2|{{PAGENAME}}}}}]</span>'''</div>
 </div><noinclude>
 
 [[Category:Modéle interwiki|{{PAGENAME}}]]

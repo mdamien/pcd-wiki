@@ -1,0 +1,14 @@
+{| border="2" cellspacing="0" cellpadding="4" rules="all"" style="margin:1em 1em 1em 0; border-style:solid; border-width:1px; border-collapse:collapse; empty-cells:show; caption-side:top; {{{1| }}}"
+! class="" |Status 
+|-
+|<div style="background:#f7f8ff;border:1px solid #ffffff;border-collapse:collapse;margin:1px 0;padding:1px;font-family:monospace;font-size:80%;">
+<big><b>
+Articles ....... '''{{NUMBEROFARTICLES}}'''<br>
+Pages .......... '''{{NUMBEROFPAGES}}'''<br>
+Users .......... '''{{NUMBEROFUSERS}}'''<br>
+Aktive Users ...... '''{{NUMBEROFACTIVEUSERS}}'''<br>
+Admins ............. '''{{NUMBEROFADMINS}}'''<br>
+</b></big>
+|}
+
+[[en:User:Oslac]]

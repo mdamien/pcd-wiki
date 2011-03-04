@@ -52,7 +52,15 @@ Tènmes
 |-
 | style="border-bottom:3px dotted #CC9933; padding-right:4px; font-size:95%; color:#ccc;" |{{Tènmes}}
 |-
-| style="border-bottom:3px dotted #CC9933; padding-right:4px; font-size:95%; color:#000000;" |  <center>'''''Lisse alfabétic : &nbsp;&nbsp; <br />[[Spécial:AllPages/A|A]] [[Spécial:AllPages/B|B]] [[Spécial:AllPages/C|C]] [[Spécial:AllPages/D|D]] [[Spécial:AllPages/E|E]] [[Spécial:AllPages/F|F]] [[Spécial:AllPages/G|G]] [[Spécial:AllPages/H|H]] [[Spécial:AllPages/I|I]] [[Spécial:AllPages/J|J]] [[Spécial:AllPages/K|K]] [[Spécial:AllPages/L|L]] [[Spécial:AllPages/M|M]] [[Spécial:AllPages/N|N]] [[Spécial:AllPages/O|O]] [[Spécial:AllPages/P|P]] [[Spécial:AllPages/Q|Q]] [[Spécial:AllPages/R|R]] [[Spécial:AllPages/S|S]] [[Spécial:AllPages/T|T]] [[Spécial:AllPages/U|U]] [[Spécial:AllPages/V|V]] [[Spécial:AllPages/W|W]] [[Spécial:AllPages/X|X]] [[Spécial:AllPages/Y|Y]] [[Spécial:AllPages/Z|Z]] <br/>[[Spécial:AllPages/0|0]]  [[Spécial:AllPages/1|1]] [[Spécial:AllPages/2|2]] [[Spécial:AllPages/3|3]] [[Spécial:AllPages/4|4]] [[Spécial:AllPages/5|5]] [[Spécial:AllPages/6|6]] [[Spécial:AllPages/7|7]] [[Spécial:AllPages/8|8]] [[Spécial:AllPages/9|9]] '''<br/></center>
+| style="border-bottom:3px dotted #CC9933; padding-right:4px; font-size:95%; color:#000000;" |  <center>'''''Lisse alfabétic : &nbsp;&nbsp; <br />[[Spécial:AllPages/A|A]] [[Spécial:AllPages/B|B]] [[Spécial:AllPages/C|C]] [[Spécial:AllPages/D|D]] [[Spécial:AllPages/E|E]] [[Spécial:AllPages/F|F]] [[Spécial:AllPages/G|G]] [[Spécial:AllPages/H|H]] [[Spécial:AllPages/I|I]] [[Spécial:AllPages/J|J]] [[Spécial:AllPages/K|K]] [[Spécial:AllPages/L|L]] [[Spécial:AllPages/M|M]] [[Spécial:AllPages/N|N]] [[Spécial:AllPages/O|O]] [[Spécial:AllPages/P|P]] [[Spécial:AllPages/Q|Q]] [[Spécial:AllPages/R|R]] [[Spécial:AllPages/S|S]] [[Spécial:AllPages/T|T]] [[Spécial:AllPages/U|U]] [[Spécial:AllPages/V|V]] [[Spécial:AllPages/W|W]] [[Spécial:AllPages/X|X]] [[Spécial:AllPages/Y|Y]] [[Spécial:AllPages/Z|Z]] <br/>[[Spécial:AllPages/0|0]]  [[Spécial:AllPages/1|1]] [[Spécial:AllPages/2|2]] [[Spécial:AllPages/3|3]] [[Spécial:AllPages/4|4]] [[Spécial:AllPages/5|5]] [[Spécial:AllPages/6|6]] [[Spécial:AllPages/7|7]] [[Spécial:AllPages/8|8]] [[Spécial:AllPages/9|9]] '''<br/><inputbox>
+ type=create
+ width=45
+ bgcolor=#ffffff
+ preload=Template:Standard content for new page
+ editintro=Template:Instructions
+ default=
+ buttonlabel= Créer eune pache
+</inputbox></center>
 |-
 <!-------------------------------------
 Lingue picarde
@@ -70,7 +78,6 @@ Lingue picarde
 '''eu:''' Ongietorri [[:eu:Pikardiera|Pikardiako]] Wikipediara</br>
 '''hr:''' Tervetuloa [[:hr:Pikardijski jezik|Pikardijski jezik]] Wikipediaan</br>
 '''fr:''' Bienvenue sur Wikipédia en [[:fr:Picard|langue picarde]]<br>
-'''id:''' Selamat datang di Wikipedia [[:id:Bahasa Picard|bahasa Picardia]]<br>
 '''it:''' Benvenuto su Wikipedia in [[:it:Lingua piccarda|lingua piccarda]]<br>
 '''ksh:''' Wellkumme bei de Wikipedia op [[:ksh:Picardėsch|Picardėsch]]<br>
 '''lat:''' Gratus venis in Vicipædia in [[:la:Lingua Picardica|lingua picardica]] scriptus<br>
@@ -81,7 +88,6 @@ Lingue picarde
 '''pt:''' Bem-Vindo à Wikipédia em [[:pt:Língua picarda|língua picarda]]<br>
 '''ro:''' Bun venit la Wikipedia în [[:ro:Limba picardă|limba picardă]]<br>
 '''ru:''' Добро пожаловать в Википедию на [[:ru:Пикардский язык|пикардском языке]] <br>
-'''sco:''' Guid tae see ye at the [[:sco:Picard leid|Picard]] Wikipædia<br>
 '''sv:''' Välkommen till Wikipedia på det [[:sv:Pikardiska|Pikardiska språket]]! <br>
 '''tr:''' [[:tr:Picard dili|Pikartça]] Vikipedi'ye hoş geldiniz! <br>
 '''vls:''' Welgekommn by den [[:vls:Picardisch|Picardisch]] Wikipedia ! <br>

@@ -14,7 +14,7 @@ Savos-tu, que...
 ----------------------------------->
 ! style="background-color: #dcdcdc; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px"  | <div style="float:right;"><small> [[Fichier:Wikibar2.png|link=Wikipedia:Accueul-info/Savos-tu, que 2010]]</div><div style="float:center;"><big>'''Savos-tu, que...'''</div>
 |-
-| | {{Savos-tu que}} ''[[Modifier]]<br clear="all" />
+| | {{Savos-tu que}}<br clear="all" /><div style="text-align: right; margin-right:5px;">''[[Modèle:Savos-tu_que|modifier]]''</div>
 |-
 <!---------------------------------
 Imaje d'eul semènm
@@ -50,11 +50,10 @@ Tènmes
 ----------------------------------->
 ! style="background-color: #CC9933; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px"  | <center> Tènmes </center></div>
 |-
-| style="border-bottom:3px dotted #c2dfff; padding-right:4px; font-size:95%; color:#ccc;" | {{Tènmes}}
+| style="border-bottom:3px dotted #CC9933; padding-right:4px; font-size:95%; color:#ccc;" |{{Tènmes}}
 |-
-| style="border-bottom:3px dotted #c2dfff; padding-right:4px; font-size:95%; color:#ccc;" |  <center>''''''Lisse alfabétic : &nbsp;&nbsp; <br />[[Spécial:AllPages/A|A]] [[Spécial:AllPages/B|B]] [[Spécial:AllPages/C|C]] [[Spécial:AllPages/D|D]] [[Spécial:AllPages/E|E]] [[Spécial:AllPages/F|F]] [[Spécial:AllPages/G|G]] [[Spécial:AllPages/H|H]] [[Spécial:AllPages/I|I]] [[Spécial:AllPages/J|J]] [[Spécial:AllPages/K|K]] [[Spécial:AllPages/L|L]] [[Spécial:AllPages/M|M]] [[Spécial:AllPages/N|N]] [[Spécial:AllPages/O|O]] [[Spécial:AllPages/P|P]] [[Spécial:AllPages/Q|Q]] [[Spécial:AllPages/R|R]] [[Spécial:AllPages/S|S]] [[Spécial:AllPages/T|T]] [[Spécial:AllPages/U|U]] [[Spécial:AllPages/V|V]] [[Spécial:AllPages/W|W]] [[Spécial:AllPages/X|X]] [[Spécial:AllPages/Y|Y]] [[Spécial:AllPages/Z|Z]] <br/>[[Spécial:AllPages/0|0]]  [[Spécial:AllPages/1|1]] [[Spécial:AllPages/2|2]] [[Spécial:AllPages/3|3]] [[Spécial:AllPages/4|4]] [[Spécial:AllPages/5|5]] [[Spécial:AllPages/6|6]] [[Spécial:AllPages/7|7]] [[Spécial:AllPages/8|8]] [[Spécial:AllPages/9|9]] '''</center>
+| style="border-bottom:3px dotted #CC9933; padding-right:4px; font-size:95%; color:#000000;" |  <center>'''''Lisse alfabétic : &nbsp;&nbsp; <br />[[Spécial:AllPages/A|A]] [[Spécial:AllPages/B|B]] [[Spécial:AllPages/C|C]] [[Spécial:AllPages/D|D]] [[Spécial:AllPages/E|E]] [[Spécial:AllPages/F|F]] [[Spécial:AllPages/G|G]] [[Spécial:AllPages/H|H]] [[Spécial:AllPages/I|I]] [[Spécial:AllPages/J|J]] [[Spécial:AllPages/K|K]] [[Spécial:AllPages/L|L]] [[Spécial:AllPages/M|M]] [[Spécial:AllPages/N|N]] [[Spécial:AllPages/O|O]] [[Spécial:AllPages/P|P]] [[Spécial:AllPages/Q|Q]] [[Spécial:AllPages/R|R]] [[Spécial:AllPages/S|S]] [[Spécial:AllPages/T|T]] [[Spécial:AllPages/U|U]] [[Spécial:AllPages/V|V]] [[Spécial:AllPages/W|W]] [[Spécial:AllPages/X|X]] [[Spécial:AllPages/Y|Y]] [[Spécial:AllPages/Z|Z]] <br/>[[Spécial:AllPages/0|0]]  [[Spécial:AllPages/1|1]] [[Spécial:AllPages/2|2]] [[Spécial:AllPages/3|3]] [[Spécial:AllPages/4|4]] [[Spécial:AllPages/5|5]] [[Spécial:AllPages/6|6]] [[Spécial:AllPages/7|7]] [[Spécial:AllPages/8|8]] [[Spécial:AllPages/9|9]] '''<br/></center>
 |-
-
 <!-------------------------------------
 Lingue picarde
 ---------------------------------------->
@@ -62,12 +61,6 @@ Lingue picarde
 ! style="background-color: #dcdcdc; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px" | <center> Lingue picarde </center>
 |-
 | style="background:none; border-left:1px solid none; border-right:1px solid none; font-size:95%;" |
-{| style="background:none;"
-{|width="100%" cellspacing="0" cellpadding="0" style="margin-top:0.8em;margin-bottom:0.8em"
-|width="50%" style="border:1px solid #DDDDF7;background:#F7F7FF"|
-{|width="100%" cellspacing="0" cellpadding="5" style="background:#F7F7FF"
-<!---------------------------------------------->
-|style="font-size:90%"|
 '''af:''' Welkom by Wikipedia in [[:af:Pikardies|Pikardies]]<br>
 '''als:''' Willkomme bi der Wikipedia uf [[:als:Pikardische_Sprache|Pikardisch]]<br>
 '''ca:''' Benvinguts a la Viquipèdia en [[:ca:Picard|picard]]<br>
@@ -95,7 +88,6 @@ Lingue picarde
 '''wa:''' Bénvnowe so Wikipedia e [[:wa:Picård|Picård]]<br>
 
 <!---------------------------------------------->
-|}
 |}
 |-
 |

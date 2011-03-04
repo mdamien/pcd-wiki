@@ -4,7 +4,7 @@
 <!---------------------------------
 Pache d'eul semènm
 ----------------------------------->
-! style="background-color: #cedff2; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px"  | <div style="float:right;"><small> [[Fichier:Wikibar2.png|link=Wikipedia:Accueul-info/Pache d'eul semènm 2011]]</div><div style="float:center;"><big>'''Pache d'eul semènm'''</div>
+! style="background-color: #dcdcdc; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px"  | <div style="float:right;"><small> [[Fichier:Wikibar2.png|link=Wikipedia:Accueul-info/Pache d'eul semènm 2011]]</div><div style="float:center;"><big>'''Pache d'eul semènm'''</div>
 |-
 | {{Pache d'eul semènm 2011/semènm {{CURRENTWEEK}}}} <br clear="all" />
 |-
@@ -12,7 +12,7 @@ Pache d'eul semènm
 <!---------------------------------
 Savos-tu, que...
 ----------------------------------->
-! style="background-color: #cedff2; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px"  | <div style="float:right;"><small> [[Fichier:Wikibar2.png|link=Wikipedia:Accueul-info/Savos-tu, que 2010]]</div><div style="float:center;"><big>'''Savos-tu, que...'''</div>
+! style="background-color: #dcdcdc; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px"  | <div style="float:right;"><small> [[Fichier:Wikibar2.png|link=Wikipedia:Accueul-info/Savos-tu, que 2010]]</div><div style="float:center;"><big>'''Savos-tu, que...'''</div>
 |-
 | [[Fichier:SevenWondersOfTheWorld.jpg|right|120px|<small>Set mervèyes d'euch monne</small>]]
 * ... ''xxx'' ?
@@ -24,10 +24,25 @@ Savos-tu, que...
 Imaje d'eul semènm
 ----------------------------------->
 |-
-! style="background-color: #cedff2; border: 1px solid #B1CDEB; text-align: center;  padding-left: 7px"  | <center> Imach d'eul semènm </center>
+! style="background-color: #dcdcdc; border: 1px solid #B1CDEB; text-align: center;  padding-left: 7px"  | <center> Imach d'eul semènm </center>
 |-
 |{{Imaje d'eul semènm/semènm {{CURRENTWEEK}}}}<br clear="all" />
 |-
+<!-------------------------------------
+Eutes langues
+---------------------------------------->
+|-
+! style="background-color: #dcdcdc; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px" | <center> Eutes langues </center>
+|-
+| style="background:none; border-left:1px solid none; border-right:1px solid none; font-size:95%;" |
+{| style="background:none;"
+{|width="100%" cellspacing="0" cellpadding="0" style="margin-top:0.8em;margin-bottom:0.8em"
+|width="50%" style="border:1px solid #DDDDF7;background:#F7F7FF"|
+''Chés Wikipédias din d'eutes [[langues Romanes]]'':<br />
+[[:an:|Aragonés (Aragonoès)]] - [[:roa-rup:|Armâneashti (Aroumin)]] - [[:frp:|Arpitan (Arpitin-Frincoprovinchale)]] - [[:ast:|Asturianu (Astutien)]] - [[:ca:|Català (Catalin)]] - [[:co:|Corsu (Corse)]] - [[:eml:|Emiliàn e Romagnòl (Émilie pi Romanne)]] - [[:es:|Español / Castellano (Espagnol)]] - [[:fr:|Français (Frinsé)]] - [[:fur:|Furlan (Frulien)]] - [[:gl:|Galego (Galichien)]] - [[:it:|Italiano (Italien)]] -[[:lad:|Ladino]] - [[:la:|Latina (Latin)]] - [[:lij:|Lìgure (Lidgutchien)]] - [[:lmo:|Lumbaart (Lombard)]] - [[:nap:|Nnapulitano (Napolitchien)]] - [[:nrm:|Nouormand (Neurmind)]] -[[:oc:|Occitan (Occhitin)]] - [[:pms:|Piemontèis (Piémontoès)]] - [[:pt:|Português (Portugoès)]] - [[:ro:|Română (Roumin)]] - [[:rm:|Rumantsch (Roumanche)]] - [[:sc:|Sardu (Sarde)]] - [[:scn:|Sicilianu (Sichilien)]] - [[:vec:|Vèneto (Vénitchien)]] - [[:wa:|Walon (walon)]]
+
+<center>'''[[m:List of Wikipedias|Lisse éd tous chés Wikipédias]]'''</center>
+|}
 |}
 <!-------------------------------------
 Séparation 
@@ -37,7 +52,7 @@ Séparation
 <!---------------------------------
 Tènmes
 ----------------------------------->
-! style="background-color: #cedff2; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px"  | <center> Tènmes </center></div>
+! style="background-color: #CC9933; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px"  | <center> Tènmes </center></div>
 |-
 | style="border-bottom:3px dotted #c2dfff; padding-right:4px; font-size:95%; color:#ccc;" | {{Tènmes}}
 |-
@@ -45,10 +60,10 @@ Tènmes
 |-
 
 <!-------------------------------------
-Eutes langues
+Lingue picarde
 ---------------------------------------->
 |-
-! style="background-color: #cedff2; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px" | <center> Eutes langues </center>
+! style="background-color: #dcdcdc; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px" | <center> Lingue picarde </center>
 |-
 | style="background:none; border-left:1px solid none; border-right:1px solid none; font-size:95%;" |
 {| style="background:none;"
@@ -85,11 +100,6 @@ Eutes langues
 
 <!---------------------------------------------->
 |}
-
-''Chés Wikipédias din d'eutes [[langues Romanes]]'':<br />
-[[:an:|Aragonés (Aragonoès)]] - [[:roa-rup:|Armâneashti (Aroumin)]] - [[:frp:|Arpitan (Arpitin-Frincoprovinchale)]] - [[:ast:|Asturianu (Astutien)]] - [[:ca:|Català (Catalin)]] - [[:co:|Corsu (Corse)]] - [[:eml:|Emiliàn e Romagnòl (Émilie pi Romanne)]] - [[:es:|Español / Castellano (Espagnol)]] - [[:fr:|Français (Frinsé)]] - [[:fur:|Furlan (Frulien)]] - [[:gl:|Galego (Galichien)]] - [[:it:|Italiano (Italien)]] -[[:lad:|Ladino]] - [[:la:|Latina (Latin)]] - [[:lij:|Lìgure (Lidgutchien)]] - [[:lmo:|Lumbaart (Lombard)]] - [[:nap:|Nnapulitano (Napolitchien)]] - [[:nrm:|Nouormand (Neurmind)]] -[[:oc:|Occitan (Occhitin)]] - [[:pms:|Piemontèis (Piémontoès)]] - [[:pt:|Português (Portugoès)]] - [[:ro:|Română (Roumin)]] - [[:rm:|Rumantsch (Roumanche)]] - [[:sc:|Sardu (Sarde)]] - [[:scn:|Sicilianu (Sichilien)]] - [[:vec:|Vèneto (Vénitchien)]] - [[:wa:|Walon (walon)]]
-
-<center>'''[[m:List of Wikipedias|Lisse éd tous chés Wikipédias]]'''</center>
 |}
 |-
 |<br><br><br><br><br><br><br><br><br><br><br><br>

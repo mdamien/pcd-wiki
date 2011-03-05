@@ -1,0 +1,30 @@
+{{Infobox Ville Franche
+|nom={{{nom|{{{nomville|}}}}}} 
+|autres noms={{{nom|{{{autresnoms|}}}}}} 
+|statut={{{statut|4}}} 
+|couleur=#CC0000
+|couleur titre=#ffffff
+|blason={{{blason|}}}
+|drapeau={{{drapeau|}}}
+|image={{{image|}}}
+|légende={{{légende|}}}
+|taille image=300
+|pays={{Franche}}
+|division={{{région|}}}
+|nom de division=[[Région]]
+|division2={{{départément|}}}
+|nom de division2=[[Départément]]
+|division3={{{arondichemint|}}}
+|nom de division3=[[Arondichemint]]
+|mayeu={{{mayeu|}}}
+|cp={{{cp|{{{code postal|}}}}}}
+|latitude={{#expr: {{{lat_deg|51}}} + {{{lat_min|54}}} / 60 + {{{lat_sec|0}}} / 3600}}
+|longitude={{#expr: {{{lon_deg|19}}} + {{{lon_min|09}}} / 60 + {{{lon_sec|0}}} / 3600}}
+|altitude={{{alt moy|}}}
+|populachon={{{pop|}}}
+|année_pop={{{date-pop|{{{date-pop|}}}}}}
+|supérfichie={{{km²|}}}
+|carte=Franche
+|url={{{internet|{{#if:{{{web|}}}|{{#if:{{{weblabel|}}}|{{Lien web |url={{{web}}} |titre={{{weblabel}}}}}|{{{web}}}}}}}}}}
+|position={{{position|ne}}}
+}}

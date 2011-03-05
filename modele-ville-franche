@@ -1,30 +1,71 @@
-{{Infobox Ville Franche
-|nom={{{nom|{{{nomville|}}}}}} 
-|autres noms={{{nom|{{{autresnoms|}}}}}} 
-|statut={{{statut|4}}} 
-|couleur=#CC0000
-|couleur titre=#ffffff
-|blason={{{blason|}}}
-|drapeau={{{drapeau|}}}
-|image={{{image|}}}
-|légende={{{légende|}}}
-|taille image=300
-|pays={{Franche}}
-|division={{{région|}}}
-|nom de division=[[Région]]
-|division2={{{départément|}}}
-|nom de division2=[[Départément]]
-|division3={{{arondichemint|}}}
-|nom de division3=[[Arondichemint]]
-|mayeu={{{mayeu|}}}
-|cp={{{cp|{{{code postal|}}}}}}
-|latitude={{#expr: {{{lat_deg|51}}} + {{{lat_min|54}}} / 60 + {{{lat_sec|0}}} / 3600}}
-|longitude={{#expr: {{{lon_deg|19}}} + {{{lon_min|09}}} / 60 + {{{lon_sec|0}}} / 3600}}
-|altitude={{{alt moy|}}}
-|populachon={{{pop|}}}
-|année_pop={{{date-pop|{{{date-pop|}}}}}}
-|supérfichie={{{km²|}}}
-|carte=Franche
-|url={{{internet|{{#if:{{{web|}}}|{{#if:{{{weblabel|}}}|{{Lien web |url={{{web}}} |titre={{{weblabel}}}}}|{{{web}}}}}}}}}}
-|position={{{position|ne}}}
+{| class="wikitable float-right infobox toptextcells" style="width: 300px; font-size: 90%;"
+|-
+! colspan="2" style="font-size: 1.4em;" | {{{nomcommune}}} {{#if: {{{nomlocal|}}} | <span style="color: #515151;">''({{{nomlocal}}})''</span>}}
+|-
+{{#if: {{{armoéries|}}}
+| {{!}} style="vertical-align: middle; text-align: center;" {{!}} [[Fichier:{{{armoéries}}}|115px|Drapeau eud'{{{nomcommune}}}]]
+  {{!}} style="vertical-align: middle;
+| {{!}} colspan="2" style="
+}} text-align: center;" | {{Posichion |{{#switch: {{INSEE-ISO 3166-2|{{{insee|}}}}} |#default=Franche |GP=Guadeloupe |MQ=Martinique |GF=Guyane Franchoése |RE=Réunion |YT=Mayotte}} |float=center |width=165 |label={{{nomcommune}}} |position=none |marksize=5 |lat={{{latitude|}}} |long={{{longitude|}}} |type=city |pop={{#iferror: {{{insee|}}} }} |region=FR{{#if: {{INSEE-ISO 3166-2|{{{insee|}}} }}|-{{INSEE-ISO 3166-2|{{{insee|}}} }} }} |elevation={{{alt moy|}}} |dim=20000 |nom={{{nomcommune|}}} }}
+|-
+{{#if: {{{devise|}}}
+| {{!}} colspan="2" style="text-align: center;" {{!}} {{{devise}}}
 }}
+|-
+{{#ifeq: {{INSEE-ISO 3166-2|{{{insee|}}}}} | YT
+| {{!}} [[Franche]]
+| {{!}} [[Région]]
+  {{!}} {{{région}}}
+  {{!}}-
+  {{!}} [[Départément]]
+  {{!}} {{{départément}}}
+  {{!}}-
+  {{!}} [[Arrondichemint]]
+  {{!}} {{{Arrondichemint}}}
+}}
+|-
+{{#ifeq: {{INSEE-ISO 3166-2|{{{insee|}}}}} | 75
+| {{!}} [[Canton]]
+  {{!}} {{{canton}}}
+}}
+|- class="metadata"
+| [[Coordonnées]]
+| {{Coordonées |text=DM |article=/ |NS={{{latitude|}}} |EW={{{longitude|}}} |type=city |pop={{#iferror: {{Données populachon FR|{{{insee|}}} }} }} |region=FR{{#if: {{INSEE-ISO 3166-2|{{{insee|}}} }}|-{{INSEE-ISO 3166-2|{{{insee|}}} }} }} |elevation={{{alt moy|}}} |dim=20000 |nom={{{nomcommune|}}} }}
+|-
+| [[Altitude]]
+| {{#if: {{{alt moy|}}} | {{formatnum: {{{alt moy}}} }}&nbsp;m {{#if: {{{alt mini|}}} | {{#if: {{{alt maxi|}}} | <small>({{formatnum: {{{alt mini}}} }}–{{formatnum: {{{alt maxi}}} }}&nbsp;m)</small>}} }} | {{#if: {{{alt mini|}}} | {{#if: {{{alt maxi|}}} | {{formatnum: {{{alt mini}}} }}–{{formatnum: {{{alt maxi}}} }}&nbsp;m}} }} }}
+|-
+| Supérfichie {{#if:{{{qkm-agglo|}}}|<br />–&nbsp;[[Unité urbaine]]}}
+| {{formatnum: {{{km²}}} }}&nbsp;km² {{#if:{{{qkm-agglo|}}}|<br />{{formatnum: {{{qkm-agglo}}} }}&nbsp;km²}}
+|-
+| [[Populachon]]{{#if:{{{sans-agglo|}}}|<br />–&nbsp;Unité urbaine}}
+| {{formatnum:{{Données populachon FR|{{{insee|}}} }} }} <small>({{#time:j."&nbsp;"M Y|{{Données populachon FR|{{{insee|}}}|STAND}} }})</small>{{#if:{{{sans-agglo|}}}|<br />{{formatnum:{{{sans-agglo}}} }} }}
+|-
+| [[Code Postal]]
+| {{{cp}}}
+|-
+| [[Code Insee]]
+| class="plainlinks-print" | {{#ifeq: {{INSEE-ISO 3166-2|{{{insee|}}}}} | YT
+  | [http://insee.fr/fr/themes/detail.asp?reg_id=27&ref_id=1102&page=donnees_detaillees/rp2007/resultats_detailles/rp2007_{{{insee}}}.htm {{{insee}}}]
+  | [http://recensement.insee.fr/searchResults.action?codeZone={{{insee}}}-COM {{{insee}}}]
+  }}
+|-
+{{#if: {{{siteweb|}}}
+| {{!}} [[Site internet]]
+  {{!}} <small>{{{siteweb}}}</small>
+}}
+|-
+{{#if: {{{notes|}}}
+| {{!}} {{{notes}}}
+  {{!}} {{{notes texte}}}
+}}
+|-
+{{#ifeq: {{INSEE-ISO 3166-2|{{{insee|}}}}} | 75
+| {{!}} [[Mayeu]]
+  {{!}} {{{mayeu}}}
+}}
+|-
+{{#if: {{{image|}}}
+| {{!}} colspan="2" style="text-align: center;" {{!}} [[Fichier:{{{image}}}|250px|alt=|{{{image-desc|}}}]]{{#if: {{{image-desc|}}} | <br />{{{image-desc}}} | <span style="display: none;"></span>}}
+}}
+|}

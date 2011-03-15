@@ -1,0 +1,49 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}} -51.50)*-9.52380952381}}
+|x={{#expr: ({{{3}}} + 5.80)* 6.32911392405}}
+|image={{#switch: {{{2|}}}
+|relief=France_relief_location_map.jpg
+|#default=France location map-Regions and departements.svg
+}}
+|image1=624x-France-loc-carte-Départements-Reliefs.png
+|image2=France_location_map-Regions.svg
+|image3=France_location_map-Departements.svg
+|image4=France_relief_location_map.jpg
+|image5=624x-France-loc-carte-Départements-Reliefs.png
+|image6=624x600 Animation-Carte-France-Reliefs-et-Admin.gif
+|image7=France relief location carte carte regions et departements.png
+|iwidth=2000
+|iheight=1922
+|name=France
+|zone=pays
+|genre=fs
+|geo=-79
+|top=51.50
+|bottom=41.00
+|left=-5.80
+|right=10.00
+|projection=Projection équirectangulaire
+}}</includeonly><noinclude><!--
+
+
+{{Géolocalisation/Projection bilinéaire
+|{{{1}}}|{{{2}}}|{{{3}}}
+|top=51.50
+|bottom=41.00
+|left=-5.80
+|right=10.00
+|image=France location map-Regions and departements.svg
+|image1=France location map-Regions and departements.svg
+|image2=France_location_map-Regions.svg
+|image3=France_location_map-Departements.svg
+|image4=France_relief_location_map.jpg
+|image5=624x-France-loc-carte-Départements-Reliefs.png
+|image6=624x600 Animation-Carte-France-Reliefs-et-Admin.gif
+|iwidth=2000
+|iheight=1922
+|name=France
+|zone=pays
+|geo=-79
+}}-->
+{{/Documentation}}
+</noinclude>

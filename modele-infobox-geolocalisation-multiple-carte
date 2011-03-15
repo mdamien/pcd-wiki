@@ -1,0 +1,36 @@
+<includeonly><div class="geobox">
+{{#ifeq:{{{info|}}}||<small>Géolocalisation sur la carte : [[{{Géolocalisation/{{{1}}}|name|{{{type|}}}}}]]</small>|}}
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{{1}}}|image|{{{type|}}}}}|{{#if:{{{largeur|}}}|{{{largeur}}}|250}}px|{{#ifeq:{{{alt|}}}||(Voir situation sur carte : [[{{Géolocalisation/{{{1}}}|name|{{{type|}}}}})]]|{{{alt}}}}}]]
+{{G|{{{1}}}
+|{{Coordonnées/dms2dec|{{{latitude|}}}}}
+|{{Coordonnées/dms2dec|{{{longitude|}}}}}
+|{{{toponyme|}}}
+|{{{point|}}}
+|{{{parampoint1|}}}
+|{{{parampoint2|}}}
+}}
+{{Fin de carte}}
+</div></includeonly><noinclude>
+Ce sous modèle doit être appelé par {{m|Infobox/Géolocalisation multiple}}
+<pre>
+{{Infobox/Géolocalisation multiple/Carte
+|France
+|type=relief
+|largeur=200
+|latitude=48.856578
+|longitude=2.351828
+|toponyme=Paris
+|point=1
+}}
+</pre>
+
+{{Infobox/Géolocalisation multiple/Carte
+|France
+|type=relief
+|largeur=200
+|latitude=48.856578
+|longitude=2.351828
+|toponyme=Paris
+|point=1
+}}
+</noinclude>

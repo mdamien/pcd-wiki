@@ -1,0 +1,33 @@
+<includeonly>{{#if:{{{latitude|}}}{{{longitude|}}}|
+ {{!}} colspan={{{cols|3}}} align=center {{!}} <div class="img_toogle">
+{{#if:{{#titleparts:{{{géolocalisation|}}}|1|4}}|
+{{Infobox/Géolocalisation multiple/Carte|{{#titleparts:{{{géolocalisation|}}}|1|4}}
+         |largeur={{#if:{{{largeur4|{{{largeur|}}}}}}|{{#ifexpr:{{{largeur4|{{{largeur|}}}}}}>280|280|{{{largeur4|{{{largeur|}}}}}}}}|250}}
+         |type={{{type4|}}}|toponyme={{{toponyme|}}}|alt={{{alt4|}}}|info={{{info4|}}}
+         |point={{{point|}}}|parampoint1={{{parampoint1|}}}|parampoint2={{{parampoint2|}}}
+         |latitude={{Coordonnées/dms2dec|{{{latitude|}}}}}|longitude={{Coordonnées/dms2dec|{{{longitude|}}}}}
+}}}}<!--
+-->{{#if:{{#titleparts:{{{géolocalisation|}}}|1|3}}|
+{{Infobox/Géolocalisation multiple/Carte|{{#titleparts:{{{géolocalisation|}}}|1|3}}
+         |largeur={{#if:{{{largeur3|{{{largeur|}}}}}}|{{#ifexpr:{{{largeur3|{{{largeur|}}}}}}>280|280|{{{largeur3|{{{largeur|}}}}}}}}|250}}
+         |type={{{type3|}}}|toponyme={{{toponyme|}}}|alt={{{alt3|}}}|info={{{info3|}}}
+         |point={{{point|}}}|parampoint1={{{parampoint1|}}}|parampoint2={{{parampoint2|}}}
+         |latitude={{Coordonnées/dms2dec|{{{latitude|}}}}}|longitude={{Coordonnées/dms2dec|{{{longitude|}}}}}
+}}}}<!--
+-->{{#if:{{#titleparts:{{{géolocalisation|}}}|1|2}}|
+{{Infobox/Géolocalisation multiple/Carte|{{#titleparts:{{{géolocalisation|}}}|1|2}}
+         |largeur={{#if:{{{largeur2|{{{largeur|}}}}}}|{{#ifexpr:{{{largeur2|{{{largeur|}}}}}}>280|280|{{{largeur2|{{{largeur|}}}}}}}}|250}}
+         |type={{{type2|}}}|toponyme={{{toponyme|}}}|alt={{{alt2|}}}|info={{{info2|}}}
+         |point={{{point|}}}|parampoint1={{{parampoint1|}}}|parampoint2={{{parampoint2|}}}
+         |latitude={{Coordonnées/dms2dec|{{{latitude|}}}}}|longitude={{Coordonnées/dms2dec|{{{longitude|}}}}}
+}}}}<!--
+-->{{#if:{{#titleparts:{{{géolocalisation|}}}|1|1}}|
+{{Infobox/Géolocalisation multiple/Carte|{{#titleparts:{{{géolocalisation|}}}|1|1}}
+         |largeur={{#if:{{{largeur1|{{{largeur|}}}}}}|{{#ifexpr:{{{largeur1|{{{largeur|}}}}}}>280|280|{{{largeur1|{{{largeur|}}}}}}}}|250}}
+         |type={{{type1|}}}|toponyme={{{toponyme|}}}|alt={{{alt1|}}}|info={{{info1|}}}
+         |point={{{point|}}}|parampoint1={{{parampoint1|}}}|parampoint2={{{parampoint2|}}}
+         |latitude={{Coordonnées/dms2dec|{{{latitude|}}}}}|longitude={{Coordonnées/dms2dec|{{{longitude|}}}}}
+}}}}
+</div>
+  {{!-}}
+|}}</includeonly><noinclude>{{Doc modèle}}</noinclude>

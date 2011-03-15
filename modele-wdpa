@@ -1,0 +1,12 @@
+<includeonly>[http://protectedplanet.net/sites/{{{1}}} {{{1}}}]</includeonly><noinclude>
+Utilisation
+::Pour référencer une '''Aire Protégée'''
+
+Syntaxe
+:: {{m|Wdpa| ''numéro Identifiant sur WDPA''}}
+
+Paramètres
+::Numéro dans la [[World Database on Protected Areas]]'''
+
+[[Catégorie:Modèle aire protégée|*]]
+</noinclude>

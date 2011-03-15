@@ -1,0 +1,94 @@
+<includeonly>{{#ifeq:{{{coord|}}}|oui|{{#ifeq:{{NAMESPACE}}||{{#if:{{{latitude|}}}|{{#if:{{{longitude|}}}|{{coordonnées|{{{latitude|}}}/{{{longitude|}}}/type:city|format=dms|display=title}}
+|}}|}}|}}|}}{{Infobox/Début}}
+{{Infobox/Titre
+ |{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|{{Infobox aire protégée/Couleur|cat={{{catégorie iucn|}}}}}|entete map
+}}
+{{Infobox/Image
+ |{{{image|}}}|{{{légende_image|{{{légende image|}}}}}}|{{{largeur image|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |[[Commission mondiale des aires protégées|Catégorie&nbsp;UICN]]|{{{catégorie iucn|}}}
+    |{{ucfirst:{{{catégorie iucn|}}}}} <small>{{#switch:{{{catégorie iucn}}}
+      |Ia  = ([[Réserve naturelle|réserve naturelle intégrale]])
+      |Ib  = (zone de nature sauvage)
+      |II  = ([[parc national]])
+      |III = ([[monument naturel]])
+      |IV  = (aire de gestion des habitats/espèces)
+      |V   = (paysage terrestre/marin protégé)
+      |VI  = (zone de gestion de ressources protégées)
+     }}</small>{{#if:{{{catégorie notes|}}}|{{{catégorie notes|}}}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |[[World Database on Protected Areas|Identifiant]]|{{{wdpa|}}}|{{Wdpa|{{{wdpa}}}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Pays|{{{pays|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |{{{subdivision 1 type|}}}|{{{subdivision 1|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |{{{subdivision 2 type|}}}|{{{subdivision 2|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Emplacement|{{{situation|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Ville proche|{{{ville proche|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Coordonnées|{{{latitude|}}}{{{longitude|}}}|{{coordonnées|{{{latitude}}}/{{{longitude}}}/scale:{{#if:{{{échelle|}}}|{{{échelle|}}}|300000}}|format=dms long}}{{#if:{{{référence|}}}|{{{référence|}}}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Superficie|{{{superficie|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Population|{{{population|}}}|{{formatnum:{{{population|}}}}} habitants {{#if:{{{population année|}}}| en {{{population année|}}}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Création|{{{création|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Visiteurs/an|{{{visiteurs|}}}|{{{visiteurs|}}} {{#if:{{{visiteurs année|}}}| en {{{visiteurs année|}}}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Administration|{{{administration|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |{{{autre type|}}}|{{{autre|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Site web|{{{site web|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ |Remarque|{{{remarque|}}}
+}}
+{{Infobox/Géolocalisation double
+ | géolocalisation={{{géolocalisation|}}}
+ | latitude={{{latitude|}}}
+ | longitude={{{longitude|}}}
+ | toponyme={{PAGENAME}}
+ | point=Aire protégée sans toponyme
+ | largeur1={{{largeur carte|}}}
+ | largeur2={{{largeur carte2|}}}
+ | type1=relief
+ | type2=relief
+}}
+{{Infobox/Notice
+ |Infobox Aire protégée|{{Infobox aire protégée/Couleur|cat={{{catégorie iucn|}}}}}
+}}
+{{Infobox/Fin}}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|<!--
+-->{{#if:{{{catégorie iucn|}}}|[[Catégorie:Aire protégée de l'UICN - catégorie {{{catégorie iucn}}}]]|[[Catégorie:Aire protégée de l'UICN - catégorie inconnue]]}}<!--
+
+--- Erreur de paramétrage ---
+-->{{#if:{{{carte|}}}|[[Catégorie:Infobox Aire protégée/Erreur paramétrage]]}}<!--
+-->}}</includeonly><noinclude>{{Doc modèle}}
+[[de:Vorlage:Infobox Nationalpark]]
+[[en:Template:Infobox protected area]]
+[[es:Plantilla:Ficha de espacio natural]]
+[[ja:Template:Infobox Protected area]]
+[[pt:Predefinição:Info/Área protegida]]
+[[ro:Format:Infocaseta Arie protejată]]
+[[uk:Шаблон:Infobox Protected area]]
+[[vi:Bản mẫu:Infobox protected area]]
+</noinclude>

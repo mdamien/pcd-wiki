@@ -1,0 +1,6 @@
+<includeonly>{{#if:{{{cat|}}}|{{#switch:{{{cat}}}|Ia=E7AF97|Ib=DACAA5|II=CDE5B2|III=BFFFBF|IV=B2E5CD|V=A5CADA|VI=A8BDEC|#default=E0E0E0}}|E0E0E0}}</includeonly><noinclude>{{Info modèle|1=
+Ce modèle fonctionne comme une base de données. Veuillez ne pas faire de modifications sans être certain de ce que vous faites.
+
+Il définit la couleur de fond de la vignette dans laquelle sera affiché le texte.
+}}
+</noinclude>

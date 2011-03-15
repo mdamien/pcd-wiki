@@ -7,7 +7,7 @@
  |{{{image|}}}|{{{légende_image|{{{légende image|}}}}}}|{{{largeur image|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |[[Commission mondiale des aires protégées|Catégorie&nbsp;UICN]]|{{{catégorie iucn|}}}
+ |UICN <small>''Commission mondiale des aires protégées''</small>|{{{catégorie iucn|}}}
     |{{ucfirst:{{{catégorie iucn|}}}}} <small>{{#switch:{{{catégorie iucn}}}
       |Ia  = ([[Réserve naturelle|réserve naturelle intégrale]])
       |Ib  = (zone de nature sauvage)
@@ -19,10 +19,10 @@
      }}</small>{{#if:{{{catégorie notes|}}}|{{{catégorie notes|}}}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |[[World Database on Protected Areas|Identifiant]]|{{{wdpa|}}}|{{Wdpa|{{{wdpa}}}}}
+ |Identifiant <small>''World Database on Protected Areas''</small>|{{{wdpa|}}}|{{Wdpa|{{{wdpa}}}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |Pays|{{{pays|}}}
+ |Poéyis|{{{pays|}}}
 }}
 {{Infobox/Ligne mixte optionnel
  |{{{subdivision 1 type|}}}|{{{subdivision 1|}}}
@@ -31,28 +31,28 @@
  |{{{subdivision 2 type|}}}|{{{subdivision 2|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |Emplacement|{{{situation|}}}
+ |Implacemint|{{{situation|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |Ville proche|{{{ville proche|}}}
+ |Vile proche|{{{ville proche|}}}
 }}
 {{Infobox/Ligne mixte optionnel
  |Coordonnées|{{{latitude|}}}{{{longitude|}}}|{{coordonnées|{{{latitude}}}/{{{longitude}}}/scale:{{#if:{{{échelle|}}}|{{{échelle|}}}|300000}}|format=dms long}}{{#if:{{{référence|}}}|{{{référence|}}}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |Superficie|{{{superficie|}}}
+ |Superfichie|{{{superficie|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |Population|{{{population|}}}|{{formatnum:{{{population|}}}}} habitants {{#if:{{{population année|}}}| en {{{population année|}}}}}
+ |Populachon|{{{population|}}}|{{formatnum:{{{population|}}}}} habitants {{#if:{{{population année|}}}| en {{{population année|}}}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |Création|{{{création|}}}
+ |Créachon|{{{création|}}}
 }}
 {{Infobox/Ligne mixte optionnel
  |Visiteurs/an|{{{visiteurs|}}}|{{{visiteurs|}}} {{#if:{{{visiteurs année|}}}| en {{{visiteurs année|}}}}}
 }}
 {{Infobox/Ligne mixte optionnel
- |Administration|{{{administration|}}}
+ |Aménistrachon|{{{administration|}}}
 }}
 {{Infobox/Ligne mixte optionnel
  |{{{autre type|}}}|{{{autre|}}}

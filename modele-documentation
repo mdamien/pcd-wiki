@@ -1,14 +1,14 @@
 <!--
   Automatically add {{template sandbox notice}} when on a /sandbox page.
 -->{{#ifeq: {{SUBPAGENAME}} | sandbox
-| <div style="clear: both;"></div>{{template sandbox notice}}
+| <div style="clear: both;"></div>{{modèle boète-à-sabe notice}}
 }}<!--
-  Automatically add {{pp-template}} to protected templates.
--->{{template other
+  Automatically add {{pp-modèle}} to protected templates.
+-->{{modèle other
 | {{#ifeq: {{PROTECTIONLEVEL:move}} | sysop
-  | {{pp-template|docusage=yes}}
+  | {{pp-modèle|docusage=yes}}
   | {{#if: {{PROTECTIONLEVEL:edit}}
-    | {{pp-template|docusage=yes}}
+    | {{pp-modèle|docusage=yes}}
     | <!--Not protected, or only semi-move-protected-->
     }}
   }}

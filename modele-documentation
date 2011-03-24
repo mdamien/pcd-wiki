@@ -1,0 +1,25 @@
+<!--
+  Automatically add {{template sandbox notice}} when on a /sandbox page.
+-->{{#ifeq: {{SUBPAGENAME}} | sandbox
+| <div style="clear: both;"></div>{{template sandbox notice}}
+}}<!--
+  Automatically add {{pp-template}} to protected templates.
+-->{{template other
+| {{#ifeq: {{PROTECTIONLEVEL:move}} | sysop
+  | {{pp-template|docusage=yes}}
+  | {{#if: {{PROTECTIONLEVEL:edit}}
+    | {{pp-template|docusage=yes}}
+    | <!--Not protected, or only semi-move-protected-->
+    }}
+  }}
+}}<!--
+  Start of green doc box.
+-->{{documentation/start box2
+| preload = {{{preload|}}}   <!--Allow custom preloads-->
+| heading = {{{heading|¬}}}   <!--Empty but defined means no header-->
+| heading-style = {{{heading-style|}}}
+| content = {{{content|}}}
+
+<!--Some namespaces must have the /doc, /sandbox and /testcases 
+    in talk space-->
+| docspace = {{documentation/docspace}}

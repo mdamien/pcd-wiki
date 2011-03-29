@@ -1,7 +1,7 @@
-<div class="ModeleBUtilisateur" style="float:{{{align|left}}}; margin:1px; width:238px; border:1px solid {{{bordure|#999999}}}; -moz-border-radius:{{{arrondi|0}}};">
-{|width="100%" border="0" cellspacing="0" cellpadding="1" style="background-color:{{{couleur|#eee}}}; color:{{{texte-couleur|black}}}; -moz-border-radius:{{{arrondi|0}}};"
+<includeonly><div class="ModeleBUtilisateur" style="float:{{{align|left}}}; margin:1px; width:238px; border:1px solid {{{bordure|#999999}}}; -border-radius:{{{arrondi|0}}}; -moz-border-radius:{{{arrondi|0}}}; -webkit-border-radius:{{{arrondi|0}}};">
+{|width="100%" border="0" cellspacing="0" cellpadding="1" style="background-color:{{{couleur|#eee}}}; color:{{{texte-couleur|black}}}; -border-radius:{{{arrondi|0}}}; -moz-border-radius:{{{arrondi|0}}}; -webkit-border-radius:{{{arrondi|0}}};"
 |-
-|class="ModeleBUtilisateurGauche" valign="middle" align="center" style="width:47px; height:47px; background-color:{{{img-couleur|white}}}; color:{{{img-texte-couleur|black}}}; text-align:center; -moz-border-radius:{{{arrondi|0}}};"|<!--
+|class="ModeleBUtilisateurGauche" valign="middle" align="center" style="width:47px; height:47px; background-color:{{{img-couleur|white}}}; color:{{{img-texte-couleur|black}}}; text-align:center; -border-radius:{{{arrondi|0}}}; -moz-border-radius:{{{arrondi|0}}}; -webkit-border-radius:{{{arrondi|0}}};"|<!--
   -->{{#if:{{{img|}}}|[[Fichier:{{{img}}}|{{{img-taille|45px}}}|{{{img-titre|{{{titre|{{{img}}}}}}}}}]]}}<!--
   -->{{#if:{{{imgd|}}}|[[Fichier:{{{imgd}}}|{{{imgd-taille|45px}}}|{{{imgd-titre|{{{imgd}}}}}}]]}}<!--
   -->{{#if:{{{img2|}}}|<br />[[Fichier:{{{img2}}}|{{{img2-taille|45px}}}|{{{img2-titre|{{{img2}}}}}}]]}}<!--
@@ -25,12 +25,13 @@
     --><div class="ModeleBUtilisateurTexte2 plainlinks" style="font-size:{{{texte2-taille|11px}}}; line-height:1.25;">{{{texte2}}}</div><!--
   -->}}
 |}
-</div><includeonly><!--
+</div><!--
 -->{{#if:{{{nocat|}}}||<!--
   -->{{#ifeq:{{NAMESPACE}}|Utilisateur|<!--
     -->{{#if:{{{catégorie|}}}|[[Catégorie:{{{catégorie}}}|{{PAGENAME}}]]}}<!--
     -->{{#if:{{{catégorie2|}}}|[[Catégorie:{{{catégorie2}}}|{{PAGENAME}}]]}}<!--
   -->}}<!--
--->}}</includeonly><noinclude>
-<br clear="all" />
-{{doc modèle}}</noinclude>
+-->}}<!--
+-->{{#ifeq:{{NAMESPACE}}|{{ns:10}}|[[Catégorie:Projet:Boîte utilisateur/Modèles liés|{{PAGENAME}}]]|}}<!--
+--></includeonly><noinclude>
+{{doc modèle|parser=1}}</noinclude>

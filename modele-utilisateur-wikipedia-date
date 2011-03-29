@@ -4,9 +4,9 @@
   |img-titre=Wikipédia
   |img-taille = 30px
   |titre=
-  |texte=Je suis inscrit à '''[[Wikipédia:Accueil_principal|Wikipédia]]'''<br />depuis '''{{#expr: {{CURRENTJULIANDAY}}-{{JULIANDAY|{{{année}}}|{{{mois}}}|{{{jour}}}}} round 0}}''' jours.|
+  |texte=Ej suis dseur  '''Wikipédia'''<br />édpuis '''{{#expr: {{CURRENTJULIANDAY}}-{{JULIANDAY|{{{année}}}|{{{mois}}}|{{{jour}}}}} round 0}}''' jours.|
   |catégorie=
 }}</includeonly><noinclude>
 <br clear="all" />
-[[Catégorie:Boète uzeu Wikipédia]]
+[[Catégorie:Boète uzeu]]
 </noinclude>

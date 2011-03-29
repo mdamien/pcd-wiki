@@ -32,6 +32,6 @@
     -->{{#if:{{{catégorie2|}}}|[[Catégorie:{{{catégorie2}}}|{{PAGENAME}}]]}}<!--
   -->}}<!--
 -->}}<!--
--->{{#ifeq:{{NAMESPACE}}|{{ns:10}}|[[Catégorie:Projet:Boîte utilisateur/Modèles liés|{{PAGENAME}}]]|}}<!--
+-->{{#ifeq:{{NAMESPACE}}|{{ns:10}}||}}<!--
 --></includeonly><noinclude>
-{{doc modèle|parser=1}}</noinclude>
+[[:fr:doc modèle|parser=1]]</noinclude>

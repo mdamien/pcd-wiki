@@ -1,0 +1,22 @@
+<span style="color:{{{1|black}}}">{{{2|}}}</span><noinclude>
+;pour du teske in couleur
+;Syntaxe : <code><nowiki>{{Coloré|1|2}}</nowiki></code>
+:*1 : Ch'est eune des  16 [http://www.utexas.edu/learn/html/colors.html noms éstandard] pour chés couleurs din chés normes HTML (aqua,  black, blue, fuchsia, green, gray, lime, maroon, navy, olive, purple, red, silver, teal, white ou yellow) o bin eune couleur parsonnalisée au format hexadécimal #RRGGBB. 
+:*2 : ech teske .
+;Exemple : "<code><nowiki>{{Coloré|#8846F0|un teske}}</nowiki></code>" donne "{{Coloré|#8846F0|un teske}}".
+:"<code><nowiki>{{Coloré|maroon|un mot marron}}</nowiki></code>" donne "{{Coloré|maroon|un mot marron}}".
+;Vor itou : 
+:* pour du teske {{m|dégradé}}
+:* pour du teske {{m|surligné}}
+:* [[:fr:Aide:Couleurs]]
+[[Catégorie:Modèle couleur|*Colore]]
+[[af:Sjabloon:Kleur]]
+[[ar:قالب:لون]]
+[[da:Skabelon:Color]]
+[[en:Template:Color]]
+[[ja:Template:Color]]
+[[nl:Sjabloon:Color]]
+[[pl:Szablon:Kolor]]
+[[sl:Predloga:Barva]]
+[[zh-yue:Template:Color]]
+</noinclude>

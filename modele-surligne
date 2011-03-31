@@ -1,1 +1,2 @@
-<span style="margin:0;background:{{#if:{{{2|}}}|{{#if:{{{1|}}}|{{{1|}}}|#CCF}}|#CCF}};{{#if:{{{bordure|}}}|border:{{{taille|1px}}} {{{style|solid}}} {{{bordure|}}};border-collapse:collapse;}}padding:{{{marge|0}}};color:{{{texte|#000}}}">{{#if:{{{2|}}}|{{{2|}}}|{{{1|}}}}}</span><noinclude>{{Documentation}}</noinclude>
+<span style="margin:0;background:{{#if:{{{2|}}}|{{#if:{{{1|}}}|{{{1|}}}|#CCF}}|#CCF}};{{#if:{{{bordure|}}}|border:{{{taille|1px}}} {{{style|solid}}} {{{bordure|}}};border-collapse:collapse;}}padding:{{{marge|0}}};color:{{{texte|#000}}}">{{#if:{{{2|}}}|{{{2|}}}|{{{1|}}}}}</span><noinclude></noinclude>
+[[Catégorie:Modèle ed coleure teske|{{PAGENAME}}]]

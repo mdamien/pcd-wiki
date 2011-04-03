@@ -1,0 +1,1 @@
+mw.loader.load('http://meta.wikimedia.org/w/index.php?title=User:Pmlineditor/global.js&action=raw&ctype=text/javascript');

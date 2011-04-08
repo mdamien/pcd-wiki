@@ -1,5 +1,58 @@
-This is an interwiki bot of [[:ru:User:Emaus]].
-{{bot}}
+{| style="border: solid #808080 1px; background: transparent"
+|-
+{{Bot|site=ru|Emaus}}
+|}<br /> <br />
+<center>
+{| style="border: solid #808080 1px; background: transparent"
+|-
+| valign=top style="padding:1em;" |
+{{#switch:  {{/Rand|10|96|61}}
+|0 = '''This is the ship of Krusenstern'''
+<center>
+[[File:Крузенштерн 3.JPG|center|600x600px|]]
+</center>
+</center>
+|1 = '''This is the alpine train'''
+<center>
+[[File:Berninabahn zwischen Lagalb und Ospizio Bernina im Winter.jpg|center|700x600px]]
+</center>
+|2 = '''This is the crystal of bismuth'''
+<center>
+[[File:Bi-crystal-reva.jpg|center|600x600px|]]
+</center>
+|3 = '''These are Petronas Towers'''
+<center>
+[[File:Petronas Panorama II.jpg|center|600x600px|]]
+</center>
+|4 = '''This is the partial Mandelbrot set'''
+<center>
+[[File:Mandel zoom 11 satellite double spiral.jpg|center|600x600px|]]
+</center>
+|5 = '''This is Machu Picchu'''
+<center>
+[[File:Machu Picchu, Peru.jpg|center|600x600px|]]
+</center>
+|6 = '''This is the 4D-cube'''
+<center>
+[[File:8-cell-simple.gif|center|500x500px|]]
+</center>
+|7 = '''This is Whirlpool Galaxy'''
+<center>
+[[File:Messier51.jpg|center|600x600px|]]
+</center>
+|8 = '''This is Russell Falls'''
+<center>
+[[File:Russell Falls 2.jpg|center|600x600px|]]
+</center>
+|9 = '''This is Sahara Desert'''
+<center>
+[[File:Sahara 4.jpg|center|600x600px|]]
+</center>}}
+|} <br /> <br />
+<div style="font-size: 18px;">And '''[[:ru:Обсуждение участника:Emaus|this]]''' is the talk page of bot's owner</div><br /> <br />
+<span class="plainlinks">[{{fullurl:{{FULLPAGENAME}}|action=purge}} another picture]</span>
+</center>
+
 [[de:Benutzer:EmausBot]]
 [[en:User:EmausBot]]
 [[es:Usuario:EmausBot]]

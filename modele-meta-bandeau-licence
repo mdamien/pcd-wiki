@@ -1,0 +1,52 @@
+<table align="center" class="bandeau-niveau-information bandeau" style="width:80%; background-color:{{{couleur fond|#f8f8ff}}}; border-color:{{{couleur cadre|#c0c0ff}}}; padding:5px;">
+{{#if:{{{interdiction|}}}|
+<tr>
+<td style="margin:1em" align="center">[[Image:Stop hand.svg]]</td>
+<td style="margin:1em; padding:1em">{{{interdiction}}}</td>
+}}
+</tr>
+<tr>
+<td align="center" style="margin:1em">[[{{{image1|Image:PD-icon.svg}}}|{{{taille image1|none}}}|{{{légende image1|Domaine public}}}]] {{#if:{{{sous-titre image1|}}}|{{{sous-titre image1}}}|}} {{#if:{{{image2|}}}|[[{{{image2}}}|{{{taille image2|none}}}|{{{légende image2|}}}]]{{#if:{{{image3|}}}|[[{{{image3}}}|{{{taille image3|none}}}|{{{légende image3|}}}]]{{#if:{{{image4|}}}|[[{{{image4}}}|{{{taille image4|none}}}|{{{légende image4|}}}]]|}}|}}|}}</td>
+<td style="margin:1em; padding:1em">{{{texte}}}</td>
+</tr>
+</table>
+
+{{#ifeq:{{{interdit sur Commons}}}|oui|
+<table class="bandeau-niveau-information bandeau" style="background-color:#ff8888; border-color:#8888aa; text-align:center">
+<tr>
+<td>[[Image:To Commons Bin.svg|80px|none]]</td>
+<td align="center">'''''Attention''''' : '''un fichier avec ce bandeau ''ne peut pas'' être transféré sur [[Wikimedia Commons]]''' car la politique sur les copyrights de Commons est plus restrictive. Le fichier y serait donc supprimé.</td>
+</tr>
+</table>
+|}}<!--
+-->{{#ifeq:{{{pour Commons}}}|oui|
+<table class="bandeau-niveau-information bandeau" id="OkCommons">
+<tr valign="middle" height="100%">
+<td width="70px" rowspan="2">[[Image:To Commons.svg|70px|Fichier à déplacer sur Commons]]</td>
+<td align="left"><u>'''Après avoir vérifié la validité de sa licence'''</u>, ce fichier libre devrait être '''[[Aide:Transfert d'images sur Commons|transféré]] vers ''[[Commons:Accueil|Wikimedia Commons]]'''''.</td>
+</tr>
+<tr valign="top">
+<td align="left" style="font-size:90%">
+----
+''Vous pouvez vous aider de l'[http://tools.wikimedia.de/~magnus/commonshelper.php?interface=fr&image={{PAGENAMEE}}&lang=fr&language=fr&commonsense=1&remove_categories=1&reallydirectupload=1 assistant de transfert vers Commons]'' (essayer aussi la [http://toolserver.org/~commonshelper2/index.php?language=fr&project=wikipedia&file={{PAGENAMEE}}&remove_existing_categories=1&use_tusc=1 version expérimentale]), <br/><small style="line-height:1.4em">puis apposer sur cette page le modèle : <tt><nowiki>{{Désormais sur Commons|nom du fichier sur commons}}</nowiki></tt>.</small></td>
+</tr>
+</table>
+|}}<includeonly>
+{{#ifeq:{{NAMESPACE}}|{{ns:6}}|[[{{{catégorie|Catégorie:Image Domaine Public}}}]]|}}
+{{#ifeq:{{NAMESPACE}}|{{ns:10}}|{{ {{#ifeq:{{NAMESPACE}}|{{ns:10}}||documentation modèle}} }}
+;Description :
+:[[Wikipédia:Liste des bandeaux de licence|Bandeau de licence]] à apposer sous un média.
+
+;Syntaxe :
+{{#if: {{{syntaxe|}}} | {{{syntaxe}}} |
+:<nowiki>{{</nowiki>{{PAGENAME}}<nowiki>}}</nowiki>
+}}
+
+
+;Voir aussi :
+:* Liste des fichiers utilisant cette licence : [[:{{{catégorie|Catégorie:Image Domaine Public}}}]].
+{{#if:{{{Commons|}}}|:* Modèle équivalent sur Commons : [[Commons:{{{Commons|}}}]].}}
+
+[[Catégorie:Bandeau de licence|{{{tri|{{PAGENAME}}}}}]]}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

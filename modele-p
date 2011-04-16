@@ -1,4 +1,3 @@
-<includeonly>{{#if: {{{1|}}} | <span style="white-space:nowrap">{{abréviation discrète|1=p.|2=page(s)}}&nbsp;{{{1}}}</span> | {{abréviation discrète|1=p.|2=page(s)}}&nbsp; }}</includeonly><noinclude>
-{{Documentation}}
-[[Catégorie:Modèle d'indication bibliographique|p.]]
+<includeonly>{{#if: {{{1|}}} | <span style="white-space:nowrap">{{abréviation discrète|1=p.|2=page(s)}}&nbsp;{{{1}}}</span> | {{abréviation discrète|1=p.|2=pache(s)}}&nbsp; }}</includeonly><noinclude>
+[[Catégorie:Modèle|p.]]
 </noinclude>

@@ -1,0 +1,94 @@
+<includeonly><span
+    class="Z3988"
+    title="ctx_ver=Z39.88-2004&rft_val_fmt={{urlencode:info:ofi/fmt:kev:mtx:}}{{
+      #switch: {{{genre|}}}
+      |article=journal&rft.genre{{=}}article&rft.atitle{{=}}{{urlencode:{{{titre|}}}}}&rft.jtitle{{=}}{{urlencode:{{{périodique|}}}}}
+      |ouvrage=book&rft.genre{{=}}book&rft.btitle{{=}}{{urlencode:{{{titre|}}}}}{{#if: {{{titre section|}}} | &rft.atitle{{=}}{{urlencode:{{{titre section|}}}}}}}
+    }}{{
+      #if: {{{sous-titre|}}} |&rft.stitle={{urlencode:{{{sous-titre}}}}}
+    }}{{
+     #if: {{{nom1|}}} |&rft.aulast={{urlencode:{{{nom1}}}}}{{
+       #if: {{{prénom1|}}} |&rft.aufirst={{urlencode:{{{prénom1}}}}}
+     }}
+   }}{{
+      #if: {{{auteur|}}} |&rft.au={{urlencode:{{{auteur}}}}}
+    }}{{
+     #if: {{{nom1|}}} |&rft.au={{urlencode:{{{nom1}}}}}{{
+       #if: {{{prénom1|}}} |{{urlencode:, {{{prénom1}}}}}
+     }}
+   }}{{
+     #if: {{{nom2|}}} |&rft.au={{urlencode:{{{nom2}}}}}{{
+       #if: {{{prénom2|}}} |{{urlencode:, {{{prénom2}}}}}
+     }}
+   }}{{
+     #if: {{{nom3|}}} |&rft.au={{urlencode:{{{nom3}}}}}{{
+       #if: {{{prénom3|}}} |{{urlencode:, {{{prénom3}}}}}
+     }}
+   }}{{
+     #if: {{{nom4|}}} |&rft.au={{urlencode:{{{nom4}}}}}{{
+       #if: {{{prénom4|}}} |{{urlencode:, {{{prénom4}}}}}
+     }}
+   }}{{
+     #if: {{{nom5|}}} |&rft.au={{urlencode:{{{nom5}}}}}{{
+       #if: {{{prénom5|}}} |{{urlencode:, {{{prénom5}}}}}
+     }}
+   }}{{
+     #if: {{{nom6|}}} |&rft.au={{urlencode:{{{nom6}}}}}{{
+       #if: {{{prénom6|}}} |{{urlencode:, {{{prénom6}}}}}
+     }}
+   }}{{
+     #if: {{{nom7|}}} |&rft.au={{urlencode:{{{nom7}}}}}{{
+       #if: {{{prénom7|}}} |{{urlencode:, {{{prénom7}}}}}
+     }}
+   }}{{
+     #if: {{{nom8|}}} |&rft.au={{urlencode:{{{nom8}}}}}{{
+       #if: {{{prénom8|}}} |{{urlencode:, {{{prénom8}}}}}
+     }}
+   }}{{
+     #if: {{{nom9|}}} |&rft.au={{urlencode:{{{nom9}}}}}{{
+       #if: {{{prénom9|}}} |{{urlencode:, {{{prénom9}}}}}
+     }}
+   }}{{
+     #if: {{{nom10|}}} |&rft.au={{urlencode:{{{nom10}}}}}{{
+       #if: {{{prénom10|}}} |{{urlencode:, {{{prénom10}}}}}
+     }}
+   }}{{
+       #if: {{{année|}}}
+       | &rft.date={{urlencode:{{{année|}}}{{
+                                           #if: {{{mois|}}}
+                                           | -{{padleft:{{MONTHNUMBER|{{{mois}}}}}|2|0}}{{
+                                                                                         #if: {{{jour|}}}
+                                                                                         | -{{padleft:{{{jour}}}|2|0}}
+                                                                                         }}
+                                           }}}}
+       | {{
+         #if: {{{date|}}}
+         | &rft.date={{urlencode:{{{date}}}}}
+         }}
+       }}{{
+      #if: {{{volume|}}} |&rft.volume={{urlencode:{{{volume}}}}}
+    }}{{
+      #if: {{{numéro|}}} |&rft.issue={{urlencode:{{{numéro}}}}}
+    }}{{
+      #if: {{{pages|}}} |&rft.pages={{urlencode:{{{pages}}}}}
+    }}{{
+      #if: {{{pages totales|}}} |&rft.tpages={{urlencode:{{{pages totales}}}}}
+    }}{{
+      #if: {{{lieu|}}} |&rft.place={{urlencode:{{{lieu}}}}}
+    }}{{
+      #if: {{{éditeur|}}} |&rft.pub={{urlencode:{{{éditeur}}}}}
+    }}{{
+      #if: {{{édition|}}} |&rft.edition={{urlencode:{{{édition}}}}}
+    }}{{
+      #if: {{{isbn|}}} |&rft.isbn={{urlencode:{{{isbn}}}}}
+    }}{{
+      #if: {{{issn|}}} |&rft.issn={{urlencode:{{{issn}}}}}
+    }}{{
+      #if: {{{doi|}}} |&rft_id=info:doi/{{urlencode:{{{doi}}}}}
+    }}{{
+      #if: {{{pmid|}}} |&rft_id=info:pmid/{{urlencode:{{{pmid}}}}}
+    }}{{
+      #if: {{{oclc|}}} |&rft_id=info:oclcnum/{{urlencode:{{{oclc}}}}}
+    }}{{
+      #if: {{{url|}}} |&rft_id={{urlencode:{{{url}}}}}
+    }}&rfr_id=info:sid/fr.wikipedia.org:{{FULLPAGENAMEE}}"><span style="display: none;">&nbsp;</span></span></includeonly><noinclude>{{/Documentation}}</noinclude>

@@ -1,0 +1,14 @@
+<includeonly><!--
+-->{{#if:{{{2|}}}|<!-- nom?
+  -->{{#if:{{{1|}}}|<!-- lien?
+    -->[[{{{1|}}}|<!-- lien (optionnel)
+      -->{{#if:{{{3|}}}|{{{3|}}}&#32;}}<!-- prénom (optionnel)
+      -->{{{2|}}}<!-- nom
+    -->]]<!--
+  -->|<!--
+      -->{{#if:{{{3|}}}|{{{3|}}}&#32;}}<!-- prénom (optionnel)
+      -->{{{2|}}}<!-- nom
+  -->}}<!--
+  -->{{#if:{{{4|}}}|&#32;{{{4|}}}}}<!-- qualificatif/suffixe (optionnel)
+-->}}<!--
+--></includeonly><noinclude>{{doc modèle}}</noinclude>

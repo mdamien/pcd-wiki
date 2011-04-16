@@ -1,0 +1,24 @@
+<includeonly>{{
+#if:{{{jour|}}}{{{mois|}}}{{{année|}}}
+| {{
+  #if: {{{jour|}}} 
+  | {{
+    #switch: {{{jour|}}} 
+    | 1 
+    | 1er=1{{er}}
+    | #default={{{jour|}}}
+    }}{{espace}}
+  }}{{
+    #if: {{{mois|}}}
+    | {{
+      #if:{{isNumeric
+           |{{{mois|}}}
+           }}
+      |{{MONTHNAME
+        |{{{mois|}}}
+        }}
+      |{{{mois|}}}
+      }}{{espace}}
+     }}{{{année|}}}
+|{{{date|}}}
+}}</includeonly><noinclude>{{/Documentation}}</noinclude>

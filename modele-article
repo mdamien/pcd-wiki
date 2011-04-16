@@ -1,0 +1,327 @@
+<includeonly><!--
+S’IL VOUS PLAÎT, NE PAS RETIRER LES INDICATIONS DE NUMÉRO (/1/, /2/, ETC.). ÇA AIDE POUR REPÉRER L’ORDRE DES ZONES BIBLIOGRAPHIQUES.
+
+DÉTECTION DES PARAMÈTRES OBLIGATOIRES. SI ABSENCE D'UN PARAMÈTRE OBLIGATOIRE : MESSAGE D'ERREUR.
+-->{{#if:{{NAMESPACE}}||<!--
+  -->{{#if:<!-- Chaque erreur de paramètre manquant donne '1', sinon rien.
+    -->{{#if:{{{titre|{{{title|}}}}}}||1}}<!--
+    -->{{#if:{{{périodique|{{{revue|{{{journal|}}}}}}}}}||1}}<!--
+    -->{{#if:{{{année|{{{year|{{{date|}}}}}}}}}||1}}<!--
+  -->|[[Catégorie:Page du modèle Article comportant une erreur]]<!--
+  -->}}<!--
+-->}}<!--
+
+SPAN OUVRAGE
+--><span class="ouvrage" id="<!--
+  -->{{#if:{{{id|}}}|<!--
+     -->{{{id|}}}|<!--
+     -->{{anchorencode:<!--
+       -->{{{nom1|{{{last1|{{{auteur1|{{{author1|{{{nom|{{{last|{{{auteur|{{{author|}}}}}}}}}}}}}}}}}}}}}}}}<!--
+       -->{{{nom2|{{{last2|{{{auteur2|{{{author2|}}}}}}}}}}}}<!--
+       -->{{{nom3|{{{last3|{{{auteur3|{{{author3|}}}}}}}}}}}}<!--
+       -->{{{nom4|{{{last4|{{{auteur4|{{{author4|}}}}}}}}}}}}<!--
+       -->{{{année|{{{year|}}}}}}<!--
+     -->}}<!--
+  -->}}"><!--
+
+  /1/ Insertion du paramètre de langue
+  -->{{#switch:{{{langue|{{{lang|{{{language|}}}}}}}}}<!--
+  -->|fr|=<!--- Ne rien afficher uniquement si langue est 'fr' ou vide ; sinon :
+  -->|#default={{ {{{langue|{{{lang|{{{language|}}}}}}}}} }}&#32;<!--
+  -->}}<!--
+
+  Vérification paramètre minimal pour auteur(s) et coauteur(s)
+  -->{{#if:{{{nom1|{{{last1|{{{auteur1|{{{author1|{{{nom|{{{last|{{{auteur|{{{author|}}}}}}}}}}}}}}}}}}}}}}}}|<!--
+
+     /2/ Insertion des auteur(s), ou premier argument positionnel, affichez le (ou les) auteur(s) ou le premier argument positionnel
+     -->{{MultiParamètres|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur|{{{lien auteur1|{{{authorlink|}}}}}}}}}<!--
+           -->|2={{{nom1|{{{last1|{{{auteur1|{{{author1|{{{nom|{{{last|{{{auteur|{{{author|}}}}}}}}}}}}}}}}}}}}}}}}<!--
+              -->{{#if:{{{auteur1|{{{author1|{{{auteur|{{{author|}}}}}}}}}}}}|<!--
+                 -->[[Catégorie:Utilisation du paramètre auteur dans le modèle article]]<!--
+              -->}}<!--
+           -->|3={{{prénom1|{{{first1|{{{given1|{{{prénom|{{{first|{{{given|}}}}}}}}}}}}}}}}}}<!--
+        -->}}<!--
+        -->{{#if:{{{coauteurs|}}}{{{coauteur|}}}{{{coauthors|}}}{{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}|<!--
+           -->[[Catégorie:Recension temporaire pour le modèle Article]]<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur2|}}}<!--
+           -->|2={{{nom2|{{{last2|{{{author2|}}}}}}}}}<!--
+           -->|3={{{prénom2|{{{first2|{{{given2|}}}}}}}}}<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur3|}}}<!--
+           -->|2={{{nom3|{{{last3|{{{author3|}}}}}}}}}<!--
+           -->|3={{{prénom3|{{{first3|{{{given3|}}}}}}}}}<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur4|}}}<!--
+           -->|2={{{nom4|{{{last4|{{{author4|}}}}}}}}}<!--
+           -->|3={{{prénom4|{{{first4|{{{given4|}}}}}}}}}<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur5|}}}<!--
+           -->|2={{{nom5|{{{last5|{{{author5|}}}}}}}}}<!--
+           -->|3={{{prénom5|{{{first5|{{{given5|}}}}}}}}}<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur6|}}}<!--
+           -->|2={{{nom6|{{{last6|{{{author6|}}}}}}}}}<!--
+           -->|3={{{prénom6|{{{first6|{{{given6|}}}}}}}}}<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur7|}}}<!--
+           -->|2={{{nom7|{{{last7|{{{author7|}}}}}}}}}<!--
+           -->|3={{{prénom7|{{{first7|{{{given7|}}}}}}}}}<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur8|}}}<!--
+           -->|2={{{nom8|{{{last8|{{{author8|}}}}}}}}}<!--
+           -->|3={{{prénom8|{{{first8|{{{given8|}}}}}}}}}<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur9|}}}<!--
+           -->|2={{{nom9|{{{last9|{{{author9|}}}}}}}}}<!--
+           -->|3={{{prénom9|{{{first9|{{{given8|}}}}}}}}}<!--
+        -->}}|<!--
+        -->{{Article/Auteur<!--
+           -->|1={{{lien auteur10|}}}<!--
+           -->|2={{{nom10|{{{last10|{{{author10|}}}}}}}}}<!--
+           -->|3={{{prénom10|{{{first10|{{{given10|}}}}}}}}}<!--
+         -->}}|<!--
+        -->{{#if:{{{nom11|}}}|{{al.}}}}<!--
+     -->}}<!--
+ 
+     /3/ Si auteur(s), ou premier argument positionnel, et si traducteur, affichez le (ou les) traducteur(s) entre parenthèses
+     -->{{#if:{{{traduction|}}}|<!--
+        -->&#32;(trad. {{{traduction|}}})<!--
+     -->}}<!--
+  
+     /4/ séparateur après auteurs et traduction
+     -->,&#32;<!--
+  -->}}<!--
+
+  /5/ Balise de citation avec la langue pour le titre et le sous-titre
+  -->« <cite style="font-style:{{#switch:{{{langue|{{{lang|{{{language|}}}}}}}}}|fr|=normal|#default=italic}}"><!--
+     -->{{#switch:{{{langue|{{{lang|{{{language|}}}}}}}}}<!--
+     -->|fr|=<!--
+        -->{{{titre|{{{title|{{{titre}}}}}}}}}<!-- (titre obligatoire)
+        -->{{#if:{{{sous-titre|}}}|<!--
+           -->&#32;<nowiki>:</nowiki> {{{sous-titre}}}<!--
+        -->}}<!--
+     -->|#default=<!--
+        -->{{lang|<!--
+           -->1={{{langue|{{{lang|{{{language|}}}}}}}}}|<!--
+           -->texte={{{titre|{{{title|{{{titre}}}}}}}}}<!-- (titre obligatoire)
+              -->{{#if:{{{sous-titre|}}}|<!--
+                 -->&#32;<nowiki>:</nowiki> {{{sous-titre}}}<!--
+              -->}}<!--
+        -->}}<!--
+     -->}}<!--
+  --></cite> »,<!--
+
+  /6/ Afficher le journal, ou troisième argument positionnel en italique (périodique : paramètre obligatoire)
+  --> dans <i><!--
+     -->{{#if:{{{lien périodique|}}}|<!--
+        -->[[{{{lien périodique}}}{{!}}<!--
+        -->{{{périodique|{{{revue|{{{journal|{{{périodique}}}}}}}}}}}}<!--
+        -->]]<!--
+     -->|<!--
+        -->{{{périodique|{{{revue|{{{journal|{{{périodique}}}}}}}}}}}}<!--
+     -->}}<!--
+  --></i><!--
+
+  /9a/ Si lieu d'édition, afficher lieu d'édition
+  -->{{#if:{{{lieu|{{{lieu édition|{{{location|}}}}}}}}}|<!--
+     -->, {{{lieu|{{{lieu édition|{{{location|}}}}}}}}}<!--
+  -->}}<!--
+
+  /9b/ Si éditeur, afficher l'éditeur
+  -->{{#if:{{{éditeur|{{{publisher|}}}}}}|<!--
+     -->, {{{éditeur|{{{publisher|}}}}}}<!--
+  -->}}<!--
+
+  /10/ Indication (ordinale) sur la série
+  -->{{#if:{{{série|}}}|<!--
+     -->, {{plural:{{{série|}}}|{{1re}}|{{#ifexist:Modèle:{{{série|}}}e|{{{{{série|}}}e}}|{{{série|}}}{{e}}}}}} série<!--
+  -->}}<!--
+
+  /10/ Indication sur le volume et le titre du volume
+  -->{{#if:{{{volume|{{{vol|}}}}}}|<!--
+     -->, {{vol}}{{{volume|{{{vol|}}}}}}<!--
+  -->}}<!--
+  -->{{#if:{{{titre volume|{{{titre vol|}}}}}}|<!--
+     -->&#32;« <span style="font-style:{{#switch:{{{langue|{{{lang|{{{language|}}}}}}}}}|fr|=normal|#default=italic}}"><!--
+        -->{{#switch:{{{langue|{{{lang|{{{language|}}}}}}}}}<!--
+        -->|fr|=<!--
+           -->{{{titre volume|{{{titre vol|}}}}}}<!--
+        -->|#default=<!--
+           -->{{lang|<!--
+              -->1={{{langue|{{{lang|{{{language|}}}}}}}}}|<!--
+              -->texte={{{titre volume|{{{titre vol|}}}}}}<!--
+           -->}}<!--
+        -->}}<!--
+     --></span> »<!--
+  -->}}<!--
+
+  /10/ Indication sur le numéro périodique et le titre du numéro périodique
+  -->{{#if:{{{numéro|{{{no|{{{issue|}}}}}}}}}|<!--
+     -->, {{numéro}}{{{numéro|{{{no|{{{issue|}}}}}}}}}<!--
+  -->}}<!--
+  -->{{#if:{{{titre numéro|{{{titre no|}}}}}}|<!--
+     -->&#32;« <cite style="font-style:{{#switch:{{{langue|{{{lang|{{{language|}}}}}}}}}|fr|=normal|#default=italic}}"><!--
+        -->{{#switch:{{{langue|{{{lang|{{{language|}}}}}}}}}<!--
+        -->|fr|=<!--
+           -->{{{titre numéro|{{{titre no|}}}}}}<!--
+        -->|#default=<!--
+           -->{{lang|<!--
+              -->1={{{langue|{{{lang|{{{language|}}}}}}}}}|<!--
+              -->texte={{{titre numéro|{{{titre no|}}}}}}<!--
+           -->}}<!--
+        -->}}<!--
+     --></cite> »<!--
+  -->}}<!--
+
+  /10/ Insertion de la date de publication
+  -->{{#if:{{{jour|{{{day|}}}}}}{{{mois|{{{month|}}}}}}{{{année|{{{year|}}}}}}{{{date|}}}|<!--
+     -->, {{inscription date|<!--
+        -->jour={{{jour|{{{day|}}}}}}|<!--
+        -->mois={{{mois|{{{month|}}}}}}|<!--
+        -->année={{{année|{{{year|}}}}}}|<!--
+        -->date={{{date|}}}<!--
+     -->}}<!--
+  -->|<!--
+     -->, {{{année}}}<!-- (année : paramètre obligatoire)
+  -->}}<!--
+
+  /10/  Insertion des pages
+  -->{{#if:{{{pages|{{{page|{{{p.|{{{pp.|{{{passage|}}}}}}}}}}}}}}}|<!--
+     -->, {{p.}}{{{pages|{{{page|{{{p.|{{{pp.|{{{passage|}}}}}}}}}}}}}}}<!--
+  -->}}<!--
+
+  /12/  Si ISSN/ISBN, afficher l'ISSN/ISBN dans le modèle {{ISSN}} et/ou {{ISBN}}
+  -->{{ #if:{{{issn|{{{ISSN|}}}}}}
+            |&#32;{{ISSN|{{{issn|{{{ISSN|}}}}}}|{{{issn2|{{{ISSN2|}}}}}}|{{{issn3|{{{ISSN3|}}}}}}}}<!--
+  -->}}<!--
+  -->{{ #if:{{{isbn|{{{ISBN|}}}}}}
+            |&#32;{{ISBN|{{{isbn|{{{ISBN|}}}}}}|{{{isbn2|{{{ISBN2|}}}}}}|{{{isbn3|{{{ISBN3|}}}}}}}}<!--
+  -->}}<!--
+  
+  /13/ Insertion du résumé, du texte ou du lien doi (avec la date de consultation) 
+  Est-ce qu'il y a présence d'un lien Internet ?
+  -->{{#if:<!--
+     -->{{#if:{{{résumé|}}}|1}}<!--
+     -->{{#if:{{{url texte|{{{texte|{{{url|{{{lire en ligne|}}}}}}}}}}}}|1}}<!--
+     -->{{#if:{{{doi|}}}|1}}<!--
+     -->{{#if:{{{pmid|}}}|1}}<!--
+     -->{{#if:{{{pmcid|}}}|1}}<!--
+  -->|<!-- si oui
+     Insertion début des liens
+     -->&#32;<small><nowiki>[</nowiki><!--
+
+     Insertion de $résumé (lien web)
+     -->{{#if:{{{résumé|}}}|[{{{résumé}}} résumé]}}<!--
+
+     Insertion de $url texte (lien web)
+     -->{{#if:{{{url texte|{{{texte|{{{url|{{{lire en ligne|}}}}}}}}}}}}|<!--
+        -->{{#if:{{{résumé|}}}|,&#32;}}<!-- Avant d'insérer, vérification s'il y avait $résumé
+        -->{{#if:{{{format|}}}|{{#ifexist:Modèle:{{{format|}}}|{{ {{{format|}}} }}|{{Indication de format|format={{{format|}}}}}}}}}<!-- Insertion du $format (appel de modèle)
+        -->[{{{url texte|{{{texte|{{{url|{{{lire en ligne|}}}}}}}}}}}} texte intégral]<!-- Insertion de $url texte (lien web)
+     -->}}<!--
+
+     Insertion de $pmid (lien web)
+     -->{{#if:{{{pmid|}}}|<!--
+        -->{{#if:{{{résumé|}}}{{{url texte|{{{texte|{{{url|{{{lire en ligne|}}}}}}}}}}}}|,&#32;}}<!--
+        -->[http://www.ncbi.nlm.nih.gov/pubmed/{{urlencode:{{{pmid|}}}}} lien PMID]<!--
+     -->}}<!--
+
+     Insertion de $pmcid (lien web)
+     -->{{#if:{{{pmcid|}}}|<!--
+        -->{{#if: {{{résumé|}}}{{{url texte|{{{texte|{{{url|{{{lire en ligne|}}}}}}}}}}}}{{{pmid|}}}|,&#32;}}<!--
+        -->[http://www.ncbi.nlm.nih.gov/pmc/articles/{{urlencode:{{{pmcid|}}}}} lien PMCID]<!--
+     -->}}<!--
+
+    Insertion de $doi (lien web)
+    -->{{#if:{{{doi|}}}|<!--
+       -->{{#if:{{{résumé|}}}{{{url texte|{{{texte|{{{url|{{{lire en ligne|}}}}}}}}}}}}{{{pmid|}}}{{{pmcid|}}}|,&#32;}}<!--
+       -->[http://dx.doi.org/{{urlencode:{{{doi}}}}} lien DOI]<!--
+    -->}}<!--
+
+    Insertion de $consulté le
+    -->{{#if:{{{consulté le|{{{accessdate|}}}}}}|<!--
+       -->&#32;(<!--
+       -->{{plural:<!-- Vérification s'il y a un ou plusieurs liens
+          -->{{#expr:<!--
+             -->{{#if:{{{résumé|}}}|1|0}}+<!--
+             -->{{#if:{{{url texte|{{{texte|{{{url|{{{lire en ligne|}}}}}}}}}}}}|1|0}}+<!--
+             -->{{#if:{{{pmid|}}}|1|0}}+<!--
+             -->{{#if:{{{pmcid|}}}|1|0}}+<!--
+             -->{{#if:{{{doi|}}}|1|0}}<!--
+          -->}}|<!--
+          -->page consultée|<!--
+          -->pages consultées<!--
+       -->}}<!--
+       --> le {{{consulté le|{{{accessdate|}}}}}}<!--
+       -->)<!--
+    -->}}<!--
+
+     Insertion fin des liens
+     --><nowiki>]</nowiki></small><!--
+  -->}}<!-- 
+
+FIN SPAN OUVRAGE
+--></span><!--
+
+/14/  Insertion de l’extrait de l'article (dans un bloc séparé)
+-->{{#if:{{{extrait|{{{quote|}}}}}}|<!--
+   -->&#32;: <!--
+   -->{{Citation début}}<!--
+   -->{{{extrait|{{{quote|}}}}}}<!--
+   -->{{Fin citation}}<!--
+-->}}<!--
+
+/14/ Insertion d’un commentaire sur l'article (dans un bloc séparé)
+-->{{#if:{{{commentaire|}}}|<!--
+   -->{{Commentaire biblio|{{{commentaire|}}}}}<!--
+-->}}<!--
+
+"OpenURL ContextObjects in Spans", pour robots indexeurs de citations bibliographiques basés sur la norme Z93.88 (voir http://ocoins.info/)
+-->{{COinS bibliographique| genre=article|
+nom1={{{nom1|{{{last1|{{{auteur1|{{{author1|{{{nom|{{{last|{{{auteur|{{{author|}}}}}}}}}}}}}}}}}}}}}}}}|<!--
+nom2={{{nom2|{{{last2|{{{auteur2|{{{author2|}}}}}}}}}}}}|<!--
+nom3={{{nom3|{{{last3|{{{auteur3|{{{author3|}}}}}}}}}}}}|<!--
+nom4={{{nom4|{{{last4|{{{auteur4|{{{author4|}}}}}}}}}}}}|<!--
+nom5={{{nom5|{{{last5|{{{auteur5|{{{author5|}}}}}}}}}}}}|<!--
+nom6={{{nom6|{{{last6|{{{auteur6|{{{author6|}}}}}}}}}}}}|<!--
+nom7={{{nom7|{{{last7|{{{auteur7|{{{author7|}}}}}}}}}}}}|<!--
+nom8={{{nom8|{{{last8|{{{auteur8|{{{author8|}}}}}}}}}}}}|<!--
+nom9={{{nom9|{{{last9|{{{auteur9|{{{author9|}}}}}}}}}}}}|<!--
+nom10={{{nom10|{{{last10|{{{auteur10|{{{author10|}}}}}}}}}}}}|<!--
+
+prénom1={{{prénom1|{{{first1|{{{given1|{{{prénom|{{{first|{{{given|}}}}}}}}}}}}}}}}}}|<!--
+prénom2={{{prénom2|{{{first2|{{{given2|}}}}}}}}}|<!--
+prénom3={{{prénom3|{{{first3|{{{given3|}}}}}}}}}|<!--
+prénom4={{{prénom4|{{{first4|{{{given4|}}}}}}}}}|<!--
+prénom5={{{prénom5|{{{first5|{{{given5|}}}}}}}}}|<!--
+prénom6={{{prénom6|{{{first6|{{{given6|}}}}}}}}}|<!--
+prénom7={{{prénom7|{{{first7|{{{given7|}}}}}}}}}|<!--
+prénom8={{{prénom8|{{{first8|{{{given8|}}}}}}}}}|<!--
+prénom9={{{prénom9|{{{first9|{{{given9|}}}}}}}}}|<!--
+prénom0={{{prénom10|{{{first10|{{{given10|}}}}}}}}}|<!--
+
+titre={{{titre|{{{title|}}}}}}| sous-titre={{{sous-titre|}}}|
+périodique={{{périodique|{{{revue|{{{journal|}}}}}}}}}|
+volume={{{volume|{{{vol|}}}}}}| numéro={{{numéro|{{{no|{{{issue|}}}}}}}}}|
+année={{{année|{{{year|}}}}}}| mois={{{mois|{{{month|}}}}}}| jour={{{jour|{{{day|}}}}}}| date={{{date|}}}|
+éditeur={{{éditeur|{{{publisher|}}}}}}| lieu={{{lieu|{{{lieu édition|{{{location|}}}}}}}}}|
+pages={{{pages|{{{page|{{{p.|{{{pp.|{{{passage|}}}}}}}}}}}}}}}|
+
+issn={{{issn|{{{ISSN|{{{issn2|{{{ISSN2|{{{issn3|{{{ISSN3|}}}}}}}}}}}}}}}}}}|
+isbn={{{isbn|{{{ISSN|{{{isbn2|{{{ISBN2|{{{isbn3|{{{ISBN3|}}}}}}}}}}}}}}}}}}|
+url={{{url texte|{{{texte|{{{url|{{{lire en ligne|{{{résumé|}}}}}}}}}}}}}}}<!--
+pmid={{{pmid|}}}| pmcid={{{pmcid|}}}| doi={{{doi|}}}|
+-->}}<!--
+
+--></includeonly><noinclude>[[catégorie:Subroutines-pcd]]</noinclude>

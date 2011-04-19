@@ -3,15 +3,25 @@
 |-
 | width="30%" align="center" bgcolor="#90D0FF"| Édvant:<br />'''{{{2|{{{avant}}}}}}'''
 | width="40%" align="center" bgcolor="#F2FFE5"| '''[[Vouéyette ed grande rindonnée {{{1|1}}}|Vouéyette  GR{{{1|1}}}]]'''<br /> [[Image:Balise GR.png|30px]]
-| width="30%" align="center" bgcolor="#90D0FF"| Apré:{{#if:{{{4|{{{date|}}}}}}|{{#tag:ref|Tracé du GR {{{1|1}}} et limites de communes consultés sur [[Géoportail]] le {{{4|{{{date|}}}}}}.}}}}<br />'''{{{3|{{{après}}}}}}'''
+| width="30%" align="center" bgcolor="#90D0FF"| Apré:{{#if:{{{4|{{{date|}}}}}}|{{#tag:ref|Tracé du GR {{{1|1}}} et pi limites d'chés conmeunes consultés dseur [[Géoportail]] au {{{4|{{{date|}}}}}}.}}}}<br />'''{{{3|{{{après}}}}}}'''
 |}</includeonly><noinclude>
 
-Egzimpe
+:;Egzimpe
 <nowiki>
-{{Vouéyette ed grande rindonnée|124|édvant=[[Jumèl]]|apré=[[Cotinchy]]}}
+{{Vouéyette ed grande rindonnée|124|avant=[[Jumèl]]|après=[[Cotinchy]]}}
 </nowiki>
+
+{{Modèle:Vouéyette ed grande rindonnée|124|avant=[[Jumèl]]|après=[[Cotinchy]]}}
+:;Eute egzimpe
 <pre>
-{{Vouéyette ed grande rindonnée|124|édvant=[[Jumèl]]|apré=[[Cotinchy]]}}
+{{Modèle:Vouéyette ed grande rindonnée|4
+|[[Busserolles]]
+|[[Saint-Estèphe (Dordogne)|Saint-Estèphe]]
+|7 ed janvié 2010}}
 </pre>
+
+{{Modèle:Vouéyette ed grande rindonnée|4|avant=[[Busserolles]]|après=[[Saint-Estèphe (Dordogne)|Saint-Estèphe]]|date=7 janvier 2010}}
+<references/>
+* vir: http://fr.wikipedia.org/wiki/Modèle:Sentier_de_grande_randonnée
 [[Catégorie:Subroutines-pcd]]
 </noinclude>

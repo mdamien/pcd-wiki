@@ -1,0 +1,17 @@
+<includeonly><br clear="all" />
+{| align="center" cellpadding="2" border="0" style="border: 1px solid #999; white-space: nowrap"
+|-
+| width="30%" align="center" bgcolor="#90D0FF"| Édvant:<br />'''{{{2|{{{avant}}}}}}'''
+| width="40%" align="center" bgcolor="#F2FFE5"| '''[[Vouéyette ed grande rindonnée {{{1|1}}}|Vouéyette  GR{{{1|1}}}]]'''<br /> [[Image:Balise GR.png|30px]]
+| width="30%" align="center" bgcolor="#90D0FF"| Apré:{{#if:{{{4|{{{date|}}}}}}|{{#tag:ref|Tracé du GR {{{1|1}}} et limites de communes consultés sur [[Géoportail]] le {{{4|{{{date|}}}}}}.}}}}<br />'''{{{3|{{{après}}}}}}'''
+|}</includeonly><noinclude>
+
+Egzimpe
+<nowiki>
+{{Vouéyette ed grande rindonnée|124|édvant=[[Jumèl]]|apré=[[Cotinchy]]}}
+</nowiki>
+<pre>
+{{Vouéyette ed grande rindonnée|124|édvant=[[Jumèl]]|apré=[[Cotinchy]]}}
+</pre>
+[[Catégorie:Subroutines-pcd]]
+</noinclude>

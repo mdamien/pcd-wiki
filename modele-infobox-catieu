@@ -1,0 +1,76 @@
+<includeonly>{{#ifeq:{{{coord|}}}|oui|{{#ifeq:{{NAMESPACE}}||{{#if:{{{latitude|}}}|{{#if:{{{longitude|}}}|{{coordonnées|{{{latitude|}}}/{{{longitude|}}}/type:city|format=dms|display=title}}
+|}}|}}|}}|}}{{Infobox/Début}}
+{{Infobox/Titre
+ | {{Non vide|{{{nom|}}}|{{PAGENAME}}}}|00507f|entete chateau|ffffff
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{{légende|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Nom local|{{{nom local|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Période ou style|{{{style|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Type|{{{type|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Architecte|{{{architecte|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Début construction|{{{début construction|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Fin construction|{{{fin construction|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Propriétaire initial|{{{propriétaire initial|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Destination initiale|{{{destination initiale|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Propriétaire actuel|{{{propriétaire actuel|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Destination actuelle|{{{destination actuelle|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Protection|{{{classement|}}}
+}}
+{{Infobox/Ligne mixte site web optionnel
+ | Site Intarnète|{{{site|}}}|
+}}
+{{Infobox/Ligne mixte latitude longitude optionnel
+ | Coordonnées|{{{latitude|}}}|{{{longitude|}}}||dms long|||{{{référence|}}}
+}}
+{{Infobox/Ligne mixte
+ | [[Liste des pays du monde|Pays]]|{{#ifexist:Modèle:{{{pays|?!?}}}|{{ {{{pays}}} }}|{{{pays|}}}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | {{Non vide|{{{lien région|}}}|Région historique}}|{{{région|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | {{Non vide|{{{lien subdivision|}}}|Subdivision administrative}}|{{{subdivision|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | {{Non vide|{{{lien subdivision2|}}}|Subdivision administrative}}|{{{subdivision2|}}}
+}}
+{{Infobox/Ligne mixte
+ | {{Non vide|{{{lien commune|}}}|Commune}}|{{{commune|}}}
+}}
+{{#if:{{{géolocalisation|}}}|
+{{Infobox/Géolocalisation double
+ | géolocalisation={{{géolocalisation|}}}
+ | latitude={{{latitude|}}}
+ | longitude={{{longitude|}}}
+ | toponyme={{Non vide|{{{nom|}}}|{{PAGENAME}}}}
+ | point=Localité sans toponyme
+ | type=relief
+}}
+}}
+{{Infobox/Notice
+ | Infobox Château|F9F9F9
+}}
+{{Infobox/Fin}}</includeonly><noinclude>{{Doc modèle|parser=oui}}</noinclude>

@@ -1,0 +1,4 @@
+<includeonly>{{#if:{{{2|}}} | 
+<th scope=row {{#if:{{{4|}}}|width{{=}}"{{{4|}}}%"|}}>{{#if:{{{1|}}}|{{{1|}}}|}}
+<td {{#if:{{{5|}}}|colspan{{=}}"{{{5|}}}"|}}>{{#if:{{{3|}}}|{{{3|}}}|{{{2|}}}}}
+<tr>}}</includeonly><noinclude>{{Doc modèle}}</noinclude>

@@ -6,55 +6,55 @@
 {{Infobox/Image
  | {{{image|}}}|{{{légende|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Nom local|{{{nom local|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Période ou style|{{{style|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Type|{{{type|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Architecte|{{{architecte|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Début construction|{{{début construction|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Fin construction|{{{fin construction|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Propriétaire initial|{{{propriétaire initial|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Destination initiale|{{{destination initiale|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Propriétaire actuel|{{{propriétaire actuel|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Destination actuelle|{{{destination actuelle|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Protection|{{{classement|}}}
 }}
-{{Infobox/Ligne mixte site web optionnel
+{{Infobox/Ligne mixte site web optionnelle
  | Site Intarnète|{{{site|}}}|
 }}
-{{Infobox/Ligne mixte latitude longitude optionnel
+{{Infobox/Ligne mixte latitude longitude optionnelle
  | Coordonnées|{{{latitude|}}}|{{{longitude|}}}||dms long|||{{{référence|}}}
 }}
 {{Infobox/Ligne mixte
  | [[Liste des pays du monde|Pays]]|{{#ifexist:Modèle:{{{pays|?!?}}}|{{ {{{pays}}} }}|{{{pays|}}}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | {{Non vide|{{{lien région|}}}|Région historique}}|{{{région|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | {{Non vide|{{{lien subdivision|}}}|Subdivision administrative}}|{{{subdivision|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | {{Non vide|{{{lien subdivision2|}}}|Subdivision administrative}}|{{{subdivision2|}}}
 }}
 {{Infobox/Ligne mixte

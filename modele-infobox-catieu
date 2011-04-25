@@ -16,7 +16,7 @@
  | Type|{{{type|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | Architecte|{{{architecte|}}}
+ | Arkitécte|{{{architecte|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Début construction|{{{début construction|}}}
@@ -46,19 +46,19 @@
  | Coordonnées|{{{latitude|}}}|{{{longitude|}}}||dms long|||{{{référence|}}}
 }}
 {{Infobox/Ligne mixte
- | [[Liste des pays du monde|Pays]]|{{#ifexist:Modèle:{{{pays|?!?}}}|{{ {{{pays}}} }}|{{{pays|}}}}}
+ | Poéyis|{{#ifexist:Modèle:{{{pays|?!?}}}|{{ {{{pays}}} }}|{{{pays|}}}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | {{Non vide|{{{lien région|}}}|Région historique}}|{{{région|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | {{Non vide|{{{lien subdivision|}}}|Subdivision administrative}}|{{{subdivision|}}}
+ | {{Non vide|{{{lien subdivision|}}}|Région aménistrative}}|{{{subdivision|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | {{Non vide|{{{lien subdivision2|}}}|Subdivision administrative}}|{{{subdivision2|}}}
+ | {{Non vide|{{{lien subdivision2|}}}|Départémint}}|{{{subdivision2|}}}
 }}
 {{Infobox/Ligne mixte
- | {{Non vide|{{{lien commune|}}}|Commune}}|{{{commune|}}}
+ | {{Non vide|{{{lien commune|}}}|Conmeune}}|{{{commune|}}}
 }}
 {{#if:{{{géolocalisation|}}}|
 {{Infobox/Géolocalisation double

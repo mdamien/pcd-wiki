@@ -1,0 +1,1 @@
+<includeonly><span style="font-family:monospace;font-weight:bold;font-size:small">(<abbr class="abbr" title="Langue : {{{1|{{{2}}}}}}">{{{2}}}</abbr>)</span>{{#if:{{{teske|}}}|&nbsp;{{{{#if:{{{teske|}}}|lang|}}|{{{2}}}|dir={{{dir|}}}|teske={{{teske}}}}}}}</includeonly><noinclude></noinclude>

@@ -30,7 +30,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[eu:Ikatz]]
 [[fa:ذغال‌سنگ]]
 [[fi:Kivihiili]]
-[[fr:Houille]]
+[[fr:Charbon]]
 [[fur:Cjarbon]]
 [[gd:Gual]]
 [[gl:Carbón]]

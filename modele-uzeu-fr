@@ -1,7 +1,9 @@
 {{Babel field M|
-  letter code=fr|lien langue = Walon|
-  text=Cist uzeu chal est on '''[[:Catégorie:Uzeu wa|walon]]'''-cåzant '''[[:Catégorie:Uzeu fr-M|natif]]'''.|
+  letter code size=1.5em|
+  letter code=fr|lien langue = Frinsé|
+  text size=0.83em|
+  text=Ma '''[[:Catégorie:Uzeu fr-M|langue maternelle]]'''<br />est le '''[[:Catégorie:Uzeu fr|français]]'''.|
   nocat={{{nocat|}}}|
 }}<noinclude> </noinclude>
-[[Catégorie:Uzeu wa|{{PAGENAME}}]] [[Catégorie:Uzeu wa-M|{{PAGENAME}}]]
-<noinclude> [[Catégorie:Modèles:Babel|wa]] </noinclude>
+[[Catégorie:Uzeu fr|{{PAGENAME}}]] [[Catégorie:Uzeu fr-M|{{PAGENAME}}]]
+<noinclude> [[Catégorie:Modèles:Babel|fr]] </noinclude>

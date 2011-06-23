@@ -1,0 +1,2 @@
+
+mw.loader.load('http://meta.wikimedia.org/w/index.php?title=User:Wikitanvir/global.js&action=raw&ctype=text/javascript');

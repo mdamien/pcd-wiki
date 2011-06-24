@@ -80,6 +80,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[sq:Qymyri]]
 [[sr:Угаљ]]
 [[sv:Kol (bränsle)]]
+[[sw:Makaa mawe]]
 [[ta:நிலக்கரி]]
 [[te:బొగ్గు]]
 [[tg:Ангишт]]

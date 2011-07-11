@@ -1,4 +1,17 @@
 <div dir=ltr>
 {{Babel|{{CONTENTLANGUAGE}}-0|de|en-3}}
 {{Bot|Pixelfire|modus=automatic|task=Interwikis|site=de}}
+
+{| style="background-color: transparent; text-align: center;" align="center" class="plainlinks"
+| style="text-align: center; font-size: 2em; line-height:normal;" | '''EMERGENCY PIXELBOT SHUT-OFF BUTTON'''
+|-
+| style="text-align: center; font-size: 100%; padding:0.2em;" |
+[[File:Crystal Clear action exit.svg|128px|frameless|link=http://lh-i-srv-200.lan.lindnerhof.info:81/shutdownbot.php?lang={{CONTENTLANGUAGE}}|SHUT IT OFF!]]
+|-
+| Use this button if the bot is malfunctioning.
+|-
+| The Bot will shut down '''GLOBALLY''' and the operator will be informed.
+|-
+| <big>'''PLEASE DON'T USE IT JUST FOR FUN!'''</big>
+|}
 </div>

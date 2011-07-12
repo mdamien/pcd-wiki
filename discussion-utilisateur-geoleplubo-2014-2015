@@ -75,3 +75,6 @@ Thank you! [[Utilisateur:Hugo.arg|Hugo.arg]] 2 ed Févrié 2011 à 21:01 (UTC)
 
 Bonjour,
 Si tu veux je peux t'aider à mettre en place les infoboxes de fr.wiki qui offriront un raffraichissement à cette wikipedia, Qu'en pense tu ? [[Utilisateur:Otourly|Otourly]] 1 ed Juillet 2011 à 09:52 (UTC)
+: D'accord alors on va procéder par étapes. Tout d'abord il nous faut les modèles [[:fr:Modèle:Infobox/Début]] & [[:fr:Modèle:Infobox/Fin]]. Tu peux les importer grâce à cette page : [[Spécial:Import]]. Tu peux les traduire ça n'a pas d'impacts. 
+: Il te faudra également inclure par copier coller ceci : [[:vec:Utente:Otourly/vector.css]] dans [[Mediawiki:common.css]] c'est pour l'aspect graphique de la future nouvelle infobox. Là tu peux traduire les commentaires. D'ailleurs comment appelle-t-on les infobox en pcd ? 
+: C'est un début, une fois que ce sera fait en poursuivra sur d'autres modèles. [[Utilisateur:Otourly|Otourly]] 12 ed Juillet 2011 à 16:37 (UTC)

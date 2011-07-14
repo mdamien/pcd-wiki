@@ -1,0 +1,148 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nom|{{PAGENAME}}}}}|ddffdd|entete map
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|}}|280
+}}<!---------------- // Début des paramètres sur le logo et le blason // ----------------->
+{{#if:{{{blason|}}}{{{logo|}}} |
+{{!}} colspan="2" align="center" {{!}} {{ #switch: {{{blason|}}}{{{logo|}}}
+| {{{blason|}}} =[[Fichier:{{{blason}}}{{!}}{{#if:{{{blason-taille|}}}|{{{blason-taille}}}|54}}px{{!}}Blason]]{{#if:{{{blason-desc|}}}|<br /><small>[[{{{blason-desc}}}|Détail]]</small>|}}
+| {{{logo|}}} =[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}
+| {{{blason|}}}{{{logo|}}} =<table style="text-align:center;background-color:#f9f9f9;width:100%"><tr><td style="width:50%">[[Fichier:{{{blason}}}{{!}}{{#if:{{{blason-taille|}}}|{{{blason-taille}}}|54}}px{{!}}Blason]]{{#if:{{{blason-desc|}}}|<br/><small>[[{{{blason-desc}}}|Détail]]</small>|}}</td><td>[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}</td></tr></table>|}}
+{{!-}}
+}}<!----------------- // Fin des paramètres sur le logo et le blason // ------------------>
+{{Infobox/Sous-titre
+ | Administration|ddffdd
+}}
+{{Infobox/Ligne mixte optionnel
+ | Nom italien|{{{nomItalien|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Latin|Origine latine]]|{{{origLatin|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Nom français|{{{nomFrançais|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Nom allemand|{{{nomAllemand|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Grec (langue)|Nom grec]]|{{{nomGrec|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Ladin|Nom ladin]]|{{{nomLadin|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Arbërisht|Nom arbërisht]]|{{{nomArberisht|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Francoprovençal|Nom francoprovençal]]|{{{nomFrancoprovençal|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Sarde|Nom sarde]]|{{{nomSarde|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Frioulan|Nom frioulan]]|{{{nomFrioulan|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Sicilien|Nom sicilien]]|{{{nomSicilien|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Occitan|Nom occitan]]|{{{nomOccitan|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Slovène|Nom slovène]]|{{{nomSlovèn|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Calabrais|Nom calabrais]]|{{{nomCalabrais|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Piémontais|Nom piémontais]]|{{{nomPiémontais|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Alémanique|Nom alémanique]]|{{{nomAlémanique|}}}
+}}
+{{Infobox/Ligne mixte
+ | [[Liste des pays du monde|Pays]]|{{Italie}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Région d'Italie|Région]]|{{{rég|}}}|{{IT-{{{rég|}}}}}&#160;
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Liste des provinces italiennes|Province]]|{{{prov|}}}|{{IT-{{{prov|}}}}}&#160;
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Code ISTAT]]|{{{istat|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Code postal]]|{{{cp|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Préfixe tel.|{{{tel|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | {{#ifeq:{{{rég|}}}|VAO|[[Syndic]]|[[Maire]]}}|{{{maire|}}}|{{{maire|}}} {{#if:{{{mandat|}}}|<small>({{{mandat|}}})</small>}}
+}}
+{{Infobox/Ligne mixte site web optionnel
+ | Site internet|{{{site_web|}}}|
+}}
+{{Infobox/Sous-titre
+ | Culture et démographie|ddffdd
+}}
+{{Infobox/Ligne mixte
+ | [[Recensement de la population|Population]]|{{formatnum:{{{pop|}}}}} hab. {{#if:{{{date-pop|}}}|<small>({{{date-pop|}}})</small>}}
+}}
+{{Infobox/Ligne mixte densité optionnel
+ | [[Densité de population|Densité]]|{{{km²|}}}|{{{pop|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Gentilé]]|{{{Gentilé|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | [[Saint patron]]|{{{Patrons|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Fête patronale|{{{Fête_patronale|}}}
+}}
+{{Infobox/Sous-titre
+ | Géographie|ddffdd
+}}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+ | Coordonnées|{{{latitude|}}}|{{{longitude|}}}||dms long|||{{{référence|}}}|title=oui
+}}
+{{#if:{{{alt mini|}}} |
+{{#ifeq:{{{alt mini|}}} |{{#if:{{{alt maxi|}}} |{{{alt maxi}}} |{{{alt mini}}} }} |
+! scope=row {{!}} [[Altitude]]
+{{!}} {{{alt mini}}} m |
+! scope=row {{!}} [[Altitude]]s
+{{!}} {{{alt|}}} m (min.{{{alt mini}}}— max.{{{alt maxi}}} m)
+}}
+{{!-}}
+}}
+{{Infobox/Ligne mixte
+ | [[Superficie]]|{{formatnum:{{{km²|}}}}} km²
+}}
+{{Infobox/Ligne mixte optionnel
+ | Code cadastral|{{{code_cadastre|}}}
+}}
+{{Infobox/Géolocalisation multiple
+ | géolocalisation = Italie/Italie
+ | latitude = {{{latitude|}}}
+ | longitude = {{{longitude|}}}
+ | toponyme = {{{nom|}}}
+ | point = City
+ | parampoint1 = 14
+ | parampoint2 = ne
+ | largeur1 = 280
+ | type1 = relief
+ | alt1 = Voir la carte topographique
+ | info1 = non
+ | largeur2 = 280
+ | type2 = 
+ | alt2 = Voir la carte administrative
+ | info2 = non
+}}
+{{Infobox/Fin}}<!--
+les mauvais paramétrages
+-->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Commune géolocalisable sans coordonnées paramétrées|Italie]]}}}}}}}}</includeonly><noinclude>{{Doc modèle|parser=oui}}</noinclude>

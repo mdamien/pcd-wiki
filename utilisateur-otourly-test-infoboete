@@ -15,76 +15,76 @@
 {{Infobox/Sous-titre
  | Administration|ddffdd
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Nom italien|{{{nomItalien|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Latin|Origine latine]]|{{{origLatin|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Nom français|{{{nomFrançais|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Nom allemand|{{{nomAllemand|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Grec (langue)|Nom grec]]|{{{nomGrec|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Ladin|Nom ladin]]|{{{nomLadin|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Arbërisht|Nom arbërisht]]|{{{nomArberisht|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Francoprovençal|Nom francoprovençal]]|{{{nomFrancoprovençal|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Sarde|Nom sarde]]|{{{nomSarde|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Frioulan|Nom frioulan]]|{{{nomFrioulan|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Sicilien|Nom sicilien]]|{{{nomSicilien|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Occitan|Nom occitan]]|{{{nomOccitan|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Slovène|Nom slovène]]|{{{nomSlovèn|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Calabrais|Nom calabrais]]|{{{nomCalabrais|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Piémontais|Nom piémontais]]|{{{nomPiémontais|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Alémanique|Nom alémanique]]|{{{nomAlémanique|}}}
 }}
 {{Infobox/Ligne mixte
  | [[Liste des pays du monde|Pays]]|{{Italie}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Région d'Italie|Région]]|{{{rég|}}}|{{IT-{{{rég|}}}}}&#160;
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Liste des provinces italiennes|Province]]|{{{prov|}}}|{{IT-{{{prov|}}}}}&#160;
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Code ISTAT]]|{{{istat|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Code postal]]|{{{cp|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Préfixe tel.|{{{tel|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | {{#ifeq:{{{rég|}}}|VAO|[[Syndic]]|[[Maire]]}}|{{{maire|}}}|{{{maire|}}} {{#if:{{{mandat|}}}|<small>({{{mandat|}}})</small>}}
 }}
-{{Infobox/Ligne mixte site web optionnel
+{{Infobox/Ligne mixte site web optionnelle
  | Site internet|{{{site_web|}}}|
 }}
 {{Infobox/Sous-titre
@@ -93,16 +93,16 @@
 {{Infobox/Ligne mixte
  | [[Recensement de la population|Population]]|{{formatnum:{{{pop|}}}}} hab. {{#if:{{{date-pop|}}}|<small>({{{date-pop|}}})</small>}}
 }}
-{{Infobox/Ligne mixte densité optionnel
+{{Infobox/Ligne mixte densité optionnelle
  | [[Densité de population|Densité]]|{{{km²|}}}|{{{pop|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Gentilé]]|{{{Gentilé|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | [[Saint patron]]|{{{Patrons|}}}
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Fête patronale|{{{Fête_patronale|}}}
 }}
 {{Infobox/Sous-titre
@@ -123,7 +123,7 @@
 {{Infobox/Ligne mixte
  | [[Superficie]]|{{formatnum:{{{km²|}}}}} km²
 }}
-{{Infobox/Ligne mixte optionnel
+{{Infobox/Ligne mixte optionnelle
  | Code cadastral|{{{code_cadastre|}}}
 }}
 {{Infobox/Géolocalisation multiple

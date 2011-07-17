@@ -1,0 +1,4 @@
+<includeonly>{{#if:{{{3|}}} |{{#if:{{{2|}}} | 
+<th scope=row style="vertical-align: bottom" {{#if:{{{4|}}}|width{{=}}"{{{4|}}}%"|}}>{{#if:{{{1|}}}|{{{1|}}}|Densité}}
+<td {{#if:{{{5|}}}|colspan{{=}}"{{{5|}}}"|}}>{{#if: {{{2|}}} {{{3|}}}|{{formatnum:{{#ifexpr:{{#expr:{{{3|}}}/{{{2|}}}}}<1|{{#expr: ({{{3|}}}/{{{2|}}}) round 2}}|{{#ifexpr:{{#expr:{{{3|}}}/{{{2|}}}}}<10|{{#expr: ({{{3|}}}/{{{2|}}}) round 1}}|{{#expr: ({{{3|}}}/{{{2|}}}) round 0}}}}}}}} hab./km²}}
+<tr>}}}}</includeonly><noinclude>{{Doc modèle}}</noinclude>

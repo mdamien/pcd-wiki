@@ -8,6 +8,16 @@
 |-
 | {{Uzeu Wikimédia France}}
 |-
+|{{Userbox
+ | border-c = #bbb
+ | id-c     = #fff
+ | id-s     = 12
+ | id-fc    = #003399
+ | info-c   = #f6f6f6
+ | info     = Echl uzeu-lo i participe à '''''Wikimedia Italia'''''.
+ | id       = [[Image:Wikimedia Italia-logo.svg|40px]]
+}}
+|-
 | '''<big>[[Meta:Babel templates|Babel]]</big>'''
 |-
 | {{Uzeu fr}}

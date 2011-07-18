@@ -1,1 +1,176 @@
-importStylesheetURI('http://vec.wikipedia.org/w/index.php?title=User:Otourly/vector.css?action=raw&ctype=text/css');
+/* INFOBOX */
+ 
+/* Style commun aux infobox ; utiliser : 
+   * class="infobox" dans l'en-tête.
+   * class="infoboximage" pour l'image et sa description
+   * class="infoboxsoustitre" pour le sous-titre.
+   Voir [[Aide:Infobox]] et [[Projet:InfoBox]]. */
+.infobox {
+ background:#EEE; /* couleur correspondant aux titres / colonne de gauche, th */
+ color:#000;
+ float:right;
+ clear:right;
+ font-size:95%;
+ border-collapse:collapse;
+ margin:0 0 .5em 1em;
+ width:250px;
+} /* monobookocentré debut */
+ 
+.infobox caption {
+ background:#C0C0C0;
+ border-left:1px solid #AAA;
+ border-top:1px solid #AAA;
+ border-right:1px solid #AAA;
+ padding:.2em;
+ margin-left:.57em;
+ font-weight:bolder;
+ text-align:center;
+ color:#FFF;
+ font-size:160%;
+}
+ 
+.infobox th, .infobox td {
+ vertical-align:middle;
+ border:1px solid #AAA;
+ padding:.2em .2em .2em .5em;
+}
+ 
+.infobox td {
+ text-align:center;
+ background:#F9F9F9;
+}
+ 
+.infobox th {
+ font-weight:normal;
+ text-align:left;
+}
+ 
+.infobox .infoboximage { /* emplacement pour les photos et une description */
+ background:#FFF;
+ padding:0;
+ margin-top:0;
+ color:#000;
+ text-align:center;
+}
+ 
+.infobox .infoboxsoustitre { /* sous-titre */
+ color:#000;
+ font-weight:bold;
+ font-size:115%;
+ line-height:2;
+ text-align:center;
+}
+ 
+.infobox dl { clear:both }
+.infobox dt {
+ float:left;
+ clear:left;
+ width:35%;
+}
+.infobox dd { margin-left:40% } /* monobookocentré fin */
+
+/************************************************
+ ***                Infobox V2                ***
+ *** Voir : [[Utilisateur:Antaya/Infobox V2]] ***
+ ************************************************/
+ 
+.infobox_v2 { /* monobookocentré debut */
+ background: #f9f9f9;
+ color: #000;
+ font-size:90%;
+ line-height:1.1em; 
+ float:right;
+ clear:right;
+ margin:0 0 .5em 1em; /* haut droite bas gauche */
+ width:300px;
+ border: 1px solid #aaa;
+ padding: 0.1em;
+}
+ 
+.infobox_v2 th {
+ vertical-align:top;
+ text-align:left;
+}
+ 
+.infobox_v2 .entete {
+ height:45px;
+ vertical-align:middle;
+ text-align:center;
+ font-size:150%; 
+ font-weight:bolder;
+ line-height:1.2em;
+ color:#000
+}
+ 
+.infobox_v2 .media { /* css V2 pour [[Modèle:Son]], etc. */
+height:35px;
+vertical-align:middle;
+text-align:center;
+font-weight:bolder;
+color:#000
+}
+ 
+/* graphiques transparents d'entêtes des infobox V2 */
+.entete.defaut       {}
+ 
+.entete.aerostat         {background: url("http://upload.wikimedia.org/wikipedia/commons/7/7e/Picto_infobox_aerostat.png")               no-repeat top right;}
+.entete.auteur           {background: url("http://upload.wikimedia.org/wikipedia/commons/1/1e/Picto_infobox_auteur.png")                 no-repeat top right;} 
+.entete.bd               {background: url("http://upload.wikimedia.org/wikipedia/commons/2/2c/Picto_infobox_comicballoon.png")           no-repeat top right;}
+.entete.biere            {background: url("http://upload.wikimedia.org/wikipedia/commons/0/04/Picto_infobox_beer.png")                   no-repeat top right;}
+.entete.canada           {background: url("http://upload.wikimedia.org/wikipedia/commons/6/6a/Picto_infobox_Canada.png")                 no-repeat top right;}
+.entete.cardinal         {background: url("http://upload.wikimedia.org/wikipedia/commons/0/03/Picto_infobox_cardinal.png")               no-repeat  top right;}
+.entete.chateau          {background: url("http://upload.wikimedia.org/wikipedia/commons/5/5c/Picto_infobox_chateau.png")                no-repeat top right;}
+.entete.cinema           {background: url("http://upload.wikimedia.org/wikipedia/commons/e/ea/Picto_infobox_cinema.png")                 no-repeat top right;}
+.entete.communication    {background: url("http://upload.wikimedia.org/wikipedia/commons/a/a2/Picto_infobox_antenna.png")                no-repeat top right;}
+.entete.disney           {background: url("http://upload.wikimedia.org/wikipedia/commons/d/d3/Picto_infobox_Disney.png")          no-repeat top right;}
+.entete.egypte-antique   {background: url("http://upload.wikimedia.org/wikipedia/commons/c/cc/Picto_infobox_ancient_Egypt.png")          no-repeat top right;}
+.entete.eveque           {background: url("http://upload.wikimedia.org/wikipedia/commons/b/b3/Picto_infobox_bishop.png")                 no-repeat  top right;}
+.entete.football         {background: url("http://upload.wikimedia.org/wikipedia/commons/f/f8/Infobox_Football_pictogram.png") no-repeat top right;}
+.entete.grappe           {background: url("http://upload.wikimedia.org/wikipedia/commons/6/66/Picto_info_grape.png")                   no-repeat top right;}   
+.entete.helicoptere      {background: url("http://upload.wikimedia.org/wikipedia/commons/f/fa/Picto_infobox_helicopter.png")             no-repeat top right;}
+.entete.hockey           {background: url("http://upload.wikimedia.org/wikipedia/commons/e/ee/Picto_Infobox_Ice_hockey.png")             no-repeat top right;}
+.entete.humain           {background: url("http://upload.wikimedia.org/wikipedia/commons/8/82/Picto_infobox_manwoman.png")               no-repeat top right;}
+.entete.informatique     {background: url("http://upload.wikimedia.org/wikipedia/commons/a/ae/Picto-infoboxinfo.png")                                no-repeat top right;}
+.entete.israel-judaisme  {background: url("http://upload.wikimedia.org/wikipedia/commons/a/a5/Picto_infobox_israel-judaisme.png")        no-repeat top right;}
+.entete.jeu              {background: url("http://upload.wikimedia.org/wikipedia/commons/9/90/Picto_infobox_Game.png")                   no-repeat top right;}
+.entete.jeu-role         {background: url("http://upload.wikimedia.org/wikipedia/commons/d/d8/Picto_infobox_Jeu_de_rôle.png")            no-repeat top right;}
+.entete.jeuvideo         {background: url("http://upload.wikimedia.org/wikipedia/commons/2/2d/Picto_infobox_gamepad.png")                no-repeat bottom right;}
+.entete.macintosh        {background: url("http://upload.wikimedia.org/wikipedia/commons/2/20/Picto_infobox_Macintosh.png")              no-repeat top right;}
+.entete.map              {background: url("http://upload.wikimedia.org/wikipedia/commons/7/7a/Picto_infobox_map.png")                    no-repeat top right;}
+.entete.medecine              {background: url("http://upload.wikimedia.org/wikipedia/commons/2/23/Picto_infobox_med.png")                    no-repeat top right;}
+.entete.mets {background: url("http://upload.wikimedia.org/wikipedia/commons/a/aa/Picto_infobox_mets.png") no-repeat top right;}
+.entete.montreal-metro   {background: url("http://upload.wikimedia.org/wikipedia/fr/b/ba/Picto_infobox_Mtl_metro.png")                   no-repeat top right;}
+.entete.montreal-train   {background: url("http://upload.wikimedia.org/wikipedia/fr/9/99/Picto_infobox_Mtl_train.png")                   no-repeat top right;}
+.entete.moteur-avion     {background: url("http://upload.wikimedia.org/wikipedia/commons/9/9c/Picto_Infobox_moteur_d%27avion.png")       no-repeat top right;}
+.entete.musique          {background: url("http://upload.wikimedia.org/wikipedia/commons/6/60/Picto_infobox_music.png")                  no-repeat top right;}
+.entete.papyrus          {background: url("http://upload.wikimedia.org/wikipedia/commons/1/1b/Picto_infobox_papyrus.png")                no-repeat top right;}
+.entete.paralympique     {background: url("http://upload.wikimedia.org/wikipedia/commons/5/5e/Picto_infobox_Paralympics.png")            no-repeat top right;}
+.entete.persofiction     {background: url("http://upload.wikimedia.org/wikipedia/commons/3/37/Picto_infobox_masks.png")                  no-repeat top right;}
+.entete.personne        {background: url("http://upload.wikimedia.org/wikipedia/commons/4/48/Picto_infobox_character.png")              no-repeat top right;}
+.entete.planeur          {background: url("http://upload.wikimedia.org/wikipedia/commons/5/54/Picto_infobox_planeur.png")                no-repeat top right;}
+.entete.presse           {background: url("http://upload.wikimedia.org/wikipedia/commons/2/23/Picto_infobox_journal.png")                no-repeat top right;}
+.entete.projet           {background: url("http://upload.wikimedia.org/wikipedia/commons/c/cb/Picto_infobox_tools.png")                  no-repeat top right;}
+.entete.quebec           {background: url("http://upload.wikimedia.org/wikipedia/commons/2/21/Picto_infobox_Quebec.png")                 no-repeat top right;}
+.entete.recherche        {background: url("http://upload.wikimedia.org/wikipedia/commons/c/c1/Picto_infobox_detective.png")              no-repeat top right;}
+.entete.rome-antique     {background: url("http://upload.wikimedia.org/wikipedia/commons/2/2e/Picto_infobox_Roman_millitary_banner.png") no-repeat top right;}
+.entete.science-fiction  {background: url("http://upload.wikimedia.org/wikipedia/commons/e/ed/Picto_infobox_fliyingsaucer.png")          no-repeat top right;}
+.entete.sport            {background: url("http://upload.wikimedia.org/wikipedia/commons/8/8e/Picto_infobox_Olympic.png")                no-repeat top right;}
+.entete.sport-automobile {background: url("http://upload.wikimedia.org/wikipedia/commons/a/af/Picto_infobox_sport_auto.png")             no-repeat top right;}
+.entete.television       {background: url("http://upload.wikimedia.org/wikipedia/commons/a/a6/Picto_infobox_TV-T%26PC.png")                                     no-repeat top right;}
+.entete.timbre           {background: url("http://upload.wikimedia.org/wikipedia/commons/b/b3/Picto_infobox_Stamps.png")                 no-repeat top right;}
+.entete.train            {background: url("http://upload.wikimedia.org/wikipedia/commons/4/44/Picto_infobox_train.png")                  no-repeat top right;}
+.entete.union-europeenne {background: url("http://upload.wikimedia.org/wikipedia/commons/c/c0/Picto_Infobox_Europe.png")                 no-repeat top right;}
+.entete.universite       {background: url("http://upload.wikimedia.org/wikipedia/commons/4/42/Picto_infobox_book.png")                   no-repeat top right;}
+ 
+.media.audio            {background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Gnome-speakernotes.png/35px-Gnome-speakernotes.png") no-repeat top left;} 
+.media.video            {background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tango-video-x-generic.png/35px-Tango-video-x-generic.png") no-repeat top left;}
+ 
+/* {{Infobox/Géolocalisation double}}, {{Infobox/Géolocalisation multiple}} et {{Géolocdual}} */
+.img_toogle ul {
+     list-style-type:none !important;
+     list-style-image:none !important;
+     list-style-position:outside !important;
+     text-align:center;
+}
+ 
+/* Fin de la phase de test Infobox V2 */ /* monobookocentré fin */

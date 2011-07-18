@@ -9,6 +9,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[af:Steenkool]]
 [[an:Carbón]]
 [[ar:فحم حجري]]
+[[as:কয়লা]]
 [[ay:K'illima]]
 [[az:Daş kömür]]
 [[be:Вугаль]]

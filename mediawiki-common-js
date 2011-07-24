@@ -1,6 +1,67 @@
 /* Tout JavaScript ici sera chargé avec chaque page accédée par n’importe quel utilisateur. */
 
 /**
+ * getElementsByClass : rechercher les éléments de la page dont le paramètre "class" est celui recherché
+ */
+function getElementsByClass(searchClass, node, tag) {
+  if (node == null) node = document;
+  if (tag == null) tag = '*';
+  return getElementsByClassName(node, tag, searchClass);
+}
+
+/**
+ * Diverses fonctions manipulant les classes
+ * Utilise des expressions régulières et un cache pour de meilleures perfs
+ * isClass et whichClass depuis http://fr.wikibooks.org/w/index.php?title=MediaWiki:Common.js&oldid=140211
+ * hasClass, addClass, removeClass et eregReplace depuis http://drupal.org.in/doc/misc/drupal.js.source.html
+ * surveiller l'implémentation de .classList http://www.w3.org/TR/2008/WD-html5-diff-20080122/#htmlelement-extensions
+ */
+function isClass(element, classe) {
+    return hasClass(element, classe);
+}
+ 
+function whichClass(element, classes) {
+    var s=" "+element.className+" ";
+    for(var i=0;i<classes.length;i++)
+        if (s.indexOf(" "+classes[i]+" ")>=0) return i;
+    return -1;
+}
+ 
+function hasClass(node, className) {
+    var haystack = node.className;
+    if(!haystack) return false;
+    if (className === haystack) {
+        return true;
+    }
+    return (" " + haystack + " ").indexOf(" " + className + " ") > -1;
+}
+ 
+function addClass(node, className) {
+    if (hasClass(node, className)) {
+        return false;
+    }
+    var cache = node.className;
+    if (cache) {
+        node.className = cache + ' ' + className;
+    } else {
+        node.className = className;
+    }
+    return true;
+}
+ 
+function removeClass(node, className) {
+  if (!hasClass(node, className)) {
+    return false;
+  }
+  node.className = eregReplace('(^|\\s+)'+ className +'($|\\s+)', ' ', node.className);
+  return true;
+}
+ 
+function eregReplace(search, replace, subject) {
+    return subject.replace(new RegExp(search,'g'), replace);
+}
+
+/**
  * Script pour alterner entre plusieurs cartes de géolocalisation
  */
  

@@ -1,0 +1,21 @@
+<includeonly>{{Géolocalisation/Projection équirectangulaire
+|{{{1}}}|{{{2}}}|{{{3}}}
+|image={{#switch:{{{2|}}}
+|relief=990x608-Carte-Région-Nord-Pas-de-Calais-R.jpg
+|#default=Nord-Pas-de-Calais region location map.jpg
+}}
+|iwidth=1260
+|iheight=774
+|name=Nord-Pas-Caleus
+|zone=région française
+|genre=ms
+|geo=-6674
+|top=51.14
+|bottom=49.9
+|left=1.43
+|right=4.36
+}}</includeonly><noinclude>
+{{/Documentation}}
+[[de:Vorlage:Positionskarte Frankreich Nord-Pas-de-Calais]]
+[[fr:Modèle:Géolocalisation/Nord-Pas-de-Calais]]
+</noinclude>

@@ -46,7 +46,6 @@
 {{Infobox/Ligne mixte latitude longitude optionnelle
  | Coordonnées|{{{latitude|}}}|{{{longitude|}}}||dms long|||{{{référence|}}}|title=oui
 }}
-|}}
 {{#if: {{{superficie|}}}|
 ! Supérfichie
 {{!}} {{{superficie}}}

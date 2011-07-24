@@ -57,33 +57,33 @@
 {{#if: {{{altitude m|}}}|{{Conversion aviation|{{{altitude m}}}|m}}}}}}
 {{!-}}
 }}
-{{#if:{{IsNumeric|{{{latitude|}}}}}|{{#if:{{IsNumeric|{{{longitude|}}}}}|
+{{#if:{{{latitude|}}}|{{#if:{{{longitude|}}}|
   {{#ifexist:Modèle:Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|
     {{!}} colspan=2 align=center {{!}} {{#if:{{#titleparts:{{{géolocalisation|}}}|1|2}}|<div class=img_toogle>
 <div class=geobox>
-<small>Géolocalisation sur la carte {{Genre|du|{{#titleparts:{{{géolocalisation|}}}|1|2}}}}</small>
-{{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|image}}|280px|(Voir situation sur la carte {{du?|{{#titleparts:{{{géolocalisation|}}}|1|2}}}}{{#titleparts:{{{géolocalisation|}}}|1|2}})]]
+&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|name}}]]</small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|image}}|250px|(Voir situation sur carte : {{#titleparts:{{{géolocalisation|}}}|1|2}})]]
 {{G|{{#titleparts:{{{géolocalisation|}}}|1|2}}
 |{{Coordonnées/dms2dec|{{{latitude|}}}}}
 |{{Coordonnées/dms2dec|{{{longitude|}}}}}
-|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}}
+|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}} 
 |Localité sans toponyme}}
 {{Fin de carte}}
 </div><div class=geobox>
-<small>Géolocalisation sur la carte {{Genre|du|{{#titleparts:{{{géolocalisation|}}}|1|1}}}}</small>
-{{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|image}}|280px|<small>(Voir situation sur la carte {{du?|{{#titleparts:{{{géolocalisation|}}}|1|1}}}}{{#titleparts:{{{géolocalisation|}}}|1|1}})]]
+&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|name}}]] </small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|image}}|250px|(Voir situation sur carte : {{#titleparts:{{{géolocalisation|}}}|1|1}})]]
 {{G|{{#titleparts:{{{géolocalisation|}}}|1|1}}
 |{{Coordonnées/dms2dec|{{{latitude|}}}}}
 |{{Coordonnées/dms2dec|{{{longitude|}}}}}
-|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}}
+|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}} 
 |Localité sans toponyme}}
 {{Fin de carte}}
-</div></div>|<small>Géolocalisation sur la carte {{Genre|du|{{{géolocalisation}}}}}</small>
-{{Début de carte}}[[Fichier:{{Géolocalisation/{{{géolocalisation}}}|image}}|280px|Carte {{du?|{{{géolocalisation}}}}}{{{géolocalisation}}}]]
+</div></div>|&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{{géolocalisation}}}|name}}]] </small>
+{{Début de carte}}[[Fichier:{{Géolocalisation/{{{géolocalisation}}}|image}}|250px]]
 {{G|{{{géolocalisation}}}
 |{{Coordonnées/dms2dec|{{{latitude}}}}}
 |{{Coordonnées/dms2dec|{{{longitude}}}}}
-|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}}
+|{{#if:{{NAMESPACE}}||{{{nom|{{PAGENAME}}}}}}} 
 |Localité sans toponyme}}
 {{Fin de carte}}
     }}

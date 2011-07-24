@@ -170,7 +170,35 @@ color:#000
      list-style-type:none !important;
      list-style-image:none !important;
      list-style-position:outside !important;
-     text-align:center;
+     text-align:center;/* Géolocalisation dynamique */
+.NavContent .img_toogle {
+zoom: 1; /* be kind to IE7 */
+clear: both;  /* be kind to IE7 */
+}
+.img_toogle, .img_toogle * {
+margin: 0 !important;
+padding: 0 !important;
+}
+.img_toogle .a_toogle {
+display: block;
+text-align: center !important;
+font-size: 0.95em;
+}
+.img_toogle .geobox {
+position: relative;
+}
+.img_toogle .geobox +.geobox {
+border-top: 5px solid #aaa;
+}
+.img_toogle .geopoint {
+position: absolute;
+width: 5px;
+height: 5px;
+font-size: 1px;
+border: 1px solid #000;
+background:#F00;
+}
+ 
 }
  
 /* Fin de la phase de test Infobox V2 */ /* monobookocentré fin */
@@ -212,4 +240,33 @@ vertical-align: middle;
    padding: 5px;
    margin-top: 1em;
    clear: both;
+}
+
+/* Géolocalisation dynamique */
+.NavContent .img_toogle {
+zoom: 1; /* be kind to IE7 */
+clear: both;  /* be kind to IE7 */
+}
+.img_toogle, .img_toogle * {
+margin: 0 !important;
+padding: 0 !important;
+}
+.img_toogle .a_toogle {
+display: block;
+text-align: center !important;
+font-size: 0.95em;
+}
+.img_toogle .geobox {
+position: relative;
+}
+.img_toogle .geobox +.geobox {
+border-top: 5px solid #aaa;
+}
+.img_toogle .geopoint {
+position: absolute;
+width: 5px;
+height: 5px;
+font-size: 1px;
+border: 1px solid #000;
+background:#F00;
 }

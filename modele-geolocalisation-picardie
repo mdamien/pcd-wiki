@@ -1,0 +1,19 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-(50.40))*-62.5}} 
+|x={{#expr: ({{{3}}}-(1.40))*35.08771}}
+|image={{#switch: {{{2|}}}
+|relief=728x599-Carte-Région-Picardie-R1.jpg
+|#default=Picardie.svg
+}}
+|projection=Projection équirectangulaire
+|top=50.40
+|bottom=48.80
+|left=1.40
+|right=4.25
+|iwidth=1658
+|iheight=1365
+|name=Picardie
+|zone=région française
+|genre=fs
+|geo=-6676
+}}</includeonly>

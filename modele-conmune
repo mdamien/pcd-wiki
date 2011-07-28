@@ -77,9 +77,9 @@ __NOTOC__
  | Populachon sins<br />doubes contes
  | {{formatnum: {{{sans}}}}} gins <br /><small>({{{date-sans}}})</small>
 }}
-{{Infobox/Ligne mixte densité optionnelle
+{{Infobox/Ligne mixte
  | Dinchité
- | {{{km²|}}}|{{{sans|}}}
+ | {{formatnum: {{{dens}}}}} gins/km²
 }}
 |-
 {{#if: {{{unité urbaine|}}} | 

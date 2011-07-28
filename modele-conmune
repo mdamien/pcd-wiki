@@ -6,8 +6,10 @@ __NOTOC__
 <!-- ne pas déplacer ce qui suit, et surtout pas en dehors du < noinclude > ... < noinclude > -->
 
 <!-- fin de la zone à ne pas déplacer -->
-</noinclude>{| class="infobox_v2" border="1" align="right" width="300" style="background-color: #f3fff3;text-align: center"
-| style="background-color: #ddffdd; color:black;font-size:larger;" colspan="2" class="entete" | '''{{{nomcommune}}}'''
+</noinclude>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nomcommune|{{PAGENAME}}}}}|dfd|entete map
+}}
 |- valign="top"
 {{#if:{{{armoiries|}}}|
 {{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}}

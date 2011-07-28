@@ -92,7 +92,7 @@ __NOTOC__
 |-
 {{Infobox/Ligne mixte
  | gintilé
- | {{{nomhab}}}}}
+ | {{{nomhab}}}
 }}
 {{#if:{{{siteweb|}}} | 
 ! scope=row {{!}} [[Site Web]]

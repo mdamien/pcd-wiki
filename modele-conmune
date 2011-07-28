@@ -90,10 +90,10 @@ __NOTOC__
 ! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Aire urbaine
 {{!}} style="background-color: #f3fff3;" {{!}} {{{aire urbaine}}} gins}} 
 |-
-{{#if: {{{nomhab|}}} | 
-! scope=row style="background-color: #f3fff3;text-align: center" {{!}} gintilé
-{{!}} style="background-color: #f3fff3;" {{!}}  {{{nomhab}}}}}
-|-
+{{Infobox/Ligne mixte
+ | gintilé
+ | {{{nomhab}}}}}
+}}
 {{#if:{{{siteweb|}}} | 
 ! scope=row {{!}} [[Site Web]]
 {{!}} <span class="plainlinks">{{{siteweb}}}</span>

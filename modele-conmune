@@ -20,10 +20,10 @@ __NOTOC__
 | {{{armoiries|}}}{{{logo|}}} =<table style="text-align:center;background-color:#f9f9f9;width:100%"><tr><td style="width:50%">[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}</td><td>[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}</td></tr></table>|}}
 {{!-}}
 }}
-|-
-! scope=row style="background-color: #f3fff3;text-align: center" valign="middle"| Poéis
-| style="background-color: #f3fff3;" | <div style="float: right; padding: 0.2em 0.2em 0.2em 0.1em">[[Image:Flag of France.svg|20px|drapeau de la France]]</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Franche]]<!-- test pour aligner le drapeau à droite et le nom du pays au centre, impossible avec le modèle {{{FRA}}} -->
-|-
+{{Infobox/Ligne mixte optionnel
+ | Poéis
+ | [[Image:Flag of France.svg|20px|drapeau de la France]]</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Franche]]<!-- test pour aligner le drapeau à droite et le nom du pays au centre, impossible avec le modèle {{{FRA}}} -->
+}}
 {{Infobox/Ligne mixte optionnel
  | Région
  | {{{région|}}}
@@ -63,7 +63,7 @@ __NOTOC__
  | Coordonnées<br />jéografiques|{{{latitude|}}}|{{{longitude|}}}|city_region:FR|dms long|||{{{référence|}}}|title=oui
 }}
 {{Infobox/Ligne mixte
- | [[Altitude]]s
+ | Altitudes
  | moyenne : {{{alt moy}}}<br />minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}
 }}
 {{Infobox/Ligne mixte

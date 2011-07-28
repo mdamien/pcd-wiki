@@ -6,8 +6,8 @@ __NOTOC__
 <!-- ne pas déplacer ce qui suit, et surtout pas en dehors du < noinclude > ... < noinclude > -->
 
 <!-- fin de la zone à ne pas déplacer -->
-</noinclude>{| class="infobox" border="1" align="right" width="300" style="background-color: #f3fff3;text-align: center"
-| style="background-color: #ddffdd; color:black;font-size:larger;" colspan="2" | '''{{{nomcommune}}}'''
+</noinclude>{| class="infobox_v2" border="1" align="right" width="300" style="background-color: #f3fff3;text-align: center"
+| style="background-color: #ddffdd; color:black;font-size:larger;" colspan="2" class="entete" | '''{{{nomcommune}}}'''
 |- valign="top"
 {{#if:{{{armoiries|}}}|
 {{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}}
@@ -44,8 +44,9 @@ __NOTOC__
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Intarconmunalité
 | style="background-color: #f3fff3;" | {{{intercomm}}}
 |-
-! scope=row style="background-color: #f3fff3;text-align: center" | Coordonnées<br />jéografiques
-| style="background-color: #f3fff3;" | {{#if:{{{latitude|}}} | {{#if:{{{longitude|}}} | {{coord|{{{latitude|}}}|{{{longitude|}}}|type:city_region:FR|format=dms long}} {{coord|{{{latitude|}}}|{{{longitude|}}}|type:city_region:FR|format=dms|display=title}} {{#if:{{{lieu|}}} |<br /><small>{{{lieu}}}</small>}} }} }}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+ | Coordonnées<br />jéografiques|{{{latitude|}}}|{{{longitude|}}}|city_region:FR|dms long|||{{{référence|}}}|title=oui
+}}
 |-
 ! scope=row style="background-color: #f3fff3;text-align: center" valign=top| Altitudes
 | style="background-color: #f3fff3;" | moyenne : {{{alt moy}}}<br />minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}

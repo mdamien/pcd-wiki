@@ -10,14 +10,16 @@ __NOTOC__
 {{Infobox/Titre
  | {{{nomcommune|{{PAGENAME}}}}}|dfd|entete map
 }}
-|- valign="top"
-{{#if:{{{armoiries|}}}|
-{{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}}
-[[Fichier:{{{armoiries}}} {{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]
-{{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détalle]]</small>|}} }}
-|- valign="top"
-{{#if:{{{image|}}}|
-{{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}} {{{image}}} }}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
+}}
+{{#if:{{{armoiries|}}}{{{logo|}}} |
+{{!}} colspan="2" align="center" {{!}} {{#switch:{{{armoiries|}}}{{{logo|}}}
+| {{{armoiries|}}} =[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}
+| {{{logo|}}} =[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br><small>[[{{{logo-desc}}}|Détail]]</small>|}}
+| {{{armoiries|}}}{{{logo|}}} =<table style="text-align:center;background-color:#f9f9f9;width:100%"><tr><td style="width:50%">[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}</td><td>[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}</td></tr></table>|}}
+{{!-}}
+}}
 |-
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="middle"| Poéis
 | style="background-color: #f3fff3;" | <div style="float: right; padding: 0.2em 0.2em 0.2em 0.1em">[[Image:Flag of France.svg|20px|drapeau de la France]]</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Franche]]<!-- test pour aligner le drapeau à droite et le nom du pays au centre, impossible avec le modèle {{{FRA}}} -->
@@ -34,18 +36,25 @@ __NOTOC__
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Canton
 | style="background-color: #f3fff3;" | {{{canton}}}
 |-
-! scope=row style="background-color: #f3fff3;text-align: center" | Code Insee
-| style="background-color: #f3fff3;" | {{{insee}}}
-|-
-! scope=row style="background-color: #f3fff3;text-align: center" | Code postal
-| style="background-color: #f3fff3;" | {{{cp}}}
-|-
-! scope=row style="background-color: #f3fff3;text-align: center" | Mayeu<br />&nbsp; 
-| style="background-color: #f3fff3;" | {{{maire}}}<br />{{{mandat}}}
-|-
-! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Intarconmunalité
-| style="background-color: #f3fff3;" | {{{intercomm}}}
-|-
+{{Infobox/Ligne mixte optionnel
+ | Code insee
+ | {{{insee|}}}
+}}
+{{Infobox/Ligne mixte
+ | Code postal
+ | {{{cp|}}}
+}}
+{{Infobox/Ligne mixte
+ | Mayeu<br />&nbsp;
+ | {{{maire|}}}<br />{{{mandat|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Intarconmunalité
+ | {{{intercomm|}}}
+}}
+{{Infobox/Sous-titre
+ | Jéografie|dfd
+}}
 {{Infobox/Ligne mixte latitude longitude optionnelle
  | Coordonnées<br />jéografiques|{{{latitude|}}}|{{{longitude|}}}|city_region:FR|dms long|||{{{référence|}}}|title=oui
 }}

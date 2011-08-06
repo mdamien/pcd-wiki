@@ -53,7 +53,7 @@ __NOTOC__
  | {{{maire|}}}<br />{{{mandat|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | Intarconmunalité
+ | Intarconmeunalité
  | {{{intercomm|}}}
 }}
 {{Infobox/Sous-titre
@@ -95,11 +95,11 @@ __NOTOC__
  | {{{nomhab}}}
 }}
 {{#if:{{{siteweb|}}} | 
-! scope=row {{!}} [[Site Web]]
+! scope=row {{!}} [[Site intarnète]]
 {{!}} <span class="plainlinks">{{{siteweb}}}</span>
 {{!-}}
 }}
-|- <!--Géolocalisation sur une carte de France métropolitaine-->
+|- <!--Géolocalisachon edseur eune carte d' Franche métropolitaine-->
 {{#ifeq: {{{géoloc}}} | non | |
 {{#if: {{#ifexpr: {{{latitude}}} AND {{{longitude}}} }} | | {{!}}-
 {{!}} colspan="2" border="1" align="left" style="background-color: #ffffff; padding: 1em;" {{!}} {{Fragéoloc|{{{longitude}}}|{{{latitude}}}|desc=Carte de localisation de {{{nomcommune}}}}}

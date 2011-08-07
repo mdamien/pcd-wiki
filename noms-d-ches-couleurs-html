@@ -1,0 +1,61 @@
+Il y o '''16 couleurs''' <ref>[http://www.w3.org/TR/REC-html40/types.html#h-6.5 HTML 4.01 Specification section 6.5 "Colors"]</ref> dins l'  ''Hypertext Markup Language'' (HTML 4.01). 
+
+Toutes chés couleurs ale ont eune valeur comprise inte  '''<big><code>#000000</code></big>'''  pi  '''<big><code>#FFFFFF</code></big>'''   ( cha foait '''16 777 216''' d' couleurs) .
+
+
+
+Chés sèse nombes hexadécimals pour rouche-vèrt-bleu (RVB) i sont:
+
+{| class="wikitable gauche"
+!Couleur
+!Valeur
+!Couleur
+!Valeur
+!Couleur
+!Valeur
+!Couleur
+!Valeur
+|-
+|aqua / cyan <br> (ieu, [[cyan]])
+|style="background:#0FF; color:#000; font-family:monospace;"|#00FFFF
+|green <br> ([[vèrt]])
+|style="background:#008000; color:#FFF; font-family:monospace;"|#008000
+|navy <br> ([[bleu marine]])
+|style="background:#000080; color:#FFF; font-family:monospace;"|#000080
+|silver <br> ([[argint (couleur)|argint]])
+|style="background:#C0C0C0; color:#000; font-family:monospace;"|#C0C0C0
+|-
+|black <br> ([[noèr]])
+|style="background:#000; color:#FFF; font-family:monospace;"|#000000
+|gray <br> ([[gris]])
+|style="background:#808080; color:#FFF; font-family:monospace;"|#808080
+|olive <br> ([[olive (couleur)|olive]])
+|style="background:#808000; color:#FFF; font-family:monospace;"|#808000
+|teal <br> ([[sarçaille (couleur)|sarçaille]])
+|style="background:#008080; color:#fff; font-family:monospace;"|#008080
+|-
+|blue <br> ([[bleu]])
+|style="background:#00F; color:#FFF; font-family:monospace;"|#0000FF
+|lime <br> ([[vèrt chitron]])
+|style="background:#0F0; color:#000; font-family:monospace;"|#00FF00
+|purple <br> ([[violet]])
+|style="background:#660099; color:#FFF; font-family:monospace;"|#800080
+|white <br> ([[blank]])
+|style="background:#FFF; color:#000; font-family:monospace;"|#FFFFFF
+|-
+|fuchsia / magenta <br> ([[fuchsia (couleur)|fuchsia]])
+|style="background:#F0F; color:#000; font-family:monospace;"|#FF00FF
+|maroon <br> ([[marron (couleur)|marron]])
+|style="background:#800000; color:#FFF; font-family:monospace;"|#800000
+|red <br> ([[rouche]])
+|style="background:#F00; color:#FFF; font-family:monospace;"|#FF0000
+|yellow <br> ([[ganne]])
+|style="background:#FF0; color:#000; font-family:monospace;"|#FFFF00
+|}
+
+
+==Notes pi référinches==
+*  code HTML, [http://www.guide-code-html.com/couleurs-standards.php  palette d' couleurs].
+<references/>
+
+[[catégorie:Informatike]]

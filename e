@@ -50,7 +50,7 @@
 [[ja:セイヨウミツバチ]]
 [[la:Apis mellifera]]
 [[lbe:Най]]
-[[lt:Bitė]]
+[[lt:Naminė bitė]]
 [[lv:Eiropas medus bite]]
 [[nds:Westliche Honnigimm]]
 [[nl:Honingbij]]

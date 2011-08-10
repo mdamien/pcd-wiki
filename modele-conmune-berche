@@ -55,7 +55,19 @@
 | {{{arrondissement|(inconnu)}}}
 |-----
 |'''Conmune'''
-| {{{commune|(inconnu)}}}
+| {{{commune| - }}}
+|-----
+|'''Bourqmouéste'''
+| {{{bourgmestre| - }}}
+|-----
+|'''Majorité'''
+| {{{majorite| - }}}
+|-----
+|'''Partis'''
+| {{{partis| - }}}
+|-----
+|'''Nombes'''
+| {{{sieges| - }}}
 |-----
 ! colspan="2" bgcolor="#FFFFBB" align="center" |Jéografie
 |-----
@@ -74,6 +86,9 @@
 |-----
 |'''Code postal'''
 |{{{code-postal|(inconnue)}}}
+|-----
+|'''conmeunes'''
+|{{{communes-fusionnees|(inconnue)}}}
 |-----
 |'''Zone téléfonique'''
 |{{{zone-telephonique|(inconnue)}}}

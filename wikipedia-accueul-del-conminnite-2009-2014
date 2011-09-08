@@ -133,3 +133,15 @@ Thanks! &mdash;&nbsp;[[User:Wikitanvir|Tanvir]]&nbsp;&bull; 31 ed Janvié 2011 �
 Mi éj suis pour l' dminde foaite pèr Otourly conme o ch'wikipédia i sro pu bieu<br/>
 [[Utilisateur:Geoleplubo|Geoleplubo]] 18 ed Juillet 2011 à 21:26 (UTC)
 :J'ai pu faire quelques corrections voir ici : [[Musée d’Picardie]] dès maintenant vous avez les derniers standards dispos de ce qui se fait de mieux en matière d'infobox. Je vous aurais bien mis également concernant le petit lien carte qui s'affiche à coté des coordonnées sur la wikipédia francophone, mais je pense qu'il d'abord en parler discuter ici. En tout cas c'est corrigé pour les infoboxes. [[Utilisateur:Otourly|Otourly]] 24 ed Juillet 2011 à 17:13 (UTC)
+
+== [[User:HiW-Bot|HiW-Bot]] ==
+* Operator                       : [[:de:Benutzer:Hedwig in Washington|Hedwig in Washington]]
+* Automatic or Manually Assisted : automatic
+* Programming Language(s)        : Python (pywikipedia), daily update
+* Function Summary               : Interwiki, Internationalization by removing chaos in Babel-Category so it can be used properly and easy. Double redirects will be added shortly
+* Already has a bot flag (Y/N)   : Yes: 26 Wikis so far, others pending. [http://toolserver.org/~vvv/sulutil.php?user=HiW-Bot see here]
+* Function Details               : just using the standard interwiki.py; parameters: -auto -all - log -catr 
+
+I humbly request bot status on this wiki in order to update Interwiki, and improve Internationalization by removing chaos in Babel so it can be used properly and easy by everyone.
+
+Thank you for consideration! --[[Utilisateur:Hedwig in Washington|Hedwig in Washington]] 8 ed Sétimbe 2011 à 23:43 (UTC)

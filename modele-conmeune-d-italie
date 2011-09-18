@@ -11,9 +11,9 @@
 | {{{logo|}}} =[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}
 | {{{blason|}}}{{{logo|}}} =<table style="text-align:center;background-color:#f9f9f9;width:100%"><tr><td style="width:50%">[[Fichier:{{{blason}}}{{!}}{{#if:{{{blason-taille|}}}|{{{blason-taille}}}|54}}px{{!}}Blason]]{{#if:{{{blason-desc|}}}|<br/><small>[[{{{blason-desc}}}|Détail]]</small>|}}</td><td>[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}</td></tr></table>|}}
 {{!-}}
-}}<!----------------- // Fin des paramètres sur le logo et le blason // ------------------>
+}}<!----------------- // Fin d'chés paramètres dseur ch' logo pi l'blason // ------------------>
 {{Infobox/Sous-titre
- | Administration|ddffdd
+ | Aménistrachon|ddffdd
 }}
 {{Infobox/Ligne mixte optionnel
  | Nom italien|{{{nomItalien|}}}
@@ -22,7 +22,7 @@
  | [[Latin|Origine latine]]|{{{origLatin|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | Nom français|{{{nomFrançais|}}}
+ | Nom frinsé|{{{nomFrançais|}}}
 }}
 {{Infobox/Ligne mixte optionnel
  | Nom allemand|{{{nomAllemand|}}}
@@ -64,19 +64,19 @@
  | [[Alémanique|Nom alémanique]]|{{{nomAlémanique|}}}
 }}
 {{Infobox/Ligne mixte
- | [[Liste des pays du monde|Pays]]|{{Italie}}
+ | Poéis|{{Italie}}
 }}
 {{Infobox/Ligne mixte optionnel
- | [[Région d'Italie|Région]]|{{{rég|}}}|{{IT-{{{rég|}}}}}&#160;
+ | Région|{{{rég|}}}|{{IT-{{{rég|}}}}}&#160;
 }}
 {{Infobox/Ligne mixte optionnel
- | [[Liste des provinces italiennes|Province]]|{{{prov|}}}|{{IT-{{{prov|}}}}}&#160;
+ | Prouvinche]]|{{{prov|}}}|{{IT-{{{prov|}}}}}&#160;
 }}
 {{Infobox/Ligne mixte optionnel
- | [[Code ISTAT]]|{{{istat|}}}
+ | Code ISTAT|{{{istat|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | [[Code postal]]|{{{cp|}}}
+ | Code postal|{{{cp|}}}
 }}
 {{Infobox/Ligne mixte optionnel
  | Préfixe tel.|{{{tel|}}}
@@ -88,25 +88,25 @@
  | Site web|{{{site_web|}}}|
 }}
 {{Infobox/Sous-titre
- | Culture et démographie|ddffdd
+ | Cultchure et pi démografie|ddffdd
 }}
 {{Infobox/Ligne mixte
- | [[Recensement de la population|Population]]|{{formatnum:{{{pop|}}}}} hab. {{#if:{{{date-pop|}}}|<small>({{{date-pop|}}})</small>}}
+ | Nombe ed gins|{{formatnum:{{{pop|}}}}} hab. {{#if:{{{date-pop|}}}|<small>({{{date-pop|}}})</small>}}
 }}
 {{Infobox/Ligne mixte densité optionnel
- | [[Densité de population|Densité]]|{{{km²|}}}|{{{pop|}}}
+ | Dinchité|{{{km²|}}}|{{{pop|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | [[Gentilé]]|{{{Gentilé|}}}
+ | Gintilé|{{{Gentilé|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | [[Saint patron]]|{{{Patrons|}}}
+ | Saint patron|{{{Patrons|}}}
 }}
 {{Infobox/Ligne mixte optionnel
  | Fête patronale|{{{Fête_patronale|}}}
 }}
 {{Infobox/Sous-titre
- | Géographie|ddffdd
+ | Jourgrafie|ddffdd
 }}
 {{Infobox/Ligne mixte latitude longitude optionnelle
  | Coordonnées|{{{latitude|}}}|{{{longitude|}}}|city_region:IT-{{{prov|}}}|dms long ||| {{{référence|}}}|title=oui
@@ -121,7 +121,7 @@
 {{!-}}
 }}
 {{Infobox/Ligne mixte
- | [[Superficie]]|{{formatnum:{{{km²|}}}}} km²
+ | Supérfichie|{{formatnum:{{{km²|}}}}} km²
 }}
 {{Infobox/Ligne mixte optionnel
  | Code cadastral|{{{code_cadastre|}}}
@@ -136,11 +136,11 @@
  | parampoint2 = ne
  | largeur1 = 280
  | type1 = relief
- | alt1 = Voir la carte topographique
+ | alt1 = Vir l' carte topografique
  | info1 = non
  | largeur2 = 280
  | type2 = 
- | alt2 = Voir la carte administrative
+ | alt2 = Vir l' carte aménistrative
  | info2 = non
 }}
 {{Infobox/Fin}}<!--

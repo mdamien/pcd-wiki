@@ -1,0 +1,22 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-47.4)*-8.2644628099174}} 
+|x={{#expr: ({{{3}}}-6.2)*7.8125}}
+|image={{#switch: {{{2|}}}
+|relief=Italy_relief_location_map.jpg
+|#default=Italy_location_map.svg
+|topo=449x562-GMT-Italie-R1.jpg
+}}
+|iwidth=1034
+|iheight=1299
+|name=Italie
+|zone=pays
+|genre=fs'
+|geo=-108
+|top=47.4
+|bottom=35.3
+|left=6.2
+|right=19
+|projection=Projection équirectangulaire
+}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

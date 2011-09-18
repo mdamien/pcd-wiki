@@ -37,7 +37,7 @@
  | [[Arbërisht|Nom arbërisht]]|{{{nomArberisht|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | [[Francoprovençal|Nom francoprovençal]]|{{{nomFrancoprovençal|}}}
+ | [[Frincoprovinchal|Nom frincoprovinchal]]|{{{nomFrancoprovençal|}}}
 }}
 {{Infobox/Ligne mixte optionnel
  | [[Sarde|Nom sarde]]|{{{nomSarde|}}}
@@ -58,8 +58,12 @@
  | [[Calabrais|Nom calabrais]]|{{{nomCalabrais|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | [[Piémontais|Nom piémontais]]|{{{nomPiémontais|}}}
+ | [[Piémontoé|Nom piémontoé]]|{{{nomPiémontais|}}}
 }}
+{{Infobox/Ligne mixte optionnel
+ | [[Lombard (Langue)|Nom lombard]]|{{{nomLombard|}}}
+}}
+
 {{Infobox/Ligne mixte optionnel
  | [[Alémanique|Nom alémanique]]|{{{nomAlémanique|}}}
 }}
@@ -70,7 +74,7 @@
  | Région|{{{rég|}}}|{{IT-{{{rég|}}}}}&#160;
 }}
 {{Infobox/Ligne mixte optionnel
- | Prouvinche]]|{{{prov|}}}|{{IT-{{{prov|}}}}}&#160;
+ | Pourvinche|{{{prov|}}}|{{IT-{{{prov|}}}}}&#160;
 }}
 {{Infobox/Ligne mixte optionnel
  | Code ISTAT|{{{istat|}}}
@@ -113,9 +117,9 @@
 }}
 {{#if:{{{alt mini|}}} |
 {{#ifeq:{{{alt mini|}}} |{{#if:{{{alt maxi|}}} |{{{alt maxi}}} |{{{alt mini}}} }} |
-! scope=row {{!}} [[Altitude]]
+! scope=row {{!}} Altitude
 {{!}} {{{alt mini}}} m |
-! scope=row {{!}} [[Altitude]]s
+! scope=row {{!}} Altitudes
 {{!}} {{{alt|}}} m (min.{{{alt mini}}}— max.{{{alt maxi}}} m)
 }}
 {{!-}}

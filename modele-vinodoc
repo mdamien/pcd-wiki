@@ -1,0 +1,38 @@
+<noinclude>{{Bandeau Infobox V2}}</noinclude>
+{| class="infobox_v2" cellspacing="7" style="text-align: left;"
+| colspan="2" class="entete" style="background-color:#FFEECC;" | {{{nom|{{PAGENAME}}}}}
+|- 
+| {{#switch:{{{tipo}}}
+|DOCG='''[[Denominazione di origine controllata e garantita|DOCG]]'''
+|'''[[Denominazione di origine controllata|DOC]]'''
+}}
+| {{{denominazione}}}
+|- 
+| '''Date del Denominazione'''
+| {{{data_decreto}}} {{{note}}}
+|- 
+| '''Gazète offichièle d'Italie'''
+| {{{gazzetta_ufficiale}}}
+|- 
+| '''Rindemint (roésin/hectare)'''
+| {{{resa_uva}}}
+|- 
+| '''Rindemint moût'''
+| {{{resa_vino}}}
+|- 
+| '''Taux d’alcool naturel du roésin'''
+| {{{titolo_uva}}}
+|- 
+| '''Taux d’alcool minimum du vin'''
+| {{{titolo_vino}}}
+|- 
+| '''Résidu sec minimum'''
+| {{{estratto_secco}}}
+|-
+! colspan="2" style="background-color:#FFEECC; color:black; text-align: center; padding: 3px; line-height: 13px;"| Cépages autorisés
+|- 
+| colspan="2"| {{{vitigno}}}
+|-
+| class="navigation-only" colspan="2" style="border-top: 2px #FFEECC solid; font-size: 80%; text-align: center;" | ''Source: [http://www.politicheagricole.it Ministère  agricole italien]''
+|}<noinclude>[[Catégorie:Italie|VinoDOC]]
+[[Catégorie:modèle]]</noinclude>

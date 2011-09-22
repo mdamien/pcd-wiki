@@ -1,0 +1,30 @@
+<includeonly><span style="display:inline;vertical-align:{{{valign|baseline}}}"><span style="display:table-cell;margin:0;vertical-align:{{{valign|baseline}}};border:solid 1px {{{2|#A9A9A9}}};border-collapse:collapse;padding:0">{{{1}}}</span></span></includeonly><noinclude>
+
+
+;Syntaxe : <code><nowiki>{{</nowiki>{{PAGENAME}}|''élément''|''couleur''|valign=''baseline''}}</code>
+:* <code>1</code> : un élément quelconque (obligatoire)
+:* <code>2</code> : une couleur en hexadécimal précédée du signe # ou nommée (black, white, red, etc.). Par défaut, la couleur <span style="border:none; background:#A9A9A9;"><code>#A9A9A9</code></span>.
+:* <code>valign</code> : alignement vertical (top, middle, baseline ou bottom) du milieu de l'image par rapport au texte environnant. Par défaut, <code>''baseline''</code>.
+;Exemples : « <code><nowiki>{{</nowiki>{{PAGENAME}}|le texte|red}}</code> » donne « {{{{PAGENAME}}|le texte|red}} »
+: « <code><nowiki>{{</nowiki>{{PAGENAME}}|<nowiki>[[Image:Flag of Israel.svg|20px]]</nowiki>|valign=middle}}</code> » donne « {{{{PAGENAME}}|[[Image:Flag of Israel.svg|20px]]|valign=middle}} »
+;Note : Pour obtenir une bordure simple (grise, fine) autour d'une image, par exemple un drapeau, il est préférable d'utiliser la syntaxe <code><nowiki>[[Image:Nom de l'image.svg|border|20px]]</nowiki></code>
+
+[[Catégorie:Modèle]]
+
+[[ar:قالب:Border]]
+[[ca:Plantilla:Vora]]
+[[de:Vorlage:Border]]
+[[dsb:Pśedłoga:Kšoma]]
+[[en:Template:Border]]
+[[eo:Ŝablono:Bordo]]
+[[es:Plantilla:Borde]]
+[[fi:Malline:Rajaus]]
+[[hsb:Předłoha:Border]]
+[[nl:Sjabloon:Border/Test]]
+[[no:Mal:Border]]
+[[pt:Predefinição:Borda]]
+[[rmy:Sikavno:Rig]]
+[[stq:Foarloage:Border]]
+[[zh:Template:Border]]
+
+</noinclude>

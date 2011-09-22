@@ -32,7 +32,7 @@
  |{{{président}}} {{#if:{{{parti|}}}|({{{parti}}})}}<br />{{#if:{{{mandat|}}}|<small>({{{mandat}}})</small>}}
 }}
 {{Infobox/Ligne mixte
- |Pourvinches]]
+ |Pourvinches
  |{{{provinces}}}
 }}
 {{Infobox/Ligne mixte
@@ -89,7 +89,5 @@
  |Infobox Région d'Italie
 }}
 {{Infobox/Fin}}</includeonly><noinclude>
-{{Doc modèle|parser=oui}}
 {{nobots}}
-{{Géo/Italie}}
 </noinclude>

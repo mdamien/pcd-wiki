@@ -1,0 +1,95 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ |{{Non vide|{{{nom|}}}|{{PAGENAME}}}}||entete map
+}}
+{{#if:{{{blason|}}}{{{drapeau|}}} |
+! colspan=2 {{!}}
+{{(!}} cellpadding=0 cellspacing=0 style=background-color:transparent width=100% 
+{{!}}
+{{(!}} cellpadding=0 cellspacing=0 style=background-color:transparent align=center
+{{#if:{{{blason|}}} | ! style=vertical-align:middle {{!}} [[Fichier:{{{blason}}}|{{Non vide|{{{largeur blason|}}}|90}}px]] }}
+{{#if:{{{drapeau|}}} | ! style=vertical-align:middle {{!}} {{#if:{{{blason|}}}|[[Fichier:Transparent square.svg|35px|link=]]}}{{Bordure|[[Fichier:{{{drapeau}}}|{{Non vide|{{{largeur drapeau|}}}|130}}px]]}} }}
+{{!)}}
+{{!)}}
+{{!-}}
+}}
+{{Infobox/Sous-titre
+ |Aménistrachon
+}}
+{{Infobox/Ligne mixte
+ |Poéis
+ |{{Italie}}|40
+}}
+{{Infobox/Ligne mixte
+ |Capitale
+ |{{{capitale}}}
+}}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+ | Coordonnées|{{{latitude|}}}|{{{longitude|}}}|adm1st_region:{{{iso}}}|dms long|||{{{référence|}}}|title=oui
+}}
+{{Infobox/Ligne mixte
+ |Présidint del région
+ |{{{président}}} {{#if:{{{parti|}}}|({{{parti}}})}}<br />{{#if:{{{mandat|}}}|<small>({{{mandat}}})</small>}}
+}}
+{{Infobox/Ligne mixte
+ |Pourvinches]]
+ |{{{provinces}}}
+}}
+{{Infobox/Ligne mixte
+ |Conmeunes
+ |{{formatnum:{{{communes}}}}}
+}}
+{{Infobox/Sous-titre
+ |éstatistiques
+}}
+{{Infobox/Ligne mixte
+ |Supérfichie
+ |{{unité|{{{superficie}}}|km|2}}
+}}
+{{Infobox/Ligne mixte
+ |Nombe ed gins
+ |{{unité|{{formatnum:{{{population}}}}}|hab.}} {{#if:{{{date population|}}}|<small>({{{date population}}})</small>}}
+}}
+{{Infobox/Ligne mixte densité optionnelle
+ |Dinchité
+ |{{{superficie|}}}|{{{population|}}}
+}}
+{{Infobox/Sous-titre
+ |Eutes données
+}}
+{{Infobox/Ligne mixte
+ |NUTS 1
+ |{{{zone}}} ({{#switch: {{{zone}}}
+ |  ITC = Italie du nord-ouest
+ |  ITD = Italie du nord-est
+ |  ITE = Italie centrale
+ |  ITF = Italie méridionale
+ |  ITG = Italie insulaire
+}})
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Istituto nazionale di <br />statistica (Code ISTAT)
+ |{{{code ISTAT|}}}
+}}
+{{Infobox/Ligne mixte
+ |ISO 3166-2
+ |{{{iso}}}
+}}
+{{Infobox/Ligne mixte
+ |Site intarnète
+ |[{{{site}}} {{#titleparts:{{{site}}}||3}}]
+}}
+{{Infobox/Sous-titre
+ |Localisation
+}}
+{{Infobox/Image
+ |{{{carte}}}||280
+}}
+{{Infobox/Notice
+ |Infobox Région d'Italie
+}}
+{{Infobox/Fin}}</includeonly><noinclude>
+{{Doc modèle|parser=oui}}
+{{nobots}}
+{{Géo/Italie}}
+</noinclude>

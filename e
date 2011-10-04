@@ -28,6 +28,7 @@
 [[Catégorie:Insecques]]
 
 [[af:Heuningby]]
+[[als:Europäische Honigbiene]]
 [[az:Bal arısı]]
 [[ba:Бал ҡорто]]
 [[bar:Imp]]

@@ -8,7 +8,7 @@ Users who have not edited for at least 30 days are in gray.
 
 Excluding unflagged bots is possible adding them to [[meta:User:Emijrp/List of Wikimedians by number of edits/Unflagged bots]].
 
-This page was last updated in '''2011-09-26'''.
+This page was last updated in '''2011-10-07'''.
 
 {| class='wikitable sortable' style='text-align:center;'
 ! #
@@ -17,9 +17,9 @@ This page was last updated in '''2011-09-26'''.
 |-
 | 1 || [[User:Kmoksy|<span style="color:gray">Kmoksy</span>]] || [[Special:Contributions/Kmoksy|2672]] 
 |-
-| 2 || [[User:Geoleplubo|Geoleplubo]] || [[Special:Contributions/Geoleplubo|2349]] 
+| 2 || [[User:Geoleplubo|Geoleplubo]] || [[Special:Contributions/Geoleplubo|2359]] 
 |-
-| 3 || [[User:Firmin|Firmin]] || [[Special:Contributions/Firmin|238]] 
+| 3 || [[User:Firmin|Firmin]] || [[Special:Contributions/Firmin|248]] 
 |-
 | 4 || [[User:Oanr|Oanr]] || [[Special:Contributions/Oanr|191]] 
 |-
@@ -31,11 +31,11 @@ This page was last updated in '''2011-09-26'''.
 |-
 | 8 || [[User:Aignan|<span style="color:gray">Aignan</span>]] || [[Special:Contributions/Aignan|105]] 
 |-
-| 9 || [[User:Sandrine|Sandrine]] || [[Special:Contributions/Sandrine|103]] 
+| 9 || [[User:Sandrine|<span style="color:gray">Sandrine</span>]] || [[Special:Contributions/Sandrine|103]] 
 |-
 | 10 || [[User:Alalca|<span style="color:gray">Alalca</span>]] || [[Special:Contributions/Alalca|91]] 
 |}
-{{nobots}}
+{{nobots|allow=BOTijo}}
 [[ab:User:Emijrp/List of Wikipedians by number of edits]]
 [[ace:User:Emijrp/List of Wikipedians by number of edits]]
 [[af:User:Emijrp/List of Wikipedians by number of edits]]

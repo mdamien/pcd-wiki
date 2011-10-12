@@ -1,0 +1,23 @@
+{| class="infobox" style="width: 21em; font-size: 90%; text-align: left; float: right; background-color: rgb(249, 249, 249); border: 1px solid rgb(170, 170, 170);"
+! colspan="2" style="text-align: center; font-size: 130%;" | {{BASEPAGENAME}} [[File:Crystal Clear action run.svg|24px|This user is a bot.]]
+|-
+| colspan="2" style="text-align: center; font size: 95%;" | ([[{{TALKSPACE}}:{{BASEPAGENAME}}|talk]] · [[Special:Contributions/{{BASEPAGENAME}}|contribs]])
+|-
+| Operator: || [[m:User:Hoo man|Hoo man]]
+|-
+| [[Wikipedia:Bots/Requests for approval|Approved]]? || No
+|-
+| [[Wikipedia:User_access_levels#Bots|Flagged]]? || No
+|-
+| [[Wikipedia:Bot requests|Task/s]]: || [[m:User:Hoo_man/Synchbot|Syncing user and user talk pages across all wikis]]
+|-
+| Edit rate: || Max. a few edits per month
+|-
+| Edit period/s: || Periodically
+|-
+| Automatic or manual? || half-automatic
+|-
+| [[w:en:Programming language|Programming language]]/s: || [[w:en:Python|Python]]
+|-
+|}
+This bot syncs user and user talk pages across all wikis, request can be made [[m:User:Hoo_man/Synchbot|here]]. Feel free to complain if it does anything it shouldn't. Every request gets performed and reviewed by [[m:user:Hoo man|Hoo man]].

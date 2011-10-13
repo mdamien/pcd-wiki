@@ -1,6 +1,6 @@
 <includeonly><!--
-drapeau gauche
--->{{#ifeq:{{{align|left}}}|left|<span class="flagicon">[[Fichier:{{Drapeau2/Image|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}|année={{{2|{{{année|{{CURRENTYEAR}}}}}}}}|domaine={{{domaine|}}}|genre={{{genre|}}}|nombre={{{nombre|}}}|compétition={{{compétition|}}}}}|{{{taille|20x15}}}px|border|{{Drapeau2/ImageAlt|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}}}]]</span>}}<!--
+drapieu gueuche
+-->{{#ifeq:{{{align|left}}}|left|<span class="flagicon">[[File:{{Drapeau2/Image|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}|année={{{2|{{{année|{{CURRENTYEAR}}}}}}}}|domaine={{{domaine|}}}|genre={{{genre|}}}|nombre={{{nombre|}}}|compétition={{{compétition|}}}}}|{{{taille|20x15}}}px|border|{{Drapeau2/ImageAlt|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}}}]]</span>}}<!--
 espace insécable
 -->{{#ifeq:{{{align|left}}}|left|{{#ifeq:{{{lien|oui}}}|oui|&nbsp;|}}|}}<!--
 tri
@@ -10,4 +10,4 @@ extra cible
 lien
 -->{{#ifeq:{{{lien|oui}}}|oui|{{#if:{{{cible|}}}|&nbsp;<span style="font-size:90%;" class="nowrap">(|}}[[{{Drapeau2/Libellé{{#if: {{{domaine|}}} |/{{{domaine}}}|}}|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}|année={{{année|}}}|genre={{{genre|masculin}}}|nombre={{{nombre|singulier}}}|compétition={{{compétition}}}}}]]}}{{#if:{{{cible|}}}|)</span>|}}{{#ifeq:{{{align|left}}}|right|{{#ifeq:{{{lien|oui}}}|oui|&nbsp;|}}|}}<!--
 drapeau2
--->{{#ifeq:{{{align|left}}}|right|<span class="flagicon">[[Fichier:{{Drapeau2/Image|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}|année={{{2|{{{année|{{CURRENTYEAR}}}}}}}}|domaine={{{domaine|}}}|genre={{{genre|}}}|nombre={{{nombre|}}}|compétition={{{compétition|}}}}}|{{{taille|20x15}}}px|border|{{Drapeau2/ImageAlt|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}}}]]</span>}}</includeonly><noinclude>{{semi-protection}}{{doc modèle}}</noinclude>
+-->{{#ifeq:{{{align|left}}}|right|<span class="flagicon">[[File:{{Drapeau2/Image|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}|année={{{2|{{{année|{{CURRENTYEAR}}}}}}}}|domaine={{{domaine|}}}|genre={{{genre|}}}|nombre={{{nombre|}}}|compétition={{{compétition|}}}}}|{{{taille|20x15}}}px|border|{{Drapeau2/ImageAlt|{{#if:{{{CIO|}}}|{{Drapeau2/CIO|{{{CIO}}}}}|{{ucfirst:{{{1|}}}}}}}}}]]</span>}}</includeonly><noinclude>{{semi-protection}}{{doc modèle}}</noinclude>

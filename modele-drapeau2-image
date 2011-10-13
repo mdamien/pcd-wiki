@@ -323,16 +323,16 @@
 | #default= Flag of None.svg
 }}</includeonly><noinclude>
 Ce modèle permet d'afficher le drapeau d'un pays, selon l'année. Par exemple, pour la Géorgie, qui a connu plusieurs drapeaux :
-*<nowiki>[[Fichier:{{Drapeau2/Image|Géorgie|année=2006}}|50px]]</nowiki> : [[Fichier:{{Drapeau2/Image|Géorgie|année=2006}}|25px]]
-*<nowiki>[[Fichier:{{Drapeau2/Image|Géorgie|année=1995}}|50px]]</nowiki> : [[Fichier:{{Drapeau2/Image|Géorgie|année=1995}}|25px]]
+*<nowiki>[[File:{{Drapeau2/Image|Géorgie|année=2006}}|50px]]</nowiki> : [[File:{{Drapeau2/Image|Géorgie|année=2006}}|25px]]
+*<nowiki>[[image:{{Drapeau2/Image|Géorgie|année=1995}}|50px]]</nowiki> : [[File:{{Drapeau2/Image|Géorgie|année=1995}}|25px]]
 
 
 Deux exceptions où le drapeau change selon le domaine
 # Équipe d'Irlande de rugby et de hockey sur glace
-#*<nowiki>[[Fichier:{{Drapeau2/Image|Irlande|domaine=rugby}}|50px]]</nowiki> : [[Fichier:{{Drapeau2/Image|Irlande|domaine=rugby}}|25px]]
-#*<nowiki>[[Fichier:{{Drapeau2/Image|Irlande|domaine=hockey sur gazon}}|25px]]</nowiki> : [[Fichier:{{Drapeau2/Image|Irlande|domaine=hockey sur gazon}}|25px]]
+#*<nowiki>[[image:{{Drapeau2/Image|Irlande|domaine=rugby}}|50px]]</nowiki> : [[File:{{Drapeau2/Image|Irlande|domaine=rugby}}|25px]]
+#*<nowiki>[[File:{{Drapeau2/Image|Irlande|domaine=hockey sur gazon}}|25px]]</nowiki> : [[image:{{Drapeau2/Image|Irlande|domaine=hockey sur gazon}}|25px]]
 # Équipe de Taipei de football
-#*<nowiki>[[Fichier:{{Drapeau2/Image|Chinese Taipei|domaine=football}}|25px]]</nowiki> : [[Fichier:{{Drapeau2/Image|Chinese Taipei|domaine=football}}|25px]]
+#*<nowiki>[[File:{{Drapeau2/Image|Chinese Taipei|domaine=football}}|25px]]</nowiki> : [[image:{{Drapeau2/Image|Chinese Taipei|domaine=football}}|25px]]
 
 ==Pays paramétrés==
 {{Special:Prefixindex/Modèle:Drapeau2/Image/}}

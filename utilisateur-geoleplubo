@@ -1,7 +1,21 @@
-[[File:Picardy flag.png|center|thumb|200px|Picardie]]
+
 {{Babel|pcd-natif|fr|en-2}}
+[[File:Picardy flag.png|center|thumb|200px|Picardie]]
+
+
 
 ::::;'''[[:User talk:Geoleplubo|Pérlaches]]''' | [[Special:Emailuser/Geoleplubo|E-Mail]] | [[Special:Contributions/Geoleplubo|Contérbuchons]]
+
+
+{{#if:{{{init|}}}|<div style="margin-right:200px; padding:1em; margin-bottom:1.5em; border: 1px solid #aaa;">|}}
+<div style="position: fixed; right:0; bottom:0; display:block; height:{{{hauteur|70}}}px; width:{{{largeur|200}}}px; z-index:0">
+<div style="border:1px solid #aaa; border-right:0px; background:white">
+{| style="background-color:transparent"
+| width="*" valign="middle" | Bojour biloute !<br/>
+| width="*" valign="bottom" | {{{image|}}}
+|}
+</div>
+</div>
 
 
 ::;j'ainme: 

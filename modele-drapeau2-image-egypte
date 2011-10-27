@@ -1,0 +1,18 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1984| Flag of Egypt.svg|{{#ifexpr: {{{1}}} > 1972|Flag of Egypt 1972.svg|{{#ifexpr: {{{1}}} > 1958| Flag of United Arab Republic.svg | {{#ifexpr: {{{1}}} > 1952| Flag of Egypt 1952.svg | {{#ifexpr: {{{1}}} > 1922| Flag of Egypt 1922.svg | Egypt flag 1882.svg}}}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de l'Égypte}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|1805 || 1922 || Din l'[[Impire ottoman]] ||[[Image:{{{{PAGENAME}}|1900}}|100px]]
+|-
+|1922 || 1952 || Rôéyôme d'Égypte ||[[Image:{{{{PAGENAME}}|1923}}|100px]]
+|-
+|1952 || 1958 || République d'Égypte ||[[Image:{{{{PAGENAME}}|1953}}|100px]]
+|-
+|1958 || 1972] || [[République arabe unie]]<br>drapeau prolongé après 1961 ||[[Image:{{{{PAGENAME}}|1959}}|100px]]
+|-
+|1972 || 1984 || [[Union des Républiques arabes]] ||[[Image:{{{{PAGENAME}}|1973}}|100px]]
+|-
+|1984 ||achteure || État indépindant ||[[Image:{{{{PAGENAME}}|1985}}|100px]]
+|}
+[[Catégorie:Modèle image du système drapeau2]]</noinclude>

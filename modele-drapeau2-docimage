@@ -1,0 +1,11 @@
+{{Documentation modèle vue directement|des paramètres [[{{#titleparts:{{FULLPAGENAME}}|2|}}|Image]] du modèle [[{{#titleparts:{{FULLPAGENAME}}|1|}}|{{#titleparts:{{PAGENAME}}|1|}}]]}}
+;Utilisation:
+Ce modèle n'est pas à utiliser directement. Il doit être configurer dans le [[{{#titleparts:{{FULLPAGENAME}}|2|}}|modèle {{#titleparts:{{PAGENAME}}|2|}}]].
+
+En effet, le pays ''{{#titleparts:{{FULLPAGENAME}}|1|-1}}'' a connu plusieurs drapeaux au cours de l'histoire. Afin d'éviter tout [[anachronisme]], c'est le premier paramètre correspondant à l'année, qui va définir son apparence.
+
+; Syntaxe :
+ <code>[[Image:<nowiki>{{</nowiki>{{PAGENAME}}|année<nowiki>}}</nowiki>]]</code>
+
+; Années paramétrées
+{{Article principal|{{{1|drapeau}}}}}

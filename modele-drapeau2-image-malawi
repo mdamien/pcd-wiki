@@ -1,0 +1,11 @@
+<includeonly>{{#ifexpr: {{{1}}} > 2010| Flag of Malawi.svg
+|Flag of Malawi 1964-2010.svg}}</includeonly><noinclude>{{Drapeau2/Docimage|Drapeau du Malawi}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|1964|| 2010 || état indépendant ||[[Image:{{{{PAGENAME}}|2009}}|100px]]
+|-
+|2010 || aujourd'hui || état indépendant ||[[Image:{{{{PAGENAME}}|2011}}|100px]]
+|}
+[[Catégorie:Modèle image]]</noinclude>

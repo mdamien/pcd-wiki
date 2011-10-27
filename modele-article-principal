@@ -1,0 +1,14 @@
+<includeonly><div class="detail principal">{{#if:{{{contenu|}}}<!--
+-->|{{{contenu}}}<!--
+-->|{{#if:{{{1|}}}<!--
+   -->|{{#if:{{{amorce|}}}<!--
+      -->|{{{amorce}}}<!--
+      -->|{{#if:{{{2|}}}|Articles principaux|Article principal}}<!--
+    -->}}&nbsp;: {{MultiParamètres-Lien|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}}}.<!--
+   -->|<!--PAS DE PARAMETRE 1:-->Article principal : [[{{PAGENAME}}]]<!--
+  -->}}<!--
+-->}}</div></includeonly><noinclude>
+
+{{/Documentation}}
+[[Catégorie:Exclure lors de l'impression]]
+</noinclude>

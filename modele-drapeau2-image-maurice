@@ -1,0 +1,12 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1968| Flag of Mauritius.svg|{{#ifexpr: {{{1}}} > 1923 |Flag of Mauritius 1923.svg|Flag of Mauritius 1906.svg}}}}</includeonly><noinclude>{{Drapeau2/Docimage|Drapeau de Maurice}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1906]] || [[1923]] || colonie britannique ||[[Image:{{{{PAGENAME}}|1907}}|100px]]
+|-
+|[[1923]] || [[1968]] || colonie britannique ||[[Image:{{{{PAGENAME}}|1924}}|100px]]
+|-
+|[[1968]] || aujourd'hui || état indépendant ||[[Image:{{{{PAGENAME}}|1969}}|100px]]
+|}
+[[Catégorie:Modèle image]]</noinclude>

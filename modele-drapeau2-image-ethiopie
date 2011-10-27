@@ -1,0 +1,20 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1996| Flag of Ethiopia.svg
+|{{#ifexpr: {{{1}}} > 1991|Flag of Ethiopia (1975-1987, 1991-1996).svg
+| {{#ifexpr: {{{1}}} > 1987| Ethiopia 1987-1991.PNG
+| {{#ifexpr: {{{1}}} > 1975| Flag of Ethiopia (1975-1987, 1991-1996).svg
+| Flag of Ethiopia (1897).svg}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de l'Éthiopie}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1897]] || [[1974]] || [[Impire d'Éthiopie]] ||[[Image:{{{{PAGENAME}}|1923}}|100px]]
+|-
+|[[1975]] || [[1987]] || [[Gouvérnmint du Derg]] ||[[Image:{{{{PAGENAME}}|1976}}|100px]]
+|-
+|[[1987]] || [[1991]] || [[République populoère démocratique d'Éthiopie]] ||[[Image:{{{{PAGENAME}}|1988}}|100px]]
+|-
+|[[1991]] || [[1996]] || [[République d'Éthiopie (1991-1995)|République d'Éthiopie]] ||[[Image:{{{{PAGENAME}}|1992}}|100px]]
+|-
+|[[1996]] || aujourd'hui || [[République fédérale démocratique d'Éthiopie|République fédérale démocratique]] ||[[Image:{{{{PAGENAME}}|1999}}|100px]]
+|}
+[[Catégorie:Modèle image]]</noinclude>

@@ -1,0 +1,12 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1996|Flag of the Seychelles.svg|{{#ifexpr: {{{1}}} > 1977 |Flag of the Seychelles 1977.svg|Flag of the Seychelles 1976.svg}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau des Seychelles}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1976]] || [[1977]] || état indépindant ||[[Image:{{{{PAGENAME}}|1876}}|100px]]
+|-
+|[[1977]] || [[1996]] || état indépindant ||[[Image:{{{{PAGENAME}}|1978}}|100px]]
+|-
+|[[1996]] || aujourd'hui || état indépindant ||[[Image:{{{{PAGENAME}}|1997}}|100px]]
+|}
+[[Catégorie:Modèle image]]</noinclude>

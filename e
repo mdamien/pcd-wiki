@@ -49,6 +49,7 @@
 [[is:Alibýfluga]]
 [[it:Apis mellifera]]
 [[ja:セイヨウミツバチ]]
+[[kk:Бал арасы]]
 [[la:Apis mellifera]]
 [[lbe:Най]]
 [[lt:Naminė bitė]]

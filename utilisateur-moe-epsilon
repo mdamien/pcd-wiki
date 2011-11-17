@@ -1,0 +1,37 @@
+{| width=100% cellspacing=8
+| colspan=3 style="border: 4px solid #D0E7FF; background-color: #F5FAFF;" |
+
+{| style="background-color:#FFFFFF; align="center" cellpadding="3px" 
+ |-
+ | colspan="5" align="center" bgcolor="#CAD2ff" | Projects of the <span class="plainlinks">[http://wikimediafoundation.org/wiki/Home Wikimedia Foundation]</span> <br> Powered by <span class="plainlinks">[http://www.mediawiki.org/wiki/User:Moe_Epsilon MediaWiki]</span>
+ |- align="center"
+ | [[Image:Wikipedia-logo-en.png|30px|Wikipedia]]
+ | [[Image:Wiktionary-logo-en.png|30px|Wiktionary]]
+ | [[Image:Wikiversity-logo-Snorky.svg|30px|Wikiversity]]
+ | [[Image:Wikibooks-logo.png|30px|Wikibooks]]
+ | [[Image:Wikinews-logo.svg|30px|Wikinews]]
+ |- bgcolor="#CAD2ff" align="center" font-size:small;
+ | '''Wikipedia'''
+ | Wiktionary
+ | Wikiversity
+ | Wikibooks
+ | Wikinews
+ |- align="center"
+ | [[Image:Wikisource-logo.png|30px|Wikisource]] 
+ | [[Image:Commons-logo.svg|30px|Commons]]
+ | [[Image:Wikiquote-logo.png|30px|Wikiquote]]
+ | [[Image:Wikispecies-logo.png|30px|Wikispecies]]
+ | [[Image:Wikimedia-logo-meta.png|30px|Meta-Wiki]]
+ |- bgcolor="#CAD2ff" align="center" font-size:small;
+ | Wikisource
+ | [[Commons:User:Moe_Epsilon|Commons]]
+ | Wikiquote
+ | [[Wikispecies:User:Moe_Epsilon|Wikispecies]]
+ | [[m:User:Moe_Epsilon|Meta]]
+ |}
+
+<center><div style="font-size:85%; display:block; vertical-align:top; background:#F5FAFF; border:1px solid #F5FAFF; margin-bottom:4pt; padding:2pt; margin-top:4pt; padding-top:2pt;">
+<div id="EnWpMpBook3" style="padding:0 .3em 0; background-repeat:no-repeat; background-position:0% 0%;">[[w:Template:User unified login|Unified login]]: Moe Epsilon is the [[m:Help:Unified_login|unique login]] of this user for all public [[wmf:Main Page|Wikimedia]] [[wmf:Our projects|projects]].
+</div>
+</div></center>
+|}

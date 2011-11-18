@@ -1,0 +1,13 @@
+<div style="margin-right:.0em;">
+<div class="NavFrame" align="{{ #switch: {{{alignB|left}}}| gauche = left| droite = right| centre = center
+| left = left| right = right| center = center | gauche}}" style="clear:both; margin-bottom:{{{margeBas|0em}}}; width:{{{largeur|100%}}}; border-style:solid; -moz-border-radius:{{{arrondi|0}}}; border-color:{{{couleurBordure|#AAAAAA}}}; background-color:{{{couleurFondB|#FFFFFF}}};" title="{{{label|<nowiki>[ Dérouler ]</nowiki>}}}" >
+{{#if:{{{image|}}}|<div class="NavPic" style="background-color:{{{couleurFondT|#EFEFEF}}};">{{{image}}}</div>}}
+<div class="NavHead" align="{{ #switch: {{{alignT|center}}}| gauche = left| droite = right| centre = center
+| left = left| right = right| center = center | centre}}" style="height:{{{hauteur|1em}}}; background-color:{{{couleurFondT|#EFEFEF}}}; color:{{{couleurTexteT|black}}};">{{{titre}}}</div>
+<div class="NavContent" style="margin:{{{marge|0px}}}; background:{{{couleurFond|white}}}; display:block;" align="{{{align|center}}}">
+<noinclude>
+</div></div>
+
+: Affute: uzer avuec ch' modèle {{M|Boîte déroulante fin}}}}
+
+[[Catégorie:Modèle]]

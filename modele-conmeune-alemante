@@ -1,0 +1,90 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nomville|{{PAGENAME}}}}}|ddffdd|entete map
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|}}|280
+}}
+| width="50%"| {{#if:{{{imageblason|}}}|[[Fichier:{{{imageblason}}}|120px|Blason de {{{nomville|{{PAGENAME}}}}}|center]]|[[Fichier:Sin escudo.svg|120px|Poin d' blason défini|center]]}}
+| width="50%" style="" align="center"| {{#if:{{{latitude|}}}{{{longitude|}}}|<!--
+-->{{Début de carte}}[[Fichier:{{Géolocalisation/Allemagne|image}}|140px|]]
+{{G|Allemagne|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude|}}}}}|{{{nomville|{{PAGENAME}}}}}|Localité sans toponyme}}
+{{Fin de carte}}}}
+|-
+{{Infobox/Sous-titre
+ | Aménistracion|ddffdd
+}}
+{{Infobox/Ligne mixte
+ | [[Toponymie|Toponyme]] officiel|{{Lang|de|{{{nomofficiel|?}}}}}
+}}
+{{Infobox/Ligne mixte
+ | Poéyis|{{Allemagne}}
+}}
+{{Infobox/Ligne mixte
+ | Land|{{{land|?}}}
+}}
+{{Infobox/Ligne donnée optionnel
+ | '''District'''<br /><small>''({{lang|de|Regierungsbezirk}})''</small>|{{{district|}}}
+}}
+{{Infobox/Ligne donnée
+ | '''Arondichemint'''<br /><small>''({{lang|de|Landkreis}})''</small>|{{{arr|?}}}
+}}
+{{Infobox/Ligne donnée
+ | '''Code conmeunal'''<br/><small>''({{lang|de|Gemeindeschlüssel}})''</small>|{{{codecomm|?}}}
+}}
+{{Infobox/Ligne mixte
+ | [[Code postal]]|{{{cp|?}}}
+}}
+{{Infobox/Ligne mixte
+ | Indicatif téléfonique|{{{indicatiftel|?}}}
+}}
+{{Infobox/Ligne mixte
+ | Plaque vouéture|{{{immatriculation|?}}}
+}}
+{{Infobox/Ligne donnée optionnel
+ | '''Nombe éd wartiés'''<br /><small>(''{{lang|de|Ortsteile}}'')</small>|{{{quartier|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Site ouèbe|{{{weblabel|}}}|[http://{{{weblabel|}}} {{{weblabel|}}}]
+}}
+{{Infobox/Sous-titre
+ | Politique <small>{{{legislature|}}}</small>|ddffdd
+}}
+{{Infobox/Ligne donnée
+ | '''Bourqmoèste'''<br /><small>({{lang|de|''{{{titredumaire|Bürgermeister}}}''}})</small>|{{{maire|?}}}
+}}
+{{Infobox/Ligne mixte
+ | Partis|{{{partis|?}}}
+}}
+{{Infobox/Sous-titre
+ | Jourgrafie|ddffdd
+}}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+ | Coordonnées|{{{latitude|}}}|{{{longitude|}}}|city_region:{{Infobox Commune d'Allemagne/ISO|{{{land|}}}}}|dms long|||{{{référence|}}}|title=oui
+}}
+{{Infobox/Ligne donnée
+ | '''[[Altitude]]''' <small>(''[[Normalnull|NN]]'')</small>|{{{altitude|?}}}&nbsp;m
+}}
+{{Infobox/Ligne mixte
+ | Supérfichie|{{{superficie|?}}}&nbsp;km{{exp|2}}
+}}
+{{Infobox/Sous-titre
+ | Démografie|ddffdd
+}}
+{{Infobox/Ligne mixte
+ | Nombe éd gins|{{{population|?}}}&nbsp;{{abréviation discrète|hab.|habitants}} <small>''({{{date-pop|????}}})''</small>
+}}
+{{Infobox/Ligne mixte
+ | Dinchité d'gins|{{{dens|?}}}&nbsp;{{abréviation discrète|hab.|habitants}}/km{{exp|2}}
+}}
+{{Infobox/Notice
+ | Infobox Commune d'Allemagne|DDFFDD
+}}
+{{Infobox/Fin}}<!--
+les mauvais paramétrages
+-->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Commune géolocalisable sans coordonnées paramétrées|Allemagne]]}}}}}}}}</includeonly><noinclude>
+[[de:Vorlage:Infobox Gemeinde in Deutschland]]
+[[en:Template:Infobox German location]]
+[[fr:Modèle:Infobox Commune d'Allemagne]]
+[[catégorie:Modèle]]
+</noinclude>

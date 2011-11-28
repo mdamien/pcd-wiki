@@ -1,0 +1,22 @@
+{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-55.1)*-12.658227848101}} 
+|x={{#expr: ({{{3}}}-5.5)*10}}
+|image={{#switch: {{{2|}}}
+|relief=Relief Map of Germany.png
+|#default=Germany location map.svg
+}}
+|relief=Relief Map of Germany.png
+|iwidth=1075
+|iheight=1273
+|name=Allemagne
+|zone=pays
+|genre=fs'
+|geo=-61
+|top=55.1
+|bottom=47.2
+|left=5.5
+|right=15.5
+|projection=Projection équirectangulaire
+}}<noinclude>
+{{/Documentation}}
+</noinclude>

@@ -1,0 +1,22 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1949| Flag of Germany.svg
+|{{#ifexpr: {{{1}}} > 1945|Flag of Germany (1946-1949).svg
+|{{#ifexpr: {{{1}}} > 1933|Flag of Germany 1933.svg
+|{{#ifexpr: {{{1}}} > 1918|Flag of Germany (3-2 aspect ratio).svg
+|Flag of the German Empire.svg}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de l'Allemagne}}
+{| class="wikitable"
+|-
+! De !! À !! Éstatut !! Drapieu
+|-
+|1871 || 1918 || Impire alemant ||[[Image:{{{{PAGENAME}}|1911}}|100px]]
+|-
+|1918 || 1933 || République d' Weimar  ||[[Image:{{{{PAGENAME}}|1919}}|100px]]
+|-
+|1933 || 1945 || Troésième Reich ||[[Image:{{{{PAGENAME}}|1935}}|100px]]
+|-
+|1945 || 1949 || Alemanne édsous aménistrachon alliée ||[[Image:{{{{PAGENAME}}|1946}}|100px]]
+|-
+|1949 || 1990 || Alemanne éd l'Ouest + Alemanne éd l'Est ||[[Image:{{{{PAGENAME}}|1950}}|100px]]
+|-
+|1990 || aujourd'hui || Alemanne réunifiée ||[[Image:{{{{PAGENAME}}|1991}}|100px]]
+|}
+[[Catégorie:Modèle drapieu]]</noinclude>

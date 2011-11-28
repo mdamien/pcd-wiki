@@ -1,0 +1,65 @@
+<includeonly>DE{{#switch: {{{1|}}}
+|=<!--vide-->
+| {{Bade-Wurtemberg}} = -BW
+| [[Bade-Wurtemberg]] = -BW
+| {{Bavière}} = -BY
+| [[Bavière]] = -BY
+| {{Berlin}} = -BE
+| {{Brandebourg}} = -BB
+| [[Brandebourg]] = -BB
+| {{Brême}} = -HB
+| {{Hambourg}} = -HH
+| {{Hesse}} = -HE
+| [[Hesse (Land)|Hesse]] = -HE
+| {{Mecklembourg-Poméranie-Occidentale}} = -MV
+| [[Mecklembourg-Poméranie-Occidentale]] = -MV
+| {{Rhénanie-du-Nord-Westphalie}} = -NW
+| [[Rhénanie-du-Nord-Westphalie]] = -NW
+| {{Rhénanie-Palatinat}} = -RP
+| [[Rhénanie-Palatinat]] = -RP
+| {{Sarre}} = -SL
+| [[Sarre (Land)|Sarre]] = -SL
+| {{Saxe}} = -SN
+| [[Saxe (Land)|Saxe]] = -SN
+| {{Saxe-Anhalt}} = -ST
+| [[Saxe-Anhalt]] = -ST
+| {{Basse-Saxe}} = -NI
+| [[Basse-Saxe]] = -NI
+| {{Schleswig-Holstein}} = -SH
+| [[Schleswig-Holstein]] = -SH
+| {{Thuringe}} = -TH
+| [[Thuringe]] = -TH
+|#default= {{rouge|Land d'Allemagne inconnu !}}
+}}
+</includeonly><noinclude>
+ {{Bade-Wurtemberg}} = -BW
+ [[Bade-Wurtemberg]] = -BW
+ {{Bavière}} = -BY
+ [[Bavière]] = -BY
+ {{Berlin}} = -BE
+ {{Brandebourg}} = -BB
+ [[Brandebourg]] = -BB
+ {{Brême}} = -HB
+ {{Hambourg}} = -HH
+ {{Hesse}} = -HE
+ [[Hesse (Land)|Hesse]] = -HE
+ {{Mecklembourg-Poméranie-Occidentale}} = -MV
+ [[Mecklembourg-Poméranie-Occidentale]] = -MV
+ {{Rhénanie-du-Nord-Westphalie}} = -NW
+ [[Rhénanie-du-Nord-Westphalie]] = -NW
+ {{Rhénanie-Palatinat}} = -RP
+ [[Rhénanie-Palatinat]] = -RP
+ {{Sarre}} = -SL
+ [[Sarre (Land)|Sarre]] = -SL
+ {{Saxe}} = -SN
+ [[Saxe (Land)|Saxe]] = -SN
+ {{Saxe-Anhalt}} = -ST
+ [[Saxe-Anhalt]] = -ST
+ {{Basse-Saxe}} = -NI
+ [[Basse-Saxe]] = -NI
+ {{Schleswig-Holstein}} = -SH
+ [[Schleswig-Holstein]] = -SH
+ {{Thuringe}} = -TH
+ [[Thuringe]] = -TH
+[[catégorie:infoboète]]
+</noinclude>

@@ -15,7 +15,7 @@
  | Aménistracion|ddffdd
 }}
 {{Infobox/Ligne mixte
- | [[Toponymie|Toponyme]] officiel|{{Lang|de|{{{nomofficiel|?}}}}}
+ | Toponyme offichièl|{{Lang|de|{{{nomofficiel|?}}}}}
 }}
 {{Infobox/Ligne mixte
  | Poéyis|{{Allemagne}}
@@ -33,7 +33,7 @@
  | '''Code conmeunal'''<br/><small>''({{lang|de|Gemeindeschlüssel}})''</small>|{{{codecomm|?}}}
 }}
 {{Infobox/Ligne mixte
- | [[Code postal]]|{{{cp|?}}}
+ | Code postal|{{{cp|?}}}
 }}
 {{Infobox/Ligne mixte
  | Indicatif téléfonique|{{{indicatiftel|?}}}
@@ -63,7 +63,7 @@
  | Coordonnées|{{{latitude|}}}|{{{longitude|}}}|city_region:{{Infobox Commune d'Allemagne/ISO|{{{land|}}}}}|dms long|||{{{référence|}}}|title=oui
 }}
 {{Infobox/Ligne donnée
- | '''[[Altitude]]''' <small>(''[[Normalnull|NN]]'')</small>|{{{altitude|?}}}&nbsp;m
+ | '''Altitude''' <small>(''[[Normalnull|NN]]'')</small>|{{{altitude|?}}}&nbsp;m
 }}
 {{Infobox/Ligne mixte
  | Supérfichie|{{{superficie|?}}}&nbsp;km{{exp|2}}

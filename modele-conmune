@@ -95,7 +95,7 @@ __NOTOC__
  | {{{nomhab}}}
 }}
 {{#if:{{{siteweb|}}} | 
-! scope=row {{!}} [[Site intarnète]]
+! scope=row {{!}} Site intarnète
 {{!}} <span class="plainlinks">{{{siteweb}}}</span>
 {{!-}}
 }}

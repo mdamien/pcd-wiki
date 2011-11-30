@@ -1,1 +1,24 @@
-<div style="background: #FFF; text-align: center; font-family: Calibri; font-size: 1.6em; font-weight: bold;"><div style="padding: 10px; border: 3px solid #2F4F4F; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;">Do not leave your message here. Choose any of the following, thanks!</div><div style="margin-top: 2px; padding: 10px; border: 3px solid #2F4F4F; -moz-border-radius: 8px; -wekbit-border-radius: 8px; border-radius: 8px;">[[m:bn:user:wikitanvir|w:bn:user:wikitanvir]] &#124; [[m:en:user:wikitanvir|w:en:user:wikitanvir]] &#124; [[m:commons:user:wikitanvir|commons:user:wikitanvir]] &#124; [[m:user:wikitanvir|meta:user:wikitanvir]]</div></div>
+<div style="background: #FFF; text-align: center; font-family: Calibri; font-size: 1.6em; font-weight: bold;"><div style="padding: 10px; border: 3px solid #2F4F4F; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;">Do not leave your message here. Choose any of the following, thanks!</div><div style="margin-top: 2px; padding: 10px; border: 3px solid #2F4F4F; -moz-border-radius: 6px; -wekbit-border-radius: 6px; border-radius: 6px;">[[m:bn:user:wikitanvir|w:bn:user:wikitanvir]] &#124; [[m:en:user:wikitanvir|w:en:user:wikitanvir]] &#124; [[m:commons:user:wikitanvir|commons:user:wikitanvir]] &#124; [[m:user:wikitanvir|meta:user:wikitanvir]]</div></div>
+{| class="wikitable"  width="100%" style="border: 2px solid #000;"
+|- style="padding: 5px; text-align: center;"
+| style="width: 11%; background: #CCC;" |
+; [[Special:AllPages|Articles]]
+| style="width: 10%; background: #CCC;" |
+; [[Special:ListFiles|Files]]
+| style="width: 13%; background: #CCC;" |
+; [[Special:ListUsers|Users]]
+| style="width: 11%; background: #CCC;" |
+; [[Special:ActiveUsers|Active Users]]
+| style="width: 10%; background: #CCC;" |
+; [[Special:ListUsers/bot|Bots]]
+| style="width: 11%; background: #9F0; border: 2px solid #000;" |
+; [[Special:ListUsers/sysop|Sysops]]
+| style="width: 12%; background: #CC9; border: 2px solid #000;" |
+; [[Special:ListUsers/bureaucrat|Bureaucrats]]
+| style="width: 11%; background: #FC0; border: 2px solid #000;" |
+; [[Special:ListUsers/checkuser|CheckUsers]]
+| style="width: 12%; background: #6FF; border: 2px solid #000;" |
+; [[Special:ListUsers/oversight|Oversighters]]
+|- style="background-color: #F5F5F5; font-family: Mono; font-size: 115%; text-align: center;"
+| {{NUMBEROFARTICLES}} || {{NUMBEROFFILES}} || {{NUMBEROFUSERS}} || {{NUMBEROFACTIVEUSERS}} || {{NUMBERINGROUP:bot}} || style="background: #9F0; border: 2px solid #000;" | '''{{NUMBEROFADMINS}}''' || style="background: #CC9; border: 2px solid #000;" | '''{{NUMBERINGROUP:bureaucrat}}''' || style="background: #FC0; border: 2px solid #000;" | '''{{NUMBERINGROUP:checkuser}}''' || style="background: #6FF; border: 2px solid #000;" | '''{{NUMBERINGROUP:oversight}}'''
+|}

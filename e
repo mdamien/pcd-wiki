@@ -38,6 +38,7 @@
 [[csb:Miodnô pszczoła]]
 [[da:Honningbi]]
 [[de:Westliche Honigbiene]]
+[[diq:Hınge]]
 [[en:Western honey bee]]
 [[es:Apis mellifera]]
 [[et:Meemesilane]]

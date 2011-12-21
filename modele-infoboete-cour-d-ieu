@@ -185,11 +185,11 @@
 {{!-}}
 }}
 {{#if: {{{affluents rive gauche|}}}{{{affluents rive droite|}}}{{{pays|}}}{{{villes|}}}|
-! colspan="2" style="text-align:center; background-color:#80B0E0; color:white" {{!}} Géographie
+! colspan="2" style="text-align:center; background-color:#80B0E0; color:white" {{!}} Jourgrafie
 {{!-}}
 }}
 {{#if:{{{affluents rive gauche|}}}{{{affluents rive droite|}}}|
-{{!}} colspan="2" {{!}} Principaux affluents
+{{!}} colspan="2" {{!}} Princhipaux affluints
 {{!-}}
 {{#if:{{{affluents rive gauche|}}}|
 {{!}} &nbsp;·&nbsp;Rive gueuche

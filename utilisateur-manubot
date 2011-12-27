@@ -1,4 +1,4 @@
-{{ bot | Manumg}}
+{{ bot | Manumg|site=ml}}
 Bot operated by [[User:Manumg]].
 Home wiki is Malayalam Wikipedia.
 

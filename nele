@@ -1,0 +1,242 @@
+{{Conmune
+|nomcommune=Nèle
+| image              = Nesle 1.JPG
+ | image-desc         = Ech monumint à chés morts
+ | armoiries          = Blason ville fr Nesle (Somme).svg
+ | armoiries-desc     = 
+ | armoiries-taille   = 80 px
+ | logo               = 
+ | logo-desc          = 
+ | logo-taille        =
+|région=[[Picardie]]
+|département=[[Sonme (départémint)|Sonme]]
+|arrondissement=[[Péronne (Sonme)|Péronne]]
+|canton=[[Nèle]]<br /><small>(chéf-yu)
+|insee=80585
+|cp=80190
+|maire=Paul Pilot
+|mandat=2008-2014
+|intercomm= '''Conmeunité d’conmeunes<br /> d’ Nèle
+|longitude=2.91055555556
+|latitude=49.7586111111
+|alt moy=
+|hectares=772
+|dens=
+|alt moy=79
+|alt mini=57
+|alt maxi=82
+|hectares=772
+|km²=7.72
+|sans=2535
+|date-sans=2006
+|dens=322
+| géoloc-département =Picardie
+|nomhab=Nèloés(Nèloèses)
+|siteweb=[http://www.ville-nesle.fr/ site del mérrie ed Nèle]
+}}
+
+'''Nèle''' ( '' Nesle '' in frinsé ) ch' est eune conmeune picarte située dins ch' départmint del [[Sonme (départémint)|Sonme]] et pi dins l'région [[Picardie]].
+
+== Aménistrachon ==
+{{ÉluDébut |Titre= Lisse d’chés maires }}
+{{Élu |Début= 1996 |Fin=2014|Identité= Paul Pilot  |Parti= Apparinté PCF  |Qualité= Consilié général du canton édpuis 1998}}
+{{Élu |Début= 1989 |Fin= 1996 |Identité= Jack Pinconnet |Parti=Divers gueuche |Qualité= }}
+{{Élu |Début= 1983 |Fin= 1989 |Identité= Jacques Gronnier |Parti= Divers droéte |Qualité= }}
+{{Élu |Début= 1971 |Fin= 1983 |Identité= Jack Pinconnet |Parti=Divers gueuche |Qualité= }}
+{{Élu |Début= 1965 |Fin= 1971 |Identité= Jacques Gronnier |Parti= Divers droéte |Qualité= }}
+{{Élu |Début= 1945 |Fin= |Identité= Camille Gaultier |Parti=  |Qualité= }}
+{{Élu |Début= 1906 |Fin= 1907|Identité= Arsène Eugène Lamotte |Parti=  |Qualité= }}
+{{Élu |Début= 1882 |Fin= |Identité= Jules Savary|Parti=  |Qualité= }}
+{{ÉluDonnées}}
+{{ÉluFin}}
+
+== Démografie ==
+
+{{DemogFR| 1793= 1 684 | 1800= 1 567 | 1806= 1 692 | 1821= 1 606 | 1831= 1 643 | 1836= 1 705 | 1841= 1 755 | 1846= 1 850 | 1851= 1 900 | 1856= 1 926 | 1861= 2 135 | 1866= 2 214 | 1872= 2 237 | 1876= 2 377 | 1881= 2 406 | 1886= 2 455 | 1891= 2 393 | 1896= 2 285 | 1901= 2 436 | 1906= 2 602 | 1911= 2 631 | 1921= 2 251 | 1926= 2 491 | 1931= 2 322 | 1936= 2 229 | 1946= 1 927 | 1954= 2 075 | 1962= 2 417 | 1968= 2 483 | 1975= 2 811 | 1982= 2 643 | 1990= 2 642 | 1999= 2 451 | date1=2006 | pop1= 2 535 |<ref>[http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/pages2008/pdf/dep80.pdf Nombe ed gins in 2006]</ref>|
+source = Ehess<ref>[http://cassini.ehess.fr/cassini/fr/html/6_index.htm http://cassini.ehess.fr/ Nombe ed gins avant 1962]</ref> pi INSEE <ref>[http://www.insee.fr/fr/ffc/docs_ffc/psdc.htm INSEE : Nombe ed gins édpuis 1962]</ref>
+}}
+
+<center>
+'''Histogramme'''
+<br /><small>(grafique pèr Wikipédia)</small>
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8) 
+ImageSize = width:600 height:300
+PlotArea = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period = from:0 till:3500
+TimeAxis = orientation:vertical
+AlignBars = justify
+ScaleMajor = gridcolor:darkgrey increment:5000 start:0
+ScaleMinor = gridcolor:lightgrey increment:2500 start:0
+BackgroundColors = canvas:sfondo
+
+BarData= 	 	
+  bar:1846 text:1846
+  bar:1851 text:1851 
+  bar:1861 text:1861 
+  bar:1962 text:1962 
+  bar:1968 text:1968 
+  bar:1975 text:1975  
+  bar:1982 text:1982
+  bar:1988 text:1988
+  bar:1990 text:1990
+  bar:1999 text:1999
+  bar:2006 text:2006
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:1846 from:0 till: 1850
+  bar:1851 from:0 till: 1900
+  bar:1861 from:0 till: 2135
+  bar:1962 from:0 till: 2417
+  bar:1968 from:0 till: 2483
+  bar:1975 from:0 till: 2811
+  bar:1982 from:0 till: 2643
+  bar:1988 from:0 till: 2716
+  bar:1990 from:0 till: 2642
+  bar:1999 from:0 till: 2451
+  bar:2006 from:0 till: 2535
+
+PlotData=
+
+  bar:1846 at: 1850 fontsize:S text: 1.850 shift:(0)
+  bar:1851 at: 1900 fontsize:S text: 1.900 shift:(+ 2,7)
+  bar:1861 at: 2135 fontsize:S text: 2.135 shift:(+12,3)
+  bar:1962 at: 2417 fontsize:S text: 2.417 shift:(+13,2)
+  bar:1968 at: 2483 fontsize:S text: 2.483 shift:(+2,7)
+  bar:1975 at: 2811 fontsize:S text: 2.811 shift:(+13,2)
+  bar:1982 at: 2643 fontsize:S text: 2.643 shift:(-6,8)
+  bar:1988 at: 2716 fontsize:S text: 2.716 shift:(+2,7)
+  bar:1990 at: 2642 fontsize:S text: 2.642 shift:(-2,7)
+  bar:1999 at: 2451 fontsize:S text: 2.451 shift:(-7,2)
+  bar:2006 at: 2487 fontsize:S text: 2.535 shift:(+2,8)
+</timeline>
+</center>
+
+== Lius pi monumints ==
+* L’ collégiale romane Note-Danme<ref>{{Lien web
+|url=http://clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/80/accueil_80585.htm
+|titre=Collégiale Note-Danme-éd-l'Assomption
+|auteur=clotchés.org
+|année=
+|éditeur=
+|consulté le=
+}}</ref> (1930) (Georges Sibilot arkitécte). 
+* Calvoère ed Saint-Marcoult
+* Capelle Note-Danme d’ Bon Secours<ref>{{Lien web
+|url=http://clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/80/accueil_80585a.htm
+|titre=Capelle Note-Danme-ed-Bon-Secours dite auchi Note-Danme-d'chés-Remparts
+|auteur=clotchés.org
+|année=
+|éditeur=
+|consulté le=
+}}</ref> (1869) 
+* L'Heutel d’ville (1930)  (Georges Sibilot arkitécte). 
+* Ech [[Longue paume|Ju de paume]] 
+* Ech pavillon ed l'ésposition univarselle d’1889. Il o té trinsporté à Nèle in 1900. Achteure ch’est un cabaret-éspectaque.
+
+== Fétes ==
+
+* Fouére d'oculi (in marche – troésième diminche ed carême)
+* Fouére à chés poulains (in octobe édpuis 1899) 
+* Martché d’Noé
+* Féte Saint-Pierre (in join)
+* Nuits celtiques (in moai)
+
+== Coupe Cassel ==
+* L’coupe Cassel ch’est un tournoé fédéral ed ju d’ [[Longue paume|longue paume]] créé par Jules Cassel in 1929. 
+== Parsonnalités loyées à l’conmeune ==
+ 
+* '''chés seigneurs ed Nèle''' :
+::Ives d’ Nèle (XII{{e}} sièque)
+:: Drogon (1030-1097)
+:: Raoul Ier (1060-1121)
+
+* '''Raoul II d’ Nèle''', Comte ed Clérmont (1095-1157)
+* '''Raoul III d’ Nèle''', Comte ed Soissons (1150 - 1235)
+* '''Blondel d’ Nèle''' (entre 1175 et 1210) l’est né à Nèle. Ch’étôt ch’pache à Richard Tchœur éd Lion pi il o foait libérer ch’roé qu’étôt prisonier du duc d’Eutriche  (Léopold V de Babenberg).
+* '''Louis III d’Mailly-Nèle''', Marquis d’ Nèle et pi d’ Mailly.
+* Chés '''''Sœurs d’Nèle''''' ; Filles à Louis III d’Mailly-Nèle et pi favorites d’Louis XV.
+[[image:C. Van Loo - Les Trois Grâces.jpg|center-200px|thumb|<center>'''Chés troés Graces''' <br>- <br>Carle van Loo (~ 1763)</center>]]
+
+::Louise Julie d’Mailly-Nèle (1710-1751), 
+::Pauline Félicité d’Mailly-Nèle (1712-1741), 
+::Diane Adélaïde d’Mailly-Nèle (1713-1760) et pi
+::Marie-Anne d’Mailly-Nèle (1717-1744) ; 
+Ch’pinte Charles André van Loo, dit Carle van Loo, il les couésit conme modèle pour foaire ech tableau <<Chés Troés Graces>> (catieu d’Chenonceau). 
+
+
+== Notes pi référinches ==
+<references />
+
+* Paul Decagny, ''Nesle et ses environs''  (1844), réimprimée in 1988.
+* Pierre Leroy, ''Nesle, Histoire de ville Histoire de France''  (Tome 1 : 1996, Tome 2 : 1998).
+* {{article
+| langue=
+| prénom1=Xavier 
+| nom1=Hélary
+| lien auteur1=
+| titre=L’édition électronique du cartulaire de la seigneurie de Nesle - http://www.cn-telma.fr/nesle/
+| périodique =''Bulletin du centre d’études médiévales d’Auxerre''
+| lien périodique =
+| jour=
+| mois=
+| année=2007
+| volume=
+| numéro=
+| pages=
+| issn=
+| url texte=http://cem.revues.org/index1136.html
+| consulté le=
+}}
+=== Loïens intarnètes ===
+
+* [http://www.ville-nesle.fr Site del mérrie d' Nèle]
+* [http://wikiwix.com/cache/?url=http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087%26CommuneId=75111 Nèle dseur l' site ed l'Institut géographique national]
+* {{Lien web
+|url=http://www.lesmortspourlafrance80.fr/nesle/nesle.htm
+|titre=Lisse ed chés Morts pour la Franche d'Nèle
+|auteur=
+|année=
+|site=Les Morts pour la France 
+|consulté le=
+}}
+* {{Lien web
+|url=http://www.patrimoine-de-france.org/richesses-81-23864.html#ville
+|titre=Nèle
+|auteur=
+|année=
+|site=l' site du "Patrimoine de France"
+|consulté le=
+}}
+* [http://www.persee.fr/web/revues/home/prescript/article/jds_0021-8103_1973_num_4_1_1292_t1_0303_0000_2 Les seigneurs de Nesle en Picardie (XIIe-XIIIe siècle)]
+* [http://lepaysneslois.com/medias/fichiers/communes/nesle.pdf site del conmeunité d'conmeunes]
+* [http://www.persee.fr/web/revues/home/prescript/article/jds_0021-8103_1973_num_4_1_1292_t1_0303_0000_2 www.persee.fr/Les Seigneurs de Nesle en Picardie, William Mendel Newman]
+* Site intarnète du Tennis Club Neslois: [http://tcnesle.com/ Tennis Club Nèloé]
+
+[[Catégorie:Conmunes del Sonme]]
+{{Commonscat|Nesle|Nèle}}
+
+[[ca:Nesle]]
+[[ceb:Nesle]]
+[[de:Nesle]]
+[[en:Nesle]]
+[[es:Nesle]]
+[[eu:Nesle]]
+[[fr:Nesle]]
+[[it:Nesle]]
+[[mg:Nesle]]
+[[nl:Nesle]]
+[[oc:Nesle]]
+[[pl:Nesle]]
+[[pt:Nesle]]
+[[uk:Нель (Сомма)]]
+[[vi:Nesle]]
+[[vo:Nesle]]
+[[war:Nesle]]

@@ -28,7 +28,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[eo:Terkarbo]]
 [[es:Carbón]]
 [[et:Kivisüsi]]
-[[eu:Ikatz]]
+[[eu:Harrikatz]]
 [[fa:زغال‌ سنگ]]
 [[fi:Kivihiili]]
 [[fr:Charbon]]

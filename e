@@ -55,6 +55,7 @@
 [[lbe:Най]]
 [[lt:Naminė bitė]]
 [[lv:Eiropas medus bite]]
+[[ms:Lebah Eropah]]
 [[nds:Westliche Honnigimm]]
 [[nl:Honingbij]]
 [[nn:Europeisk honningbie]]

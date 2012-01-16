@@ -1,0 +1,231 @@
+{{Infoboète Cour d'ieu
+ | nom = Sonme
+ | autres noms =
+ | image = [[Fichier:Somme.JPG|300px]]
+ | légende image = La Sonme.
+ | carte = 
+ | légende carte =
+ | longueur = 245
+ | longueur notes = 
+ | bassin = 6550
+ | bassin notes = <br>(5&nbsp;560&nbsp;km² à [[Advile]])<ref>{{Lien web
+  | url=http://www.hydro.eaufrance.fr/index.php
+  | titre=Station E6470092 - La Somme à Abbeville, données hydrologiques de synthèse (1963 - 2009)
+  | éditeur=Service central d'hydrométéorologie et d'appui à la prévision des inondations (SCHAPI), banque Hydro
+  | consulté le=
+  }}</ref>
+ | bassin collecteur = Bassin ed la Sonme
+ | débit = 35.00
+ | débit lieu = [[Advile]]
+ | débit notes = 
+ | régime = Pluvial ochéanique
+ | source = Au sud-ouet ed la cinse Fervaques pi ed la Motte (126 m)
+ | source localisation = [[Fonsonme]], Ainne [[Picardie]]
+ | source altitude = 86
+ | source latitude = 49.9064
+ | source longitude = 3.4028
+ | embouchure = Manche
+ | embouchure localisation = [[Saint-Wary]]
+ | embouchure altitude = 0
+ | embouchure latitude = 50.1867
+ | embouchure longitude = 1.6431
+ | affluents rive gauche = [[Avre (rivière)|Avre]], [[Selle (affluent de la Somme)|Selle]], [[Saint-Landon]], [[Airaines (rivière)|Airaines]], [[Amboise (rivière)|Amboise]]
+ | affluents rive droite = [[Omignon]], [[Ancre (rivière)|Ancre]], [[Hallue]], [[Nièvre (affluent de la Somme)|Nièvre]], [[Scardon]]
+ | pays = {{Franche}}
+ | régions = [[Picardie]]
+ | villes = [[Saint-Kintin]], [[Péronne (Sonme)|Péronne]], [[Corbie]], [[Anmien]], [[Advile]], [[Saint-Wary]]
+ | sources =
+ | géolocalisation = France
+|sources=SANDRE, Géoportail
+}}
+La '''Sonme''' ch’est un fleufe dins l’région [[Picardie]]. 
+
+Ch’viu nom ch’est '''Samara''', cha vient des mots gauloés :  som (calme) + aar (rivière) o bin ar (vallée). 
+[[Image:Quai belu amiens.JPG|thumb|280px|center|Ch’ tchai Bélu à Anmien]]
+
+L’ londjeur del Sonme ch’est {{unité|245|km}}<ref>{{Lien web
+|url=http://www.somme.fr/developpement-durable/le-grand-projet-vallee-de-somme/presentation-de-la-vallee.html
+|titre=Présentation de la vallée
+|auteur=conseil général de la somme
+|année=
+|éditeur=
+|consulté le=
+}}</ref>{{,}}<ref>{{Lien web
+|url=http://www.ameva.org/?q=content/le-bassin-versant/eaux-superficielles-et-souterraines
+|titre=Eaux superficielles et souterraines
+|auteur=AMEVA - syndicat mixte
+|année=
+|éditeur=
+|consulté le=
+}}</ref>{{,}}<ref>. ch'est ch' cours d'ieu aveuc ech canal maritime d'[[Advile]] à [[Saint-Wary]] foait pour protéger [[L’Crotoé]] (l' plage orientée au sud, l' pus au nord in Franche métropolitaine) </ref>
+
+La Sonme ale vo dins la [[Manche (mer)|Manche]] par l' [[beie d' Sonme]] inte [[L’Crotoé]] et pi [[Saint-Wary]].
+
+
+ [[Image:Marquenterre, France.JPG|right|270px|thumb|Chés oazos à  Marquintérre]]
+
+<center>
+
+'''Débit moïen mensuel ed la Sonme (in m³/s)<br> mesuré à l'éstacion idrolodjique d'[[Advile]] <br>-données calculées su 46 innées'''
+
+
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.8)
+  id:darkgrey  value:gray(0.3)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.8,0.9)
+
+ImageSize  = width:600 height:250
+PlotArea   = left:40 bottom:40 top:20 right:20
+DateFormat = x.y
+Period     = from:0 till:50
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:10 start:0
+ScaleMinor = gridcolor:lightgrey increment:2 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:Jan text:Janvier
+  bar:Fév text:Février
+  bar:Mar text:Mars
+  bar:Avr text:Avril
+  bar:Mai text:Mai
+  bar:Jun text:Juin
+  bar:Jul text:Juillet
+  bar:Aoû text:Août
+  bar:Sep text:Sept.
+  bar:Oct text:Oct.
+  bar:Nov text:Nov.
+  bar:Déc text:Déc.
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:Jan from:0 till: 39.70
+  bar:Fév from:0 till: 42.30
+  bar:Mar from:0 till: 42.70
+  bar:Avr from:0 till: 41.20
+  bar:Mai from:0 till: 38.40
+  bar:Jun from:0 till: 34.60
+  bar:Jul from:0 till: 30.70
+  bar:Aoû from:0 till: 27.50
+  bar:Sep from:0 till: 26.90
+  bar:Oct from:0 till: 28.60
+  bar:Nov from:0 till: 31.50
+  bar:Déc from:0 till: 34.90
+  
+
+PlotData=
+  bar:Jan at: 39.70 fontsize:S text: 39.70 shift:(-10,5)
+  bar:Fév at: 42.30 fontsize:S text: 42.30 shift:(-10,5)
+  bar:Mar at: 42.70 fontsize:S text: 42.70 shift:(-10,5)
+  bar:Avr at: 41.20 fontsize:S text: 41.20  shift:(-10,5)
+  bar:Mai at: 38.40 fontsize:S text: 38.40 shift:(-10,5)
+  bar:Jun at: 34.60  fontsize:S text: 34.60 shift:(-10,5)
+  bar:Jul at: 30.70 fontsize:S text:30.70  shift:(-10,5)
+  bar:Aoû at: 27.50 fontsize:S text: 27.50 shift:(-10,5)
+  bar:Sep at: 26.90 fontsize:S text: 26.90  shift:(-10,5)
+  bar:Oct at: 28.60 fontsize:S text: 28.60 shift:(-10,5)
+  bar:Nov at: 31.50 fontsize:S text: 31.50 shift:(-10,5)
+  bar:Déc at: 34.90 fontsize:S text: 34.90 shift:(-10,5)
+  
+</timeline>
+</center>
+
+
+=== Quèques affluints ===
+
+* source / mer (amont / aval)<ref>{{lien web
+|url=http://ameva.org/bassinversant/description.php
+|titre= bassin versant de la Somme
+|auteur= syndicat mixte d'Aménagement Hydraulique du bassin versant de la Somme
+|consulté le= }}</ref>
+
+{|
+|- valign="top"
+|
+* '''Rive gueuche'''
+# la [[Sonmette (rivière)|Sonmette]]
+# la [[Beine (rivière)|Beine]]
+# l'[[Ingon]] et [[Ingon|Tchot Ingon]]
+# l'[[Avre (rivière)|Avre]] avec [[Noye|Echaut]], [[Noée|gué du Nil]], [[Noée|rivière d’ Rouvroy]], [[Luce (rivière)|Luce]], [[Troés Doms]], [[Braches (affluent de l'Avre)|Braches]], [[Noée]] et [[Avre (rivière)|ru Saint Firmin]]
+# la [[Selle (affluent de la Somme)|Selle]] avec canal de Lamoricière, [[Évouéssons]], [[Évouéssons | Tchots Évouéssons]], [[Rivière d'Poé|rivière d'Poé]] et [[Évouéssons|rivière des Parquets]]
+# ech [[Saint-Landon]]
+# l'[[Airaines (rivière)|Airaines]]
+# la [[Trie (rivière)|Trie]]
+# l'[[Amboise (rivière)|Amboise]] et pi l'[[Amboise (rivière)|Avalasse]]
+|
+* '''Rive droéte'''
+# la [[Germaine (rivière)|Germaine]]
+# l'[[Omignon]]
+# la [[Cologne (rivière)|Cologne]]
+# la [[Tortille]]
+# l'[[Ancre (rivière)|Ancre]], aveuc [[Ancre (rivière)|Canal]], [[Ancre (rivière)|Fossé]], et  pi [[Ancre (rivière)|Boulangerie]]
+# l'[[Hallue]] et pi la [[Hallue|Nœlle]]
+# la [[Nièvre (affluent de la Somme)|Nièvre]] aveuc [[Nièvre (affluent de la Somme)|Domart]] et pi [[Nièvre (affluent de la Somme)|Fieffe]]
+# ech [[Scardon]] avec [[Scardon|Drucat]] et [[Scardon|Novion]]
+# ech [[Dien]] et pi la [[Dien|Rivière des Iles]]
+
+|}
+
+==Canal éd la Sonme==
+ [[Image:Mouth of the Somme.JPG|center|thumb|275px|L’ Béie d'Sonme]]
+Ech canal ed la Sonme il o té foait in 1770 - 1843. Il o té mis au gabarit Freycinet in 1880<ref >{{Lien web
+|url=http://services.sandre.eaufrance.fr/Courdo/Fiche/client/fiche_courdo.php?CdSandre=E6--009-
+|titre=Fiche cours d'eau - La Somme Canalisée (E6--009-)
+|auteur=SANDRE
+|année=
+|éditeur=
+|consulté le=
+}}</ref>.
+{{Commonscat| Somme River |Sonme}}
+
+=== Loïens intarnètes ===
+** [http://www.hydro.eaufrance.fr/selection.php chés éstations]
+
+* Advile - ''station de mesure gérée par la DIREN Nord Pas de Calais'' E6470910 (Bassin versant = 5560 km²)
+* Hangest su Sonme - ''station de mesure gérée par la DIREN Nord Pas de Calais'' E6440910 (Bassin versant = 4835 km²)
+* Péronne - ''station de mesure gérée par la DIREN Nord Pas de Calais'' E6351410 (Bassin versant = 1894 km²)
+* [[Hin]] (Estouilly) - ''station de mesure gérée par la DIREN Picardie'' E6351420 (Bassin versant = 390 km²)
+
+== Notes pi référinches ==
+<references />
+
+[[Catégorie:Jéografi]]
+[[Catégorie:Fleufes pi rivières]]
+[[als:Somme]]
+[[be:Рака Сома]]
+[[be-x-old:Сома (рака)]]
+[[bg:Сома]]
+[[br:Somme (stêr)]]
+[[cs:Somma]]
+[[cy:Afon Somme]]
+[[da:Somme (flod)]]
+[[de:Somme]]
+[[en:River Somme]]
+[[eo:Somme (rivero)]]
+[[es:Río Somme]]
+[[he:סום (נהר)]]
+[[it:Somme (fiume)]]
+[[ja:ソンム川]]
+[[la:Samara (flumen)]]
+[[lb:Somme (Floss)]]
+[[lt:Soma (upė)]]
+[[lv:Somma]]
+[[nl:Somme (rivier)]]
+[[nn:Elva Somme]]
+[[no:Somme (elv)]]
+[[oc:Somme (riu)]]
+[[pl:Somma (rzeka)]]
+[[pt:Rio Somme]]
+[[ro:Râul Somme]]
+[[ru:Сомма (река)]]
+[[sh:Somme]]
+[[sl:Soma]]
+[[sr:Сома (река)]]
+[[sv:Somme]]
+[[uk:Сомма (річка)]]
+[[vi:Sông Somme]]
+[[zh:索姆河]]

@@ -1,5 +1,5 @@
 <includeonly>{{Wikilien alternatif2
-|lien=s:
+|lien=s:{{if#:{{{lang|}}}|{{{lang}}}}}
 |image=Wikisource-logo.svg
 |texte=Vir dseur [[Wikisource]] : '''[[:s:{{{1|{{PAGENAME}}}}}|{{{2|{{PAGENAME}}}}}]]'''.
 |couleur_fond=f9f9f9

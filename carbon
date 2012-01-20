@@ -70,6 +70,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[oc:Carbon]]
 [[pdc:Kohl]]
 [[pl:Węgle kopalne]]
+[[pnb:کولہ]]
 [[ps:ډبرين سکاره]]
 [[pt:Carvão mineral]]
 [[qu:K'illimsa]]

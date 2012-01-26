@@ -1,0 +1,21 @@
+<includeonly>{{#if:{{#titleparts:{{{notice|}}}|1|1}}|
+{{Base Mérimée|{{#titleparts:{{{notice|}}}|1|1}}|{{#titleparts:{{{notice|}}}|1|1}}|source=non}}
+}}<!--
+-->{{#if:{{#titleparts:{{{notice|}}}|1|2}}|
+<br/>{{Base Mérimée|{{#titleparts:{{{notice|}}}|1|2}}|{{#titleparts:{{{notice|}}}|1|2}}|source=non}}
+}}<!--
+-->{{#if:{{#titleparts:{{{notice|}}}|1|3}}|
+<br/>{{Base Mérimée|{{#titleparts:{{{notice|}}}|1|3}}|{{#titleparts:{{{notice|}}}|1|3}}|source=non}}
+}}<!--
+-->{{#if:{{#titleparts:{{{notice|}}}|1|4}}|
+<br/>{{Base Mérimée|{{#titleparts:{{{notice|}}}|1|4}}|{{#titleparts:{{{notice|}}}|1|4}}|source=non}}
+}}</includeonly><noinclude>
+Ech dsous-modèle lo i permet d' mète in forme ch' loïen vers eune ou pusieus notices
+*{{Ligne de tableau MH/Notice|notice=}}
+*{{Ligne de tableau MH/Notice|notice=PA50000042}}
+*{{Ligne de tableau MH/Notice|notice=PA50000042/PA50000043}}
+
+==Vir étou==
+*[http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_98=DENO&VALUE_98=oeuvre%20sur%20plusieurs%20communes&DOM=Tous&REL_SPECIFIC=3 œuvre sur plusieurs communes]
+[[catégorie:Modèle]]
+</noinclude>

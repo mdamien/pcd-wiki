@@ -1,0 +1,56 @@
+<includeonly>{{Méta base Culture
+ | URL    = merimee
+ | nom    = la [[base Mérimée]]
+ | champ  = {{#if:{{{champ|}}}|{{{champ}}}|REF}}
+ | 1      = {{{1|}}}
+ | 2      = {{{2|}}}
+ | source = {{{source|}}}
+}}</includeonly><noinclude>
+{{Méta base Culture/Méta-documentation
+ | nom        = la [[base Mérimée]]
+ | exemple    = IA00001768
+ | clé de tri = Merimee
+}}
+== Paramètres ==
+
+{| class="wikitable"
+! scope="col" style="width:14em" | Paramètre
+! scope="col" | Description
+|-
+|champ
+|''Optionnel.'' Champ sur lequel se fait la recherche dans la base. Par défaut la recherche se fait sur le champ REF (référence de la notice).
+* valeur par défaut : <code>REF</code>
+|-
+|<nowiki>{{{1}}}</nowiki> (valeur à rechercher)
+|''Obligatoire.'' La valeur à rechercher dans la base dans le champ indiqué par <code><nowiki><champ></nowiki></code>.
+|-
+|<nowiki>{{{2}}}</nowiki> (description lien)
+|''Optionnel.'' Description du lien (si vide, le modèle affiche "notice {{numéro}}<nowiki>{{{1}}}</nowiki>")
+|-
+|source
+|''Optionnel.'' Si la valeur est <code>non</code>, la phrase « sur la [[base Mérimée]], [[ministère de la Culture (France)|ministère de la Culture]] » n'est pas affichée.
+|}
+
+== Eutes egzimpes ==
+Pour afficher la liste de toutes les notices relatives à une commune, on peut faire une recherche par code Insee. Ainsi :
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|champ=INSEE|60612|Liste des notices pour la commune de Senlis}}</code>
+*: donne : {{{{BASEPAGENAME}}|champ=INSEE|60612|Liste des notices pour la commune de Senlis}}
+
+Pour afficher la liste de tous les monuments historiques d'une commune, on peut faire une recherche par code Insee. Ainsi :
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>|champ=INSEE&DOM=MH|56018|Liste des monuments historiques de la commune de Billiers}}</nowiki></code>
+*: donne : {{{{BASEPAGENAME}}|champ=INSEE&DOM=MH|56018|Liste des monuments historiques de la commune de Billiers}}
+
+Pour afficher le résultat d'une requête, on met <code>champ=REQ</code> et le copier-coller du critère de recherche qui apparaît en bas de la page du résultat d'une [http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=NOUVEAU recherche]. Exemple :
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|champ=REQ|((16015) :LOCA,PLOC,INSEE ET ((eglise) :DENO,PARN,REMA,ACTU,PDEN,MHPP ))|Liste des églises d'Angoulême}}</code>
+*: donne : {{{{BASEPAGENAME}}|champ=REQ|((16015) :LOCA,PLOC,INSEE ET ((eglise) :DENO,PARN,REMA,ACTU,PDEN,MHPP ))|Liste des églises d'Angoulême}}
+
+== Eutes Modèles ==
+{{Commonscat|Template:Mérimée|Mérimée}}
+* {{m|Méta base Culture}}
+* {{m|Base Palissy}}
+* {{m|Base Mémoire}}
+* {{m|Base Joconde}}
+
+{{DEFAULTSORT:Merimee}}
+[[Catégorie:Modèle]]
+</noinclude>

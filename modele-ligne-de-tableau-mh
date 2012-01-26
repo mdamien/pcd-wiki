@@ -1,0 +1,16 @@
+<includeonly>|-
+| {{#if:{{{tri|}}}|<span style="display:none" class="sortkey">{{{tri}}} <nowiki>!</nowiki></span>{{{monument}}}|{{{monument}}}}}
+| {{#if:{{{département|}}}| {{#if:{{{tri département|}}}|<span style="display:none" class="sortkey">{{{tri département}}} <nowiki>!</nowiki></span>{{{département|}}}|{{{département|}}}}}
+{{!}} }}{{#if:{{{commune|}}}| {{#if:{{{tri commune|}}}|<span style="display:none" class="sortkey">{{{tri commune}}} <nowiki>!</nowiki></span>{{{commune|}}}|{{{commune|}}}}}
+{{!}} }} {{#if:{{{tri adresse|}}}|<span style="display:none" class="sortkey">{{{tri adresse}}} <nowiki>!</nowiki></span>{{{adresse|}}}|{{{adresse|}}}}}
+| {{#if:{{{latitude|}}}|{{#if:{{{longitude|}}}|{{Coord/link|dms-lat={{coord/dec2dms|{{{latitude}}}|Nord|Sud|dms}}|dms-long={{coord/dec2dms|{{{longitude}}}|Est|Ouest|dms}}|dec-lat={{{latitude}}}|dec-long={{{longitude}}}|param={{{latitude}}}_N_{{{longitude}}}_E_type:landmark_region:FR|default=dms long|name={{{titre coordonnées|{{{monument|}}}}}}}}|à&nbsp;géolocaliser}}|à&nbsp;géolocaliser}}
+| {{#if:{{{notice|}}}|{{Ligne de tableau MH/Notice|notice={{{notice}}}}}|}}
+| {{{protection|}}}
+| {{{date|}}}
+| {{#if:{{{image|}}}|[[Fichier:{{{image}}}|{{#if:{{{portrait|}}}|75|100}}px|center|alt={{{titre coordonnées|{{{monument|}}}}}}]]|[[Image:defaut.svg|100px|alt=poin d'image]]}}
+</includeonly><noinclude>
+[[Catégorie:Modèle]]
+[[de:Vorlage:Ligne de tableau MH]]
+[[eo:Ŝablono:Linio de tabelo de HM]]
+[[nl:Sjabloon:Tabelrij rijksmonument]]
+</noinclude>

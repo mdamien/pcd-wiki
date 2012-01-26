@@ -1,0 +1,16 @@
+<includeonly>{| class="wikitable sortable" style="width:100%; margin-top:0.5em;"
+|-
+! scope="col" | Monumint
+! scope="col" {{#ifeq:{{{département}}}|oui| {{!}} Départmint
+! scope="col" }}{{#ifeq:{{{commune}}}|non|| {{!}} {{{titre commune|Conmeune}}}
+! scope="col" }}{{#ifeq:{{{adresse}}}|non|| {{!}} Adresse
+! scope="col" }} class="unsortable" | Coordonnées
+! scope="col" | Notice
+! scope="col" | Protéction
+! scope="col" | Date
+! scope="col" class="unsortable" width="100px"| Image</includeonly><noinclude>
+[[Catégorie:Modèle]]
+[[de:Vorlage:En-tête de tableau MH]]
+[[eo:Ŝablono:Kapumo de tabelo de HM]]
+[[nl:Sjabloon:Tabelkop rijksmonumenten]]
+</noinclude>

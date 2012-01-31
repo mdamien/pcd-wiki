@@ -1,0 +1,429 @@
+{{Conmune
+ | nomcommune         = Wérdrecque
+| image              = 
+ | image-desc         = 
+ | armoiries          = Blason Wardrecques.svg
+ | armoiries-desc     = 
+ | armoiries-taille   = 80
+ | logo               = 
+ | logo-desc          = 
+ | logo-taille        =
+|région=[[Nord-Pas-d'Caleus]]
+|département=[[Pas-d'Caleus (départémint)|Pas-d'Caleus]]
+| canton             = [[Aire-su-la-Lys]]
+ | insee              = 62875
+ | cp                 = 62120
+ | maire              = Louis-Cainne
+|mandat=2008-2014
+ | intercomm          = '''Conmeunité d'ramòÿmint <br /> d’ Saint-Omé
+ | longitude          = 2.34472222222
+ | latitude           = 50.7111111111
+ | alt mini           = 21
+ | alt maxi           = 69
+|alt moy=
+|hectares=372
+ | km²                = 3.72
+ | sans               = 1163
+ | date-sans          = 2009
+ | dens               = 287
+ | géoloc-département = Pas-de-Calais
+}}
+'''Wérdrecque''' (in frinsé: ''''' Wardrecques ''''')  ch'est ène  conmeune picarte, plachée dins ch' départémint   dech [[Pas-d'Caleus (départémint)|Pas-d'Caleus]] pi dins  l'  région [[Nord-Pas-d'Caleus]].
+
+== Aménistrachon ==
+[[Fichier:Wardrecques.svg|thumb|thumb|300px|center|<center>{{PAGENAME}} dins sin canton <br />et pi <br />dins l'arrondichemint d'Saint-Omé</center>]]
+{{ÉluDébut |Titre= Lisse d’chés maires }}
+{{Élu |Début= 1995 |Fin=2014 |Identité= Louis Cainne |Parti=Divers droéte |Qualité= }}
+{{ÉluDonnées}}
+{{ÉluFin}}
+
+==Nombe ed gins==
+{{Démographie2
+ | colonnes          = 9
+ | largeur-tableau   = 60%
+ | titre             = 
+ | marge-interlignes = 18px
+ | taille-police     = 90%
+ | hauteur-lignes    = 120%
+ | hyperliens-années = on
+ | années-fond       = #F5F5F5
+ | population-fond   = #F3FFF3
+ | notes-fond        = #F5F5F5;font-size:90%
+ | style-notes       = 
+ | 1793 | {{formatnum:208}}
+ | 1800 | {{formatnum:244}}
+ | 1806 | {{formatnum:316}}
+ | 1821 | {{formatnum:353}}
+ | 1831 | {{formatnum:404}}
+ | 1836 | {{formatnum:418}}
+ | 1841 | {{formatnum:421}}
+ | 1846 | {{formatnum:394}}
+ | 1851 | {{formatnum:379}}
+ | 1856 | {{formatnum:383}}
+ | 1861 | {{formatnum:347}}
+ | 1866 | {{formatnum:344}}
+ | 1872 | {{formatnum:378}}
+ | 1876 | {{formatnum:417}}
+ | 1881 | {{formatnum:424}}
+ | 1886 | {{formatnum:445}}
+ | 1891 | {{formatnum:383}}
+ | 1896 | {{formatnum:390}}
+ | 1901 | {{formatnum:360}}
+ | 1906 | {{formatnum:320}}
+ | 1911 | {{formatnum:362}}
+ | 1921 | {{formatnum:502}}
+ | 1926 | {{formatnum:506}}
+ | 1931 | {{formatnum:513}}
+ | 1936 | {{formatnum:554}}
+ | 1946 | {{formatnum:520}}
+ | 1954 | {{formatnum:562}}
+ | 1962 | {{formatnum:518}}
+ | 1968 | {{formatnum:530}}
+ | 1975 | {{formatnum:541}}
+ | 1982 | {{formatnum:946}}
+ | 1990 | {{formatnum:1034}}
+ | 1999 | {{formatnum:1068}}
+ | 2006 | {{formatnum:1153}}
+ | 2009 | {{formatnum:1163}}
+| sources           = Base Cassini ed l'EHESS dousqu'in 1962<ref>
+{{Lien web
+ | url         = http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat=41186
+| titre       = Notice conmeunale ed {{PAGENAME}}
+ | site        = el base Cassini
+ | consulté le =
+}}</ref>, base Insee à partir d'1968<ref>
+{{Lien web
+ | url         = http://www.recensement.insee.fr/chiffresCles.action?zoneSearchField=&codeZone=62875-COM&idTheme=3
+| titre       = Nombe ed gins - {{PAGENAME}}
+ | site        = l' site ed l'Insee
+ | consulté le =
+}}</ref>{{,}}<ref>
+{{Lien web
+ | url         = http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/commune.asp?depcom=62875&annee=2006
+| titre       = Nombe ed gins au 1{{er}} d'janvié 2006
+ | site        = l' site ed l'Insee
+ | consulté le =
+}}</ref>{{,}}<ref>
+{{Lien web
+ | url         = http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/commune.asp?depcom=62875
+| titre       = Nombe ed gins 2009
+ | site        = l' site ed l'Insee
+ | consulté le =
+}}</ref>.
+}}		
+						
+<center>						
+<timeline>						
+Colors=						
+  id:lightgrey value:gray(0.9)						
+  id:darkgrey value:gray(0.7)						
+  id:sfondo value:rgb(1,1,1)						
+  id:barra value:rgb(0.7,0.9,0.7)						
+ImageSize  = width:800 height:350						
+PlotArea   = left:50 bottom:30 top:30 right:50						
+DateFormat = x.y						
+Period =from:0 till:1200						
+TimeAxis   = orientation:vertical						
+AlignBars  = justify						
+ScaleMajor = gridcolor:darkgrey increment:100 start:0						
+ScaleMinor = gridcolor:lightgrey increment:50 start:0						
+						 
+BackgroundColors = canvas:sfondo						
+BarData=						
+  bar:1791						
+  bar:1792						
+  bar:1793						
+  bar:1794						
+  bar:1795						
+  bar:1796						
+  bar:1797						
+  bar:1798						
+  bar:1799						
+  bar:1800 text:1800						
+  bar:1801						
+  bar:1802						
+  bar:1803						
+  bar:1804						
+  bar:1805						
+  bar:1806						
+  bar:1807						
+  bar:1808						
+  bar:1809						
+  bar:1810						
+  bar:1811						
+  bar:1812						
+  bar:1813						
+  bar:1814						
+  bar:1815						
+  bar:1816						
+  bar:1817						
+  bar:1818						
+  bar:1819						
+  bar:1820 text:1820						
+  bar:1821						
+  bar:1822						
+  bar:1823						
+  bar:1824						
+  bar:1825						
+  bar:1826						
+  bar:1827						
+  bar:1828						
+  bar:1829						
+  bar:1830						
+  bar:1831						
+  bar:1832						
+  bar:1833						
+  bar:1834						
+  bar:1835						
+  bar:1836						
+  bar:1837						
+  bar:1838						
+  bar:1839						
+  bar:1840 text:1840						
+  bar:1841						
+  bar:1842						
+  bar:1843						
+  bar:1844						
+  bar:1845						
+  bar:1846						
+  bar:1847						
+  bar:1848						
+  bar:1849						
+  bar:1850						
+  bar:1851						
+  bar:1852						
+  bar:1853						
+  bar:1854						
+  bar:1855						
+  bar:1856						
+  bar:1857						
+  bar:1858						
+  bar:1859						
+  bar:1860 text:1860						
+  bar:1861						
+  bar:1862						
+  bar:1863						
+  bar:1864						
+  bar:1865						
+  bar:1866						
+  bar:1867						
+  bar:1868						
+  bar:1869						
+  bar:1870						
+  bar:1871						
+  bar:1872						
+  bar:1873						
+  bar:1874						
+  bar:1875						
+  bar:1876						
+  bar:1877						
+  bar:1878						
+  bar:1879						
+  bar:1880 text:1880						
+  bar:1881						
+  bar:1882						
+  bar:1883						
+  bar:1884						
+  bar:1885						
+  bar:1886						
+  bar:1887						
+  bar:1888						
+  bar:1889						
+  bar:1890						
+  bar:1891						
+  bar:1892						
+  bar:1893						
+  bar:1894						
+  bar:1895						
+  bar:1896						
+  bar:1897						
+  bar:1898						
+  bar:1899						
+  bar:1900 text:1900						
+  bar:1901						
+  bar:1902						
+  bar:1903						
+  bar:1904						
+  bar:1905						
+  bar:1906						
+  bar:1907						
+  bar:1908						
+  bar:1909						
+  bar:1910						
+  bar:1911						
+  bar:1912						
+  bar:1913						
+  bar:1914						
+  bar:1915						
+  bar:1916						
+  bar:1917						
+  bar:1918						
+  bar:1919						
+  bar:1920 text:1920						
+  bar:1921						
+  bar:1922						
+  bar:1923						
+  bar:1924						
+  bar:1925						
+  bar:1926						
+  bar:1927						
+  bar:1928						
+  bar:1929						
+  bar:1930						
+  bar:1931						
+  bar:1932						
+  bar:1933						
+  bar:1934						
+  bar:1935						
+  bar:1936						
+  bar:1937						
+  bar:1938						
+  bar:1939						
+  bar:1940 text:1940						
+  bar:1941						
+  bar:1942						
+  bar:1943						
+  bar:1944						
+  bar:1945						
+  bar:1946						
+  bar:1947						
+  bar:1948						
+  bar:1949						
+  bar:1950						
+  bar:1951						
+  bar:1952						
+  bar:1953						
+  bar:1954						
+  bar:1955						
+  bar:1956						
+  bar:1957						
+  bar:1958						
+  bar:1959						
+  bar:1960 text:1960						
+  bar:1961						
+  bar:1962						
+  bar:1963						
+  bar:1964						
+  bar:1965						
+  bar:1966						
+  bar:1967						
+  bar:1968						
+  bar:1969						
+  bar:1970						
+  bar:1971						
+  bar:1972						
+  bar:1973						
+  bar:1974						
+  bar:1975						
+  bar:1976						
+  bar:1977						
+  bar:1978						
+  bar:1979						
+  bar:1980 text:1980						
+  bar:1981						
+  bar:1982						
+  bar:1983						
+  bar:1984						
+  bar:1985						
+  bar:1986						
+  bar:1987						
+  bar:1988						
+  bar:1989						
+  bar:1990						
+  bar:1991						
+  bar:1992						
+  bar:1993						
+  bar:1994						
+  bar:1995						
+  bar:1996						
+  bar:1997						
+  bar:1998						
+  bar:1999						
+  bar:2000 text:2000						
+  bar:2001						
+  bar:2002						
+  bar:2003						
+  bar:2004						
+  bar:2005						
+  bar:2006						
+  bar:2007						
+PlotData=						
+ color:barra width:10 align:left						
+ bar:1793 from:0 till: 208						
+ bar:1800 from:0 till: 244						
+ bar:1806 from:0 till: 316						
+ bar:1821 from:0 till: 353						
+ bar:1831 from:0 till: 404						
+ bar:1836 from:0 till: 418						
+ bar:1841 from:0 till: 421						
+ bar:1846 from:0 till: 394						
+ bar:1851 from:0 till: 379						
+ bar:1856 from:0 till: 383						
+ bar:1861 from:0 till: 347						
+ bar:1866 from:0 till: 344						
+ bar:1872 from:0 till: 378						
+ bar:1876 from:0 till: 417						
+ bar:1881 from:0 till: 424						
+ bar:1886 from:0 till: 445						
+ bar:1891 from:0 till: 383						
+ bar:1896 from:0 till: 390						
+ bar:1901 from:0 till: 360						
+ bar:1906 from:0 till: 320						
+ bar:1911 from:0 till: 362						
+ bar:1921 from:0 till: 502						
+ bar:1926 from:0 till: 506						
+ bar:1931 from:0 till: 513						
+ bar:1936 from:0 till: 554						
+ bar:1946 from:0 till: 520						
+ bar:1954 from:0 till: 562						
+ bar:1962 from:0 till: 518						
+ bar:1968 from:0 till: 530						
+ bar:1975 from:0 till: 541						
+ bar:1982 from:0 till: 946						
+ bar:1990 from:0 till: 1034						
+ bar:1999 from:0 till: 1068						
+ bar:2006 from:0 till: 1153						
+ bar:2007 from:0 till: 1153						
+						
+TextData=						
+  fontsize:S pos:(50,10)						
+  text:Sources - base Cassini ed l'EHESS pi Insee.						
+</timeline>						
+</center>						
+						
+	
+{{clr}}
+
+== Chés monumints pi lius d'mémoére==
+* Église Note Danme 
+* Capelle ''« Quénivet »'' (XVIII{{e}} sièque)
+* Batimint pi parc dit éd l'Avé Maria
+
+
+== Notes pi référinches ==
+* François pi Guy Caron, ''Une sucrerie, une distillerie, une cartonnerie, ou l'histoire d'un site industriel à Wardrecques'', Généalogie 62, n°98 (2008) [http://www.morinie.com/Actualites5.htm#Wardrecques].
+
+<references />
+=== Loïens intarnètes ===
+* [http://www.recensement.insee.fr/searchResults.action?zoneSearchField=&codeZone=62875-COM Wérdrecque dseur l’site ed l'Insee]
+[[Catégorie:Conmune dech Pas-d'Caleus]]
+[[br:Wardrecques]]
+[[ca:Wardrecques]]
+[[ceb:Wardrecques]]
+[[en:Wardrecques]]
+[[es:Wardrecques]]
+[[eu:Wardrecques]]
+[[fr:Wardrecques]]
+[[it:Wardrecques]]
+[[mg:Wardrecques]]
+[[ms:Wardrecques]]
+[[nl:Wardrecques]]
+[[oc:Wardrecques]]
+[[pl:Wardrecques]]
+[[pms:Wardrecques]]
+[[pt:Wardrecques]]
+[[simple:Wardrecques]]
+[[uk:Вардрек]]
+[[vi:Wardrecques]]
+[[vo:Wardrecques]]
+[[war:Wardrecques]]

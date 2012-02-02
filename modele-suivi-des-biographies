@@ -1,0 +1,31 @@
+{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{#switch:{{{1|}}}
+|Cinéma=[[Catégorie:Portail:Biographie/Articles liés/Cinéma]]
+|Culture et arts=[[Catégorie:Portail:Biographie/Articles liés/Culture et arts]]
+|Littérature=[[Catégorie:Portail:Biographie/Articles liés/Littérature]]
+|Militaire=[[Catégorie:Portail:Biographie/Articles liés/Militaire]]
+|Musique=[[Catégorie:Portail:Biographie/Articles liés/Musique]]
+|Philosophie=[[Catégorie:Portail:Biographie/Articles liés/Philosophie]]
+|Politique=[[Catégorie:Portail:Biographie/Articles liés/Politique]]
+|Religion=[[Catégorie:Portail:Biographie/Articles liés/Religion]]
+|Sciences=[[Catégorie:Portail:Biographie/Articles liés/Sciences]]
+|Sexualité=[[Catégorie:Portail:Biographie/Articles liés/Sexualité]]
+|Sport=[[Catégorie:Portail:Biographie/Articles liés/Sport]]
+|[[Catégorie:Portail:Biographie/Articles liés/Général]]}}}}<noinclude>
+Ce modèle permet de catégoriser des articles dans [[:Catégorie:Portail:Biographie/Articles liés]]. <u>Il a vocation à être ajouté à des modèles</u> destinés exclusivement à des biographies, afin de faciliter le suivi de ce type d'articles.
+
+== Syntaxte ==
+Ajoutez simplement <pre>{{Suivi des biographies}}</pre> dans le code du modèle biographique.
+
+Il est possible de catégoriser plus finement les articles en ajoutant un nom de projet.
+# {{m|Suivi des biographies|Cinéma}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Cinéma}}
+# {{m|Suivi des biographies|Culture et arts}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Culture et arts}}
+# {{m|Suivi des biographies|Littérature}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Littérature}}
+# {{m|Suivi des biographies|Militaire}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Militaire}}
+# {{m|Suivi des biographies|Musique}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Musique}}
+# {{m|Suivi des biographies|Philosophie}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Philosophie}}
+# {{m|Suivi des biographies|Politique}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Politique}}
+# {{m|Suivi des biographies|Religion}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Religion}}
+# {{m|Suivi des biographies|Sciences}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Sciences}}
+# {{m|Suivi des biographies|Sexualité}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Sexualité}}
+# {{m|Suivi des biographies|Sport}} catégorisera les articles dans {{Catégorie|Portail:Biographie/Articles liés/Sport}}{{Catégorise|Portail:Biographie/Articles liés/Général|si c'est un article}}
+{{Catégorie biografie}}

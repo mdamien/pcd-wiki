@@ -1,0 +1,46 @@
+<includeonly>{{Méta base Culture
+ | URL    = joconde
+ | nom    = la [[Joconde (catalogue)|base Joconde]]
+ | champ  = {{#if:{{{champ|}}}|{{{champ}}}|REF}}
+ | 1      = {{{1|}}}
+ | 2      = {{{2|}}}
+ | source = {{{source|}}}
+}}</includeonly><noinclude>
+{{Méta base Culture/Méta-documentation
+ | nom        = la [[Joconde (catalogue)|base Joconde]]
+ | exemple    = M0289000220
+ | clé de tri = Joconde
+}}
+== Paramètres ==
+
+{| class="wikitable"
+! scope="col" style="width:14em" | Paramètre
+! scope="col" | Description
+|-
+|champ
+|''Optionnel.'' Champ sur lequel se fait la recherche dans la base. Par défaut la recherche se fait sur le champ REF (référence de la notice).
+* valeur par défaut : <code>REF</code>
+|-
+|<nowiki>{{{1}}}</nowiki> (valeur à rechercher)
+|''Obligatoire.'' La valeur à rechercher dans la base dans le champ indiqué par <code><nowiki><champ></nowiki></code>.
+|-
+|<nowiki>{{{2}}}</nowiki> (description lien)
+|''Optionnel.'' Description du lien (si vide, le modèle affiche "notice {{numéro}}<nowiki>{{{2}}}</nowiki>")
+|-
+|source
+|''Optionnel.'' Si la valeur est <code>non</code>, la phrase « sur la [[Joconde (catalogue)|base Joconde]], [[ministère de la Culture (France)|ministère de la Culture]] » n'est pas affichée.
+|}
+
+== Eutes egzimpes ==
+Pour la lisse des notices édseur un sujet :
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|champ=REPR|achille|Lisse des représintations d'Achille}}</code>
+*: donne : {{{{BASEPAGENAME}}|champ=REPR|achille|Lisse des représintations d'Achille}}
+
+== Modèles connexes ==
+* {{m|Méta base Culture}}
+* {{m|Base Palissy}}
+* {{m|Base Mérimée}}
+* {{m|Base Mémoire}}
+
+[[Catégorie:Modèle]]
+</noinclude>

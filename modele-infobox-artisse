@@ -1,0 +1,77 @@
+<noinclude>
+<!--==============================================================
+
+          AFFUTE : N'poin canger.
+
+==============================================================-->
+</noinclude><includeonly>{| class="infobox_v2" cellspacing="7"
+| class="entete" colspan="2" style="background-color: #7DA7D9; color: white;" | {{{nom|{{PAGENAME}}}}}
+|-
+{{#if:{{{image|}}} |
+{{!}} colspan="2" class="infoboximage" {{!}}
+[[Image:{{{image}}}|{{#if:{{{taille_image|}}}|{{{taille_image}}}|200px}}|center|{{#if:{{{légende|}}}|{{{légende}}}|Portait de {{{nom}}}}}]]}}
+|-
+{{#if:{{{légende|}}}|
+{{!}} colspan="2" style="text-align: center;" {{!}} {{{légende}}}
+}}
+|-
+{{Infobox/Séparateur|7DA7D9}}
+|-
+{{#if:{{{nom_de_naissance|}}}|
+! scope=row {{!}} Nom de naissance
+{{!}} {{{nom_de_naissance}}}
+}}
+|-
+! scope=row {{!}} Naissance
+| {{{date_de_naissance}}}{{#if:{{{lieu_de_naissance|}}}|<br />{{{lieu_de_naissance}}}}}
+|-
+{{#if:{{{date_de_décès|}}}|
+! scope=row {{!}} Décès
+{{!}} {{{date_de_décès}}}{{#if:{{{lieu_de_décès|}}}|<br />{{{lieu_de_décès}}}}}}}
+|-
+{{#if:{{{nationalité|}}}|
+! scope=row {{!}} Nationalité
+{{!}} {{{nationalité}}}}}
+|-
+{{#if:{{{activités|}}}|
+! scope=row {{!}} Activité(s)
+{{!}} {{{activités}}}}}
+|-
+{{#if:{{{formation|}}}|
+! scope=row {{!}} Formation
+{{!}} {{{formation}}}}}
+|-
+{{#if:{{{maître|}}}|
+! scope=row {{!}} Maître
+{{!}} {{{maître}}}}}
+|-
+{{#if:{{{élèves|}}}|
+! scope=row {{!}} Élèves
+{{!}} {{{élèves}}}}}
+|-
+{{#if:{{{mouvement|}}}|
+! scope=row {{!}} Mouvemint artistique
+{{!}} {{{mouvement}}}}}
+|-
+{{#if:{{{œuvres|}}}|
+! scope=row {{!}} Euves réputées
+{{!}} {{{œuvres}}}}}
+|-
+{{#if:{{{mécènes|}}}|
+! scope=row {{!}} Mécènes
+{{!}} {{{mécènes}}}}}
+|-
+{{#if:{{{influencé_par|}}}|
+! scope=row {{!}} Influincé par
+{{!}} {{{influencé_par}}}}}
+|-
+{{#if:{{{influence_de|}}}|
+! scope=row {{!}} Influinça
+{{!}} {{{influence_de}}}}}
+|-
+{{#if:{{{récompenses|}}}|
+! scope=row {{!}} Récompinses
+{{!}} {{{récompenses}}}}}
+|-
+{{Infobox/Notice|Infobox Artiste|7DA7D9}}
+|}{{Suivi des biographies|Culture et arts}}</includeonly><noinclude> </noinclude>

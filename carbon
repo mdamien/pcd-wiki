@@ -33,6 +33,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[fi:Kivihiili]]
 [[fr:Charbon]]
 [[fur:Cjarbon]]
+[[ga:Gual]]
 [[gd:Gual]]
 [[gl:Carbón]]
 [[he:פחם]]

@@ -1,0 +1,20 @@
+<noinclude>
+__NOTOC__
+<!--
+  N’insérer AUCUN blanc ou saut de ligne avant < noinclude > ou après < /noinclude >.
+-->
+<!-- ne pas déplacer ce qui suit, et surtout pas en dehors du < noinclude > ... < noinclude > -->
+
+<!-- fin de la zone à ne pas déplacer -->
+</noinclude>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nomgayant|{{PAGENAME}}}}}|ff6600|entete gayant
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
+}}
+{{Infobox/Ligne mixte
+ | Conmune
+ | {{{conmune|}}}
+}}
+<noinclude>[[Catégorie:Subroutines-pcd]][[catégorie:Infoboète]]</noinclude>

@@ -11,10 +11,9 @@ __NOTOC__
  | {{{nomgayant|{{PAGENAME}}}}}|ff6600|entete gayant
 }}
 {{Infobox/Image
- | {{{image|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
+ | {{{imache|}}}|{{#if:{{{imache-desc|}}}|{{{imache-desc|}}}|}}|280|{{{imache-desc|}}}|
 }}
 {{Infobox/Ligne mixte
  | Conmune
  | {{{conmune|}}}
-}}
-<noinclude>[[Catégorie:Subroutines-pcd]][[catégorie:Infoboète]]</noinclude>
+}}<noinclude>[[Catégorie:Subroutines-pcd]][[catégorie:Infoboète]]</noinclude>

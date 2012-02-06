@@ -1,0 +1,129 @@
+{{Infoboète Cour d'ieu
+|nom=ech Wimraw
+|image=Wimereux-fleuve-a-Wimereux.JPG
+|légende image=Ch' Wimraw din l' [[Wimraw|ville homonyme]]
+|longueur=22
+|module=1.06 
+|commune=[[Wimil]]
+|surf. bass.=78
+ | pays = {{Franche}}
+|régions=[[Nord-Pas-d'Caleus]]
+|villes=[[Wimil]], [[Wimraw]]
+ | régime = pluvial ochéanique
+|embouchure=l' [[Manche (mér)|Manche]]
+|embouchure altitude=0
+|embouchure localisation=[[Wimraw]]
+|embouchure latitude=50/46/13/N
+|embouchure longitude=1/36/25/E
+|bass. fluv. coll.=l' Wimraw
+|source=din ch' '''Parc naturel régional des Caps pi Mérais d'Opale'''
+|source altitude=103
+|source localisation=[[Colembert]]
+|source latitude=50.747222
+|source longitude=1.8425
+|référence=<br />[[Colembert]]
+|affluents rive gauche=Denacre, Pernes, Vignette
+|affluents rive droite=Grigny
+}}
+
+Ech '''Wimraw''' (in frinsé le ''Wimereux'') ch'est un p'tit fleufe cotier picard qui coule din l' départémint du [[Pas-d'Caleus (départémint)|Pas-d'Caleus]], din l' région [[Nord-Pas-d'Caleus]]. I s' jette din la [[Manche (mer)|Manche]]. 
+== Jourgrafie<ref name=sandre>{{lien web
+|url=http://sandre.eaufrance.fr/app/chainage/courdo/htm/E5200570.php?cg=E5200570
+|titre=Fiche wimraw (E5200570)
+|auteur=SANDRE
+|consulté le=}}</ref>. ==
+[[Fichier:Wimereux-embouchure_du_fleuve.JPG|300px|center|thumb|L'imbouchure dech Wimraw]]
+
+
+I prind s' source à [[Colembert]], pis i passe à [[Belle-et-Houllefort]], [[Conteville-lès-Boulonne]], [[Pernes]], [[Pittefaux]] pi [[Wimil]] et se jette dans la [[Manche (mer)|Manche]] à [[Wimraw]]. 
+
+; chés affluints
+Il y o quate affluints = 
+* édseur l' rive droéte, ch' rio d' Grigny (7,8 km,) 
+* édseur l' rive gueuche, ch' rio du Denacre  (5,6 km), ch' rio d' Pernes (2,3 km) et pi  la Vignette (4,2 km).
+
+
+<center>
+
+''' Débit moïen mensuel dech Wimraw (in m³/s)<br /> mesuré à l'éstacion idrolodjique d' Wimil'''<br />'''Données calculées su 28 innées'''
+
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.8)
+  id:darkgrey  value:gray(0.3)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.8,0.9)
+
+ImageSize  = width:600 height:225
+PlotArea   = left:40 bottom:40 top:20 right:20
+DateFormat = x.y
+Period     = from:0 till:3
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:lightgrey increment:1 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:Jan text:Janvié
+  bar:Fév text:Févrié
+  bar:Mar text:Marche
+  bar:Avr text:Avri
+  bar:Mai text:Moai
+  bar:Jun text:Join
+  bar:Jul text:Juillet
+  bar:Aoû text:Aout
+  bar:Sep text:Sept.
+  bar:Oct text:Oct.
+  bar:Nov text:Nov.
+  bar:Déc text:Déchimbe
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:Jan from:0 till: 2.000 
+  bar:Fév from:0 till: 1.390 
+  bar:Mar from:0 till: 1.210 
+  bar:Avr from:0 till: 0.936 
+  bar:Mai from:0 till: 0.595 
+  bar:Jun from:0 till: 0.301 
+  bar:Jul from:0 till: 0.261 
+  bar:Aoû from:0 till: 0.254 
+  bar:Sep from:0 till: 0.415 
+  bar:Oct from:0 till: 1.250 
+  bar:Nov from:0 till: 1.870 
+  bar:Déc from:0 till: 2.210 
+  
+
+PlotData=
+  bar:Jan at: 2.000 fontsize:S text: 2,00 shift:(-10,5)
+  bar:Fév at: 1.390 fontsize:S text: 1,39 shift:(-10,5)
+  bar:Mar at: 1.210 fontsize:S text: 1,21 shift:(-10,5)
+  bar:Avr at: 0.936 fontsize:S text: 0,936 shift:(-10,5)
+  bar:Mai at: 0.595 fontsize:S text: 0,595 shift:(-10,5)
+  bar:Jun at: 0.301 fontsize:S text: 0,301 shift:(-10,5)
+  bar:Jul at: 0.261 fontsize:S text: 0,261 shift:(-10,5)
+  bar:Aoû at: 0.254 fontsize:S text: 0,254 shift:(-10,5)
+  bar:Sep at: 0.415 fontsize:S text: 0,415 shift:(-10,5)
+  bar:Oct at: 1.250 fontsize:S text: 1,25 shift:(-10,5)
+  bar:Nov at: 1.870 fontsize:S text: 1,87 shift:(-10,5)
+  bar:Déc at: 2.210 fontsize:S text: 2,21 shift:(-10,5)
+  
+</timeline>
+</center>
+
+
+== Notes pi référinches ==
+=== Loïens intarnètes ===
+* [http://www.hydro.eaufrance.fr/selection.php Banque Hydro - Station E5205710 - Ech Wimraw à Wimil (option Synthèse)] (n'poin buquer l'case "Station en service") 
+* [http://www.nord-pas-de-calais.ecologie.gouv.fr/diren/_mediatheque/pdf/AZI/fiche/AZI03.pdf Altlas des zones inondables] du Wimraw
+* [http://carto.ecologie.gouv.fr/HTML_PUBLIC/Site%20de%20consultation/site.php?map=risque_zi.map&service_idx=24W&xmin=548365&xmax=560939&ymin=2638958&ymax=2642115&tampon=2000 carte interactive]</ref>.
+
+<references />
+
+{{Commonscat|Wimereux (River)|Wimraw}}
+[[Catégorie:Jéografi]]
+[[Catégorie:Fleufes pi rivières]]
+
+[[de:Wimereux (Fluss)]]
+[[fr:Wimereux (fleuve)]]
+[[nl:Wimereux (rivier)]]

@@ -1,0 +1,31 @@
+<includeonly>{{#ifeq:{{#titleparts:{{FULLPAGENAME}}|1}}
+|Modèle:Géolocalisation
+|{{#ifeq:{{SUBPAGENAME}}|Documentation
+|
+{{Documentation modèle en sous-page}}
+{{Documentation paramétrage de carte/Début|{{BASEPAGENAME}}|{{#titleparts:{{BASEPAGENAME}}||2}}|m={{{m|}}}<!---->}}
+{{{note|}}}<!--
+-->{{#if: {{{code|}}}|{{Documentation paramétrage de carte/Code|{{BASEPAGENAME}}<!---->}}<!---->}}<!--
+-->{{Documentation paramétrage de carte/Images alternatives|{{BASEPAGENAME}}<!---->}}<!--
+-->{{Documentation paramétrage de carte/Voir aussi|{{BASEPAGENAME}}|{{#titleparts:{{BASEPAGENAME}}||2}}<!---->}}<!--
+-->{{#if:{{{lien|}}}|
+{{{lien}}}
+}}<!--
+-->{{Documentation paramétrage de carte/Fin|{{{1|{{#titleparts:{{BASEPAGENAME}}|1|2}}<!---->}}}<!---->}}
+|
+{{Documentation modèle en sous-page}}
+{{Documentation paramétrage de carte/Début|{{PAGENAME}}|{{#titleparts:{{PAGENAME}}||2}}|m={{{m|}}}<!---->}}
+{{{note|}}}<!--
+-->{{#if: {{{code|}}}|{{Documentation paramétrage de carte/Code|{{PAGENAME}}<!---->}}<!---->}}<!--
+-->{{Documentation paramétrage de carte/Images alternatives|{{PAGENAME}}<!---->}}<!--
+-->{{Documentation paramétrage de carte/Voir aussi|{{PAGENAME}}|{{#titleparts:{{PAGENAME}}||2}}<!---->}}<!--
+-->{{#if:{{{lien|}}}|
+{{{lien}}}
+}}<!--
+-->{{Documentation paramétrage de carte/Fin|{{{1|{{#titleparts:{{PAGENAME}}|1|2}}<!---->}}}<!---->}}
+{{Documentation paramétrage de carte/Cat|{{PAGENAME}}|{{{1|{{#titleparts:{{PAGENAME}}||2}}<!---->}}}|zone={{ {{PAGENAME}}|zone}}|m={{{m|}}}<!---->}}
+}}
+|<span class="error">Le modèle {{M|Documentation paramétrage de carte en sous-page}} est réservé aux sous-pages de <code>Modèle:Géolocalisation</code>.</span>
+}}{{#ifeq:{{SUBPAGENAME}}|Documentation|[[Catégorie:Documentation de modèle]]}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

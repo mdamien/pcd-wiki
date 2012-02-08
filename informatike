@@ -24,6 +24,12 @@ Alimintation • Boètiè • Carte grafique • Carte mère • Carte son • C
 
 • Cleu USB  • Hub ou switch • Impriminte • Palète grafique • Modème • Onduleur • PDA • Voéteur • Escannère • Vintirad • Ouèbecam
 
+== Microlodjichièl ==
+[[Fichier:ROM BIOS.jpg|300px|thumb|Puche ROM BIOS<br /> aveuc un microlodjichièl]]
+* Din chés ordinateurs il y o un microlodjichièl aveuc chés instructions pour foaire el routine. Ech '''BIOS''' (''Basic Input Output System'') ch'est ch' microlodjichièl deul '''carte mère''' aveuc toutes chés routines éspéchifiques : '''boot''' (démarrage du système d'ésploitation), gestion d'chés '''intrées-sorties''', gestion ed l'énergie pi du r'froédissemint, etc...
+
+Ech microlodjichièl il est souvint dseur eune puche ed '''mémouère morte'''. In l'met à jour soit in cangeant l''''ROM''' (''Read Only Memory'') o bin achteure in écrivant à nouvieu édseur l' '''mémouère flache'''.
+
 == ches sistèmes d'ésploétation ==
 
 BeOS • BSD • DOS • GCOS • GNU/Linux • Mac OS • MVS • OS/2 • Solaris • TPF • Unix • Windows • Sistèmes tans réel • VxWorks

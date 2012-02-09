@@ -1,0 +1,12 @@
+<div class="img_toogle">
+<div class="geobox" title="Carte aménistrative">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Picardie|image|{{{type|}}}}}|280px|Vir l'carte aménistrative éd la Picardie]]
+{{#ifexpr:{{{2|}}}|{{G|Picardie|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|City|1{{{statut|4}}}}}| }}
+{{Fin de carte}}
+</div>
+<div class="geobox" title="Carte fisique">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Picardie|image|{{{type|relief}}}}}|280px|Vir l'carte fisique]]
+{{#ifexpr:{{{2|}}}|{{G|Picardie|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|City|1{{{statut|4}}}}}| }}
+{{Fin de carte}}
+</div>
+</div>

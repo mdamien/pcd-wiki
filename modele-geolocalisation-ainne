@@ -1,0 +1,22 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-(50.25))*-66.666666667}}
+|x={{#expr: ({{{3}}}-(2.75))*57.1428571428}}
+|image={{#switch: {{{2|}}}
+|relief=417x525-Carte-02-Aisne-R.jpg
+|relief1=417x525-Carte-02-Aisne-R1.jpg
+|#default=417x525-Carte-02-Aisne-A.jpg
+}}
+|iwidth=417
+|iheight=525
+|name=Ainne (départémint){{!}}Ainne
+|zone=département français
+|genre=fs'M
+|geo=-6679
+|top=50.25
+|bottom=48.75
+|left=2.75
+|right=4.50
+|projection=Projection équirectangulaire
+}}</includeonly><noinclude>
+{{Documentation paramétrage de carte<!--|code=1-->}}
+</noinclude>

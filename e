@@ -42,6 +42,7 @@
 [[en:Western honey bee]]
 [[es:Apis mellifera]]
 [[et:Meemesilane]]
+[[eu:Erle arrunt]]
 [[fi:Tarhamehiläinen]]
 [[fr:Apis mellifera]]
 [[fy:Huningbij]]

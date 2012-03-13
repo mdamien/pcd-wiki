@@ -87,12 +87,13 @@ La [[Colonne (rivière)|Colonne]], ch'est un tiot ru qu'passe à Rési.
 * '''Église ''Saint-Martin''''' <ref>[http://clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/80/accueil_80677.htm Clochers.org]</ref>{{,}}<ref>[http://40000clochers.com/Visite.asp?CP=80240&Ville=ROISEL 40000clotchés.com]</ref>
 [[Fichier:Roisel église 1.jpg|thumb|left|L'église]]
 {{clr|left}}
-* '''Heutel d' Ville''' (1926) (Maurice Lucet, arkitékte)
+* '''Heutel d' Ville''' (1926, Maurice Lucet, arkitékte)
 * Monumint à chés morts
-[[Fichier:Roisel monument-aux-morts (détail) 1.jpg|center|thumb|monumint à ches morts]]
+[[Fichier:Roisel monument-aux-morts (détail) 1.jpg|center|thumb|Monumint à chés morts]]
 
 * Salle des fiètes
-[[File:Roisel salle des fêtes 1.jpg|thumb|salle|200px|center]]
+[[File:Roisel salle des fêtes 1.jpg|thumb|Salle des fiètes|200px|center]]
+
 == Notes pi référinches ==
 <references />
 === Loïens intarnètes ===

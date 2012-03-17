@@ -1,8 +1,9 @@
-{{Babel|en|pcd-0}}
+{{#babel:en|pcd-0}}
 <div lang="en-US">
 My home wiki is the [[:en:User:Dcljr|English Wikipedia]]. ([[:en:User:Dcljr]])
 
 ''Note:'' This wiki contains {{NUMBEROFARTICLES}} articles.
-(See also [[Special:Statistics]], [[Special:NewPages]], [[Special:RecentChanges]].)
+(See also [[Special:Statistics]], [[Special:NewPages]], [[Special:RecentChanges]], [[Special:NewFiles]], [[Special:Log]].)
 </div>
+{{nobots}}
 [[en:User:Dcljr]]

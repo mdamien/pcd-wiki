@@ -1,27 +1,17 @@
+<!--- Page title --->
+<div style="position:absolute; z-index:100; right:45px; top:10px;" class="metadata"><small>''[[:pt:s:A minha pátria é a língua portuguesa|'''A minha pátria é a língua portuguesa!''']]''</small></div><div style="position:absolute; z-index:100; right:10px; top:10px;" class="metadata">[[File:Flags of Brazil and Portugal.svg|30px|link=:pt:CLPC]]</div></div> 
 <!--- Page style background --->
 {| style="width: 100%; background-color: #e2e7f7; border: 2px solid #4888aa; -moz-border-radius:15px; vertical-align: top;"
 | colspan="2" style="cellpadding=8; cellspacing=8" |
 <!-- Qoute section -->
 |-
 | style="background-color: #EFF8FF; border: 1px solid #8888aa; -moz-border-radius:15px; border-right-width:4px; border-bottom-width:4px; vertical-align: top;" colspan="2"|
-{| style="margin:auto; border-collapse:collapse; border-style:none; background-color:transparent; width:{{#if:  | 100% | auto}}; {{#if:  | border: 1px solid #AAAAAA;}}" class="cquote"
-| width="20" valign="top" style="color:#B2B7F2;font-size:{{#switch:25px
-|10px=20px
-|30px=60px
-|40px=80px
-|50px=100px
-|60px=120px
-|#default=35px}};font-family:'Times New Roman',serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
+{| style="margin:auto; border-collapse:collapse; border-style:none; background-color:transparent; width:100% ; {{#if:  | border: 1px solid #AAAAAA;}}" class="cquote"
+| width="20" valign="top" style="color:#B2B7F2;font-size:35px;font-family:'Times New Roman',serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
 | valign="top" style="padding:4px 10px;" | <div style="font-family:'Palatino Linotype'; font-style: italic; font-size:16px">No man is an island entire of itself; every man is a piece of the continent, a part of the main; if a clod be washed away by the sea, Europe is the less, as well as if a promontory were, as well as any manner of thy friends or of thine own were; any man's death diminishes me, because I am involved in mankind. And therefore never send to know for whom the bell tolls; it tolls for thee.
-| width="20" valign="bottom" style="color:#B2B7F2;font-size:{{#switch:25px
-|10px=20px
-|30px=60px
-|40px=80px
-|50px=100px
-|60px=120px
-|#default=36px}};font-family:'Times New Roman',serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
+| width="20" valign="bottom" style="color:#B2B7F2;font-size:36px;font-family:'Times New Roman',serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
 |-
-| colspan="3" style="padding-right: 4%" {{!}}<p style="font-size:smaller;text-align: right"><cite style="font-style:normal;">—[[:en:John Donne|John Donne]] in [[:s:Meditation_VII|''Meditation VII'']].</cite></p>
+| colspan="3" style="padding-right: 4%" | <p style="font-size:smaller;text-align: right"><cite style="font-style:normal;">—[[:en:John Donne|John Donne]] in [[:s:Meditation_VII|''Meditation VII'']].</cite></p>
 |}
 
 <!-- Description section -->
@@ -161,80 +151,62 @@ __NOTOC__
 
 [[File:Recife 2005 JAN 25 AncientAndModernCenter.jpg|center|thumb|450px|The new and the [[:en:Recife Antigo|old Recife]].]]
 
-== Quote ==
-[[Image:Spleen et ideal.jpg|200px|thumb|Spleen et ideal - Carlos Schwabe]]
+== Quotes ==
 {| style="margin:auto; border-collapse:collapse; border-style:none; background-color:transparent; width:{{#if:  | 100% | auto}}; {{#if:  | border: 1px solid #AAAAAA;}}" class="cquote"
-| width="20" valign="top" style="color:#B2B7F2;font-size:{{#switch:25px
-|10px=20px
-|30px=60px
-|40px=80px
-|50px=100px
-|60px=120px
-|#default=35px}};font-family:'Times New Roman',serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
+| width="20" valign="top" style="color:#B2B7F2;font-size:35px;font-family:'Times New Roman',serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
 | valign="top" style="padding:4px 10px;" | <div style="font-family:'Palatino Linotype'; font-style: italic; font-size:16px">La pensée est le labeur de l’intelligence, la rêverie en est la volupté.
-| width="20" valign="bottom" style="color:#B2B7F2;font-size:{{#switch:25px
-|10px=20px
-|30px=60px
-|40px=80px
-|50px=100px
-|60px=120px
-|#default=36px}};font-family:'Times New Roman',serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
+| width="20" valign="bottom" style="color:#B2B7F2;font-size:36px;font-family:'Times New Roman',serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
 |-
-| colspan="3" style="padding-right: 4%" {{!}}<p style="font-size:smaller;text-align: right"><cite style="font-style:normal;">—[[:fr:Victor Hugo|Victor Hugo]] in [[:fr:Les Miserables|''Les Miserables'']].</cite></p>
+| colspan="3" style="padding-right: 4%" |<p style="font-size:smaller;text-align: right"><cite style="font-style:normal;">—[[:fr:Victor Hugo|Victor Hugo]] in [[:fr:Les Miserables|''Les Miserables'']].</cite></p>
 |}
 
 {| style="margin:auto; border-collapse:collapse; border-style:none; background-color:transparent; width:{{#if:  | 100% | auto}}; {{#if:  | border: 1px solid #AAAAAA;}}" class="cquote"
-| width="20" valign="top" style="color:#B2B7F2;font-size:{{#switch:25px
-|10px=20px
-|30px=60px
-|40px=80px
-|50px=100px
-|60px=120px
-|#default=35px}};font-family:'Times New Roman',serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
+| width="20" valign="top" style="color:#B2B7F2;font-size:35px;font-family:'Times New Roman',serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
 | valign="top" style="padding:4px 10px;" | <div style="font-family:'Palatino Linotype'; font-style: italic; font-size:16px">There is in fact a heroism of virtue in the pride of this woman, who resists every seduction, the impulses of his own passion as well as the rapture of the senses</div>
-| width="20" valign="bottom" style="color:#B2B7F2;font-size:{{#switch:25px
-|10px=20px
-|30px=60px
-|40px=80px
-|50px=100px
-|60px=120px
-|#default=36px}};font-family:'Times New Roman',serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
+| width="20" valign="bottom" style="color:#B2B7F2;font-size:36px;font-family:'Times New Roman',serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
 |-
-{{#if:[[:w:José de Alencar|José de Alencar]], in [[:s:pt:Senhora|''Senhora'']].|
-{{!}} colspan="3" style="padding-right: 4%" {{!}} {{#if:[[:w:José de Alencar|José de Alencar]], in [[:s:pt:Senhora|''Senhora'']].|<p style="font-size:smaller;text-align: right"><cite style="font-style:normal;">—[[:w:José de Alencar|José de Alencar]], in [[:s:pt:Senhora|''Senhora'']].{{#if:|, {{{publication}}}}}</cite></p>}}
-}}
+|colspan="3" style="padding-right: 4%" | <p style="font-size:smaller;text-align: right"><cite style="font-style:normal;">—[[:w:José de Alencar|José de Alencar]], in [[:s:pt:Senhora|''Senhora'']].</cite></p>
 |}
 
 {| style="margin:auto; border-collapse:collapse; border-style:none; background-color:transparent; width:{{#if:  | 100% | auto}}; {{#if:  | border: 1px solid #AAAAAA;}}" class="cquote"
-| width="20" valign="top" style="color:#B2B7F2;font-size:{{#switch:25px
-|10px=20px
-|30px=60px
-|40px=80px
-|50px=100px
-|60px=120px
-|#default=35px}};font-family:'Times New Roman',serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
+| width="20" valign="top" style="color:#B2B7F2;font-size:35px;font-family:'Times New Roman',serif;font-weight:bold;text-align:left;padding:10px 10px;" | “
 | valign="top" style="padding:4px 10px;" | <div style="font-family:'Palatino Linotype'; font-style: italic; font-size:16px">Der Irrtum ist viel leichter zu erkennen, als die Wahrheit zu finden; jener liegt auf der Oberfläche, damit läßt sich wohl fertig werden; diese ruht in der Tiefe, danach zu forschen ist nicht jedermanns Sache.
-| width="20" valign="bottom" style="color:#B2B7F2;font-size:{{#switch:25px
-|10px=20px
-|30px=60px
-|40px=80px
-|50px=100px
-|60px=120px
-|#default=36px}};font-family:'Times New Roman',serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
+| width="20" valign="bottom" style="color:#B2B7F2;font-size:36px;font-family:'Times New Roman',serif;font-weight:bold;text-align:right;padding:10px 10px;" | ”
 |-
-| colspan="3" style="padding-right: 4%" {{!}}<p style="font-size:smaller;text-align: right"><cite style="font-style:normal;">—[[:de:Johann Wolfgang von Goethe|Johann Wolfgang von Goethe]] in [[:de:Maximen und Reflexionen|''Maximen und Reflexionen'']].</cite></p>
+| colspan="3" style="padding-right: 4%" |<p style="font-size:smaller;text-align: right"><cite style="font-style:normal;">—[[:de:Johann Wolfgang von Goethe|Johann Wolfgang von Goethe]] in [[:de:Maximen und Reflexionen|''Maximen und Reflexionen'']].</cite></p>
 |}
 
 == Other accounts ==
 * [[:pt:User:Lucia Bot|Lucia Bot]]
 * [[User:Ripchip Bot|Ripchip Bot]]
 
+== [[:commons:Category:Images sent by Béria Lima|My pictures]] ==
+<div style="width: 100%; -moz-column-count: 2;">
+; Pictures taken by me
+* [[:commons:Category:Files from Brazil by Béria Lima|Files from Brazil]]
+* [[:commons:Category:Files from Portugal by Béria Lima|Files from Portugal]]
+:* [[:commons:Category:Files from Aveiro by Béria Lima|Files from Aveiro]]
+:* [[:commons:Category:Files from Braga by Béria Lima|Files from Braga]]
+:* [[:commons:Category:Files from Lisboa by Béria Lima|Files from Lisbon]]
+:* [[:commons:Category:Files from Porto by Béria Lima|Files from Oporto]]
+:* [[:commons:Category:Files from Sintra by Béria Lima|Files from Sintra ]]
+* [[:commons:Category:Files from Spain by Béria Lima|Files from Spain]]
+
+; Files uploaded by me
+* [[:commons:Category:Files from Flickr uploaded by Béria Lima|Files from Flickr]]
+:* [[:commons:Category:Files of Lisboa uploaded by Béria Lima|Files of Lisbon from Flickr]]
+:* [[:commons:Category:Files of Porto uploaded by Béria Lima|Files of Oporto from Flickr]]
+* [[:commons:Category:Files from Wikimedia projects uploaded by Béria Lima|Files from Wikimedia projects]]
+
+; Pictures of me
+* [[:commons:Category:Béria Lima|Béria Lima]] (the category)
+</div>
 == Other Wikimedia projects ==
 <!--- Projetos Correlatos! rsrs ----------->
 <div style="clear:both;"></div>
 <center>
 {| class="toccolours"
-| style="background:#d3d3d3;color:#a52a2a text-align:center;width:100%;" colspan="14" | <big style="font-size:110%;"><center>'''Minhas [[w:en:Wikipedia:Userpage|páginas de Usuário]] em outros projetos wiki'''</center></big>
+| style="background:#d3d3d3;color:#a52a2a text-align:center;width:100%;" colspan="14" | <big style="font-size:110%;"><center>'''My [[:en:WP:UP|User pages]] in other wiki projects'''</center></big>
 |-
 | valign="middle" bgcolor="ffffff" | <center>[[image:Wikipedia-logo-pt.png|60px]]</center>
 | valign="middle" bgcolor="ffffff" | <center>[[image:Wikipedia-logo-en.png|60px]]</center>
@@ -246,8 +218,6 @@ __NOTOC__
 | valign="middle" bgcolor="ffffff" | <center>[[Image:Wiktionary-logo-pt.png|60px]]</center>
 | valign="middle" bgcolor="ffffff" | <center>[[Image:Wikiversity-logo.svg|60px]]</center>
 | valign="middle" bgcolor="ffffff" | <center>[[Image:Test wiki logo.png|60px]]</center>
-| valign="middle" bgcolor="ffffff" | <center>[[image:Desciclopédia.png|60px]]</center>
-| valign="middle" bgcolor="ffffff" | <center>[[image:FLCross.jpg|100px]]</center>
 |-
 <!-- Páginas de Usuário -->
 | valign="middle" bgcolor="d3d3d3" | <center>'''[[:w:pt:User:Beria|((pt)) Wikipedia]]'''
@@ -260,8 +230,6 @@ __NOTOC__
 | valign="middle" bgcolor="d3d3d3" | <center>[[:pt:wikt:Usuário:Beria|Wikcionário]]
 | valign="middle" bgcolor="d3d3d3" | <center>[[:pt:v:Usuário:Beria|Wikiversidade]]
 | valign="middle" bgcolor="d3d3d3" | <center><span class="plainlinks">[http://test.wikipedia.org/wiki/User:Beria Test Wiki]
-| valign="middle" bgcolor="d3d3d3" | <center><span class="plainlinks">[http://desciclo.pedia.ws/wiki/Usu%C3%A1rio:B%C3%A9ria Desciclopédia]
-| valign="middle" bgcolor="d3d3d3" | <center><span class="plainlinks">[http://cristianismo.wikia.com/wiki/Usu%C3%A1rio:Beria Cristianismo Wiki]
 |-
 |}
 <!--- Fim dos Projetos Correlatos! rsrs ----------->
@@ -272,107 +240,80 @@ END OF MAIN BOX
 START OF TOP RIGHT-FLOAT BOX (portrait)-->
 <!-- Image section -->
 | style="width: 20%; background-color: #EFF8FF; border: 1px solid #8888aa; -moz-border-radius:15px; border-right-width:4px; border-bottom-width:4px; vertical-align: top;" rowspan="1"|
-[[Image:Béria Lima.jpg|250px|center||thumb]]
+[[Image:Spleen et ideal.jpg|220px|center|thumb|'''Spleen et Ideal'''<br /><p style="font-size:smaller;text-align: right">by Carlos Schwabe</p>]]
 <!-- Userboxes section -->
 |-
 | style="width: 20%; background-color: #EFF8FF; border: 1px solid #8888aa; -moz-border-radius:15px; border-right-width:4px; border-bottom-width:4px; vertical-align: top; text-align: center; height: 10px;" rowspan="2"|
 {|
 [[Image:Crystal Clear app package.png|35px]] <big>'''Userboxes'''</big>
 
+<!--- Babel -->
+{{#babel:pt-N|en-3|es-2|ca-2|gl-2|mwl-2|fr-1|it-1|an-1|oc-1}}
+<!-- Other userboxes -->
 
-{{babel|pt|en-2|es-2}}
 
-
-<div style="float:center; border:1px solid #909090; margin:1px;width:248px " class="wikipediauserbox ">
-{| cellspacing="0" style="width:238px; background:#D0E9FF;"
-{{#if:[[Image:Wikipedia-logo.png|45px|Wikipedia]]|
-! style="width:45px; height:45px; background:#fff; text-align:center; font-size:14pt; color:black; padding:0 1px 0 0; line-height:1.25em; vertical-align: middle; " {{!}} [[Image:Wikipedia-logo.png|45px|Wikipedia]]
-}}
-| style="text-align:left; font-size:8pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:black; vertical-align: middle; text-align:center;" {{#if:|class="{{{info-class}}}"}} | <span class="plainlinks">Eu [http://pt.wikipedia.org/wiki/Usuário:{{PAGENAMEE}} contribuo] para a '''[[:pt:Página principal|Wikipédia lusófona]]'''.<br /> 
--------
-I support '''[[:pt:Página principal|Lusophone Wikipedia]]''' with [http://pt.wikipedia.org/wiki/Usuário:{{PAGENAMEE}} my contributions].</span>
+<!-- Meta Adm box -->
+<div style="float:center; border:1px solid #999; margin:1px; width:238px">
+{| cellspacing="0" style="width:238px; background:#EEE;"
+| style="width:45px; height:45px; background:#DDD; text-align:center; font-size:14pt; color:black;" | '''[[File:Wikimedia Community Logo.svg|40 px]]'''
+| style="font-size:8pt; padding:4pt; line-height:1.25em; color:#000;" | This user is an [[Meta:Administrators|administrator]] on Meta-Wiki. <small>(<span class="plainlinks">[{{fullurl:Special:Listusers|limit=1&username={{PAGENAMEE}} verify}}]</span>)</small>
 |}</div>
+
+<!-- Commons Adm box -->
+<div style="float:center; border:1px solid #999; margin:1px; width:238px">
+{| cellspacing="0" style="width:238px; background:#EEE;"
+| style="width:45px; height:45px; background:#DDD; text-align:center; font-size:14pt; color:black;" | '''[[File:Commons-logo.svg|40 px]]'''
+| style="font-size:8pt; padding:4pt; line-height:1.25em; color:#000;" | This user is an [[:commons:Commons:Administrators|administrator]] on Commons. <small>(<span class="plainlinks">[{{fullurl:commons:Special:Listusers|limit=1&username={{PAGENAMEE}} verify}}]</span>)</small>
+|}</div>
+
+<!-- Strategy Adm box -->
+<div style="float:center; border:1px solid #999; margin:1px; width:238px">
+{| cellspacing="0" style="width:238px; background:#EEE;"
+| style="width:45px; height:45px; background:#DDD; text-align:center; font-size:14pt; color:black;" | '''[[File:Wikimedia Community Logo.svg|40 px]]'''
+| style="font-size:8pt; padding:4pt; line-height:1.25em; color:#000;" | This user is an [[:strategy:Commons:Administrators|administrator]] on Strategy-Wiki. <small>(<span class="plainlinks">[{{fullurl:strategy:Special:Listusers|limit=1&username={{PAGENAMEE}} verify}}]</span>)</small>
+|}</div>
+
+
+<!-- Wikimedia Portugal -->
 <div class="TemplateBUser" style="float:center; margin:1px; width:238px; border:1px solid #006300;">
 {| border="0" cellspacing="0" cellpadding="1" style="background-color:#ffffff; color:#000000; width:100%;"
 |-
-|class="TemplateBUserLeft" style="width:45px; height:45px; background-color:#FFFFFF; color:#000000; text-align:center; vertical-align:middle;"|<!--
-  -->{{#if:Wikimedia Portugal logo 135px.png|[[Image:Wikimedia Portugal logo 135px.png|45px|Wikimedia Portugal logo 135px.png]]}}<!--
-  -->{{#if:|[[Image:{{{imgd}}}|43px|{{{imgd}}}]]}}<!--
-  -->{{#if:|<br />[[Image:{{{img2}}}|43px|{{{img2}}}]]}}<!--
-  -->{{#if:|[[Image:{{{imgd2}}}|43px|{{{imgd2}}}]]}}<!--
-  -->{{#if:|<div class="TemplateBUserImgText" style="font-size:1.5em; line-height:1.25;">{{{img-text}}}</div>}}
-|class="TemplateBUserInfo" style="padding:1px 4px; vertical-align:middle;"|<!--
-  -->{{#if:|<!--
-    --><div class="plainlinks TemplateBUserLink" style="float:right; margin:0 0 0 1px; font-size:12px; line-height:1;"><!--
-      -->{{#if:|<!--
-        -->[[:Category:{{{category}}}|?]]|<!--
-        -->[[Special:Whatlinkshere/Template:User {{{link}}}|?]]<!--
-      -->}}<!--
-    --></div><!--
-  -->}}<!--
-  -->{{#if:|<!--
-    --><div class="TemplateBUserTitle" style="font-size:8pt; line-height:1.25;">'''{{{title}}}'''</div><!--
-  -->}}<!--
-  --><div class="plainlinks TemplateBUserText" style="font-size:0.83em; direction:ltr; line-height:1.25;">Este utilizador é membro da [http://www.wikimedia.pt/ Wikimedia Portugal].</div><!--
-  -->{{#if:|<!--
-    --><div style="margin:1px 0; border:0; padding:0; height:1px; background-color:#006300;"></div><!--
-    --><div class="plainlinks TemplateBUserText2" style="font-size:8pt; direction:ltr; line-height:1.25;">{{{text2}}}</div><!--
-  -->}}
-|}
-</div><!--
--->{{#if:||<!--
-  -->{{#ifeq:{{NAMESPACE}}|User|<!--
-    -->{{#if:|[[Category:{{{category}}}|{{PAGENAME}}]]}}<!--
-    -->{{#if:|[[Category:{{{category2}}}|{{PAGENAME}}]]}}<!--
-  -->}}<!--
--->}}
-
-<div style="float:center; border:1px solid #000000; margin:1px;width:248px " class="wikipediauserbox ">
-{| cellspacing="0" style="width:238px; background:#9acd32;"
-{{#if:[[Image:Map of Brazil with flag.svg|40px|Brazil]]|
-! style="width:45px; height:45px; background:white; text-align:center; font-size:14pt; color:black; padding:0 1px 0 0; line-height:1.25em; vertical-align: middle; " {{!}} [[Image:Map of Brazil with flag.svg|40px|Brazil]]
-}}
-| style="text-align:left; font-size:8pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:white; vertical-align: middle; text-align:center;" {{#if:|class="{{{info-class}}}"}} | This user comes from '''[[Brazil]]'''.
+|class="TemplateBUserLeft" style="width:45px; height:45px; background-color:#FFFFFF; color:#000000; text-align:center; vertical-align:middle;"|
+[[Image:Wikimedia Portugal logo 135px.png|45px|Wikimedia Portugal logo 135px.png]]
+|class="TemplateBUserInfo" style="padding:1px 4px; vertical-align:middle;"|
+<div class="plainlinks TemplateBUserText" style="font-size:0.83em; direction:ltr; line-height:1.25;">Este utilizador é membro da [http://www.wikimedia.pt/ Wikimedia Portugal].</div>
 |}</div>
 
+<!-- Wikimedia Argentina -->
+<div class="TemplateBUser" style="float:center; margin:1px; width:238px; border:1px solid #006300;">
+{| border="0" cellspacing="0" cellpadding="1" style="background-color:#ffffff; color:#000000; width:100%;"
+|-
+|class="TemplateBUserLeft" style="width:45px; height:45px; background-color:#FFFFFF; color:#000000; text-align:center; vertical-align:middle;"|
+[[File:Wikimedia Argentina logo.svg|45px|Wikimedia Argentina logo.svg]]
+|class="TemplateBUserInfo" style="padding:1px 4px; vertical-align:middle;"|
+<div class="plainlinks TemplateBUserText" style="font-size:0.83em; direction:ltr; line-height:1.25;">This user is member of [http://www.wikimedia.org.ar/ Wikimedia Argentina].</div>
+|}</div>
+
+<!-- IRC user -->
+<div style="float: center; width: 238px; border: solid #1E90FF 1px; margin: 1px;">
+{| cellspacing="0" style="width: 238px; color:#000000; background: #000000;"
+| style="width: 45px; height: 45px; background: #77aaff; text-align: center; font-size:14pt; color:#FFCC11" |[[Image:Crystal kdmconfig.png|36px]]
+| style="font-size: 8pt; padding: 4pt; line-height: 1.25em; background:#bbddff" | This user's [[IRC]] nick is '''Beria''' on the server '''[[:en:Freenode|Freenode]]'''.
+|}</div><noinclude>
+
+<!-- Time zone -->
 <div style="float:center; border:1px solid #ccc; margin:1px;width:248px " class="wikipediauserbox ">
 {| cellspacing="0" style="width:238px; background:#fff;"
-{{#if:[[Image:Nuvola apps kworldclock.png{{!}}43px{{!}}link=:en:Template:User time zone]]|
-! style="width:45px; height:45px; background:#ccc; text-align:center; font-size:12pt; color:black; padding:0 1px 0 0; line-height:1.25em; vertical-align: middle; " {{!}} [[Image:Nuvola apps kworldclock.png{{!}}43px{{!}}link=:en:Template:User time zone]]
-}}
-| style="text-align:left; font-size:8pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:black; vertical-align: middle; " {{#if:|class="{{{info-class}}}"}} | This user's time zone is '''{{#if:|[[{{{3}}}|UTC-0]]|[[:en:UTC-0|UTC-0]]}}'''.
+| style="width:45px; height:45px; background:#ccc; text-align:center; font-size:12pt; color:black; padding:0 1px 0 0; line-height:1.25em; vertical-align: middle; " | [[Image:Nuvola apps kworldclock.png|43px|link=:en:Template:User time zone]]
+| style="text-align:left; font-size:8pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:black; vertical-align: middle; " | This user's time zone is '''[[:en:UTC-3|UTC-3]]'''.
 |}</div>
 
-<div style="float:center; border:1px solid green; margin:1px;width:248px " class="wikipediauserbox ">
-{| cellspacing="0" style="width:238px; background:red;"
-{{#if:[[Image:Flag of Portugal.svg|35px]]|
-! style="width:45px; height:45px; background:green; text-align:center; font-size:14pt; color:black; padding:0 1px 0 0; line-height:1.25em; vertical-align: middle; " {{!}} [[Image:Flag of Portugal.svg|35px]]
-}}
-| style="text-align:left; font-size:8pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:white; vertical-align: middle; " {{#if:|class="{{{info-class}}}"}} | This user is in '''[[Portugal|<span style="color:white">Portugal</span>]]'''.
-|}</div>
-
-<div style="float:center; border:1px solid #000; margin:1px;width:248px " class="wikipediauserbox ">
-{| cellspacing="0" style="width:238px; background:#32CD32;"
-{{#if:[[Image:Luvbrasil.jpg]]|
-! style="width:45px; height:45px; background:#FFFF00; text-align:center; font-size:12pt; color:black; padding:0 1px 0 0; line-height:1.25em; vertical-align: middle; " {{!}} [[Image:Luvbrasil.jpg]]
-}}
-| style="text-align:left; font-size:9pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:black; vertical-align: middle; " {{#if:|class="{{{info-class}}}"}} | This user loves '''[[Brazil]]'''
-|}</div>
-
-<div style="float:center; border:1px solid navy; margin:1px;width:248px " class="wikipediauserbox ">
-{| cellspacing="0" style="width:238px; background:white;"
-{{#if:<font color=navy>[[Community of Portuguese Language Countries|CPLP]]</font>|
-! style="width:45px; height:45px; background:white; text-align:center; font-size:12pt; color:navy; padding:0 1px 0 0; line-height:1.25em; vertical-align: middle; " {{!}} <font color=navy>[[Community of Portuguese Language Countries|CPLP]]</font>
-}}
-| style="text-align:left; font-size:8pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:navy; vertical-align: middle; " {{#if:|class="{{{info-class}}}"}} | Este utilizador/usuário é '''<font color=navy>[[:pt:Lusofonia|Lusófono]]</font>'''. This user is '''<font color=navy>[[Lusophone]]</font>'''.
-|}</div>
-
-<div style="float: center; border:solid {{{1|#800}}} 1px; margin: 1px;width:248px ">
-{| cellspacing="0" style="width: 240px; background: {{{2|#080}}};"
-| style="width: 45px; height: 45px; background: {{{1|#EEE}}}; text-align: center; font-size: {{{5|12}}}pt; color: #000;" | '''{{{3|[[Image:Bandeira pt.gif|40px]]}}}'''
-| style="font-size: 8pt; padding: 4pt; line-height: 1.25em; color: #fff;" | {{{4|This brazilian user loves '''[[Portugal|<span style="color:white">Portugal</span>]]'''.}}}
-| style="width: 45px; height: 45px; background: {{{1|#EEE}}}; text-align: center; font-size: {{{5|12}}}pt; color: #000;" | '''{{{3|[[Image:Flags of Brazil and Portugal.svg|50px]]}}}'''
-|}</div>
-<div style="clear:both;"></div>
+<!-- Brazil <3 Portugal -->
+<div style="float: center; border:solid #800 1px; margin: 1px;width:248px ">
+{| cellspacing="0" style="width: 240px; background: #080;"
+| style="width: 45px; height: 45px; background: #EEE; text-align: center; font-size: 12pt; color: #000;" | '''[[Image:Bandeira pt.gif|40px]]'''
+| style="font-size: 8pt; padding: 4pt; line-height: 1.25em; color: #fff;" | This brazilian user loves '''[[Portugal|<span style="color:white">Portugal</span>]]'''.
+| style="width: 45px; height: 45px; background: #EEE; text-align: center; font-size: 12pt; color: #000;" | '''[[Image:Flags of Brazil and Portugal.svg|50px]]'''
+|}</div><div style="clear:both;"></div>
 |}
 |}

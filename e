@@ -74,4 +74,5 @@
 [[sv:Honungsbi]]
 [[tr:Bal arısı]]
 [[uk:Бджола медоносна]]
+[[vi:Ong mật phương Tây]]
 [[zh:西方蜜蜂]]

@@ -1,1 +1,20 @@
+{{#babel:en-N|simple-N|zh-hans-N|zh-hant-3|pcd-0}}
 [[m:User:Hydriz|See me on Meta]]
+
+== Wiki statistics ==
+{| class="wikitable"
+|-
+| Number of pages || {{NUMBEROFPAGES}} 
+|-
+| Number of articles || '''{{NUMBEROFARTICLES}}'''
+|-
+| Number of uploaded files || {{NUMBEROFFILES}}
+|-
+| Number of registered users || {{NUMBEROFUSERS}}
+|-
+| Number of active users || {{NUMBEROFACTIVEUSERS}}
+|-
+| Number of admins || {{NUMBEROFADMINS}}
+|-
+| Number of total edits || {{NUMBEROFEDITS}}
+|}

@@ -1,1 +1,1 @@
-mw.loader.load('http://meta.wikimedia.org/w/index.php?title=User:Thehelpfulone/global.js&action=raw&ctype=text/javascript');
+mw.loader.load('//meta.wikimedia.org/w/index.php?title=User:Thehelpfulone/global.js&action=raw&ctype=text/javascript');

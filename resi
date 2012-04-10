@@ -101,6 +101,7 @@ La [[Colonne (rivière)|Colonne]], ch'est un tiot ru qu'passe à Rési.
 [http://fr.geneawiki.com/index.php/80677_-_Roisel Généawiki]
 [[Catégorie:Conmunes del Sonme]]
 {{Commonscat|Roisel|Rési}}
+
 [[ca:Roisel]]
 [[ceb:Roisel]]
 [[de:Roisel]]
@@ -114,6 +115,7 @@ La [[Colonne (rivière)|Colonne]], ch'est un tiot ru qu'passe à Rési.
 [[oc:Roisel]]
 [[pl:Roisel]]
 [[pt:Roisel]]
+[[sk:Roisel]]
 [[uk:Руазель]]
 [[vi:Roisel]]
 [[vo:Roisel]]

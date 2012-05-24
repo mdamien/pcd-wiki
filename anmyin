@@ -178,7 +178,7 @@ PlotData=
 
 
 
-Boîte déroulante =  Maÿeurs d'Anmien edpuis el [[Révoluchon franchoèse|Révoluchon franchoèse]]
+Boîte déroulante =  Maÿeurs d'Anmien edpuis el [[Révoluchon franchoèse]]
 
 <div align="{{ #switch:{{{alignB}}} | gauche = left | droite = right | centre = center | left = left | right = right | center = center | #default = left }}">
 <div class="NavFrame" style="clear:both; margin-bottom:{{{margeBas|1em}}}; width:{{{largeur|99%}}}; border-style:solid; -moz-border-radius:{{{arrondi|0}}}; border-color:{{{couleurBordure|#AAAAAA}}}; background-color:{{{couleurFondB|#FFFFFF}}};" title="{{{label|[Dérouler]}}}" >
@@ -331,11 +331,11 @@ Boîte déroulante =  Maÿeurs d'Anmien edpuis el [[Révoluchon franchoèse|Rév
 </div></div>
 </noinclude>
 
-==Histoère==
+== Histoère ==
 
-[[File:Amiens, France, 1919 panorama.jpg|center|thumb|300px|1919]]
+[[Fichier:Amiens, France, 1919 panorama.jpg|center|thumb|300px|1919]]
 
-==Cultchure==
+== Cultchure ==
 === Musées ===
 * Ech [[Musée d’Picardie]] et pi ch’Musée d’l'heutel ed Berny. 
 * Galeriye du Vitrail 
@@ -425,6 +425,7 @@ Boîte déroulante =  Maÿeurs d'Anmien edpuis el [[Révoluchon franchoèse|Rév
 [[lv:Amjēna]]
 [[mg:Amiens]]
 [[mr:आमियां]]
+[[ms:Amiens]]
 [[nds:Amiens]]
 [[nl:Amiens]]
 [[nn:Amiens]]

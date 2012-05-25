@@ -34,7 +34,7 @@
 
 '''Arly''' (in frinsé: '''''Rely''''') ch'est ène conmeune picarte, plachée dins ch' départémint dech [[Pas-d'Caleus (départémint)|Pas-d'Caleus]] pi dins l' région [[Nord-Pas-d'Caleus]].
 
-==Histoère==
+== Histoère ==
 * In 863 Arly est dins l'Flande.
 * In 1180 ch'est dins la Franche.
 * In 1226, ch'villache il est donné à [[Robert Ier d'Artoé]], ch'fiu à Louis VIII d'Franche.
@@ -51,7 +51,7 @@
 {{ÉluDonnées}}
 {{ÉluFin}}
 
-==Nombe ed gins==
+== Nombe ed gins ==
 {{Démographie2						
 |colonnes           =9 						
 |largeur-tableau    =60% 						
@@ -124,12 +124,12 @@ Colors=
   id:darkgrey value:gray(0.7)						
   id:sfondo value:rgb(1,1,1)						
   id:barra value:rgb(0.7,0.9,0.7)						
-ImageSize  = width:800 height:350						
-PlotArea   = left:50 bottom:30 top:30 right:50						
+ImageSize = width:800 height:350						
+PlotArea = left:50 bottom:30 top:30 right:50						
 DateFormat = x.y						
 Period =from:0 till:510						
-TimeAxis   = orientation:vertical						
-AlignBars  = justify						
+TimeAxis = orientation:vertical						
+AlignBars = justify						
 ScaleMajor = gridcolor:darkgrey increment:100 start:0						
 ScaleMinor = gridcolor:lightgrey increment:20 start:0						
 						 
@@ -400,8 +400,9 @@ TextData=
 <references />
 === Loïens intarnètes ===
 * [http://wikiwix.com/cache/?url=http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087%26CommuneId=92207 Arly dseur l'site ed l'Institut géographique national]
-[[fr:Rely]]
+
 [[Catégorie:Conmune dech Pas-d'Caleus]]
+
 [[br:Rely]]
 [[ca:Rely]]
 [[ceb:Rely]]
@@ -418,6 +419,7 @@ TextData=
 [[pms:Rely]]
 [[pt:Rely]]
 [[simple:Rely, Pas-de-Calais]]
+[[sk:Rely (Pas-de-Calais)]]
 [[uk:Релі]]
 [[vi:Rely, Pas-de-Calais]]
 [[vo:Rely]]

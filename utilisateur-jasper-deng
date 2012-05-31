@@ -1,0 +1,1 @@
+[[:wikipedia:en:User:Jasper Deng]] {{#ifeq:{{CONTENTLANGUAGE}}|en|{{#babel:en-N|fr-2}}|{{#babel:en-N|fr-2|{{CONTENTLANGUAGE}}-0}}}}

@@ -32,7 +32,7 @@
 }}
 
 
-[[Image:Provin.jpg|thumb|170px|Provin dans son canton et son arrondissement]]
+[[Fichier:Provin.jpg|thumb|170px|Provin dans son canton et son arrondissement]]
 '''Provin''' (ou '''Prouvin'''), ch'est un tiot bourq dins l'départémint du Nord (région Nord-Pas-d'Caleu).
 
 I s'troufe inte les viles ed' Annoeullin, ed' Carvin, ed' Meurchin pi d' Bauvin.
@@ -142,12 +142,12 @@ Colors=
   id:darkgrey value:gray(0.7)						
   id:sfondo value:rgb(1,1,1)						
   id:barra value:rgb(0.7,0.9,0.7)						
-ImageSize  = width:800 height:350						
-PlotArea   = left:50 bottom:30 top:30 right:50						
+ImageSize = width:800 height:350						
+PlotArea = left:50 bottom:30 top:30 right:50						
 DateFormat = x.y						
 Period =from:0 till:4500						
-TimeAxis   = orientation:vertical						
-AlignBars  = justify						
+TimeAxis = orientation:vertical						
+AlignBars = justify						
 ScaleMajor = gridcolor:darkgrey increment:500 start:0						
 ScaleMinor = gridcolor:lightgrey increment:250 start:0						
 						
@@ -418,8 +418,9 @@ TextData=
 </timeline>						
 </center>						
 </center>
-==Notes==
+== Notes ==
 <references/>
+
 [[Catégorie:Viles picardes]]
 [[Catégorie:Conmunes dech Nord]]
 [[Catégorie:Nord-Pas-d'Caleus]]
@@ -439,6 +440,7 @@ TextData=
 [[pl:Provin]]
 [[ru:Провен (Нор)]]
 [[sk:Provin]]
+[[sv:Provin]]
 [[uk:Провен (Нор)]]
 [[vi:Provin]]
 [[vo:Provin]]

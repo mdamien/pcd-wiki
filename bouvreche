@@ -8,8 +8,8 @@
  | logo               = 
  | logo-desc          = 
  | logo-taille        = 
-|région=[[Picardie| Picardiye]]
-|département=[[Oése (départémint) |Oése]]
+|région= [[Picardie|Picardiye]]
+|département=[[Oése (départémint)|Oése]]
 |arrondissement=[[Bieuvais]]
  | canton             = [[Formerie|Formerie]]
  | insee              = 60098
@@ -33,7 +33,7 @@
  | siteweb            = 
 |géoloc-département =Picardie
 }}
-'''Bouvrèche''' ('''''Bouvresse''''' in françoés) ch’est un-ne conmeune picarte dech départmint d'l'[[Oése (départémint) |Oése]], din  l’région [[Picardie| Picardiye]].
+'''Bouvrèche''' ('''''Bouvresse''''' in françoés) ch’est un-ne conmeune picarte dech départmint d'l'[[Oése (départémint)|Oése]], din  l’région  [[Picardie|Picardiye]].
 == Aménistrachon ==
 {{ÉluDébut |Titre= Lisse d’chés maires }}
 {{Élu |Début=2001 |Fin=2014 |Identité=Fabrice Loncke<ref> Source : Gazète ''Le Réveil'' du 27 ed marche 2008 </ref> |Parti= Divers droéte|Qualité= }}
@@ -41,11 +41,11 @@
 {{ÉluDonnées}}
 {{ÉluFin}}
 
-==Suplitchet==
+== Suplitchet ==
 
 ::'''''Chés argneus d'Bouvrèche'''''
 
-==Nombe ed gins==
+== Nombe ed gins ==
 {{Démographie2
 |colonnes           =9 
 |largeur-tableau    =60% 
@@ -118,12 +118,12 @@ Colors=
   id:darkgrey value:gray(0.7)
   id:sfondo value:rgb(1,1,1)
   id:barra value:rgb(0.7,0.9,0.7)
-ImageSize  = width:750 height:340
-PlotArea   = left:50 bottom:30 top:30 right:50
+ImageSize = width:750 height:340
+PlotArea = left:50 bottom:30 top:30 right:50
 DateFormat = x.y
 Period =from:0 till:620
-TimeAxis   = orientation:vertical
-AlignBars  = justify
+TimeAxis = orientation:vertical
+AlignBars = justify
 ScaleMajor = gridcolor:darkgrey increment:100 start:0
 ScaleMinor = gridcolor:lightgrey increment:20 start:0
 
@@ -395,6 +395,7 @@ TextData=
 === Loïens intarnètes ===
 * [http://wikiwix.com/cache/?url=http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087%26CommuneId=56209 Bouvrèche dseur l'site ed l'Institut géographique national]
 * [http://www.recensement.insee.fr/searchResults.action?zoneSearchField=&codeZone=60098-COM Bouvrèche dseur l'site ed l'Insee]
+
 [[Catégorie:Conmunes éd l'Oése]]
 
 [[ca:Bouvresse]]
@@ -413,6 +414,7 @@ TextData=
 [[pt:Bouvresse]]
 [[sk:Bouvresse]]
 [[sr:Буврес]]
+[[sv:Bouvresse]]
 [[uk:Бувресс]]
 [[vi:Bouvresse]]
 [[vo:Bouvresse]]

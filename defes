@@ -36,7 +36,7 @@
 '''Dèfes''' (in frinsé: ''Desvres'') (in nirlindé: ''Deverne'')  ch'est eune conmune picarte plachée dins l'départémint de ch'[[Pas-d'Caleus (départémint)|Pas-d'Caleus]] pi dins l'région [[Nord-Pas-d'Caleus]].
 
 
-[[Image:Desvres_neige.jpg|center|thumb|316px|Dèfes édsous chés nèges vu édpuis ch' Mont Pelé]]
+[[Fichier:Desvres_neige.jpg|center|thumb|316px|Dèfes édsous chés nèges vu édpuis ch' Mont Pelé]]
 
 == Aménistrachon ==
 
@@ -130,12 +130,12 @@ Colors=
   id:darkgrey value:gray(0.7)						
   id:sfondo value:rgb(1,1,1)						
   id:barra value:rgb(0.7,0.9,0.7)						
-ImageSize  = width:800 height:350						
-PlotArea   = left:50 bottom:30 top:30 right:50						
+ImageSize = width:800 height:350						
+PlotArea = left:50 bottom:30 top:30 right:50						
 DateFormat = x.y						
 Period =from:0 till:5900						
-TimeAxis   = orientation:vertical						
-AlignBars  = justify						
+TimeAxis = orientation:vertical						
+AlignBars = justify						
 ScaleMajor = gridcolor:darkgrey increment:1000 start:0						
 ScaleMinor = gridcolor:lightgrey increment:200 start:0						
 						 
@@ -401,7 +401,7 @@ TextData=
   text:Sources - base Cassini ed l'EHESS pi Insee.						
 </timeline>						
 </center>						
-== Chés monumints pi lius d'mémoére==
+== Chés monumints pi lius d'mémoére ==
 * L'Moaison ed la Faïence (Bertrand Klein arkitécte - 1991)
 * Faïencerie pi fabrique d' gattes ''Fourmaintraux Courquin'', puis ''Charles Fourmaintraux''
 
@@ -409,21 +409,21 @@ TextData=
 * Ech Mont Hulin, ch'est ch'pus heut mont du [[Pas-d'Caleus (départémint)|Pas-d'Caleus]] (203 mètes dins ech massif ed La Cuesta).
 
 
-== Surpitchet==
+== Surpitchet ==
 
-::''''' Chés maqueus d'pavés    '''''
+::''''' Chés maqueus d'pavés '''''
 
 in dit étou :
 ::''Dèfes, ch'est ch'poéyis des bielles vaques pi d'chés laides files''.
 
 
 
-==Parsonnalitès loèyèes à l'conmeune==
+== Parsonnalitès loèyèes à l'conmeune ==
 
 * Jean Molinet (1435-1507) : croniqueu pi poéte, l'est né à Dèfes. 
 * Paul Bacquet (1881-1949) : homme politique
 * Adolphe Vincent (1896-1978) : homme politique
-* Henri Cornet (1884-1941) :  cyclisse, l'est né à Dèfes. [[image:Henri Cornet.jpg|150px|Henri Cornet]]
+* Henri Cornet (1884-1941) : cyclisse, l'est né à Dèfes. [[Fichier:Henri Cornet.jpg|150px|Henri Cornet]]
 Anne Ducros (1959- ) : canteuse éd djazz
 
 Dins chés vius tans il y avoait un coupe ed gayants lonmés Cat'leine pi Benoît.
@@ -434,7 +434,6 @@ Dins chés vius tans il y avoait un coupe ed gayants lonmés Cat'leine pi Benoî
 * [http://www.ville-desvres.fr/ Site deul mérrie]
 * [http://wikiwix.com/cache/?url=http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087%26CommuneId=58868 Dèfes dseur l'site ed l'Institut géographique national]
 * [http://www.recensement.insee.fr/searchResults.action?zoneSearchField=&codeZone=62268-COM Dèfes dseur l'site ed l'Insee]
-
 
 [[Catégorie:Conmune dech Pas-d'Caleus]]
 
@@ -457,6 +456,7 @@ Dins chés vius tans il y avoait un coupe ed gayants lonmés Cat'leine pi Benoî
 [[simple:Desvres]]
 [[sk:Desvres]]
 [[sr:Девр]]
+[[sv:Desvres]]
 [[uk:Девр]]
 [[vi:Desvres]]
 [[vo:Desvres]]

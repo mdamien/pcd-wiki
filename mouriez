@@ -32,11 +32,6 @@
 }}
 
 '''Mouriez''', ch'est eune tiote conmune du [[Pas-d'Caleus (départémint)|Pas-d'Caleus]] (région [[Nord-Pas-d'Caleus]]).
-
-[[Catégorie:Conmune dech Pas-d'Caleus]]
-
-
-
 [[Fichier:Dommartin portail du haut.png|400px|center]]
 
 
@@ -136,12 +131,12 @@ Colors=
   id:darkgrey value:gray(0.7)
   id:sfondo value:rgb(1,1,1)
   id:barra value:rgb(0.7,0.9,0.7)
-ImageSize  = width:800 height:350
-PlotArea   = left:50 bottom:30 top:30 right:50
+ImageSize = width:800 height:350
+PlotArea = left:50 bottom:30 top:30 right:50
 DateFormat = x.y
 Period =from:0 till:700
-TimeAxis   = orientation:vertical
-AlignBars  = justify
+TimeAxis = orientation:vertical
+AlignBars = justify
 ScaleMajor = gridcolor:darkgrey increment:100 start:0
 ScaleMinor = gridcolor:lightgrey increment:25 start:0
 BackgroundColors = canvas:sfondo
@@ -411,7 +406,7 @@ TextData=
 
 [[Fichier:Carte Mouriez Cassin.jpg|600px|center|thumb|<center>'''carte Cassini 1757''']]
 
-==Parsonnalitès loèyèes à l'conmeune==
+== Parsonnalitès loèyèes à l'conmeune ==
 L' famille à l'[[Antoine François Prévost|abé Prévost]] ale étot dech vilache, mais l'abé l'est né à [[Hédin]]<ref>J. Sgard, [http://books.google.fr/books?id=DqV8905urhQC&pg=PA12&lpg=PA12&dq=mouriez+%22abb%C3%A9+pr%C3%A9vost%22++-%22du+mouriez%22&source=bl&ots=IUhzPG7r4D&sig=sFdxCO19XyHAtD-feTNcsamsLWA&hl=fr&ei=9QYEStWAJZiZjAeFioHVBA&sa=X&oi=book_result&ct=result&resnum=1 ''Vie de Prévost, 1697-1763''], Presses Université Laval, Québec, Les collections de la République des Lettres - Études, 2006, 296 p., paches 12-24 et pi Lestocquoy J., 1950, [http://www.persee.fr/web/revues/home/prescript/article/ahess_0395-2649_1950_num_5_3_1851 Familles et état civil. I. Du monastère de la loge : la famille de l'abbé Prévost], dans ''Annales. Économies, Sociétés, Civilisations'', Volume 5, n° 3, paches 334-337, dseur ch'site d'érvues scyintifiques [http://www.persee.fr/web/guest/home/ Persée].</ref>.
 
 
@@ -423,11 +418,13 @@ L' famille à l'[[Antoine François Prévost|abé Prévost]] ale étot dech vila
 
 === Bibliografie ===
 
-* live = Jean-Claude Debril , ''Hesdin et son canton'' , collection = Mémoires en Images , éditeu = Alan Sutton ,  128 paches ,  ISBN  2-84910-179-6 , 2005 
-* live =  Philippe  Decroix , '' La maison rurale en Artois, Boulonnais et Calaisis'' ,  collection = Contribution à un inventaire régional , éditeu = Créer ,  Nonette , 96 paches ,  ISBN  978-2902894581 , 1999 
-* artike =   Jean-Michel  Dewailly , '' Habitat agricole et tourisme dans le pays de Montreuil : l'exemple de Mouriez'' ,  Hommes et terres du Nord , éditeu = Univarsité d'Lile I , n° 1  , paches = 48-54 , ISSN  0018-439X  ( 1974 )
-* live = Georges Gontcharoff ,''Dix territoires d'hier et d'aujourd'hui pour mieux comprendre le développement local'' ,Paris ,éditeu = Adels ,   150 paches ,ISBN 978-2-916368-06-1 , capite 7 = ''Une approche rurale - durable : le Pays des 7 Vallées'' (2008)
-* live =  Jean-Pierre  Johannes pi  Jean-Yves  Vincent ,  '' Le pays des 7 Vallées'' ,   éditeu = Punch ,  Wimille ,96 paches,  ISBN  2-913132-60-X  (2004)
+* live = Jean-Claude Debril , ''Hesdin et son canton'' , collection = Mémoires en Images , éditeu = Alan Sutton , 128 paches , ISBN 2-84910-179-6 , 2005 
+* live = Philippe Decroix , '' La maison rurale en Artois, Boulonnais et Calaisis'' , collection = Contribution à un inventaire régional , éditeu = Créer , Nonette , 96 paches , ISBN 978-2-902894-58-1 , 1999 
+* artike = Jean-Michel Dewailly , '' Habitat agricole et tourisme dans le pays de Montreuil : l'exemple de Mouriez'' , Hommes et terres du Nord , éditeu = Univarsité d'Lile I , n° 1 , paches = 48-54 , ISSN 0018-439X ( 1974 )
+* live = Georges Gontcharoff ,''Dix territoires d'hier et d'aujourd'hui pour mieux comprendre le développement local'' ,Paris ,éditeu = Adels , 150 paches ,ISBN 978-2-916368-06-1 , capite 7 = ''Une approche rurale - durable : le Pays des 7 Vallées'' (2008)
+* live = Jean-Pierre Johannes pi Jean-Yves Vincent , '' Le pays des 7 Vallées'' , éditeu = Punch , Wimille ,96 paches, ISBN 2-913132-60-X (2004)
+
+[[Catégorie:Conmune dech Pas-d'Caleus]]
 
 [[br:Mouriez]]
 [[ca:Mouriez]]
@@ -447,6 +444,7 @@ L' famille à l'[[Antoine François Prévost|abé Prévost]] ale étot dech vila
 [[pt:Mouriez]]
 [[simple:Mouriez]]
 [[sk:Mouriez]]
+[[sv:Mouriez]]
 [[uk:Мур'єз]]
 [[vi:Mouriez]]
 [[vo:Mouriez]]

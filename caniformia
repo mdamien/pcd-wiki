@@ -1,1 +1,125 @@
-Sé lé [[kien]] et lé [[ors]].
+{{Taxoboète début | animal | Caniformes | Lightmatter seal.jpg | Lion d' mér éd californie <br />(''Zalophus californianus'') }}
+{{Taxoboète | embranchement | Chordata }}
+{{Taxoboète | sous-embranchement | Vertebrata }}
+{{Taxoboète | classe | Mammalia }}
+{{Taxoboète | sous-classe | Theria }}
+{{Taxoboète | infra-classe | Eutheria }}
+{{Taxoboète | ordre | Carnivora }}
+{{Taxoboète taxon | animal | sous-ordre | Caniformia | Miklós Kretzoi, 1943 }}
+{{Taxoboète fin| Portail:Zoologie|zoologie }}
+
+Chés '''caniformes''' ('''''Caniformia''''') ch'est un  sous-ordre (biolodjie)  éd l' ordre des  Carnivora .
+Ch'est lé [[kien]]s et lé [[ors]].
+
+== Taxinomie ==
+=== Taxons éd rangs inférieurs ===
+Slon  ''Mammal Species of the World'' , il y o din ch' sous-ordre lo  chés familles  :
+*  Canidae  ( [[kien|kiens]],  leus …)
+*  Ursidae  ( [[ors]]…)
+*  Otariidae  ( otaries, …)
+*  Odobenidae  ( morses …)
+*  Phocidae  ( phoques…)
+*  Mustelidae  ( loutres,  furets…)
+*  Mephitidae  ( mouffettes)
+*  Procyonidae  ( raton laveur …)
+*  Ailuridae  ( roux panda , '' Symocyon '')
+
+Parmi chés familles fossiles il y o :
+* chés  Miacidae †
+* chés  Amphicyonidae †
+* chés  Hemicyonidae †
+* chés  Enaliarctidae †
+
+
+=== Abe phylogénétique ===
+{{clade | style=font-size:95%;line-height:95%
+  | label1 = &nbsp;&nbsp;&nbsp;'''Caniformia'''&nbsp;&nbsp;&nbsp;
+  | 1 = {{clade
+    | 1 = ? Miacidae †
+    | 2 =  Amphicyonidae †
+    | 3 =  Canidae 
+    | label4 = &nbsp;&nbsp;&nbsp;Arctoidea&nbsp;&nbsp;&nbsp;
+    | 4 = {{clade
+      | label1 = &nbsp;&nbsp;&nbsp;
+      | 1 = {{clade
+        | 1 =  Hemicyonidae †
+        | 2 =  Ursidae 
+        }}
+      | 2 = {{clade
+        | label1 =  Pinnipedia 
+        | 1 = {{clade
+          | 1 =  Enaliarctidae †
+          | 2 = {{clade
+            | label1 = &nbsp;&nbsp;&nbsp;
+            | 1 =  Phocidae 
+            | 2 = {{clade
+              | label1 = &nbsp;&nbsp;&nbsp;
+              | 1 =  Otariidae 
+              | 2 =  Odobenidae 
+              }}
+            }}
+          }}
+        | label2 = &nbsp;&nbsp;&nbsp; Musteloidea &nbsp;&nbsp;&nbsp;
+        | 2 = {{clade
+          | label1 = &nbsp;&nbsp;&nbsp;
+          | 1 =  Ailuridae 
+          | 2 = {{clade
+            | label1 = &nbsp;&nbsp;&nbsp;
+            | 1 =  Mephitidae 
+            | 2 = {{clade
+              | label1 = &nbsp;&nbsp;&nbsp;
+              | 1 =  Procyonidae 
+              | 2 =  Mustelidae 
+              }}
+            }}
+          }}
+        }}
+      }}
+    }}
+  }}
+
+== Notes pi référinches ==
+<references /> <!-- aide : http://fr.wikipedia.org/wiki/Aide:Notes et références -->
+
+
+=== Loyens intarnètes ===
+
+*  http://species.wikimedia.org/wiki/Carnivora
+{{Commonscat|Pinnipedia|Pinnipedia}}
+
+* Faunaeur|12633|''Caniformia'' }}
+* ITIS|180614|''Pinnipedia'' | nv }}
+* ITIS|552303|''Caniformia''  Kretzoi, 1943 }}
+* NCBI|379584|''Caniformia'' }}
+[[Catégorie:Manmifères]]
+[[az:İtkimilər]]
+[[ca:Caniforme]]
+[[de:Hundeartige]]
+[[en:Caniformia]]
+[[es:Caniformia]]
+[[eu:Caniformia]]
+[[fr:Caniformia]]
+[[fi:Caniformia]]
+[[gl:Caniformia]]
+[[hr:Canoidea]]
+[[hu:Kutyaalkatúak]]
+[[it:Caniformia]]
+[[ja:イヌ亜目]]
+[[ko:개아목]]
+[[la:Caniformia]]
+[[lb:Hondsdéieren]]
+[[lv:Suņveidīgie]]
+[[mk:Кучевидни]]
+[[nl:Caniformia]]
+[[no:Hundelignende rovpattedyr]]
+[[oc:Caniformia]]
+[[pl:Psokształtne]]
+[[pt:Caniformia]]
+[[ru:Псообразные]]
+[[simple:Caniformia]]
+[[sr:Caniformia]]
+[[stq:Canoidea]]
+[[sv:Hundliknande rovdjur]]
+[[tr:Köpeğimsiler]]
+[[uk:Песовиді]]
+[[vi:Phân bộ Dạng chó]]

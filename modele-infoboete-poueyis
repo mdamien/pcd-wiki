@@ -1,0 +1,235 @@
+<includeonly>{|border="0" align="right" cellpadding="4" width="300" style="float:right;margin:0.75em 0 1em 1em;width:46ex;background:#f9f9f9;border:1px #aaa solid;border-collapse:collapse;font-size:85%"<!---
+
+=============
+    TITRE
+=============
+Cette partie concerne les pays ayant leur nom local dans une seule langue
+
+-->{{#if:{{{nom_local|}}}|<nowiki/>
+{{!}}-
+{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{prononciation|}}}|<big>[[media:{{{prononciation}}}|{{{nom_local|}}}]]|{{{nom_local|}}}}} '''</big>{{#if:{{{langue|}}}|{{ {{{langue|}}} }}|}}
+}}<!--
+
+-->{{#if:{{{nom_local1|}}}|<nowiki/>
+{{!}}-
+{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{prononciation1|}}}|<big> [[media:{{{prononciation1}}}|{{{nom_local1|}}}]]|{{{nom_local1|}}}}} '''</big>{{ {{{langue1|{{{langue}}}}}} }}
+}}<!--
+
+-->{{#if:{{{nom_local2|}}}|<nowiki/>
+{{!}}-
+{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{prononciation2|}}}|<big> [[media:{{{prononciation2}}}|{{{nom_local2|}}}]]|{{{nom_local2|}}}}} '''</big>{{ {{{langue2}}} }}
+}}<!--
+
+-->{{#if:{{{nom_local3|}}}|<nowiki/>
+{{!}}-
+{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{prononciation3|}}}|<big> [[media:{{{prononciation3}}}|{{{nom_local3|}}}]]|{{{nom_local3|}}}}} '''</big>{{ {{{langue3}}} }}
+}}<!--
+
+-->{{#if:{{{nom_local4|}}}|<nowiki/>
+{{!}}-
+{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{prononciation4|}}}|<big> [[media:{{{prononciation4}}}|{{{nom_local4|}}}]]|{{{nom_local4|}}}}} '''</big>{{ {{{langue4}}} }}
+}}<!--
+
+-->{{#if:{{{nom_local5|}}}|<nowiki/>
+{{!}}-
+{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{prononciation5|}}}|<big> [[media:{{{prononciation5}}}|{{{nom_local5|}}}]]|{{{nom_local5|}}}}} '''</big>{{ {{{langue5}}} }}
+}}<!--
+
+-->{{#if:{{{nom_français|}}}|<nowiki/>
+{{!}}-
+{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{nom_français|}}}| {{{nom_français|}}}}} </big>'''{{fr}}
+}}<!-- fin de la partie traitant du nom du pays
+
+===========================
+IMAGES (DRAPEAU ET BLASON)
+===========================
+-->
+|-align="center" valign="top" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
+|align="center" colspan="2" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"|
+{|border="0" cellpadding="2" cellspacing="0" style="background-color:transparent;width:100%"
+|-valign="middle"
+|align="center" colspan="{{#if:{{{image_blason|}}}|1|2}}"| {{#if:{{{image_drapeau|}}}<!--
+-->|[[Image:{{{image_drapeau|}}}|125px|{{{bordure_drapeau|border}}}|{{{lien_drapeau}}}]]<!--
+-->|[[Image:Vlag ontbreekt.svg|125px|border|drapeau non défini]]<!--
+-->}}
+|align="center"| {{#if:{{{image_blason|}}}|[[Image:{{{image_blason}}}|85px|{{{lien_blason}}}]]|}}<!--
+
+Liens sous les images
+-->
+|-valign="middle"
+|align="center" colspan="{{#if:{{{image_blason|}}}|1|2}}"| <small>([[{{{lien_drapeau}}}]])</small><!--
+-->{{#if:{{{image_blason|}}}|<nowiki/>
+{{!}}align="center"{{!}} <small>([[{{{lien_blason}}}]])</small><!--
+-->}}
+|}<!---
+
+===========================
+         DEVISE
+===========================
+--->{{#if:{{{devise|}}}|<nowiki/>
+{{!}}-align="center" valign="top" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
+{{!}}colspan="2"{{!}} <small>[[Devise (phrase)|Devise nationale]] '': {{{devise}}}''</small><!--
+-->}}<!--
+
+===========================
+         CARTE
+===========================
+-->
+|-align="center" valign="top" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
+|colspan="2" style="text-align:center;padding:0.4em"| [[Image:{{{image_carte}}}|250px|{{{descr_carte|carte}}}]] {{#if:{{{descr_carte|}}}|<small><br />{{{descr_carte}}}</small>}}<!---
+
+===========================
+    LANGUES OFFICIELLES
+===========================
+--->{{#if:{{{langues_officielles|}}}|<nowiki/>
+{{Infobox Pays/Langues officielles|1={{{langues_officielles}}}}}<!--
+-->|<nowiki/>
+{{!}}-valign="top" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
+{{!}}style="white-space:nowrap"{{!}} '''{{{type_langues|[[Langue officielle]]}}}'''
+{{!}}{{!}} {{{langues|}}}<!--
+-->}}<!---
+
+===========================
+       VILLES DU PAYS 
+===========================
+--->
+|-valign="top" style="border-top:solid 1px #aaa;padding:0.4em 0.6em"
+| '''[[Liste des capitales du monde|Capitale]]'''
+| {{{capitale}}}<br /><small>{{{coordonnées_capitale}}}</small>
+|-valign="top" style="border-top:1px #aaa solid"
+| '''[[{{{lien_villes}}}|{{{titre_plus_grande_ville|}}}]]'''
+| {{{plus_grande_ville}}}<!--
+
+===========================
+       GOUVERNEMENT
+===========================
+-->
+{{Infobox Pays/Gouvernement|
+type_gouvernement={{{type_gouvernement}}}|
+titres_dirigeants={{{titres_dirigeants}}}|
+noms_dirigeants={{{noms_dirigeants}}}}}<!---
+
+===========================
+       STATISTIQUES 
+===========================
+--->
+{{Infobox Pays/Statistiques|
+superficie_rang={{{superficie_rang}}}|
+superficie_totale={{{superficie_totale}}}|
+pourcentage_eau={{{pourcentage_eau}}}|
+population_rang={{{population_rang}}}|
+population_rang_ref={{{population_rang_ref|}}}|
+population_totale={{{population_totale}}}|
+population_année={{{population_année}}}|
+densité={{{densité}}}}}<!---
+
+===========================
+    GROUPES ETHNIQUES
+===========================
+-->
+{{#if:{{{groupes_ethniques|}}}|
+{{!}}- valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
+{{!}} style="white-space:nowrap" {{!}} '''{{{type_ethnies|[[Ethnie|Groupes ethniques]]}}}'''
+{{!}} {{{groupes_ethniques|}}}{{{groupes|}}}
+}}<!--
+
+===========================
+       INDÉPENDANCE
+===========================
+-->{{#if:{{{date_indépendance|}}}|<nowiki/>
+{{Infobox Pays/Indépendance|
+type_indépendance={{{type_indépendance}}}|
+pays_indépendance={{{pays_indépendance}}}|
+date_indépendance={{{date_indépendance}}}}}<!--
+-->}}<!---
+
+===========================
+       FORMATION
+===========================
+-->{{#if:{{{date_formation|}}}|<nowiki/>
+{{Infobox Pays/Formation|
+type_formation={{{type_formation}}}|
+date_formation={{{date_formation}}}}}<!--
+-->}}<!---
+
+===========================
+     GENTILÉ
+===========================
+-->{{#if:{{{gentilé|}}}|<nowiki/>
+{{Infobox Pays/Gentilé|
+1={{{gentilé|}}}}}<!--
+-->}}<!--
+
+===========================
+     MONNAIE
+===========================
+-->{{#if:{{{monnaie|}}}|<nowiki/>
+{{Infobox Pays/Monnaie
+|monnaie={{{monnaie|}}}
+|code_monnaie={{{code_monnaie|}}}}}<!--
+-->}}<!--
+
+===========================
+     PIB
+===========================
+-->{{#if:{{{PIB_PPA|}}}|<nowiki/>
+{{!}}-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
+{{!}}style="white-space:nowrap"{{!}} '''[[Produit intérieur brut|PIB]] [[Parité de pouvoir d'achat|(PPA)]]''' ([[{{{PIBPPA_année}}}]])
+{{!}}{{!}} {{{PIB_PPA}}} ([[Liste des pays par PIB (PPA)|{{{PIBPPA_rang}}}]])<!--
+-->}}<!--
+
+-->{{#if:{{{PIB|}}}|<nowiki/>
+{{!}}-valign="top" style="border-top:1px #aaa solid"
+{{!}}style="white-space:nowrap"{{!}} '''[[Produit intérieur brut|PIB (nominal)]]''' ([[{{{PIB_année}}}]])
+{{!}}{{!}} {{{PIB|}}} ([[Liste des pays par PIB (nominal)|{{{PIB_rang}}}]])<!--
+-->}}<!--
+
+-->{{#if:{{{PIB_HAB|}}}|<nowiki/>
+{{!}}-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
+{{!}}style="white-space:nowrap"{{!}} '''[[Produit intérieur brut|PIB]] [[Parité de pouvoir d'achat|(PPA)]] [[PIB par habitant|par hab.]]''' ([[{{{PIBHAB_année}}}]])
+{{!}}{{!}} {{{PIB_HAB|}}} ([[Liste des pays par PIB (PPA) par habitant|{{{PIBHAB_rang|}}}]])<!--
+-->}}<!--
+
+===========================
+     IDH
+===========================
+-->{{#if:{{{IDH|}}}|<nowiki/>
+{{!}}-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
+{{!}}style="white-space:nowrap"{{!}} '''[[Indice de développement humain|IDH]]''' ([[{{{IDH_année}}}]])
+{{!}}{{!}} {{{IDH|}}} ({{{IDH_catégorie}}}) ([[Classement IDH des pays|{{{IDH_rang}}}]])<!--
+-->}}<!--
+
+===========================
+     FUSEAU HORAIRE
+===========================
+-->
+{{Infobox Pays/Fuseau horaire|1={{{fuseau_horaire}}}}}<!--
+
+===========================
+     HYMNE NATIONAL
+===========================
+-->
+{{Infobox Pays/Hymne national|1={{{hymne_national}}}}}<!--
+
+===========================
+     CODES ET INDICATIFS PAYS
+===========================
+-->
+|-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
+| '''[[ISO 3166-1|Code ISO 3166-1]]'''
+| {{{iso3166-1}}}
+{{Infobox Pays/Domaine internet|1={{{domaine_internet}}}}}
+{{Infobox Pays/Indicatif téléphonique|1={{{indicatif_téléphonique}}}}}<!--
+
+===========================
+     ORGANISATIONS INTERNATIONALES
+===========================
+-->{{#if:{{{organisations_internationales|}}}|<nowiki/>
+{{!}}-style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
+{{!}}colspan="2"{{!}} '''[[Organisation internationale|Organisations internationales]]'''
+{{!}}-
+{{!}}colspan="2"{{!}} {{{organisations_internationales|}}}<!--
+-->}}<!--
+
+-->
+|}</includeonly><noinclude>{{documentation}}<!-- toutes les métadonnées dans la sous-page de Documentation--></noinclude>

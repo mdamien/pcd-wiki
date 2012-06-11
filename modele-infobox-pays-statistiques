@@ -1,0 +1,9 @@
+<noinclude>{|align="right" border="0" cellpadding="4" style="float:right;margin:0.75em 0 1em 1em;;width:46ex;background: #f9f9f9;border:1px #aaa solid;border-collapse:collapse;font-size:85%;"</noinclude>
+|- valign="top" valign="top" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
+|style="white-space:nowrap"| '''Supérfichie'''<br />&nbsp;- Totale<br />&nbsp;- Ieu (%)
+| Classé {{{superficie_rang}}}{{#ifeq:{{{superficie_rang}}}|1|{{er}}|{{e}}}}{{{population_rang_ref}}}<br />{{nobr|1={{{superficie_totale}}} km{{exp|2}}}}<br />{{{pourcentage_eau}}}
+|- valign="top" style="border-top:solid 1px #aaa; padding: 0.4em 0.6em 0.4em 0.6em;"
+|style="white-space:nowrap"| '''Nombe éd gins'''<br />&nbsp;- Total ({{{population_année}}})<br />&nbsp;- Dinchité
+| Classé {{{population_rang}}}<sup>e</sup>]]<br />{{nobr|1={{{population_totale}}} hab.}}<br />{{{densité}}} hab./km{{exp|2}}<noinclude>
+|}
+{{documentation}}[[catégorie:Modèle]]</noinclude>

@@ -101,7 +101,7 @@ Liens sous les images
 | {{{plus_grande_ville}}}<!--
 
 ===========================
-       GOUVERNEMENT
+       GOUVERNEMINT
 ===========================
 -->
 {{Infobox Pays/Gouvernement|
@@ -174,19 +174,19 @@ date_formation={{{date_formation}}}}}<!--
 ===========================
 -->{{#if:{{{PIB_PPA|}}}|<nowiki/>
 {{!}}-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
-{{!}}style="white-space:nowrap"{{!}} '''[[Produit intérieur brut|PIB]] [[Parité de pouvoir d'achat|(PPA)]]''' ([[{{{PIBPPA_année}}}]])
-{{!}}{{!}} {{{PIB_PPA}}} ([[Liste des pays par PIB (PPA)|{{{PIBPPA_rang}}}]])<!--
+{{!}}style="white-space:nowrap"{{!}} '''PIB (PPA)''' ({{{PIBPPA_année}}})
+{{!}}{{!}} {{{PIB_PPA}}} ({{{PIBPPA_rang}}})<!--
 -->}}<!--
 
 -->{{#if:{{{PIB|}}}|<nowiki/>
 {{!}}-valign="top" style="border-top:1px #aaa solid"
-{{!}}style="white-space:nowrap"{{!}} '''PIB (nominal)''' ([[{{{PIB_année}}}]])
+{{!}}style="white-space:nowrap"{{!}} '''PIB (nominal)''' ({{{PIB_année}}})
 {{!}}{{!}} {{{PIB|}}} ({{{PIB_rang}}})<!--
 -->}}<!--
 
 -->{{#if:{{{PIB_HAB|}}}|<nowiki/>
 {{!}}-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
-{{!}}style="white-space:nowrap"{{!}} '''PIB (PPA) pèr hab.''' ([[{{{PIBHAB_année}}}]])
+{{!}}style="white-space:nowrap"{{!}} '''PIB (PPA) pèr hab.''' ({{{PIBHAB_année}}})
 {{!}}{{!}} {{{PIB_HAB|}}} ({{{PIBHAB_rang|}}})<!--
 -->}}<!--
 
@@ -195,7 +195,7 @@ date_formation={{{date_formation}}}}}<!--
 ===========================
 -->{{#if:{{{IDH|}}}|<nowiki/>
 {{!}}-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
-{{!}}style="white-space:nowrap"{{!}} '''<small>Indice ed développemint humain (IDH)''' ([[{{{IDH_année}}}]])
+{{!}}style="white-space:nowrap"{{!}} '''<small>Indice ed développemint<br /> humain (IDH)''' ({{{IDH_année}}})</small>
 {{!}}{{!}} {{{IDH|}}} ({{{IDH_catégorie}}}) ({{{IDH_rang}}})<!--
 -->}}<!--
 

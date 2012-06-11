@@ -68,7 +68,7 @@ Liens sous les images
 ===========================
 --->{{#if:{{{devise|}}}|<nowiki/>
 {{!}}-align="center" valign="top" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
-{{!}}colspan="2"{{!}} <small>[[Devise (phrase)|Devise nationale]] '': {{{devise}}}''</small><!--
+{{!}}colspan="2"{{!}} <small>Édvise nationale '': {{{devise}}}''</small><!--
 -->}}<!--
 
 ===========================
@@ -85,7 +85,7 @@ Liens sous les images
 {{Infobox Pays/Langues officielles|1={{{langues_officielles}}}}}<!--
 -->|<nowiki/>
 {{!}}-valign="top" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
-{{!}}style="white-space:nowrap"{{!}} '''{{{type_langues|[[Langue officielle]]}}}'''
+{{!}}style="white-space:nowrap"{{!}} '''{{{type_langues|Langue officièle}}}'''
 {{!}}{{!}} {{{langues|}}}<!--
 -->}}<!---
 
@@ -94,7 +94,7 @@ Liens sous les images
 ===========================
 --->
 |-valign="top" style="border-top:solid 1px #aaa;padding:0.4em 0.6em"
-| '''[[Liste des capitales du monde|Capitale]]'''
+| '''Capitale'''
 | {{{capitale}}}<br /><small>{{{coordonnées_capitale}}}</small>
 |-valign="top" style="border-top:1px #aaa solid"
 | '''[[{{{lien_villes}}}|{{{titre_plus_grande_ville|}}}]]'''
@@ -180,14 +180,14 @@ date_formation={{{date_formation}}}}}<!--
 
 -->{{#if:{{{PIB|}}}|<nowiki/>
 {{!}}-valign="top" style="border-top:1px #aaa solid"
-{{!}}style="white-space:nowrap"{{!}} '''[[Produit intérieur brut|PIB (nominal)]]''' ([[{{{PIB_année}}}]])
-{{!}}{{!}} {{{PIB|}}} ([[Liste des pays par PIB (nominal)|{{{PIB_rang}}}]])<!--
+{{!}}style="white-space:nowrap"{{!}} '''PIB (nominal)''' ([[{{{PIB_année}}}]])
+{{!}}{{!}} {{{PIB|}}} ({{{PIB_rang}}})<!--
 -->}}<!--
 
 -->{{#if:{{{PIB_HAB|}}}|<nowiki/>
 {{!}}-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
-{{!}}style="white-space:nowrap"{{!}} '''[[Produit intérieur brut|PIB]] [[Parité de pouvoir d'achat|(PPA)]] [[PIB par habitant|par hab.]]''' ([[{{{PIBHAB_année}}}]])
-{{!}}{{!}} {{{PIB_HAB|}}} ([[Liste des pays par PIB (PPA) par habitant|{{{PIBHAB_rang|}}}]])<!--
+{{!}}style="white-space:nowrap"{{!}} '''PIB (PPA) pèr hab.''' ([[{{{PIBHAB_année}}}]])
+{{!}}{{!}} {{{PIB_HAB|}}} ({{{PIBHAB_rang|}}})<!--
 -->}}<!--
 
 ===========================
@@ -195,8 +195,8 @@ date_formation={{{date_formation}}}}}<!--
 ===========================
 -->{{#if:{{{IDH|}}}|<nowiki/>
 {{!}}-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
-{{!}}style="white-space:nowrap"{{!}} '''[[Indice de développement humain|IDH]]''' ([[{{{IDH_année}}}]])
-{{!}}{{!}} {{{IDH|}}} ({{{IDH_catégorie}}}) ([[Classement IDH des pays|{{{IDH_rang}}}]])<!--
+{{!}}style="white-space:nowrap"{{!}} '''<small>Indice ed développemint humain (IDH)''' ([[{{{IDH_année}}}]])
+{{!}}{{!}} {{{IDH|}}} ({{{IDH_catégorie}}}) ({{{IDH_rang}}})<!--
 -->}}<!--
 
 ===========================
@@ -216,17 +216,17 @@ date_formation={{{date_formation}}}}}<!--
 ===========================
 -->
 |-valign="top" style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
-| '''[[ISO 3166-1|Code ISO 3166-1]]'''
+| '''Code ISO 3166-1'''
 | {{{iso3166-1}}}
 {{Infobox Pays/Domaine internet|1={{{domaine_internet}}}}}
 {{Infobox Pays/Indicatif téléphonique|1={{{indicatif_téléphonique}}}}}<!--
 
 ===========================
-     ORGANISATIONS INTERNATIONALES
+     ORGANISATIONS INTARNATIONALES
 ===========================
 -->{{#if:{{{organisations_internationales|}}}|<nowiki/>
 {{!}}-style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
-{{!}}colspan="2"{{!}} '''[[Organisation internationale|Organisations internationales]]'''
+{{!}}colspan="2"{{!}} '''Organisations intarnationales'''
 {{!}}-
 {{!}}colspan="2"{{!}} {{{organisations_internationales|}}}<!--
 -->}}<!--

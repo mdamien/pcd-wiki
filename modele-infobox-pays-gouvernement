@@ -1,0 +1,8 @@
+<noinclude>{| border="0" align="right" cellpadding="4" style="float:right; margin: 0 0 1em 1em; background: #f9f9f9; border: 1px #aaa solid; font-size: 85%; border-collapse: collapse; width:46ex; margin-top:0.75em;" </noinclude>
+|- valign="top" style="border-top:1px #aaa solid"
+| style="white-space;" | '''Forme éd l’Étot'''
+| style="white-space;" | {{{type_gouvernement}}}
+|- valign="top"
+| style="width:40%; white-space: nowrap;" | &nbsp;<nowiki>-</nowiki>&nbsp;{{{titres_dirigeants}}}
+| style="width:60%; white-space;" | {{{noms_dirigeants}}}<noinclude>
+|}{{documentation}}[[catégorie:Modèle]]</noinclude>

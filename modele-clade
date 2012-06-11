@@ -1,0 +1,145 @@
+{| cellspacing=0 cellpadding=0 border=0 style="{{{style|}}}"
+| style="width:1.5em;border-bottom:{{{thickness|1}}}px {{{state1|solid}}} black;padding:0 0.2em;" valign=bottom align=center | {{#if:{{{label1|}}}|{{{label1}}}|<br/>}} || rowspan=2 |
+{{{1}}}
+|-
+{{#if:{{{2|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state2|solid}}} black;padding:0 0.2em;" valign=bottom align=center {{!}} {{#if:{{{label2|}}}|{{{label2}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{2}}}
+{{!}}-
+}}
+{{#if:{{{3|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state3|solid}}} black;padding:0 0.2em;" valign=bottom align=center {{!}} {{#if:{{{label3|}}}|{{{label3}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{3}}}
+{{!}}-
+}}
+{{#if:{{{4|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state4|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label4|}}}|{{{label4}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{4}}}
+{{!}}-
+}}
+{{#if:{{{5|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state5|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label5|}}}|{{{label5}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{5}}}
+{{!}}-
+}}
+{{#if:{{{6|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state6|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label6|}}}|{{{label6}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{6}}}
+{{!}}-
+}}
+{{#if:{{{7|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state7|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label7|}}}|{{{label7}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{7}}}
+{{!}}-
+}}
+{{#if:{{{8|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state8|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label8|}}}|{{{label8}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{8}}}
+{{!}}-
+}}
+{{#if:{{{9|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state9|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label9|}}}|{{{label9}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{9}}}
+{{!}}-
+}}
+{{#if:{{{10|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state10|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label10|}}}|{{{label10}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{10}}}
+{{!}}-
+}}
+{{#if:{{{11|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state11|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label11|}}}|{{{label11}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{11}}}
+{{!}}-
+}}
+{{#if:{{{12|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state12|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label12|}}}|{{{label12}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{12}}}
+{{!}}-
+}}
+{{#if:{{{13|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state13|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label13|}}}|{{{label13}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{13}}}
+{{!}}-
+}}
+{{#if:{{{14|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state14|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label14|}}}|{{{label14}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{14}}}
+{{!}}-
+}}
+{{#if:{{{15|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state15|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label15|}}}|{{{label15}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{15}}}
+{{!}}-
+}}
+{{#if:{{{16|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state16|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label16|}}}|{{{label16}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{16}}}
+{{!}}-
+}}
+{{#if:{{{17|}}}|
+{{!}} style="border-left:{{{thickness|1}}}px solid black;" valign=top {{!}} <br/>
+{{!}}-
+{{!}} style="border-left:{{{thickness|1}}}px solid black; border-bottom:{{{thickness|1}}}px {{{state17|solid}}} black;padding:0 0.2em;"  valign=bottom align=center {{!}} {{#if:{{{label17|}}}|{{{label17}}}|<br/>}} {{!}}{{!}} rowspan=2 {{!}}
+{{{17}}}
+{{!}}-
+}}
+| valign=top | <br/>
+|}<noinclude>
+{{documentation}}
+<!--  Ajoutez les catégories et les interwikis dans la sous-page de documentation, pas ici ! -->
+[[ast:Plantía:Clade]]
+[[cs:Šablona:Klad]]
+[[de:Vorlage:Klade]]
+[[dsb:Pśedłoga:Clade]]
+[[en:Template:Clade]]
+[[eo:Ŝablono:Klado]]
+[[es:Plantilla:Clado]]
+[[fa:الگو:کلاد]]
+[[fi:Malline:Kladogrammi]]
+[[gl:Modelo:Clade]]
+[[he:תבנית:קלד]]
+[[hsb:Předłoha:Clade]]
+[[it:Template:Clade]]
+[[ja:Template:Clade]]
+[[nl:Sjabloon:Clade]]
+[[oc:Modèl:Clad]]
+[[os:Шаблон:Clade]]
+[[pl:Szablon:Klad]]
+[[pt:Predefinição:Clado]]
+[[ro:Format:Klade]]
+[[ru:Шаблон:Clade]]
+[[th:แม่แบบ:Clade]]
+[[uk:Шаблон:Клада]]
+[[zh:Template:Clade]]
+</noinclude>

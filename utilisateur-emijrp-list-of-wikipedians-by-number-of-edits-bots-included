@@ -6,26 +6,26 @@ Users who don't wish to be on this list can add themselves to this [[meta:User:E
 
 Users who have not edited for at least 30 days are in gray.
 
-This page was last updated in '''2012-06-06'''.
+This page was last updated in '''2012-06-13'''.
 
 {| class='wikitable sortable' style='text-align:center;'
 ! #
 ! User
 ! Edits
 |-
-| 1 || [[User:EmausBot|EmausBot]] (Bot) || [[Special:Contributions/EmausBot|4337]] 
+| 1 || [[User:EmausBot|EmausBot]] (Bot) || [[Special:Contributions/EmausBot|4453]] 
 |-
-| 2 || [[User:Geoleplubo|Geoleplubo]] || [[Special:Contributions/Geoleplubo|2973]] 
+| 2 || [[User:Geoleplubo|Geoleplubo]] || [[Special:Contributions/Geoleplubo|3011]] 
 |-
 | 3 || [[User:Kmoksy|<span style="color:gray">Kmoksy</span>]] || [[Special:Contributions/Kmoksy|2672]] 
 |-
-| 4 || [[User:Xqbot|Xqbot]] (Bot) || [[Special:Contributions/Xqbot|2310]] 
+| 4 || [[User:Xqbot|Xqbot]] (Bot) || [[Special:Contributions/Xqbot|2443]] 
 |-
 | 5 || [[User:Luckas-bot|Luckas-bot]] (Bot) || [[Special:Contributions/Luckas-bot|2226]] 
 |-
-| 6 || [[User:WikitanvirBot|WikitanvirBot]] (Bot) || [[Special:Contributions/WikitanvirBot|1390]] 
+| 6 || [[User:WikitanvirBot|<span style="color:gray">WikitanvirBot</span>]] (Bot) || [[Special:Contributions/WikitanvirBot|1390]] 
 |-
-| 7 || [[User:Escarbot|Escarbot]] (Bot) || [[Special:Contributions/Escarbot|1068]] 
+| 7 || [[User:Escarbot|Escarbot]] (Bot) || [[Special:Contributions/Escarbot|1076]] 
 |-
 | 8 || [[User:VolkovBot|VolkovBot]] (Bot) || [[Special:Contributions/VolkovBot|1026]] 
 |-
@@ -33,9 +33,9 @@ This page was last updated in '''2012-06-06'''.
 |-
 | 10 || [[User:ArthurBot|<span style="color:gray">ArthurBot</span>]] (Bot) || [[Special:Contributions/ArthurBot|728]] 
 |-
-| 11 || [[User:MerlIwBot|MerlIwBot]] (Bot) || [[Special:Contributions/MerlIwBot|562]] 
+| 11 || [[User:MerlIwBot|MerlIwBot]] (Bot) || [[Special:Contributions/MerlIwBot|573]] 
 |-
-| 12 || [[User:ZéroBot|ZéroBot]] (Bot) || [[Special:Contributions/ZéroBot|531]] 
+| 12 || [[User:ZéroBot|ZéroBot]] (Bot) || [[Special:Contributions/ZéroBot|547]] 
 |-
 | 13 || [[User:Oanr|<span style="color:gray">Oanr</span>]] || [[Special:Contributions/Oanr|382]] 
 |-
@@ -45,25 +45,25 @@ This page was last updated in '''2012-06-06'''.
 |-
 | 16 || [[User:Firmin|Firmin]] || [[Special:Contributions/Firmin|281]] 
 |-
-| 17 || [[User:JackieBot|JackieBot]] (Bot) || [[Special:Contributions/JackieBot|258]] 
+| 17 || [[User:JackieBot|JackieBot]] (Bot) || [[Special:Contributions/JackieBot|264]] 
 |-
 | 18 || [[User:Mjbmrbot|<span style="color:gray">Mjbmrbot</span>]] (Bot) || [[Special:Contributions/Mjbmrbot|232]] 
 |-
 | 19 || [[User:Idioma-bot|Idioma-bot]] (Bot) || [[Special:Contributions/Idioma-bot|232]] 
 |-
-| 20 || [[User:JAnDbot|JAnDbot]] (Bot) || [[Special:Contributions/JAnDbot|221]] 
+| 20 || [[User:JAnDbot|JAnDbot]] (Bot) || [[Special:Contributions/JAnDbot|228]] 
 |-
-| 21 || [[User:MastiBot|MastiBot]] (Bot) || [[Special:Contributions/MastiBot|218]] 
+| 21 || [[User:MastiBot|MastiBot]] (Bot) || [[Special:Contributions/MastiBot|222]] 
 |-
-| 22 || [[User:BOTijo|BOTijo]] (Bot) || [[Special:Contributions/BOTijo|198]] 
+| 22 || [[User:BOTijo|BOTijo]] (Bot) || [[Special:Contributions/BOTijo|200]] 
 |-
-| 23 || [[User:Pathoschild|Pathoschild]] || [[Special:Contributions/Pathoschild|176]] 
+| 23 || [[User:Pathoschild|Pathoschild]] || [[Special:Contributions/Pathoschild|178]] 
 |-
 | 24 || [[User:Sandrine|<span style="color:gray">Sandrine</span>]] || [[Special:Contributions/Sandrine|148]] 
 |-
-| 25 || [[User:Vagobot|<span style="color:gray">Vagobot</span>]] (Bot) || [[Special:Contributions/Vagobot|136]] 
+| 25 || [[User:Echtio|Echtio]] || [[Special:Contributions/Echtio|137]] 
 |-
-| 26 || [[User:Echtio|Echtio]] || [[Special:Contributions/Echtio|136]] 
+| 26 || [[User:Vagobot|<span style="color:gray">Vagobot</span>]] (Bot) || [[Special:Contributions/Vagobot|136]] 
 |-
 | 27 || [[User:Thijs!bot|Thijs!bot]] (Bot) || [[Special:Contributions/Thijs!bot|129]] 
 |-
@@ -74,6 +74,8 @@ This page was last updated in '''2012-06-06'''.
 | 30 || [[User:Aignan|<span style="color:gray">Aignan</span>]] || [[Special:Contributions/Aignan|107]] 
 |-
 | 31 || [[User:Karol007|<span style="color:gray">Karol007</span>]] || [[Special:Contributions/Karol007|107]] 
+|-
+| 32 || [[User:TjBot|TjBot]] (Bot) || [[Special:Contributions/TjBot|106]] 
 |}
 {{nobots|allow=BOTijo}}
 [[ab:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
@@ -152,7 +154,7 @@ This page was last updated in '''2012-06-06'''.
 [[fur:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[fy:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[ga:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:gag:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
+[[gag:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[gan:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[gd:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[gl:Wikipedia:Estatísticas/Lista de usuarios por número de edicións (bots incluídos)]]
@@ -187,7 +189,7 @@ This page was last updated in '''2012-06-06'''.
 [[ka:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[kaa:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[kab:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:kbd:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
+[[kbd:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[kg:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[ki:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[kk:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
@@ -206,7 +208,7 @@ This page was last updated in '''2012-06-06'''.
 [[lad:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[lb:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[lbe:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:lez:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
+[[lez:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[lg:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[li:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[lij:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
@@ -214,7 +216,7 @@ This page was last updated in '''2012-06-06'''.
 [[ln:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[lo:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[lt:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:ltg:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
+[[ltg:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[lv:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[map-bms:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[mdf:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
@@ -244,8 +246,8 @@ This page was last updated in '''2012-06-06'''.
 [[no:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[nov:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[nrm:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:nso:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
-<!--[[:nv:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (deleted) -->
+[[nso:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
+[[nv:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[ny:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[oc:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[om:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
@@ -256,7 +258,7 @@ This page was last updated in '''2012-06-06'''.
 [[pam:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[pap:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[pdc:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:pfl:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
+[[pfl:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[pi:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[pih:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[pms:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
@@ -272,7 +274,7 @@ This page was last updated in '''2012-06-06'''.
 [[roa-rup:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[roa-tara:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[ru:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:rue:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
+[[rue:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[rw:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[sa:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[sah:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
@@ -324,7 +326,7 @@ This page was last updated in '''2012-06-06'''.
 [[uz:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[ve:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[vec:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:vep:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
+[[vep:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[vi:Wikipedia:Danh sách thành viên Wikipedia theo số lần sửa trang (tính cả bot)]]
 [[vls:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[vo:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
@@ -334,7 +336,7 @@ This page was last updated in '''2012-06-06'''.
 [[wuu:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[xal:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[xh:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
-<!--[[:xmf:User:Emijrp/List of Wikipedians by number of edits (bots included)]] (missing) -->
+[[xmf:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[yi:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[yo:User:Emijrp/List of Wikipedians by number of edits (bots included)]]
 [[za:User:Emijrp/List of Wikipedians by number of edits (bots included)]]

@@ -1,0 +1,104 @@
+<includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+|-
+{{#if: {{{logo|}}} |
+ {{#switch:<!--déprécié-->{{{titre et logo|<!---->{{{nom et logo|}}}}}}
+    |oui |oui  = {{!}} colspan="2" class="entete communication" style="background-color:#{{#if: {{{couleur boîte|}}}|{{{couleur boîte}}}|ccf}}; color:black;" {{!}} {{#if:<!--déprécié-->{{{nom_du_site_web|<!---->{{{nom|}}}}}}|<!--déprécié-->{{{nom_du_site_web|<!---->{{{nom|}}}}}}|{{PAGENAME}} }}
+    |#default = 
+ }}
+}}
+|-
+{{#switch:<!--déprécié-->{{{nom_du_site_web|<!---->{{{nom|}}}}}}
+ | |  = {{#switch:<!--déprécié-->{{{logo_de_site_web|<!---->{{{logo|}}}}}}
+   | |  = {{!}} colspan="2" class="entete communication" style="background-color:#{{#if: {{{couleur boîte|}}}|{{{couleur boîte}}}|ccf}}; color:black;" {{!}} {{PAGENAME}}
+   |#default = {{!}} colspan="2" align="center" {{!}} <!--déprécié-->{{{logo_de_site_web|<!---->{{{logo|}}}}}}{{#if: {{{légende|}}} | <br /><small>{{{légende}}}</small> }}<br/>
+   }}
+ |#default = {{#switch:<!--déprécié-->{{{logo_de_site_web|<!---->{{{logo|}}}}}}
+   | |  = {{!}} colspan="2" class="entete communication" style="background-color:#ccf; color:black;" {{!}} <!--déprécié-->{{{nom_du_site_web|<!---->{{{nom|}}}}}}
+   |#default = {{!}} colspan="2" align="center" {{!}} <!--déprécié-->{{{logo_de_site_web|<!---->{{{logo|}}}}}}{{#if: {{{légende|}}} | <br /><small>{{{légende}}}</small> }}<br/>
+   }}
+ }}
+|-
+{{#if: <!--déprécié-->{{{logo_de_site_web|<!---->{{{logo|}}}}}}| |
+{{!}} colspan="2" align="center" {{!}} [[Fichier:Importez_le_logo-fr.svg|120px|link=Aide:Importer un logo|Importez le logo de ce site Web]] [[Catégorie:Article à illustrer/Site web]] }}
+|-
+{{!}} colspan="2" style="border-bottom: 2px #{{#if: {{{couleur boîte|}}}|<!---->{{{couleur boîte}}}|ccf}} solid; color:#000; background:inherit; text-align: center;" {{!}}
+|-
+{{#if:{{{image|}}} | 
+{{!}} colspan="2" align="center" class="infoboximage" {{!}} {{{image}}}{{#if:{{{description|}}}|<br /><small>{{{description}}}</small>}} }}
+|-
+{{#if: {{{image|}}} |
+{{!}} colspan="2" style="border-bottom: 2px #{{#if: {{{couleur boîte|}}}|<!---->{{{couleur boîte}}}|ccf}} solid; color:#000; background:inherit; text-align: center;" {{!}}
+|}}
+|-
+{{#if: {{{url|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} URL
+{{!}} {{{url|}}} }}
+|-
+{{#if: {{{description|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Description
+{{!}} {{{description|}}} }}
+|-
+{{#if: {{{slogan|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Slogan
+{{!}} {{{slogan|}}} }}
+|-
+{{#if: {{{commercial|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Commercial
+{{!}} {{{commercial|}}} }}
+|-
+{{#if: {{{publicité|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Publicité
+{{!}} {{{publicité|}}} }}
+|-
+{{#if: {{{type|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Type éd site
+{{!}} {{{type|}}} }}
+|-
+{{#if: {{{langue|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Langue(s)
+{{!}} {{{langue|}}} }}
+|-
+{{#if: <!--déprécié-->{{{reg|<!---->{{{inscription|}}}}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Inscription
+{{!}} <!--déprécié-->{{{reg|<!---->{{{inscription|}}}}}} }}
+|-
+{{#if: {{{siège (ville)|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Siège social 
+{{!}} {{{siège (ville)}}} {{#if: {{{siège (pays)|}}}|<br />{{flagcountry|<!---->{{{siège (pays)}}}}}}} }}
+|-
+{{#if: {{{propriétaire|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Propriétaire
+{{!}} {{{propriétaire|}}} }}
+|-
+{{#if: {{{rédacteur en chef|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Rédacteu in chéf
+{{!}} {{{rédacteur en chef|}}} }}
+|-
+{{#if: {{{directeur de la publication|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Dirécteu deul publicachon
+{{!}} {{{directeur de la publication|}}} }}
+|-
+{{#if: {{{auteur|}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Créé pèr
+{{!}} {{{auteur|}}} }}
+|-
+{{#if: <!--déprécié-->{{{date de lancement|<!---->{{{lancement|}}}}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Lanchemint
+{{!}} <!--déprécié-->{{{date de lancement|<!---->{{{lancement|}}}}}} }}
+|-
+{{#if: <!--déprécié-->{{{date de fermeture|<!---->{{{fermeture|}}}}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Férmeture
+{{!}} <!--déprécié-->{{{date de fermeture|<!---->{{{fermeture|}}}}}} }}
+|-
+{{#if: <!--déprécié-->{{{rev|<!---->{{{revenus|}}}}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Rvnus
+{{!}} <!--déprécié-->{{{rev|<!---->{{{revenus|}}}}}} }}
+|-
+{{#if: <!--déprécié-->{{{état_actuel|<!---->{{{état actuel|}}}}}} |
+! scope=row align="right" style="vertical-align: top;" {{!}} Étot actuèl
+{{!}} <!--déprécié-->{{{état_actuel|<!---->{{{état actuel|}}}}}} }}
+|}</includeonly><noinclude>{{Documentation}}
+
+<!-- SVP ajoutez les catégories et les interwikis dans la sous-page /Documentation, pas ici -->
+
+</noinclude>

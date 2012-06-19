@@ -1,0 +1,16 @@
+<span class="ouvrage" id=" {{ #if:{{{ancre|}}} |{{{ancre}}} |{{anchorencode:EFloras }} }}">Référence [http://www.efloras.org/flora_page.aspx?flora_id={{#if:x|{{{1}}}}} {{#switch:{{{1}}}
+|1 = Flora of North America
+|2 = Flora of China 
+|4 = Moss Flora of China 
+|5 = Flora of Pakistan 
+|11 = Flora of Missouri 
+|12 = Madagascar Catalogue
+|60 = Flora of Chile 
+|110 = Flowering Plants of Nepal 
+|201 = Trees and shrubs of the Andes of Ecuador 
+|1200 = Monocot Families (USDA)
+| Floras}}] : [http://www.efloras.org/florataxon.aspx?flora_id={{#if:x|{{{1}}}}}&taxon_id={{#if:x|{{{2}}}}} ''{{{3}}}''] {{en}}{{Consulté le|{{{consulté le|}}}}}</span><noinclude>
+
+{{Documentation}}
+
+</noinclude>

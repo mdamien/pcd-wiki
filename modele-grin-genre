@@ -1,0 +1,5 @@
+<span class="ouvrage" id=" {{ #if:{{{ancre|}}} |{{{ancre}}} |{{anchorencode:GRIN genre}} }}">Référence [http://www.ars-grin.gov/ GRIN] : [http://www.ars-grin.gov/cgi-bin/npgs/html/genus.pl?{{#if:x|{{{1}}}}} <small>genre </small>{{{2|{{{1}}}}}}] {{en}}{{Consulté le|{{{consulté le|}}}}}</span><noinclude>
+
+{{Documentation}}
+
+</noinclude>

@@ -178,11 +178,12 @@
 }}
 ! colspan="2" style="background-color:#047391; color:white; text-align: center; padding: 3px; line-height: 13px;"| Catégories
 |-
-| colspan="2" style="font-size: smaller; text-align: center;"| [[:Catégorie:Éroport|Éroports]] • {{#if:{{{pays|}}}|[[:Catégorie:Éroport {{gentilé|{{{pays}}}}}|Aéroports {{gentilé|{{{pays}}}|MP}}]]|[[:Catégorie:Éroport pèr poéyis|Éroports pèr poéyis]]}}
+| colspan="2" style="font-size: smaller; text-align: center;"| [[:Catégorie:Éroport|Éroports]] • 
+<!--{{#if:{{{pays|}}}|[[:Catégorie:Éroport {{gentilé|{{{pays}}}}}|Aéroports {{gentilé|{{{pays}}}|MP}}]]|[[:Catégorie:Éroport pèr poéyis|Éroports pèr poéyis]]}}-->
 |-
 {{infodoc|colspan=2|couleur=5D5EA1|lien=Infobox Aéroport}}
 |}</includeonly><noinclude>{{Doc modèle}}
-[[catégorie:Infoboète]]
+[[catégorie:Infoboète]] [[catégorie:Éroport]]
 [[af:Sjabloon:Infobox airport]]
 [[ar:قالب:معلومات مطار]]
 [[bn:টেমপ্লেট:Infobox Airport]]

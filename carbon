@@ -18,6 +18,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[bg:Каменни въглища]]
 [[bjn:Batu arang]]
 [[bn:কয়লা]]
+[[br:Glaou]]
 [[bs:Ugalj]]
 [[ca:Carbó]]
 [[chy:Ho'ose]]

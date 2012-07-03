@@ -1,1 +1,98 @@
-#REDIRECTION [[Modèle:Infobox Chinéma]]
+{{nobots}}
+<includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete cinema" style="background-color:rgb(23,165,165);" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+|-
+{{#if:{{{image|}}} | 
+{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{image}}}|{{#if:{{{taille image|}}}|{{{taille image}}}|180px}}|{{#if:{{{légende|}}}|{{{légende}}}|Image associée à la personnalité}}]]
+{{!-}}
+| [[Catégorie:Article à illustrer/Personnalité du cinéma]]
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+{{#if:{{{nom de naissance|}}} |
+! scope=row {{!}} Nom
+{{!}} {{{nom de naissance|}}}
+{{!-}}
+}}
+{{#if:{{{surnom|}}} |
+! scope=row {{!}} Surnom
+{{!}} {{{surnom|}}}
+{{!-}}
+}}
+{{#if:{{{date de naissance|}}} |
+! scope=row {{!}} Naissance
+{{!}} {{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|<br>{{{lieu de naissance}}}|}}
+{{!-}}
+}}
+{{#if:{{{nationalité|}}} |
+! scope=row {{!}} Nationalité(s)
+{{!}} {{{nationalité|}}}
+{{!-}}
+}}
+{{#if:{{{date de mort|}}} |
+! scope=row {{!}} Mort
+{{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
+{{!-}}
+}}
+{{#if:{{{profession(s)|}}} |
+! scope=row {{!}} Profession(s)
+{{!}} {{{profession(s)|}}}
+{{!-}}
+}}
+{{#if:{{{films notables|}}} |
+! scope=row {{!}} Film(s) notable(s)
+{{!}} {{{films notables|}}}
+{{!-}}
+}}
+{{#if:{{{conjoint|}}} |
+! scope=row {{!}} Conjoint(e)
+{{!}} {{{conjoint|}}}
+{{!-}}
+}}
+{{#if:{{{enfant|}}} |
+! scope=row {{!}} Enfant(s)
+{{!}} {{{enfant|}}}
+{{!-}}
+}}
+{{#if:{{{site internet|{{{site web|}}}}}}|
+! scope=row {{!}} Site officiel
+{{!}} {{{site internet|{{{site web}}}}}}
+{{!-}}
+}}
+{{#if:{{{récompense|}}} |
+! scope=row {{!}} Distinction(s)
+{{!}} {{{récompense|}}}
+{{!-}}
+}}
+{{#if:{{{imdb|}}} |
+! colspan="2" scope="row" style="text-align:center" {{!}} [[IMDbName:{{{imdb|}}}{{!}}Fiche IMDb]]
+{{!-}}
+}}
+|}</includeonly><noinclude>{{/Documentation}}
+__NOTOC__
+
+[[Category:Modéle infobox chinéma|Perchonnalité]]
+
+
+[[ar:قالب:معلومات ممثل]]
+[[cs:Šablona:Infobox Herec]]
+[[en:Template:Infobox actor]]
+[[es:Plantilla:Ficha de actor]]
+[[fa:الگو:جعبه بازیگر]]
+[[fr:Modèle:Infobox Cinéma (personnalité)]]
+[[ja:Template:ActorActress]]
+[[ko:틀:배우 정보]]
+[[ml:ഫലകം:Infobox actor/doc]]
+[[no:Mal:Infobox actor]]
+[[ru:Шаблон:Кинематографист]]
+[[sq:Stampa:Infobox aktor]]
+[[th:แม่แบบ:กล่องข้อมูล นักแสดง]]
+[[uk:Шаблон:Картка:Актор]]
+[[zh:Template:Infobox actor]]
+</noinclude>

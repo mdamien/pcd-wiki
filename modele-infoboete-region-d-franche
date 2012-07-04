@@ -1,0 +1,140 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{#if:{{{nomregion historique|}}}|{{{nomregion historique|}}}|{{#switch:{{{nomregion|}}}|Alsace=Alsace|Aquitaine=Aquitaine|Auvergne=Auvergne|Basse-Normandie=Basse-Normandie|Bourgogne=Bourgogne|Bretagne=Bretagne|Centre=Centre|Champagne-Ardenne=Champagne-Ardenne|Corse=Corse|Franche-Comté=Franche-Comté|Haute-Normandie=Haute-Normandie|Île-de-France=Île-de-France|Languedoc-Roussillon=Languedoc-Roussillon|Limousin=Limousin|Lorraine=Lorraine|Midi-Pyrénées=Midi-Pyrénées|Nord-Pas-de-Calais=Nord-Pas-de-Calais|Pays de la Loire=Pays de la Loire|Picardie=Picardie|Poitou-Charentes=Poitou-Charentes|Provence-Alpes-Côte d'Azur=Provence-Alpes-Côte d'Azur|Rhône-Alpes=Rhône-Alpes|Guadeloupe=Guadeloupe|Martinique=Martinique|Guyane=Guyane|La Réunion=La Réunion|Saint-Pierre-et-Miquelon=Saint-Pierre-et-Miquelon|Wallis-et-Futuna=Wallis-et-Futuna|Saint-Martin=Saint-Martin|Saint-Barthélemy=Saint-Barthélemy|Polynésie française=Polynésie française|Nom de région mal rédigé pour en savoir plus [[Modèle:Infobox Région de France#Paramètres|cliquez-ici]].}}}}|BBDEFD|entete map
+}}
+{{#if:{{{armoiries|}}}{{{logo|}}} |
+{{!}} colspan="2" align="center" {{!}} {{ #switch: {{{armoiries|}}}{{{logo|}}}
+| {{{armoiries|}}} =[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}
+| {{{logo|}}} =[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}
+| {{{armoiries|}}}{{{logo|}}} =<table style="text-align:center;background-color:#f9f9f9;width:100%"><tr><td style="width:50%">[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br/><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}</td><td>[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}</td></tr></table>|}}
+{{!-}}
+}}
+{{Infobox/Sous-titre
+ | Administration|BBDEFD
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Préfecture]]|{{{préfecture|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Chef-lieu]]|{{{chef-lieu|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Département français|Départements]]|{{{départements|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Préfecture|Chefs-lieux]]|{{{préfecture de département|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Arrondissement français|Arrondissements]]|{{{arrondissements|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Canton français|Cantons]]|{{{cantons|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Commune (France)|Communes]]|{{{communes|}}}|{{formatnum:{{{communes|}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Conseil régional (France)|Conseil régional]]|{{{conseil régional|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Liste des présidents des conseils régionaux en France|Président]]<br />[[Mandat politique|Mandat]]|{{{président|}}}|{{{président|}}}<br />{{{mandat|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Liste des présidents des conseils régionaux en France|Présidente]]<br />[[Mandat politique|Mandat]]|{{{présidente|}}}|{{{présidente|}}}<br />{{{mandat|}}}
+}}
+{{Infobox/Ligne mixte site web optionnelle
+ | [[Site web]]|{{{site web|}}}|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Préfet de région|Préfète]]|{{{préfète|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[Préfet de région|Préfet]]|{{{préfet|}}}
+}}
+{{Infobox/Sous-titre
+ | Démographie|BBDEFD
+}}
+{{Infobox/Ligne mixte
+ | [[Régions françaises classées par population|Population]]|{{formatnum:{{{pop|}}}}} hab. <small>({{{date-pop|}}})</small>
+}}
+{{Infobox/Ligne mixte densité optionnelle
+ | [[Régions françaises classées par densité de population|Densité]]|{{{km²|}}}|{{{pop|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | [[gentilé|Gentilé]]|{{{nomhab|}}}
+}}
+{{Infobox/Sous-titre
+ | Géographie|BBDEFD
+}}
+{{Infobox/Ligne mixte
+ | [[Superficie]]|{{formatnum:{{{km²|}}}}} km²
+}}
+{{Infobox/Ligne
+ | {{#if:{{{nomregion historique|}}}|
+{{#if:{{{carte historique|}}}|{{{carte historique|}}}}}|{{ #switch:{{{nomregion|}}}
+ | Alsace             = [[Fichier:Alsace locator map.svg|280px]]
+ | Aquitaine          = [[Fichier:Aquitaine region locator map.svg|280px]]
+ | Auvergne           = [[Fichier:Auvergne locator map.svg|280px]]
+ | Basse-Normandie    = [[Fichier:Basse-Normandie locator map.svg|280px]]
+ | Bourgogne          = [[Fichier:Bourgogne region locator map.svg|280px]]
+ | Bretagne           = [[Fichier:Bretagne region locator map.svg|280px]]
+ | Centre             = [[Fichier:Centre region locator map.svg|280px]]
+ | Champagne-Ardenne  = [[Fichier:Champagne-Ardenne locator map.svg|280px]]
+ | Corse              = [[Fichier:Corse locator map.svg|280px]]
+ | Franche-Comté      = [[Fichier:Franche-Comté region locator map.svg|280px]]
+ | Haute-Normandie    = [[Fichier:Haute-Normandie locator map.svg|280px]]
+ | Île-de-France      = [[Fichier:Île-de-France region locator map.svg|280px]]
+ | Languedoc-Roussillon = [[Fichier:Languedoc-Roussillon region locator map.svg|280px]]
+ | Limousin           = [[Fichier:Limousin region locator map.svg|280px]]
+ | Lorraine           = [[Fichier:Lorraine locator map.svg|280px]]
+ | Midi-Pyrénées      = [[Fichier:Midi-Pyrénées region locator map.svg|280px]]
+ | Nord-Pas-de-Calais = [[Fichier:Nord-Pas-de-Calais locator map.svg|280px]]
+ | Pays de la Loire   = [[Fichier:Pays de la Loire locator map.svg|280px]]
+ | Picardie           = [[Fichier:Picardie locator map.svg|280px]]
+ | Poitou-Charentes   = [[Fichier:Poitou-Charentes region locator map.svg|280px]]
+ | Provence-Alpes-Côte d'Azur = [[Fichier:Provence-Alpes-Côte d'Azur region locator map.svg|280px]]
+ | Rhône-Alpes        = [[Fichier:Rhône-Alpes region locator map.svg|280px]]
+ | Guadeloupe         = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Guadeloupe department relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Guadeloupe department location map.svg|280px|Voir la carte administrative]]</div></div>
+ | Martinique         = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Martinique department relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Martinique department location map.svg|280px|Voir la carte administrative]]</div></div>
+ | Guyane             = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Guyane department relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Guyane department location map.svg|280px|Voir la carte administrative]]</div></div>
+ | La Réunion         = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:La Réunion department relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:La Réunion arrondissement commune map.svg|280px|Voir la carte administrative]]</div></div>
+ | Saint-Pierre-et-Miquelon = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Saint-Pierre-et-Miquelon collectivity relief location map.jpg|180px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Saint-Pierre-et-Miquelon collectivity location map.svg|180px|Voir la carte administrative]]</div></div>
+ | Wallis-et-Futuna   = [[Fichier:Carte de Wallis-et-Futuna.png|280px]]
+ | Saint-Martin       = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Saint-Martin collectivity relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Saint-Martin collectivity location map.svg|280px|Voir la carte administrative]]</div></div>
+ | Saint-Barthélemy   = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Saint-Barthélemy collectivity relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Saint-Barthélemy collectivity location map with quartiers.svg|280px|Voir la carte administrative]]</div></div>
+ | Polynésie française= <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:French Polynesia relief map with communes.svg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Map of French Polynesia-fr.svg|280px|Voir la carte administrative]]</div></div>
+ | Nom de région mal rédigé pour en savoir plus [[Modèle:Infobox Région de France#Mode d'emploi|cliquez-ici]].}}}}
+}}
+{{Infobox/Fin}}</includeonly><noinclude>
+<!--{{Doc modèle|parser=oui}}-->
+[[ar:قالب:معلومات إقليم فرنسي]]
+[[az:Şablon:Fransa regionları]]
+[[bar:Vorlage:Infobox französische Region]]
+[[be:Шаблон:Рэгіён Францыі]]
+[[bg:Шаблон:Регион на Франция инфо]]
+[[bn:টেমপ্লেট:Infobox French Région]]
+[[de:Vorlage:Infobox französische Region]]
+[[en:Template:Infobox French region]]
+[[fi:Malline:Ranskan alue]]
+[[frp:Modèlo:Tablô règ·ion fr]]
+[[hi:साँचा:Infobox French region]]
+[[hy:Կաղապար:Տեղեկաքարտ Ֆրանսիայի շրջան]]
+[[id:Templat:Infobox Region Perancis]]
+[[ka:თარგი:ინფოდაფა საფრანგეთის რეგიონი]]
+[[ko:틀:프랑스 레지옹 정보]]
+[[mk:Шаблон:Регион во Франција]]
+[[ml:ഫലകം:Infobox French region]]
+[[ms:Templat:Infobox French region]]
+[[nl:Sjabloon:Infobox regio Frankrijk]]
+[[os:Шаблон:Францы регион]]
+[[ro:Format:Infocaseta Regiune Franța]]
+[[ru:Шаблон:Регион Франции]]
+[[su:Citakan:Infobox Région Perancis]]
+[[ta:வார்ப்புரு:Infobox French region]]
+[[th:แม่แบบ:กล่องข้อมูล แคว้นในประเทศฝรั่งเศส]]
+[[uk:Шаблон:Регіон Франції]]
+[[vi:Bản mẫu:Tableau région fr]]
+[[war:Template:Infobox Franses nga rehiyon]]
+[[yo:Àdàkọ:Infobox French region]]
+[[zh:Template:Infobox French region]]
+</noinclude>

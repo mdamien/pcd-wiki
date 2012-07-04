@@ -104,6 +104,11 @@
  | Saint-Barthélemy   = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Saint-Barthélemy collectivity relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Saint-Barthélemy collectivity location map with quartiers.svg|280px|Voir la carte administrative]]</div></div>
  | Polynésie française= <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:French Polynesia relief map with communes.svg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Map of French Polynesia-fr.svg|280px|Voir la carte administrative]]</div></div>
  | Nom de région mal rédigé pour en savoir plus [[Modèle:Infobox Région de France#Mode d'emploi|cliquez-ici]].}}}}
+|-
+<includeonly>{{Coord|{{{latitude}}}|{{{longitude}}}|type:city_region:FR_scale:{{#if:{{{échelle|}}}|{{{échelle|}}}|100000}}|format=dms|display=title}}{{Infobox/Début}}
+{{#if:{{{géoloc-département|}}} | 
+! colspan="2" {{!}} {{Boîte déroulante infobox début|titre=Localisation carte |couleurFond=#dfd|couleurFondB=#dfd|couleurFondT=#dfd|couleurBordure=#dfd|label=[ départementale ] / [ départementale ]}}{{Géolocdual/{{{géoloc-département}}}|{{{longitude}}}|{{{latitude}}}|desc={{{nomcommune}}}}}{{Boîte déroulante infobox fin}}
+{{!-}}
 }}
 {{Infobox/Fin}}</includeonly><noinclude>
 <!--{{Doc modèle|parser=oui}}-->

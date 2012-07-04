@@ -67,41 +67,6 @@
 {{Infobox/Ligne mixte
  | Supérfichie|{{formatnum:{{{km²|}}}}} km²
 }}
-{{Infobox/Ligne
- | {{#if:{{{nomregion historique|}}}|
-{{#if:{{{carte historique|}}}|{{{carte historique|}}}}}|{{ #switch:{{{nomregion|}}}
- | Alsace             = [[Fichier:Alsace locator map.svg|280px]]
- | Aquitaine          = [[Fichier:Aquitaine region locator map.svg|280px]]
- | Auvergne           = [[Fichier:Auvergne locator map.svg|280px]]
- | Basse-Normandie    = [[Fichier:Basse-Normandie locator map.svg|280px]]
- | Bourgogne          = [[Fichier:Bourgogne region locator map.svg|280px]]
- | Bretagne           = [[Fichier:Bretagne region locator map.svg|280px]]
- | Centre             = [[Fichier:Centre region locator map.svg|280px]]
- | Champagne-Ardenne  = [[Fichier:Champagne-Ardenne locator map.svg|280px]]
- | Corse              = [[Fichier:Corse locator map.svg|280px]]
- | Franche-Comté      = [[Fichier:Franche-Comté region locator map.svg|280px]]
- | Haute-Normandie    = [[Fichier:Haute-Normandie locator map.svg|280px]]
- | Île-de-France      = [[Fichier:Île-de-France region locator map.svg|280px]]
- | Languedoc-Roussillon = [[Fichier:Languedoc-Roussillon region locator map.svg|280px]]
- | Limousin           = [[Fichier:Limousin region locator map.svg|280px]]
- | Lorraine           = [[Fichier:Lorraine locator map.svg|280px]]
- | Midi-Pyrénées      = [[Fichier:Midi-Pyrénées region locator map.svg|280px]]
- | Nord-Pas-de-Calais = [[Fichier:Nord-Pas-de-Calais locator map.svg|280px]]
- | Pays de la Loire   = [[Fichier:Pays de la Loire locator map.svg|280px]]
- | Picardie           = [[Fichier:Picardie locator map.svg|280px]]
- | Poitou-Charentes   = [[Fichier:Poitou-Charentes region locator map.svg|280px]]
- | Provence-Alpes-Côte d'Azur = [[Fichier:Provence-Alpes-Côte d'Azur region locator map.svg|280px]]
- | Rhône-Alpes        = [[Fichier:Rhône-Alpes region locator map.svg|280px]]
- | Guadeloupe         = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Guadeloupe department relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Guadeloupe department location map.svg|280px|Voir la carte administrative]]</div></div>
- | Martinique         = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Martinique department relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Martinique department location map.svg|280px|Voir la carte administrative]]</div></div>
- | Guyane             = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Guyane department relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Guyane department location map.svg|280px|Voir la carte administrative]]</div></div>
- | La Réunion         = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:La Réunion department relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:La Réunion arrondissement commune map.svg|280px|Voir la carte administrative]]</div></div>
- | Saint-Pierre-et-Miquelon = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Saint-Pierre-et-Miquelon collectivity relief location map.jpg|180px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Saint-Pierre-et-Miquelon collectivity location map.svg|180px|Voir la carte administrative]]</div></div>
- | Wallis-et-Futuna   = [[Fichier:Carte de Wallis-et-Futuna.png|280px]]
- | Saint-Martin       = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Saint-Martin collectivity relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Saint-Martin collectivity location map.svg|280px|Voir la carte administrative]]</div></div>
- | Saint-Barthélemy   = <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:Saint-Barthélemy collectivity relief location map.jpg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Saint-Barthélemy collectivity location map with quartiers.svg|280px|Voir la carte administrative]]</div></div>
- | Polynésie française= <div class="img_toogle"><div class="geobox" title="Carte physique">[[Image:French Polynesia relief map with communes.svg|280px|Voir la carte physique]]</div ><div class="geobox" title="Carte administrative">[[Image:Map of French Polynesia-fr.svg|280px|Voir la carte administrative]]</div></div>
- | Nom de région mal rédigé pour en savoir plus [[Modèle:Infobox Région de France#Mode d'emploi|cliquez-ici]].}}}}
 |-
 <includeonly>{{Coord|{{{latitude}}}|{{{longitude}}}|type:city_region:FR_scale:{{#if:{{{échelle|}}}|{{{échelle|}}}|100000}}|format=dms|display=title}}{{Infobox/Début}}
 {{#if:{{{géoloc-département|}}} | 

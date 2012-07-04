@@ -16,58 +16,58 @@
  | [[Préfecture]]|{{{préfecture|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Chef-lieu]]|{{{chef-lieu|}}}
+ | [[Chéf-yu]]|{{{chef-lieu|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Département français|Départements]]|{{{départements|}}}
+ | Départémints|{{{départements|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Préfecture|Chefs-lieux]]|{{{préfecture de département|}}}
+ | Chéfs-yus|{{{préfecture de département|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Arrondissement français|Arrondissements]]|{{{arrondissements|}}}
+ | Arrondichemints|{{{arrondissements|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Canton français|Cantons]]|{{{cantons|}}}
+ | Cantons|{{{cantons|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Commune (France)|Communes]]|{{{communes|}}}|{{formatnum:{{{communes|}}}}}
+ | Conmeunes|{{{communes|}}}|{{formatnum:{{{communes|}}}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Conseil régional (France)|Conseil régional]]|{{{conseil régional|}}}
+ | Consièl régional|{{{conseil régional|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Liste des présidents des conseils régionaux en France|Président]]<br />[[Mandat politique|Mandat]]|{{{président|}}}|{{{président|}}}<br />{{{mandat|}}}
+ | Présidint<br />Mandat|{{{président|}}}|{{{président|}}}<br />{{{mandat|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Liste des présidents des conseils régionaux en France|Présidente]]<br />[[Mandat politique|Mandat]]|{{{présidente|}}}|{{{présidente|}}}<br />{{{mandat|}}}
+ | Présidinte<br />Mandat|{{{présidente|}}}|{{{présidente|}}}<br />{{{mandat|}}}
 }}
 {{Infobox/Ligne mixte site web optionnelle
- | [[Site web]]|{{{site web|}}}|
+ | Site ouèbe|{{{site web|}}}|
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Préfet de région|Préfète]]|{{{préfète|}}}
+ | Préfète|{{{préfète|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Préfet de région|Préfet]]|{{{préfet|}}}
+ | Préfet|{{{préfet|}}}
 }}
 {{Infobox/Sous-titre
  | Démographie|BBDEFD
 }}
 {{Infobox/Ligne mixte
- | [[Régions françaises classées par population|Population]]|{{formatnum:{{{pop|}}}}} hab. <small>({{{date-pop|}}})</small>
+ | Nombe éd gins|{{formatnum:{{{pop|}}}}} hab. <small>({{{date-pop|}}})</small>
 }}
 {{Infobox/Ligne mixte densité optionnelle
- | [[Régions françaises classées par densité de population|Densité]]|{{{km²|}}}|{{{pop|}}}
+ | Dinchité|{{{km²|}}}|{{{pop|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[gentilé|Gentilé]]|{{{nomhab|}}}
+ | Gentilé|{{{nomhab|}}}
 }}
 {{Infobox/Sous-titre
  | Géographie|BBDEFD
 }}
 {{Infobox/Ligne mixte
- | [[Superficie]]|{{formatnum:{{{km²|}}}}} km²
+ | Supérfichie|{{formatnum:{{{km²|}}}}} km²
 }}
 {{Infobox/Ligne
  | {{#if:{{{nomregion historique|}}}|

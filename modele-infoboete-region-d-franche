@@ -10,13 +10,13 @@
 {{!-}}
 }}
 {{Infobox/Sous-titre
- | Administration|BBDEFD
+ | Aménistrachon|BBDEFD
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Préfecture]]|{{{préfecture|}}}
+ | Préfecture|{{{préfecture|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | [[Chéf-yu]]|{{{chef-lieu|}}}
+ | Chéf-yu|{{{chef-lieu|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Départémints|{{{départements|}}}
@@ -52,7 +52,7 @@
  | Préfet|{{{préfet|}}}
 }}
 {{Infobox/Sous-titre
- | Démographie|BBDEFD
+ | Démografie|BBDEFD
 }}
 {{Infobox/Ligne mixte
  | Nombe éd gins|{{formatnum:{{{pop|}}}}} hab. <small>({{{date-pop|}}})</small>
@@ -64,7 +64,7 @@
  | Gentilé|{{{nomhab|}}}
 }}
 {{Infobox/Sous-titre
- | Géographie|BBDEFD
+ | Jéografie|BBDEFD
 }}
 {{Infobox/Ligne mixte
  | Supérfichie|{{formatnum:{{{km²|}}}}} km²

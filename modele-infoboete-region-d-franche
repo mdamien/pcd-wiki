@@ -1,5 +1,6 @@
 <includeonly>{{Infobox/Début}}
 {{Infobox/Titre
+}}
 {{#if:{{{armoiries|}}}{{{logo|}}} |
 {{!}} colspan="2" align="center" {{!}} {{ #switch: {{{armoiries|}}}{{{logo|}}}
 | {{{armoiries|}}} =[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}

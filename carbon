@@ -43,6 +43,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[hi:कोयला]]
 [[hr:Ugljen]]
 [[ht:Chabon]]
+[[hu:Kőszén]]
 [[hy:Ածուխ]]
 [[id:Batu bara]]
 [[io:Karbono]]

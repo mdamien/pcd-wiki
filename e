@@ -52,6 +52,7 @@
 [[it:Apis mellifera]]
 [[ja:セイヨウミツバチ]]
 [[kk:Бал арасы]]
+[[ko:서양 꿀벌]]
 [[la:Apis mellifera]]
 [[lbe:Най]]
 [[lt:Naminė bitė]]

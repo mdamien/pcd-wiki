@@ -60,7 +60,7 @@ __NOTOC__
  | Jéografie|dfd
 }}
 {{Infobox/Ligne mixte latitude longitude optionnelle
- | Coordonnées<br />jéografiques|{{{latitude|}}}|{{{longitude|}}}|city_region:FR|dms long|||{{{référence|}}}|title=oui
+ | Coordonnées<br />jéografiques|{{{latitude|}}}|{{{longitude|}}}|city_region:FR|dms long|title=oui
 }}
 {{Infobox/Ligne mixte
  | Altitudes

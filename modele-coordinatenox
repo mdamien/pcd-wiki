@@ -1,0 +1,6 @@
+{{#if: {{{text}}}
+ | <span id="{{#if:{{{name}}}|{{anchorencode:{{{name}}}}}|text_coordinates}}" class="coordinates" style="background:#FFC">Koordinaten fehlen! [[Wikipedia:WikiProjekt Georeferenzierung|Hilf mit.]]</span>
+}}{{#if: {{{article}}}
+ | <span id="coordinates" class="coordinates" style="background:#FFC;">Koordinaten fehlen! [[Wikipedia:WikiProjekt Georeferenzierung|Hilf mit.]]</span>
+}}<noinclude>
+</noinclude>

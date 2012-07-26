@@ -1,0 +1,4 @@
+<code>{&#x7b;{{#ifeq:{{{2|}}}|subst|subst:}}{{#ifexist: Šablona:{{{1<noinclude>|Šablona</noinclude>}}} |[[Modèle:{{{1<noinclude>|Šablona</noinclude>}}}|{{{1<noinclude>|Šablona</noinclude>}}}]]|{{{1}}}}}{{#ifeq:{{{2|subst}}}|subst|{{#if:{{{3|}}}|&#124;{{{3}}}}}|&#124;{{{2}}}}}}}</code><noinclude>
+{{Dlouhodobě polozamčeno}}
+<!-- KATEGORIE a INTERWIKI, PROSÍME, PŘIDÁVEJTE DO /doc PODSTRÁNKY. DĚKUJEME -->
+</noinclude>

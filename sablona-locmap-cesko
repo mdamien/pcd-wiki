@@ -1,0 +1,13 @@
+{{#switch:{{{1}}}
+| name   = Česko
+| top    = 51.3
+| bottom = 48.3
+| left   = 11.8
+| right  = 19.2
+|image={{#switch: {{{2|}}}
+|relief=Relief Map of Czech Republic.png
+|#default=Czech Republic location map.svg
+}}
+}}<noinclude>{{LocMap/Info|Česko}}
+[[fr:Modèle:Géolocalisation/République tchèque]]
+</noinclude>

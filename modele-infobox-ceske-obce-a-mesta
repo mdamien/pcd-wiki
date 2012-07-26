@@ -89,6 +89,8 @@
 {{!}} colspan="2" style="padding:.1em .5em" {{!}} {{{části}}}
 }}
 |-
+|carte                    = République tchèque
+|géolocdual               = oui
 | colspan="2" style="background: #fff; text-align: center;" | [[image:Information-silk.svg|link=Wikipedie:Jak číst infoboxy českých sídel]]&nbsp;[[Wikipedie:Jak číst infoboxy českých sídel|Zdroje k infoboxu a částem obce]] 
 |-
 {{#if: {{{commons|}}}| {{!}} colspan="2" {{!}}<div style="text-align: center;">[[Image:Commons-logo.svg|20px]] '''[[:commons:category:{{{commons}}}|multimediální obsah]]''' na&nbsp;[[Wikimedia Commons|Commons]]</div>}}

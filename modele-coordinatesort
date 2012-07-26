@@ -1,0 +1,4 @@
+<span style="display:none">!{{#switch:{{uc:{{{key|}}}}}
+|EW |LONG={{#expr:(500.0000005+(({{{2|0}}}) round 6))}}{{#expr: (500.0000005+(({{{1|0}}}) round 6))}}
+|#default={{#expr:(500.0000005+(({{{1|0}}}) round 6))}}{{#expr: (500.0000005+(({{{2|0}}}) round 6))}}
+}}</span><noinclude></noinclude>

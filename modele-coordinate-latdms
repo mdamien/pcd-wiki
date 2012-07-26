@@ -1,0 +1,24 @@
+{{#switch: {{{4}}}
+ ||N|S = {{#iferror: <!--
+   3 ∈ ℝ+, if(3){ 2 ∈ ℕ }else{ 2 ∈ ℝ+ }, 1 ∈ ℕ
+  -->{{#ifexpr: abs(0{{{3}}}) = (0{{{3}}}) and abs {{#if:{{{3}}}|trunc}} (0{{{2}}}) = (0{{{2}}}) and abs trunc({{{1}}}) = ({{{1}}})
+   | <!-- kein Fehler -->
+   | <span class="error">{{#if:{{{1}}}
+    | Breitengrad: DMS-Formatfehler<!-- falsche Zahlen -->
+<!--| leer -->
+   }}</span>
+  }}
+  | <span class="error">Breitengrad: DMS-Formatfehler<!-- keine oder falsche Zahlen --></span>
+  | {{#ifexpr: (0{{{3}}})>=60
+   | <span class="error">Breitensekunden ≥ 60</span>
+   | {{#ifexpr: (0{{{2}}})>=60
+    | <span class="error">Breitenminuten ≥ 60</span>
+    | {{#ifeq: {{{4}}} | S
+     | -1 * 
+    }} ( (0{{{3}}})/3600 + (0{{{2}}})/60 + ({{{1}}}) )
+   }}
+  }}
+ }}
+ |#default= <span class="error">unbekannte Himmelsrichtung ›{{{4}}}‹</span>
+}}<noinclude>
+</noinclude>

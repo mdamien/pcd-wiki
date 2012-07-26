@@ -1,0 +1,26 @@
+{{#switch: {{#switch: {{padleft:|2|{{#titleparts:{{{1}}}|1|1}}}}
+  | =
+  |LI|CH = S
+<!-- |GB = -->
+  | K
+ }}{{#switch: {{padleft:|2|{{#titleparts:{{{1}}}|1|2}}}}
+  | =
+  |LI|CH = S
+<!-- |GB = -->
+  | K
+ }}{{#switch: {{padleft:|2|{{#titleparts:{{{1}}}|1|3}}}}
+  | =
+  |LI|CH = S
+<!-- |GB = -->
+  | K
+ }}{{#switch: {{padleft:|2|{{#titleparts:{{{1}}}|1|4}}}}
+  | =
+  |LI|CH = S
+<!-- |GB = -->
+  | K
+ }}
+ |
+ |K|KK|KKK|KKKK = DMS/DMS
+ |S|SS|SSS|SSSS = CH1903/CH1903
+ |#default = DMS/CH1903
+}}<noinclude> </noinclude>

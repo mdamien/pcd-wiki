@@ -1,0 +1,11 @@
+<noinclude>Příklad</noinclude><span title="Špatný případ" style="background-color: #FCC;">{{{text|{{{1|<noinclude>Případ špatný</noinclude>}}}}}}</span><noinclude>Příklad</noinclude><noinclude>
+----
+Tato šablonka barevně označí špatný případ v příkladu, například v dokumentacích.
+
+== Parametr ==
+* text, nepovinný
+Parametr je vhodný v případech, kdy je součástí textu znak "=", a to třeba i jako součást HTML: <code>&lt;div ="100%"></code>.
+
+== Související šablony ==
+* {{Šablona|Případ správný}}
+</noinclude>

@@ -1,0 +1,66 @@
+<onlyinclude><includeonly>[{{#if:{{{datei}}}|[{{{datei}}}{{!}}link=}}//toolserver.org/~geohack/geohack.php?pagename={{FULLPAGENAMEE}}&language=de&params={{#expr: abs({{{NS}}}) }}_{{#ifexpr: {{{NS}}}<0
+ | S
+ | N
+}}_{{#expr: abs({{{EW}}})}}_{{#ifexpr: {{{EW}}}<0
+ | W
+ | E
+}}{{#if: {{{dim}}}
+ | _dim:{{{dim}}}
+}}{{#if: {{{globe}}}
+ | _globe:{{{globe}}}
+ | {{#if: {{{region}}}
+  | _region:{{{region}}}
+ }}{{#switch: {{{type}}}
+  |=
+  |country|state
+  |adm1st|adm2nd
+  |city|isle= _type:{{{type}}}{{#if: {{{pop}}} | ({{{pop}}}) }}
+  |mountain=  _type:{{{type}}}{{#if: {{{elevation}}} | ({{{elevation|}}}) }}
+  |#default=  _type:{{{type}}}
+ }}
+}}{{#if: {{{name}}}
+ | &title={{urlencode:{{{name}}}}}
+}} {{#if:{{{datei}}}
+ | {{!}}
+ | {{#if:{{{0}}}{{{tooltip}}}
+  | <span title="
+ }}
+}}{{{tooltip}}} {{#if:{{{0}}}
+ | {{#if: {{{tooltip}}}
+  |
+  | {{{name}}}{{#if:{{{ttf}}}| &#58;&#32; }}
+ }}
+ | {{#if:{{{tooltip}}}
+  | ">
+ }}
+}}{{#if: {{{1}}}{{{0}}}
+ | {{#if: {{{1}}}{{{ttf}}}
+  | {{Coordinate/to {{#if:{{{1}}}
+    | {{{1}}} {{{format}}}
+    | {{{ttf}}} tagless
+   }}
+   |label=
+   |NS={{{NS}}}
+   |EW={{{EW}}}
+   |round= (2 - 2*((1{{{dim_safe}}})=1) - 2*((0{{{dim_safe}}})>500000) - 2*((0{{{dim_safe}}})>10000) - ((0{{{dim_safe}}})>250) - ((0{{{dim_safe}}})>25) )
+  }}
+ }}
+}}{{#if:{{{datei}}}
+ | ]
+ | {{#if: {{{0}}}
+  | ">{{{0}}}</span>
+  | {{#switch: {{{2}}}
+   ||{{{1}}}|{{{1}}}S=<!--leer-->
+   |#default={{{trenner}}}{{Coordinate/to {{{2}}} {{{format}}}
+    |label= {{{label}}}
+    |NS= {{{NS}}}
+    |EW= {{{EW}}}
+    |round= (2 - 2*((1{{{dim_safe}}})=1) - 2*((0{{{dim_safe}}})>500000) - 2*((0{{{dim_safe}}})>10000) - ((0{{{dim_safe}}})>250) - ((0{{{dim_safe}}})>25) )
+   }}{{#ifeq: {{{trenner}}} | &#32;(
+    | )
+   }}
+  }}{{#if:{{{tooltip}}}
+   | </span>
+  }}
+ }}
+}}]</includeonly></onlyinclude>

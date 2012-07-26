@@ -1,0 +1,59 @@
+{{#if: {{{1|<noinclude>Stránka</noinclude>}}}
+ |{{#ifexist: {{NAMESPACE}}:{{{1|<noinclude>existence</noinclude>}}}
+   |{{#ifeq: {{NAMESPACE}}:{{PAGENAME}} | {{NAMESPACE}}:{{{1|<noinclude>jiny-PAGENAME</noinclude>}}}
+     |{{ambox <!-- slucovani samo se sebou, zakategorizovano jako chyba -->
+       | type       = move
+       | image      = [[Soubor:Merge-arrows.svg]]
+       | text       = Je navrženo '''[[Wikipedie:Slučování a přesun stránek#Slučování|sloučení]]''' tohoto článku. ([[:{{NAMESPACE}} diskuse:{{PAGENAME}}|diskuse]])<br />{{chyba|Šabloně {{Šablona|Sloučit}} byl dán článek samotný, [[selfreference]]: Slučování se sebou samým nemá smysl!}}
+      }}
+     |{{#if: {{{2|<noinclude>Směr</noinclude>}}}
+       |{{#switch: {{lc:{{{2|<noinclude>do</noinclude>}}}}}
+         | sem
+         | z
+         | ze = {{ambox
+           | type       = move
+           | image      = [[Soubor:Mergefrom.svg]]
+           | text       = Je navrženo začlenit sem veškerý obsah '''z''' článku '''''[[:{{NAMESPACE}}:{{{1<noinclude>|Zdrojový článek</noinclude>}}}|{{{1<noinclude>|Zdrojový článek</noinclude>}}}]]''''', třeba jako novou část, a oba tak '''[[Wikipedie:Slučování a přesun stránek#Slučování|sloučit]]'''. ([[:{{NAMESPACE}} diskuse:{{PAGENAME}}|diskuse]])<br /><small>Odtamtud sem pak má vést [[Wikipedie:Přesměrování|přesměrování]].</small>
+          }}<includeonly>{{Kategorie|Články ke sloučení}}</includeonly>
+         | tam
+         | d
+         | do = {{ambox
+           | type       = move
+           | image      = [[Soubor:Merge-arrow.svg]]
+           | text       = Je navrženo veškerý obsah odtud začlenit '''do''' článku '''''[[:{{NAMESPACE}}:{{{1<noinclude>|Cílový článek</noinclude>}}}|{{{1<noinclude>|Cílový článek</noinclude>}}}]]''''', třeba jako jeho novou část, a oba tak '''[[Wikipedie:Slučování a přesun stránek#Slučování|sloučit]]'''. ([[:{{NAMESPACE}} diskuse:{{PAGENAME}}|diskuse]])<br /><small>Odtud tam pak má vést [[Wikipedie:Přesměrování|přesměrování]].</small>
+          }}<includeonly>{{Kategorie|Články ke sloučení}}</includeonly>
+         |{{#ifexist: {{NAMESPACE}}:{{{2|<noinclude>nonexistence</noinclude>}}}
+           |{{ambox <!-- slucovani do existujiciho clanku se dela jinak -->
+             | type       = move
+             | image      = [[Soubor:Merge-arrows.svg]]
+             | text       = Je navrženo veškerý obsah '''odtud a zároveň z''' článku '''''[[:{{NAMESPACE}}:{{{1<noinclude>|Párový článek</noinclude>}}}|{{{1<noinclude>|Párový článek</noinclude>}}}]]''''' '''[[Wikipedie:Slučování a přesun stránek#Slučování|sloučit]]''' do nového článku '''''[[:{{NAMESPACE}}:{{{2<noinclude>|Cílový článek</noinclude>}}}|{{{2<noinclude>|Cílový článek</noinclude>}}}]]'''''.
+            }}
+         |{{ambox <!-- default switche: ani Z, ani DO, takze nejde o prepinac, ale o slouceni na uplne novou stranku -->
+             | type       = move
+             | image      = [[Soubor:Merge-arrows.svg]]
+             | text       = Je navrženo veškerý obsah '''odtud a zároveň z''' článku '''''[[:{{NAMESPACE}}:{{{1<noinclude>|Párový článek</noinclude>}}}|{{{1<noinclude>|Párový článek</noinclude>}}}]]''''' '''[[Wikipedie:Slučování a přesun stránek#Slučování|sloučit]]''' do nového článku '''''[[:{{NAMESPACE}}:{{{2<noinclude>|Cílový článek</noinclude>}}}|{{{2<noinclude>|Cílový článek</noinclude>}}}]]'''''. ([[:{{NAMESPACE}} diskuse:{{PAGENAME}}|diskuse]])<br /><small>Odtud na nový pak má vést [[Wikipedie:Přesměrování|přesměrování]].</small>
+            }}<includeonly>{{Kategorie|Články ke sloučení}}</includeonly>
+          }}
+        }}
+       |{{ambox <!-- Druhy parametr smeru vubec neurcen! -->
+         | type       = move
+         | image      = [[Soubor:Merge-arrows.svg]]
+         | text       = Je navrženo '''[[Wikipedie:Slučování a přesun stránek#Slučování|sloučení]]''' tohoto článku s článkem '''''[[:{{NAMESPACE}}:{{{1<noinclude>|Jiný článek</noinclude>}}}|{{{1<noinclude>|Jiný článek</noinclude>}}}]]'''''.
+        }}<includeonly>{{Kategorie|Články ke sloučení bez určení směru}}</includeonly>
+      }}
+    }}
+   |{{ambox <!-- sice urcen nejaky nazev protistrany s cim slucovat, jenze takova ve skutecnosti vubec neexistuje! -->
+     | type       = move
+     | image      = [[Soubor:Merge-arrows.svg]]
+     | text       = Je navrženo '''[[Wikipedie:Slučování a přesun stránek#Slučování|sloučení]]''' tohoto článku s článkem '''''[[:{{NAMESPACE}}:{{{1<noinclude>|Neexistující</noinclude>}}}|{{{1<noinclude>|Neexistující</noinclude>}}}]]'''''. <small>''[[Speciální:Co odkazuje na/{{NAMESPACE}}:{{{1<noinclude>|Neexistující</noinclude>}}}|další tam]]''</small><br /><small>Takový ovšem {{Případ špatný|neexistuje}}! Smysluplnost požadavku je třeba vyjasnit [[:{{NAMESPACE}} diskuse:{{PAGENAME}}|v diskusi]] a opravit ho:<br />Buď uvést {{Případ správný|existující cíl}}, nebo požadavek {{Případ správný|změnit na {{šablona|přesunout}}}}, {{Případ správný|vytvořit sem z názvu [[Wikipedie:Přesměrování|přesměrování]]}}, anebo ho úplně {{Případ správný|stáhnout}}.</small>
+    }}<includeonly>{{Kategorie|Články ke sloučení neexistující}}</includeonly>
+  }}
+ |{{ambox <!-- neurcena protistrana s cim slucovat, zakategorizovano jako chyba -->
+   | type       = move
+   | image      = [[Soubor:Merge-arrows.svg]]
+   | text       = Je navrženo '''[[Wikipedie:Slučování a přesun stránek#Slučování|sloučení]]''' tohoto článku. ([[:{{NAMESPACE}} diskuse:{{PAGENAME}}|diskuse]])<br />{{chyba|Šabloně {{Šablona|Sloučit}} však nebyl dán název druhého článku, se kterým slučovat!}}
+  }}
+}}<noinclude>
+{{Dlouhodobě polozamčeno}}
+<!-- KATEGORIE a INTERWIKI, PROSÍME, PŘIDÁVEJTE DO /doc PODSTRÁNKY. DĚKUJEME -->
+</noinclude>

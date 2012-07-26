@@ -124,12 +124,12 @@ Colors=
   id:darkgrey value:gray(0.7)
   id:sfondo value:rgb(1,1,1)
   id:barra value:rgb(0.7,0.9,0.7)
-ImageSize  = width:750 height:340
-PlotArea   = left:50 bottom:30 top:30 right:50
+ImageSize = width:750 height:340
+PlotArea = left:50 bottom:30 top:30 right:50
 DateFormat = x.y
 Period =from:0 till:500
-TimeAxis   = orientation:vertical
-AlignBars  = justify
+TimeAxis = orientation:vertical
+AlignBars = justify
 ScaleMajor = gridcolor:darkgrey increment:100 start:0
 ScaleMinor = gridcolor:lightgrey increment:20 start:0
 
@@ -399,6 +399,7 @@ TextData=
 <references />
 === Loïens intarnètes ===
 * [http://wikiwix.com/cache/?url=http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087%26CommuneId=75001 Él Meillie dseur ech site à l'Institut géographique national]
+
 [[Catégorie:Conmunes del Sonme]]
 
 [[ca:Méneslies]]
@@ -419,3 +420,4 @@ TextData=
 [[vi:Méneslies]]
 [[vo:Méneslies]]
 [[war:Méneslies]]
+[[zh:梅讷利]]

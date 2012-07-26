@@ -1,0 +1,105 @@
+<onlyinclude>{{Coordinate{{#if:{{{map|}}}
+  | Map
+  | {{#switch: {{{NS|}}}
+   ||/|//|///|///N|///S=NO{{#if: {{NAMESPACE}} | x }}
+   | {{#switch: {{{EW|}}}
+    ||/|//|///|///E|///W|///O=NO{{#if: {{NAMESPACE}} | x }}
+    | Main
+   }}
+  }}
+ }}
+ |NS= {{Coordinate/LatRange
+  |1= {{#ifeq: {{#titleparts:X{{{NS}}}|1|-1}} | X{{{NS}}}
+   | {{{NS|}}}
+   | {{Coordinate/LatDMS
+    |1= {{#titleparts:{{{NS}}}|1|1}}
+    |2= {{#titleparts:{{{NS}}}|1|2}}
+    |3= {{#titleparts:{{{NS}}}|1|3}}
+    |4= {{#titleparts:{{{NS}}}|1|4}}
+   }}
+  }}
+ }}
+ |EW= {{Coordinate/LonRange
+  |1= {{#ifeq: {{#titleparts:X{{{EW}}}|1|-1}} | X{{{EW}}}
+   | {{{EW|}}}
+   | {{Coordinate/LonDMS
+    |1= {{#titleparts:{{{EW}}}|1|1}}
+    |2= {{#titleparts:{{{EW}}}|1|2}}
+    |3= {{#titleparts:{{{EW}}}|1|3}}
+    |4= {{#titleparts:{{{EW}}}|1|4}}
+   }}
+  }}
+ }}
+ |type_safe = {{#switch: {{{type}}}
+  |country|state|adm1st|adm2nd|city|isle|airport|mountain|waterbody|forest|landmark={{{type}}}
+  |example={{#if:{{NAMESPACE}}
+   | example <!--{{{type}}}-->
+  }}
+ }}
+ |type = {{#if: {{{type|}}}
+  | {{{type}}}
+  | <span class="error" />
+ }}
+ |pop= {{#if: {{{pop|}}}
+  | {{#iferror: {{#ifexpr: abs trunc({{{pop}}}) = ({{{pop}}})
+    | {{{pop}}}
+    | <span class="error">keine ganze Zahl bei Bevölkerung</span>
+   }}
+   | <span class="error">keine Zahl: {{{pop}}}</span>
+  }}
+ }}
+ |elevation = {{#if: {{{elevation|}}}
+  | {{#iferror: {{#ifexpr: ({{{elevation}}}) = ({{{elevation}}}) round 2
+    | {{{elevation}}}
+    | <span class="error">keine Tausendertrennzeichen und höchstens 2 Nachkommastellen in der Höhenangabe erlaubt</span>
+   }}
+   | <span class="error">keine Zahl: {{{elevation}}}</span>
+  }}
+ }}
+ |dim_safe = {{#iferror: {{#expr: 1*({{{dim}}}) = ({{{dim}}}) }}
+  | {{#switch: {{{type}}}
+   |country|state|adm1st=500001<!--D-->
+   |adm2nd|city|mountain|isle= 10001<!--DM-->
+   |landmark= <!-- 250 ??? -->
+   |#default= 500<!--DMS-->
+  }}
+  | {{#ifeq: {{{type}}} | landmark
+   | {{#ifexpr: 250>{{{dim}}}
+    | {{{dim}}}
+    | 250
+   }}
+   | {{{dim}}}
+  }}
+ }}
+ |dim= {{{dim|}}}
+ |region= {{{region|}}}
+ |globe= {{#ifeq: {{{globe}}} | earth
+  |
+  | {{{globe|}}}
+ }}
+ |text= {{{text|}}}
+ |article= {{#if: {{{article|}}}{{{text|}}}{{{map|}}}
+  | {{{article|}}}
+  | /
+ }}
+ |name= {{#ifeq: {{{name}}} | coordinates
+  |
+  |{{{name|}}}
+ }}
+ |default= {{#ifeq: {{padleft:|1|{{{text}}} }} | /
+  | {{CoordinateDefault|{{{region|}}} }}
+ }}
+ |tooltip= {{{tooltip|}}}
+ |ttf    = {{{tooltipformat|DMS}}}
+ |sortkey= {{{sortkey|}}}
+<!-- Map-Parameter -->
+ |mapname    = {{{mapname|}}}
+ |maplevel   = {{{maplevel|}}}
+ |mapfloat   = {{{map|}}}
+ |mapsize    = {{{mapsize|}}}
+ |maptype    = {{{maptype|}}}
+ |mapcaption = {{{mapcaption|auto}}}
+ |maplabel   = {{{maplabel|}}}
+ |maplayer   = {{{maplayer|}}}
+ |maptrenner = {{{maptrenner|}}}
+}}</onlyinclude>

@@ -1,0 +1,43 @@
+<onlyinclude><span title="Breitengrad">{{#ifexpr: {{{round}}} < -2
+ | {{#expr:trunc abs({{{NS}}} round 0)}}°&nbsp;
+ | {{#ifexpr: {{{round}}} < 0
+  | {{#expr:trunc( abs(60*{{{NS}}} round 0) / 60)}}°&nbsp;{{#expr:abs(60*{{{NS}}} round 0) mod 60}}′&nbsp;
+  | {{#expr:trunc( abs(3600*{{{NS}}} round {{{round}}}) / 3600)}}°&nbsp;{{#expr:abs(3600*{{{NS}}} round {{{round}}}) / 60 mod 60}}′&nbsp;{{formatnum: {{#expr:(abs(360000*{{{NS}}} round {{{round}}}-2) mod 6000 ) / 100 }} }}″&nbsp;
+ }}
+}}{{#ifexpr: {{{NS}}} < 0
+ | <abbr title="Süd">S</abbr>
+ | <abbr title="Nord">N</abbr>
+}}</span>{{#ifexpr:abs({{{NS}}})<90<!-- sonst Pol ohne Längengrad -->
+ |, <span title="Längengrad">{{#ifexpr: {{{round}}} < -2
+  | {{#expr:trunc abs({{{EW}}} round 0)}}°&nbsp;
+  | {{#ifexpr: {{{round}}} < 0
+   | {{#expr:trunc( abs(60*{{{EW}}} round 0) / 60)}}°&nbsp;{{#expr:abs(60*{{{EW}}} round 0) mod 60}}′&nbsp;
+   | {{#expr:trunc( abs(3600*{{{EW}}} round {{{round}}}) / 3600)}}°&nbsp;{{#expr:abs(3600*{{{EW}}} round {{{round}}}) / 60 mod 60}}′&nbsp;{{formatnum: {{#expr:(abs(360000*{{{EW}}} round {{{round}}}-2) mod 6000 ) / 100 }} }}″&nbsp;
+  }}
+ }}{{#ifexpr: {{{EW}}} < 0
+  | <abbr title="West">W</abbr>
+  | <abbr title="Ost">O</abbr>
+ }}</span>
+}}</onlyinclude>
+
+{{Coordinate/Formatdoku}}<!--
+
+{{{round}}} ist ein #expr-Ausdruck für:
+
+{{#if: {{{dim}}}
+ | {{#ifexpr: ({{{dim}}}) > 500000
+  | -4
+  | {{#ifexpr:({{{dim}}}) > 10000
+   | -2
+   | {{#ifexpr: {{{dim}}} > 250 
+    | 0
+    | {{#ifexpr: {{{dim}}} > 25
+     | 1
+     | 2
+    }}
+   }}
+  }}
+ }}
+ | 0
+}}
+-->

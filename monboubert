@@ -41,10 +41,10 @@
 {{ÉluFin}}
 
 
-==Lius pi monumints==
+== Lius pi monumints ==
 * Église ''Saint-Martin''
 
-[[Image:Mons-Boubert église (chevet) 1.jpg|center|300px|thumb|l'église Saint-Martin]]
+[[Fichier:Mons-Boubert église (chevet) 1.jpg|center|300px|thumb|l'église Saint-Martin]]
 
 
 
@@ -126,12 +126,12 @@ Colors=
   id:darkgrey value:gray(0.7)
   id:sfondo value:rgb(1,1,1)
   id:barra value:rgb(0.7,0.9,0.7)
-ImageSize  = width:750 height:340
-PlotArea   = left:50 bottom:30 top:30 right:50
+ImageSize = width:750 height:340
+PlotArea = left:50 bottom:30 top:30 right:50
 DateFormat = x.y
 Period =from:0 till:1500
-TimeAxis   = orientation:vertical
-AlignBars  = justify
+TimeAxis = orientation:vertical
+AlignBars = justify
 ScaleMajor = gridcolor:darkgrey increment:200 start:0
 ScaleMinor = gridcolor:lightgrey increment:100 start:0
 
@@ -403,6 +403,7 @@ TextData=
 === Loïens intarnètes ===
 * [http://wikiwix.com/cache/?url=http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087%26CommuneId=75057 Monboubért dseur ech site à l'Institut géographique national]
 * [http://clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/80/accueil_80556.htm Clotchés.org]
+
 [[Catégorie:Conmunes del Sonme]]
 
 [[ca:Mons-Boubert]]
@@ -424,3 +425,4 @@ TextData=
 [[vi:Mons-Boubert]]
 [[vo:Mons-Boubert]]
 [[war:Mons-Boubert]]
+[[zh:蒙布贝尔]]

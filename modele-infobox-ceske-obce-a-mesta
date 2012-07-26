@@ -22,27 +22,27 @@
 |- style="background:#fff"
 | status: || [[{{{status}}}]]
 |- style="background:#fff"
-| <small>[[NUTS]]&nbsp;5</small> ([[obec]]): || {{{NUTS5}}}
+| <small>NUTS&nbsp;5</small> (obec - conmeune): || {{{NUTS5}}}
 |- style="background:#fff"
-| [[Kraje v Česku|kraj]] <small>([[NUTS]]&nbsp;3)</small>: || {{{kraj}}} <small>({{{NUTS3}}})</small>
+| kraj (Région) <small>(NUTS&nbsp;3)</small>: || {{{kraj}}} <small>({{{NUTS3}}})</small>
 |- style="background:#fff"
-| [[okres]] <small>([[NUTS]]&nbsp;4)</small>: || [[okres {{{okres}}}|{{{okres}}}]] <small>({{{NUTS4}}})</small>
+| okres <br>canton<br>district <small>(NUTS&nbsp;4)</small>: || [[okres {{{okres}}}|{{{okres}}}]] <small>({{{NUTS4}}})</small>
 |- style="background:#fff"
-| [[obec s rozšířenou působností]]:
+| obec s rozšířenou působností:
 | rowspan={{{souběh|{{#ifeq: {{{ob.roz.půs}}} | {{{pov.ob}}} |2|1}}}}} valign=middle | {{{ob.roz.půs}}}
 |- style="background:#fff"
-| [[Obec s pověřeným obecním úřadem|pověřená obec]]: {{#if: {{{souběh|{{#ifeq: {{{ob.roz.půs}}} | {{{pov.ob}}} |*}} }}} || {{!!}} {{{pov.ob}}} }}
+| pověřená obec: {{#if: {{{souběh|{{#ifeq: {{{ob.roz.půs}}} | {{{pov.ob}}} |*}} }}} || {{!!}} {{{pov.ob}}} }}
 |- style="background:#fff"
-| [[Země (Česká republika)|historická země]]: || {{{země}}}
+| historická země: || {{{země}}}
 {{
 #if: {{{k.ú.|}}} | {{!CRLF}}
 {{!}}- 
-{{!}} [[katastrální území]]: {{!}}{{!}} {{{k.ú.}}}
+{{!}} katastrální území: {{!}}{{!}} {{{k.ú.}}}
 }}
 |-
-| [[katastrální výměra]]: || {{{výměra}}}&nbsp;[[Kilometr čtvereční|km²]]
+| Supérfichie: || {{{výměra}}}&nbsp;km²
 |-
-| [[počet obyvatel]]: || {{{obyvatelé}}}{{#if:{{{obyv.datum|}}}|<span style="font-size: smaller;"><span> </span>({{{obyv.datum}}})</span>}}
+| Nombe ed gins: || {{{obyvatelé}}}{{#if:{{{obyv.datum|}}}|<span style="font-size: smaller;"><span> </span>({{{obyv.datum}}})</span>}}
 |-
 {{#if: {{{domů|}}} |
 {{!}}  {{!}} <div style>[[Označování domů|domů]]</div>
@@ -50,24 +50,24 @@
 {{!}}- }}
 |-
 |-
-| [[zeměpisná šířka]]: || {{{zem.šíř}}}
+| latitude: || {{{zem.šíř}}}
 |-
-| [[zeměpisná délka]]: || {{{zem.dél}}}
+| longitude: || {{{zem.dél}}}
 |-
-| [[nadmořská výška]]: || {{{nad.výš}}}&nbsp;m
+| altitude: || {{{nad.výš}}}&nbsp;m
 |-
-| [[poštovní směrovací číslo|PSČ]]: || {{{PSČ}}}
+| code postal: || {{{PSČ}}}
 |- style="background:#f2f2f2"
-| [[základní sídelní jednotka|zákl. sídelní jednotky]]: || {{{početzsj}}}
+| zákl. sídelní jednotky: || {{{početzsj}}}
 |- style="background:#f2f2f2"
-| [[Část obce|části obce]]: || {{{početč}}}
+| Wartié: || {{{početč}}}
 |- style="background:#f2f2f2"
-| [[katastrální území]]: || {{{početk}}}
+| katastrální území: || {{{početk}}}
 |- style="background:#f2f2f2"
 | adresa {{#switch: {{{status}}} | město = městského&nbsp;úřadu | městys = úřadu&nbsp;městyse | vojenský újezd = újezdního&nbsp;úřadu | obecního&nbsp;úřadu}}:
 | {{{adresa}}}
 |- style="background:#f2f2f2"
-| {{#switch: {{{status}}} | vojenský újezd = přednosta | {{#if: {{{starostka|}}} || [[starosta]] / }} starostka}}:
+| {{#switch: {{{status}}} | vojenský újezd = přednosta | {{#if: {{{starostka|}}} || maire / }} starostka}}:
 | {{{starosta|{{{starostka|?}}} }}}
 |- style="background:#f2f2f2"
 | colspan="2" align="center" |{{
@@ -79,7 +79,7 @@
 {{!}} colspan="2" style="background: #fff; text-align: center;" {{!}} [[{{{mapa}}}|225px|{{{název}}} na mapě]]
 }}{{#if: {{{loc-map|}}} | {{!CRLF}}
 {{!}}- 
-{{!}} colspan="2" style="text-align: center; overflow: hidden;" {{!}}{{#if: {{{x|}}}{{{y|}}}|<div style="position:relative;width:13px;height:13px;margin:-0px -0px -13px 0px;z-index:50;float:left;left:{{{x|}}}px;top:{{{y|}}}px;">[[Soubor:Paris_plan_pointer_b_jms.gif]]</div>}} {{{loc-map}}}
+{{!}} colspan="2" style="text-align: center; overflow: hidden;" {{!}}{{#if: {{{x|}}}{{{y|}}}|<div style="position:relative;width:13px;height:13px;margin:-0px -0px -13px 0px;z-index:50;float:left;left:{{{x|}}}px;top:{{{y|}}}px;">[[image:Paris_plan_pointer_b_jms.gif]]</div>}} {{{loc-map}}}
 |
 }}{{
 #if: {{{části|}}} | {{!CRLF}}
@@ -89,7 +89,7 @@
 {{!}} colspan="2" style="padding:.1em .5em" {{!}} {{{části}}}
 }}
 |-
-| colspan="2" style="background: #fff; text-align: center;" | [[Soubor:Information-silk.svg|link=Wikipedie:Jak číst infoboxy českých sídel]]&nbsp;[[Wikipedie:Jak číst infoboxy českých sídel|Zdroje k infoboxu a částem obce]] 
+| colspan="2" style="background: #fff; text-align: center;" | [[image:Information-silk.svg|link=Wikipedie:Jak číst infoboxy českých sídel]]&nbsp;[[Wikipedie:Jak číst infoboxy českých sídel|Zdroje k infoboxu a částem obce]] 
 |-
 {{#if: {{{commons|}}}| {{!}} colspan="2" {{!}}<div style="text-align: center;">[[Image:Commons-logo.svg|20px]] '''[[:commons:category:{{{commons}}}|multimediální obsah]]''' na&nbsp;[[Wikimedia Commons|Commons]]</div>}}
 |}<noinclude> </noinclude>

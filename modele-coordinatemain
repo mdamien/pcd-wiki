@@ -1,0 +1,116 @@
+<onlyinclude>{{#iferror:{{{NS}}}{{{EW}}}
+ | {{CoordinateMessage|1 |{{{NS}}} |{{{EW}}} }}
+ |<!--
+
+text output
+
+-->{{#if: {{{text}}}
+  | {{#if: {{{sortkey}}}
+   | {{CoordinateSort |{{{NS}}} |{{{EW}}} |key={{{sortkey}}} }}
+  }}<span id="{{#if: {{{name}}}
+   | {{anchorencode:{{{name}}}}}
+   | text_coordinates
+  }}" class="coordinates plainlinks-print">{{#ifeq: {{{type_safe}}} | example
+   | <span style="background:white; font-style:italic;">Beispiel</span>&#32;
+  }}{{#if: {{{article}}}{{{name}}}
+   |
+   | {{CoordinateMessage|8}}&#32;
+  }}{{CoordinateLink
+   |NS        = {{{NS}}}
+   |EW        = {{{EW}}}
+   |globe     = {{{globe}}}
+   |type      = {{{type_safe}}}
+   |pop       = {{#iferror: {{{pop}}} | }}
+   |elevation = {{#iferror: {{{elevation}}} | }}
+   |dim       = {{{dim}}}
+   |dim_safe  = {{{dim_safe}}}
+   |region    = {{{region}}}
+   |name      = {{{name}}}
+   |label     = <!-- zweites Format nicht bezeichnen -->
+   |trenner   = &#32;(
+   |tooltip   = {{{tooltip}}}
+   |ttf       = {{{ttf}}}
+   |format    = {{#if: {{{sortkey}}} |sortable }}
+   |datei     = {{#switch: {{padleft:|5|{{{text}}}}}<!-- {{NAMESPACE:{{{text}}}}} funktioniert mit {{!}} nicht -->
+    | ICON2 = Datei:Erioll world.svg{{!}}15px{{!}}alt=Welt-Icon 
+    | Datei = {{{text}}}
+   }}
+   |0 = {{#switch: {{uc:{{#titleparts:{{{text}}}|1|1}}}}
+    |<!--leer--> |OSGB36<!--nicht implementiert-->|DMS|DM|DEC|CH1903|UTM= <!--leer-->
+    |ICON0=⊙
+    |ICON =⦁
+    |ICON1=<sup>▼</sup>
+    |#default= {{{text}}}
+   }}
+   |1 = {{#switch: {{uc:{{#titleparts:{{{text}}}|1|1}}}}
+    |<!--leer-->= {{#titleparts:{{{default}}}|1|1}}
+    |OSGB36<!--nicht implementiert → DMS -->
+    |DMS= DMS
+    |DM= DM
+    |DEC= DEC
+    |CH1903= CH1903
+    |UTM= UTM
+   }}
+   |2 = {{#switch: {{uc:{{#titleparts:{{{text}}}|1|2}}}}
+    |<!--leer-->= {{#if: {{{default}}} <!-- kein erster Teil -->
+     | {{#titleparts:{{{default}}}|1|2}}
+    }}
+    |DMS= DMS
+    |DEC= DEC
+    |CH1903= CH1903
+    |UTM= UTM
+    <!--|OSGB36 = nicht implementiert-->
+   }}
+  }}</span>
+ }}<span class="geo microformat"><span class="body">{{ucfirst:{{{globe}}}}}</span><span class="latitude">{{{NS}}}</span><span class="longitude">{{{EW}}}</span><span class="elevation">{{{elevation}}}</span><!-- leere Tags werden von Tidy entfernt --></span>{{#if: {{#iferror:{{{pop}}}{{{elevation}}}|X|}}{{#if:{{{region}}}{{{globe}}}||X}}{{#ifeq:{{{type}}}|{{{type<includeonly>_safe</includeonly>}}}||X}}
+  | &#32;{{CoordinateMessage
+   |3<!-- 4,6,7,9 -->
+   |type = {{{type}}}
+   |rg = {{{region}}}{{{globe}}}
+   |elevation = {{{elevation}}}
+   |pop = {{{pop}}}
+  }}{{#if:{{{mapfloat|}}}<!-- alternativ {{{mapname|}}}{{{maplevel|}}}{{{mapsize|}}}{{{maptype|}}}{{{maplayer|}}}{{{maptrenner|}}} -->
+   |<!-- Einbindung aus /Map -->
+   | {{#if:{{{mapname}}}{{{maplevel}}}{{{mapsize}}}{{{maptype}}}{{{maplayer}}}{{{maptrenner}}}
+    | &#32;{{CoordinateMessage|10}}
+   }}
+  }}
+ }}<!--
+
+article output
+
+-->{{#if:{{{article}}}
+  | <span id="coordinates" class="coordinates plainlinks-print"><span title="Koordinatensystem WGS84">Koordinaten: </span>{{#ifeq: {{{type_safe}}} | example
+   | <span style="background:white; font-style:italic;">Beispiel</span>&#32;
+  }}{{CoordinateLink
+   |NS        = {{{NS}}}
+   |EW        = {{{EW}}}
+   |globe     = {{{globe}}}
+   |type      = {{{type_safe}}}
+   |pop       = {{#iferror: {{{pop}}} | }}
+   |elevation = {{#iferror: {{{elevation}}} | }}
+   |dim       = {{{dim}}}
+   |dim_safe  = {{{dim_safe}}}
+   |region    = {{{region}}}
+   |name      = <!-- Artikelkoordinate ohne title-Parameter ??? -->
+   |label     = ja
+   |trenner   = &#59;&#32; <!-- „; “ -->
+   |tooltip   = <!-- kein Tooltip -->
+<!--|ttf       = wird eh nicht ausgewertet -->
+   |datei     = <!-- Artikelkoordinate immer als Text -->
+   |format    = <!-- Artikelkoordinate nie in sort-Format -->
+   |0 =
+   |1 = DMS
+   |2 = {{#switch: {{uc:{{{article}}}}}
+    |DMS|DM= <!--leer-->
+    |CH1903|CH1903/DMS|DMS/CH1903= CH1903
+    |OSGB36|OSGB36/DMS|DMS/OSGB36= <!--OSGB36-->
+    |UTM|UTM/DMS|DMS/UTM= UTM
+    |#default= {{#titleparts:{{#if:{{{default}}}
+     | {{{default}}}
+     | {{CoordinateDefault|{{{region}}} }}
+    }}|1|2}}
+   }}
+  }}</span>
+ }}
+}}</onlyinclude>

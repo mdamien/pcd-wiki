@@ -1,0 +1,65 @@
+{{#switch:{{{1}}}
+ |1 = <span class="error">Gradzahl-Fehler: {{#iferror:{{{2}}}
+  | ''[[Vorlage:Coordinate#NS und EW|NS]]'': {{{2}}}
+  |
+ }} {{#iferror:{{{3}}}
+  | ''[[Vorlage:Coordinate#NS und EW|EW]]'': {{{3}}}
+  |
+ }}{{#if:{{NAMESPACE}}
+  |
+  | [[Kategorie:Wikipedia:Koordinaten-Parameterfehler|1{{PAGENAME}}#Gradzahl-Fehler]]
+ }}</span>
+ |2 = <span class="error">nicht&nbsp;in&nbsp;[[Vorlage:Coordinate/to {{{2}}}#Wertebereich|Bereich]]&nbsp;von&nbsp;{{{2}}}</span>{{#if:{{NAMESPACE}}
+  |
+  |[[Kategorie:Wikipedia:Koordinaten-Parameterfehler|2{{PAGENAME}}#{{{2}}} Wertebereich]]
+ }}
+ |3 <!--
+ |4
+ |6
+ |7
+ |9 --> = {{#switch: {{{type}}}
+  |country|state|adm1st|adm2nd|city|isle|airport|mountain|waterbody|forest|landmark=
+  |example={{#if:{{NAMESPACE}}
+   | 
+   | <span class="error">falscher Wert ›example‹ im Artikelnamensraum [[Kategorie:Wikipedia:Koordinaten-Parameterfehler|3{{PAGENAME}}#type-Parameter: falscher Wert ›example‹]]</span>
+  }}
+  |#default= <span class="error">{{#ifeq:{{{type}}}|<span class="error" />
+   | kein Wert
+   | falscher Wert ›{{{type}}}‹
+  }} in ''[[Vorlage:Coordinate#type|type]]''-Parameter{{#if:{{NAMESPACE}}
+   |
+   | [[Kategorie:Wikipedia:Koordinaten-Parameterfehler|{{#ifeq:{{{type}}}|<span class="error" />
+    | 4{{PAGENAME}}#type-Parameter: kein Wert
+    | 3{{PAGENAME}}#type-Parameter: falscher Wert ›{{{type}}}‹
+   }}]]
+  }}</span>
+ }} {{#if: {{{rg}}}
+  |
+  | <span class="error">''[[Vorlage:Coordinate#region|region]]''-Parameter fehlt{{#if:{{NAMESPACE}}
+   | <span style="display:none">[[Vorlage:Coordinate/Wartung/region|6]]</span>
+   | [[Kategorie:Wikipedia:Koordinaten-Parameterfehler|6{{PAGENAME}}#region fehlt]]
+  }}</span>
+ }} {{#iferror: {{{elevation}}}
+  | {{{elevation}}}{{#if:{{NAMESPACE}}
+   |
+   | [[Kategorie:Wikipedia:Koordinaten-Parameterfehler|7{{PAGENAME}}#Fehler in der Höhenangabe]]
+  }}
+  |
+ }} {{#iferror: {{{pop}}}
+  | {{{pop}}}{{#if:{{NAMESPACE}}
+   |
+   | Wikipedia:Koordinaten-Parameterfehler|9{{PAGENAME}}#Fehler in der Einwohnerzahl
+  }}
+  |
+ }}
+ |5 = <span class="error">unbenannte Parameter '''1''':{{{2}}}{{#if:{{{3}}}|, '''2''':{{{3}}}}}{{#if:{{{4}}}|, '''3''':{{{4}}}}}{{#if:{{{5}}}|, '''4''':{{{5}}}}} {{#if:{{{6}}}|usw.}}{{#if:{{NAMESPACE}}
+  |
+  | Wikipedia:Koordinaten-Parameterfehler|5{{PAGENAME}}#unbenannte Parameter
+ }}</span>
+ |8 = <span class="error">Parameter ''[[Vorlage:Coordinate#name|name]]'' fehlt in Fließtextkoordinate</span>{{#if:{{NAMESPACE}}
+  |
+  | Wikipedia:Koordinaten-Parameterfehler|8{{PAGENAME}}#name fehlt
+ }}
+ |10= <span style="display:none">[[Vorlage:Coordinate/Wartung/map-parameter|überflüssige Parameter]]</span>
+ |#default=<span class="error">coordinates error</span><includeonly></includeonly>
+}}<noinclude></noinclude>

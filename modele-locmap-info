@@ -1,0 +1,43 @@
+<includeonly><small style="display:block;margin-left:1.5em">← [[Šablona:LocMap]]</small>
+{| class="wikitable" style="text-align:center"
+|+ {{{{PAGENAME}}|name}}
+|-
+|colspan="2"|[[Soubor:{{{{PAGENAME}}|image}}|400x400px|{{PAGENAME}}]]
+|-
+! název
+|[[{{#if:{{{{PAGENAME}}|fullname}}|{{{{PAGENAME}}|fullname}}|{{{{PAGENAME}}|name}} }} |{{{{PAGENAME}}|name}}]]
+|-
+{{#switch:{{{{PAGENAME}}|type}}
+|custom=
+{{!}}-
+! vzorce pro souřadnice
+{{!}} [[/x|x]], [[/y|y]]
+|polar=
+{{!}}-
+! souřadnice středu
+{{!}} {{{{PAGENAME}}|x}}%, {{{{PAGENAME}}|y}}%
+{{!}}-
+! délka poloviny poledníku
+{{!}} {{{{PAGENAME}}|length_x}}% (x), {{{{PAGENAME}}|length_y}}% (y)
+|#default=
+{{!}}-
+!souřadnice okrajů
+{{!}}
+ {{{!}}style="margin:0 auto; border: 1px"
+  {{!}}{{!}}{{!}}{{{{PAGENAME}}|top}}{{!}}{{!}}
+  {{!}}-
+  {{!}}<span>{{{{PAGENAME}}|left}}</span>{{!}}{{!}}←↕→{{!}}{{!}}{{{{PAGENAME}}|right}}
+  {{!}}-
+  {{!}}{{!}}{{!}}{{{{PAGENAME}}|bottom}}{{!}}{{!}}
+  {{!}}}
+{{!}}-
+}}
+|-
+! obrázek
+{{!}} <tt>[[:Soubor:{{{{PAGENAME}}|image}}|{{{{PAGENAME}}|image}}]]</tt>
+|-
+|}
+</includeonly>
+<noinclude>
+[[en:Template:Location map/Info]]
+</noinclude>

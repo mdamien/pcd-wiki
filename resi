@@ -121,3 +121,4 @@ La [[Colonne (rivière)|Colonne]], ch'est un tiot ru qu'passe à Rési.
 [[vi:Roisel]]
 [[vo:Roisel]]
 [[war:Roisel]]
+[[zh:鲁瓦塞勒]]

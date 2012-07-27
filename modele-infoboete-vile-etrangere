@@ -192,7 +192,7 @@ Sources statistiques
 
 les mauvais paramétrages
 
--->{{#if:{{NAMESPACE}}||
+{{#if:{{NAMESPACE}}||
 {{#if:{{{nomville|}}}{{{nomville2|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|nomville]]|}}
 {{#if:{{{état|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|état]]|}}
 {{#if:{{{collectivité|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|collectivité]]|}}
@@ -205,6 +205,5 @@ les mauvais paramétrages
 {{#if:{{{district|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|district]]|}}
 {{#if:{{{agglomération|}}}|[[Catégorie:modèle aveuc un paramètre obsolète|agglomération]]|}}
 {{#if:{{{imageloc|}}}|[[Catégorie:modèle aveuc eune géolocalisacion éstatique]]|}}
-
-}}</includeonly><noinclude>{{Doc modèle}}[[catégorie:Infoboète]]
-</noinclude>
+}}--> 
+</includeonly><noinclude>{{Doc modèle}}[[catégorie:Infoboète]]</noinclude>

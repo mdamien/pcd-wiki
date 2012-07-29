@@ -156,6 +156,7 @@ Il o té fondé in 1854 par [[Henri Martin (historien)|Henri Martin]].
 | 1982= 63 567
 | 1990= 60 644
 | 1999= 59 066
+| 1999= 55 971
 | date1= 2006 | pop1 = 56 792<ref> [http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/pages2008/pdf/dep02.pdf Recensement de 2006 des communes de l'Aisne]</ref>
 | date2= 2007 | pop2= 56 471<ref>[http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/pages2009/pdf/dep02.pdf Recensement de la population de 2007 des communes de l'Aisne]</ref>|
 |source = Cassini<ref>[http://cassini.ehess.fr/cassini/fr/html/6_index.htm http://cassini.ehess.fr/ Population par conmeune edvant 1962 ]</ref> et pi INSEE<ref>[http://www.insee.fr/fr/ffc/docs_ffc/psdc.htm INSEE : Population édpuis 1962]</ref>
@@ -193,7 +194,7 @@ BarData=
   bar:1982 text:1982
   bar:1990 text:1990
   bar:1999 text:1999
-  bar:2006 text:2006
+  bar:2009 text:2009
 
 PlotData=
   color:barra width:30 align:left
@@ -210,7 +211,7 @@ PlotData=
   bar:1982 from:0 till: 63567
   bar:1990 from:0 till: 60644
   bar:1999 from:0 till: 59066
-  bar:2006 from:0 till: 56762
+  bar:2009 from:0 till: 55971
 
 PlotData=
 
@@ -226,7 +227,7 @@ PlotData=
   bar:1982 at: 63567 fontsize:S text: 63.567 shift:(-10,5)
   bar:1990 at: 60644 fontsize:S text: 60.644 shift:(-10,5)
   bar:1999 at: 59066 fontsize:S text: 59.066 shift:(-10,5)
-  bar:2006 at: 56762 fontsize:S text: 56.762shift:(-10,5)
+  bar:2009 at: 55971 fontsize:S text: 56.762shift:(-10,5)
 </timeline>
 </center>
 <!-- DÉBUT DU CODE ED L'HISTOGRAMME DÉMOGRAFIE -->
@@ -320,10 +321,9 @@ PlotData=
  bar:1982 from:0 till: 63567
  bar:1990 from:0 till: 60644
  bar:1999 from:0 till: 59066
- bar:2006 from:0 till: 56792
+ bar:2009 from:0 till: 55971
 </timeline></center>
 <!-- FIN DU CODE ED L'HISTOGRAMME DÉMOGRAFIE -->
-
 
 ==Parsonnalitès loèyèes à l'conmeune==
 

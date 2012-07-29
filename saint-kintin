@@ -227,7 +227,7 @@ PlotData=
   bar:1982 at: 63567 fontsize:S text: 63.567 shift:(-10,5)
   bar:1990 at: 60644 fontsize:S text: 60.644 shift:(-10,5)
   bar:1999 at: 59066 fontsize:S text: 59.066 shift:(-10,5)
-  bar:2009 at: 55971 fontsize:S text: 55.971shift:(-10,5)
+  bar:2009 at: 55971 fontsize:S text: 55.971 shift:(-10,5)
 </timeline>
 </center>
 <!-- DÉBUT DU CODE ED L'HISTOGRAMME DÉMOGRAFIE -->

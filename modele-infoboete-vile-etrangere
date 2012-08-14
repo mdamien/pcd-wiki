@@ -6,6 +6,14 @@
 {{!}} colspan="2" style="text-align:center;"{{!}}
 {{(!}} cellspacing="7" width="100%" style="background: none;"
 {{!-}} valign="top"
+{{#if:{{{armoiries|}}}{{{logo|}}} |
+{{!}} colspan="2" align="center" {{!}} {{#switch:{{{armoiries|}}}{{{logo|}}}
+| {{{armoiries|}}} =[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}
+| {{{logo|}}} =[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br><small>[[{{{logo-desc}}}|Détail]]</small>|}}
+| {{{armoiries|}}}{{{logo|}}} =<table style="text-align:center;background-color:#f9f9f9;width:100%"><tr><td style="width:50%">[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}</td><td>[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}</td></tr></table>|}}
+{{!-}}
+}}
+
 {{#if:{{{blason|}}}|
 {{!}}[[Fichier:{{{blason}}}|65px|Blason de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Héraldique]]</small>|}}
 {{#if:{{{drapeau|}}}|
@@ -160,7 +168,13 @@ Internet
 {{Ligne optionnelle|{{{nom site2|}}}|{{{url2|}}}}}
 {{Ligne optionnelle|{{{nom site3|}}}|{{{url3|}}}}}
 {{Ligne optionnelle|{{{nom site4|}}}|{{{url4|}}}}}
-|<nowiki></nowiki>}}<!-- 
+|<nowiki></nowiki>}}
+{{#if:{{{siteweb|}}} | 
+! scope=row {{!}} Site intarnète
+{{!}} <span class="plainlinks">{{{siteweb}}}</span>
+{{!-}}
+}}
+<!-- 
 
 Sources statistiques
 

@@ -1,0 +1,1 @@
+<span class="ouvrage" id=" {{ #if:{{{ancre|}}} |{{{ancre}}} |{{anchorencode:GRIN espèce}} }}">Référence [http://www.ars-grin.gov/ GRIN] : [http://www.ars-grin.gov/~sbmljw/cgi-bin/taxon.pl?{{#if:x|{{{1}}}}} <small>espèce </small>{{{2|{{{1}}}}}}] {{en}}{{Consulté le|{{{consulté le|}}}}}</span><noinclude> </noinclude>

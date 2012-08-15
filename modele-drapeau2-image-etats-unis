@@ -1,0 +1,89 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1960| Flag of the United States.svg
+|{{#ifexpr: {{{1}}} > 1959 | US flag 49 stars.svg
+|{{#ifexpr: {{{1}}} > 1912 | US flag 48 stars.svg
+|{{#ifexpr: {{{1}}} > 1908 | US flag 46 stars.svg
+|{{#ifexpr: {{{1}}} > 1896 | US flag 45 stars.svg
+|{{#ifexpr: {{{1}}} > 1891 | US flag 44 stars.svg
+|{{#ifexpr: {{{1}}} > 1890 | US flag 43 stars.svg
+|{{#ifexpr: {{{1}}} > 1877 | US flag 38 stars.svg
+|{{#ifexpr: {{{1}}} > 1867 | US flag 37 stars.svg
+|{{#ifexpr: {{{1}}} > 1865 | US flag 36 stars.svg
+|{{#ifexpr: {{{1}}} > 1863 | US flag 35 stars.svg
+|{{#ifexpr: {{{1}}} > 1861 | US flag 34 stars.svg
+|{{#ifexpr: {{{1}}} > 1859 | US flag 33 stars.svg
+|{{#ifexpr: {{{1}}} > 1858 | US flag 32 stars.svg
+|{{#ifexpr: {{{1}}} > 1851 | US flag 31 stars.svg
+|{{#ifexpr: {{{1}}} > 1848 | US flag 30 stars.svg
+|{{#ifexpr: {{{1}}} > 1847 | US flag 29 stars.svg
+|{{#ifexpr: {{{1}}} > 1846 | US flag 28 stars.svg
+|{{#ifexpr: {{{1}}} > 1845 | US flag 27 stars.svg
+|{{#ifexpr: {{{1}}} > 1837 | US flag 26 stars.svg
+|{{#ifexpr: {{{1}}} > 1836 | US flag 25 stars.svg
+|{{#ifexpr: {{{1}}} > 1822 | US flag 24 stars.svg
+|{{#ifexpr: {{{1}}} > 1820 | US flag 23 stars.svg
+|{{#ifexpr: {{{1}}} > 1819 | US flag 21 stars.svg
+|{{#ifexpr: {{{1}}} > 1818 | US flag 20 stars.svg
+|{{#ifexpr: {{{1}}} > 1795 | US flag 15 stars.svg
+|{{#ifexpr: {{{1}}} > 1777 | US flag 13 stars – Betsy Ross.svg
+|Grand Union Flag.svg}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau des États-Unis}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1775]] || [[1777]] || Treize colonies ||[[Image:{{{{PAGENAME}}|1775}}|100px]]
+|-
+|[[1777]] || [[1795]] || Étots-Unis (13 étots) ||[[Image:{{{{PAGENAME}}|1778}}|100px]]
+|-
+|[[1795]] || [[1818]] || Étots-Unis (15 étots) ||[[Image:{{{{PAGENAME}}|1796}}|100px]]
+|-
+|[[1818]] || [[1819]] || Étots-Unis (20 étots) ||[[Image:{{{{PAGENAME}}|1819}}|100px]]
+|-
+|[[1819]] || [[1820]] || Étots-Unis (21 étots) ||[[Image:{{{{PAGENAME}}|1820}}|100px]]
+|-
+|[[1820]] || [[1822]] || Étots-Unis (23 étots) ||[[Image:{{{{PAGENAME}}|1821}}|100px]]
+|-
+|[[1822]] || [[1836]] || Étots-Unis (24 étots) ||[[Image:{{{{PAGENAME}}|1823}}|100px]]
+|-
+|[[1836]] || [[1837]] || Étots-Unis (25 étots) ||[[Image:{{{{PAGENAME}}|1837}}|100px]]
+|-
+|[[1837]] || [[1845]] || Étots-Unis (26 étots) ||[[Image:{{{{PAGENAME}}|1838}}|100px]]
+|-
+|[[1845]] || [[1846]] || Étots-Unis (27 étots) ||[[Image:{{{{PAGENAME}}|1846}}|100px]]
+|-
+|[[1846]] || [[1847]] || Étots-Unis (28 étots) ||[[Image:{{{{PAGENAME}}|1847}}|100px]]
+|-
+|[[1847]] || [[1848]] || Étots-Unis (29 étots) ||[[Image:{{{{PAGENAME}}|1848}}|100px]]
+|-
+|[[1848]] || [[1851]] || Étots-Unis (30 étots) ||[[Image:{{{{PAGENAME}}|1849}}|100px]]
+|-
+|[[1851]] || [[1858]] || Étots-Unis (31 étots) ||[[Image:{{{{PAGENAME}}|1852}}|100px]]
+|-
+|[[1858]] || [[1859]] || Étots-Unis (32 étots) ||[[Image:{{{{PAGENAME}}|1859}}|100px]]
+|-
+|[[1859]] || [[1861]] || Étots-Unis (33 étots) ||[[Image:{{{{PAGENAME}}|1860}}|100px]]
+|-
+|[[1861]] || [[1863]] || Étots-Unis (34 étots) ||[[Image:{{{{PAGENAME}}|1862}}|100px]]
+|-
+|[[1863]] || [[1865]] || Étots-Unis (35 étots) ||[[Image:{{{{PAGENAME}}|1864}}|100px]]
+|-
+|[[1865]] || [[1867]] || Étots-Unis (36 étots) ||[[Image:{{{{PAGENAME}}|1866}}|100px]]
+|-
+|[[1867]] || [[1877]] || Étots-Unis (37 étots) ||[[Image:{{{{PAGENAME}}|1868}}|100px]]
+|-
+|[[1877]] || [[1890]] || Étots-Unis (38 étots) ||[[Image:{{{{PAGENAME}}|1878}}|100px]]
+|-
+|[[1890]] || [[1891]] || Étots-Unis (43 étots) ||[[Image:{{{{PAGENAME}}|1891}}|100px]]
+|-
+|[[1891]] || [[1896]] || Étots-Unis (44 étots) ||[[Image:{{{{PAGENAME}}|1892}}|100px]]
+|-
+|[[1896]] || [[1908]] || Étots-Unis (45 étots) ||[[Image:{{{{PAGENAME}}|1897}}|100px]]
+|-
+|[[1908]] || [[1912]] || Étots-Unis (46 étots) ||[[Image:{{{{PAGENAME}}|1909}}|100px]]
+|-
+|[[1912]] || [[1959]] || Étots-Unis (48 étots) ||[[Image:{{{{PAGENAME}}|1959}}|100px]]
+|-
+|[[1959]] || [[1960]] || Étots-Unis (49 étots) ||[[Image:{{{{PAGENAME}}|1960}}|100px]]
+|-
+|[[1960]] || Énhui || Étots-Unis (50 étots) ||[[Image:{{{{PAGENAME}}|1961}}|100px]]
+|}
+[[Catégorie:Modèle]]</noinclude>

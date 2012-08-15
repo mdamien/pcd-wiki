@@ -22,11 +22,11 @@
 {{!}} {{{nom_de_naissance}}}
 }}
 |-
-! scope=row {{!}} Naissance
+! scope=row {{!}} L'est né(e) au
 | {{{date_de_naissance}}}{{#if:{{{lieu_de_naissance|}}}|<br />{{{lieu_de_naissance}}}}}
 |-
 {{#if:{{{date_de_décès|}}}|
-! scope=row {{!}} Décès
+! scope=row {{!}} L'est défuncté(e) au
 {{!}} {{{date_de_décès}}}{{#if:{{{lieu_de_décès|}}}|<br />{{{lieu_de_décès}}}}}}}
 |-
 {{#if:{{{nationalité|}}}|
@@ -42,7 +42,7 @@
 {{!}} {{{formation}}}}}
 |-
 {{#if:{{{maître|}}}|
-! scope=row {{!}} Maître
+! scope=row {{!}} Moaite
 {{!}} {{{maître}}}}}
 |-
 {{#if:{{{élèves|}}}|
@@ -74,4 +74,4 @@
 {{!}} {{{récompenses}}}}}
 |-
 {{Infobox/Notice|Infobox Artiste|7DA7D9}}
-|}{{Suivi des biographies|Culture et arts}}</includeonly><noinclude> </noinclude>
+|}</includeonly><noinclude> </noinclude>

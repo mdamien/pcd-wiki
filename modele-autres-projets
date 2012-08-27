@@ -1,6 +1,6 @@
 
 <includeonly><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
-<p class="titre">Sur les autres projets Wikimedia :</p>
+<p class="titre">Édseur chés eutes prodjés Wikimédia :</p>
 <ul class="noarchive plainlinks">
 {{#if:{{{commons|{{{1|{{{Commons|}}}}}}}}}|
 <li class="commons">[{{fullurl:Commons:{{{commons|{{{1|{{{Commons}}}}}}}}}}}?uselang=fr {{#if:{{{commons titre|}}}|{{{commons titre}}}|{{PAGENAME}}}}], sur <span class="project">Wikimedia Commons</span>

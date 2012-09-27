@@ -1,0 +1,21 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-(51.15))*-80}} 
+|x={{#expr: ({{{3}}}-(1.975))*42.553191489362}}
+|image={{#switch:{{{2|}}}
+|relief=Nord_department_relief_location_map.jpg
+|#default=Nord_department_location_map.svg
+}}
+|iwidth=1384
+|iheight=1158
+|name=Nord (département){{!}}Nord
+|zone=département français
+|genre=ms
+|geo=-6748
+|top=51.15
+|bottom=49.9
+|left=1.975
+|right=4.325
+|projection=Projection équirectangulaire
+}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

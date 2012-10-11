@@ -31,7 +31,7 @@ Administration
 
 -->
 {{Sous-titre optionnel|Aménistracion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle|[[Liste des pays du monde|Paÿs]]| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
+{{Ligne optionnelle|[[Paÿs]]| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
 {{Ligne optionnelle|{{{nom d'état|État}}}|{{{état|}}}}}
 {{Ligne optionnelle|{{{nom de collectivité|Collectivité}}}|{{{collectivité|}}}}}
 {{Ligne optionnelle|{{{nom de région|Région}}}|{{{région|}}}}}

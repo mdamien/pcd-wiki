@@ -31,7 +31,7 @@ Administration
 
 -->
 {{Sous-titre optionnel|Aménistracion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle|{{{nom ed paÿs|Paÿs}}}| {{#ifexist: Modèle:{{{paÿs|}}} | {{{{{paÿs}}}}} | {{{paÿs|}}} }}}}
+{{Ligne optionnelle|{{{nom ed paÿs|Paÿs}}}| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
 {{Ligne optionnelle|{{{nom ed état|État}}}|{{{état|}}}}}
 {{Ligne optionnelle|{{{nom de collectivité|Collectivité}}}|{{{collectivité|}}}}}
 {{Ligne optionnelle|{{{nom ed région|Région}}}|{{{région|}}}}}

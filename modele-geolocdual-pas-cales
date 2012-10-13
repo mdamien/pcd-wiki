@@ -1,0 +1,27 @@
+<!--
+******************************************************************************************************************************************
+
+1- Corriger éventuellement le lien du portail en fin de page en fonction du nom de la sous-page
+2- Supprimer ou remplacer le paramètre < France> dans l'expression <Catégorie:Modèle Géolocdual France> si le modèle concerne un autre pays
+
+******************************************************************************************************************************************
+
+--><noinclude>{{#ifexist:{{FULLPAGENAME}}/Documentation|{{Modèle:Géolocdual/Pas-Calés/Documentation}}|
+:* . <span class="plainlinks noprint"><!--
+-->'''[{{fullurl:Modèle:Géolocdual/{{#titleparts:{{PAGENAME}}||2}}/Documentation|action=edit&preload={{urlencode:Modèle:Documentation de carte complétée/Preload Géolocdual Documentation}}}} ...]'''<!--
+-->.</span><!--
+-->}}</noinclude><!--
+--> <div class="img_toogle">
+  <div class="geobox" title="Carte topografique">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Pas-Calés|image|{{{type|relief}}}}}|280px|Vir chele carte topografique]]
+{{#ifexpr:{{{2|}}}|{{G|Pas-Calés|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|City|1{{{statut|4}}}}}| }}
+{{Fin de carte}}
+  </div>
+  <div class="geobox" title="Carte aménistrative">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Pas-Calés|image|{{{type|}}}}}|280px|Vir chele carte aménistrative]]
+{{#ifexpr:{{{2|}}}|{{G|Pas-Calés|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|City|1{{{statut|4}}}}}| }}
+{{Fin de carte}}
+  </div>
+</div><noinclude><!--
+-->
+[[Catégorie:Modèle]]</noinclude>

@@ -21,7 +21,7 @@ __NOTOC__
 {{!-}}
 }}
 {{Infobox/Ligne mixte optionnel
- | Poéis
+ | Paÿs
  | [[Image:Flag of France.svg|20px|drapeau de la France]]</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Franche]]<!-- test pour aligner le drapeau à droite et le nom du pays au centre, impossible avec le modèle {{{FRA}}} -->
 }}
 {{Infobox/Ligne mixte optionnel
@@ -45,36 +45,36 @@ __NOTOC__
  | {{{insee|}}}
 }}
 {{Infobox/Ligne mixte
- | Code postal
+ | Code possal
  | {{{cp|}}}
 }}
 {{Infobox/Ligne mixte
- | Mayeu<br />&nbsp;
+ | Maïeu<br />&nbsp;
  | {{{maire|}}}<br />{{{mandat|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | Intarconmeunalité
+ | Intarconmunalité
  | {{{intercomm|}}}
 }}
 {{Infobox/Sous-titre
- | Jéografie|dfd
+ | Géografie|dfd
 }}
 {{Infobox/Ligne mixte latitude longitude optionnelle
- | Coordonnées<br />jéografiques|{{{latitude|}}}|{{{longitude|}}}|city_region:FR|dms long|title=oui
+ | Coordonées<br />géografiques|{{{latitude|}}}|{{{longitude|}}}|city_region:FR|dms long|title=oui
 }}
 {{Infobox/Ligne mixte
  | Altitudes
  | moyenne : {{{alt moy}}}<br />minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}
 }}
 {{Infobox/Ligne mixte
- | Supérfichie
+ | Superfichie
  | {{{km²}}}  km²  ({{{hectares}}} ha)
 }}
 {{Infobox/Sous-titre
  | Démografie|dfd
 }}
 {{Infobox/Ligne mixte
- | Populachon sins<br />doubes contes
+ | Populacion sins<br />doubes contes
  | {{formatnum: {{{sans}}}}} gins <br /><small>({{{date-sans}}})</small>
 }}
 {{Infobox/Ligne mixte
@@ -83,15 +83,15 @@ __NOTOC__
 }}
 |-
 {{#if: {{{unité urbaine|}}} | 
-! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Unité urbaine
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Unité urbéne
 {{!}} style="background-color: #f3fff3;" {{!}} {{{unité urbaine}}} gins}} 
 |-
 {{#if: {{{aire urbaine|}}} | 
-! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Aire urbaine
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Are urbéne
 {{!}} style="background-color: #f3fff3;" {{!}} {{{aire urbaine}}} gins}} 
 |-
 {{Infobox/Ligne mixte
- | gintilé
+ | Gintilé
  | {{{nomhab}}}
 }}
 {{#if:{{{siteweb|}}} | 

@@ -1,0 +1,21 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-(51.05))*-90.909090909091}} 
+|x={{#expr: ({{{3}}}-(1.475))*55.555555555556}}
+|image={{#switch:{{{2|}}}
+|#default=Pas-de-Calais_department_location_map.svg
+|relief=Pas-de-Calais_department_relief_location_map.jpg
+}}
+|iwidth=1157
+|iheight=1111
+|name=Pas-de-Calais
+|zone=département français
+|genre=ms
+|geo=-6752
+|top=51.05
+|bottom=49.95
+|left=1.475
+|right=3.275
+|projection=Projection équirectangulaire
+}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

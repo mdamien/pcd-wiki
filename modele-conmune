@@ -99,7 +99,7 @@ __NOTOC__
 {{!}} <span class="plainlinks">{{{siteweb}}}</span>
 {{!-}}
 }}
-|- <!--Géolocalisachon edseur eune carte d' Franche métropolitaine-->
+|- <!--Géolocalisacion edseur unne carte Franche métropoliténe-->
 {{#ifeq: {{{géoloc}}} | non | |
 {{#if: {{#ifexpr: {{{latitude}}} AND {{{longitude}}} }} | | {{!}}-
 {{!}} colspan="2" border="1" align="left" style="background-color: #ffffff; padding: 1em;" {{!}} {{Fragéoloc|{{{longitude}}}|{{{latitude}}}|desc=Carte de localisation de {{{nomcommune}}}}}
@@ -108,7 +108,7 @@ __NOTOC__
 |-
 <includeonly>{{Coord|{{{latitude}}}|{{{longitude}}}|type:city_region:FR_scale:{{#if:{{{échelle|}}}|{{{échelle|}}}|100000}}|format=dms|display=title}}{{Infobox/Début}}
 {{#if:{{{géoloc-département|}}} | 
-! colspan="2" {{!}} {{Boîte déroulante infobox début|titre=Localisation carte |couleurFond=#dfd|couleurFondB=#dfd|couleurFondT=#dfd|couleurBordure=#dfd|label=[ départementale ] / [ départementale ]}}{{Géolocdual/{{{géoloc-département}}}|{{{longitude}}}|{{{latitude}}}|desc={{{nomcommune}}}}}{{Boîte déroulante infobox fin}}
+! colspan="2" {{!}} {{Boîte déroulante infobox début|titre=Localisacion carte |couleurFond=#dfd|couleurFondB=#dfd|couleurFondT=#dfd|couleurBordure=#dfd|label=[ départementale ] / [ départementale ]}}{{Géolocdual/{{{géoloc-département}}}|{{{longitude}}}|{{{latitude}}}|desc={{{nomcommune}}}}}{{Boîte déroulante infobox fin}}
 {{!-}}
 }}
 {{Infobox/Fin}}<!--

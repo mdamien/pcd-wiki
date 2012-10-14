@@ -78,7 +78,7 @@ Démographie
 {{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}
 <!--{{Ligne optionnelle|Populacion|{{{population|}}}}}-->
 {{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|densité={{{densité agglomération|}}}|année={{{année_pop agglomération|}}}|nom=de l'agglomération}}
-{{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|densité={{{densité division|}}}|année={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
+{{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|densité={{{densité division|}}}|année={{{année_pop division|}}}|nom={{{nom_pop division|Populacion}}}}}
 |<nowiki></nowiki>}}
 <!--
 
@@ -86,7 +86,7 @@ Divers
 
 -->{{#if:{{{sites touristiques|}}}{{{divers|}}}|
 {{Sous-titre optionnel|Divers|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle|Site(s) touristique(s)|{{{sites touristiques|}}}}}
+{{Ligne optionnelle|Site(s) touristike(s)|{{{sites touristiques|}}}}}
 {{Ligne optionnelle|{{{nom divers|Divers}}}|{{{divers|}}}}}
 {{Ligne optionnelle|{{{nom divers2|}}}|{{{divers2|}}}}}
 {{Ligne optionnelle|{{{nom divers3|}}}|{{{divers3|}}}}}

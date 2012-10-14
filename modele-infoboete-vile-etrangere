@@ -53,7 +53,7 @@ Administration
 {{Ligne optionnelle|{{{titre autorité3|}}}|{{#if:{{{autorité3|}}}|{{{autorité3}}}{{#if:{{{mandat autorité3|}}}|<br />{{{mandat autorité3}}}|}}|}}}}
 {{Ligne optionnelle|{{{nom de division4|}}}|{{{division4|}}}}}
 {{Ligne optionnelle|{{{titre autorité4|}}}|{{#if:{{{autorité4|}}}|{{{autorité4}}}{{#if:{{{mandat autorité4|}}}|<br />{{{mandat autorité4}}}|}}|}}}}
-{{Ligne optionnelle|{{{nom de code postal|[[Code postal]]}}}|{{{cp|}}}}}
+{{Ligne optionnelle|{{{nom de code postal|Code possal}}}|{{{cp|}}}}}
 {{Ligne optionnelle|{{{nom de code1|}}}|{{{code1|}}}}}
 {{Ligne optionnelle|{{{nom de code2|}}}|{{{code2|}}}}}
 {{Ligne optionnelle|{{{nom de code3|}}}|{{{code3|}}}}}<!-- 

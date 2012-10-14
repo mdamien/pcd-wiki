@@ -15,9 +15,9 @@
 }}
 
 {{#if:{{{blason|}}}|
-{{!}}[[Fichier:{{{blason}}}|65px|Blason de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Héraldique]]</small>|}}
+{{!}}[[Fichier:{{{blason}}}|65px|Blason de {{{nom|{{PAGENAME}}}}}]]<br /><small>Blason</small>|}}
 {{#if:{{{drapeau|}}}|
-{{!}}[[Fichier:{{{drapeau}}}|130px|Drapeau de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Drapeau]]</small>|}}
+{{!}}[[Fichier:{{{drapeau}}}|130px|Drapeau de {{{nom|{{PAGENAME}}}}}]]<br /><small>Drapiau</small>|}}
 {{!)}}
 {{!-}}valign="top"
 {{!}} colspan="2" style="text-align:center;"{{!}}<hr />

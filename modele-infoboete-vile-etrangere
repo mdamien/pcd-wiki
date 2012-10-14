@@ -75,9 +75,9 @@ Démographie
 {{#if:{{{populacion|}}}{{{populacion agloméracion|}}}{{{gentilé|}}}|
 {{Sous-titre optionnel|Démografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|[[gentilé|Gentilé]]|{{{gentilé|}}}}}
-{{Ligne optionnelle populacion|{{{population|}}}|{{{superficie|}}}|dinsité={{{dinsité|}}}|innée={{{année_pop|}}}}}
-{{Ligne optionnelle populacion|{{{population agloméracion|}}}|{{{superficie agglomération|}}}|dinsité={{{dinsité agloméracion|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agloméracion}}
-{{Ligne optionelle popucation|{{{populacion division|}}}|{{{superficie division|}}}|dinchité={{{densité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
+{{Ligne optionnelle population|{{{populacion|}}}|{{{superficie|}}}|dinsité={{{dinsité|}}}|innée={{{année_pop|}}}}}
+{{Ligne optionnelle population|{{{populacion agloméracion|}}}|{{{superficie agglomération|}}}|dinsité={{{dinsité agloméracion|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agloméracion}}
+{{Ligne optionnelle population|{{{populacion division|}}}|{{{superficie division|}}}|dinchité={{{densité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
 |<nowiki></nowiki>}}
 <!--
 

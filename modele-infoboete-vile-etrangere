@@ -72,12 +72,12 @@ Géographie
 Démographie 
 
 -->
-{{#if:{{{population|}}}{{{population agglomération|}}}{{{gentilé|}}}|
+{{#if:{{{population|}}}{{{population agglomération|AAAA4}}}{{{gentilé|}}}|
 {{Sous-titre optionnel|Démografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|Gintilé|{{{gentilé|}}}}}
-{{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}
-{{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|densité={{{densité agglomération|}}}|année={{{année_pop agglomération|}}}|nom=de l'agglomération}}
-{{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|densité={{{densité division|}}}|année={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
+{{Ligne optionnelle population|{{{population|AAAA1}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}
+{{Ligne optionnelle population|{{{population agglomération|AAAA2}}}|{{{superficie agglomération|}}}|densité={{{densité agglomération|}}}|année={{{année_pop agglomération|}}}|nom=de l'agglomération}}
+{{Ligne optionnelle population|{{{population division|AAAA3}}}|{{{superficie division|}}}|densité={{{densité division|}}}|année={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
 |<nowiki></nowiki>}}
 <!--
 

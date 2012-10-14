@@ -165,16 +165,12 @@ Internet
 -->
 {{#if:{{{site ville|}}}{{{url|}}}{{{url2|}}}{{{url3|}}}{{{url4|}}}|
 {{Sous-titre optionnel|Intarnète|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle|[[site Web|Site de la ville]]|{{{site ville|{{{url|}}}}}}}}
+{{Ligne optionnelle|Site del vile|{{{site ville|{{{url|}}}}}}}}
 {{Ligne optionnelle|{{{nom site2|}}}|{{{url2|}}}}}
 {{Ligne optionnelle|{{{nom site3|}}}|{{{url3|}}}}}
 {{Ligne optionnelle|{{{nom site4|}}}|{{{url4|}}}}}
 |<nowiki></nowiki>}}
-{{#if:{{{siteweb|}}} | 
-! scope=row {{!}} Site intarnète
-{{!}} <span class="plainlinks">{{{siteweb}}}</span>
-{{!-}}
-}}
+
 <!-- 
 
 Sources statistiques

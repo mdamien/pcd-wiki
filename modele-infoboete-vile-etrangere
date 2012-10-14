@@ -61,7 +61,7 @@ Administration
 Géografie 
 
 -->
-{{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{Superfichie de l'agloméracion|}}}|
+{{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superfichie|}}}{{{Superfichie de l'agloméracion|}}}|
 {{Sous-titre optionnel|Géografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle coordonnées|{{{latitude|}}}|{{{longitude|}}}|ref={{{réf coord|}}}}}
 {{Ligne optionnelle|[[Altitude]]|{{#if:{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}{{espace}}|}}{{#if:{{{alt mini|}}}|(mini&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}})&nbsp;|}}{{#if:{{{alt maxi|}}}|(maxi&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})|}}}}
@@ -77,7 +77,7 @@ Démographie
 {{Ligne optionnelle|[[gentilé|Gentilé]]|{{{gentilé|}}}}}
 {{Ligne optionnelle population|{{{populacion|}}}|{{{superficie|}}}|dinsité={{{dinsité|}}}|innée={{{année_pop|}}}}}
 {{Ligne optionnelle population|{{{populacion agloméracion|}}}|{{{superficie agglomération|}}}|dinsité={{{dinsité agloméracion|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agloméracion}}
-{{Ligne optionnelle population|{{{populacion division|}}}|{{{superficie division|}}}|dinchité={{{densité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
+{{Ligne optionnelle population|{{{populacion division|}}}|{{{superficie division|}}}|dinsité={{{dinsité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
 |<nowiki></nowiki>}}
 <!--
 

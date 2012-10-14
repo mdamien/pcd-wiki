@@ -42,8 +42,8 @@ Administration
 {{Ligne optionnelle|{{{nom d'arrondissement|Arrondissement}}}|{{{arrondissement|}}}}}
 {{Ligne optionnelle|{{{nom de district|District}}}|{{{district|}}}}}
 {{Ligne optionnelle|Ramòÿmint|{{{agglomération|}}}}}
-{{Ligne optionnelle|[[Maire]]|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
-{{Ligne optionnelle|[[Préfet]]|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|<br />{{{mandat préfet}}}|}}|}}}}
+{{Ligne optionnelle|Mére|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
+{{Ligne optionnelle|Préfet|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|<br />{{{mandat préfet}}}|}}|}}}}
 {{Ligne optionnelle|Govérneu|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|<br />{{{mandat gouverneur}}}|}}|}}}}
 {{Ligne optionnelle|{{{nom de division|}}}|{{{division|}}}}}
 {{Ligne optionnelle|{{{titre autorité|}}}|{{#if:{{{autorité|}}}|{{{autorité}}}{{#if:{{{mandat autorité|}}}|<br />{{{mandat autorité}}}|}}|}}}}

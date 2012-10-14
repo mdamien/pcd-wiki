@@ -30,7 +30,7 @@
 Administration 
 
 -->
-{{Sous-titre optionnel|Aménistrachon|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Sous-titre optionnel|Aménistracion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|[[Liste des pays du monde|Poéis]]| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
 {{Ligne optionnelle|{{{nom d'état|État}}}|{{{état|}}}}}
 {{Ligne optionnelle|{{{nom de collectivité|Collectivité}}}|{{{collectivité|}}}}}
@@ -62,11 +62,11 @@ Géographie
 
 -->
 {{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{Superficie de l'agglomération|}}}|
-{{Sous-titre optionnel|Jéografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle coordonnées|{{{latitude|}}}|{{{longitude|}}}|ref={{{réf coord|}}}}}
-{{Ligne optionnelle|[[Altitude]]|{{#if:{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}{{espace}}|}}{{#if:{{{alt mini|}}}|(mini&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}})&nbsp;|}}{{#if:{{{alt maxi|}}}|(maxi&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})|}}}}
-{{Ligne optionnelle|[[Supérfichie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie}}}|km²}}}}|}}}}
-{{Ligne optionnelle|Supérfichie del conmeune|{{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agglomération}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
+{{Sous-titre optionnel|Géografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle coordonnées|{{{latitude|Latitude}}}|{{{longitude|Longitude}}}|ref={{{réf coord|}}}}}
+{{Ligne optionnelle|Altitude|{{#if:{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}{{espace}}|}}{{#if:{{{alt mini|}}}|(mini&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}})&nbsp;|}}{{#if:{{{alt maxi|}}}|(maxi&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})|}}}}
+{{Ligne optionnelle|Superfichie|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie}}}|km²}}}}|}}}}
+{{Ligne optionnelle|Superfichie del conmune|{{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agglomération}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
 |<nowiki></nowiki>}}<!-- 
 
 Démographie 

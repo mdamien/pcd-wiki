@@ -1,7 +1,7 @@
 <includeonly>{| class="infobox_v2" cellspacing="7" style="float:{{{float|right}}};width:{{{largeur|300}}}px;background:#fcfcfc;"
 |-
-! colspan="2" class="entete map" style="color:{{{couleur titre|black}}};background-color:{{{couleur|#ffdead}}};font-size:150%"|'''{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}'''{{#if:{{{ote nom|{{{otes noms|}}}}}}|<br /><small>{{{ote nom|{{{otes noms|}}}}}}</small>|}}
-{{#if:{{{blason|}}}{{{drapiau|}}}|
+! colspan="2" class="entete map" style="color:{{{couleur titre|black}}};background-color:{{{couleur|#ffdead}}};font-size:150%"|'''{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}'''{{#if:{{{autre nom|{{{autres noms|}}}}}}|<br /><small>{{{autre nom|{{{autres noms|}}}}}}</small>|}}
+{{#if:{{{blason|}}}{{{drapeau|}}}|
 {{!-}}valign="top"
 {{!}} colspan="2" style="text-align:center;"{{!}}
 {{(!}} cellspacing="7" width="100%" style="background: none;"
@@ -15,34 +15,34 @@
 }}
 
 {{#if:{{{blason|}}}|
-{{!}}[[Fichier:{{{blason}}}|65px|Blason ed {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Héraldique]]</small>|}}
+{{!}}[[Fichier:{{{blason}}}|65px|Blason de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Héraldique]]</small>|}}
 {{#if:{{{drapeau|}}}|
-{{!}}[[Fichier:{{{drapiau}}}|130px|Drapiau ed {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Drapiau]]</small>|}}
+{{!}}[[Fichier:{{{drapeau}}}|130px|Drapeau de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Drapeau]]</small>|}}
 {{!)}}
 {{!-}}valign="top"
 {{!}} colspan="2" style="text-align:center;"{{!}}<hr />
 |<nowiki></nowiki>}}
 {{#if:{{{image|}}}|
 {{!-}}valign="top" 
-{{!}} colspan="2" style="text-align:center;background:#ffffff;color:black;"{{!}}{{#ifexist:Media:{{{imache}}}|[[Fichier:{{{imache}}}|{{#if:{{{taille image|}}}|{{#ifexpr:{{{taille imache|280}}}<280|{{{taille imache}}}|280}}|280}}px|{{{léginde|{{PAGENAME}}}}}]]|{{{imache}}}}}{{#if:{{{léginde|}}}|<br /><small>{{{léginde}}}</small>|}}
+{{!}} colspan="2" style="text-align:center;background:#ffffff;color:black;"{{!}}{{#ifexist:Media:{{{image}}}|[[Fichier:{{{image}}}|{{#if:{{{taille image|}}}|{{#ifexpr:{{{taille image|280}}}<280|{{{taille image}}}|280}}|280}}px|{{{légende|{{PAGENAME}}}}}]]|{{{image}}}}}{{#if:{{{légende|}}}|<br /><small>{{{légende}}}</small>|}}
 |}}<!-- 
 
 Administration 
 
 -->
-{{Sous-titre optionnel|Aménistracion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle|{{{nom ed païs|Païs}}}| {{#ifexist: Modèle:{{{païs|}}} | {{{{{païs}}}}} | {{{païs|}}} }}}}
-{{Ligne optionnelle|{{{nom ed état|État}}}|{{{état|}}}}}
-{{Ligne optionnelle|{{{nom ed colectivité|Colectivité}}}|{{{colectivité|}}}}}
-{{Ligne optionnelle|{{{nom ed région|Région}}}|{{{région|}}}}}
-{{Ligne optionnelle|{{{nom ed provinche|Provinche}}}|{{{provinche|}}}}}
-{{Ligne optionnelle|{{{nom ed départémint|Départémint}}}|{{{départémint|}}}}}
-{{Ligne optionnelle|{{{nom ed munichipalité|Munichipalité}}}|{{{munichipalité|}}}}}
-{{Ligne optionnelle|{{{nom ed parosse|Parosse}}}|{{{parosse|}}}}}
-{{Ligne optionnelle|{{{nom ed orondissemint|Orondissemint}}}|{{{orondissemint|}}}}}
-{{Ligne optionnelle|{{{nom ed district|District}}}|{{{district|}}}}}
+{{Sous-titre optionnel|Aménistrachon|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle|[[Liste des pays du monde|Poéis]]| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
+{{Ligne optionnelle|{{{nom d'état|État}}}|{{{état|}}}}}
+{{Ligne optionnelle|{{{nom de collectivité|Collectivité}}}|{{{collectivité|}}}}}
+{{Ligne optionnelle|{{{nom de région|Région}}}|{{{région|}}}}}
+{{Ligne optionnelle|{{{nom de province|Province}}}|{{{province|}}}}}
+{{Ligne optionnelle|{{{nom de département|Département}}}|{{{département|}}}}}
+{{Ligne optionnelle|{{{nom de municipalité|Municipalité}}}|{{{municipalité|}}}}}
+{{Ligne optionnelle|{{{nom de paroisse|Paroisse}}}|{{{paroisse|}}}}}
+{{Ligne optionnelle|{{{nom d'arrondissement|Arrondissement}}}|{{{arrondissement|}}}}}
+{{Ligne optionnelle|{{{nom de district|District}}}|{{{district|}}}}}
 {{Ligne optionnelle|Ramòÿmint|{{{agglomération|}}}}}
-{{Ligne optionnelle|[[Maire]]|{{#if:{{{maire|}}}|{{{mére}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
+{{Ligne optionnelle|[[Maire]]|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
 {{Ligne optionnelle|[[Préfet]]|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|<br />{{{mandat préfet}}}|}}|}}}}
 {{Ligne optionnelle|Govérneu|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|<br />{{{mandat gouverneur}}}|}}|}}}}
 {{Ligne optionnelle|{{{nom de division|}}}|{{{division|}}}}}
@@ -53,31 +53,31 @@ Administration
 {{Ligne optionnelle|{{{titre autorité3|}}}|{{#if:{{{autorité3|}}}|{{{autorité3}}}{{#if:{{{mandat autorité3|}}}|<br />{{{mandat autorité3}}}|}}|}}}}
 {{Ligne optionnelle|{{{nom de division4|}}}|{{{division4|}}}}}
 {{Ligne optionnelle|{{{titre autorité4|}}}|{{#if:{{{autorité4|}}}|{{{autorité4}}}{{#if:{{{mandat autorité4|}}}|<br />{{{mandat autorité4}}}|}}|}}}}
-{{Ligne optionnelle|{{{nom ed code possal|Code possal}}}|{{{cp|}}}}}
+{{Ligne optionnelle|{{{nom de code postal|[[Code postal]]}}}|{{{cp|}}}}}
 {{Ligne optionnelle|{{{nom de code1|}}}|{{{code1|}}}}}
 {{Ligne optionnelle|{{{nom de code2|}}}|{{{code2|}}}}}
 {{Ligne optionnelle|{{{nom de code3|}}}|{{{code3|}}}}}<!-- 
 
-Géografie 
+Géographie 
 
 -->
-{{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superfichie|}}}{{{Superfichie de l'agloméracion|}}}|
-{{Sous-titre optionnel|Géografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{Superficie de l'agglomération|}}}|
+{{Sous-titre optionnel|Jéografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle coordonnées|{{{latitude|}}}|{{{longitude|}}}|ref={{{réf coord|}}}}}
 {{Ligne optionnelle|[[Altitude]]|{{#if:{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}{{espace}}|}}{{#if:{{{alt mini|}}}|(mini&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}})&nbsp;|}}{{#if:{{{alt maxi|}}}|(maxi&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})|}}}}
-{{Ligne optionnelle|[[Superfichie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superfichie}}}|km²}}}}|}}}}
-{{Ligne optionnelle|Supérfichie del conmune|{{#if:{{{superficie agloméracion|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agloméracion}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
+{{Ligne optionnelle|[[Supérfichie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie}}}|km²}}}}|}}}}
+{{Ligne optionnelle|Supérfichie del conmeune|{{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agglomération}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
 |<nowiki></nowiki>}}<!-- 
 
 Démographie 
 
 -->
-{{#if:{{{populacion|}}}{{{populacion agloméracion|}}}{{{gentilé|}}}|
+{{#if:{{{population|}}}{{{population agglomération|}}}{{{gentilé|}}}|
 {{Sous-titre optionnel|Démografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|[[gentilé|Gentilé]]|{{{gentilé|}}}}}
-{{Ligne optionnelle population|{{{populacion|}}}|{{{superficie|}}}|dinsité={{{dinsité|}}}|innée={{{année_pop|}}}}}
-{{Ligne optionnelle population|{{{populacion agloméracion|}}}|{{{superficie agglomération|}}}|dinsité={{{dinsité agloméracion|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agloméracion}}
-{{Ligne optionnelle population|{{{populacion division|}}}|{{{superficie division|}}}|dinsité={{{dinsité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
+{{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|dinchité={{{densité|}}}|innée={{{année_pop|}}}}}
+{{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|dinchité={{{densité agglomération|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agglomération}}
+{{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|dinchité={{{densité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
 |<nowiki></nowiki>}}
 <!--
 

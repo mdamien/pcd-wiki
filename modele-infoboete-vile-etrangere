@@ -72,7 +72,7 @@ Géographie
 Démographie 
 
 -->
-{{#if:{{{population|}}}{{{population agglomération|}}}{{{gentilé|}}}|
+{{#if:{{{population|AAAA}}}{{{population agglomération|}}}{{{gentilé|}}}|
 {{Sous-titre optionnel|Démografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|Gintilé|{{{gentilé|}}}}}
 {{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}

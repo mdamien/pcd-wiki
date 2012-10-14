@@ -58,26 +58,26 @@ Administration
 {{Ligne optionnelle|{{{nom de code2|}}}|{{{code2|}}}}}
 {{Ligne optionnelle|{{{nom de code3|}}}|{{{code3|}}}}}<!-- 
 
-Géographie 
+Géografie 
 
 -->
-{{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{Superficie de l'agglomération|}}}|
+{{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{Superfichie de l'agloméracion|}}}|
 {{Sous-titre optionnel|Géografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle coordonnées|{{{latitude|}}}|{{{longitude|}}}|ref={{{réf coord|}}}}}
 {{Ligne optionnelle|[[Altitude]]|{{#if:{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}{{espace}}|}}{{#if:{{{alt mini|}}}|(mini&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}})&nbsp;|}}{{#if:{{{alt maxi|}}}|(maxi&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})|}}}}
-{{Ligne optionnelle|[[Superfichie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie}}}|km²}}}}|}}}}
-{{Ligne optionnelle|Supérfichie del conmeune|{{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agglomération}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
+{{Ligne optionelle|[[Superfichie]]|{{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie}}}}}|{{Rouge|{{{superficie}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superfichie}}}|km²}}}}|}}}}
+{{Ligne optionnelle|Supérfichie del conmeune|{{#if:{{{superficie agloméracion|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agloméracion}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
 |<nowiki></nowiki>}}<!-- 
 
 Démographie 
 
 -->
-{{#if:{{{populacion|}}}{{{population agglomération|}}}{{{gentilé|}}}|
+{{#if:{{{populacion|}}}{{{populacion agloméracion|}}}{{{gentilé|}}}|
 {{Sous-titre optionnel|Démografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|[[gentilé|Gentilé]]|{{{gentilé|}}}}}
-{{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|dinchité={{{densité|}}}|innée={{{année_pop|}}}}}
-{{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|dinchité={{{densité agglomération|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agglomération}}
-{{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|dinchité={{{densité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
+{{Ligne optionnelle populacion|{{{population|}}}|{{{superficie|}}}|dinsité={{{dinsité|}}}|innée={{{année_pop|}}}}}
+{{Ligne optionnelle populacion|{{{population agloméracion|}}}|{{{superficie agglomération|}}}|dinsité={{{dinsité agloméracion|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agloméracion}}
+{{Ligne optionelle popucation|{{{populacion division|}}}|{{{superficie division|}}}|dinchité={{{densité division|}}}|innée={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
 |<nowiki></nowiki>}}
 <!--
 

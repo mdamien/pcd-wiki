@@ -1,7 +1,7 @@
 <includeonly>{| class="infobox_v2" cellspacing="7" style="float:{{{float|right}}};width:{{{largeur|300}}}px;background:#fcfcfc;"
 |-
-! colspan="2" class="entete map" style="color:{{{couleur titre|black}}};background-color:{{{couleur|#ffdead}}};font-size:150%"|'''{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}'''{{#if:{{{autre nom|{{{autres noms|}}}}}}|<br /><small>{{{autre nom|{{{autres noms|}}}}}}</small>|}}
-{{#if:{{{blason|}}}{{{drapeau|}}}|
+! colspan="2" class="entete map" style="color:{{{couleur titre|black}}};background-color:{{{couleur|#ffdead}}};font-size:150%"|'''{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}'''{{#if:{{{ote nom|{{{otes noms|}}}}}}|<br /><small>{{{ote nom|{{{otes noms|}}}}}}</small>|}}
+{{#if:{{{blason|}}}{{{drapiau|}}}|
 {{!-}}valign="top"
 {{!}} colspan="2" style="text-align:center;"{{!}}
 {{(!}} cellspacing="7" width="100%" style="background: none;"
@@ -15,16 +15,16 @@
 }}
 
 {{#if:{{{blason|}}}|
-{{!}}[[Fichier:{{{blason}}}|65px|Blason de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Héraldique]]</small>|}}
+{{!}}[[Fichier:{{{blason}}}|65px|Blason ed {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Héraldique]]</small>|}}
 {{#if:{{{drapeau|}}}|
-{{!}}[[Fichier:{{{drapeau}}}|130px|Drapeau de {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Drapeau]]</small>|}}
+{{!}}[[Fichier:{{{drapiau}}}|130px|Drapiau ed {{{nom|{{PAGENAME}}}}}]]<br /><small>[[Drapiau]]</small>|}}
 {{!)}}
 {{!-}}valign="top"
 {{!}} colspan="2" style="text-align:center;"{{!}}<hr />
 |<nowiki></nowiki>}}
 {{#if:{{{image|}}}|
 {{!-}}valign="top" 
-{{!}} colspan="2" style="text-align:center;background:#ffffff;color:black;"{{!}}{{#ifexist:Media:{{{image}}}|[[Fichier:{{{image}}}|{{#if:{{{taille image|}}}|{{#ifexpr:{{{taille image|280}}}<280|{{{taille image}}}|280}}|280}}px|{{{légende|{{PAGENAME}}}}}]]|{{{image}}}}}{{#if:{{{légende|}}}|<br /><small>{{{légende}}}</small>|}}
+{{!}} colspan="2" style="text-align:center;background:#ffffff;color:black;"{{!}}{{#ifexist:Media:{{{imache}}}|[[Fichier:{{{imache}}}|{{#if:{{{taille image|}}}|{{#ifexpr:{{{taille imache|280}}}<280|{{{taille imache}}}|280}}|280}}px|{{{léginde|{{PAGENAME}}}}}]]|{{{imache}}}}}{{#if:{{{léginde|}}}|<br /><small>{{{léginde}}}</small>|}}
 |}}<!-- 
 
 Administration 

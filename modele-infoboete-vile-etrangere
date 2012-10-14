@@ -31,14 +31,14 @@ Administration
 
 -->
 {{Sous-titre optionnel|Aménistracion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle|{{{nom ed païs|Païs}}}| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
+{{Ligne optionnelle|{{{nom ed païs|Païs}}}| {{#ifexist: Modèle:{{{païs|}}} | {{{{{païs}}}}} | {{{païs|}}} }}}}
 {{Ligne optionnelle|{{{nom ed état|État}}}|{{{état|}}}}}
-{{Ligne optionnelle|{{{nom de colectivité|Colectivité}}}|{{{colectivité|}}}}}
+{{Ligne optionnelle|{{{nom ed colectivité|Colectivité}}}|{{{colectivité|}}}}}
 {{Ligne optionnelle|{{{nom ed région|Région}}}|{{{région|}}}}}
 {{Ligne optionnelle|{{{nom ed provinche|Provinche}}}|{{{provinche|}}}}}
-{{Ligne optionnelle|{{{nom ed départémint|Départémint}}}|{{{départemint|}}}}}
-{{Ligne optionnelle|{{{nom ed munichipalité|Munichipalité}}}|{{{municipalité|}}}}}
-{{Ligne optionnelle|{{{nom de paroisse|Paroisse}}}|{{{paroisse|}}}}}
+{{Ligne optionnelle|{{{nom ed départémint|Départémint}}}|{{{départémint|}}}}}
+{{Ligne optionnelle|{{{nom ed munichipalité|Munichipalité}}}|{{{munichipalité|}}}}}
+{{Ligne optionnelle|{{{nom ed parosse|Parosse}}}|{{{parosse|}}}}}
 {{Ligne optionnelle|{{{nom ed orondissemint|Orondissemint}}}|{{{orondissemint|}}}}}
 {{Ligne optionnelle|{{{nom ed district|District}}}|{{{district|}}}}}
 {{Ligne optionnelle|Ramòÿmint|{{{agglomération|}}}}}

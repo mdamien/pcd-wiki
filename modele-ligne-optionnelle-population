@@ -1,9 +1,9 @@
-<includeonly>{{#if:{{{1|}}}|{{Ligne optionnelle|[[Population|Population {{{nom|}}}]]|{{#iferror:{{#expr:{{{1}}}}}|{{{1}}}&nbsp;hab.|{{Unité|{{{1}}}|hab.}}}}{{#if:{{{année|}}}|{{espace}}({{{année}}})}}{{{ref|}}}}}}}
+<includeonly>{{#if:{{{1|}}}|{{Ligne optionnelle|Populacion {{{nom|}}}|{{#iferror:{{#expr:{{{1}}}}}|{{{1}}}&nbsp;gins|{{Unité|{{{1}}}|gins}}}}{{#if:{{{année|}}}|{{espace}}({{{année}}})}}{{{ref|}}}}}}}
 <!--
 
 Affichage ou calcul de la densité 
 
--->{{#if:{{{densité|}}}|{{Ligne optionnelle|[[Densité de population|Densité {{{nom|}}}]]|{{Unité|{{{densité|}}}|hab./km²}}}}
+-->{{#if:{{{densité|}}}|{{Ligne optionnelle|Dinsité {{{nom|}}}|{{Unité|{{{densité|}}}|gins/km²}}}}
 |{{#if:{{{2|}}}|
 {{#iferror: {{#expr: {{{1}}} }}|<!-- 
 valeur population incorrecte c-à-d par exemple avec espaces ou virgules ou déjà formaté 
@@ -11,7 +11,7 @@ valeur population incorrecte c-à-d par exemple avec espaces ou virgules ou déj
 valeur superficie incorrecte 
 --><nowiki></nowiki>|{{#ifexpr: {{{2}}} = 0 |<!-- 
 valeur superficie = 0 
---><nowiki></nowiki>|{{Ligne optionnelle|[[Densité de population|Densité {{{nom|}}}]]|{{Unité|{{#expr:({{{1}}}/{{{2}}}) round 1}}|hab./km²}}}}
+--><nowiki></nowiki>|{{Ligne optionnelle|Dinsité {{{nom|}}}|{{Unité|{{#expr:({{{1}}}/{{{2}}}) round 1}}|gins/km²}}}}
 }}}}|<nowiki></nowiki>}}}}|<nowiki></nowiki>}}</includeonly><noinclude>
 {{Doc modèle}}
 </noinclude>

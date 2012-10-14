@@ -75,7 +75,7 @@ Démographie
 {{#if:{{{population|}}}{{{population agglomération|}}}{{{gentilé|}}}|
 {{Sous-titre optionnel|Démografie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|Gintilé|{{{gentilé|}}}}}
-{{Ligne optionnelle population|{{{population|}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}
+{{Ligne optionnelle population|{{{population|YYY}}}|{{{superficie|}}}|densité={{{densité|}}}|année={{{année_pop|}}}}}
 {{Ligne optionnelle population|{{{population agglomération|}}}|{{{superficie agglomération|}}}|densité={{{densité agglomération|}}}|innée={{{année_pop agglomération|}}}|nom=de l'agglomération}}
 {{Ligne optionnelle population|{{{population division|}}}|{{{superficie division|}}}|densité={{{densité division|}}}|année={{{année_pop division|}}}|nom={{{nom_pop division|}}}}}
 |<nowiki></nowiki>}}

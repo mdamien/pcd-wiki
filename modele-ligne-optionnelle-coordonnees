@@ -1,6 +1,6 @@
 <includeonly>{{#if:{{{1|}}}|{{#if:{{{2|}}}|
 {{!-}}
-! style="text-align:left;" {{!}}[[Coordonnées géographiques|Latitude]]
+! style="text-align:left;" {{!}}Latitude
 {{!}} rowspan="2" {{!}} {{#iferror:{{#expr:{{Coordonnées/dms2dec|{{{1}}}}}}}|<!-- 
 latitude incorrecte 
 -->{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec une syntaxe erronée|latitude]]}}'''{{Rouge|{{{1}}}}}'''<br />
@@ -22,5 +22,5 @@ La syntaxe correcte : utilisation du modèle:Coord
   |display=inline
 }}}}}}{{{ref|}}}
 {{!-}}
-! style="text-align:left;" {{!}} [[Coordonnées géographiques|Longitude]]
+! style="text-align:left;" {{!}} Longitude
 |<nowiki></nowiki>}}|<nowiki></nowiki>}}</includeonly><noinclude>{{Doc modèle}}</noinclude>

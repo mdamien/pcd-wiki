@@ -31,12 +31,12 @@ Administration
 
 -->
 {{Sous-titre optionnel|Aménistracion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
-{{Ligne optionnelle|{{{nom ed paÿs|Paÿs}}}| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
+{{Ligne optionnelle|{{{nom ed païs|Païs}}}| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
 {{Ligne optionnelle|{{{nom ed état|État}}}|{{{état|}}}}}
-{{Ligne optionnelle|{{{nom de collectivité|Collectivité}}}|{{{collectivité|}}}}}
+{{Ligne optionnelle|{{{nom de colectivité|Colectivité}}}|{{{colectivité|}}}}}
 {{Ligne optionnelle|{{{nom ed région|Région}}}|{{{région|}}}}}
-{{Ligne optionnelle|{{{nom ed province|Provinche}}}|{{{provinche|}}}}}
-{{Ligne optionnelle|{{{nom ed départemint|Départemint}}}|{{{départemint|}}}}}
+{{Ligne optionnelle|{{{nom ed provinche|Provinche}}}|{{{provinche|}}}}}
+{{Ligne optionnelle|{{{nom ed départémint|Départémint}}}|{{{départemint|}}}}}
 {{Ligne optionnelle|{{{nom ed munichipalité|Munichipalité}}}|{{{municipalité|}}}}}
 {{Ligne optionnelle|{{{nom de paroisse|Paroisse}}}|{{{paroisse|}}}}}
 {{Ligne optionnelle|{{{nom ed orondissemint|Orondissemint}}}|{{{orondissemint|}}}}}

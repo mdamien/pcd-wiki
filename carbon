@@ -100,6 +100,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[tr:Kömür]]
 [[uk:Кам'яне вугілля]]
 [[ur:کوئلہ]]
+[[vec:Carbon]]
 [[vi:Than đá]]
 [[wa:Hoye]]
 [[war:Uring]]

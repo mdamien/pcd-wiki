@@ -1,6 +1,6 @@
 <div style="font-variant:; text-align: center; font-size: 102%; background:transparent; {{#if:{{{color|}}}|color:#{{{color|}}}; | }}">
 {{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Cultchure|Cultchure]]</font> | '''[[Portal:Cultchure|Cultchure]]'''}} —
-{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:jéografi|jéografi]]</font> | '''[[Portal:Jéografi|Jéografi]]'''}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:géografie|Géografie]]</font> | '''[[Portal:Jéografi|Jéografi]]'''}} —
 {{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Histoère|Histoère]]</font> | '''[[Portal:Histoère|Histoère]]'''}} —
 {{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Syinches|Syinches]]</font> |  '''[[Portal:Syinches|Syinches]]'''}} —
 {{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Biètes|Biètes]]</font> |  '''[[Portal:Biètes|Biètes]]'''}} —

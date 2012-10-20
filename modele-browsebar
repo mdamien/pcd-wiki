@@ -5,7 +5,7 @@
 {{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Syinches|Syinches]]</font> |  '''[[Portal:Syinches|Syinches]]'''}} —
 {{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Biètes|Biètes]]</font> |  '''[[Portal:Biètes|Biètes]]'''}} —
 {{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Sports|Ésports]]</font> | '''[[Portal:Sports|Ésports]]'''}} <br/>
-{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Tous chés portals|'''Lisse d'chés portals témétiques''']]</font> | '''[[Portal:Tous chés portals|'''Lisse d'chés portals témétiques]]''' }}
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Tous chés portals|'''Lisse d'chés portals témétikes''']]</font> | '''[[Portal:Tous chés portals|'''Lisse d'chés portals témétiques]]''' }}
 </div><noinclude>
 
 [[Catégorie:Subroutines-pcd|{{PAGENAME}}]]

@@ -14,8 +14,9 @@ __NOTOC__
 [[Fichier:{{{armoiries}}} {{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]
 {{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détail]]</small>|}} }}
 |- valign="top"
-{{#if:{{{image|}}}|
-{{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}} {{{image}}} }}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
+}}
 |-
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="middle"| Poéis
 | style="background-color: #f3fff3;" | <div style="float: right; padding: 0.2em 0.2em 0.2em 0.1em">[[Image:Flag of France.svg|20px|drapeau de la France]]</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Franche]]<!-- test pour aligner le drapeau à droite et le nom du pays au centre, impossible avec le modèle {{{FRA}}} -->

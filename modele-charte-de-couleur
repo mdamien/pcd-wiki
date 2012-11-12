@@ -1,0 +1,23 @@
+<noinclude>{{Documentation}}</noinclude><includeonly><nowiki>#</nowiki>{{#switch:{{lc:{{{1}}}}}
+  | communes           = {{#switch:{{lc:{{{2}}}}}
+    | commune          = ddffdd
+    | intercommunalité = ffe2bf
+    | canton           = ece5ca
+    | arrondissement   = e1e1e1
+    | département      = f6f3dd
+    | région           = bbdefd
+    | défaut           = ddffdd
+    | #default         = ddffdd
+  }}
+  | communes contraste = {{#switch:{{lc:{{{2}}}}}
+    | commune          = b2e5b2
+    | intercommunalité = fbbf77
+    | canton           = d4c68d
+    | arrondissement   = b1b1b1
+    | département      = d8d2bc
+    | région           = 58abf4
+    | défaut           = b2e5b2
+    | #default         = b2e5b2
+  }}
+  | #default           = ffffff
+}}</includeonly>

@@ -1,0 +1,78 @@
+<includeonly><!--
+
+--><div class="template-documentation" style="clear:both;margin: 1em 0 0 0;border:1px solid #aaa;background:{{#if:{{{background|}}}|{{{background|}}}|#ecfcf4}};padding:1em"><!--
+
+  -->{{#if:{{{heading|1<!-- visible par défaut -->}}}|<!--
+    --><div style="margin-bottom:1ex;border-bottom:1px solid #aaa;padding-bottom:3px"><!--
+      --><span id="doc_editlinks" class="editsection plainlinks"><!--
+        -->&#91;[<!--
+          -->{{fullurl:{{{1|{{Documintacion/docname}}}}}|action=edit<!--
+            -->{{#ifexist:{{{1|{{Documintacion/docname}}}}}||<!--
+              -->&preload=Modèle:Documintacion/Preload<!--
+            -->}}<!--
+          -->}}<!--
+        --> <!--
+          -->{{#ifexist:{{{1|{{Documintacion/docname}}}}}|<!--
+            -->modifier|créer<!--
+          -->}}<!--
+        -->]&#93;<!--
+        -->{{#ifexist:{{{1|{{Documintacion/docname}}}}}|<!--
+          -->&#32;<!--
+          -->&#91;{{Purger le cache|purger}}&#93;<!--
+        -->}}<!--
+      --></span><!--
+      --> [[Fichier:Template-info.png|50px|alt=Documintacion du modèle|link=]] <!--
+      --><span style="font-weight:bold;font-size:125%">{{{heading|Documentation}}}</span><!--
+    --></div><!--
+  -->}}<!--
+
+  --><div id="template_doc_page_transcluded" class="dablink plainlinks" style="margin-bottom:0.5em;padding-left:2em;font-style:italic"><!--
+    -->{{#ifeq:{{FULLPAGENAME}}|{{{1|{{Documintacion/docname}}}}}|<!--
+      -->Ceci est la page de documentation du [[Aide:Modèle|modèle]] dont le code est dans la page <!--
+      -->'''[[{{#rel2abs:..}}]]''' <!--
+      --><small style="font-style:normal">(<!--
+        -->[{{fullurl:{{#rel2abs:..}}|action=edit}} modifier]<!--
+        --> {{!}} <!--
+        -->[{{fullurl:{{#rel2abs:..}}|action=history}} historique]<!--
+      -->)</small>.<br /><!--
+     --><small>Cette page n’est pas destinée à être visualisée directement. Les liens utilisant des [[Aide:Liste des modèles spéciaux#var|pseudo-variables]] peuvent paraître rompus (en rouge) ; ne pas les remplacer par des noms de pages codés en dur ni des [[Uniform Resource Locator|URL]].</small><br />[[Catégorie:Documintacion ed modèle]]<!--
+    -->|<!--
+      -->{{#ifexist:{{{1|{{Documintacion/docname}}}}}|<!-- "(modèle)/Documentation" existe :
+        -->La documentation de ce [[Aide:Modèle|modèle]] est [[Aide:Inclusion|incluse]] depuis sa <!--
+        -->'''[[{{{1|{{Documintacion/docname}}}}}|sous-page de documentation]]''' <!--
+        --><small style="font-style:normal">(<!--
+          -->[{{fullurl:{{{1|{{Documintacion/docname}}}}}|action=edit}} modifier]<!--
+          --> {{!}} <!--
+          -->[{{fullurl:{{{1|{{Documintacion/docname}}}}}|action=history}} historique]<!--
+        -->)</small>.<br /><!--
+      -->}}<!--
+    -->}}<!--
+
+    -->{{#ifexist:{{#rel2abs:{{{1|{{Documintacion/docname}}}}}/../bac à sable}}|<!-- "(modèle)/bac à sable" existe :
+      -->Il dispose d’une version <!--
+      -->[[{{#rel2abs:{{{1|{{Documintacion/docname}}}}}/../bac à sable}}|bac à sable]]<!--
+      --> destinée à effectuer des modifications du code avant de les tester.<!--
+    -->}}<!--
+
+    -->{{#ifexist:{{#rel2abs:{{{1|{{Documintacion/docname}}}}}/../test}}|<!-- "(modèle)/test" existe :
+      -->Il dispose aussi d’une page de <!--
+      -->[[{{#rel2abs:{{{1|{{Documintacion/docname}}}}}/../test}}|test]]<!--
+      --> permettant de tester diverses modifications apportées dans une version bac à sable.<!--
+    -->}}<!--
+  --></div><!--
+
+  -->{{#ifeq:{{FULLPAGENAME}}|{{{1|{{Documintacion/docname}}}}}||<!-- évite toute récursion
+    -->{{#ifexist:{{{1|{{Documintacion/docname}}}}}|<nowiki />
+{{ {{{1|{{Documintacion/docname}}}}}<!--
+-->|{{{2|dummy}}}={{{3|}}}<!--
+-->|{{{4|dummy}}}={{{5|}}}<!--
+-->|{{{6|dummy}}}={{{7|}}}<!--
+-->|{{{8|dummy}}}={{{9|}}}<!--
+-->}}<!--
+    --><div style="clear:both" /><!--
+    -->}}<!--
+  -->}}<!--
+
+--></div><!--
+
+--></includeonly><noinclude>{{documintacion}}</noinclude>

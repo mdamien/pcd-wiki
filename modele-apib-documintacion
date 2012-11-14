@@ -1,0 +1,21 @@
+<noinclude>{{documintacion modèle vue directement}}</noinclude>
+
+==Utilisation==
+: Ce modèle sert a afficher une notation API avec les fontes adéquates. Il est équivalent à {{m|API}} sans donner de lien vers [[Alphabet phonétique international]].
+
+==Syntaxe==
+* <code><nowiki>{{</nowiki>APIb<nowiki>|paramètre1}}</nowiki></code>
+
+==Paramètres==
+* '''1''' = ''paramètre1'' – notation phonétique API (obligatoire')
+
+==Exemple==
+* <code><nowiki>{{</nowiki>APIb<nowiki>|[bʁe'zõːnək]}}</nowiki></code>
+{{APIb|[bʁe'zõːnək]}}
+
+<includeonly>
+<!-- catégories et interwikis pour le modèle -->
+
+[[Catégorie:Modèle pou ches langues|Apib]]
+
+</includeonly>

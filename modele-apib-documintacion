@@ -1,7 +1,7 @@
 <noinclude>{{documintacion modèle vue directement}}</noinclude>
 
 ==Utilisation==
-: Ce modèle sert a afficher une notation API avec les fontes adéquates. Il est équivalent à {{m|API}} sans donner de lien vers [[Alphabet phonétique international]].
+: Ce modèle sert a afficher une notation API avec les fontes adéquates. Il est équivalent à {{m|API}} sans donner de lien vers [[Alfabet fonétike internacional]].
 
 ==Syntaxe==
 * <code><nowiki>{{</nowiki>APIb<nowiki>|paramètre1}}</nowiki></code>

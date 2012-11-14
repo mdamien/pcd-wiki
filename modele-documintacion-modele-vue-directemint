@@ -1,0 +1,15 @@
+{{#ifeq: {{{afficher|}}} | oui
+       | <!-- afficher est égal à oui -->
+{{(!}} class="messagebox"
+{{!}} width="60" {{!}} [[File:Edit-copy green.svg|centre|40px]]
+{{!}} '''Ceci est la page de [[Aide:Comment documenter un modèle ?|documentation]] {{{1|du modèle {{m|{{BASEPAGENAME}}}}.}}}'''<br /><span style="font-size:88%; line-height:1.2em">Cette [[Wikipédia:Sous-page|sous-page]] {{#if:{{{1|}}}||contient les instructions, les [[Wikipédia:Conventions sur les catégories|catégories]] et les [[Aide:Lien interlangue|liens interlangues]] de son modèle d’origine et elle}} n’est pas destinée à être visualisée directement.</span>
+{{!)}}
+       | <!-- sinon -->
+       {{#ifeq: {{lc:{{SUBPAGENAME}}}} | {{{sous-page|documentation}}}
+              | <!-- modèle dans une sous-page de documentation -->
+{{(!}} class="messagebox"
+{{!}} width="60" {{!}} [[File:Edit-copy green.svg|centre|40px]]
+{{!}} '''Ceci est la page de [[Aide:Comment documenter un modèle ?|documentation]] {{{1|du modèle {{m|{{BASEPAGENAME}}}}.}}}'''<br /><span style="font-size:88%; line-height:1.2em">Cette [[Wikipédia:Sous-page|sous-page]] {{#if:{{{1|}}}||contient les instructions, les [[Wikipédia:Conventions sur les catégories|catégories]] et les [[Aide:Lien interlangue|liens interlangues]] de son modèle d’origine et elle}} n’est pas destinée à être visualisée directement.</span>
+{{!)}}[[Catégorie:Documentation de modèle|{{PAGENAME}}]]
+}}
+}}

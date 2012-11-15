@@ -1,0 +1,3 @@
+<includeonly>{{#if: {{{if|{{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}}{{{6|}}}{{{7|}}}{{{8|}}}}}}|<tr>
+{{#if:{{{class|}}}|<th scope="row">{{{1|}}}</th>|<td class="data">{{{1|}}}</td>}}<td class="data">{{{2|}}}</td>{{#if:{{{3|}}}|<td class="data">{{{3}}}</td>}}{{#if:{{{4|}}}|<td class="data">{{{4}}}</td>}}{{#if:{{{5|}}}|<td class="data">{{{5}}}</td>}}{{#if:{{{6|}}}|<td class="data">{{{6}}}</td>}}{{#if:{{{7|}}}|<td class="data">{{{7}}}</td>}}{{#if:{{{8|}}}|<td class="data">{{{8}}}</td>}}
+</tr>}}</includeonly><noinclude><noinclude>{{Documentation}}</noinclude>

@@ -1,0 +1,1 @@
+<includeonly>{{#if: {{{if|{{{text|}}}}}}|<p {{#if:{{{class|}}}|class="{{{class}}}" {{#if:{{{border|}}}| style="border-color:{{{border}}}"}}|class="bloc" {{#if:{{{background|}}}| style="background:{{{background}}}; {{#if:{{{color|}}}|color: {{{color|}}};}}"}}}}>{{{text|}}}</p>}}</includeonly><noinclude>{{Documentation}}</noinclude>

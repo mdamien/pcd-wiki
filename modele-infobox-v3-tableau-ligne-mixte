@@ -1,0 +1,4 @@
+<includeonly>{{#if: {{{if|{{{2|}}}}}}|<tr>
+<th scope="row" {{#if:{{{class|}}}|class="{{{class|}}}"}} {{#if: {{{width|}}}|style="width:{{{width|}}}em;"}}>{{{1}}}</th>
+<td>{{{2|}}}</td>
+</tr>}}</includeonly><noinclude>{{Documentation}}</noinclude>

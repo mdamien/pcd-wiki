@@ -1,0 +1,18 @@
+<includeonly>{{Méta base Culture
+ | URL    = merimee
+ | nom    = [[base Mérimée]]
+ | champ  = {{#if:{{{champ|}}}|{{{champ}}}|REF}}
+ | 1      = {{{1|}}}
+ | 2      = {{{2|}}}
+ | source = {{{source|}}}
+ | id     = {{{id|}}}
+}}</includeonly><noinclude>
+
+* {{m|Méta base Culture}}
+* {{m|Base Palissy}}
+* {{m|Base Mémoire}}
+* {{m|Base Joconde}}
+
+{{DEFAULTSORT:Merimee, Base, Modele}}
+[[Catégorie:Modèle]]
+</noinclude>

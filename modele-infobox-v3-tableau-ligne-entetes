@@ -1,0 +1,3 @@
+<includeonly><tr>
+<th scope="col" {{#if: {{{width|}}}|style="width:{{{width|}}}em;"}} {{#if:{{{class|}}}|class="{{{class|}}}"}}>{{{1}}}</th><th scope="col">{{{2}}}</th>{{#if:{{{3|}}}|<th scope="col">{{{3}}}</th>}}{{#if:{{{4|}}}|<th scope="col">{{{4}}}</th>}}{{#if:{{{5|}}}|<th scope="col">{{{5}}}</th>}}{{#if:{{{6|}}}|<th scope="col">{{{6}}}</th>}}{{#if:{{{7|}}}|<th scope="col">{{{7}}}</th>}}{{#if:{{{8|}}}|<th scope="col">{{{8}}}</th>}}
+</tr></includeonly><noinclude><noinclude>{{Documentation}}</noinclude>

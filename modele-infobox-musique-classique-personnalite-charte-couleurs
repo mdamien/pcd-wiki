@@ -1,0 +1,47 @@
+<includeonly>{{#switch: {{{1|}}}
+ | classique          = FFEECC
+ | jazz               = B2FFC6
+ | monde              = FCAA3C
+ | jazz               = B2FFC6
+ | danse              = FFFF80
+ | musical            = D9B2FF
+ | théâtre            = B03030
+ | pluridisciplinaire = white
+ | #default           = white
+}}</includeonly><noinclude>{{Modèle utilisant les ParserFunctions}}
+
+Ce calibre associe les couleurs employées pour définir le gabarit du [[Modèle:Infobox Musique classique (personnalité)]].
+{| class="wikitable" 
+! '''Charte''' !! '''Détails''' !! '''Couleur'''
+|-
+| '''classique'''
+| Personnalité du domaine de la [[portail:musique classique|Musique classique]] </br> et de ses domaines connexes : [[portail:opéra|opéra]], [[portail:orgue|orgue]], [[portail:clavecin|clavecin]]
+| bgcolor="#FFEECC" | #FFEECC
+|-
+| '''jazz'''
+| Personnalité du domaine du [[portail:jazz|Jazz]]
+| bgcolor="#B2FFC6" | #B2FFC6
+|-
+| '''monde'''
+| Personnalité du domaine des [[Portail:musiques du monde|Musiques du monde]]
+| bgcolor="#FCAA3C" | #FCAA3C
+|-
+| '''danse'''
+| Personnalité du domaine de la [[portail:danse|Danse]]
+| bgcolor="#FFFF80" | #FFFF80
+|-
+| '''musical'''
+| Personnalité du domaine de la [[portail:comédies musicales|Comédie musicale]]
+| bgcolor="#D9B2FF" | #D9B2FF
+|-
+| '''théâtre'''
+| Personnalité du domaine du [[portail:théâtre|Théâtre]] (non-musical)
+| bgcolor="#B03030" | #B03030
+|-
+| '''pluridisciplinaire'''
+| Pluridisciplinaire ou non défini (par défaut)
+| bgcolor="white" | white
+|}
+
+[[Catégorie:Modèle utilisant les ParserFunctions]]
+</noinclude>

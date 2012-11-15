@@ -35,9 +35,9 @@
 {{!}} {{{nationalité|}}}
 {{!-}}
 }}
-{{#if:{{{date de mort|}}} |
+{{#if:{{{date de décès|}}} |
 ! scope=row {{!}} Décés
-{{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
+{{!}} {{{date de décès|}}}{{#if:{{{lieu de décès|}}}|<br>{{{lieu de décès}}}|}}
 {{!-}}
 }}
 {{#if:{{{activité principale|}}} |

@@ -1,0 +1,29 @@
+<includeonly>{{#switch: {{{1|}}}
+ | classique                    = musique
+ | monde                    = musique
+ | jazz                           = musique
+ | danse                      = musique
+ | musical                  = musique
+ | théâtre                  = persofiction
+ | temporaire                = defaut
+ | #default                  = defaut
+}}</includeonly><noinclude>{{Modèle utilisant les ParserFunctions}}
+
+Ce calibre associe les bandeaux employés pour définir le gabarit du [[Modèle:Infobox Musique classique (personnalité)]].
+
+
+{| border="1" cellpadding="0" cellspacing="10" width="100%" style="border-color: #ccc; border-collapse: collapse;"
+! style="background-color: #ccc;" height="30" | Nom de la classe !! style="background-color: #ccc;" | Code de la classe et rendu
+|-
+| style="border-bottom:1px solid #ccc" | '''musique :''' personnalités de la musique et de la danse
+| class="entete musique" style="background-color:#ECECEC; height:45px; width:300px; text-align:center; font-size:150%; font-weight:bolder" | entete musique
+|-
+| style="border-bottom:1px solid #ccc" | '''persofiction :''' personnalités du théâtre 
+| class="entete persofiction" style="background-color:#ECECEC; height:45px; text-align:center; font-size:150%; font-weight:bolder" | entete persofiction
+|-
+| style="border-bottom:1px solid #ccc" | '''defaut :''' ce pictogramme est utilisé par défaut, dans le cas où ceux ci-dessus ne s'appliquent pas.
+| class="entete defaut" style="background-color:#ECECEC; height:45px; text-align:center; font-size:150%; font-weight:bolder;" | entete defaut
+|}
+
+[[Catégorie:Modèle utilisant les ParserFunctions]]
+</noinclude>

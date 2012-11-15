@@ -1,0 +1,155 @@
+{{nobots}}
+<includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete cinema" style="background-color:rgb(23,165,165);" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+|-
+{{#if:{{{image|}}} | 
+{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{image}}}|{{#if:{{{taille image|}}}|{{{taille image}}}|180px}}|{{#if:{{{légende|}}}|{{{légende}}}|Image associée à la personnalité}}]]
+{{!-}}
+| 
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+{{#if:{{{nom de naissance|}}} |
+! scope=row {{!}} Nom
+{{!}} {{{nom de naissance|}}}
+{{!-}}
+}}
+{{#if:{{{surnom|}}} |
+! scope=row {{!}} Surnom
+{{!}} {{{surnom|}}}
+{{!-}}
+}}
+{{#if:{{{date de naissance|}}} |
+! scope=row {{!}} Naissance
+{{!}} {{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|<br>{{{lieu de naissance}}}|}}
+{{!-}}
+}}
+{{#if:{{{nationalité|}}} |
+! scope=row {{!}} Nacionalité(s)
+{{!}} {{{nationalité|}}}
+{{!-}}
+}}
+{{#if:{{{date de mort|}}} |
+! scope=row {{!}} Décés
+{{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
+{{!-}}
+}}
+{{#if:{{{activité principale|}}} |
+! scope=row {{!}} Princhipale activité
+{{!}} {{{activité principale|}}}
+{{!-}}
+}}
+{{#if:{{{style|}}} |
+! scope=row {{!}}  stile
+{{!}} {{{style|}}}
+{{!-}}
+}}
+{{#if:{{{genre|}}} |
+! scope=row {{!}}  ginre
+{{!}} {{{genre|}}}
+{{!-}}
+}}
+{{#if:{{{lieux d'activité|}}} |
+! scope=row {{!}}   liu d'activité
+{{!}} {{{lieux d'activité|}}}
+{{!-}}
+}}
+{{#if:{{{années actives|}}} |
+! scope=row {{!}}    innées actives
+{{!}} {{{années actives|}}}
+{{!-}}
+}}
+{{#if:{{{collaborations |}}} |
+! scope=row {{!}}    collaboracions 
+{{!}} {{{collaborations |}}}
+{{!-}}
+}}
+{{#if:{{{ éditeurs |}}} |
+! scope=row {{!}}     éditeurs
+{{!}} {{{ éditeurs |}}}
+{{!-}}
+}}
+{{#if:{{{ formation |}}} |
+! scope=row {{!}}      formacion
+{{!}} {{{ formation |}}}
+{{!-}}
+}}
+{{#if:{{{ maîtres  |}}} |
+! scope=row {{!}}      moaites 
+{{!}} {{{ maîtres  |}}}
+{{!-}}
+}}
+{{#if:{{{ enseignement   |}}} |
+! scope=row {{!}}      inseignemint  
+{{!}} {{{ enseignement  |}}}
+{{!-}}
+}}
+{{#if:{{{élèves|}}} |
+! scope=row {{!}}  élèves
+{{!}} {{{élèves|}}}
+{{!-}}
+}}
+{{#if:{{{ascendants |}}} |
+! scope=row {{!}}  ascindants 
+{{!}} {{{ascendants |}}}
+{{!-}}
+}}
+{{#if:{{{conjoint|}}} |
+! scope=row {{!}} Conjoint(e)
+{{!}} {{{conjoint|}}}
+{{!-}}
+}}
+{{#if:{{{enfant|}}} |
+! scope=row {{!}} Enfant(s)
+{{!}} {{{enfant|}}}
+{{!-}}
+}}
+{{#if:{{{site internet|{{{site web|}}}}}}|
+! scope=row {{!}} Site officiel
+{{!}} {{{site internet|{{{site web}}}}}}
+{{!-}}
+}}
+{{#if:{{{récompense|}}} |
+! scope=row {{!}}  Récompinse(s)
+{{!}} {{{récompense|}}}
+{{!-}}
+}}
+{{#if:{{{distinctions |}}} |
+! scope=row {{!}} Distinccion(s)
+{{!}} {{{distinctions |}}}
+{{!-}}
+}}
+{{#if:{{{web |}}} |
+! scope=row {{!}} Site ouèbe
+{{!}} {{{web|}}}
+{{!-}}
+}}
+{{#if:{{{œuvres|}}} |
+! scope=row {{!}}  Euves
+{{!}} {{{œuvres|}}}
+{{!-}}
+}}
+{{#if:{{{répertoire|}}} |
+! scope=row {{!}}  répertoère
+{{!}} {{{répertoire|}}}
+{{!-}}
+}}
+{{#if:{{{scènes|}}} |
+! scope=row {{!}}   scènes
+{{!}} {{{scènes|}}}
+{{!-}}
+}}
+{{#if:{{{imdb|}}} |
+! colspan="2" scope="row" style="text-align:center" {{!}} [[IMDbName:{{{imdb|}}}{{!}}Fiche IMDb]]
+{{!-}}
+}}
+|}</includeonly><noinclude>{{/Documentation}}
+__NOTOC__
+
+[[Category:Modèle]]

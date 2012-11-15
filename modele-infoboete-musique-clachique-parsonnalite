@@ -1,0 +1,56 @@
+<noinclude>
+<!--==============================================================
+
+          AFUTE : ECH CANJEMINT D'EUNE INFOBOÈTE PUT INTRAÎNER DES PROBLÈMES 
+                    EDSEUR TOUS CHES PACHES DOUSQU'ALE EST.
+
+==============================================================-->
+</noinclude><includeonly>{{Infobox V3/Début|class=|width=|icon={{Infoboète Musique clachique (parsonnalité)/Charte bandeau|{{{charte}}}}}|background=#{{Infoboète Musique clachique (parsonnalité)/Charte couleurs|{{{charte}}}}}|text={{{nom|}}}{{#if:{{{nom autre|}}}|<span style="font-size: 75%; display: block; font-style: italic">{{{nom autre|}}}</span>}}}}<!-- IMAGE
+-->{{#if:{{{image|}}}|
+{{Infobox V3/Image|image={{{image|}}}|legend={{{légende|}}}}}
+{{Infobox V3/Séparateur|background=#aaa|height=1}}
+}}<!-- DONNEES CLE
+-->{{Infobox V3/Tableau début|class=hidden}}{{trim|
+{{Infobox V3/Tableau Ligne mixte|Surnom|''{{{surnom|}}}''|if={{{surnom|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Nom de naissance|{{{nom de naissance|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Naissance|{{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|{{#if:{{{date de naissance|}}}|<br />}}{{{lieu de naissance|}}}}}|if={{{date de naissance|}}}{{{lieu de naissance|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Décès|{{{date de décès|}}}{{#if:{{{lieu de décès|}}}|{{#if:{{{date de décès|}}}|<br />}}{{{lieu de décès|}}}}}|if={{{date de décès|}}}{{{lieu de décès|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Lieux de résidence|{{{lieux de résidence|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Activité principale|{{{activité principale|}}}{{#if:{{{tessiture|}}}|{{#if:{{{activité principale|}}}|<br />}}<span style="font-size: 90%;">{{{tessiture|}}}</span>}}|if={{{activité principale|}}}{{{tessiture|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Style|{{{style|}}}{{#if:{{{genre|}}}|{{#if:{{{style|}}}|<br />}}<span style="font-size: 90%;">{{{genre|}}}</span>}}|if={{{style|}}}{{{genre|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Activités annexes|{{{activités autres|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Lieux d'activité|{{{lieux d'activité|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Années d'activité|{{{années actives|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Collaborations|{{{collaborations|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Éditeurs|{{{éditeurs|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Formation|{{{formation|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Maîtres|{{{maîtres|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Enseignement|{{{enseignement|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Élèves|{{{élèves|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Ascendants|{{{ascendants|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Conjoint|{{{conjoints|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Descendants|{{{descendants|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Famille|{{{famille|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Récompenses|{{{récompenses|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Distinctions honorifiques|{{{distinctions|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Site internet|{{{web|}}}}}
+}}{{Infobox V3/Tableau fin}}<!-- POUR LES CREATEURS (COMPOSITEURS, LIBRETTISTES OU CHORÉGRAPHES) UNIQUEMENT
+-->{{#if:{{{œuvres|}}}|
+{{Infobox V3/Titre Bloc|background=#{{Infobox Musique classique (personnalité)/Charte couleurs|{{{charte|}}}}}|text=Œuvres principales}}
+<div style="font-size: 90%;">
+{{{œuvres|}}}
+</div>
+}}<!-- POUR LES INTERPRETES (CHANTEURS, INSTRUMENTISTES OU CHEFS D'ORCHESTRE) UNIQUEMENT
+-->{{#if:{{{répertoire|}}}|
+{{Infobox V3/Titre Bloc|background=#{{Infobox Musique classique (personnalité)/Charte couleurs|{{{charte|}}}}}|text=Répertoire}}
+<div style="font-size: 90%;">
+{{{répertoire|}}}
+</div>
+}}<!-- POUR LES DIRECTEURS (DE SALLES DE CONCERT, D'OPÉRAS, DE FESTIVALS) UNIQUEMENT
+-->{{#if:{{{scènes|}}}|
+{{Infobox V3/Titre Bloc|background=#{{Infobox Musique classique (personnalité)/Charte couleurs|{{{charte|}}}}}|text=Scènes principales}}
+<div style="font-size: 90%;">
+{{{scènes|}}}
+</div>
+}}
+{{Infobox V3/Fin|Modèle:Infobox Musique classique (personnalité)|class=bordered|border-color=#aaa}}{{Suivi des biographies|Musique}}</includeonly><noinclude>[[catégorie: Modèle]]</noinclude>

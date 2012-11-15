@@ -1,0 +1,285 @@
+{{Infobox V3/Début|text=Accès directs aux modèles de briques V3}}
+{{Infobox V3/Titre Bloc|text=Modèles de base}}
+* [[Modèle:Infobox V3/Début]]
+* [[Modèle:Infobox V3/Fin]]
+{{Infobox V3/Titre Bloc|text=Modèles de tableau}}
+* [[Modèle:Infobox V3/Tableau début]]
+* [[Modèle:Infobox V3/Tableau Ligne mixte]]
+* [[Modèle:Infobox V3/Tableau Ligne entêtes]]
+* [[Modèle:Infobox V3/Tableau Ligne données]]
+* [[Modèle:Infobox V3/Tableau fin]]
+{{Infobox V3/Titre Bloc|text=Modèles divers}}
+* [[Modèle:Infobox V3/Titre Bloc]]
+* [[Modèle:Infobox V3/Image]]
+* [[Modèle:Infobox V3/Séparateur]]
+* [[Modèle:Infobox V3/Navigateur]]
+{{Infobox V3/Fin}}
+
+== Pourquoi de nouveaux modèles d'infobox ? ==
+
+Quelles que soient leur version ou leurs variantes, <strong>les divers modèles d'infobox actuels posent un important problème de sémantique et d'[[Wikipédia:Atelier accessibilité/Qu'est-ce que c'est ?|accessibilité Web]]</strong> lié à une caractéristique commune de leur code : la structure utilisée est dans tous les cas celle d'un tableau de données unique, alors que le contenu concerné ne correspond qu'en partie à cet élément sémantique. 
+
+<strong>Ces nouveaux modèles d'infobox corrigent ce défaut en adoptant une structure sémantique plus précise</strong>, où les tableaux ne sont utilisés que pour les seules données réellement concernées. Techniquement : au lieu d'être un élément <code>table</code> unique, l'infobox est un élément <code>div</code> contenant autant de tableaux accessibles qu'il y a de blocs successifs de données, le reste du contenu (images, texte, etc.) étant balisé sous forme de paragraphes (ou autre si nécessaire).
+
+Les modèles apportent également d'autres améliorations, notamment :
+* Une meilleure gestion de la mise en forme, en permettant d'alléger le code des modèles et des pages au profit de styles mieux intégrés dans la feuille de style du site ([[Mediawiki:Common.css|common.css]]). Ceci améliore notamment le temps de téléchargement et d'affichage des pages par les navigateurs, ainsi que la gestion de leur cache.
+* Un jeu de modèles volontairement réduit aux seuls modèles indispensables : les contenus plus particuliers peuvent être gérés dans les infobox sans nécessiter de modèles supplémentaires. Ceci facilite la création et la maintenance des modèles d'infobox ;
+* Une extraction de données facilitée pour des outils externes ou internes et la réutilisation du contenu de Wikipédia en produisant un code HTML le plus spécifique possible (tableaux de données limités aux données utiles, métadonnées sous forme de titre de tableau, etc.). Voir {{lang|en|[[:meta:New Wikidata]]}}.
+* la gestion des images sous forme de thumb, conforme à la recommandation [[Wikipédia:Mise en forme des images]], permettant de personnaliser la taille des images via les préférences du compte personnel (mais avec un rendu allégé par rapport aux thumbs classiques, c'est-à-dire sans bordure ni icône de loupe) ;
+* un modèle de navigateur dans des séries d'articles (« précédent, suivant ») qui permet de corriger le problème des icônes cliquables ne menant pas à la page attendue mais à celle de l'icône elle-même.
+
+Des modèles spécifiques pourront par la suite être créés (ou les modèles en cours pourront être adaptés) pour gérer des micro-formats de méta-données (voir [[:en:Wikipedia:WikiProject Microformats]] et [http://schema.org/ schema.org] par exemple).
+
+== Pourquoi les images sont-elles plus petites ? ==
+
+Lorsqu'une infobox est convertie au format V3, la taille de l'image peut être réduite par rapport au modèle initial. Les images sont en effet gérées dans les infobox V3 comme des vignettes d'image (''{{lang|en|thumbnail}}''), c'est-à-dire comme les autres images habituellement présentes dans les articles. Cela signifie que leurs dimensions sont réglées par les préférences de l'utilisateur, conformément à la recommandation [[Wikipédia:Mise en forme des images]]  : 
+* la largeur de l'image est par défaut de 220 pixels ;
+* les contributeurs ont la possibilité de régler cette largeur via [[Spécial:Préférences#mw-prefsection-rendering|les préférences de leur compte]], de 120 à 300 pixels.
+
+== Faut-il tout convertir tout de suite en infobox V3 ? ==
+
+{{...}}
+
+<strong>Non</strong> : certains contenus spécifiques ne se prêtent pas à l'utilisation dans une infobox V3 en raison de fragilités techniques initiales dans leur conception. C'est le cas en particulier :
+* des cartes de géolocalisation du type {{m|Infobox/Géolocalisation}}, {{m|Infobox/Géolocdual}} ou encore {{m|Infobox/Géolocalisation multiple}} et d'une grande partie des cartes reposant sur un [[Wikipédia:Jargon/Modèle de carte complétée|modèle de carte complétée]] : la conversion de l'infobox peut entraîner des problèmes d'alignement. Ces modèles posent par ailleurs quoi qu'il en soit des problèmes de sémantique et d'accessibilité qui rendent peu profitable dans l'immédiat l'amélioration partielle apportée par l'infobox V3.
+* ...
+
+Dans ce type de cas, les modèles d'infobox V2 restent pertinents en l'état des techniques disponibles actuellement.
+
+== Présentation des modèles ==
+
+Ces infobox sont réalisées à l'aide de briques. Un modèle d'infobox simple est donc du type :
+<pre>
+{{Infobox V3/Début}}
+{{Infobox V3/Image|image={{{image|}}}}}
+{{Infobox V3/Tableau début|text={{{nom|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Foo|{{{bar|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Autre foo|{{{autre bar|}}}}}
+{{Infobox V3/Tableau fin}}
+{{Infobox V3/Fin}}
+</pre>
+
+=== Début et fin de l'infobox ===
+
+Ces deux modèles sont obligatoires.
+
+==== [[Modèle:Infobox V3/Début]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Début|amorce=Pour le détail des paramètres, voir}}
+
+{{Infobox V3/Début|text=Exemple d'une infobox réduite<br>à son modèle de début<br>et de fin}}
+{{Infobox V3/Fin}}
+
+Ce modèle permet d'ouvrir une infobox et de gérer son bandeau de titre.
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Début}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Début|class=|width=|icon=|background=|color=|border-color=|text=}}</pre>
+
+==== [[Modèle:Infobox V3/Fin]] ====
+{{Infobox V3/Début|text=Exemple avec l'option lien d'édition en fin d'infobox}}
+Cette option ajoute en pied d'infobox le lien d'édition de la section 0 de l'article et le lien d'accès au modèle d'infobox (liens fictifs dans cet exemple).
+{{Infobox V3/Fin|Modèle:Foo|class=bordered}}
+
+{{Article détaillé|Modèle:Infobox V3/Fin|amorce=Pour le détail des paramètres, voir}}
+
+Ce modèle ferme l'infobox et génère les liens permettant d'éditer la section de l'article où se trouve l'infobox et l'accès à la page du modèle lui-même.
+
+Syntaxe minimale sans liens d'édition :
+<pre>{{Infobox V3/Fin}}</pre>
+Syntaxe minimale avec liens d'édition :
+<pre>{{Infobox V3/Fin|Modèle:Foo}}</pre>
+Syntaxe complète avec liens d'édition et tous les paramètres optionnels :
+<pre>{{Infobox V3/Fin|Modèle:Foo|class=|border-color=|border-width=}}</pre>
+
+=== Tableaux de données ===
+{{Infobox V3/Début|text=Exemples}}
+{{Infobox V3/Tableau début|text=Tableau simple avec modèle Ligne Mixte}}
+{{Infobox V3/Tableau Ligne mixte|En-tête 1|Donnée 1}}
+{{Infobox V3/Tableau Ligne mixte|En-tête 2|Donnée 2}}
+{{Infobox V3/Tableau fin}}
+{{Infobox V3/Tableau début|text=Tableau simple avec modèle Ligne entêtes<br> et Ligne données}}
+{{Infobox V3/Tableau Ligne entêtes|En-tête 1|En-tête 2|En-tête 3}}
+{{Infobox V3/Tableau Ligne données|Donnée 1|Donnée 2|Donnée 3}}
+{{Infobox V3/Tableau fin}}
+{{Infobox V3/Tableau début|text=Tableau à double entrée<br>avec modèle Ligne entêtes<br> et Ligne données}}
+{{Infobox V3/Tableau Ligne entêtes||En-tête 1|En-tête 2|class=double}}
+{{Infobox V3/Tableau Ligne données|En-tête Ligne|Donnée 1|Donnée 2|class=double}}
+{{Infobox V3/Tableau Ligne données|En-tête Ligne|Donnée 3|Donnée 4|class=double}}
+{{Infobox V3/Tableau fin}}
+{{Infobox V3/Fin}}
+
+Ces modèles gèrent les contenus correspondant effectivement à des tableaux de données, qu'il s'agisse de tableaux simples ou de tableaux à doubles entrées.
+
+==== [[Modèle:Infobox V3/Tableau début]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Tableau début|amorce=Pour le détail des paramètres, voir}}
+
+Ce modèle permet d'ouvrir un tableau de données et de gérer son titre.
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Tableau début|text=}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Tableau début|class=|border=|background=|color=|text=}}</pre>
+
+==== [[Modèle:Infobox V3/Tableau Ligne mixte]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Tableau Ligne mixte|amorce=Pour le détail des paramètres, voir}}
+
+Ce modèle crée une ligne de tableau à deux cellules, du type « en-tête / donnée ».
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Tableau Ligne mixte|foo|bar}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Tableau Ligne mixte|class=|width=|foo|bar|if=}}</pre>
+
+==== [[Modèle:Infobox V3/Tableau Ligne entêtes]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Tableau Ligne entêtes|amorce=Pour le détail des paramètres, voir}}
+
+Ce modèle permet de créer une ligne d'en-têtes de colonnes de tableau de données. Il gère de 2 à 8 colonnes.
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Tableau Ligne entêtes|foo|bar}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Tableau Ligne entêtes|foo|bar|3|4|5|6|7|8|class=}}</pre>
+
+==== [[Modèle:Infobox V3/Tableau Ligne données]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Tableau Ligne données|amorce=Pour le détail des paramètres, voir}}
+
+Ce modèle permet de créer une ligne de 2 à 8 cellules de données associées au modèle précédent. Il permet également de créer une ligne de tableau à double entrée.
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Tableau Ligne données|foo|bar}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Tableau Ligne données|foo|bar|3|4|5|6|7|class=}}</pre>
+
+==== [[Modèle:Infobox V3/Tableau fin]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Tableau fin|amorce=Pour le détail des paramètres, voir}}
+
+Ce modèle ferme un tableau de données.
+
+Syntaxe unique :
+<pre>{{Infobox V3/Tableau fin}}</pre>
+
+=== Autres contenus spécifiques : sous-titres, images, etc. ===
+
+==== [[Modèle:Infobox V3/Titre Bloc]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Titre Bloc|amorce=Pour le détail des paramètres, voir}}
+
+{{Infobox V3/Début|text=Exemple}}
+{{Infobox V3/Titre Bloc|text=Un titre pouvant précéder un bloc de contenu}}
+{{Infobox V3/Fin}}
+
+Ce modèle génère un sous-titre d'infobox avant un contenu autre qu'un tableau de données (un texte, des images, etc.)
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Titre Bloc|text=}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Titre Bloc|class=|border=|background=|color=|text=|if=}}</pre>
+
+==== [[Modèle:Infobox V3/Image]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Image|amorce=Pour le détail des paramètres, voir}}
+
+{{Infobox V3/Début|text=Exemple}}
+{{Infobox V3/Image|image=Wiki.png|legend=Une image et sa légende}}
+{{Infobox V3/Fin}}
+
+Ce modèle gère l'image habituelle d'une infobox et sa légende, mais sous la forme d'un ''thumb'' au rendu adapté (largeur définie par les préférences du compte personnel, pas de bordures, pas d'icône loupe, alternative textuelle par défaut optimisée).
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Image|image=}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Image|image=|upright=|alt=|legend=}}</pre>
+
+Il peut également gérer deux images placées côte à côte.
+
+Syntaxe minimale (deux images) :
+<pre>{{Infobox V3/Image|image=|image2=}}</pre>
+Syntaxe complète avec tous les paramètres optionnels (deux images) :
+<pre>{{Infobox V3/Image|image=|image2=|upright=|upright2=|alt=|alt2=|legend=|background=}}</pre>
+
+===== Conversion de paramètres d'image dans les articles =====
+
+Le modèle {{m|Infobox V3/Image}} n'accepte comme paramètre d'image que le nom du fichier image : <code>image=maphoto.png</code>. Si l'infobox initiale utilisait dans les article un paramètre du type <code><nowiki>image=[[Fichier:maphoto.png|250px]]</nowiki></code>, il faut :
+:# Utiliser un code temporaire dans l'infobox convertie en V3, qui gère les deux formes du paramètre <code>image</code> (à adapter selon les noms de paramètres) : <pre>{{#ifexist:Media:{{{image|}}}|{{Infobox V3/Image|image={{{image|}}}|legend={{{légende|}}}}}|<div class=center>{{{image|}}}</div>}}</pre>
+:# Corriger le paramètre image dans les articles pour le mettre sous la forme  <code>image=maphoto.png</code> (utiliser un bot si besoin).
+:# Supprimer le code temporaire et le remplacer par l'appel habituel au modèle {{m|Infobox V3/Image}}.
+
+==== [[Modèle:Infobox V3/Séparateur]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Séparateur|amorce=Pour le détail des paramètres, voir}}
+
+{{Infobox V3/Début|text=Exemple}}
+{{Infobox V3/Séparateur}}
+{{Infobox V3/Fin}}
+
+Ce modèle génère une ligne horizontale de séparation.
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Séparateur}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Séparateur|class=|background=|height=}}</pre>
+
+==== [[Modèle:Infobox V3/Navigateur]] ====
+
+{{Article détaillé|Modèle:Infobox V3/Navigateur|amorce=Pour le détail des paramètres, voir}}
+
+
+{{Infobox V3/Début|text=Exemple}}
+{{Infobox V3/Navigateur|prev=Foo|next=Bar}}
+{{Infobox V3/Fin}}
+
+Ce modèle génère les liens du type « précédent » et « suivant » pour les infobox d'une série d'articles.
+
+Syntaxe minimale :
+<pre>{{Infobox V3/Navigateur|prev=|next=}}</pre>
+Syntaxe complète avec tous les paramètres optionnels :
+<pre>{{Infobox V3/Navigateur|prev=|next=|prev text=|next text=|class=|border-color=|border-width=}}</pre>
+
+== Contenus libres et cas particulier de contenus ==
+
+{{Infobox V3/Début|text=Exemple}}
+Lorem ipsum sic dolor amet...
+* foo
+* bar
+{{Infobox V3/Fin}}
+
+D'autres modèles ou contenus simplement réalisés avec la syntaxe wiki courante peuvent être inclus dans l'infobox. Par exemple, un paragraphe de texte suivi d'une liste seront réalisés avec le code suivant :
+<pre>{{Infobox V3/Début}}
+Lorem ipsum sic dolor amet...
+* foo
+* bar
+{{Infobox V3/Fin}}</pre>
+{{clr}}
+
+{{Infobox V3/Début|text=Exemple}}
+<p style="font-size: 80%; text-align: center; color: #808080;">Lorem ipsum sic dolor amet...</p>
+{{Infobox V3/Fin}}
+
+Les contenus libres peuvent être mis en forme à l'aide des styles CSS :
+<pre>{{Infobox V3/Début}}
+<p style="font-size: 80%; text-align: center; color: #808080;">Lorem ipsum sic dolor amet...</p>
+{{Infobox V3/Fin}}</pre>
+
+{{Bataille Rome antique
+|conflit = Exemple d'utilisation du contenu libre pour créer un tableau complexe
+|combattants1=[[Histoire de Carthage|Carthaginois]], [[Celtes]],<br /> [[Numides]] et [[Ibères]]
+|combattants2=[[République romaine]] et alliés Italiens de Rome
+|commandant1=<span style='font-size:8.5pt'>Général: [[Hannibal Barca]]<br /> Cavalerie lourde : Hasdrubal<br /> Cavalerie légère : [[Maharbal]]</span>
+|commandant2=Les [[Consul (Rome antique)|consuls]] <br /> <span style='font-size:8.5pt'>[[Caius Terentius Varro]]<br /> et [[Lucius Aemilius Paullus (Paul Émile)|Lucius Aemilius Paullus]]</span>
+|forces1=55 000 hommes <br /><span style='font-size:8.5pt'>Infanterie lourde : {{formatnum:40000}}<br /> Infanterie légère : {{formatnum:6000}} <br /> Cavalerie : {{formatnum:8000}}</span>
+|forces2=8 [[légion romaine|légions romaines]] <br /> 8 légions alliées : <br /> <span style='font-size:8.5pt'>{{formatnum:80000}} [[Rome antique|Romains]] et alliés,<br /> dont {{formatnum:5000}} cavaliers</span>
+|pertes1={{formatnum:6000}} tués
+|pertes2= {{formatnum:45000}} morts <br /><span style='font-size:8.5pt'>29 [[tribun militaire|tribuns]] et 80 [[Sénat de la République romaine|sénateurs]]</span><br /> {{formatnum:20000}} prisonniers
+}}
+Le modèle [[Modèle:Bataille Rome antique]] ([{{fullurl:Modèle:Bataille_Rome_antique|oldid=69432286}} version de référence]) donne un exemple d'infobox où le contenu libre a été utilisé pour réaliser « sur mesure » un tableau de données à la structure trop spécifique pour que le recours à une brique d'infobox soit pertinent. Ceci permet d'éviter la multiplication de modèles de briques à usage très limité.
+
+{{clr}}
+
+<noinclude>[[Catégorie:Modèle]]</noinclude>

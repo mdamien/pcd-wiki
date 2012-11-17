@@ -1,0 +1,73 @@
+<includeonly>{{Infobox V3/Début|background=#e3e3e3|text={{#if:{{{prononciation|}}}|[[Media:{{{prononciation}}}|{{{nom_local|}}}]]|{{#if:{{{nom_local|}}}|{{{nom_local}}}|{{{nom_local1|}}}}}}}{{#if:{{{langue|}}}|&nbsp;{{{{{langue|{{{langue1|}}}}}}}}}}}}<!--
+   Nom local
+-->{{#if:{{{nom_local1|}}}{{{nom_local2|}}}{{{nom_local3|}}}{{{nom_local4|}}}{{{nom_local5|}}}{{{nom_français|}}}|
+<p style="text-align:center;">{{#if:{{{prononciation1|}}}|[[Media:{{{prononciation1}}}|{{{nom_local1|}}}]]|{{{nom_local1|}}}}}{{#if:{{{langue1|}}}|&nbsp;{{{{{langue1}}}}}}}</p>
+<p style="text-align:center;">{{#if:{{{prononciation2|}}}|[[Media:{{{prononciation2}}}|{{{nom_local2|}}}]]|{{{nom_local2|}}}}}{{#if:{{{langue2|}}}|&nbsp;{{{{{langue2}}}}}}}</p>
+<p style="text-align:center;">{{#if:{{{prononciation3|}}}|[[Media:{{{prononciation3}}}|{{{nom_local3|}}}]]|{{{nom_local3|}}}}}{{#if:{{{langue3|}}}|&nbsp;{{{{{langue3}}}}}}}</p>
+<p style="text-align:center;">{{#if:{{{prononciation4|}}}|[[Media:{{{prononciation4}}}|{{{nom_local4|}}}]]|{{{nom_local4|}}}}}{{#if:{{{langue4|}}}|&nbsp;{{{{{langue4}}}}}}}</p>
+<p style="text-align:center;">{{#if:{{{prononciation5|}}}|[[Media:{{{prononciation5}}}|{{{nom_local5|}}}]]|{{{nom_local5|}}}}}{{#if:{{{langue5|}}}|&nbsp;{{{{{langue5}}}}}}}</p>
+<p style="text-align:center;">{{{nom_français|}}} {{fr}}</p>}}<!--
+   Symboles
+-->{{Infobox V3/Image|image={{{image_drapeau|Vlag ontbreekt.svg}}}|image2={{{image_blason|}}}|legend={{#if:{{{lien_drapeau|}}}|[[{{{lien_drapeau}}}]].{{#if:{{{lien_blason|}}}|&nbsp;[[{{{lien_blason}}}]].}}|Drapeau non défini}}|upright={{{upright drapeau|0.5}}}|upright2={{{upright blason|0.4}}}}}<!--
+   Cartes
+-->{{Infobox V3/Séparateur|background=#e3e3e3|height=1|if={{{image_carte|}}}}}
+{{Infobox V3/Image|image={{{image_carte|}}}|upright={{{upright carte|}}}|legend={{{descr_carte|}}}}}<!--
+
+-->{{Infobox V3/Tableau début|class=hidden}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Devise (phrase)|Devise nationale]]|''{{{devise}}}''|if={{{devise|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Hymne national]]|''{{{hymne_national}}}''|if={{{hymne_national|}}}}}<!--
+-->{{Infobox V3/Tableau fin}}<!--
+   Administration
+-->{{Infobox V3/Tableau début|background=#e3e3e3|text=Administration}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Forme de l'État|{{{type_gouvernement|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{titres_dirigeants|{{{titre_dirigeant|}}}}}}|{{{noms_dirigeants|{{{nom_dirigeant|}}}}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{titre_dirigeant2|}}}|{{{nom_dirigeant2|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{titre_dirigeant3|}}}|{{{nom_dirigeant3|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{titre_dirigeant4|}}}|{{{nom_dirigeant4|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{titre_dirigeant5|}}}|{{{nom_dirigeant5|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{type_langues|[[Langue officielle|Langues officielles]]}}}|{{{langues_officielles|{{{langues|}}}}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Liste des capitales du monde|Capitale]]|{{{capitale}}}{{#if:{{{coordonnées_capitale|}}}|<p style="font-size:89%;">{{{coordonnées_capitale}}}</p>}}|if={{{capitale|}}}}}<!--
+-->{{Infobox V3/Tableau fin}}<!--
+   Géographie
+-->{{Infobox V3/Tableau début|background=#e3e3e3|text=Géographie}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[{{{lien_villes}}}|{{{titre_plus_grande_ville|}}}]]|{{{plus_grande_ville|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Superficie|Superficie totale]]|{{{superficie_totale}}} [[Kilomètre carré|km{{exp|2}}]]{{#if:{{{superficie_rang|}}}|<br />([[Liste des pays et territoires par superficie|classé {{{superficie_rang}}}{{#ifeq:{{{superficie_rang|}}}|1|{{er}}|{{e}}}}]]{{{population_rang_ref|}}})}}|if={{{superficie_totale|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Superficie en eau|{{{pourcentage_eau|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Fuseau horaire]]|[[Temps universel coordonné|UTC]] {{{fuseau_horaire}}}|if={{{fuseau_horaire|}}}}}<!--
+-->{{Infobox V3/Tableau fin}}<!--
+   Histoire
+-->{{#if:{{{pays_indépendance|}}}{{{date_indépendance|}}}{{{date_formation|}}}{{{date_formation2|}}}{{{date_formation3|}}}{{{date_formation4|}}}{{{date_formation5|}}}|{{Infobox V3/Tableau début|background=#e3e3e3|text=Histoire}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Indépendance]]|{{{pays_indépendance|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{type_indépendance|}}}|{{{date_indépendance|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{type_formation|}}}|{{{date_formation|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{type_formation2|}}}|{{{date_formation2|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{type_formation3|}}}|{{{date_formation3|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{type_formation4|}}}|{{{date_formation4|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{type_formation5|}}}|{{{date_formation5|}}}}}<!--
+-->{{Infobox V3/Tableau fin}}}}<!--
+   Démographie
+-->{{Infobox V3/Tableau début|background=#e3e3e3|text=Démographie}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Gentilé]]|{{{gentilé|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|{{{type_ethnies|[[Ethnie|Groupes ethniques]]}}}|{{{groupes_ethniques|{{{groupes|}}}}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Recensement de la population|Population totale]]{{#if:{{{population_année|}}}|&nbsp;<span style="font-weight:normal;">({{{population_année|}}})</span>}}|{{{population_totale}}} {{abréviation discrète|hab.|habitants}}{{#if:{{{population_rang|}}}|<br />([[Liste des pays par population|classé {{{population_rang}}}<sup>e</sup>]])}}|if={{{population_totale|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Densité de population|Densité]]|{{#if:{{{densité|}}}|{{{densité}}} hab./km{{exp|2}}|{{formatnum:{{#expr:{{{population_totale|}}}/{{{superficie_totale|}}}}}}} hab./km{{exp|2}}}}}}<!--
+-->{{Infobox V3/Tableau fin}}<!--
+   Économie
+-->{{Infobox V3/Tableau début|background=#e3e3e3|text=Économie}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Produit intérieur brut|PIB nominal]]{{#if:{{{PIB_année|}}}|&nbsp;<span style="font-weight:normal;">([[{{{PIB_année}}}]])</span>}}|{{{PIB|}}}{{#if:{{{PIB_rang|}}}|&nbsp;([[Liste des pays par PIB (nominal)|{{{PIB_rang}}}]])}}|if={{{PIB|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Produit intérieur brut|PIB]] [[Parité de pouvoir d'achat|(PPA)]]{{#if:{{{PIBPPA_année|}}}|&nbsp;<span style="font-weight:normal;">([[{{{PIBPPA_année}}}]])</span>}}|{{{PIB_PPA|}}}{{#if:{{{PIBPPA_rang|}}}|&nbsp;([[Liste des pays par PIB (PPA)|{{{PIBPPA_rang}}}]])}}|if={{{PIB_PPA|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Produit intérieur brut|PIB]] [[Parité de pouvoir d'achat|(PPA)]] [[PIB par habitant|par hab.]]{{#if:{{{PIBHAB_année|}}}|&nbsp;<span style="font-weight:normal;">([[{{{PIBHAB_année}}}]])</span>}}|{{{PIB_HAB|}}}{{#if:{{{PIBHAB_rang|}}}|&nbsp;([[Liste des pays par PIB (PPA)|{{{PIBHAB_rang}}}]])}}|if={{{PIB_HAB|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Indice de développement humain|IDH]]{{#if:{{{IDH_année|}}}|&nbsp;<span style="font-weight:normal;">([[{{{IDH_année}}}]])</span>}}|{{{IDH|}}}{{#if:{{{IDH_catégorie|}}}|&nbsp;({{{IDH_catégorie}}})}}{{#if:{{{IDH_rang|}}}|&nbsp;([[Classement IDH des pays|{{{IDH_rang}}}]])}}|if={{{IDH|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Monnaie]]|{{{monnaie|}}}{{#if:{{{code_monnaie|}}}|&nbsp;(<code>[[ISO 4217|{{{code_monnaie}}}]]</code>)}}}}<!--
+-->{{Infobox V3/Tableau fin}}<!--
+   Divers
+-->{{Infobox V3/Tableau début|background=#e3e3e3|text=Divers}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[ISO 3166-1|Code ISO 3166-1]]|{{{iso3166-1|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Domaine de premier niveau|Domaine Internet]]|{{{domaine_internet|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Liste des indicatifs téléphoniques internationaux par pays|Indicatif téléphonique]]|+{{{indicatif_téléphonique}}}|if={{{indicatif_téléphonique|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|[[Organisation internationale|Organisations internationales]]|{{{organisations_internationales|{{{organisations|}}}}}}}}<!--
+-->{{Infobox V3/Tableau fin}}<!--
+-->{{Infobox V3/Fin}}</includeonly><noinclude>
+
+{{Documentation}}
+</noinclude>

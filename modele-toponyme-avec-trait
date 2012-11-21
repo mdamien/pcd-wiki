@@ -1,0 +1,74 @@
+<includeonly><!--
+
+Trait :
+
+--><div style="position:absolute;top:{{{1}}}{{{unité|%}}};left:{{{2}}}{{{unité|%}}};
+"><div style="position:absolute;{{#switch: {{lc: {{{5|ne}}} }}
+|e=
+width:{{{4|20}}}px;height:0px;border-top:
+|o|w=
+left:{{#expr: -({{{4|20}}})+1 }}px;width:{{{4|20}}}px;height:0px;border-top:
+|se|s|so|sw=
+width:0px;height:{{{4|20}}}px;border-right:
+|#default=
+top:{{#expr: -({{{4|20}}})+1 }}px;width:0px;height:{{{4|20}}}px;border-right:
+}}
+1px solid #808080;
+margin:0;padding:0;line-height:0px;"></div></div><!--
+
+Toponyme :
+
+--><div style="position:absolute;padding:0;line-height:2ex;top:{{{1}}}{{{unité|%}}};
+{{#switch: {{lc: {{{5|ne}}} }}
+|n= left:{{{2}}}{{{unité|%}}};
+"><div style="position:absolute;top:-{{{4|20}}}px;left:-60px;margin:0;
+"><div style="position:absolute;text-align:center;
+bottom:0px;left:0px;width:120px;
+">{{{3|toponyme manquant !}}}</div></div>
+|no
+|nw= left:{{{2}}}{{{unité|%}}};
+"><div style="position:absolute;top:-{{{4|20}}}px;height:0px;width:0px;margin:0;
+"><div style="position:absolute;text-align:right;
+top:-1ex;right:2px;height:0px;
+">{{{3|toponyme manquant !}}}</div></div>
+|e= left:{{{2}}}{{{unité|%}}};
+"><div style="position:absolute;left:{{{4|20}}}px;
+"><div style="position:absolute;text-align:left;
+top:-1ex;left:1px;height:0px;
+">{{{3|toponyme manquant !}}}</div></div>
+|o
+|w= left:-1px;width:{{{2}}}{{{unité|%}}};
+"><div style="position:absolute;text-align:right;
+top:-1ex;left:1px;right:{{{4|20}}}px;height:0px;
+">{{{3|toponyme manquant !}}}</div>
+|se= left:{{{2}}}{{{unité|%}}};
+"><div style="position:absolute;top:{{{4|20}}}px;left:0px;
+"><div style="position:absolute;text-align:left;
+top:-1ex;left:2px;height:0px;
+">{{{3|toponyme manquant !}}}</div></div>
+|s=left:0px;width:100%;height:0px;
+"><div style="position:absolute;text-align:center;
+top:{{{4|20}}}px;left:0px;width:{{#expr: 2*({{{2}}}) }}{{{unité|%}}};height:0px;
+">{{{3|toponyme manquant !}}}</div>
+|so
+|sw= left:{{{2}}}{{{unité|%}}};
+"><div style="position:absolute;
+top:{{{4|20}}}px;left:-2px;height:0px;width:0px;margin:0;
+"><div style="position:absolute;text-align:right;
+top:-1ex;right:0px;
+">{{{3|toponyme manquant !}}}</div></div>
+|ne
+|#default= left:{{{2}}}{{{unité|%}}};right:0px;
+"><div style="position:absolute;top:-{{{4|20}}}px;left:0px;
+"><div style="position:relative;text-align:left;
+top:-1ex;left:2px;right:0px;height:0px;
+">{{{3|toponyme manquant !}}}</div></div>
+}}</div></includeonly><noinclude>
+
+{{/Documentation}}
+
+[[dsb:Pśedłoga:Městne mě ze smužku]]
+[[eo:Ŝablono:Loknomo kun streko]]
+[[hsb:Předłoha:Městne mjeno ze smužku]]
+
+</noinclude>

@@ -1,0 +1,7 @@
+<noinclude>{|align="right" border="0" cellpadding="4" style="float:right;margin:0.75em 0 1em 1em;width:46ex;background:#f9f9f9;border:1px #aaa solid;border-collapse:collapse;font-size:85%"
+</noinclude>|-valign="top" style="border-top:1px #aaa solid;padding:0.4em 0.6em"
+|style="white-space:nowrap"| '''Formacion'''<br /> &nbsp;{{{type_formation}}}
+| &nbsp;<br /> {{{date_formation}}}<noinclude>
+|}
+{{documentation}}
+</noinclude>

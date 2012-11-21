@@ -1,0 +1,33 @@
+<includeonly><div style="position:absolute;<!--
+-->top:{{{1}}}%;left:{{{2}}}%;width:0px;height:0px;margin:0;padding:0;line-height:0px;background-color:transparent;"><!--
+--><div style="position:relative;top:-8px;left:-8px;width:16px;height:16px;background-color:transparent;"><!--
+
+-->[[Fichier:City locator {{{4|4}}}.svg|link=|alt=Localisation de la ville]]<!--
+
+--></div><!--
+--><div style="position:relative;top:-16px;"><!-- 
+--><div style="font-size:{{#expr: 10* (13- ({{{4|4}}} mod 10)) }}%;position:relative;<!--
+-->{{#switch: {{lc: {{{5|ne}}} }}
+|n= top:-1.75em;left:   -6em;text-align:center;
+|no
+|nw=top:-1.65em;left:-12.5em;text-align:right;
+|e= top:-0.65em;left:  0.6em;text-align:left;
+|o
+|w= top:-0.65em;left:-12.6em;text-align:right;
+|se=top: 0.25em;left:  0.6em;text-align:left;
+|s= top: 0.35em;left:   -6em;text-align:center;
+|so
+|sw=top: 0.25em;left:-12.5em;text-align:right;
+|ne
+|#default=top:-1.65em;left:  0.5em;text-align:left;
+}}width:12em;line-height:1.2em;"><!--
+
+-->'''[[{{{3}}}]]'''<!--
+
+--></div></div><!--
+--></div></includeonly><noinclude>
+{{Documentation de modèle de point}}
+[[dsb:Pśedłoga:Dypk/město]]
+[[eo:Ŝablono:Punkto/urbo]]
+[[hsb:Předłoha:Dypk/město]]
+</noinclude>

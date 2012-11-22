@@ -37,7 +37,7 @@ Cette partie concerne les pays ayant leur nom local dans une seule langue
 
 -->{{#if:{{{nom_français|}}}|<nowiki/>
 {{!}}-
-{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{nom_français|}}}| {{{nom_français|}}}}} </big>'''{{fr}}
+{{!}}style="padding:0.4em 0.6em" align="center" colspan="2"{{!}} <big>'''{{#if:{{{nom_français|}}}| {{{nom_français|}}}}} </big>'''{{pcd}}
 }}<!-- fin de la partie traitant du nom du pays
 
 ===========================

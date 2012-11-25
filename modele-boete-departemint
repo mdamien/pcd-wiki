@@ -9,7 +9,7 @@
 |-
 ! colspan="2" style="text-align:center;background-color:#F6F3DD" | Aménistrachon
 |-
-! Poéyis
+! Païs
 | [[Franche]]
 |-
 ! Région
@@ -18,7 +18,7 @@
 ! Code départémint
 | {{{insee}}}
 |-
-! Chéf-yu<br><small>(Préfécture)</small>
+! Kéf-liu<br><small>(Préfécture)</small>
 | {{{Préfecture}}}
 |- 
 ! Dsous-préfécture(s)
@@ -27,7 +27,7 @@
 ! Preusidint dech<br />consièl général
 | {{{président}}}
 |-
-! Préfé
+! Préfet
 | {{{préfet}}}
 |-
 ! colspan="2" style="text-align:center;background-color:#F6F3DD" | Éstatistiques
@@ -36,22 +36,22 @@
 | {{formatnum:{{{population}}}}} hab. <small>({{{DatePop}}})</small>
 |-
 {{#if:{{{population|}}} |{{#if:{{{sup|}}} | 
-! Dinchité
+! Dinsité
 {{!}} {{#if: {{{sup|}}} {{{population|}}}|{{formatnum:{{#expr: ({{{population|}}}/{{{sup|}}}) round 0}}}} hab./km<sup>2</sup>}}
 {{!-}}
 }}}}
-! Supérfichie
+! Superfichie
 | {{formatnum:{{{sup}}}}} km<sup>2</sup>
 |-
 ! colspan="2" style="text-align:center;background-color:#F6F3DD" | Subdivisions
 |-
 {{#if:{{{arr|}}} |
-! Arondichemints
+! Arondissemints
 {{!}} {{{arr|}}}
 {{!-}}
 }}
 {{#if:{{{circonscription|}}} |
-! Circonscriptions législatives
+! Circonscripcions législatives
 {{!}} {{{circonscription|}}}
 {{!-}}
 }}

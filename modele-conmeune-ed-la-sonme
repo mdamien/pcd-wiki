@@ -66,20 +66,33 @@ __NOTOC__
  | Altitudes
  | moyenne : {{{alt moy}}}<br />minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}
 }}
-{{Infobox/Ligne mixte
- | Supérfichie
- | {{{km²}}}  km²  ({{{hectares}}} ha)
+{{#if:{{{km²|}}} | 
+! scope=row {{!}} Supérfichie
+{{!}} <span class="plainlinks">{{{km²}}} ({{{hectares}}} ha)</span>
+{{!-}}
+}}
+{{#if:{{{superficie|}}} | 
+! scope=row {{!}} Supérfichie
+{{!}} <span class="plainlinks">{{{superficie}}} ({{{hectares}}} ha)</span>
+{{!-}}
 }}
 {{Infobox/Sous-titre
  | Démografie|dfd
 }}
-{{Infobox/Ligne mixte
- | Populacion sins<br />doubes comptes
- | {{formatnum: {{{sans}}}}} gins <br /><small>({{{date-sans}}})</small>
+{{#if:{{{sans|}}} | 
+! scope=row {{!}} Populacion sins<br />doubes comptes
+{{!}} <span class="plainlinks">{{formatnum: {{{sans}}}}} gins <br /><small>({{{date-sans}}})</small></span>
+{{!-}}
 }}
-{{Infobox/Ligne mixte
- | Dinchité
- | {{formatnum: {{{dens}}}}} gins/km²
+{{#if:{{{population|}}} | 
+! scope=row {{!}} Populacion sins<br />doubes comptes
+{{!}} <span class="plainlinks">{{formatnum: {{{population}}}}} gins <br /><small>({{{année_pop}}})</small></span>
+{{!-}}
+}}
+{{#if:{{{dens|}}} | 
+! scope=row {{!}} Dinchité
+{{!}} <span class="plainlinks">{{formatnum: {{{dens}}}}} gins/km²</small></span>
+{{!-}}
 }}
 |-
 {{#if: {{{unité urbaine|}}} | 

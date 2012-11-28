@@ -64,16 +64,16 @@ __NOTOC__
 }}
 {{Infobox/Ligne mixte
  | Altitudes
- | moyenne : {{{alt moy}}}<br />minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}
+ | minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}<br />mouéyène : {{{alt moy}}}
 }}
 {{#if:{{{km²|}}} | 
 ! scope=row {{!}} Supérfichie
-{{!}} <span class="plainlinks">{{{km²}}} ({{{hectares}}} ha)</span>
+{{!}} <span class="plainlinks">{{{km²}}} km² ({{{hectares}}} ha)</span>
 {{!-}}
 }}
 {{#if:{{{superficie|}}} | 
 ! scope=row {{!}} Supérfichie
-{{!}} <span class="plainlinks">{{{superficie}}} ({{{hectares}}} ha)</span>
+{{!}} <span class="plainlinks">{{{superficie}}} km² ({{{hectares}}} ha)</span>
 {{!-}}
 }}
 {{Infobox/Sous-titre

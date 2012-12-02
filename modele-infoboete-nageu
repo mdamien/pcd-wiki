@@ -26,7 +26,7 @@
 {{!}} colspan="4" width="65%" {{!}} {{{nationalité}}}|}}
 |- 
 {{#if: {{{date de naissance|}}}|
-{{!}} colspan="1" width="35%" {{!}} '''L'est né(e) à'''
+{{!}} colspan="1" width="35%" {{!}} '''L'est né(e)'''
 {{!}} colspan="4" width="65%" {{!}} {{{date de naissance}}}|}}
 |- 
 {{#if: {{{lieu de naissance|}}}|
@@ -118,8 +118,8 @@
 {{!}} colspan="5" width="100%" style="text-align: center;" {{!}} {{{distinctions}}}|}}
 |-
 {{infodoc|colspan=5|couleur={{charte sportive/Niveau 1|natation}}|lien=Infobox Nageur}}
-|}
-{{Suivi des biographies|Sport}}</includeonly><noinclude>{{Documentation}}
+|}</includeonly>
+{{Suivi des biographies|Sport}}<noinclude>{{Documentation}}
 [[Catégorie:Modèle]]
 
 [[ar:قالب:سباحة]]

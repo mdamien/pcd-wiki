@@ -1,0 +1,145 @@
+<noinclude>{{Bandeau Infobox V2}}
+</noinclude><includeonly>{| class="infobox_v2" cellspacing="7" style="text-align: left;"
+! colspan="5" | 
+{| cellpadding="1" cellspacing="0" style="text-align: center;" width="100%" 
+|- class="entete" style="background-color:#{{charte sportive/Niveau 1|natation}};"
+| width="5%"| [[Fichier:Pix.gif|45px|alt=|link=]]
+| width="85%" style="color:white;" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
+| width="10%"| [[Fichier:Swimming pictogram white.png|45px|alt=Portail natation|link=Portail:Natation]]
+|}
+|-
+{{#if: {{{image|}}}|
+{{!}} colspan="5" style="font-size: smaller; text-align: center;" {{!}} [[image:{{{image}}}|frameless|{{{tailleimage}}}  ]]<br /><center> {{#if:{{{légende|}}}|{{{légende|}}}|}} </center>}}
+|-
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|natation}}; color:white;" {{!}} '''Informations'''
+|-
+{{#if: {{{nage|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Nage(s)'''
+{{!}} colspan="4" width="65%" {{!}} {{{nage}}}|}}
+|- 
+{{#if: {{{période active|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Période active'''
+{{!}} colspan="4" width="65%" {{!}} {{{période active}}}|}}
+|- 
+{{#if: {{{nationalité|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Nationalité'''
+{{!}} colspan="4" width="65%" {{!}} {{{nationalité}}}|}}
+|- 
+{{#if: {{{date de naissance|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Naissance'''
+{{!}} colspan="4" width="65%" {{!}} {{{date de naissance}}}|}}
+|- 
+{{#if: {{{lieu de naissance|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Lieu'''
+{{!}} colspan="4" width="65%" {{!}} {{{lieu de naissance}}} {{#if: {{{pays|}}}|{{{pays}}}}} |}}
+|- 
+{{#if: {{{date de décès|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Décès'''
+{{!}} colspan="4" width="65%" {{!}} {{{date de décès}}}|}}
+|- 
+{{#if: {{{lieu de décès|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Lieu'''
+{{!}} colspan="4" width="65%" {{!}} {{{lieu de décès}}} {{#if: {{{pays|}}}|{{{pays}}}}} |}}
+|-
+{{#if: {{{taille|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Taille'''
+{{!}} colspan="4" width="65%" {{!}} {{{taille}}}|}}
+|-
+{{#if: {{{club(s)|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Club(s)'''
+{{!}} colspan="4" width="65%" {{!}} {{{club(s)}}}|}}
+|- 
+{{#if: {{{entraineur(s)|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Entraîneur(s)'''
+{{!}} colspan="4" width="65%" {{!}} {{{entraineur(s)}}}|}}
+|-
+{{#if: {{{records grand bassin|}}} {{{records petit bassin|}}}|
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|natation}}; color:white;" {{!}} '''Records'''|}}
+|-
+{{#if: {{{records grand bassin|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Grand bassin'''
+{{!}} colspan="4" width="65%" {{!}} {{{records grand bassin}}}|}}
+|-
+{{#if: {{{records petit bassin|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Petit bassin'''
+{{!}} colspan="4" width="65%" {{!}} {{{records petit bassin}}}|}}
+|-
+{{#if: {{{or JO|}}} {{{argent JO|}}} {{{bronze JO|}}} {{{or CM|}}} {{{argent CM|}}} {{{bronze CM|}}} {{{or CC|}}} {{{or CM2|}}} {{{argent CM2|}}} {{{bronze CM2|}}} {{{compétition continentale|}}} {{{compétition continentale 2|}}} {{{compétition continentale 3|}}} {{{compétition nationale|}}}|
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|natation}}; color:white;" {{!}} '''Palmarès'''|}}
+|-
+{{#if: {{{or JO|}}} {{{argent JO|}}} {{{bronze JO|}}}|
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{jeux olympiques|}}}|'''{{{jeux olympiques}}}'''|'''[[Natation aux Jeux olympiques|Jeux olympiques]]'''}}
+{{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or JO}}} 
+{{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent JO}}}
+{{!}} bgcolor="CC9966" width="8%" align="center" {{!}} {{{bronze JO}}}
+|}}
+|-
+{{#if: {{{or CM|}}} {{{argent CM|}}} {{{bronze CM|}}}|
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition mondiale|}}}|'''{{{compétition mondiale}}}'''|'''[[Championnats du monde de natation|Ch. du monde grand bassin]]'''}}
+{{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CM}}} 
+{{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CM}}} 
+{{!}} bgcolor="CC9966"  width="8%" align="center" {{!}} {{{bronze CM}}}|}}
+|-
+|-
+{{#if: {{{or CM2|}}} {{{argent CM2|}}} {{{bronze CM2|}}}|
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition mondiale 2|}}}|'''{{{compétition mondiale 2}}}'''|'''[[Championnats du monde de natation en petit bassin|Ch. du monde petit bassin]]'''}}
+{{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CM2}}} 
+{{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CM2}}} 
+{{!}} bgcolor="CC9966"  width="8%" align="center" {{!}} {{{bronze CM2}}}|}}
+|-
+{{#if: {{{or CC|}}} {{{argent CC|}}} {{{bronze CC|}}}|
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition continentale|}}}|'''{{{compétition continentale}}}'''|'''[[Championnats d'Europe de natation|Ch. d'Europe grand bassin]]'''}}
+{{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CC}}} 
+{{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CC}}} 
+{{!}} bgcolor="CC9966" width="8%" align="center" {{!}} {{{bronze CC}}}|}}
+|-
+{{#if: {{{or CC2|}}} {{{argent CC2|}}} {{{bronze CC2|}}}|
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition continentale 2|}}}|'''{{{compétition continentale 2}}}'''|'''[[Championnats d'Europe de natation en petit bassin|Ch. d'Europe petit bassin]]'''}}
+{{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CC2}}} 
+{{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CC2}}} 
+{{!}} bgcolor="CC9966" width="8%" align="center" {{!}} {{{bronze CC2}}}|}}
+|-
+{{#if: {{{or CC3|}}} {{{argent CC3|}}} {{{bronze CC3|}}}|
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition continentale 3|}}}|'''{{{compétition continentale 3}}}'''|}}
+{{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CC3}}} 
+{{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CC3}}} 
+{{!}} bgcolor="CC9966" width="8%" align="center" {{!}} {{{bronze CC3}}}|}}
+|-
+{{#if: {{{compétition nationale|}}}|
+{{!}} colspan="2" width="76%" {{!}} '''{{{compétition nationale}}}'''
+{{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CN}}} 
+{{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CN}}} 
+{{!}} bgcolor="CC9966" width="8%" align="center" {{!}} {{{bronze CN}}}|}}
+|-
+{{#if:{{{distinctions|}}}|
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|natation}}; color:white;" {{!}} '''Distinctions'''|}}
+|-
+{{#if:{{{distinctions|}}}|
+{{!}} colspan="5" width="100%" style="text-align: center;" {{!}} {{{distinctions}}}|}}
+|-
+{{infodoc|colspan=5|couleur={{charte sportive/Niveau 1|natation}}|lien=Infobox Nageur}}
+|}
+{{Suivi des biographies|Sport}}</includeonly><noinclude>{{Documentation}}
+[[Catégorie:Modèle]]
+
+[[ar:قالب:سباحة]]
+[[arz:قالب:Infobox swimmer]]
+[[bn:টেমপ্লেট:তথ্যছক সাঁতারু]]
+[[ca:Plantilla:Infotaula de nedador]]
+[[de:Vorlage:Infobox Schwimmer]]
+[[en:Template:Infobox swimmer]]
+[[es:Plantilla:Ficha de nadador]]
+[[fa:الگو:Infobox swimmer]]
+[[hr:Predložak:Infookvir plivač]]
+[[hu:Sablon:Úszó infobox]]
+[[ja:Template:Infobox Swimmer]]
+[[lt:Šablonas:Plaukikas]]
+[[mk:Шаблон:Infobox swimmer]]
+[[nl:Sjabloon:Infobox zwemmer]]
+[[sh:Šablon:Infookvir plivač]]
+[[simple:Template:Infobox swimmer]] 
+[[sr:Шаблон:Инфокутија пливачи]]
+[[sv:Mall:Infobox simmare]]
+[[tr:Şablon:Yüzücü bilgi kutusu]]
+[[zh:Template:Infobox Swimmer]]
+</noinclude>

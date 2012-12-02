@@ -146,4 +146,7 @@ NEWS  -->{{#if: {{{News|}}} |{{Infobox V3/Titre Bloc
 | rugby = [[Fichier:Rugby current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
 | [[Fichier:Soccerball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]}} Pour la saison en cours, voir :<br /> '''''[[{{{News}}}]]'''''<br />{{0}}</center>
 }}{{#if: {{{maj|}}}|
-<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V3/Fin|Modèle:Infobox Saison de foot|class=bordered|border-color=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}|border-width=2}}</includeonly><noinclude>{{Documentation}}</noinclude>
+<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}
+{{Infobox/Fin}}
+<!--{{Infobox V3/Fin|Modèle:Infobox Saison de foot|class=bordered|border-color=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}|border-width=2}}-->
+</includeonly><noinclude>{{Documentation}}</noinclude>

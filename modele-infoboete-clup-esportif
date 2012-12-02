@@ -9,11 +9,10 @@ IMAGE  -->
  | {{{Logo|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
 }}
 <!--
-GENERALITES  -->{{Infobox V3/Tableau début
-  |text=Généralités
-  |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
-  |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}}
-}}{{trim|
+GENERALITES  -->
+{{Infobox/Sous-titre
+ | Généralités|dfd
+}}
 {{Infobox/Ligne mixte optionnel
   |Nom complet|{{{Nom complet|}}}
 }}
@@ -62,24 +61,23 @@ GENERALITES  -->{{Infobox V3/Tableau début
 {{Infobox/Ligne mixte optionnel
   |Site ouèbe|{{#if: {{{Site web|}}} |<span class="plainlinks">{{{Site web|}}}</span>|}}
 }}
-}}{{Infobox V3/Tableau fin}}<!--
-PALMARÈS  -->{{#if: {{{palmares national|}}} {{{palmares international|}}} {{{coupe de la Ligue|}}} {{{coupe d'Europe|}}} |{{Infobox V2/Tableau début
-  |text=Palmarès princhipal
-  |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
-  |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}}
-}}{{trim|
+}}<!--
+PALMARÈS  -->{{#if: {{{palmares national|}}} {{{palmares international|}}} {{{coupe de la Ligue|}}} {{{coupe d'Europe|}}} |
+{{Infobox/Sous-titre
+ | Palmarès princhipal|dfd
+}}
 {{Infobox/Ligne mixte optionnel
   |{{#if: {{{note|}}} | Nacional | {{#if: {{{note(minuscule)|}}} | National | National}} }}|{{{palmares national|}}}
 }}
 {{Infobox/Ligne mixte optionnel
   |{{#if: {{{note|}}} | Internacional | {{#if: {{{note(minuscule)|}}} | Internacional | Internacional}} }}|{{{palmares international|}}}
 }}
-}}{{Infobox V3/Tableau fin}}}}<!--
-MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{1_leftarm|}}}{{{1_body|}}}{{{1_rightarm|}}}{{{1_shorts|}}}{{{1_socks|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}|{{Infobox V3/Titre Bloc
-  |text=Maillots
-  |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
-  |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}}
-}}}}
+}}}}<!--
+MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{1_leftarm|}}}{{{1_body|}}}{{{1_rightarm|}}}{{{1_shorts|}}}{{{1_socks|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}|
+{{Infobox/Sous-titre
+ | Maillots|dfd
+}}
+}}
 {| style="background-color:#FFFFFF; border:1px solid #999;font-size:90%;"
 |-
 {{#if: {{{pattern_b1|}}}{{{body1|}}}{{{1_pattern_b|}}}{{{1_body|}}}|{{!}}{{Football kit |
@@ -125,10 +123,10 @@ MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{s
   }}
 |}}
 |}<!--
-NEWS  -->{{#if: {{{News|}}} |{{Infobox V3/Titre Bloc
-  |text=Actualités
-  |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
-  |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}} }}
+NEWS  -->{{#if: {{{News|}}} |
+{{Infobox/Sous-titre
+ | Actualités|dfd
+}}
 <center>{{ #switch: {{{Sport}}}
 | autre =
 | rugby = [[Fichier:Rugby current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]

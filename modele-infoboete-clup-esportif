@@ -12,77 +12,81 @@
   |text= {{#if:{{{Nom du club|}}} | {{{Nom du club|}}} | {{PAGENAME}} }}
   |width=28
 }}<!--
-IMAGE  -->{{Infobox V2/Image
+IMAGE  -->
+{{Infobox/Image
+ | {{{Logo|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
+}}
+{{Infobox V2/Image
   |image= {{{Logo|}}}
   |upright= {{#if:{{{upright|}}}|{{{upright|}}}|0.6}}
   |alt= Logo du {{{Nom du club|}}}
 }}<!--
-GENERALITES  -->{{Infobox V2/Tableau début
+GENERALITES  -->{{Infobox V3/Tableau début
   |text=Généralités
   |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
   |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}}
 }}{{trim|
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Nom complet|{{{Nom complet|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Surnoms|{{#if:{{{Surnoms|}}}|<i>{{{Surnoms|}}}</i>|}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Aute(s) nom(s)|{{{Noms precedents|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Fondacion|{{{Date de fondation|-}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Disparicion|{{{Date de disparition|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Sport professionnel|{{{Statut professionnel|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Couleurs|{{{Couleurs|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |{{ #switch: {{{Sport}}}| pingpong = Salle| Stade}}|{{{Stade|}}} {{#if: {{{Capacite|}}} |<br />({{{Capacite}}} places) |}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Siège|{{{Siege|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Campionnat actuèl|{{{Championnat actuel|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Propriétaire|{{#if: {{{Nationalité du Propriétaire|}}} | [[Fichier:Flag of {{{Nationalité du Propriétaire}}}.svg|20px]] |}} {{{Propriétaire|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Présidint|{{#if: {{{Nationalité du Président|}}} | [[Fichier:Flag of {{{Nationalité du Président}}}.svg|20px]] |}} {{{Président|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   | Intraineu|{{{Entraîneur|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Jueu l'pu capé|{{{Joueur le plus capé|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Meilleur buteu|{{{Meilleur buteur|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |Site ouèbe|{{#if: {{{Site web|}}} |<span class="plainlinks">{{{Site web|}}}</span>|}}
 }}
-}}{{Infobox V2/Tableau fin}}<!--
+}}{{Infobox V3/Tableau fin}}<!--
 PALMARÈS  -->{{#if: {{{palmares national|}}} {{{palmares international|}}} {{{coupe de la Ligue|}}} {{{coupe d'Europe|}}} |{{Infobox V2/Tableau début
   |text=Palmarès princhipal
   |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
   |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}}
 }}{{trim|
-{{Infobox V2/Tableau Line miste|width=10
+{{Infobox V3/Tableau Line miste|width=10
   |{{#if: {{{note|}}} | Nacional | {{#if: {{{note(minuscule)|}}} | National | National}} }}|{{{palmares national|}}}
 }}
-{{Infobox V2/Tableau Ligne mixte|width=10
+{{Infobox V3/Tableau Ligne mixte|width=10
   |{{#if: {{{note|}}} | Internacional | {{#if: {{{note(minuscule)|}}} | Internacional | Internacional}} }}|{{{palmares international|}}}
 }}
-}}{{Infobox V2/Tableau fin}}}}<!--
+}}{{Infobox V3/Tableau fin}}}}<!--
 MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{1_leftarm|}}}{{{1_body|}}}{{{1_rightarm|}}}{{{1_shorts|}}}{{{1_socks|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}|{{Infobox V3/Titre Bloc
   |text=Maillots
   |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
@@ -133,7 +137,7 @@ MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{s
   }}
 |}}
 |}<!--
-NEWS  -->{{#if: {{{News|}}} |{{Infobox V2/Titre Bloc
+NEWS  -->{{#if: {{{News|}}} |{{Infobox V3/Titre Bloc
   |text=Actualités
   |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
   |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}} }}
@@ -142,4 +146,4 @@ NEWS  -->{{#if: {{{News|}}} |{{Infobox V2/Titre Bloc
 | rugby = [[Fichier:Rugby current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
 | [[Fichier:Soccerball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]}} Pour la saison en cours, voir :<br /> '''''[[{{{News}}}]]'''''<br />{{0}}</center>
 }}{{#if: {{{maj|}}}|
-<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V2/Fin|Modèle:Infobox Saison de foot|class=bordered|border-color=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}|border-width=2}}</includeonly><noinclude>{{Documentation}}</noinclude>
+<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V3/Fin|Modèle:Infobox Saison de foot|class=bordered|border-color=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}|border-width=2}}</includeonly><noinclude>{{Documentation}}</noinclude>

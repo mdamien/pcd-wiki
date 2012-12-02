@@ -11,7 +11,7 @@
 {{#if: {{{image|}}}|
 {{!}} colspan="5" style="font-size: smaller; text-align: center;" {{!}} [[image:{{{image}}}|frameless|{{{tailleimage}}}  ]]<br /><center> {{#if:{{{légende|}}}|{{{légende|}}}|}} </center>}}
 |-
-{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|natation}}; color:white;" {{!}} '''Informations'''
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|natation}}; color:white;" {{!}} '''Informacions'''
 |-
 {{#if: {{{nage|}}}|
 {{!}} colspan="1" width="35%" {{!}} '''Nage(s)'''
@@ -22,15 +22,15 @@
 {{!}} colspan="4" width="65%" {{!}} {{{période active}}}|}}
 |- 
 {{#if: {{{nationalité|}}}|
-{{!}} colspan="1" width="35%" {{!}} '''Nationalité'''
+{{!}} colspan="1" width="35%" {{!}} '''Nacionalité'''
 {{!}} colspan="4" width="65%" {{!}} {{{nationalité}}}|}}
 |- 
 {{#if: {{{date de naissance|}}}|
-{{!}} colspan="1" width="35%" {{!}} '''Naissance'''
+{{!}} colspan="1" width="35%" {{!}} '''L'est né(e) à'''
 {{!}} colspan="4" width="65%" {{!}} {{{date de naissance}}}|}}
 |- 
 {{#if: {{{lieu de naissance|}}}|
-{{!}} colspan="1" width="35%" {{!}} '''Lieu'''
+{{!}} colspan="1" width="35%" {{!}} '''Liu'''
 {{!}} colspan="4" width="65%" {{!}} {{{lieu de naissance}}} {{#if: {{{pays|}}}|{{{pays}}}}} |}}
 |- 
 {{#if: {{{date de décès|}}}|
@@ -38,7 +38,7 @@
 {{!}} colspan="4" width="65%" {{!}} {{{date de décès}}}|}}
 |- 
 {{#if: {{{lieu de décès|}}}|
-{{!}} colspan="1" width="35%" {{!}} '''Lieu'''
+{{!}} colspan="1" width="35%" {{!}} '''Liu'''
 {{!}} colspan="4" width="65%" {{!}} {{{lieu de décès}}} {{#if: {{{pays|}}}|{{{pays}}}}} |}}
 |-
 {{#if: {{{taille|}}}|
@@ -46,11 +46,11 @@
 {{!}} colspan="4" width="65%" {{!}} {{{taille}}}|}}
 |-
 {{#if: {{{club(s)|}}}|
-{{!}} colspan="1" width="35%" {{!}} '''Club(s)'''
+{{!}} colspan="1" width="35%" {{!}} '''Clup(s)'''
 {{!}} colspan="4" width="65%" {{!}} {{{club(s)}}}|}}
 |- 
 {{#if: {{{entraineur(s)|}}}|
-{{!}} colspan="1" width="35%" {{!}} '''Entraîneur(s)'''
+{{!}} colspan="1" width="35%" {{!}} '''Intraineu(s)'''
 {{!}} colspan="4" width="65%" {{!}} {{{entraineur(s)}}}|}}
 |-
 {{#if: {{{records grand bassin|}}} {{{records petit bassin|}}}|
@@ -61,40 +61,40 @@
 {{!}} colspan="4" width="65%" {{!}} {{{records grand bassin}}}|}}
 |-
 {{#if: {{{records petit bassin|}}}|
-{{!}} colspan="1" width="35%" {{!}} '''Petit bassin'''
+{{!}} colspan="1" width="35%" {{!}} '''Tiot bassin'''
 {{!}} colspan="4" width="65%" {{!}} {{{records petit bassin}}}|}}
 |-
 {{#if: {{{or JO|}}} {{{argent JO|}}} {{{bronze JO|}}} {{{or CM|}}} {{{argent CM|}}} {{{bronze CM|}}} {{{or CC|}}} {{{or CM2|}}} {{{argent CM2|}}} {{{bronze CM2|}}} {{{compétition continentale|}}} {{{compétition continentale 2|}}} {{{compétition continentale 3|}}} {{{compétition nationale|}}}|
 {{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|natation}}; color:white;" {{!}} '''Palmarès'''|}}
 |-
 {{#if: {{{or JO|}}} {{{argent JO|}}} {{{bronze JO|}}}|
-{{!}} colspan="2" width="76%" {{!}} {{#if: {{{jeux olympiques|}}}|'''{{{jeux olympiques}}}'''|'''[[Natation aux Jeux olympiques|Jeux olympiques]]'''}}
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{jeux olympiques|}}}|'''{{{jeux olympiques}}}'''|'''[[Lisse ed chés Jus Olimpiques|Jus olimpiques]]'''}}
 {{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or JO}}} 
 {{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent JO}}}
 {{!}} bgcolor="CC9966" width="8%" align="center" {{!}} {{{bronze JO}}}
 |}}
 |-
 {{#if: {{{or CM|}}} {{{argent CM|}}} {{{bronze CM|}}}|
-{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition mondiale|}}}|'''{{{compétition mondiale}}}'''|'''[[Championnats du monde de natation|Ch. du monde grand bassin]]'''}}
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition mondiale|}}}|'''{{{compétition mondiale}}}'''|'''Campionnats du monne grand bassin'''}}
 {{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CM}}} 
 {{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CM}}} 
 {{!}} bgcolor="CC9966"  width="8%" align="center" {{!}} {{{bronze CM}}}|}}
 |-
 |-
 {{#if: {{{or CM2|}}} {{{argent CM2|}}} {{{bronze CM2|}}}|
-{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition mondiale 2|}}}|'''{{{compétition mondiale 2}}}'''|'''[[Championnats du monde de natation en petit bassin|Ch. du monde petit bassin]]'''}}
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition mondiale 2|}}}|'''{{{compétition mondiale 2}}}'''|'''Campionnats du monne tiot bassin'''}}
 {{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CM2}}} 
 {{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CM2}}} 
 {{!}} bgcolor="CC9966"  width="8%" align="center" {{!}} {{{bronze CM2}}}|}}
 |-
 {{#if: {{{or CC|}}} {{{argent CC|}}} {{{bronze CC|}}}|
-{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition continentale|}}}|'''{{{compétition continentale}}}'''|'''[[Championnats d'Europe de natation|Ch. d'Europe grand bassin]]'''}}
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition continentale|}}}|'''{{{compétition continentale}}}'''|'''Campionnats d'Urope grand bassin'''}}
 {{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CC}}} 
 {{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CC}}} 
 {{!}} bgcolor="CC9966" width="8%" align="center" {{!}} {{{bronze CC}}}|}}
 |-
 {{#if: {{{or CC2|}}} {{{argent CC2|}}} {{{bronze CC2|}}}|
-{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition continentale 2|}}}|'''{{{compétition continentale 2}}}'''|'''[[Championnats d'Europe de natation en petit bassin|Ch. d'Europe petit bassin]]'''}}
+{{!}} colspan="2" width="76%" {{!}} {{#if: {{{compétition continentale 2|}}}|'''{{{compétition continentale 2}}}'''|'''Campionnats d'Urope tiot bassin'''}}
 {{!}} bgcolor="gold" width="8%" align="center" {{!}} {{{or CC2}}} 
 {{!}} bgcolor="silver" width="8%" align="center" {{!}} {{{argent CC2}}} 
 {{!}} bgcolor="CC9966" width="8%" align="center" {{!}} {{{bronze CC2}}}|}}

@@ -1,0 +1,23 @@
+<includeonly><span class="nowrap"><!--
+-->{{#if: {{{1|}}}
+     | {{#expr:{{{1}}}}}&nbsp;{{abréviation discrète|h|heure{{#ifeq: {{{1}}}|1||s}}}}<!--
+       -->{{#if: {{{2|}}}
+            | &nbsp;{{#expr:{{{2}}}}}<!--
+              -->{{#if: {{{3|}}}{{{duree|}}}
+                   | &nbsp;{{abréviation discrète|min|minute{{#ifeq: {{{2}}}|1||s}}}}{{#if: {{{3|}}}|&nbsp;{{formatnum:{{#expr:{{{3}}}}}}}&nbsp;{{abréviation discrète|s|seconde{{#ifeq: {{{3}}}|1||s}}}}}}
+                 }}
+          }}
+     | {{#if: {{{2|}}}
+         | {{#expr:{{{2}}}}}&nbsp;{{abréviation discrète|min|minute{{#ifeq: {{{2}}}|1||s}}}}<!--
+           -->{{#if: {{{3|}}}
+                | &nbsp;{{formatnum:{{#expr:{{{3}}}}}}}&nbsp;{{abréviation discrète|s|seconde{{#ifeq: {{{3}}}|1||s}}}}
+              }}
+         | {{#if: {{{3|}}}
+             | {{formatnum:{{#expr:{{{3}}}}}}}&nbsp;{{abréviation discrète|s|seconde{{#ifeq: {{{3}}}|1||s}}}}
+           }}
+       }}
+   }}<!--
+   -->{{#if: {{{4|}}}
+        | &nbsp;{{{4}}}
+      }}<!--
+--></span></includeonly><noinclude>[[catégorie:Modèle]]{{Documentation}}</noinclude>

@@ -78,7 +78,6 @@ MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{s
  | Maillots|dfd
 }}<!--
 {| style="background-color:#FFFFFF; border:1px solid #999;font-size:90%;"-->
-|-
 {{#if: {{{pattern_b1|}}}{{{body1|}}}{{{1_pattern_b|}}}{{{1_body|}}}|{{!}}{{Football kit |
   pattern_la = {{{pattern_la1|}}} {{{1_pattern_la|}}} |
   pattern_b  = {{{pattern_b1|}}} {{{1_pattern_b|}}} |
@@ -91,7 +90,6 @@ MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{s
   shorts     = {{{shorts1|}}} {{{1_shorts|}}} |
   socks      = {{{socks1|}}} {{{1_socks|}}} |
   title      = {{#if:{{{titre1|}}}|{{{titre1}}}|Domicile}}
-}}
 |}}
 {{#if: {{{pattern_b2|}}}{{{body2|}}}{{{2_pattern_b|}}}{{{2_body|}}}|{{!}}{{Football kit |
   pattern_la = {{{pattern_la2|}}} {{{2_pattern_la|}}} |

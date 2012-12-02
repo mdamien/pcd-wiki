@@ -71,6 +71,7 @@ PALMARÈS  -->{{#if: {{{palmares national|}}} {{{palmares international|}}} {{{c
 {{Infobox/Ligne mixte optionnel
   |{{#if: {{{note|}}} | Internacional | {{#if: {{{note(minuscule)|}}} | Internacional | Internacional}} }}|{{{palmares international|}}}
 }}
+}}
 <!--
 MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{1_leftarm|}}}{{{1_body|}}}{{{1_rightarm|}}}{{{1_shorts|}}}{{{1_socks|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}|
 {{Infobox/Sous-titre
@@ -105,6 +106,7 @@ MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{s
   socks      = {{{socks2|}}} {{{2_socks|}}} |
   title      = {{#if:{{{titre2|}}}|{{{titre2}}}|Extérieur}}
 }}
+}}
 |}}
 {{#if: {{{pattern_b3|}}}{{{body3|}}}|{{!}}{{Football kit |
   pattern_la = {{{pattern_la3|}}} |
@@ -132,5 +134,4 @@ NEWS  -->{{#if: {{{News|}}} |
 }}{{#if: {{{maj|}}}|
 <p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}
 {{Infobox/Fin}}
-<!--{{Infobox V3/Fin|Modèle:Infobox Saison de foot|class=bordered|border-color=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}|border-width=2}}-->
 </includeonly><noinclude>{{Documentation}}</noinclude>

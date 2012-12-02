@@ -1,0 +1,2 @@
+<includeonly><div class="infobox_v2 {{{class|}}}" {{#if:{{{width|}}}|style="width: {{{width|}}}em"}}>
+<p class="entete {{#if:{{{icon|}}}|icon {{{icon|}}}}}" {{#if:{{{background|}}}|{{#if:{{{color|}}}|style="background-color: {{{background}}}; color: {{{color}}}; border-color: {{{border-color|{{{background|}}}}}};"|style="background-color: {{{background}}}; border-color: {{{border-color|{{{background|}}}}}};"}}}}>{{#if:{{{text|}}}|{{{text|}}}|{{PAGENAME}}}}</p></includeonly><noinclude>{{Documentation}}[[catégorie:Modèle]]</noinclude>

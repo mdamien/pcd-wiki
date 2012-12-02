@@ -60,7 +60,6 @@ GENERALITES  -->
 }}
 {{Infobox/Ligne mixte optionnel
   |Site ouèbe|{{#if: {{{Site web|}}} |<span class="plainlinks">{{{Site web|}}}</span>|}}
-}}
 }}<!--
 PALMARÈS  -->{{#if: {{{palmares national|}}} {{{palmares international|}}} {{{coupe de la Ligue|}}} {{{coupe d'Europe|}}} |
 {{Infobox/Sous-titre
@@ -72,11 +71,10 @@ PALMARÈS  -->{{#if: {{{palmares national|}}} {{{palmares international|}}} {{{c
 {{Infobox/Ligne mixte optionnel
   |{{#if: {{{note|}}} | Internacional | {{#if: {{{note(minuscule)|}}} | Internacional | Internacional}} }}|{{{palmares international|}}}
 }}
-}}}}<!--
+<!--
 MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{1_leftarm|}}}{{{1_body|}}}{{{1_rightarm|}}}{{{1_shorts|}}}{{{1_socks|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}|
 {{Infobox/Sous-titre
  | Maillots|dfd
-}}
 }}
 {| style="background-color:#FFFFFF; border:1px solid #999;font-size:90%;"
 |-

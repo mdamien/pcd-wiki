@@ -8,62 +8,57 @@ IMAGE  -->
 {{Infobox/Image
  | {{{Logo|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
 }}
-{{Infobox V2/Image
-  |image= {{{Logo|}}}
-  |upright= {{#if:{{{upright|}}}|{{{upright|}}}|0.6}}
-  |alt= Logo du {{{Nom du club|}}}
-}}<!--
+<!--
 GENERALITES  -->{{Infobox V3/Tableau début
   |text=Généralités
   |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
   |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}}
 }}{{trim|
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Nom complet|{{{Nom complet|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Surnoms|{{#if:{{{Surnoms|}}}|<i>{{{Surnoms|}}}</i>|}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Aute(s) nom(s)|{{{Noms precedents|}}}
-}}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Fondacion|{{{Date de fondation|-}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Disparicion|{{{Date de disparition|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Sport professionnel|{{{Statut professionnel|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Couleurs|{{{Couleurs|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |{{ #switch: {{{Sport}}}| pingpong = Salle| Stade}}|{{{Stade|}}} {{#if: {{{Capacite|}}} |<br />({{{Capacite}}} places) |}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Siège|{{{Siege|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Campionnat actuèl|{{{Championnat actuel|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Propriétaire|{{#if: {{{Nationalité du Propriétaire|}}} | [[Fichier:Flag of {{{Nationalité du Propriétaire}}}.svg|20px]] |}} {{{Propriétaire|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Présidint|{{#if: {{{Nationalité du Président|}}} | [[Fichier:Flag of {{{Nationalité du Président}}}.svg|20px]] |}} {{{Président|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   | Intraineu|{{{Entraîneur|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Jueu l'pu capé|{{{Joueur le plus capé|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Meilleur buteu|{{{Meilleur buteur|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |Site ouèbe|{{#if: {{{Site web|}}} |<span class="plainlinks">{{{Site web|}}}</span>|}}
 }}
 }}{{Infobox V3/Tableau fin}}<!--
@@ -72,10 +67,10 @@ PALMARÈS  -->{{#if: {{{palmares national|}}} {{{palmares international|}}} {{{c
   |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
   |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}}
 }}{{trim|
-{{Infobox V3/Tableau Line miste|width=10
+{{Infobox/Ligne mixte optionnel
   |{{#if: {{{note|}}} | Nacional | {{#if: {{{note(minuscule)|}}} | National | National}} }}|{{{palmares national|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=10
+{{Infobox/Ligne mixte optionnel
   |{{#if: {{{note|}}} | Internacional | {{#if: {{{note(minuscule)|}}} | Internacional | Internacional}} }}|{{{palmares international|}}}
 }}
 }}{{Infobox V3/Tableau fin}}}}<!--

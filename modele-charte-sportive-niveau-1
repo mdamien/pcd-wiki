@@ -1,0 +1,35 @@
+<includeonly>{{#switch: {{{1|}}}
+ | athletisme
+ | athlétisme          = D7877B
+ | baseball            = 408080
+ | basket-ball         = DD8F56
+ | boxe                = 85A3C2
+ | cyclisme            = FFDF80
+ | escrime             = C0bbdb
+ | football américain           
+ | football            = 99cc99
+ | football canadien   = BFD33C
+ | gymnastique         = B0C4DE
+ | handball            = E0D080
+ | patinage
+ | skiModèle:Charte sportive/Niveau 1 (édite) 
+ | sports d'hiver      
+ | hockey sur glace    = DFEDFF
+ | natation            = 318CE7
+ | rugby à XV          = 336699
+ | sport automobile    
+ | sport-automobile    
+ | sport mécanique     = B4B9C3
+ | sports de combat    = FFDFA2
+ | tennis              = ffaa77
+ | tir à l'arc         = FADA5E
+ | volley-ball         = 74CC66
+ | #default            = BFD7FF
+}}</includeonly><noinclude>{{Modèle utilisant les ParserFunctions}}
+
+Ce calibre associe les couleurs employées pour définir le gabarit du [[modèle:Infobox Compétition sportive]]. Pour soumettre des suggestions, visiter le [[Projet:Charte graphique]] ou le [[Projet:Modèle/Harmonisation]]. 
+
+{{Infobox Compétition sportive/Charte}}
+
+[[Catégorie:Modèle]]
+</noinclude>

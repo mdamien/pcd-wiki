@@ -1,17 +1,9 @@
 <includeonly>{|border="0" align="right" cellpadding="4" width="300" style="float:right;margin:0.75em 0 1em 1em;width:46ex;background:#f9f9f9;border:1px #aaa solid;border-collapse:collapse;font-size:85%"<!---
 -->
-  |icon={{ #switch: {{{Sport}}}
-| pingpong = {{#if: {{{Personnage blanc|}}} | tennis-de-table | tennis-de-tableblack }}
-| autre =
-| hockey sur gazon = hockey-sur-gazon
-| rugby = {{#if: {{{Personnage blanc|}}} | rugby | rugbyblack }}
-| {{#if: {{{Personnage blanc|}}} | football | footballblack }}
+{{Infobox/Titre
+ | {{{Nom du club|{{PAGENAME}}}}}|dfd|entete map
 }}
-  |background=#{{#if: {{{Couleur 3ème cadre|}}} | {{{Couleur 3ème cadre}}} | {{#if: {{{Couleur cadre|}}} |{{{Couleur cadre}}} |{{charte sportive/Niveau 1|football}}}} }}
-  |color=#{{#if: {{{Couleur écriture|}}}|{{{Couleur écriture}}}|000000}}
-  |text= {{#if:{{{Nom du club|}}} | {{{Nom du club|}}} | {{PAGENAME}} }}
-  |width=28
-}}<!--
+<!--
 IMAGE  -->
 {{Infobox/Image
  | {{{Logo|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|

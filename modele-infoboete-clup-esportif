@@ -90,6 +90,7 @@ MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{s
   shorts     = {{{shorts1|}}} {{{1_shorts|}}} |
   socks      = {{{socks1|}}} {{{1_socks|}}} |
   title      = {{#if:{{{titre1|}}}|{{{titre1}}}|Domicile}}
+}}
 |}}
 {{#if: {{{pattern_b2|}}}{{{body2|}}}{{{2_pattern_b|}}}{{{2_body|}}}|{{!}}{{Football kit |
   pattern_la = {{{pattern_la2|}}} {{{2_pattern_la|}}} |
@@ -103,7 +104,6 @@ MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{s
   shorts     = {{{shorts2|}}} {{{2_shorts|}}} |
   socks      = {{{socks2|}}} {{{2_socks|}}} |
   title      = {{#if:{{{titre2|}}}|{{{titre2}}}|Extérieur}}
-}}
 }}
 |}}
 {{#if: {{{pattern_b3|}}}{{{body3|}}}|{{!}}{{Football kit |

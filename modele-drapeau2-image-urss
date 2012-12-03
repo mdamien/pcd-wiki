@@ -1,0 +1,15 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1980|Flag of the Soviet Union.svg 
+|{{#ifexpr: {{{1}}} > 1955|Flag of the Soviet Union 1955.svg 
+| Flag of the Soviet Union 1923.svg}}}}</includeonly><noinclude>{{Drapeau2/Docimage|Drapeau de l'Union des républiques socialistes soviétiques}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1923]] || [[1955]] || Union soviétique ||[[Image:{{{{PAGENAME}}|1923}}|100px]]
+|-
+|[[1955]] || [[1980]] || Union soviétique ||[[Image:{{{{PAGENAME}}|1970}}|100px]]
+|-
+|[[1980]] || [[1991]] || Union soviétique ||[[Image:{{{{PAGENAME}}|1991}}|100px]]
+|}
+[[Catégorie:Modèle image du système drapeau2]]</noinclude>
+[[fr:Modèle:Drapeau2/Image/URSS]]

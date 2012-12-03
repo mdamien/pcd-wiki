@@ -1,0 +1,13 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1803| Flag of Switzerland.svg
+|{{#ifexpr: {{{1}}} > 1797|Republiquehelv.svg
+|Flag of Switzerland.svg}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de la Suisse}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1798]] || [[1803]] || [[République helvétique]] ||[[Image:{{{{PAGENAME}}|1798}}|100px]]
+|-
+|[[1804]] || aujourd'hui || [[Suisse]] ||[[Image:{{{{PAGENAME}}|1991}}|100px]]
+|}
+[[Catégorie:Modèle image du système drapeau2]]</noinclude>
+[[fr:Modèle:Drapeau2/Image/Suisse]]

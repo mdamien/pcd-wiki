@@ -1,0 +1,31 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1957|Civil Ensign of Hungary.svg
+|{{#ifexpr: {{{1}}} > 1948|Flag of Hungary 1949-1956.svg
+|{{#ifexpr: {{{1}}} > 1945|Flag of Hungary (1946-1949, 1956-1957).svg
+|{{#ifexpr: {{{1}}} > 1918|Flag of Hungary 1940.svg
+|{{#ifexpr: {{{1}}} > 1866|Flag of Hungary (1867-1918).svg
+|{{#ifexpr: {{{1}}} > 1386|Flag of Hungary (15th century, rectangular).svg
+|{{#ifexpr: {{{1}}} > 1300|Flag of Hungary (1301-1382, rectangular).svg
+|{{#ifexpr: {{{1}}} > 1000|Alex K Kingdom of Hungary-flag.svg
+|Flag of Hungary.svg}}}}}}}}}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de la Hongrie}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1001]] || [[1301]] || [[Hongrie]] ||[[Image:{{{{PAGENAME}}|1190}}|100px]]
+|-
+|[[1301]] || [[1386]] || [[Hongrie]] ||[[Image:{{{{PAGENAME}}|1326}}|100px]]
+|-
+|[[1387]] || [[1541]] || [[Hongrie]] ||[[Image:{{{{PAGENAME}}|1400}}|100px]]
+|-
+|[[1867]] || [[1918]] || [[Hongrie]] ||[[Image:{{{{PAGENAME}}|1910}}|100px]]
+|-
+|[[1919]] || [[1945]] || [[Hongrie]] ||[[Image:{{{{PAGENAME}}|1930}}|100px]]
+|-
+|[[1946]] || [[1949]] || [[Hongrie]] ||[[Image:{{{{PAGENAME}}|1947}}|100px]]
+|-
+|[[1949]] || [[1956]] || [[Hongrie]] ||[[Image:{{{{PAGENAME}}|1951}}|100px]]
+|-
+|[[1957]] || aujourd'hui || [[Hongrie]] ||[[Image:{{{{PAGENAME}}|1980}}|100px]]
+|}
+[[Catégorie:Modèle image du système drapeau2]]</noinclude>
+[[fr:Modèle:Drapeau2/Image/Hongrie]]

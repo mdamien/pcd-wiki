@@ -1,0 +1,27 @@
+<includeonly>{{Drapeau2/Libellé/Délégation|{{{1}}}|aux Jeux {{#ifeq:{{{genre|}}}|para|paralympiques|olympiques}}{{Drapeau2/Libellé/JO/Olympiades|{{{nombre|}}}}}}}</includeonly><noinclude>
+{|
+! Syntaxe
+! Aperçu
+|-
+|<nowiki>{{drapeau2|France|domaine=JO}}</nowiki>
+|{{drapeau2|France|domaine=JO}}
+|-
+|<nowiki>{{drapeau2|France|domaine=JO|genre=para}}</nowiki>
+|{{drapeau2|France|domaine=JO|genre=para}}
+|-
+|<nowiki>{{drapeau2|France|domaine=JO|nombre=2008}}</nowiki>
+|{{drapeau2|France|domaine=JO|nombre=2008}}
+|-
+|<nowiki>{{drapeau2|France|domaine=JO|nombre=2006}}</nowiki>
+|{{drapeau2|France|domaine=JO|nombre=2006}}
+|-
+|<nowiki>{{drapeau2|France|domaine=JO|genre=para|nombre=2008}}</nowiki>
+|{{drapeau2|France|domaine=JO|genre=para|nombre=2008}}
+|-
+|<nowiki>{{drapeau2|France|domaine=JO|nombre=été 1960}}</nowiki>
+|{{drapeau2|France|domaine=JO|nombre=été 1960}}
+|-
+|<nowiki>{{drapeau2|France|domaine=JO|nombre=hiver 1960}}</nowiki>
+|{{drapeau2|France|domaine=JO|nombre=hiver 1960}}
+|}
+[[Catégorie:Modèle libellé du système drapeau2]]</noinclude>

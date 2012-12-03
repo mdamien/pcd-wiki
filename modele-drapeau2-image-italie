@@ -1,0 +1,20 @@
+<includeonly>{{#switch: {{{compétition|}}}
+
+|JO={{#switch: {{{1}}} |1980|été 1980|été de 1980=Olympic flag.svg |{{#ifexpr: {{JO/Année|{{{1}}}}} > 1946| Flag of Italy.svg
+|{{#ifexpr: {{JO/Année|{{{1}}}}} > 1860|Flag of Italy (1861-1946).svg
+|Flag of Italy.svg}}}}}}
+
+|#default={{#ifexpr: {{JO/Année|{{{1}}}}} > 1946| Flag of Italy.svg
+|{{#ifexpr: {{JO/Année|{{{1}}}}} > 1860|Flag of Italy (1861-1946).svg
+|Flag of Italy.svg}}}}
+}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de l'Italie}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1861]] || [[1946]] || [[Italie]] ||[[Image:{{{{PAGENAME}}|1900}}|100px]]
+|-
+|[[1947]] || aujourd'hui || [[Italie]] ||[[Image:{{{{PAGENAME}}|1991}}|100px]]
+|}
+[[Catégorie:Modèle image du système drapeau2]]</noinclude>
+[[fr:Modèle:Drapeau2/Image/Italie]]

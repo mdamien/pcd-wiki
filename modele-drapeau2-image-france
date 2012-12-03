@@ -1,0 +1,6 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1830| Flag of France.svg
+|{{#ifexpr: {{{1}}} > 1815|Flag of the Kingdom of France (1814-1830).svg
+|{{#ifexpr: {{{1}}} > 1792|Flag of France.svg
+|Pavillon royal de France.svg}}}}}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

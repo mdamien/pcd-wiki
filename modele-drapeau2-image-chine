@@ -1,0 +1,12 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1949| Flag of the People's Republic of China.svg|{{#ifexpr: {{{1}}} > 1928|Flag of the Republic of China.svg|Flag of the Republic of China 1912-1928.svg}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de la Chine}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1912]] || [[1928]] || République de Chine ||[[Image:{{{{PAGENAME}}|1913}}|100px]]
+|-
+|[[1928]] || [[1949]] || République de Chine  ||[[Image:{{{{PAGENAME}}|1929}}|100px]]
+|-
+|[[1949]] || aujourd'hui || République populaire de Chine ||[[Image:{{{{PAGENAME}}|1950}}|100px]]
+|}
+[[Catégorie:Modèle image du système drapeau2]]</noinclude>

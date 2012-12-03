@@ -1,0 +1,24 @@
+<includeonly>{{#ifexpr: {{{1}}} > 1945|Flag of Austria.svg
+|{{#ifexpr: {{{1}}} > 1938|Flag of Nazi Germany (1933-1945).svg
+|{{#ifexpr: {{{1}}} > 1918|Flag of Austria.svg
+|Flag of the Habsburg Monarchy.svg}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|Drapeau de l'Autriche}}
+{| class="wikitable"
+|-
+! De !! À !! Statut !! Drapeau
+|-
+|[[1804]] || [[1867]] || [[Empire d'Autriche]] ||[[Image:{{{{PAGENAME}}|1850}}|100px]]
+|-
+|[[1867]] || [[1918]] || entité de l'[[Autriche-Hongrie]] ||[[Image:{{{{PAGENAME}}|1900}}|100px]]
+|-
+|[[1918]] || [[1919]] ||[[République d'Autriche allemande]] ||[[Image:{{{{PAGENAME}}|1919}}|100px]]
+|-
+|[[1919]] || [[1938]] ||[[Première République d'Autriche]] ||[[Image:{{{{PAGENAME}}|1920}}|100px]]
+|-
+|[[1938]] || [[1945]] || annexée par le [[Troisième Reich]] ||[[Image:{{{{PAGENAME}}|1940}}|100px]]
+|-
+|[[1945]] || [[1955]] || [[Occupation de l'Autriche après la Seconde Guerre mondiale|Autriche sous mandat allié]] ||[[Image:{{{{PAGENAME}}|1950}}|100px]]
+|-
+|[[1955]] || aujourd'hui || Deuxième République d’Autriche||[[Image:{{{{PAGENAME}}|2000}}|100px]]
+|}
+[[Catégorie:Modèle image du système drapeau2]]</noinclude>
+[[fr:Modèle:Drapeau2/Image/Autriche]]

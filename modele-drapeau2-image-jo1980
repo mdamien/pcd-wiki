@@ -1,0 +1,7 @@
+<includeonly>{{#ifeq:{{{domaine|}}}|JO|{{#ifeq:{{{genre|}}}|para|{{{1}}}|{{#switch:{{{nombre|}}}
+|1980
+|été 1980
+|été de 1980={{{2|Olympic flag.svg}}}
+|#default={{{1}}}}}}}|{{{1}}}}}</includeonly><noinclude>
+{{/Documentation}}
+</noinclude>

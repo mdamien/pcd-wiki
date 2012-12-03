@@ -1,0 +1,33 @@
+<noinclude>
+Ce modèle sert de documentation à {{m|CIO-d}} mais aussi à tous les modèles drapeaux générés par ce modèle.
+[[Catégorie:Documentation de modèle|CIO-d]]
+</noinclude><includeonly>{{#ifeq:{{FULLPAGENAME}}|Modèle:CIO-d
+|{{Documentation modèle en sous-page}}
+{{Protection}}
+
+;Utilisation
+:Ce modèle permet de générer des drapeaux de pays standardisés.
+
+;Paramètres:
+:<code>1</code> : nom du fichier de l'image qui doit être de la forme suivante <code><nowiki>Flag of {{{1}}}.svg</nowiki></code> où <nowiki>{{{1}}}</nowiki> est le paramètre.
+:<code>2</code> : description du fichier (infobulle).
+:<code>3</code> : taille de l'image, optionnel, par défaut 20px.
+
+[[Catégorie:Modèle drapeau sans lien|*]]
+[[Catégorie:Méta-modèle affichant un drapeau]]
+|{{Documentation modèle}}
+==Convention==
+Les modèles de drapeau simple sont de la forme suivante : '''<tt><nowiki>{{<Code CIO>–d}}</nowiki></tt>'''<br/>
+Par exemple, pour le drapeau du Canada dont le code [[Comité international olympique|CIO]] est CAN, le modèle est {{m|CAN-d}}.<br/>
+La liste des codes CIO est disponible sur l'article « [[Liste des codes pays du CIO]] ».
+
+==Utilisation==
+Pour obtenir le drapeau simple avec une taille réduite par défaut :
+ <nowiki>{{</nowiki>{{PAGENAME}}<nowiki>}}</nowiki>
+Pour obtenir le même drapeau mais avec la taille souhaitée :
+ <nowiki>{{</nowiki>{{PAGENAME}}<nowiki>|<Taille>}}</nowiki>
+Exemples :
+*{{{{PAGENAME}}|25px}} <code><nowiki>{{</nowiki>{{PAGENAME}}<nowiki>|25px}}</nowiki></code>
+*{{{{PAGENAME}}|35px}} <code><nowiki>{{</nowiki>{{PAGENAME}}<nowiki>|35px}}</nowiki></code>
+}}</includeonly>
+[[fr:Modèle:CIO-d/Documentation]]

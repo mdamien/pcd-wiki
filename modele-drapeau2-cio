@@ -1,0 +1,401 @@
+<includeonly>{{#switch: {{{1}}}
+<!--Pays principaux-->
+| AFG = Afghanistan
+| RSA = Afrique du Sud
+| ALB = Albanie
+| ALG = Algérie
+| GER = Allemagne
+| AND = Andorre
+| ANG = Angola
+| ANT = Antigua-et-Barbuda
+<!--FIFA-->| ATG = Antigua-et-Barbuda
+| KSA = Arabie saoudite
+| ARG = Argentine
+| ARM = Arménie
+| AUS = Australie
+| AUT = Autriche
+| AZE = Azerbaïdjan
+| BAH = Bahamas
+| BRN = Bahreïn
+<!--FIFA-->| BHR = Bahreïn
+| BAN = Bangladesh
+| BAR = Barbade
+<!--FIFA-->| BRB = Barbade
+| BEL = Belgique
+| BIZ = Belize
+<!--FIFA-->| BLZ = Belize
+| BEN = Bénin
+| BHU = Bhoutan
+| BLR = Biélorussie
+| BIR
+| MYA = Birmanie
+| BOL = Bolivie
+| BIH = Bosnie-Herzégovine
+| BOT = Botswana
+| BRA = Brésil
+| BRU = Brunei
+| BUL = Bulgarie
+| BUR = Burkina Faso
+<!--FIFA-->| BFA = Burkina Faso
+| BDI = Burundi
+| CAM = Cambodge
+| CMR = Cameroun
+| CAN = Canada
+| CPV = Cap-Vert
+| CAF = République centrafricaine
+<!--FIFA-->| CTA = République centrafricaine
+| CHI = Chili
+| CHN = Chine
+| CYP = Chypre
+| COL = Colombie
+| COM = Comores
+| COD = République démocratique du Congo
+| RDC = RD Congo
+| CGO = République du Congo
+| PRK = Corée du Nord
+| KOR = Corée du Sud
+| CRC = Costa Rica
+| CIV = Côte d'Ivoire
+| CRO = Croatie
+| CUB = Cuba
+| DEN = Danemark
+| DJI = Djibouti
+| DOM = République dominicaine
+| DMA = Dominique
+| EGY = Égypte
+| UAE = Émirats arabes unis
+| ECU = Équateur
+| ERI = Érythrée
+| ESP = Espagne
+| EST = Estonie
+| USA = États-Unis
+| ETH = Éthiopie
+| FIJ = Fidji
+| FIN = Finlande
+| FRA = France
+| GAB = Gabon
+| GAM = Gambie
+| GEO = Géorgie
+| GHA = Ghana
+| GRE = Grèce
+| GRN = Grenade
+| GUA = Guatemala
+| GUI = Guinée
+| GBS = Guinée-Bissau
+<!--FIFA-->| GNB = Guinée-Bissau
+| GEQ = Guinée équatoriale
+<!--FIFA-->| EQG = Guinée équatoriale
+| GUY = Guyana
+| HAI = Haïti
+| HON = Honduras
+| HUN = Hongrie
+| IND = Inde
+| INA = Indonésie
+<!--FIFA-->| IDN = Indonésie
+| IRQ = Irak
+| IRI = Iran
+<!--FIFA-->| IRN = Iran
+| IRL = Irlande
+| ISL = Islande
+| ISR = Israël
+| ITA = Italie
+| JAM = Jamaïque
+| JPN = Japon
+| JOR = Jordanie
+| KAZ = Kazakhstan
+| KEN = Kenya
+| KGZ = Kirghizistan
+| KIR = Kiribati
+| KUW = Koweït
+| LAO = Laos
+| LES = Lesotho
+| LAT = Lettonie
+<!--FIFA-->| LVA = Lettonie
+| LIB = Liban
+| LBR = Liberia
+| LBA = Libye
+<!--FIFA-->| LBY = Libye
+| LIE = Liechtenstein
+| LTU = Lituanie
+| LUX = Luxembourg
+| MKD = Macédoine
+| MAD = Madagascar
+| MAS = Malaisie
+| MAW = Malawi
+<!--FIFA-->| MWI = Malawi
+| MDV = Maldives
+| MLI = Mali
+| MLT = Malte
+| MAR = Maroc
+| MHL = Marshall
+| MRI = Maurice
+| MTN = Mauritanie
+| MEX = Mexique
+| FSM = Micronésie
+| MDA = Moldavie
+| MON = Monaco
+| MGL = Mongolie
+| MNE = Monténégro
+| MOZ = Mozambique
+| NAM = Namibie
+| NRU = Nauru
+| NEP = Népal
+| NCA = Nicaragua
+| NIG = Niger
+| NGR = Nigeria
+<!--FIFA-->| NGA = Nigeria
+| NOR = Norvège
+| NZL = Nouvelle-Zélande
+| OMA = Oman
+| UGA = Ouganda
+| UZB = Ouzbékistan
+| PAK = Pakistan
+| PLW = Palaos
+| PAN = Panama
+| PNG = Papouasie-Nouvelle-Guinée
+| PAR = Paraguay
+| NED = Pays-Bas
+| PER = Pérou
+| PHI = Philippines
+| POL = Pologne
+| POR = Portugal
+| QAT = Qatar
+| ROM
+| ROU = Roumanie
+| GBR = Royaume-Uni
+| RUS = Russie
+| RWA = Rwanda
+| SKN = Saint-Christophe-et-Niévès
+| LCA = Sainte-Lucie
+| SMR = Saint-Marin
+| VIN = Saint-Vincent-et-les-Grenadines
+| SOL = Salomon
+| ESA = Salvador
+<!--FIFA-->| SLV = Salvador
+| SAM = Samoa
+| STP = Sao Tomé-et-Principe
+| SEN = Sénégal
+| SRB = Serbie
+| SEY = Seychelles
+| SLE = Sierra Leone
+| SIN = Singapour
+| SVK = Slovaquie
+| SLO = Slovénie
+<!--FIFA-->| SVN = Slovénie
+| SOM = Somalie
+| SUD = Soudan
+| SRI = Sri Lanka
+| SWE = Suède
+| SUI = Suisse
+| SUR = Suriname
+| SWZ = Swaziland
+| SYR = Syrie
+| TJK = Tadjikistan
+| TAN = Tanzanie
+| CHA = Tchad
+| CZE = République tchèque
+| THA = Thaïlande
+| TLS = Timor oriental
+| TOG = Togo
+| TGA = Tonga
+| TRI = Trinité-et-Tobago
+| TUN = Tunisie
+| TKM = Turkménistan
+| TUR = Turquie
+| TUV = Tuvalu
+| UKR = Ukraine
+| URU = Uruguay
+| VAN = Vanuatu
+<!--| #N/A = Vatican-->
+| VEN = Venezuela
+| VIE = Viêt Nam
+| YEM = Yémen
+| ZAM = Zambie
+| ZIM = Zimbabwe
+<!--Territoires non autonomes-->
+<!--FIFA-->| AIA = Anguilla
+| BER = Bermudes
+<!--| #N/A = Chypre du Nord-->
+| CAY = Caïmans
+<!--| #N/A = Gibraltar-->
+| GUM = Guam
+<!--| #N/A = Malouines-->
+<!--| #N/A = Kosovo-->
+<!--FIFA-->| MSR = Montserrat
+<!--FIFA-->| NCL = Nouvelle-Calédonie
+| PLE = Palestine
+<!--| #N/A = Pitcairn-->
+<!--| #N/A = Sainte-Hélène-->
+<!--| #N/A = Sahara occidental-->
+| ASA = Samoa américaines
+| ROC = Taïwan
+<!--FIFA-->| TCA = Turques-et-Caïques
+| ISV = Vierges des États-Unis
+<!--FIFA-->| VIR = Vierges des États-Unis
+| IVB = Vierges britanniques
+<!--FIFA-->| VGB = Vierges britanniques
+<!--Dépendances-->
+<!--| #N/A = Åland-->
+| AHO = Antilles néerlandaises
+<!--FIFA-->| ANT = Antilles néerlandaises
+| ARU = Aruba
+<!--| #N/A = Açores-->
+<!--| #N/A = Canaries-->
+<!--| #N/A = Ceuta-->
+<!--| #N/A = Christmas-->
+<!--| #N/A = Cocos-->
+| COK = Cook
+| CUW = Curaçao
+<!--FIFA-->| FRO = Féroé
+<!--| #N/A = Géorgie du Sud-et-les Îles Sandwich du Sud-->
+<!--| #N/A = Groenland-->
+<!--FIFA~-->| GPE = Guadeloupe
+<!--reservé-->|GGY=Guernesey
+<!--FIFA~-->| GYF = Guyane
+| HKG = Hong Kong
+<!--reservé-->|JEY= Jersey-->
+<!--FIFA-->| MAC = Macao
+<!--| #N/A = Madère-->
+<!--reservé-->|IMN= Man
+<!--FIFA~-->| NMI = Mariannes du Nord
+<!--FIFA~-->| MTQ = Martinique
+<!--| #N/A = Mayotte-->
+<!--| #N/A = Melilla-->
+<!--FIFA~-->| NIU = Niue
+<!--| #N/A = Norfolk-->
+<!--FIFA-->| TAH = Tahiti
+| PUR = Porto Rico
+<!--FIFA~-->| REU = Réunion
+<!--| #N/A = Saint-Barthélemy-->
+<!--FIFA~-->| SMT = Saint-Martin
+<!--FIFA~-->| SXM = Sint-Maarten
+<!--| #N/A = Saint-Pierre-et-Miquelon-->
+<!--| #N/A = Territoire britannique de l'océan Indien-->
+<!--| #N/A = Tokelau-->
+<!--| #N/A = Wallis-et-Futuna-->
+<!--Territoires séparatistes-->
+<!--| #N/A = Abkhazie-->
+<!--| #N/A = Gagaouzie-->
+<!--| #N/A = Haut-Karabagh-->
+<!--| #N/A = Ossétie du Sud-->
+<!--| #N/A = Somaliland -->
+<!--| #N/A = Transnistrie-->
+<!--Anciens-->
+| CIS
+| CEI = Communauté des États indépendants
+| BWI = Indes occidentales
+| RDA
+| GDR = Allemagne de l'Est
+| RFA
+| FRG = Allemagne de l'Ouest
+| HEB = Nouvelles-Hébrides
+| EUA = Équipe unifiée d'Allemagne
+| ANZ = Australasie
+| BOH = Bohême
+<!--| #N/A = Autriche-Hongrie-->
+| NRH = Rhodésie du Nord
+| RHO = Rhodésie
+| UAR = République arabe unie
+<!--| #N/A = Sarre-->
+| SCG = Serbie-et-Monténégro
+| TCH = Tchécoslovaquie
+| URS = URSS
+| YUG = Yougoslavie
+| YAR = Yémen du Nord
+| YMD = Yémen du Sud
+| ZAI = Zaïre
+| CEY = Sri Lanka
+<!--Autres-->
+<!--| #N/A = Antarctique-->
+<!--| #N/A = Europe-->
+<!--| #N/A = Nations Unies-->
+<!--FIFA-->| ENG = Angleterre
+<!--FIFA-->| SCO = Écosse
+<!--FIFA-->| NIR = Irlande du Nord
+<!--FIFA-->| WAL = Pays de Galles
+| TPE = Chinese Taipei
+| EUN = Équipe unifiée
+| ZZX = Équipe mixte
+| IOP = Participants indépendants
+| #default= ?????
+}}</includeonly><noinclude>
+Ce sous-modèle permet de renseigner un pays non pas par sa [[Liste des pays du monde|dénomination]] mais par son [[Liste des codes pays du CIO|code pays CIO]].
+
+Par exemple,
+* {{m|Drapeau2/CIO|FRA}} donne {{Drapeau2/CIO|FRA}}
+* {{m|Drapeau2/CIO|ESA}} donne {{Drapeau2/CIO|ESA}}
+
+== Code FIFA ==
+Les codes ont été par ailleurs étendus aux codes pays [[FIFA]] utilisés pour le football, qui sont pour la plupart alignés sur ceux du CIO. En effet, certains pays comme [[Anguilla]], l'[[Angleterre]] ou la [[Nouvelle-Calédonie]] se sont vus attribués un code souvent hérité de la norme [[ISO 3166-1]].
+
+Cependant, certains codes retenus sont différents du code CIO. Ils ont été également rajoutés à la liste.
+{| class="wikitable" style="font-size:90%;"
+|-
+!Pays
+!code FIFA
+!code CIO
+|-
+|[[{{Drapeau2/CIO|ATG}}]]
+|ATG||ANT
+|-
+|[[{{Drapeau2/CIO|BHR}}]]
+|BHR||BRN
+|-
+|[[{{Drapeau2/CIO|BRB}}]]
+|BRB||BAR
+|-
+|[[{{Drapeau2/CIO|BLZ}}]]
+|BLZ||BIZ
+|-
+|[[{{Drapeau2/CIO|VGB}}]]
+|VGB||IVB
+|-
+|[[{{Drapeau2/CIO|BFA}}]]
+|BFA||BUR
+|-
+|[[{{Drapeau2/CIO|CTA}}]]
+|CTA||CAF
+|-
+|[[{{Drapeau2/CIO|SLV}}]]
+|SLV||ESA
+|-
+|[[{{Drapeau2/CIO|EQG}}]]
+|EQG||GEQ
+|-
+|[[{{Drapeau2/CIO|GNB}}]]
+|GNB||GBS
+|-
+|[[{{Drapeau2/CIO|IDN}}]]
+|IDN||INA
+|-
+|[[{{Drapeau2/CIO|IRN}}]]
+|IRN||IRI
+|-
+|[[{{Drapeau2/CIO|LVA}}]]
+|LVA||LAT
+|-
+|[[{{Drapeau2/CIO|LBY}}]]
+|LBY||LBA
+|-
+|[[{{Drapeau2/CIO|MWI}}]]
+|MWI||MAW
+|-
+|[[{{Drapeau2/CIO|ANT}}]]
+|ANT||AHO
+|-
+|[[{{Drapeau2/CIO|NGA}}]]
+|NGA||NGR
+|-
+|[[{{Drapeau2/CIO|PLE}}]]
+|PLE||PLE
+|-
+|[[{{Drapeau2/CIO|SVN}}]]
+|SVN||SLO
+|-
+|[[{{Drapeau2/CIO|VIR}}]]
+|VIR||ISV
+|}
+
+== Voir aussi ==
+* {{m|CIO2Pays}}
+[[Catégorie:Modèle du système drapeau2]]</noinclude>

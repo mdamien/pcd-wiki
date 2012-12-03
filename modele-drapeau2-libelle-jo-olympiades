@@ -1,0 +1,176 @@
+<includeonly>{{#switch: {{{1}}}
+|été 1896
+|été de 1896
+|1896 = %20d'été de 1896
+|été 1900
+|été de 1900
+|1900 = %20d'été de 1900
+|été 1904
+|été de 1904
+|1904 = %20d'été de 1904
+|1906 = %20intercalés de 1906
+|été 1908
+|été de 1908
+|1908 = %20d'été de 1908
+|été 1912
+|été de 1912
+|1912 = %20d'été de 1912
+|été 1920
+|été de 1920
+|1920 = %20d'été de 1920
+|1924
+|été 1924
+|été de 1924 = %20d'été de 1924
+|hiver 1924
+|hiver de 1924 = %20d'hiver de 1924
+|1928
+|été 1928
+|été de 1928 = %20d'été de 1928
+|hiver 1928
+|hiver de 1928 = %20d'hiver de 1928
+|1932
+|été 1932
+|été de 1932 = %20d'été de 1932
+|hiver 1932
+|hiver de 1932 = %20d'hiver de 1932
+|1936
+|été 1936
+|été de 1936 = %20d'été de 1936
+|hiver 1936
+|hiver de 1936 = %20d'hiver de 1936
+|1948
+|été 1948
+|été de 1948 = %20d'été de 1948
+|hiver 1948
+|hiver de 1948 = %20d'hiver de 1948
+|1952
+|été 1952
+|été de 1952 = %20d'été de 1952
+|hiver 1952
+|hiver de 1952 = %20d'hiver de 1952
+|1956
+|été 1956
+|été de 1956 = %20d'été de 1956
+|hiver 1956
+|hiver de 1956 = %20d'hiver de 1956
+|1960
+|été 1960
+|été de 1960 = %20d'été de 1960
+|hiver 1960
+|hiver de 1960 = %20d'hiver de 1960
+|1964
+|été 1964
+|été de 1964 = %20d'été de 1964
+|hiver 1964
+|hiver de 1964 = %20d'hiver de 1964
+|1968
+|été 1968
+|été de 1968 = %20d'été de 1968
+|hiver 1968
+|hiver de 1968 = %20d'hiver de 1968
+|1972
+|été 1972
+|été de 1972 = %20d'été de 1972
+|hiver 1972
+|hiver de 1972 = %20d'hiver de 1972
+|1976
+|été 1976
+|été de 1976 = %20d'été de 1976
+|hiver 1976
+|hiver de 1976 = %20d'hiver de 1976
+|1980
+|été 1980
+|été de 1980 = %20d'été de 1980
+|hiver 1980
+|hiver de 1980 = %20d'hiver de 1980
+|1984
+|été 1984
+|été de 1984 = %20d'été de 1984
+|hiver 1984
+|hiver de 1984 = %20d'hiver de 1984
+|1988
+|été 1988
+|été de 1988 = %20d'été de 1988
+|hiver 1988
+|hiver de 1988 = %20d'hiver de 1988
+|1992
+|été 1992
+|été de 1992 = %20d'été de 1992
+|hiver 1992
+|hiver de 1992 = %20d'hiver de 1992
+|hiver 1994
+|hiver de 1994
+|1994 = %20d'hiver de 1994
+|été 1996
+|été de 1996
+|1996 = %20d'été de 1996
+|hiver 1998
+|hiver de 1998
+|1998 = %20d'hiver de 1998
+|été 2000
+|été de 2000
+|2000 = %20d'été de 2000
+|hiver 2002
+|hiver de 2002
+|2002 = %20d'hiver de 2002
+|été 2004
+|été de 2004
+|2004 = %20d'été de 2004
+|hiver 2006
+|hiver de 2006
+|2006 = %20d'hiver de 2006
+|été 2008
+|été de 2008
+|2008 = %20d'été de 2008
+|hiver 2010
+|hiver de 2010
+|2010 = %20d'hiver de 2010
+|jeunesse été 2010
+|jeunesse 2010 = %20de la jeunesse d'été de 2010
+|jeunesse hiver 2012
+|jeunesse 2012 = %20de la jeunesse d'hiver de 2012
+|été 2012
+|été de 2012
+|2012 = %20d'été de 2012
+|hiver 2014
+|hiver de 2014
+|2014 = %20d'hiver de 2014
+|été 2016
+|été de 2016
+|2016 = %20d'été de 2016
+|hiver 2018
+|hiver de 2018
+|2018 = %20d'hiver de 2018
+|été 2020
+|été de 2020
+|2020 = %20d'été de 2020
+|#default = 
+}}</includeonly><noinclude>
+{| class="wikitable"
+! Syntaxe
+! Aperçu
+|-
+|<nowiki>Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades}}</nowiki>
+|[[Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades}}]]
+|-
+|<nowiki>Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|2008}}</nowiki>
+|[[Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|2008}}]]
+|-
+|<nowiki>Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|2010}}</nowiki>
+|[[Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|2010}}]]
+|-
+|<nowiki>Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|1906}}</nowiki>
+|[[Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|1906}}]]
+|-
+|<nowiki>Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|1976}}</nowiki>
+|[[Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|1976}}]]
+|-
+|<nowiki>Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|été 1976}}</nowiki>
+|[[Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|été 1976}}]]
+|-
+|<nowiki>Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|hiver 1976}}</nowiki>
+|[[Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|hiver 1976}}]]
+|-
+|<nowiki>Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|jeunesse 2010}}</nowiki>
+|[[Jeux olympiques{{Drapeau2/Libellé/JO/Olympiades|jeunesse 2010}}]]
+|}[[Catégorie:Modèle libellé du système drapeau2]]</noinclude>

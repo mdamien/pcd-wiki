@@ -5,9 +5,9 @@
 {{#if: {{{lieu|}}} | 
 ! scope=col style="width:{{{labelwidth|150}}}px; background-color: #efefef;" {{!}} Lieu
 }}
-! scope=col colspan={{{columns|{{{colonnes|1}}}}}} style="width:{{{width|220}}}px; background-color: gold;" | [[Médaille d'or (sport)|Or]]
-! scope=col colspan={{{columns|{{{colonnes|1}}}}}} style="width:{{{width|220}}}px; background-color: silver;" | [[Médaille d'argent|Argent]]
-! scope=col colspan={{{columns|{{{colonnes|1}}}}}} style="width:{{{width|220}}}px; background-color: #D9B38C;" | [[Médaille de bronze|Bronze]]<noinclude>
+! scope=col colspan={{{columns|{{{colonnes|1}}}}}} style="width:{{{width|220}}}px; background-color: gold;" | [[Médalle ed or (sport)|Or]]
+! scope=col colspan={{{columns|{{{colonnes|1}}}}}} style="width:{{{width|220}}}px; background-color: silver;" | [[Médalle ed argint|Argint]]
+! scope=col colspan={{{columns|{{{colonnes|1}}}}}} style="width:{{{width|220}}}px; background-color: #D9B38C;" | [[Médalle ed bronsse|Bronsse]]<noinclude>
 |}{{Documentation}}[[ar:قالب:MedalistTable]]
 [[bg:Шаблон:МедалистТаблица]]
 [[bn:টেমপ্লেট:MedalistTable]]

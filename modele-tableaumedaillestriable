@@ -3,8 +3,8 @@
 ! scope=col | Rang
 ! scope=col | Nation
 ! scope=col style="background-color:gold; width:{{#ifeq:{{{class|}}}|wikitable sortable|6em|4.5em}}; font-weight:bold;"| Or
-! scope=col style="background-color:silver; width:{{#ifeq:{{{class|}}}|wikitable sortable|6em|4.5em}}; font-weight:bold;"| Argent
-! scope=col style="background-color:#cc9966; width:{{#ifeq:{{{class|}}}|wikitable sortable|6em|4.5em}}; font-weight:bold;"| Bronze
+! scope=col style="background-color:silver; width:{{#ifeq:{{{class|}}}|wikitable sortable|6em|4.5em}}; font-weight:bold;"| Argint
+! scope=col style="background-color:#cc9966; width:{{#ifeq:{{{class|}}}|wikitable sortable|6em|4.5em}}; font-weight:bold;"| Bronsse
 ! scope=col style="width:{{#ifeq:{{{class|}}}|wikitable sortable|6em|4.5em}};"|Total</includeonly><noinclude>{{Documentation}}
 [[af:Sjabloon:Medaljetabel]]
 [[bcl:Plantilya:RankedMedalTable]]

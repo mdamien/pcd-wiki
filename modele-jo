@@ -10,6 +10,7 @@
 }}{{#if:{{{3|}}}|&nbsp;<span style="font-size:90%">({{{3|}}})</span>}}</includeonly><noinclude>{{Documentation}}[[cs:Šablona:FlagIOC]]
 [[en:Template:FlagIOC]]
 [[eo:Ŝablono:FlagoIOK]]
+[[fr:Modèle:JO]]
 [[hr:Predložak:OI-država]]
 [[hu:Sablon:ZászlóNOB]]
 [[it:Template:NazOlimp]]

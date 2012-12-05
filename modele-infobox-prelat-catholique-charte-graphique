@@ -1,0 +1,22 @@
+<includeonly>{{#if:{{{1|}}}|{{#switch: {{{1|}}}
+ | Pape       = F/E/D/6/0/0
+ | Antipape   = F/E/D/6/0/0
+ | Cardinal   = D/E/1/4/3/C
+ | Abbé       = 8/C/8/C/8/C
+ | Prélat     = A/A/0/0/5/2
+ | #default   = 6/6/C/C/8/0
+}}}}{{#if:{{{2|}}}|{{#switch: {{{2|}}}
+ | Pape       = F/F/F/F/0/0
+ | Antipape   = F/F/F/F/0/0
+ | Cardinal   = E/F/7/7/7/7
+ | Abbé       = E/1/E/1/E/1
+ | Prélat     = D/5/8/0/A/9
+ | #default   = B/F/F/F/B/F
+}}}}{{#if:{{{entête|}}}|{{#switch: {{{entête|}}}
+ | Cardinal   = entete cardinal
+ | Patriarche = entete eveque
+ | Primat     = entete eveque
+ | Archevêque = entete eveque
+ | Évêque     = entete eveque
+ | #default   = entete defaut
+}}}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

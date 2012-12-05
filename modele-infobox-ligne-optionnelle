@@ -1,0 +1,3 @@
+<includeonly>{{#if:{{{1|}}} | 
+<td colspan="{{#if:{{{6|}}}|{{{6}}}|2}}" style="text-align:{{#if:{{{3|}}}|{{{3}}}|center}}{{#if:{{{4|}}}|;background-color:#{{trim|{{{4}}}}};}}{{#if:{{{5|}}}|color:#{{trim|{{{5}}}}};}}{{#if:{{{7|}}}|height:{{trim|{{{7}}}}}px}}">{{#if:{{{2|}}}|{{{2}}}|{{{1}}}}}</td>
+<tr>}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

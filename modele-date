@@ -1,0 +1,24 @@
+<noinclude>
+<!--==============================================================
+          ATTENTION : LA MODIFICATION D'UNE INFOBOX PEUT ENTRAÎNER DES PROBLÈMES 
+         SUR TOUTES LES PAGES DANS LESQUELLES ELLE EST INCLUSE.
+Veuillez ne pas tenter de le modifier à moins que vous ne soyez certain de bien comprendre sa conception. D'autre part, le présent modèle ayant fait l'objet d'un consensus, l'ajout ou la suppression de champs doivent être préalablement discutés sur la page consacrée.
+==============================================================-->
+</noinclude><includeonly><!--
+NOTE. Le modèle est codé de manière à toujours réduire le nombre d'appels à {{#ifexist:}} au minimum possible (1 à 3 appels, suivant les cas)
+(Voir [[Catégorie:Page avec trop d'appels dispendieux de fonctions parseurs]])
+-->{{#if: {{{1|}}} |<!--
+  -->[[<!--
+    -->{{Détermination 1er|{{{1}}}|brut=oui}} {{{2}}} {{#if:{{{4|}}} | {{#ifexist: {{Détermination 1er|{{{1}}}|brut=oui}} {{{2}}} {{{4}}} | {{{4}}} }} }}<!--
+  -->|{{Détermination 1er|{{{1}}}}}]]&nbsp;<!--
+-->}}<!--
+-->[[<!--
+  -->{{#if: {{#if:{{{4|}}} | {{#ifexist: {{{2}}} {{{3}}} {{{4}}} | OUI }} }}<!--
+  -->| {{{2}}} {{{3}}} {{{4}}}<!--
+  -->| {{#ifexist: {{{2}}} {{{3}}} | {{{2}}} {{{3}}} | {{{2}}} {{#ifeq:{{lc:{{{2}}}}}|mars|(mois)}} }}<!--
+  -->}}<!--
+-->|{{{2}}}]]&nbsp;<!--
+-->[[<!--
+  -->{{#if:{{{4|}}} | {{#ifexist:{{{3}}} {{{4}}} | {{{3}}} {{{4}}} | {{{3}}} }} | {{{3}}} {{#ifeq:{{lc:{{{3}}}}}|mars|(mois)}} }}<!--
+-->|{{{3}}}]]<!--
+--></includeonly><noinclude><!--{{Documentation}}--></noinclude>

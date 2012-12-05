@@ -1,0 +1,25 @@
+<includeonly>{{#if:{{{1|}}}{{{2|}}}{{{3|}}}|
+<td colspan="{{#if:{{{4|}}}|{{{4|}}}|2}}" align="center">
+<table cellspacing="0" style="width:100%; background-color:transparent;">
+  <tr>
+    <td align="left" valign="middle" width="5%" style="background-color:{{#if:{{{1|}}}|{{#if:{{{5|}}}|transparent|#E6E6E6}}|transparent}};">{{#if:{{{1|}}}|[[Fichier:{{#if:{{{5|}}}|Fleche-defaut-gauche-gris-32.png|Fleche-defaut-gauche.png}}|13px|alt=Précédent|link=]]}}
+    </td>
+    <td width="1%" style="background-color:{{#if:{{{1|}}}|{{#if:{{{5|}}}|transparent|#E6E6E6}}|transparent}};">
+    </td>
+    <td align="left" valign="middle" width="{{#if:{{{2|}}}|31|44}}%" style="background-color:{{#if:{{{1|}}}|{{#if:{{{5|}}}|transparent|#E6E6E6}}|transparent}};">{{{1|}}}
+    </td>
+    <td width="1%" style="background-color:transparent;">
+    </td>
+    {{#if:{{{2|}}}|<td align="center" valign="middle" width="32%" style="background-color:{{#if:{{{5|}}}|transparent|#E6E6E6}};">{{{2|}}}
+    </td>
+    <td width="1%" style="background-color:transparent;">
+    </td>}}
+    <td align="right" valign="middle" width="{{#if:{{{2|}}}|31|44}}%" style="background-color:{{#if:{{{3|}}}|{{#if:{{{5|}}}|transparent|#E6E6E6}}|transparent}};">{{{3|}}}
+    </td>
+    <td width="1%" style="background-color:{{#if:{{{3|}}}|{{#if:{{{5|}}}|transparent|#E6E6E6}}|transparent}};">
+    </td>
+    <td align="right" valign="middle" width="5%" style="background-color:{{#if:{{{3|}}}|{{#if:{{{5|}}}|transparent|#E6E6E6}}|transparent}};">{{#if:{{{3|}}}|[[Fichier:{{#if:{{{5|}}}|Fleche-defaut-droite-gris-32.png|Fleche-defaut-droite.png}}|13px|alt=Suivant|link=]]}}
+    </td>
+  </tr>
+</table>
+<tr>}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

@@ -1,0 +1,220 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nom|{{PAGENAME}}}}} |{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Infobox Prélat catholique/Charte graphique|entête={{{titre|}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{{légende|}}}|{{{taille image|}}}||||Prélat catolique
+}}
+{{#if:{{{image pb|}}}|
+{{!}} colspan="2" align="center" {{!}} [[{{{image pb}}}|{{{taille image|220px}}}|{{{légende|}}}]]{{#if:{{{légende|}}}|<br /><small>{{{légende}}}</small>}}
+{{!}}-
+}}
+{{Infobox/Sous-titre
+ | Biographie|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Nom de naissance|{{{nom naissance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |L'est né|{{{naissance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |date et liu|{{{date naissance|}}}{{{lieu naissance|}}}|{{{date naissance|}}} <br />{{{lieu naissance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Ordinacion sacerdotale|{{{ordination|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Laïcisacion|{{{laïcisation|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Décès|{{{décès|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Date et liu|{{{date décès|}}}{{{lieu décès|}}}|{{{date décès|}}} <br  />{{{lieu décès|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{canonisation|}}}|Saint|Bienheureux}} de l’Église catholique|{{{canonisation|{{{béatification|}}}}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Canonisacion|{{{canonisation|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Béatificacion|{{{béatification|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#ifeq:{{{titre|}}}|Antipape|Antipape|Pape}} de l’Église catholique|{{{début pontificat|{{{intronisation|{{{fin pontificat|{{{successeur pape|}}}}}}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Éleccion au pontificat|{{{début pontificat|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Intronisacion|{{{intronisation|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Fin du pontificat|{{{fin pontificat|}}}
+}}
+{{Infobox/Succession
+ | {{{prédécesseur pape|}}}||{{{successeur pape|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Aute<small>(s)</small> antipape<small>(s)</small>|{{{antipape|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Aute<small>(s)</small> pape<small>(s)</small>|{{{pape|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Cardinal éd l’Église catolique|{{{création|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Créé<br />cardinal|{{{création|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |  Tite cardinalice|{{{titre cardinalice|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Évêque éd l’Église catolique|{{{dernier titre|}}}{{{évêque|}}}{{{ministère 1|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Consécracion épiscopale|{{{consécration|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Darin tite o fonccion|{{{dernier titre|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Fonccions épiscopales|{{{évêque|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Rôles|{{{rôle|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{ministère 8|}}}|{{{ministère 8|}}}{{{prédécesseur 8|}}}{{{successeur 8|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{date fin 8|}}}|{{{date début 8|}}} – {{{date fin 8|}}}|Depuis le {{{date début 8|}}}}}|{{{date début 8|}}}|transparent
+}}
+{{Infobox/Succession
+ | {{{prédécesseur 8|}}}||{{{successeur 8|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{ministère 7|}}}|{{{ministère 7|}}}{{{prédécesseur 7|}}}{{{successeur 7|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{date fin 7|}}}|{{{date début 7|}}} - {{{date fin 7|}}}|Depuis le {{{date début 7|}}}}}|{{{date début 7|}}}|transparent
+}}
+{{Infobox/Succession
+ | {{{prédécesseur 7|}}}||{{{successeur 7|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{ministère 6|}}}|{{{ministère 6|}}}{{{prédécesseur 6|}}}{{{successeur 6|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{date fin 6|}}}|{{{date début 6|}}} - {{{date fin 6|}}}|Depuis le {{{date début 6|}}}}}|{{{date début 6|}}}|transparent
+}}
+{{Infobox/Succession
+ | {{{prédécesseur 6|}}}||{{{successeur 6|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{ministère 5|}}}|{{{ministère 5|}}}{{{prédécesseur 5|}}}{{{successeur 5|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{date fin 5|}}}|{{{date début 5|}}} - {{{date fin 5|}}}|Depuis le {{{date début 5|}}}}}|{{{date début 5|}}}|transparent
+}}
+{{Infobox/Succession
+ | {{{prédécesseur 5|}}}||{{{successeur 5|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{ministère 4|}}}|{{{ministère 4|}}}{{{prédécesseur 4|}}}{{{successeur 4|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{date fin 4|}}}|{{{date début 4|}}} - {{{date fin 4|}}}|Depuis le {{{date début 4|}}}}}|{{{date début 4|}}}|transparent
+}}
+{{Infobox/Succession
+ | {{{prédécesseur 4|}}}||{{{successeur 4|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{ministère 3|}}}|{{{ministère 3|}}}{{{prédécesseur 3|}}}{{{successeur 3|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{date fin 3|}}}|{{{date début 3|}}} - {{{date fin 3|}}}|Depuis le {{{date début 3|}}}}}|{{{date début 3|}}}|transparent
+}}
+{{Infobox/Succession
+ | {{{prédécesseur 3|}}}||{{{successeur 3|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{ministère 2|}}}|{{{ministère 2|}}}{{{prédécesseur 2|}}}{{{successeur 2|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{date fin 2|}}}|{{{date début 2|}}} - {{{date fin 2|}}}|Depuis le {{{date début 2|}}}}}|{{{date début 2|}}}|transparent
+}}
+{{Infobox/Succession
+ | {{{prédécesseur 2|}}}||{{{successeur 2|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{ministère 1|}}}|{{{ministère 1|}}}{{{prédécesseur 1|}}}{{{successeur 1|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | {{#if:{{{date fin 1|}}}|{{{date début 1|}}} - {{{date fin 1|}}}|Depuis le {{{date début 1|}}}}}|{{{date début 1|}}}|transparent
+}}
+{{Infobox/Succession
+ | {{{prédécesseur 1|}}}||{{{successeur 1|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Eutes fonccions|{{{fonc religieuses|}}}{{{fonc laïques|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Fonccion arligieuse|{{{fonc religieuses|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Ligne optionnelle
+ | {{{fonc religieuses|}}}||left
+}}
+{{Infobox/Sous-titre optionnel
+ | Fonccion laïque|{{{fonc religieuses|}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|2={{{titre|}}}}}}}
+}}
+{{Infobox/Ligne optionnelle
+ | {{{fonc laïques|}}}||left
+}}
+{{Infobox/Sous-titre optionnel
+ | Notes|{{{note|}}}|{{Infobox Prélat catholique/Charte graphique|{{{titre|}}}}}
+}}
+{{Infobox/Ligne optionnelle
+ | {{{note|}}}||left
+}}
+{{Infobox/Séparateur optionnel
+| {{{blason|}}}{{{blason simple|}}}{{{devise|}}}|
+{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Image
+ | {{{blason|}}}||100|Blason|||Prélat catholique
+}}
+{{#if:{{{blason pb|}}}|
+{{!}} colspan="2" align="center" {{!}} [[{{{blason pb}}}|145px|Blason]]
+{{!}}-
+}}
+{{Infobox/Ligne optionnelle
+ | {{{blason simple|}}}|{{#if:{{{titre|}}}|<center>{{Armoiries avec ornements communs|{{#if:{{{ornement extérieur|}}}|{{{ornement extérieur|}}}|{{#switch: {{{titre|}}}
+ | Évêque     = Evêque
+ | Archevêque = Archevêque
+ | Patriarche = Patriarche ou primat
+ | Primat     = Patriarche ou primat
+ | Cardinal   = Cardinal
+ | Abbé       = Abbé
+}}}}|blason={{{blason simple|}}}|coef=0.5|align=center}}</center>|<span class="erreur">Vous devez spécifier le champ titre !</span>}}
+}}
+{{Infobox/Ligne optionnelle
+ | {{{devise|}}}|<small><i>{{{devise|}}}</i></small>
+}}
+{{Infobox/Ligne optionnelle
+| {{{va|}}}|[http://www.vatican.va/news_services/press/documentazione/documents/cardinali_biografie/cardinali_bio_{{{va}}}_it.html <small>{{it}} Notice sur ''www.vatican.va'']</small>
+}}
+{{Infobox/Ligne optionnelle
+|{{{ch|}}}|[http://www.catholic-hierarchy.org/bishop/b{{{ch}}}.html <small>{{en}} Notice sur ''www.catholic-hierarchy.org'']</small>
+}}
+{{Infobox/Ligne optionnelle
+|{{{cr|}}}|[http://www.cardinalrating.com/cardinal_{{{cr}}}.htm <small>{{en}} Artikes édseur ''www.cardinalrating.com'']</small>
+}}
+{{Infobox/Notice
+ | Infobox Prélat catholique|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+}}
+{{Infobox/Fin}}
+<!--{{Suivi des biographies|Religion}}--></includeonly><noinclude><!--{{Documentation}}--></noinclude>

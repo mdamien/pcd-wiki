@@ -1,0 +1,94 @@
+<includeonly>[http://www.biblegateway.com/bible?language=fr&version=2;32&passage={{#switch:{{{1}}}
+  |Gn=GEN
+  |Ex=EXOD
+  |Nb=NUM
+  |Dt=DEUT
+  |Jos=JOSH
+  |Jug=JUDG
+  |Jg=JUDG
+  |Rt=RUTH
+  |1 S
+  |1S=1SAM
+  |2 S
+  |2S=2SAM
+  |1 R
+  |1R=1KGS
+  |2 R
+  |2R=2KGS
+  |1 Ch
+  |1Ch=1CHRO
+  |2 Ch
+  |2Ch=2CHRO
+  |Esd=EZRA
+  |Ne=NEH
+  |Est=ESTH
+  |Jb=JOB
+  |Ps=PSA
+  |Pr=PROV
+  |Ecc
+  |Qo=ECC
+  |Ct
+  |Cant=SONG
+  |Is=ISA
+  |Jr=JER
+  |Lm=LAM
+  |Ez=EZEK
+  |Dn=DAN
+  |Os=HOSEA
+  |Jl=JOEL
+  |Am=AMOS
+  |Ab=OBAD
+  |Jon=JONAH
+  |Mi=MICAH
+  |Na=NAHUM
+  |Ha=HAB
+  |So=ZEPH
+  |Ag=HAG
+  |Za=ZECH
+  |Ml=MAL
+  |Mt=MATT
+  |Mc=MARK
+  |Lc=LUKE
+  |Jn=JOHN
+  |Ac=ACTS
+  |Rm=ROM
+  |Rom=ROM
+  |1 Co
+  |1Co=1COR
+  |2 Co
+  |2Co=2COR
+  |Ga=GAL
+  |Ep=EPH
+  |Eph=EPH
+  |Ph=PHIL
+  |Phili=PHIL
+  |Col=COL
+  |1 Th
+  |1Th=1THES
+  |2 Th
+  |2Th=2THES
+  |1 Tm
+  |1Tm=1TIM
+  |2 Tm
+  |2Tm=2TIM
+  |Tt=TIT
+  |Phm=PHILE
+  |Phile=PHILE
+  |He=HEB
+  |Jc=JAS
+  |1 P
+  |1P=1PET
+  |2 P
+  |2P=2PET
+  |1 Jn
+  |1Jn=1JOHN
+  |2 Jn
+  |2Jn=2JOHN
+  |3 Jn
+  |3Jn=3JOHN
+  |Jude=JUDE
+  |Ap=REV
+  |Apoc=REV
+  |#default={{{1}}}
+}}%20{{{2}}}{{#if:{{{3|}}}
+|%3A{{{3}}}|}} {{{1}}}&nbsp;{{{2|}}}{{#if:{{{3|}}}|.&nbsp;{{{3}}}|}}]</includeonly><noinclude><!--{{/Documentation}}--></noinclude>

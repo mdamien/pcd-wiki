@@ -10,7 +10,7 @@
 {{!}}-
 }}
 {{Infobox/Sous-titre
- | Biographie|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+ | Biografie|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  |Nom de naissance|{{{nom naissance|}}}
@@ -34,7 +34,7 @@
  |Date et liu|{{{date décès|}}}{{{lieu décès|}}}|{{{date décès|}}} <br  />{{{lieu décès|}}}
 }}
 {{Infobox/Sous-titre optionnel
- | {{#if:{{{canonisation|}}}|Saint|Bienheureux}} de l’Église catholique|{{{canonisation|{{{béatification|}}}}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+ | {{#if:{{{canonisation|}}}|Saint|Bienheureux}} éd l’Église catolique|{{{canonisation|{{{béatification|}}}}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Canonisacion|{{{canonisation|}}}
@@ -43,7 +43,7 @@
  | Béatificacion|{{{béatification|}}}
 }}
 {{Infobox/Sous-titre optionnel
- | {{#ifeq:{{{titre|}}}|Antipape|Antipape|Pape}} de l’Église catholique|{{{début pontificat|{{{intronisation|{{{fin pontificat|{{{successeur pape|}}}}}}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
+ | {{#ifeq:{{{titre|}}}|Antipape|Antipape|Pape}} éd l’Église catolique|{{{début pontificat|{{{intronisation|{{{fin pontificat|{{{successeur pape|}}}}}}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-fond|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}|{{Paramètre infobox couleur fond titre modifiable-texte|{{Infobox Prélat catholique/Charte graphique|1={{{titre|}}}}}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Éleccion au pontificat|{{{début pontificat|}}}

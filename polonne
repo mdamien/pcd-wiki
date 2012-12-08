@@ -1,9 +1,67 @@
+{{Modèle:Infoboète Pouéyis |
+| nom_local=Rzeczpospolita Polska
+| langue=pl
+| prononciation=Pl-Rzeczpospolita_Polska-2.ogg
+| nom_français=République Polonnèse
+| de=de
+| image_drapeau=Flag_of_Poland.svg|border|left|190px
+| lien_drapeau=Drapiau polonné
+| image_blason=Herb Polski.svg
+| lien_blason=Armoéries
+| image_carte=EU-Poland.svg
+| devise= 
+| langues=[[Poloné]]
+| capitale=[[Varsovie]]
+| coordonnées_capitale={{coord|52.2323|21.008433|type:country_region:PL_source:dewiki|format=dms|display=inline,title}}
+| lien_villes=Villes de Pologne
+| titre_plus_grande_ville=Pu grande vile
+| plus_grande_ville=[[Varsovie]]
+| type_gouvernement=République parlemintoère
+| titres_dirigeants=Présidint éd la Républike<br />&nbsp;- Présidint du Consièl des minisses
+| noms_dirigeants=Bronisław Komorowski<br />Donald Tusk
+| superficie_rang=69
+| superficie_totale={{formatnum:312679}}
+| pourcentage_eau=2,6 %
+| population_rang=34
+| population_totale={{formatnum:38,501,000}}<ref>Central Intelligence Agency, ''The World Factbook'', 2011</ref>|
+| population_année=2012
+| densité=123
+| type_indépendance=Date
+| pays_indépendance=éd la [[Russie]], l'Impire alemant et l'Otriche-Hongrie
+| date_indépendance=l'11 ed novimbe 1918
+| pays frontaliers={{Boîte déroulante| alignT=left| titre=Liste| 
+contenu={{RUS}}{{-}}{{UKR}}{{-}}{{GER}}{{-}}{{BLR}}{{-}}{{RTC}}{{-}}{{LIT}}{{-}}{{SVK}}}}
+| gentilé=Polonné(s), Polonnoèse(s)
+| PIBPPA_année=2012 
+| PIB_PPA                 = {{unité|822,5|millars}} éd USD
+| PIBPPA_rang=15{{e}}
+| PIB_année               = 2011
+| PIB                     = {{unité|531,8|millars}} éd USD
+| PIB_rang                = 45{{e}}
+| PIB_HAB                 = 21 310 USD
+| PIBHAB_année            = 2011
+| PIBHAB_rang             = 40{{e}}
+| IDH_année               = 2012
+| IDH                     = {{augmintacion}} 0,900
+| IDH_catégorie           = très élevé
+| IDH_rang                = 29{{e}}
+| monnaie= Złoty
+| code_monnaie=PLN
+| fuseau_horaire=+1
+| hymne_national= '''Mazurek Dąbrowskiego'''
+| Religion(s)=Catolique |
+| iso3166-1 = POL, PL
+| domaine_internet=.pl
+| indicatif_téléphonique=48
+}}
+
+
 ::;<big>Rzeczpospolita Polska</big>
 
 [[Fichier:Flag of Poland.svg|300px|right|thumb|Drapieu poloné]]
 
 
-L' '''Polonne''' (''Polska'' in [[poloné]]), ou el '''République d' Polonne''' (''Rzeczpospolita Polska''), ch'est un poéis d'[[Urope]] chintrale aveuc pus d' 38 millions d'gins. 
+L' '''Polonne''' (''Polska'' in [[poloné]]), ou el '''République d' Polonne''' (''Rzeczpospolita Polska''), ch'est un poéis d'[[Urope]] chintrale aveuc pus d' 38 millons d'gins. 
 
 [[Fichier:Herb Polski.svg|100px|]]
 
@@ -14,9 +72,9 @@ L' '''Polonne''' (''Polska'' in [[poloné]]), ou el '''République d' Polonne'''
 
 == Histoère ==
 
-Anthieu étot du bloc éd l'Est pindint l' [[djérre froéde]], l' Polonne est mimbe éd l'[[Organisation des Nations unies|ONU]] dpui l' 24 d'octobe 1945. Ale foait partie du [[Consièl éd l'Urope]] d'pui l' 26 éd novimbe 1991 et pi ed l'[[Organisation du traité del' Atlantique Nord|OTAN]] dpui 1999.
+Anthieu étot du bloc éd l'Est pindint l' [[djérre froéde]], l' Polonne est mimbe éd l'[[Organisation des Nations unies|ONU]] dpui l' 24 d'octobe 1945. Ale foait partie du [[Union Uropéyènne|Consièl éd l'Urope]] d'pui l' 26 éd novimbe 1991 et pi ed l'[[Organisation du traité del' Atlantique Nord|OTAN]] dpui 1999.
 
-El Polonne est din l'[[Union uropéyène]] dpui l' 1 d'moai 2004 pi foait partie de l'[[acordache d' Schengen ( Éspace Schengen ) dpui l' 21 éd décimbe 2007.
+El Polonne est din l'[[Union Uropéyènne]] dpui l' 1 d'moai 2004 pi foait partie de l'acordache d' Schengen ( Éspache Schengen ) dpui l' 21 éd décimbe 2007.
 
 == Jéografie ==
 Superfichie = 312 685 km²
@@ -166,13 +224,20 @@ Image:Sfera - Bielsko-Biała 2.jpg|[[Bielsko-Biała]]
 [[Fichier:Tatry Panorama01xxx.jpg|thumb|left|Chés [[Heutes Tatras]]]]
 
 [[Fichier:Blendowska Desert.jpg|thumb|center|500px|Ch' désert d'Bledowska]]
+{{clr}}
+
+
+==Référinches==
+ <references/>
+
+;Bibliografie
+* Jean-Jacques Fauvel, '''''Pologne''''', coll. « Les Guides Bleus », Hachette, Paris, 733 paches (1967)
+
+;Loïens
 
 {{Eutes prodjéts|
   commons=Category:Poland|
 }}
-
-== Bibliografie ==
-* Jean-Jacques Fauvel, '''''Pologne''''', coll. « Les Guides Bleus », Hachette, Paris, 733 paches (1967)
 
 {{Urope}}
 

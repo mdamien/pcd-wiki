@@ -90,14 +90,16 @@
 |consulté le=}}
 [[Catégorie:Conmunes del Sonme]]
 {{DEFAULTSORT:Py}}
+
 [[ca:Pys]]
 [[ceb:Pys]]
 [[en:Pys]]
 [[es:Pys]]
 [[eu:Pys]]
-[[fr:Pys]]
 [[fi:Pys]]
+[[fr:Pys]]
 [[it:Pys]]
+[[la:Pys]]
 [[mg:Pys]]
 [[ms:Pys]]
 [[nl:Pys]]

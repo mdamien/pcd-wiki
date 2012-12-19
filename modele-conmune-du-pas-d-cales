@@ -1,0 +1,128 @@
+<noinclude>
+__NOTOC__
+<!--
+  N’insérer AUCUN blanc ou saut de ligne avant < noinclude > ou après < /noinclude >.
+-->
+<!-- ne pas déplacer ce qui suit, et surtout pas en dehors du < noinclude > ... < noinclude > -->
+
+<!-- fin de la zone à ne pas déplacer -->
+</noinclude>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nomcommune|{{PAGENAME}}}}}|dfd|entete map
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
+}}
+{{#if:{{{armoiries|}}}{{{logo|}}} |
+{{!}} colspan="2" align="center" {{!}} {{#switch:{{{armoiries|}}}{{{logo|}}}
+| {{{armoiries|}}} =[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}
+| {{{logo|}}} =[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br><small>[[{{{logo-desc}}}|Détail]]</small>|}}
+| {{{armoiries|}}}{{{logo|}}} =<table style="text-align:center;background-color:#f9f9f9;width:100%"><tr><td style="width:50%">[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}</td><td>[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}</td></tr></table>|}}
+{{!-}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Poéyis
+ | [[Image:Flag of France.svg|20px|drapeau de la France]]</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Franche]]<!-- test pour aligner le drapeau à droite et le nom du pays au centre, impossible avec le modèle {{{FRA}}} -->
+}}
+{{Infobox/Ligne mixte optionnel
+ | Région
+ | {{{région|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Départémint
+ | {{{département|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Arondichemint
+ | {{{arrondissement|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Canton
+ | {{{canton|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Code insee
+ | {{{insee|}}}
+}}
+{{Infobox/Ligne mixte
+ | Code postal
+ | {{{cp|}}}
+}}
+{{Infobox/Ligne mixte
+ | Maire<br />&nbsp;
+ | {{{maire|}}}<br />{{{mandat|}}}
+}}
+{{Infobox/Ligne mixte optionnel
+ | Intarconmeunalité
+ | {{{intercomm|}}}
+}}
+{{Infobox/Sous-titre
+ | Jografie|dfd
+}}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+ | Coordonnées<br />jografikes|{{{latitude|}}}|{{{longitude|}}}|city_region:FR|dms long|title=oui
+}}
+{{Infobox/Ligne mixte
+ | Altitudes
+ | minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}<br />mouéyène : {{{alt moy}}}
+}}
+{{#if:{{{km²|}}} | 
+! scope=row {{!}} Supérfichie
+{{!}} <span class="plainlinks">{{{km²}}} km² ({{{hectares}}} ha)</span>
+{{!-}}
+}}
+{{#if:{{{superficie|}}} | 
+! scope=row {{!}} Supérfichie
+{{!}} <span class="plainlinks">{{{superficie}}} km² ({{{hectares}}} ha)</span>
+{{!-}}
+}}
+{{Infobox/Sous-titre
+ | Démografie|dfd
+}}
+{{#if:{{{sans|}}} | 
+! scope=row {{!}} Populacion sins<br />doubes comptes
+{{!}} <span class="plainlinks">{{formatnum: {{{sans}}}}} gins <br /><small>({{{date-sans}}})</small></span>
+{{!-}}
+}}
+{{#if:{{{population|}}} | 
+! scope=row {{!}} Populacion sins<br />doubes comptes
+{{!}} <span class="plainlinks">{{formatnum: {{{population}}}}} gins <br /><small>({{{année_pop}}})</small></span>
+{{!-}}
+}}
+{{#if:{{{dens|}}} | 
+! scope=row {{!}} Dinchité
+{{!}} <span class="plainlinks">{{formatnum: {{{dens}}}}} gins/km²</small></span>
+{{!-}}
+}}
+|-
+{{#if: {{{unité urbaine|}}} | 
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Unité urbain.ne
+{{!}} style="background-color: #f3fff3;" {{!}} {{{unité urbaine}}} gins}} 
+|-
+{{#if: {{{aire urbaine|}}} | 
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Aire urbain.ne
+{{!}} style="background-color: #f3fff3;" {{!}} {{{aire urbaine}}} gins}} 
+|-
+{{Infobox/Ligne mixte
+ | Gintilé
+ | {{{nomhab}}}
+}}
+{{#if:{{{siteweb|}}} | 
+! scope=row {{!}} Site intarnète
+{{!}} <span class="plainlinks">{{{siteweb}}}</span>
+{{!-}}
+}}
+|- <!--Géolocalisachon edseur eune carte d' Franche métropolitaine-->
+{{#ifeq: {{{géoloc}}} | non | |
+{{#if: {{#ifexpr: {{{latitude}}} AND {{{longitude}}} }} | | {{!}}-
+{{!}} colspan="2" border="1" align="left" style="background-color: #ffffff; padding: 1em;" {{!}} {{Fragéoloc|{{{longitude}}}|{{{latitude}}}|desc=Carte de localisation de {{{nomcommune}}}}}
+}}
+}}
+|-
+<includeonly>{{Coord|{{{latitude}}}|{{{longitude}}}|type:city_region:FR_scale:{{#if:{{{échelle|}}}|{{{échelle|}}}|100000}}|format=dms|display=title}}{{Infobox/Début}}
+{{#if:{{{géoloc-département|}}} | 
+! colspan="2" {{!}} {{Boîte déroulante infobox début|titre=Localisation carte |couleurFond=#dfd|couleurFondB=#dfd|couleurFondT=#dfd|couleurBordure=#dfd|label=[ départementale ] / [ départementale ]}}{{Géolocdual/{{{géoloc-département}}}|{{{longitude}}}|{{{latitude}}}|desc={{{nomcommune}}}}}{{Boîte déroulante infobox fin}}
+{{!-}}
+}}
+{{Infobox/Fin}}<!--
+|}<noinclude>[[Catégorie:Subroutines-pcd]][[catégorie:Infoboète]]</noinclude>

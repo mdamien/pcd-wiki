@@ -1,20 +1,24 @@
 <imagemap>
-Image:Wikimedia logo family complete.svg|400px|
+Image:Wikimedia logo family complete-2012.svg|400px|
 
-circle 894 279 80 [[:meta:User:Otourly|Meta-Wiki]]
-circle 965 678 80 [[:species:User:Otourly|Species]]
-rect 749 779 948 933 [[:mw:User:Otourly|MediaWiki]]
-rect 388 900 542 1023 [[:v:fr:User:Otourly|Wikiversité]]
-rect 187 810 343 961 [[:wikt:fr:User:Otourly|Wiktionnaire]]
-rect 28 644 268 780 [[:n:fr:User:Otourly|Wikinews]]
-circle 111 509 80 [[:s:fr:User:Otourly|Wikisource]]
-circle 180 317 80 [[:commons:User:Otourly|Wikimedia Commons]]
-circle 324 168 80 [[:fr:User:Otourly|Wikipédia]]
-rect 443 33 586 207 [[:Wmania:User:Otourly|Wikimania]]
-rect 617 879 728 1026 [[:incubator:User:Otourly|Incubator]]
-poly 950 422 900 425 903 488 954 493 1013 549 1056 502 1053 411 1014 365 [[:q:fr:User:Otourly|Wikiquote]]
-rect 644 67 806 218 [[:b:fr:User:Otourly|Wikibooks]]
+
+circle 880 251 75 [[:meta:User:Otourly|Meta-Wiki]]
+circle 990 589 80 [[:species:User:Otourly|Species]]
+rect 840 695 1039 835 [[:mw:User:Otourly|MediaWiki]]
+rect 192 812 347 928 [[:v:fr:User:Otourly|Wikiversité]]
+rect 68 678 212 810 [[:wikt:fr:User:Otourly|Wiktionnaire]]
+rect 4 510 240 641 [[:n:fr:User:Otourly|Wikinews]]
+circle 123 390 80 [[:s:fr:User:Otourly|Wikisource]]
+circle 241 253 80 [[:commons:User:Otourly|Wikimedia Commons]]
+circle 381 141 80 [[fr:User:Otourly|Wikipédia]]
+rect 477 28 624 194 [[:Wmania:User:Otourly|Wikimania]]
+rect 765 812 876 953 [[:incubator:User:Otourly|Incubator]]
+rect 910 308 1071 480 [[:q:fr:User:Otourly|Wikiquote]]
+rect 641 72 794 222 [[:b:fr:User:Otourly|Wikibooks]]
+rect 585 919 741 1017 [[:wikidata:User:Otourly|Wikidata]]
+circle 464 958 76 [[:voy:fr:User:Otourly|Wikivoyage]]
+
 
 desc bottom-left
 </imagemap>
-<noinclude>Pour éditer les points du modèle allez sur [http://toolserver.org/~dapete/ImageMapEdit/ImageMapEdit.html ImageMapEdit] dans le cadre '''load from URL''' mettez ''http://commons.wikimedia.org/w/thumb.php?f=Wikimedia_logo_family.svg&w=1100'' puis dans le cadre '''Import areas from ImageMap code''' mettez le code de cette page enfin changer/ajouter les points </noinclude>
+<noinclude>Pour éditer les points du modèle allez sur [http://toolserver.org/~dapete/ImageMapEdit/ImageMapEdit.html ImageMapEdit] dans le cadre '''load from URL''' mettez ''http://commons.wikimedia.org/w/thumb.php?f=Wikimedia_logo_family_complete-2012.svg&w=1100'' puis dans le cadre '''Import areas from ImageMap code''' mettez le code de cette page enfin changer/ajouter les points </noinclude>

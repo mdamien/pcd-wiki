@@ -18,25 +18,15 @@ Finally, if you are interested to know about my work or myself, they can be foun
 </div><!--
 # USEFUL STATISTICS TABLE -->
 {| class="wikitable"  width="100%" style="border: 2px solid #000;"
-|- style="padding: 5px; text-align: center;"
-| style="width: 11%; background: #CCC;" |
-; [[Special:AllPages|Articles]]
-| style="width: 10%; background: #CCC;" |
-; [[Special:ListFiles|Files]]
-| style="width: 13%; background: #CCC;" |
-; [[Special:ListUsers|Users]]
-| style="width: 11%; background: #CCC;" |
-; [[Special:ActiveUsers|Active Users]]
-| style="width: 10%; background: #CCC;" |
-; [[Special:ListUsers/bot|Bots]]
-| style="width: 11%; background: #9F0; border: 2px solid #000;" |
-; [[Special:ListUsers/sysop|Sysops]]
-| style="width: 12%; background: #CC9; border: 2px solid #000;" |
-; [[Special:ListUsers/bureaucrat|Bureaucrats]]
-| style="width: 11%; background: #FC0; border: 2px solid #000;" |
-; [[Special:ListUsers/checkuser|CheckUsers]]
-| style="width: 12%; background: #6FF; border: 2px solid #000;" |
-; [[Special:ListUsers/oversight|Oversighters]]
-|- style="background-color: #F5F5F5; font-family: Mono; font-size: 115%; text-align: center;"
+! style="width: 11%; background: #CCC;" | [[Special:AllPages|Articles]]
+! style="width: 10%; background: #CCC;" | [[Special:ListFiles|Files]]
+! style="width: 13%; background: #CCC;" | [[Special:ListUsers|Users]]
+! style="width: 11%; background: #CCC;" | [[Special:ActiveUsers|Active Users]]
+! style="width: 10%; background: #CCC;" | [[Special:ListUsers/bot|Bots]]
+! style="width: 11%; background: #9F0; border: 2px solid #000;" | [[Special:ListUsers/sysop|Sysops]]
+! style="width: 12%; background: #CC9; border: 2px solid #000;" | [[Special:ListUsers/bureaucrat|Bureaucrats]]
+! style="width: 11%; background: #FC0; border: 2px solid #000;" | [[Special:ListUsers/checkuser|CheckUsers]]
+! style="width: 12%; background: #6FF; border: 2px solid #000;" | [[Special:ListUsers/oversight|Oversighters]]
+|- style="background: #F5F5F5; font-size: 110%; text-align: center;"
 | {{NUMBEROFARTICLES}} || {{NUMBEROFFILES}} || {{NUMBEROFUSERS}} || {{NUMBEROFACTIVEUSERS}} || {{NUMBERINGROUP:bot}} || style="background: #9F0; border: 2px solid #000;" | '''{{NUMBEROFADMINS}}''' || style="background: #CC9; border: 2px solid #000;" | '''{{NUMBERINGROUP:bureaucrat}}''' || style="background: #FC0; border: 2px solid #000;" | '''{{NUMBERINGROUP:checkuser}}''' || style="background: #6FF; border: 2px solid #000;" | '''{{NUMBERINGROUP:oversight}}'''
 |}<!-- TA! -->

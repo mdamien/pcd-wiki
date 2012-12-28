@@ -1,0 +1,56 @@
+<div style="width:25%; float:left;height:4px; background:#990000;"></div>
+<div style="width:25%; float:left;height:4px; background:#339966;"></div>
+<div style="width:25%; float:left;height:4px; background:#A7D7F9;"></div>
+<div style="width:25%; float:left;height:4px; background:#666666;"></div>
+__NOTOC__
+
+{| style="width:100%; margin:auto; border-collapse:collapse; margin-bottom:10px;"
+| style="padding:10px; vertical-align:top; width:75%;" |
+<div style="line-height:.7em; font-size: 270%; font-family:'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, sans-serif;">{{{full name}}}</div>
+<div style="font-size: 180%; padding-top: 16px; font-family:'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, sans-serif; line-height:30px;">{{{job title}}}{{#if:{{{organization|{{{company|}}}}}}|, {{{organization|{{{company|}}}}}}}}</div>
+<div style="padding-top: 16px; font-family:'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, sans-serif;">{{{short quote}}}</div>
+
+| style="padding:10px 0; vertical-align:top; width:25%; text-align:center;" | [[File:{{#if:{{{image name|}}}|{{{image name}}}|How Wikipedia Works.jpg}}|250px|{{{hover text|}}}]]
+
+|}
+
+{| style="width:100%; margin:auto; border-collapse:collapse;"
+| style="padding:15px; vertical-align:top; width:37%;" | <h2 style="font-family:'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, sans-serif; border-bottom:0;">About me</h2>
+{{{about me}}}
+| style="padding:15px; vertical-align:top; width:37%;" | <h2 style="font-family:'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, sans-serif; border-bottom:0;">My work</h2>
+{{{about my work}}}{{#if:{{{disclaimer|}}}|<div style="color: #555; font-size: smaller; margin: 1em 0;">'''Disclaimer:''' {{{disclaimer}}}</div>|{{#ifeq:{{{organization|}}}|Wikimedia Foundation|<div style="color: #555; font-size: smaller; margin: 1em 0;">'''Disclaimer:''' Although I work for the Wikimedia Foundation, contributions under this account do not necessarily represent the actions or views of the Foundation unless expressly stated otherwise. For example, edits to articles or uploads of other media are done in my individual, personal capacity unless otherwise stated. </div>}} }}
+| style="padding:15px; vertical-align:top; width:25%; background:#F4F4F4;" | <h2 style="font-family:'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, sans-serif; border-bottom:0;">Contact me</h2>
+{{{contact me}}}
+|}<noinclude>
+{{clr}}
+== Modèle ==
+<pre>
+{{user info
+| full name = 
+| image name =
+| hover text = 
+| job title = 
+| organization = 
+| short quote =
+| about me = 
+| about my work = 
+| contact me = 
+| disclaimer =
+}}
+</pre>
+
+*Ech "hover text" ch'est un paramète pour un tiot teske ''pop-up''  qui vient quant el sorie ale passe édseur l'image.
+
+* Ch'modèle i vient d'ichi =  [[wmf:Template:User info]]. 
+
+
+[[Catégorie:Modèle]]
+
+
+*[[wmf:Template:User info]]
+*[[w:en:Template:User info]]
+*[[mw:Template:User info]]
+*[[m:Template:User info]]
+*[[ru:Template:User info]]
+
+</noinclude>

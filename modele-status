@@ -1,0 +1,3 @@
+<includeonly><div>{{{prefix|Status:&nbsp;}}}<span style="background:#{{#switch:{{lc:{{{1}}}}}|+|done=0C0|-|not done=C00|local=E5D4A1|on hold=F88000|CCC}};">&emsp;&emsp;</span> '''{{{2|{{#switch:{{lc:{{{1}}}}}|done=Done|not done=Not done|local=Locally handled|on hold=On hold|{{{1|In progress}}}}}}}}'''</div>{{#ifeq:{{{review|no}}}|yes|[[Catégorie:Modèle]]}}</includeonly><noinclude>
+<!--{{documentation}}-->[[Catégorie:Modèle]]
+</noinclude>

@@ -109,6 +109,7 @@
 [[sk:Pys]]
 [[sv:Pys]]
 [[uk:Піс (Франція)]]
+[[uz:Pys]]
 [[vi:Pys]]
 [[vo:Pys]]
 [[war:Pys]]

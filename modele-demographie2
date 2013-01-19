@@ -297,9 +297,10 @@
 		|text-align:center; border: 0px;
 		|text-align:left;
 	}} width: 100%; margin: 6px 0px; line-height: 150%; font-size: 0.9em;">{{#if:{{{sansdoublescomptes|}}}
-		|Nombre retenu à partir de [[{{{sansdoublescomptes}}}]] : [[Chiffres de population en France|population sans doubles comptes]].
+		|à partir de {{{sansdoublescomptes}}} : nombe éd gins sans doubes comptes.
 	}}{{{notes|}}}{{#if:{{{source|}}}{{{sources|}}}
 		|{{#if:{{{notes|}}}{{{sansdoublescomptes|}}}|<br>}}{{#ifeq:{{{style-notes|}}}|centré|(}}Source{{#if:{{{sources|}}}|s|}} : {{{source|}}}{{{sources|}}}{{#ifeq:{{{style-notes|}}}|centré|)|}}
 	}}</td></tr>
 }}</table>{{#if:{{{bdd-lien|}}}
-	|<div style="text-align:right">[[Fichier:GeoGebra icon table.gif|image bdd]] [[{{{bdd-lien|Modèle:Données/{{PAGENAME}}/évolution population}}}|<small>Voir base de données</small>]]</div>}}</div></includeonly><noinclude>{{Documentation}}</noinclude>
+	|<div style="text-align:right">[[Fichier:GeoGebra icon table.gif|image bdd]] [[{{{bdd-lien|Modèle:Données/{{PAGENAME}}/évolution population}}}|<small>Voir base de données</small>]]</div>}}</div></includeonly><noinclude><!--{{Documentation}}-->
+</noinclude>

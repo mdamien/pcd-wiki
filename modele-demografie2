@@ -548,7 +548,7 @@ fin de la dernière ligne, on clôt maintenant le switch sur le nombre de colonn
 ---- affichage des notes et sources            ----
 ---------------------------------------------------
 </noinclude>{{#if:{{{notes|}}}{{{source|}}}{{{sources|}}}{{{sansdoublescomptes|}}}|<table class="wikitable" style="width:100%;margin: {{#if:{{{marge-interlignes|}}}|{{{marge-interlignes|}}}|6px}} 0; line-height: 150%; font-size: 0.9em;{{#ifeq:{{{style-notes|}}}|centré| border: 0;|}}"><tr>
-<td style="{{#if:{{{notes-fond|}}}|background: {{{notes-fond}}};|background: #FFFFFF;}};{{#ifeq:{{{style-notes|}}}|centré| text-align:center; border: 0;| text-align:left;}}" >{{#if:{{{sansdoublescomptes|}}}|Nombre retenu à partir de [[{{{sansdoublescomptes}}}]] : [[Chiffres de population en France|population sans doubles comptes]]. |}}{{#if:{{{notes|}}}|{{{notes}}}|}}
+<td style="{{#if:{{{notes-fond|}}}|background: {{{notes-fond}}};|background: #FFFFFF;}};{{#ifeq:{{{style-notes|}}}|centré| text-align:center; border: 0;| text-align:left;}}" >{{#if:{{{sansdoublescomptes|}}}| à partir d' {{{sansdoublescomptes}}} : nombe éd gins sans doubes comptes. |}}{{#if:{{{notes|}}}|{{{notes}}}|}}
 {{#if:{{{source|}}}{{{sources|}}}|{{#if:{{{notes|}}}{{{sansdoublescomptes|}}}|<br>|}}{{#ifeq:{{{style-notes|}}}|centré|(|}}Source{{#if:{{{sources|}}}|s|}} : {{{source|}}}{{{sources|}}}{{#ifeq:{{{style-notes|}}}|centré|)|}}}}</td></tr></table>|}}</div><noinclude>
 <!--------------------------------------------------------
 -- Explications et commentaire des lignes qui précèdent --
@@ -575,5 +575,5 @@ Et si l'on veut que le nombre de colonnes par défaut soit 9 il faut l'écrire: 
 -- fin du commentaire --
 ------------------------>
 </noinclude></includeonly><noinclude>
-{{/Documentation}}
+<!--{{/Documentation}}-->
 </noinclude>

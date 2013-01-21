@@ -1,3 +1,24 @@
+<!-- ========== CLASSIFICATION CLASSIQUE ===== -->
+{{Taxoboète début | végétal | Plantes | Diversity of plants image version 3.png | Chés plantes | règne=cacher }}
+{{Taxoboète | domaine | Eukaryota }}
+{{Taxoboète | sous-domaine | Bikonta }}
+{{Taxoboète taxon | végétal | règne | Plantae | Ernst Haeckel, 1866 }}
+{{Taxoboète synonymes | 
+* [[Archaeplastida]]}}
+<!-- ========== CLASSIFICATION PHYLOGÉNÉTIQUE ===== -->
+{{Taxoboète phylogénie arbre |
+* Eukaryota
+
+** Bikonta
+*** Corticata
+**** Archaeplastida (Plantes)
+***** Metabionta
+****** Viridiplantae<br />(Plantes vertes)
+******* Chlorophyta
+******* Streptophyta
+}}
+{{Taxoboète fin}}
+[[catégorie:Flore]]
 A
 
     [[Abricothié]]

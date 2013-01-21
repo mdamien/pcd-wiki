@@ -1,0 +1,24 @@
+{{#switch:{{{1}}}
+| test
+| algue
+| animal
+| archaea
+| bactérie
+| champignon
+| protiste
+| végétal
+| virus
+| neutre
+| eucaryote
+| procaryote =<!--
+-->{{#ifeq:{{NAMESPACE}}|{{ns:0}}<!--
+  -->|[[Catégorie:Artike à corriger|Ègne]]<!--
+-->}}
+|<!-- vide = pas un règne = pas d'erreur -->
+}}<noinclude>
+
+<!--{{Documentation}}-->
+
+[[Catégorie:Modèle]]
+
+</noinclude>

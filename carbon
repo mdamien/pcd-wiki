@@ -82,6 +82,7 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[qu:K'illimsa]]
 [[ro:Cărbune]]
 [[ru:Ископаемый уголь]]
+[[sah:Таас чох]]
 [[scn:Cravuni]]
 [[sh:Ugljen]]
 [[simple:Coal]]

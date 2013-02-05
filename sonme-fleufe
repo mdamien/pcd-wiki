@@ -10,17 +10,17 @@
  | bassin = 6550
  | bassin notes = <br>(5&nbsp;560&nbsp;km² à [[Advile]])<ref>{{Lien web
   | url=http://www.hydro.eaufrance.fr/index.php
-  | titre=Station E6470092 - La Somme à Abbeville, données hydrologiques de synthèse (1963 - 2009)
-  | éditeur=Service central d'hydrométéorologie et d'appui à la prévision des inondations (SCHAPI), banque Hydro
+  | titre=Station E6470092 - La Sonme à Advile, données idrologiques (1963 - 2009)
+  | éditeur=''Service central d'hydrométéorologie et d'appui à la prévision des inondations (SCHAPI), banque Hydro''
   | consulté le=
   }}</ref>
- | bassin collecteur = Bassin ed la Sonme
+ | bassin collecteur = Bachin ed la Sonme
  | débit = 35.00
  | débit lieu = [[Advile]]
  | débit notes = 
  | régime = Pluvial ochéanique
  | source = Au sud-ouet ed la cinse Fervaques pi ed la Motte (126 m)
- | source localisation = [[Fonsonme]], Ainne [[Picardie]]
+ | source localisation = [[Fonsonme]], Ainne , [[Picardie]]
  | source altitude = 86
  | source latitude = 49.9064
  | source longitude = 3.4028
@@ -29,11 +29,11 @@
  | embouchure altitude = 0
  | embouchure latitude = 50.1867
  | embouchure longitude = 1.6431
- | affluents rive gauche = [[Avre (rivière)|Avre]], [[Selle (affluent de la Somme)|Selle]], [[Saint-Landon]], [[Airaines (rivière)|Airaines]], [[Amboise (rivière)|Amboise]]
- | affluents rive droite = [[Omignon]], [[Ancre (rivière)|Ancre]], [[Hallue]], [[Nièvre (affluent de la Somme)|Nièvre]], [[Scardon]]
+ | affluents rive gauche = [[Avre (rivière)|Avre]], [[Selle (affluint éd la Sonme)|Selle]], [[Saint-Landon]], [[Airaines (rivière)|Airaines]], [[Amboise (rivière)|Amboise]]
+ | affluents rive droite = [[Omignon]], [[Ancre (rivière)|Ancre]], [[Hallue (rivière)|Hallue]], [[Niève (affluint éd la Sonme)|Niève]], [[Scardon]]
  | pays = {{Franche}}
  | régions = [[Picardie]]
- | villes = [[Saint-Kintin]], [[Péronne (Sonme)|Péronne]], [[Corbie]], [[Anmyin]], [[Advile]], [[Saint-Wary]]
+ | villes = [[Saint-Kintin]], [[Péronne (Sonme)|Péronne]], [[Corbeu]], [[Anmyin]], [[Advile]], [[Saint-Wary]]
  | sources =
  | géolocalisation = France
 |sources=SANDRE, Géoportail
@@ -87,18 +87,18 @@ ScaleMinor = gridcolor:lightgrey increment:2 start:0
 BackgroundColors = canvas:sfondo
 
 BarData=
-  bar:Jan text:Janvier
-  bar:Fév text:Février
-  bar:Mar text:Mars
-  bar:Avr text:Avril
-  bar:Mai text:Mai
-  bar:Jun text:Juin
+  bar:Jan text:Jinvié
+  bar:Fév text:Févrié
+  bar:Mar text:Marche
+  bar:Avr text:Avri
+  bar:Mai text:Moai
+  bar:Jun text:Join
   bar:Jul text:Juillet
-  bar:Aoû text:Août
-  bar:Sep text:Sept.
-  bar:Oct text:Oct.
+  bar:Aoû text:Aout
+  bar:Sep text:Sect.
+  bar:Oct text:Octobe
   bar:Nov text:Nov.
-  bar:Déc text:Déc.
+  bar:Déc text:Déchimbe
 
 PlotData=
   color:barra width:30 align:left
@@ -151,20 +151,20 @@ PlotData=
 # la [[Beine (rivière)|Beine]]
 # l'[[Ingon]] et [[Ingon|Tchot Ingon]]
 # l'[[Avre (rivière)|Avre]] avec [[Noye|Echaut]], [[Noée|gué du Nil]], [[Noée|rivière d’ Rouvroy]], [[Luce (rivière)|Luce]], [[Troés Doms]], [[Braches (affluent de l'Avre)|Braches]], [[Noée]] et [[Avre (rivière)|ru Saint Firmin]]
-# la [[Selle (affluent de la Somme)|Selle]] avec canal de Lamoricière, [[Évouéssons]], [[Évouéssons | Tchots Évouéssons]], [[Rivière d'Poé|rivière d'Poé]] et [[Évouéssons|rivière des Parquets]]
+# la [[Selle (affluint éd la Sonme)|Selle]] avec canal de Lamoricière, [[Évouéssons]], [[Évouéssons | Tchots Évouéssons]], [[Rivière d'Poé|rivière d'Poé]] et [[Évouéssons|rivière des Parquets]]
 # ech [[Saint-Landon]]
 # l'[[Airaines (rivière)|Airaines]]
 # la [[Trie (rivière)|Trie]]
 # l'[[Amboise (rivière)|Amboise]] et pi l'[[Amboise (rivière)|Avalasse]]
 |
 * '''Rive droéte'''
-# la [[Germaine (rivière)|Germaine]]
+# la [[Gérmaine (riviére)|Gérmaine]]
 # l'[[Omignon]]
 # la [[Cologne (rivière)|Cologne]]
 # la [[Tortille]]
 # l'[[Ancre (rivière)|Ancre]], aveuc [[Ancre (rivière)|Canal]], [[Ancre (rivière)|Fossé]], et  pi [[Ancre (rivière)|Boulangerie]]
-# l'[[Hallue]] et pi la [[Hallue|Nœlle]]
-# la [[Nièvre (affluent de la Somme)|Nièvre]] aveuc [[Nièvre (affluent de la Somme)|Domart]] et pi [[Nièvre (affluent de la Somme)|Fieffe]]
+# l'[[Hallue (rivière)|Hallue]] et pi la [[Hallue|Nœlle]]
+# la [[Niève (affluint éd la Sonme)|Niève]] aveuc la [[Niève (affluint éd la Sonme)|Domart]] et pi la [[Niève (affluint éd la Sonme)|Fieffe]]
 # ech [[Scardon]] avec [[Scardon|Drucat]] et [[Scardon|Novion]]
 # ech [[Dien]] et pi la [[Dien|Rivière des Iles]]
 

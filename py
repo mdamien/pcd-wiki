@@ -91,6 +91,7 @@
 [[Catégorie:Conmunes del Sonme]]
 {{DEFAULTSORT:Py}}
 
+[[bug:Pys]]
 [[ca:Pys]]
 [[ceb:Pys]]
 [[en:Pys]]

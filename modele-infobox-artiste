@@ -1,33 +1,112 @@
-<noinclude>
+<noinclude>{{Infobox V2}}
 <!--==============================================================
 
-          ATTENTION : LA MODIFICATION D'UNE INFOBOX PEUT ENTRAÎNER DES PROBLÈMES 
-         SUR TOUTES LES PAGES DANS LESQUELLES ELLE EST INCLUSE.
-
-Veuillez ne pas tenter de le modifier à moins que vous ne soyez certain de bien comprendre sa conception. 
-D'autre part, le présent modèle ayant fait l'objet d'un consensus, l'ajout ou la suppression de champs doivent 
-être préalablement discutés sur la page consacrée.
-
 ==============================================================-->
-</noinclude><includeonly>{{Infobox V3/Début|icon=artiste|background=#7DA7D9|color=#fff|text={{{nom|}}}}}<!-- IMAGE
--->{{#if:{{{image|}}}|
-{{Infobox V3/Image|image={{{image|}}}|legend={{{légende|}}}}}
-{{Infobox V3/Séparateur|background=#7DA7D9}}
-}}<!-- DONNEES CLE
--->{{Infobox V3/Tableau début|class=hidden}}{{trim|
-{{Infobox V3/Tableau Ligne mixte|width=9|Nom|{{{nom_de_naissance|{{{nom de naissance|}}}}}}}}
-{{Infobox V3/Tableau Ligne mixte|width=9|Naissance|{{{date_de_naissance|{{{date de naissance|}}}}}}{{#if:{{{lieu_de_naissance|{{{lieu de naissance|}}}}}}|{{#if:{{{date_de_naissance|{{{date de naissance|}}}}}}|<br />}}{{{lieu_de_naissance|{{{lieu de naissance|}}}}}}}}|if={{{date_de_naissance|{{{date de naissance|}}}}}}{{{lieu_de_naissance|{{{lieu de naissance|}}}}}}}}
-{{Infobox V3/Tableau Ligne mixte|width=9|Décès|{{{date_de_décès|{{{date de décès|}}}}}}{{#if:{{{lieu_de_décès|{{{lieu de décès|}}}}}}|{{#if:{{{date_de_décès|{{{date de décès|}}}}}}|<br />}}{{{lieu_de_décès|{{{lieu de décès|}}}}}}}}|if={{{date_de_décès|{{{date de décès|}}}}}}{{{lieu_de_décès|{{{lieu de décès|}}}}}}}}
-{{Infobox V3/Tableau Ligne mixte|width=9|Nationalité|{{{nationalité|}}}}}
-{{Infobox V3/Tableau Ligne mixte|width=9|Activité(s)|{{{activités|}}}}}
+</noinclude><includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="artiste" style="background-color:#7DA7D9;" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+|-
+<!-- IMAGE -->
+{{#if:{{{image|}}} | 
+{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{image}}}|{{#if:{{{taille image|}}}|{{{taille image}}}|180px}}|{{#if:{{{légende|}}}|{{{légende}}}|Image associée à la personnalité}}]]
+{{!-}}
+| <!--[[Catégorie:Artike à illustrer/Artisse]]-->
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+{{#if:{{{nom de naissance|}}} |
+! scope=row {{!}} Nom de naissance
+{{!}} {{{nom de naissance|}}}
+{{!-}}
+}}
+{{#if:{{{surnom|}}} |
+! scope=row {{!}} Surnom
+{{!}} {{{surnom|}}}
+{{!-}}
+}}
+{{#if:{{{date de naissance|}}} |
+! scope=row {{!}} Né(e) l’
+{{!}} {{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|<br>{{{lieu de naissance}}}|}}
+{{!-}}
+}}
+{{#if:{{{nationalité|}}} |
+! scope=row {{!}} Nationalité(s)
+{{!}} {{{nationalité|}}}
+{{!-}}
+}}
+{{#if:{{{date de mort|}}} |
+! scope=row {{!}} Déché
+{{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
+{{!-}}
+}}
+{{#if:{{{activités|{{{activités|}}}}}}|
+! scope=row {{!}} activités
+{{!}} {{{activités|{{{activités}}}}}}
+{{!-}}
+}}
 {{Infobox V3/Tableau Ligne mixte|width=9|Formacion|{{{formation|}}}}}
+{{#if:{{{formation|}}} |
+! scope=row {{!}} formacion
+{{!}} {{{formation|}}}
+{{!-}}
+}}
 {{Infobox V3/Tableau Ligne mixte|width=9|Moaite|{{{maître|}}}}}
+{{#if:{{{maître|}}} |
+! scope=row {{!}} Moaite
+{{!}} {{{maître|}}}
+{{!-}}
+}}
 {{Infobox V3/Tableau Ligne mixte|width=9|Élèves|{{{élèves|}}}}}
+{{#if:{{{élèves|}}} |
+! scope=row {{!}} élèves
+{{!}} {{{élèves|}}}
+{{!-}}
+}}
 {{Infobox V3/Tableau Ligne mixte|width=9|Mouvemint artistique|{{{mouvement|}}}}}
+{{#if:{{{mouvement|}}} |
+! scope=row {{!}} Mouvemint artistique
+{{!}} {{{mouvement|}}}
+{{!-}}
+}}
 {{Infobox V3/Tableau Ligne mixte|width=9|Œuves réputées|{{{œuvres|}}}}}
+{{#if:{{{œuvres|}}} |
+! scope=row {{!}} Œuves réputées
+{{!}} {{{œuvres|}}}
+{{!-}}
+}}
 {{Infobox V3/Tableau Ligne mixte|width=9|Mécènes|{{{mécènes|}}}}}
+{{#if:{{{mécènes|}}} |
+! scope=row {{!}} mécènes
+{{!}} {{{mécènes|}}}
+{{!-}}
+}}
 {{Infobox V3/Tableau Ligne mixte|width=9|Influincé par|{{{influencé_par|{{{influencé par|}}}}}}}}
+{{#if:{{{influencé par|}}} |
+! scope=row {{!}} Influincé par
+{{!}} {{{influencé par|}}}
+{{!-}}
+}}
 {{Infobox V3/Tableau Ligne mixte|width=9|Il o influinçé|{{{influence_de|{{{influence de|}}}}}}}}
-{{Infobox V3/Tableau Ligne mixte|width=9|Récompinses|{{{récompenses|}}}}}
-}}{{Infobox V3/Tableau fin}}
-{{Infobox V3/Fin|Modèle:Infobox Artiste|class=bordered|border-color=#7DA7D9|border-width=2}}{{Suivi des biographies|Culture et arts}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>
+{{#if:{{{influence de|}}} |
+! scope=row {{!}} Il o influinçé
+{{!}} {{{influence de|}}}
+{{!-}}
+}}
+{{#if:{{{site internet|{{{site web|}}}}}}|
+! scope=row {{!}} Site oficièl
+{{!}} {{{site internet|{{{site web}}}}}}
+{{!-}}
+}}
+{{#if:{{{récompense|}}} |
+! scope=row {{!}} Distinction(s)
+{{!}} {{{récompense|}}}
+{{!-}}
+}}
+|}</includeonly><noinclude>[[catégorie:Infoboète]]
+
+<!-- Chés catégories pi interwikis i n’feut pon les mète ichi  --></noinclude>

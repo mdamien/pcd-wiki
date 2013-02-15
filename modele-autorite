@@ -1,0 +1,28 @@
+<includeonly><div id="normdaten">
+* ''[[Autorité (sciences de l'information)|Notices d’autorité]]'' : <!--
+*** SUDOC ***
+-->{{#if:{{{SUDOC|}}}| {{•|[http://www.idref.fr/{{{SUDOC}}} Système universitaire de documentation]}} }}<!--
+*** BNF ***
+-->{{#if:{{{BNF|}}}| {{•|[http://catalogue.bnf.fr/ark:/12148/cb{{{BNF}}}/PUBLIC Bibliothèque nationale de France]}} }}<!--
+*** WorldCat identities ***
+-->{{#if: {{{WORLDCATID|}}} | 
+		{{•|[http://www.worldcat.org/identities/{{{WORLDCATID}}} WorldCat]}} | 
+		{{#if:{{{LCCN|}}} | {{•|[http://www.worldcat.org/identities/lccn-{{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}-{{ParmPart|3|{{{LCCN}}} }} WorldCat]}} }} 
+	}}<!--
+*** VIAF ***
+-->{{#if: {{{VIAF|}}} | {{•|[http://viaf.org/viaf/{{{VIAF}}}/ Fichier d’autorité international virtuel]}} }}<!--
+*** LCCN ***
+-->{{#if: {{{LCCN|}}} | {{•|[http://lccn.loc.gov/{{ParmPart|1|{{{LCCN}}} }}{{ParmPart|2|{{{LCCN}}} }}{{padleft:{{#expr:{{ParmPart|3|{{{LCCN}}} }}}}|6|0}} Bibliothèque du Congrès]}} }}<!--
+*** DNB ***
+-->{{#if: {{{DNB|}}} | {{•|[http://d-nb.info/gnd/{{{DNB}}} Bibliothèque nationale allemande]}} }}<!--
+*** GND ***
+-->{{#if: {{{GND|}}} | {{•|[http://d-nb.info/gnd/{{{GND}}} Gemeinsame Normdatei]}} }}<!--
+*** PND (désuet) ***
+-->{{#if: {{{PND|}}} | {{•|[http://d-nb.info/gnd/{{{PND}}} Personennamendatei]}} <span class="metadata">([http://dispatch.opac.d-nb.de/DB=4.1/SET=4/TTL=1/PRS=PP%7F/PPN?PPN={{{PND}}} PICA])</span> }}<!--
+*** GKD (désuet) ***
+ {{#if:{{{GKD|}}}| [http://d-nb.info/gnd/{{{GKD}}} Gemeinsame Körperschaftsdatei] }}{{#if:{{{GKD-V1|}}}|DNB: [http://d-nb.info/gnd/{{{GKD-V1}}} {{{GKD-V1}}}] }} --><!--
+*** SWD
+-->{{#if: {{{SWD|}}}| {{•|[http://d-nb.info/gnd/{{{SWD}}} Schlagwortnormdatei]}} }}<!--
+--></div>{{#if: {{NAMESPACE}} | |  }}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

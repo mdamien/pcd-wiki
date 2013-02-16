@@ -1,0 +1,20 @@
+<noinclude>  </noinclude><includeonly>{| class="infobox_v2" cellspacing="7"
+| colspan="2" class="entete defaut" style="background-color:LightSteelBlue;" | {{#if:{{{1|}}} | {{ucfirst:{{{1|}}}}} | {{PAGENAME}} }}
+|-
+| style="background: #ececec; padding: 0 5px 0 5px;" | <big><center>Nom conmun o <br/>nom vérnaculaire ambigu :</center></big><div style="margin-top: 9px;"></div>{{#if:{{{autre|}}} | Chés éspressions « '''{{#if:{{{1|}}} | {{{1|}}} | {{PAGENAME}} }}''' » pi « '''{{{autre}}}''' » in picard ch'est pour| L'éspression « '''{{#if:{{{1|}}} | {{{1|}}} | {{PAGENAME}} }}''' » in picard ch'est pour }} plusieurs taxons distincts. <span style="vertical-align:text-top">[[Image:Disambig colour.svg|15px|link=Aide:Homonymie|alt=Page d'aide sur l'homonymie]]</span>
+|-
+| style="background: #F9F9F9; padding: 0 5px 0 5px;" | [[Image:{{#if:{{{2|}}}|{{{2}}}|Defaut 2.svg}}|center|250px|{{#if:{{{3|}}}|{{{3}}}]]
+|-
+| style="background: #F9F9F9; text-align:center; padding: 0 5px 0 5px;" | {{{3}}}
+|-
+| style="background:#C0D3EA; text-align:center; font-weight:bold"|Taxons concernés
+|-
+| style="background: #F9F9F9; padding: 0 5px 0 5px;" | {{{4}}}
+|-{{#if:{{{nocat|}}}||[[Catégorie:Artike aveuc eune infoboète éd biohomonymie|{{PAGENAME}}]]}}</includeonly>
+<noinclude>
+
+<!--{{Documentation}}-->
+
+[[Catégorie:Infoboète]]
+
+</noinclude>

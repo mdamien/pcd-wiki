@@ -1,7 +1,7 @@
 <includeonly>{{#ifexpr: {{{1}}} > 1964| Flag of Canada.svg
 |{{#ifexpr: {{{1}}} > 1957|Canadian Red Ensign 1957-1965.svg
-|{{#ifexpr: {{{1}}} > 1921|Flag of Canada 1921.svg
-|{{#ifexpr: {{{1}}} > 1868|Flag of Canada-1868-Red.svg
+|{{#ifexpr: {{{1}}} > 1921|Canadian Red Ensign 1921-1957.svg
+|{{#ifexpr: {{{1}}} > 1868|Canadian Red Ensign 1868-1921.svg
 |{{#ifexpr: {{{1}}} > 1801|Flag of the United Kingdom.svg
 |Union flag 1606 (Kings Colors).svg}}}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau du Canada}}
 {| class="wikitable"

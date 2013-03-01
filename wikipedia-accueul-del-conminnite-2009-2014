@@ -478,3 +478,13 @@ To stay up-to-date on everything happening around Wikidata please [[meta:Global 
 
 <small>Distributed via [[m:Global message delivery|Global message delivery]]. (Wrong page? [[m:Distribution list/Global message delivery|Fix here]].)</small>
 <!-- EdwardsBot 0366 -->
+
+== [[User:Addbot|Addbot]] ==
+*'''Operator:''' Addshore
+*'''Function summary:''' Removing interwiki links from pages that have links on [[d:|wikidata]] (this task will not run until Wikidata is rolled out onto this wiki which should be next week)
+*'''Function details:''' Over 700,000 edits on other language wikipedias using the same code
+*'''Programming language:''' PHP (own code)
+*'''Flag on:''' en,nl,no,he
+*'''[[Special:Contributions/Addbot|Contributions]]''' ([[sulutil:Addbot|coupled accounts via SUL]])
+*[[Special:Makebot/Addbot|Makebot]]
+[[Utilisateur:Addshore|Addshore]] ([[Discussion utilisateur:Addshore|discussion]]) 1 ed Marche 2013 à 23:33 (UTC)

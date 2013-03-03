@@ -27,27 +27,27 @@
 {{!}} colspan="2" style="text-align:center;background:#ffffff;color:black;"{{!}}{{#ifexist:Media:{{{image}}}|[[Fichier:{{{image}}}|{{#if:{{{taille image|}}}|{{#ifexpr:{{{taille image|280}}}<280|{{{taille image}}}|280}}|280}}px|{{{légende|{{PAGENAME}}}}}]]|{{{image}}}}}{{#if:{{{légende|}}}|<br /><small>{{{légende}}}</small>|}}
 |}}<!-- 
 
-Administration 
+Anménistrachon 
 
 -->
 {{Sous-titre optionnel|Aménistracion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|Païs| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
-{{Ligne optionnelle|État|{{{état|}}}}}
+{{Ligne optionnelle|Étot|{{{état|}}}}}
 {{Ligne optionnelle|Colectivité|{{{collectivité|}}}}}
 {{Ligne optionnelle|Région|{{{région|}}}}}
 {{Ligne optionnelle|Provinche|{{{province|}}}}}
 {{Ligne optionnelle|Départémint|{{{département|}}}}}
 {{Ligne optionnelle|Munichipalité|{{{municipalité|}}}}}
 {{Ligne optionnelle|Parosse|{{{paroisse|}}}}}
-{{Ligne optionnelle|Orondissemint|{{{arrondissement|}}}}}
+{{Ligne optionnelle|Arrondichemint|{{{arrondissement|}}}}}
 {{Ligne optionnelle|District|{{{district|}}}}}
 {{Ligne optionnelle|Kraj (région)|{{{kraj|}}}}}
 {{Ligne optionnelle|Okres (district)|{{{okres|}}}}}
 {{Ligne optionnelle|Obec (munichipalité)|{{{obec|}}}}}
 {{Ligne optionnelle|Ramòÿmint|{{{agglomération|}}}}}
-{{Ligne optionnelle|Mére|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
+{{Ligne optionnelle|Maire|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
 {{Ligne optionnelle|Préfet|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|<br />{{{mandat préfet}}}|}}|}}}}
-{{Ligne optionnelle|Govérneu|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|<br />{{{mandat gouverneur}}}|}}|}}}}
+{{Ligne optionnelle|Gouvérneu|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|<br />{{{mandat gouverneur}}}|}}|}}}}
 {{Ligne optionnelle|{{{nom de division|}}}|{{{division|}}}}}
 {{Ligne optionnelle|{{{titre autorité|}}}|{{#if:{{{autorité|}}}|{{{autorité}}}{{#if:{{{mandat autorité|}}}|<br />{{{mandat autorité}}}|}}|}}}}
 {{Ligne optionnelle|{{{nom de division2|}}}|{{{division2|}}}}}
@@ -61,7 +61,7 @@ Administration
 {{Ligne optionnelle|{{{nom de code2|}}}|{{{code2|}}}}}
 {{Ligne optionnelle|{{{nom de code3|}}}|{{{code3|}}}}}<!-- 
 
-Géographie 
+Jourgrafie 
 
 -->
 {{#if:{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{Superficie de l'agglomération|}}}|
@@ -72,7 +72,7 @@ Géographie
 {{Ligne optionnelle|Superfichie del conmune|{{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}}}|{{Rouge|{{{superficie agglomération}}}&nbsp;km²}}|{{Unité|{{#expr:{{{superficie agglomération}}}*100}}|ha}}&nbsp;=&nbsp;{{Unité|{{{superficie agglomération}}}|km²}}}}|}}}}
 |<nowiki></nowiki>}}<!-- 
 
-Démographie 
+Démografie 
 
 -->
 {{#if:{{{population|}}}{{{population agglomération|}}}{{{gentilé|}}}|
@@ -97,7 +97,7 @@ Divers
 |<nowiki></nowiki>}}
 <!--
 
-Géolocalisation 
+Géolocalisachon 
 
 -->{{#if:{{{imageloc|}}}|
 {{Sous-titre optionnel|Localisacion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
@@ -163,7 +163,7 @@ Géolocalisation
 -->}}|<!-- Pas de modèle de géolocalisation
 -->}}<!-- 
 
-Internet 
+Intarnète 
 
 -->
 {{#if:{{{site ville|}}}{{{url|}}}{{{url2|}}}{{{url3|}}}{{{url4|}}}|
@@ -176,7 +176,7 @@ Internet
 
 <!-- 
 
-Sources statistiques
+Sources éstatistiques
 
 -->
 {{#if:{{{source1|}}}{{{source2|}}}{{{source3|}}}{{{source4|}}}|
@@ -204,7 +204,7 @@ Sources statistiques
 |<nowiki></nowiki>}}
 |}<!--
 
-les mauvais paramétrages
+chés mauvais paramétrages
 
 {{#if:{{NAMESPACE}}||
 {{#if:{{{imageloc|}}}|[[Catégorie:modèle aveuc eune géolocalisacion éstatique]]|}}

@@ -41,6 +41,9 @@ Administration
 {{Ligne optionnelle|Parosse|{{{paroisse|}}}}}
 {{Ligne optionnelle|Orondissemint|{{{arrondissement|}}}}}
 {{Ligne optionnelle|District|{{{district|}}}}}
+{{Ligne optionnelle|Kraj (région)|{{{kraj|}}}}}
+{{Ligne optionnelle|Okres (district)|{{{okres|}}}}}
+{{Ligne optionnelle|Obec (munichipalité)|{{{obec|}}}}}
 {{Ligne optionnelle|Ramòÿmint|{{{agglomération|}}}}}
 {{Ligne optionnelle|Mére|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
 {{Ligne optionnelle|Préfet|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|<br />{{{mandat préfet}}}|}}|}}}}

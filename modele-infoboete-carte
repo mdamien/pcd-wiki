@@ -1,0 +1,137 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+  |'''{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}''' {{#if:{{{autre nom|{{{autres noms|}}} }}}|<br /><small>{{{autre nom|{{{autres noms|}}} }}}</small>}}
+  |{{{couleur|DDFFDD}}}
+  |entete map
+  |{{{couleur titre|}}}
+}}
+{{Infobox/Sous-titre optionnel|Jourgrafie|{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{superficie division2|{{{superficie agglomération|}}} }}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}} }}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+  |Coordonnées
+  |{{{latitude|}}}
+  |{{{longitude|}}}
+  |{{{type coord|city}}}
+  |title={{#ifeq:{{{coord titre|}}}|non| |oui}}
+}}
+
+<!--Géolocalisation -->
+{{#if: {{{imageloc|}}} {{#ifexpr:{{#if:{{{carte|}}}|1|0}} and {{#if:{{{latitude}}}|1|0}} and {{#if:{{{longitude}}}|1|0}} |OK}}
+   |! scope=col colspan="2" style="text-align:center;background-color:#{{{couleur|DDFFDD}}};color:#{{{couleur titre|000000}}}"{{!}}Localisation
+{{!-}} }}    <!-- Ces trois lignes remplacent Infobox/Sous-titre optionnel qui génère une ligne vide avant la carte de géolocalisation. -->
+{{#if: {{{imageloc|}}}
+  | {{Infobox/Image|{{{imageloc|}}}|{{{légende imageloc|}}}|{{{taille imageloc|}}}|{{{légende imageloc|Localisation de {{{nom|{{PAGENAME}} }}} }}} | | |Subdivision administrative}}
+}}
+{{#if: {{{carte|}}}  
+  |{{#ifeq:{{lc:{{{géolocdual}}} }}| oui |  <!-- 2/3 cartes avec géolocdual sur la première -->
+    {{Infobox/Géolocalisation multiple
+      |géolocalisation ={{#titleparts: {{{carte|}}}|1|1}}/{{{carte|}}}
+      |latitude = {{{latitude}}}
+      |longitude = {{{longitude}}}
+      |toponyme = {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+      |point =  {{{point|Ville sans {{#ifeq:{{lc:{{{position|ne}}} }}|aucune|toponyme|lien}} }}}
+      |parampoint1 = {{#if:{{{point|}}}|{{{arg1}}}|{{#if:{{{statut|}}}|{{#expr:10+{{{statut}}}}}|14}} }}
+      |parampoint2 = {{#if:{{{point|}}}
+        |{{{arg2}}}
+        |{{#if:{{{position|}}}
+          |{{{position}}}
+          |{{#ifexpr:({{Coordonnées/dms2dec|{{{longitude}}}}}-{{Géolocalisation/{{#titleparts: {{{carte|}}}|1|1}}| left}})/({{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|right}}-{{Coordonnées/dms2dec|{{{longitude}}}}})>3|nw|ne}}
+         }} 
+       }}
+      |largeur1 = {{{taille carte|280}}}
+      |type1 =  relief
+      |alt1 = Voir la carte topographique {{du?|{{#titleparts:{{{carte|}}}|1|1}}}}{{#titleparts:{{{carte|}}}|1|1}}
+      |largeur2 = {{{taille carte|280}}}
+      |type2 = {{{type|}}}
+      |alt2 = Voir la carte administrative {{du?|{{#titleparts:{{{carte|}}}|1|1}}}}{{#titleparts:{{{carte|}}}|1|1}}
+      |largeur3 = {{{taille carte2|280}}}
+      |type3 = {{{type carte2|}}}
+      |alt3 = Voir sur la carte {{#switch:{{{type carte2|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte2|}}}
+       }} {{du?|{{#titleparts:{{{carte|}}}|1|2}}}}{{#titleparts:{{{carte|}}}|1|2}}
+      |parampoint2-{{#if:{{{position2|}}}|3}} = {{{position2|}}}
+      |largeur4 = {{{taille carte3|280}}}
+      |type4 = {{{type carte3|}}}
+      |alt4 = Voir sur la carte {{#switch:{{{type carte3|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte3|}}}
+       }} {{du?|{{#titleparts:{{{carte|}}}|1|3}}}}{{#titleparts:{{{carte|}}}|1|3}}
+      |parampoint2-{{#if:{{{position3|}}}|4}} = {{{position3|}}}
+    }}|
+    {{Infobox/Géolocalisation multiple     <!--2/3 cartes simple -->
+      |géolocalisation ={{{carte|}}}
+      |latitude = {{{latitude}}}
+      |longitude = {{{longitude}}}
+      |toponyme = {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+      |point = {{{point| Ville sans {{#ifeq:{{lc:{{{position|ne}}} }}| aucune |toponyme|lien}} }}}
+      |parampoint1 = {{#if:{{{point|}}}|{{{arg1}}}|{{#if:{{{statut|}}}|{{#expr:10+{{{statut}}}}}|14}} }}
+      |parampoint2 = {{#if:{{{point|}}}
+        |{{{arg2}}}
+        |{{#if:{{{position|}}}
+          |{{{position}}}
+          |{{#ifexpr:({{Coordonnées/dms2dec|{{{longitude}}}}}-{{Géolocalisation/{{#titleparts: {{{carte|}}}|1|1}}| left}})/({{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|right}}-{{Coordonnées/dms2dec|{{{longitude}}}}})>3|nw|ne}}
+         }} 
+       }}
+      |largeur1 = {{#if: {{{taille carte|}}} | {{{taille carte|}}} | 280 }}
+      |type1 = {{{type|}}}
+      |alt1 = Voir sur la carte {{#titleparts:{{{carte|}}}|1|1}} {{#switch:{{{type|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type|}}}
+       }}
+      |largeur2 = {{#if: {{{taille carte2|}}} | {{{taille carte2|}}} | 280 }} 
+      |type2 = {{{type carte2|}}}
+      |alt2 = Voir sur la carte {{#titleparts:{{{carte|}}}|1|2}} {{#switch:{{{type carte2|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte2|}}}
+       }}
+      |parampoint2-{{#if:{{{position2|}}}|2}} = {{{position2|}}}
+      |largeur3 = {{#if: {{{taille carte3|}}} | {{{taille carte3|}}} | 280 }} 
+      |type3 = {{{type carte3|}}}
+      |alt3 = Voir sur la carte {{#titleparts:{{{carte|}}}|1|3}} {{#switch:{{{type carte3|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte3|}}}
+       }}
+      |parampoint2-{{#if:{{{position3|}}}|3}} = {{{position3|}}}
+    }}
+  }}
+}}
+{{Infobox/Fin}}<!--
+
+les mauvais paramétrages
+
+-->{{#ifeq:{{NAMESPACENUMBER}}/{{{nocat|}}}|10/|{{#ifeq: {{localurl:{{{modèle|}}}}} | {{localurl:{{BASEPAGENAME}}}}||[[Catégorie:Infobox Subdivision administrative - Paramètre modèle mal renseigné]]}}}}<!--
+
+Categorisation geolocalisation
+-->{{#if: {{NAMESPACE}} ||
+ {{#if:{{{latitude|}}}
+   |{{#if:{{{carte|}}}
+     |{{#ifexpr: {{Géolocalisation/{{#titleparts:{{{carte}}}|1|1}}|x|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude}}}}}}}<=0
+       or  {{Géolocalisation/{{#titleparts:{{{carte}}}|1|1}}|x|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude}}}}}}}>=100 
+       or  {{Géolocalisation/{{#titleparts:{{{carte}}}|1|1}}|y|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude}}}}}}}<=0
+       or  {{Géolocalisation/{{#titleparts:{{{carte}}}|1|1}}|y|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude}}}}}}}>=100  
+       | [[Catégorie:Article avec une géolocalisation hors-carte]]
+      }}
+     |{{#ifeq:{{{géolocalisation|}}}|non| |[[Catégorie:Infobox Subdivision administrative - Article géolocalisable sans carte]]}}
+    }}
+   |{{#ifeq:{{{géolocalisation|}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|[[Catégorie:Subdivision administrative géolocalisable sans coordonnées paramétrées]]}}
+ }}
+ {{#if:{{{latitude|}}}|{{#iferror:{{#expr:{{Coordonnées/dms2dec|{{{latitude}}} }}*1}} |[[Catégorie:Infobox Subdivision administrative - Coordonnées mal renseignées]] | }} }}
+ {{#if:{{{longitude|}}}|{{#iferror:{{#expr:{{Coordonnées/dms2dec|{{{longitude}}} }}*1}} |[[Catégorie:Infobox Subdivision administrative - Coordonnées mal renseignées]] | }} }}
+ {{#if:{{{population|}}}|{{#iferror:{{#expr:{{{population|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Population non numérique]] | }} }}
+ {{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Superficie non numérique]] | }}  }}
+ {{#if:{{{population division|}}}|{{#iferror:{{#expr:{{{population division|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Population non numérique]] | }} }}
+ {{#if:{{{superficie division|}}}|{{#iferror:{{#expr:{{{superficie division|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Superficie non numérique]] | }} }}
+ {{#if:{{{population agglomération|}}}|{{#iferror:{{#expr:{{{population agglomération|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Population non numérique]] | }} }}
+ {{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Population non numérique]] | }} }}
+ {{#if:{{{pays|}}}|{{#ifexist: Modèle:{{{pays|}}} | |[[Catégorie:Infobox Subdivision administrative - Pays mal codifié]] }} }}
+ {{#if: {{{densité|}}} {{{densité division|}}} {{{densité agglomération|}}} | [[Catégorie: Page utilisant un modèle avec un paramètre obsolète|densité]] }}
+ {{#if:{{{modèle|}}}{{{lien Infobox|}}}| |[[Catégorie:Infobox Subdivision administrative - Page faisant un appel direct au modèle|{{{pays|}}} ]] }}
+}}<!-- 
+Illustrations
+{{#if:{{{image|}}}||[[Catégorie:Article à illustrer Subdivision administrative]]}}--><!--{{#ifeq:{{{image|}}}|Defaut.svg|[[Catégorie:Subdivision administrative illustrée par defaut.svg]]|}}-->
+</includeonly><noinclude>{{Documentation}}</noinclude>

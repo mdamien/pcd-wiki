@@ -1,0 +1,66 @@
+<noinclude>{{Bandeau Infobox V2}}[[catégorie:Infoboète]]
+<!--==============================================================
+<includeonly>{{Infobox V3/Début|icon=auteur|background=#4C6099|color=#fff|text={{{nom|}}}}}<!-- IMAGE
+-->{{#if:{{{image|}}}|
+{{Infobox V3/Image|image={{{image|}}}|legend={{{légende|}}}}}
+{{Infobox V3/Séparateur|background=#aaa|height=1}}
+|[[Catégorie:Article à illustrer/Écrivain]]}}
+==============================================================-->
+</noinclude><includeonly>{| class="infobox_v2 vcard" cellspacing="7" border="0" style="border-color:#8888AA;"
+| colspan="2" class="entete {{#if:{{{entete|}}}|{{{entete|}}}|defaut}}" style="background-color:#EEEEFF;color:black;" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
+|-
+{{#if:{{{image|}}} |
+{{!}} colspan="2" align="center" {{!}} [[Image:{{{image|}}}|{{#if:{{{taille image|}}}|{{{taille image}}}px|220px}}|center|{{#if:{{{légende|}}}|{{{légende}}}}}]]
+{{!-}}
+<!--|[[Catégorie:Artique à illustrer]]-->
+}}
+<!-- DONNEES CLE -->
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Nom|{{{nom de naissance|}}}}}
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Eutes noms|{{{nom alias|}}}}}
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Activités|{{{activité|}}}}}
+
+<!--{{#if:{{{date de naissance|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{date de naissance}}}</div>
+{{!-}}
+}}-->{{Infobox V3/Tableau Ligne mixte|width=9|Né(e)|{{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|{{#if:{{{date de naissance|}}}|<br />}}{{{lieu de naissance|}}}}}|if={{{date de naissance|}}}{{{lieu de naissance|}}}}}
+
+<!--{{#if:{{{date de décès|}}} |-->
+{{Infobox V3/Tableau Ligne mixte|width=9|Décès|{{{date de décès|}}}{{#if:{{{lieu de décès|}}}|{{#if:{{{date de décès|}}}|<br />}}{{{lieu de décès|}}}}}|if={{{date de décès|}}}{{{lieu de décès|}}}}}
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Langue d'chés lifes|{{{langue|}}}}}
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Mouvemint litéroère|{{{mouvement|}}}}}
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Ginres|{{{genre|}}}}}
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Distinctions|{{{distinctions|}}}}}
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Adjectifs dérivés|{{{adjectifs dérivés|}}}}}
+
+<!--{{#if:{{{œuvre|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{œuvre}}}</div>
+{{!-}}
+}}-->{{Infobox V3/Tableau Ligne mixte|width=9|écrits|{{{œuvre|}}}}}
+
+<!--{{#if:{{{complément|}}}|
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{complément}}}</div>
+{{!-}}
+}}-->{{Infobox V3/Tableau Ligne mixte|width=9|+|{{{complément|}}}}}
+
+<!--{{#if:{{{signature|}}}| 
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{signature}}}</div>
+{{!-}}
+}}-->{{Infobox V3/Tableau Ligne mixte|width=9|+|{{{signature|}}}}}
+
+<!--{{Infobox V3/Fin|Modèle:Infobox Écrivain|class=bordered|border-color=#aaa}}{{Suivi des biographies|Littérature}}--></includeonly><noinclude><!--{{Documentation}}--></noinclude>
+</div>
+{{#if:{{{signature|}}}| 
+{{!}} colspan="2" style="font-size: smaller; text-align: center;" {{!}}'''Signature'''<br/>
+[[Image:{{{signature}}}|128px|]]}}
+|}
+<!--{{Suivi des biographies}}--></includeonly><noinclude>
+<!--{{Documentation}}-->
+<!-- Chés catégories pi intérwikis is doétte ète rajoutés dins l'edsous-pache /Documentation et pi non ichi. Merchi. --></noinclude>

@@ -1,0 +1,35 @@
+<includeonly><!--
+-->{{ #if: {{{traducteur|}}}{{{préface|}}}{{{illustrateur|}}}{{{photographe|}}}{{{champ libre|}}}
+      |{{espace}}({{ #if: {{{traducteur|}}}
+                     |{{abréviation discrète|1=trad.|2=traduction}}&nbsp;{{{traducteur}}}<!--
+                   -->{{ #if: {{{préface|}}}{{{illustrateur|}}}{{{photographe|}}}
+                         |,{{espace}}<!--
+                      -->}}<!--
+                  -->}}<!--
+               -->{{ #if: {{{préface|}}}
+                     |{{abréviation discrète|1=préf.|2=préface}}&nbsp;{{{préface}}}<!--
+                   -->{{ #if: {{{illustrateur|}}}{{{photographe|}}}
+                         |,{{espace}}<!--
+                      -->}}<!--
+                  -->}}<!--
+               -->{{ #if: {{{illustrateur|}}}
+                     |{{abréviation discrète|1=ill.|2=illustrations}}&nbsp;{{{illustrateur}}}<!--
+                   -->{{ #if: {{{photographe|}}}
+                         |,{{espace}}<!--
+                      -->}}<!--
+                  -->}}<!--
+               -->{{ #if: {{{photographe|}}}
+                     |{{abréviation discrète|1=photogr.|2=photographies}}&nbsp;{{{photographe}}}<!--
+                   -->{{ #if: {{{champ libre|}}}
+                         |,{{espace}}<!--
+                      -->}}<!--
+                  -->}}<!--
+               -->{{ #if: {{{champ libre|}}}
+                     |{{{champ libre}}}}})<!--
+   -->}}</includeonly><noinclude><!--
+
+  Pour limiter le nombre de changements de cette page merci de placer les
+  métadonnées (catégories, interwikis) concernant ce modèle dans une
+  section <includeonly> de sa sous-page de documentation, plutôt qu'ici.
+
+-->{{nobots}}<!--{{Documentation}}--></noinclude>

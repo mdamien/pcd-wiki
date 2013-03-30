@@ -1,0 +1,5 @@
+<includeonly><!--
+-->{{ #if: {{{libellé|}}}
+      | <small>[{{{libellé}}}]</small>{{espace}}
+      }}</includeonly><noinclude><!--
+-->{{nobots}}<--{{Documentation}}--></noinclude>

@@ -1,0 +1,23 @@
+<includeonly><!--
+-->{{ #if:{{{nom|}}}
+      | {{ #if:{{{lien|}}}
+           |[[{{{lien|}}}|{{ #if:{{{prénom|}}}
+                             |{{{prénom|}}}{{espace}}<!--
+                          -->}}{{{nom|}}}]]<!--
+        -->| {{ #if:{{{prénom|}}}
+                |{{{prénom|}}}{{espace}}}}{{{nom|}}}<!--
+             -->}}<!--
+          -->{{ #if:{{{directeur|}}}{{{responsabilité|}}}
+                |{{espace}}({{ #if:{{{directeur|}}}
+                               |{{abréviation discrète|dir.|directeur de publication}}<!--
+                             -->{{ #if:{{{responsabilité|}}}
+                                   |{{espace}}et{{espace}}<!--
+                                -->}}
+                               }}<!--
+                         -->{{ #if:{{{responsabilité|}}}
+                                   |{{{responsabilité}}}<!--
+                                -->}})<!--
+             -->}}<!--
+   -->}}<!--
+--></includeonly><noinclude><!--
+-->{{nobots}}<!--{{Documentation}}--></noinclude>

@@ -1,0 +1,317 @@
+<includeonly><!--
+
+SPAN INITIAL
+-->{{module biblio/span initial
+     | id = {{{id|}}}
+     | id1 = {{{nom1|{{{nom|{{{auteur|}}}}}}}}}
+     | id2 = {{{nom2|}}}
+     | id3 = {{{nom3|}}}
+     | id4 = {{{nom4|}}}
+     | id5 = {{{année|}}}
+}}<!--
+
+LIBELLÉ
+-->{{module biblio/libellé
+     | libellé = {{{libellé|}}}
+}}<!--
+
+INDICATION DE LANGUE
+-->{{module biblio/indication de langue
+     | langue = {{{langue|{{{lang|{{{lien langue|}}}}}}}}}
+}}<!--
+
+-->{{#if: {{{langue|{{{lang|{{{lien langue|}}}}}}}}}
+     | {{#if: {{Code langue 2 | {{{langue|{{{lang|{{{lien langue}}}}}}}}} }}
+         |
+         | {{#switch:{{NAMESPACENUMBER}}|0|4|10|14|100=[[Catégorie:Article utilisant le modèle Ouvrage avec un paramètre langue non reconnu]]|#default=}}
+       }}
+}}<!--
+
+RESPONSABILITÉ PRINCIPALE
+-->{{ #if: {{{nom1|}}}{{{nom|}}}{{{auteur|}}}{{{auteurs|}}}
+   |{{#if:{{{auteurs|}}}|{{{auteurs}}}|<!--
+-->{{module biblio/responsabilité principale
+     | et al. = {{{et al.|{{{et alii}}}}}}
+     | prénom1 = {{{prénom1|{{{prénom|}}}}}}
+     | nom1 = {{#if: {{{nom1|{{{nom|}}}}}}|{{{nom1|{{{nom|}}}}}}|{{{auteur|}}}}}
+     | lien1 = {{#if: {{{nom|}}} |{{#if: {{{nolien|}}} | | {{{prénom|}}} {{{nom|}}}}}| {{{lien auteur1|{{{lien auteur|}}}}}} }}
+     | responsabilité1 = {{{responsabilité1|}}}
+     | directeur1 = {{{directeur1|{{{directeur|}}}}}}
+     | prénom2 = {{{prénom2|}}}
+     | nom2 = {{{nom2|}}}
+     | lien2 = {{{lien auteur2|}}}
+     | responsabilité2 = {{{responsabilité2|}}}
+     | directeur2 = {{{directeur2|}}}
+     | prénom3 = {{{prénom3|}}}
+     | nom3 = {{{nom3|}}}
+     | lien3 = {{{lien auteur3|}}}
+     | responsabilité3 = {{{responsabilité3|}}}
+     | directeur3 = {{{directeur3|}}}
+     | prénom4 = {{{prénom4|}}}
+     | nom4 = {{{nom4|}}}
+     | lien4 = {{{lien auteur4|}}}
+     | responsabilité4 = {{{responsabilité4|}}}
+     | directeur4 = {{{directeur4|}}}
+     | prénom5 = {{{prénom5|}}}
+     | nom5 = {{{nom5|}}}
+     | lien5 = {{{lien auteur5|}}}
+     | responsabilité5 = {{{responsabilité5|}}}
+     | directeur5 = {{{directeur5|}}}
+     | prénom6 = {{{prénom6|}}}
+     | nom6 = {{{nom6|}}}
+     | lien6 = {{{lien auteur6|}}}
+     | responsabilité6 = {{{responsabilité6|}}}
+     | directeur6 = {{{directeur6|}}}
+     | prénom7 = {{{prénom7|}}}
+     | nom7 = {{{nom7|}}}
+     | lien7 = {{{lien auteur7|}}}
+     | responsabilité7 = {{{responsabilité7|}}}
+     | directeur7 = {{{directeur7|}}}
+     | prénom8 = {{{prénom8|}}}
+     | nom8 = {{{nom8|}}}
+     | lien8 = {{{lien auteur8|}}}
+     | responsabilité8 = {{{responsabilité8|}}}
+     | directeur8 = {{{directeur8|}}}
+     | prénom9 = {{{prénom9|}}}
+     | nom9 = {{{nom9|}}}
+     | lien9 = {{{lien auteur9|}}}
+     | responsabilité9 = {{{responsabilité9|}}}
+     | directeur9 = {{{directeur9|}}}
+     | prénom10 = {{{prénom10|}}}
+     | nom10 = {{{nom10|}}}
+     | lien10 = {{{lien auteur10|}}}
+     | responsabilité10 = {{{responsabilité10|}}}
+     | directeur10 = {{{directeur10|}}}
+     | prénom11 = {{{prénom11|}}}
+     | nom11 = {{{nom11|}}}
+     | lien11 = {{{lien auteur11|}}}
+     | responsabilité11 = {{{responsabilité11|}}}
+     | directeur11 = {{{directeur11|}}}
+     | prénom12 = {{{prénom12|}}}
+     | nom12 = {{{nom12|}}}
+     | lien12 = {{{lien auteur12|}}}
+     | responsabilité12 = {{{responsabilité12|}}}
+     | directeur12 = {{{directeur12|}}}
+     | prénom13 = {{{prénom13|}}}
+     | nom13 = {{{nom13|}}}
+     | lien13 = {{{lien auteur13|}}}
+     | responsabilité13 = {{{responsabilité13|}}}
+     | directeur13 = {{{directeur13|}}}
+     | prénom14 = {{{prénom14|}}}
+     | nom14 = {{{nom14|}}}
+     | lien14 = {{{lien auteur14|}}}
+     | responsabilité14 = {{{responsabilité14|}}}
+     | directeur14 = {{{directeur14|}}}
+     | prénom15 = {{{prénom15|}}}
+     | nom15 = {{{nom15|}}}
+     | lien15 = {{{lien auteur15|}}}
+     | responsabilité15 = {{{responsabilité15|}}}
+     | directeur15 = {{{directeur15|}}}
+}}<!--
+-->}}<!--
+-->{{#if: {{{co-auteur|}}}
+     |, {{{co-auteur|}}}
+     }}<!--
+
+RESPONSABILITÉ SECONDAIRE
+-->{{module biblio/responsabilité secondaire
+     | traducteur={{{traducteur|{{{trad|{{{traduction|}}}}}}}}}
+     | préface={{{préface|}}}
+     | illustrateur={{{illustrateur|}}}
+     | photographe={{{photographe|}}}
+}}<!--
+
+ FIN DU #IF DÉMARRANT LA SÉQUENCE D'AUTEURS
+-->,{{espace}}}}<!--
+
+-->{{#if:{{{titre|}}}
+         | <cite {{#if: {{Code langue 2|{{{langue|{{{lang|}}}}}}}} | lang="{{Code langue 2|{{{langue|{{{lang}}}}}}}}" }}>{{#if:{{{lien titre|}}}|[[{{{lien titre}}}{{!}}{{{titre}}}{{#if: {{{sous-titre|}}} |<nowiki>&nbsp;:</nowiki> {{{sous-titre}}}}}]]|{{{titre}}}{{#if: {{{sous-titre|}}} |<nowiki>&nbsp;:</nowiki> {{{sous-titre}}}}}}}</cite>{{#if:{{{titre original|}}}{{{titre vo|}}}
+                                                        |{{#ifeq: {{{titre original|{{{titre vo}}}}}}
+                                                           |{{{titre}}}
+                                                           |
+                                                           |<nowiki> [</nowiki>«&nbsp;{{{titre original|{{{titre vo}}}}}}&nbsp;»<nowiki>]</nowiki>
+                                                           }}
+                                                        }}<!--
+
+FIN DU #IF DE TITRE
+-->  }}{{#if:{{{volume|}}}
+         |, {{vol.}}{{{volume}}}
+         }}{{
+         #if:{{{tome|}}}
+         |, {{t.}}{{{tome}}}
+         }}{{
+         #if:{{{titre volume|}}}{{{titre tome|}}}
+         |{{#if:{{{volume|}}}{{{tome|}}}
+            |&nbsp;:{{espace}}
+            |,{{espace}}
+            }}''{{{titre volume|{{{titre tome}}}}}}''
+         }}{{
+           #if: {{{référence|}}}
+           |{{espace}}{{détail des éditions|{{{référence|}}}}}
+           | <!--
+          -->{{#if:{{{référence simplifiée|}}}{{{ref|}}}
+               | {{ #if:{{{lieu|}}}
+                    |, {{{lieu|}}}
+                    }}<!--
+              -->{{ #if:{{{éditeur|}}}{{{édition|}}}
+                    |, {{#if: {{{lien éditeur|}}}
+                         | [[{{{lien éditeur}}}{{!}}{{{éditeur|{{{édition|}}}}}}]]
+                         | {{{éditeur|{{{édition|}}}}}}
+                         }}
+                    }}<!--
+              -->{{ #if:{{{année|}}} |, {{{année}}} }}<!--
+              -->{{espace}}{{détail édition|{{{référence simplifiée|{{{ref}}}}}}}}
+               | <!--
+              -->{{ #if:{{{lieu|}}}
+                    |, {{{lieu|}}}
+                    }}<!--
+              -->{{ #if:{{{éditeur|}}}{{{édition|}}}
+                    |, {{#if: {{{lien éditeur|}}}
+                         | [[{{{lien éditeur}}}{{!}}{{{éditeur|{{{édition|}}}}}}]]
+                         | {{{éditeur|{{{édition|}}}}}}
+                         }}
+                    }}<!--
+              -->{{ #if:{{{collection|}}}
+                    |, {{coll.}}&nbsp;«&nbsp;{{{collection}}}{{ #if:{{{série|}}}
+                                                       |{{espace}}/ {{{série}}}
+                                                       }}&nbsp;»
+                    }}<!--
+              -->{{ #if:{{{numéro dans collection|}}}
+                    |{{espace}}({{numéro}}{{{numéro dans collection}}})
+                    }}<!--
+              -->{{#if:{{{jour|}}}{{{mois|}}}{{{année|}}}{{{date|}}}|<!--
+                -->, {{inscription date<!--
+                    -->|jour={{{jour|}}}<!--
+                    -->|mois={{{mois|}}}<!--
+                    -->|année={{{année|}}}<!--
+                    -->|date={{{date|}}}<!--
+                    -->}}<!--
+                -->}}<!--
+              -->{{ #if:{{{réimpression|}}}{{{publi|}}}
+                    |{{espace}}({{abréviation discrète|1=réimpr.|2=réimpression}}&nbsp;{{{réimpression|{{{publi}}}}}})
+                    }}<!--
+              -->{{ #if: {{{numéro d'édition|}}}{{{année première édition|}}}{{{origyear|}}}
+                    | {{#if: {{{numéro d'édition|}}} | {{#ifeq: {{{numéro d'édition}}}
+                         | 1
+                         |, {{1re}}
+                         |, {{{{{numéro d'édition}}}e}}
+                         }}{{éd.}}}}{{ #if: {{{année première édition|}}}{{{origyear|}}}
+                                     |{{espace}}({{1re}}{{éd.}} {{{année première édition|{{{origyear}}}}}})
+                                     }}
+                    }}<!--
+              -->{{ #if:{{{format|}}}
+                    |, {{{format}}}
+                    }}<!--
+              -->{{ #if:{{{pages totales|}}}{{{pages|}}}
+                    |, {{{pages totales|{{{pages}}}}}}{{nb p.}}
+                    }}<!--
+              -->{{ #if:{{{isbn|}}}{{{ISBN|}}}{{{isbn1|}}}{{{ISBN1|}}}{{{isbn2|}}}{{{ISBN2|}}}{{{isbn3|}}}{{{ISBN3|}}}{{{issn|}}}{{{ISSN|}}}{{{issn1|}}}{{{ISSN1|}}}{{{issn2|}}}{{{ISSN2|}}}{{{issn3|}}}{{{ISSN3|}}}
+                    |{{espace}}{{module biblio/identifiants normalisés internationaux
+                                 | isbn1 = {{{isbn|{{{ISBN|{{{isbn1|{{{ISBN1|}}}}}}}}}}}}
+                                 | isbn2 = {{{isbn2|{{{ISBN2|}}}}}}
+                                 | isbn3 = {{{isbn3|{{{ISBN3|}}}}}}
+                                 | issn1 = {{{issn|{{{ISSN|{{{issn1|{{{ISSN1|}}}}}}}}}}}}
+                                 | issn2 = {{{issn2|{{{ISSN2|}}}}}}
+                                 | issn3 = {{{issn3|{{{ISSN3|}}}}}}
+                                 }}<!--
+                 -->}}<!--
+             -->}}<!--
+FIN DU #IF de RÉFÉRENCE
+         -->}}<!--
+FIN DU #IF de RÉFÉRENCE SIMPLIFIÉE
+     -->{{ #if:{{{oclc|}}}
+           |{{espace}}{{OCLC|{{{oclc}}}}}
+           }}<!--
+     -->{{ #if:{{{bnf|}}}
+           |{{espace}}{{BNF|{{{bnf}}}}}
+           }}<!--
+     -->{{ #if:{{{lccn|}}}
+           |{{espace}}{{LCCN|{{{lccn}}}}}
+           }}<!--
+     -->{{ #if:{{{dnb|}}}
+           |{{espace}}{{DNB-ref|{{{dnb}}}}}
+           }}<!--
+       -->{{ #if:{{{jstor|}}}
+           |{{espace}}({{JSTOR|{{{jstor}}}}})
+           }}<!--
+     -->{{ #if: {{{lire en ligne|}}}{{{url|}}}
+           |{{espace}}{{lire en ligne|lien={{{lire en ligne|{{{url|}}}}}}|date={{{consulté le|}}}}}
+           }}<!--
+     -->{{ #if: {{{écouter en ligne|}}}
+           |{{espace}}{{écouter en ligne|lien={{{écouter en ligne|}}}|date={{{consulté le|}}}}}
+           }}<!--
+     -->{{ #if: {{{présentation en ligne|}}}
+           |{{espace}}{{présentation en ligne|lien={{{présentation en ligne}}}}}
+           }}<!--
+     -->{{ #if:{{{partie|}}}
+           |, partie&nbsp;{{rom-maj|{{{partie}}}}}
+           }}<!--
+     -->{{ #if:{{{numéro chapitre|{{{numéro|}}}}}}
+           |, {{chap.}}{{rom-maj|{{{numéro chapitre|{{{numéro}}}}}}}}{{ #if:{{{titre chapitre|}}}{{{chap|}}}
+                                                   |{{espace}}(«&nbsp;{{{titre chapitre|{{{chap|}}}}}}&nbsp;»)
+                                                   }}
+           |{{ #if:{{{titre chapitre|}}}{{{chap|}}}
+               |, «&nbsp;{{{titre chapitre|{{{chap|}}}}}}&nbsp;»
+               }}
+           }}<!--
+     -->{{ #if:{{{passage|}}}
+           |, {{p.}}{{{passage}}}
+           }}<!--
+--></span>{{
+#if:{{{extrait|}}}
+|&nbsp;: {{Citation bloc|{{{extrait|}}}}}
+}}{{
+#if: {{{commentaire|}}}
+|{{#if: {{{extrait|}}}||{{#if: {{{isbn|}}}{{{issn|}}}{{{oclc|}}}{{{référence|}}}{{{présentation en ligne|}}}{{{partie|}}}{{{numéro chapitre|}}}{{{numéro|}}}{{{passage|}}}|.}}}}{{#if:{{{plume|}}}|&nbsp;{{plume}}}}{{Commentaire biblio|{{{commentaire}}}}}|{{#if:{{{plume|}}}|&nbsp;{{plume}}}}
+}}<!--
+-->{{#ifeq: {{{COinS|}}} | non ||{{COinS bibliographique
+|genre=ouvrage
+|prénom1={{{prénom1|{{{prénom|}}}}}}
+|nom1={{#if: {{{nom1|{{{nom|}}}}}}|{{{nom1|{{{nom|}}}}}}|{{{auteur|}}}}}
+|prénom2={{{prénom2|}}}
+|nom2={{{nom2|}}}
+|prénom3={{{prénom3|}}}
+|nom3={{{nom3|}}}
+|prénom4={{{prénom4|}}}
+|nom4={{{nom4|}}}
+|prénom5={{{prénom5|}}}
+|nom5={{{nom5|}}}
+|prénom6={{{prénom6|}}}
+|nom6={{{nom6|}}}
+|prénom7={{{prénom7|}}}
+|nom7={{{nom7|}}}
+|prénom8={{{prénom8|}}}
+|nom8={{{nom8|}}}
+|prénom9={{{prénom9|}}}
+|nom9={{{nom9|}}}
+|prénom10={{{prénom10|}}}
+|nom10={{{nom10|}}}
+|prénom11={{{prénom11|}}}
+|nom11={{{nom11|}}}
+|prénom12={{{prénom12|}}}
+|nom12={{{nom12|}}}
+|prénom13={{{prénom13|}}}
+|nom13={{{nom13|}}}
+|prénom14={{{prénom14|}}}
+|nom14={{{nom14|}}}
+|prénom15={{{prénom15|}}}
+|nom15={{{nom15|}}}
+|édition={{ #if: {{{numéro d'édition|}}} | {{#ifeq: {{{numéro d'édition}}} | 1 | 1re | {{{numéro d'édition}}}e}} édition}}
+|titre={{{titre|}}}
+|sous-titre={{{sous-titre|}}}
+|titre section={{{titre chapitre|{{{chap|}}}}}}
+|année={{{année|}}}
+|mois={{{mois|}}}
+|jour={{{jour|}}}
+|date={{{date|}}}
+|éditeur={{{éditeur|{{{édition|}}}}}}
+|lieu={{{lieu|}}}
+|pages={{{passage|}}}
+|pages totales={{{pages totales|{{{pages}}}}}}
+|issn={{{issn|{{{ISSN|{{{issn2|{{{ISSN2|{{{issn3|{{{ISSN3|}}}}}}}}}}}}}}}}}}
+|isbn={{{isbn|{{{ISBN|}}}}}}
+|doi={{{doi|}}}
+|oclc={{{oclc|}}}
+|url={{{lire en ligne|{{{url|{{{présentation en ligne|}}}}}}}}}}}
+}}</includeonly><noinclude><!--{{Documentation}}
+-->{{nobots}}</noinclude>

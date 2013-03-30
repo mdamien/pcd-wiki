@@ -1,0 +1,9 @@
+<includeonly><!--
+--><span class="ouvrage" id="<!--
+  -->{{ #if:{{{id|}}}
+        | {{{id}}}
+        | {{anchorencode:<!--
+       -->{{{id1|}}}{{{id2|}}}{{{id3|}}}{{{id4|}}}{{{id5|}}}<!--
+     -->}}
+     }}"></includeonly><noinclude><!--
+-->{{nobots}}<!--{{Documentation}}--></noinclude>

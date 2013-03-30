@@ -1,0 +1,116 @@
+<includeonly><!--
+-->{{Multiparamètres
+     | et = {{ #if: {{{nom16|}}} | | {{ #ifeq: {{{et al.|}}} | oui | | et }} }}
+     | {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom1|}}}
+         | nom = {{{nom1|}}}
+         | lien = {{{lien1|}}}
+         | responsabilité = {{{responsabilité1|}}}
+         | directeur = {{{directeur1|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom2|}}}
+         | nom = {{{nom2|}}}
+         | lien = {{{lien2|}}}
+         | responsabilité = {{{responsabilité2|}}}
+         | directeur = {{{directeur2|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom3|}}}
+         | nom = {{{nom3|}}}
+         | lien = {{{lien3|}}}
+         | responsabilité = {{{responsabilité3|}}}
+         | directeur = {{{directeur3|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom4|}}}
+         | nom = {{{nom4|}}}
+         | lien = {{{lien4|}}}
+         | responsabilité = {{{responsabilité4|}}}
+         | directeur = {{{directeur4|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom5|}}}
+         | nom = {{{nom5|}}}
+         | lien = {{{lien5|}}}
+         | responsabilité = {{{responsabilité5|}}}
+         | directeur = {{{directeur5|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom6|}}}
+         | nom = {{{nom6|}}}
+         | lien = {{{lien6|}}}
+         | responsabilité = {{{responsabilité6|}}}
+         | directeur = {{{directeur6|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom7|}}}
+         | nom = {{{nom7|}}}
+         | lien = {{{lien7|}}}
+         | responsabilité = {{{responsabilité7|}}}
+         | directeur = {{{directeur7|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom8|}}}
+         | nom = {{{nom8|}}}
+         | lien = {{{lien8|}}}
+         | responsabilité = {{{responsabilité8|}}}
+         | directeur = {{{directeur8|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom9|}}}
+         | nom = {{{nom9|}}}
+         | lien = {{{lien9|}}}
+         | responsabilité = {{{responsabilité9|}}}
+         | directeur = {{{directeur9|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom10|}}}
+         | nom = {{{nom10|}}}
+         | lien = {{{lien10|}}}
+         | responsabilité = {{{responsabilité10|}}}
+         | directeur = {{{directeur10|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom11|}}}
+         | nom = {{{nom11|}}}
+         | lien = {{{lien11|}}}
+         | responsabilité = {{{responsabilité11|}}}
+         | directeur = {{{directeur11|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom12|}}}
+         | nom = {{{nom12|}}}
+         | lien = {{{lien12|}}}
+         | responsabilité = {{{responsabilité12|}}}
+         | directeur = {{{directeur12|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom13|}}}
+         | nom = {{{nom13|}}}
+         | lien = {{{lien13|}}}
+         | responsabilité = {{{responsabilité13|}}}
+         | directeur = {{{directeur13|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom14|}}}
+         | nom = {{{nom14|}}}
+         | lien = {{{lien14|}}}
+         | responsabilité = {{{responsabilité14|}}}
+         | directeur = {{{directeur14|}}}
+         }}<!--
+  -->| {{module biblio/responsabilité principale/responsable
+         | prénom = {{{prénom15|}}}
+         | nom = {{{nom15|}}}
+         | lien = {{{lien15|}}}
+         | responsabilité = {{{responsabilité15|}}}
+         | directeur = {{{directeur15|}}}
+         }}<!--
+  -->| {{ #if: {{{nom16|}}}
+          | {{et al.}}
+            <!-- S'il y a un paramètre <nom16>, afficher "et al." à la place -->
+          | {{ #ifeq: {{{et al.|}}} | oui | {{et al.}} }}
+            <!-- S'il n'y a pas de paramètre <nom16> mais que le paramètre <et al.> vaut "oui", afficher "et al." quand même -->
+          }}<!--
+  -->}}</includeonly><noinclude><!--
+-->{{nobots}}<!--{{Documentation}}--></noinclude>

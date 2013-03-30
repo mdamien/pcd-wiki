@@ -1,0 +1,8 @@
+<includeonly><!--
+-->{{ #switch: {{Code langue 2 | {{{langue|}}} }}
+      | fr       = <!-- rien n'est affiché si <langue> = "fr" -->
+      |          = <!-- rien n'est affiché si <langue> est vide ou si sa valeur est non supportée par {{Code langue 2}} -->
+      | #default = <!-- si la valeur de <langue> est supportée par {{Code langue 2}}, afficher le modèle d'indication de langue correspondant -->
+                   {{ {{Code langue 2 | {{{langue}}} }} }}{{espace}}
+      }}</includeonly><noinclude><!--
+-->{{nobots}}<!--{{Documentation}}--></noinclude>

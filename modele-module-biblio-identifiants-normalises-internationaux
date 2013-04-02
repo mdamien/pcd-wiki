@@ -1,0 +1,8 @@
+<includeonly><!--
+-->{{ #if:{{{isbn1|}}}{{{isbn2|}}}{{{isbn3|}}}
+      |{{ISBN|{{{isbn1|}}}|{{{isbn2|}}}|{{{isbn3|}}}}}
+      }}<!--
+-->{{ #if:{{{issn1|}}}{{{issn2|}}}{{{issn3|}}}
+      |{{ISSN|{{{issn1|}}}|{{{issn2|}}}|{{{issn3|}}}}}
+      }}</includeonly><noinclude><!--
+-->{{nobots}}<!--{{Documentation}}--></noinclude>

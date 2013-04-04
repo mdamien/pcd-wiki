@@ -8,22 +8,4 @@
 |align={{#switch:{{{align|left}}}|l|left|gauche|drapeau|g=left|d|droite|right|r=right|no|none=none|#default=left}}
 |nombre={{#if:{{{2|}}}|{{{2|}}}|}}
 }}{{#if:{{{3|}}}|&nbsp;<span style="font-size:90%">({{{3|}}})</span>}}</includeonly><noinclude>{{Documentation}}
-[[bn:টেমপ্লেট:FlagIOC]]
-[[cs:Šablona:FlagIOC]]
-[[en:Template:FlagIOC]]
-[[eo:Ŝablono:FlagoIOK]]
-[[fr:Modèle:JO]]
-[[hr:Predložak:OI-država]]
-[[hu:Sablon:ZászlóNOB]]
-[[it:Template:NazOlimp]]
-[[ja:Template:FlagIOC]]
-[[ko:틀:올림픽 국기]]
-[[lv:Veidne:ValstsOS]]
-[[pt:Predefinição:FlagIOC]]
-[[ro:Format:SteagIOC]]
-[[ru:Шаблон:СтранаОИ]]
-[[sv:Mall:OS-land]]
-[[th:แม่แบบ:FlagIOC]]
-[[uk:Шаблон:КраїнаОІ]]
-[[zh:Template:FlagIOC]]
 </noinclude>

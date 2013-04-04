@@ -1,0 +1,41 @@
+<includeonly>{{#switch: {{{1|}}}
+ | série            = black
+ | album            = black
+ | épisode          = black
+ | comic              = white
+ | strip              = white
+ | #default           = black
+}}</includeonly><noinclude>
+
+{| class="wikitable" 
+! '''Nom''' !! '''''' !! '''Couleur'''
+|-
+| '''série'''
+| Série
+| bgcolor="#FFDD55" | '''Noir'''
+|-
+| '''album'''
+| Album
+| bgcolor="#FFDD55" | '''Noir'''
+|-
+| '''épisode'''
+| Épisode d'une série
+| bgcolor="#FFDD55" | '''Noir'''
+|-
+| '''comic'''
+| Comic books
+| bgcolor="#800000"  | '''{{blanc|Blanc}}'''
+|-
+| '''strip'''
+| Comic strips
+| bgcolor="#800000"  | '''{{blanc|Blanc}}'''
+|-
+| '''default'''
+| Par défaut
+| bgcolor="#FFDD55" | '''Noir'''
+|-
+|}
+
+<references />
+<!--[[Catégorie:Modèle utilisant les ParserFunctions]]-->
+</noinclude>

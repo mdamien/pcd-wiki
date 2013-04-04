@@ -1,0 +1,42 @@
+<includeonly>{{#switch: {{{1|}}}
+ | série            = FFDD55
+ | album            = FFDD55
+ | épisode          = FFDD55
+ | comic              = 800000
+ | strip              = 800000
+ | #default           = FFDD55
+}}</includeonly><noinclude>
+
+{| class="wikitable" 
+! '''Nom''' !! '''''' !! '''Couleur'''
+|-
+| '''série'''
+| Série
+| bgcolor="#FFDD55" | #FFDD55
+|-
+| '''album'''
+| Album
+| bgcolor="#FFDD55" | #FFDD55
+|-
+| '''épisode'''
+| Épisode d'une série
+| bgcolor="#FFDD55" | #FFDD55
+|-
+| '''comic'''
+| Comic books
+| bgcolor="#800000"  | {{blanc|#800000}}
+|-
+| '''strip'''
+| Comic strips
+| bgcolor="#800000"  | {{blanc|#800000}}
+|-
+| '''default'''
+| Par défaut
+| bgcolor="#FFEEAA" | #FFEEAA
+|-
+|}
+
+<references />
+
+<!--[[Catégorie:Modèle utilisant les ParserFunctions]]-->
+</noinclude>

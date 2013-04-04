@@ -1,0 +1,184 @@
+<noinclude>
+<!--==============================================================
+--></noinclude><includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete bd" style="color:{{Infobox Bande dessinée/Charte couleurs police|{{{charte}}}}}; background-color:#{{Infobox Bande dessinée/Charte couleurs bandeau|{{{charte}}}}};" | ''{{#if:{{{titre|}}}|{{{titre|}}}|{{PAGENAME}}}}''
+|-
+| colspan="2" style="color:{{Infobox Bande dessinée/Charte couleurs police|{{{charte}}}}}; background-color:#{{Infobox Bande dessinée/Charte couleurs sous-bandeau|{{{charte}}}}}; text-align: center; padding: 7px; line-height: 15px;" |'''{{#if:{{{charte|}}}|{{#if:{{{numéro|}}}|{{{numéro|}}}{{#ifeq:{{{numéro|}}}|1|{{er}}|{{e}}}}&nbsp;{{lcfirst:{{{charte|}}}}}|{{ucfirst:{{{charte|}}}}}}}{{#if:{{{série|}}}|&nbsp;de la série ''{{{série|}}}''|{{#ifeq:{{lcfirst:{{{charte|}}}}}|album}}}}|{{lang|en|''[[One shot (bande dessinée)|One shot]]''}}}}'''
+|-
+{{#if:{{{image|}}} | 
+! colspan="2" style="text-align:center;" {{!}} {{{image|}}}
+{{!-}}
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende|}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+! colspan="2" {{!}} <hr />
+{{!-}}
+}}
+{{#if:{{{auteur|}}} |
+! Auteu 
+{{!}} {{{auteur|}}}
+{{!-}}
+}}
+{{#if:{{{scénario|}}} |
+! Scénario 
+{{!}} {{{scénario|}}}
+{{!-}}
+}}
+{{#if:{{{dessin|}}} |
+! Dessin
+{{!}} {{{dessin|}}}
+{{!-}}
+}}
+{{#if:{{{couleur|}}} |
+! Couleurs
+{{!}} {{{couleur|}}}
+{{!-}}
+}}
+{{#if:{{{encrage|}}} |
+! Incrage
+{{!}} {{{encrage|}}}
+{{!-}}
+}}
+{{#if:{{{lettrage|}}} |
+! Létrage
+{{!}} {{{lettrage|}}}
+{{!-}}
+}}
+{{#if:{{{assistant|}}} |
+! Assistant
+{{!}} {{{assistant|}}}
+{{!-}}
+}}
+{{#if:{{{genre|}}} |
+! Ginre(s)
+{{!}} {{{genre|}}}
+{{!-}}
+}}
+{{#if:{{{thèmes|{{{personnages|{{{époque|{{{lieu|}}}}}}}}}}}} |
+! colspan="2" {{!}} <hr /> 
+{{!-}}
+}}
+{{#if:{{{thèmes|}}} |
+! Thèmes
+{{!}} {{{thèmes|}}}
+{{!-}}
+}}
+{{#if:{{{personnages|}}} |
+! Personnages principaux
+{{!}} {{{personnages|}}}
+{{!-}}
+}}
+{{#if:{{{lieu|}}} |
+! Lieu de l’action
+{{!}} {{{lieu|}}}
+{{!-}}
+}}
+{{#if:{{{époque|}}} |
+! Époque de l’action
+{{!}} {{{époque|}}}
+{{!-}}
+}}
+{{#if:{{{éditeur|{{{pays|{{{ISBN|}}}}}}}}} |
+! colspan="2" {{!}} <hr /> 
+{{!-}}
+}}
+{{#if:{{{pays|}}} |
+! Païs
+{{!}} {{{pays|}}}
+{{!-}}
+}}
+{{#if:{{{langue|}}} |
+! Langue 
+{{!}} {{{langue|}}}
+{{!-}}
+}}
+{{#if:{{{titre original|}}} |
+! scope=row {{!}} Tite original
+{{!}} ''{{{titre original|}}}''
+{{!-}}
+}}
+{{#if:{{{titre autre|}}} |
+! scope=row {{!}} Eutes tites
+{{!}} ''{{{titre autre|}}}''
+{{!-}}
+}}
+{{#if:{{{éditeur|}}} |
+! Éditeur
+{{!}} {{{éditeur|}}}
+{{!-}}
+}}
+{{#if:{{{collection|}}} |
+! Collection
+{{!}} {{{collection|}}}
+{{!-}}
+}}
+{{#if:{{{première publication|}}} |
+! Preumière publicachon
+{{!}} {{{première publication|}}}
+{{!-}}
+}}
+{{#if:{{{support|}}} |
+! Publié dins
+{{!}} {{{support|}}}
+{{!-}}
+}}
+{{#if:{{{périodicité|}}} |
+! Périodicité
+{{!}} {{{périodicité|}}}
+{{!-}}
+}}
+{{#if:{{{ISBN|}}} |
+! ISBN
+{{!}} <small>[[Spécial:Ouvrages de référence/{{{ISBN|}}}{{!}}{{{ISBN|}}}]]</small>
+
+{{!-}}
+}}
+{{#if:{{{format|}}} |
+! Format
+{{!}} {{{format|}}}
+{{!-}}
+}}
+{{#if:{{{nombre de pages|}}} |
+! Nb. éd paches
+{{!}} {{{nombre de pages|}}}
+{{!-}}
+}}
+{{#if:{{{nombre d'albums|}}} |
+! Nb. d’albums
+{{!}} {{{nombre d'albums|}}}
+{{!-}}
+}}
+{{#if:{{{prépublication|{{{adaptation|}}}}}} |
+! colspan="2" {{!}} <hr /> 
+{{!-}}
+}}
+{{#if:{{{prépublication|}}} |
+! Prépublication
+{{!}} {{{prépublication|}}}
+{{!-}}
+}}
+{{#if:{{{adaptation|}}} |
+! Adaptacions
+{{!}} {{{adaptation|}}}
+{{!-}}
+}}
+{{Infobox/Sous-titre optionnel|Albums de la série ''{{{série|}}}''|{{{album précédent|}}}{{{album suivant|}}}|{{Infobox Bande dessinée/Charte couleurs sous-bandeau|{{{charte}}}}}}}
+{{Infobox/Succession
+ | {{#if:{{{album précédent|}}} | ''{{{album précédent|}}}''}}
+ | 
+ | {{#if:{{{album suivant|}}} | ''{{{album suivant|}}}''}}
+}}
+{{#if:{{{site web|}}} |
+! Site Ouèbe
+{{!}} {{{site web|}}}
+{{!-}}
+}}
+{{#if:{{{divers|}}} | 
+{{!}} colspan="2" {{!}}
+{{{divers|}}} 
+{{!-}}
+}}
+|}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

@@ -83,8 +83,5 @@
 {{Infobox/Fin}}<!--
 les mauvais paramétrages
 -->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Commune géolocalisable sans coordonnées paramétrées|Allemagne]]}}}}}}}}</includeonly><noinclude>
-[[de:Vorlage:Infobox Gemeinde in Deutschland]]
-[[en:Template:Infobox German location]]
-[[fr:Modèle:Infobox Commune d'Allemagne]]
 [[catégorie:Modèle]]
 </noinclude>

@@ -1,7 +1,7 @@
 <includeonly>{{Infobox/Début}}
 {{Infobox/Titre|{{{nom|{{PAGENAME}}}}}{{#if:{{{autres noms|}}}|<br /><small>{{{autres noms|}}}</small>}}|WhiteSmoke|entete map}}
 {{Infobox/Image
- |{{#ifexist:Media:{{{image|}}}|{{{image}}}|Defaut.svg}}
+ |{{#ifexist:Media:{{{image|}}}|{{{image}}}|}}
  |{{{légende image|}}}
  |{{{taille image|}}}
  |{{{légende image|{{PAGENAME}} }}}
@@ -13,20 +13,20 @@
 Localisacion 
 
 -->{{Infobox/Sous-titre optionnel
- |Localisation
+ |Localisacion
  |{{{pays|}}}{{{nom région1|}}}{{{région1|}}}{{{nom région2|}}}{{{région2|}}}{{{nom région3|}}}{{{région3|}}}{{{nom région4|}}}{{{région4|}}}{{{nom type|Type}}}{{{type|}}}{{{protection|}}}{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}
  |WhiteSmoke
 }}
-{{Infobox/Ligne mixte optionnelle|Païs]]|{{{{{pays|}}}}} }}
+{{Infobox/Ligne mixte optionnelle|Païs|{{{{{pays|}}}}} }}
 {{Infobox/Ligne mixte optionnelle|{{{nom région1|}}}|{{{région1|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom région2|}}}|{{{région2|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom région3|}}}|{{{région3|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom région4|}}}|{{{région4|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom type|Type}}}|{{{type|}}}}}
-{{Infobox/Ligne mixte optionnelle|Protection|{{{protection|}}}}}
-{{Infobox/Ligne mixte latitude longitude optionnelle|[[Coordonnées géographiques|Coordonnées]]|{{{latitude|}}}|{{{longitude|}}}|title=yes}}
-{{Infobox/Ligne mixte optionnelle|[[Altitude]]|{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}}}
-{{Infobox/Ligne mixte optionnelle|[[Superficie]]|{{{superficie|}}}|{{Unité|{{{superficie}}}|hectares}}|}}
+{{Infobox/Ligne mixte optionnelle|Protekchon|{{{protection|}}}}}
+{{Infobox/Ligne mixte latitude longitude optionnelle|Coordonnées|{{{latitude|}}}|{{{longitude|}}}|title=yes}}
+{{Infobox/Ligne mixte optionnelle|Altitude|{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}}}
+{{Infobox/Ligne mixte optionnelle|Superfichie|{{{superficie|}}}|{{Unité|{{{superficie}}}|hectares}}|}}
 <!--
 
 Géolocalisacion 
@@ -48,7 +48,7 @@ Géolocalisacion
 
 Histoère
 
--->{{Infobox/Sous-titre optionnel|Histoire|{{{époque1|}}}|WhiteSmoke}}
+-->{{Infobox/Sous-titre optionnel|Histoère|{{{époque1|}}}|WhiteSmoke}}
 {{Infobox/Ligne mixte optionnelle|{{{nom époque1|Époque}}}|{{{époque1|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom époque2|}}}|{{{époque2|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom époque3|}}}|{{{époque3|}}}}}

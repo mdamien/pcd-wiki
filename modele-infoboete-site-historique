@@ -17,7 +17,7 @@ Localisacion
  |{{{pays|}}}{{{nom région1|}}}{{{région1|}}}{{{nom région2|}}}{{{région2|}}}{{{nom région3|}}}{{{région3|}}}{{{nom région4|}}}{{{région4|}}}{{{nom type|Type}}}{{{type|}}}{{{protection|}}}{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}
  |WhiteSmoke
 }}
-{{Infobox/Ligne mixte optionnelle|[[Liste des pays du monde|Pays]]|{{{{{pays|}}}}} }}
+{{Infobox/Ligne mixte optionnelle|Païs]]|{{{{{pays|}}}}} }}
 {{Infobox/Ligne mixte optionnelle|{{{nom région1|}}}|{{{région1|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom région2|}}}|{{{région2|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom région3|}}}|{{{région3|}}}}}
@@ -26,11 +26,12 @@ Localisacion
 {{Infobox/Ligne mixte optionnelle|Protection|{{{protection|}}}}}
 {{Infobox/Ligne mixte latitude longitude optionnelle|[[Coordonnées géographiques|Coordonnées]]|{{{latitude|}}}|{{{longitude|}}}|title=yes}}
 {{Infobox/Ligne mixte optionnelle|[[Altitude]]|{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}}}
-{{Infobox/Ligne mixte optionnelle|[[Superficie]]|{{{superficie|}}}|{{Unité|{{{superficie}}}|hectares}}|}}<!--
+{{Infobox/Ligne mixte optionnelle|[[Superficie]]|{{{superficie|}}}|{{Unité|{{{superficie}}}|hectares}}|}}
+<!--
 
 Géolocalisacion 
 
--->
+--><!--
 {{Infobox/Géolocalisation multiple
  | géolocalisation={{{géolocalisation|{{{pays|}}}}}}
  | latitude={{{latitude|}}}
@@ -42,7 +43,7 @@ Géolocalisacion
          }}
  | largeur=280
 }}
-
+-->
 <!-- 
 
 Histoère

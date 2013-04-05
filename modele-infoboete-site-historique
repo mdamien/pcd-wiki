@@ -1,0 +1,71 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre|{{{nom|{{PAGENAME}}}}}{{#if:{{{autres noms|}}}|<br /><small>{{{autres noms|}}}</small>}}|WhiteSmoke|entete map}}
+{{Infobox/Image
+ |{{#ifexist:Media:{{{image|}}}|{{{image}}}|Defaut.svg}}
+ |{{{légende image|}}}
+ |{{{taille image|}}}
+ |{{{légende image|{{PAGENAME}} }}}
+ |
+ |
+ |Site archéologique
+}}<!-- 
+
+Localisacion 
+
+-->{{Infobox/Sous-titre optionnel
+ |Localisation
+ |{{{pays|}}}{{{nom région1|}}}{{{région1|}}}{{{nom région2|}}}{{{région2|}}}{{{nom région3|}}}{{{région3|}}}{{{nom région4|}}}{{{région4|}}}{{{nom type|Type}}}{{{type|}}}{{{protection|}}}{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}
+ |WhiteSmoke
+}}
+{{Infobox/Ligne mixte optionnelle|[[Liste des pays du monde|Pays]]|{{{{{pays|}}}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{nom région1|}}}|{{{région1|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom région2|}}}|{{{région2|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom région3|}}}|{{{région3|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom région4|}}}|{{{région4|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom type|Type}}}|{{{type|}}}}}
+{{Infobox/Ligne mixte optionnelle|Protection|{{{protection|}}}}}
+{{Infobox/Ligne mixte latitude longitude optionnelle|[[Coordonnées géographiques|Coordonnées]]|{{{latitude|}}}|{{{longitude|}}}|title=yes}}
+{{Infobox/Ligne mixte optionnelle|[[Altitude]]|{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}}}
+{{Infobox/Ligne mixte optionnelle|[[Superficie]]|{{{superficie|}}}|{{Unité|{{{superficie}}}|hectares}}|}}<!--
+
+Géolocalisacion 
+
+-->
+{{Infobox/Géolocalisation multiple
+ | géolocalisation={{{géolocalisation|{{{pays|}}}}}}
+ | latitude={{{latitude|}}}
+ | longitude={{{longitude|}}}
+ | toponyme={{{nom|{{PAGENAME}}}}}
+ | point={{#switch:{{ucfirst:{{{point|}}}}}
+         |Bâtiment|Château|Église|Grotte|Mosquée|Pont|Port|Tour|Ville={{ucfirst:{{{point}}}}} sans {{#ifeq:{{{position|ne}}}|aucune|toponyme|lien}}
+         |#default=Site archéologique sans {{#ifeq:{{{position|ne}}}|aucune|toponyme|lien}}
+         }}
+ | largeur=280
+}}
+
+<!-- 
+
+Histoère
+
+-->{{Infobox/Sous-titre optionnel|Histoire|{{{époque1|}}}|WhiteSmoke}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque1|Époque}}}|{{{époque1|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque2|}}}|{{{époque2|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque3|}}}|{{{époque3|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque4|}}}|{{{époque4|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque5|}}}|{{{époque5|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque6|}}}|{{{époque6|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque7|}}}|{{{époque7|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque8|}}}|{{{époque8|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque9|}}}|{{{époque9|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque10|}}}|{{{époque10|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque11|}}}|{{{époque11|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque12|}}}|{{{époque12|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque13|}}}|{{{époque13|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque14|}}}|{{{époque14|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom époque15|}}}|{{{époque15|}}}}}<!--
+→
+<!--
+
+Mauvais paramétrages
+
+-->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Page géolocalisable sans coordonnées paramétrées|Archeologie]]}}}}}}}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

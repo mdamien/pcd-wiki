@@ -1,0 +1,85 @@
+[[File:RedoxonVitaminC.jpg|thumb|400px|center]]
+== Album ==
+
+<center><gallery caption="Galeri" widths="180px" heights="120px" perrow="4">
+Berkas:Bl-panther.jpg
+File:Jak fruit-Sri Lanka (5).jpg
+File:20111025-FNS-RBN-1980 - Flickr - USDAgov.jpg
+File:Opor Ayam Telur Pindang.JPG
+[...]
+</gallery></center>
+
+<center>
+My Inputbox:
+{| width="60%" style="border:1px solid black "
+|
+<inputbox>
+type=search 
+width=42
+buttonlabel=Go!
+searchbuttonlabel=Search
+break=no
+</inputbox>
+|}
+</center>
+
+
+
+== Box types ==
+{| class="wikitable"
+!Type
+!Example
+!Description
+|-
+| type=search
+|
+<inputbox>
+type=search
+</inputbox>
+| Creates a search box which has a default width of 50 characters. Information added in the text box is searched for. 
+|-
+| type=create
+|
+<inputbox>
+type=create
+</inputbox>
+| Creates a new page. Information added in the text box is the name of the page which is edited.  
+|-
+| type=comment
+|
+<inputbox>
+type=comment
+</inputbox>
+| Adds a new section to the bottom of the page specified in the text box. 
+|-
+| type=commenttitle
+|
+<inputbox>
+type=commenttitle
+page={{TALKPAGENAME}}
+</inputbox>
+| Adds a new section with the section header typed into the text box. The page has to be specified with <code>page=</code> parameter.  <small>Added in [[rev:42703]].</small>
+|-
+| type=fulltext
+|
+<inputbox>
+type=fulltext
+</inputbox>
+| Search only the fulltext search button, without the 'Go' button. <small>Added in [[rev:45269]].</small>
+|-
+| type=search2
+|
+<inputbox>
+type=search2
+</inputbox>
+|
+|}
+<div style="clear:both;"></div>
+
+[[Category:Wikipedians in Indonesia]]
+[[Category:Wikipedians in Batam]]
+
+[[ar:مستخدم:Aladdin Ali Baba]]
+[[fa:کاربر:Aladdin Ali Baba]]
+[[en:User:Aladdin Ali Baba]]
+[[id:Pengguna:Aladdin Ali Baba]]

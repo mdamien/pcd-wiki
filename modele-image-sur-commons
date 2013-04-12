@@ -1,0 +1,43 @@
+{{Méta bandeau d'avertissement
+| niveau = modéré
+| icône = {{#ifeq:{{{1|{{PAGENAME}}}}}|{{PAGENAME}}|Icon Now Commons orange.svg|Icon Now Commons.svg}}
+| titre = {{#ifeq:{{{1|{{PAGENAME}}}}}|{{PAGENAME}}||[[Fichier:{{{1}}}|100x100px|right]]}}Chol image ale est achteure édseur [[Commons:Accueil|Wikimedia Commons]] édsous {{#ifeq:{{{1|{{PAGENAME}}}}}|{{PAGENAME}}|l' [[:Commons:File:{{PAGENAME}}|meume nom]].|un nom différint :<br /><small>[[Fichier:Wikipedia-logo.png|15px]] <span style="color:#002bb8">Fichier:{{PAGENAME}}</span> → [[Fichier:Commons-logo.svg|10px]] [[:Commons:File:{{{1|{{PAGENAME}}}}}|File:{{{1|{{PAGENAME}}}}}]]</small>}}
+| texte = 
+<!-- début #ifeq (1)-->{{#ifeq:{{{1|{{PAGENAME}}}}}|{{PAGENAME}}
+| La version locale peut
+| Procédez à la correction du nom sur [[#filelinks|les pages l’incluant]], après quoi la version locale pourra
+<!-- fin #ifeq (1) -->}}
+être supprimée si [{{fullurl:{{FULLPAGENAME}}|action=history}} son historique] est préservé [http://commons.wikimedia.org/w/index.php?title=File:{{{1|{{PAGENAMEE}}}}}&action=history sur Commons].<br /><small>► ...</small>.
+}}<!-- fin Méta bandeau d’avertissement
+
+-->{{icône de titre
+| Lien = :Catégorie:Média édseur Commons
+| Image = {{#ifeq:{{{1|{{PAGENAME}}}}}|{{PAGENAME}}|Icon Now Commons orange.svg|Icon Now Commons.svg}}
+| Texte = {{#ifeq:{{{1|{{PAGENAME}}}}}|{{PAGENAME}}|Image sur Commons : même nom|Image sur Commons : nom différent}}
+| Taille=32
+}}<!-- fin Icône de titre
+
+--><includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:6}}|[[Catégorie:Fichié édseur Commons|{{PAGENAME}}]]|}}</includeonly><!-- 
+--><noinclude>
+
+<!--{{Documentation modèle}}-->
+
+;Utilisation : Ch' modèle indique qu’un média il o té transféré su Commons. Ech média est placé dins l' catégorie [[:Catégorie:Média édseur Commons|Média édseur Commons]].
+
+;Syntaxe :
+<pre><nowiki>
+  {{Image sur Commons
+    |NomImageCommons
+  }}
+</nowiki></pre>
+
+[[Catégorie:Commons]]
+[[bar:Vorlage:NowCommons]]
+[[fy:Berjocht:NowCommons]]
+[[ilo:Template:NowCommons]]
+[[sa:बिंबधर:NowCommons]]
+[[sr:Шаблон:NowCommons]]
+[[tl:Suleras:NasaCommons]]
+[[vec:Template:NowCommons]]
+[[vi:Bản mẫu:NowCommons]]
+</noinclude>

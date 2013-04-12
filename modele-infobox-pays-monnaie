@@ -1,5 +1,5 @@
 <noinclude>{| border="0" align="right" cellpadding="4" style="float:right; margin: 0 0 1em 1em; background: #f9f9f9; border: 1px #aaa solid; font-size: 85%; border-collapse: collapse; width:46ex; margin-top:0.75em;" 
 </noinclude>|- style="border-top: solid 1px #aaa;padding: 0.4em 0.6em 0.4em 0.6em;"
 | '''Monnouaie'''
-| {{{monnaie}}}{{#if: {{{code_monnaie|}}}|{{espace}}(<code>[[ISO 4217|{{{code_monnaie}}}]]</code>)}}<noinclude>
+| {{{monnaie}}}{{#if: {{{code_monnaie|}}}|{{espace}}(<code>{{{code_monnaie}}}</code>)}}<noinclude>
 |}{{documentation}}</noinclude>

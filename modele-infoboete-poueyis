@@ -57,9 +57,9 @@ IMAGES (DRAPEAU ET BLASON)
 Liens sous les images
 -->
 |-valign="middle"
-|align="center" colspan="{{#if:{{{image_blason|}}}|1|2}}"| <small>([[{{{lien_drapeau}}}]])</small><!--
+|align="center" colspan="{{#if:{{{image_blason|}}}|1|2}}"| <small>({{{lien_drapeau}}})</small><!--
 -->{{#if:{{{image_blason|}}}|<nowiki/>
-{{!}}align="center"{{!}} <small>([[{{{lien_blason}}}]])</small><!--
+{{!}}align="center"{{!}} <small>({{{lien_blason}}})</small><!--
 -->}}
 |}<!---
 
@@ -97,7 +97,7 @@ Liens sous les images
 | '''Capitale'''
 | {{{capitale}}}<br /><small>{{{coordonnées_capitale}}}</small>
 |-valign="top" style="border-top:1px #aaa solid"
-| '''[[{{{lien_villes}}}|{{{titre_plus_grande_ville|}}}]]'''
+| '''{{{lien_villes}}}|{{{titre_plus_grande_ville|}}}'''
 | {{{plus_grande_ville}}}<!--
 
 ===========================

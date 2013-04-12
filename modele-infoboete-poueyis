@@ -68,7 +68,7 @@ Liens sous les images
 ===========================
 --->{{#if:{{{devise|}}}|<nowiki/>
 {{!}}-align="center" valign="top" style="border-top:solid 1px #aaa;padding: 0.4em 0.6em"
-{{!}}colspan="2"{{!}} <small>Édvise nationale '': {{{devise}}}''</small><!--
+{{!}}colspan="2"{{!}} <small>Édvise nacionale '': {{{devise}}}''</small><!--
 -->}}<!--
 
 ===========================

@@ -10,11 +10,4 @@
 | {{#if:{{{image|}}}|[[Fichier:{{{image}}}|{{#if:{{{portrait|}}}|75|100}}px|center|alt={{{titre coordonnées|{{{monument|}}}}}}]]|[[Image:defaut.svg|100px|alt=poin d'image]]}}
 </includeonly><noinclude>
 [[Catégorie:Modèle]]
-[[ca:Plantilla:Filera MH]]
-[[de:Vorlage:Ligne de tableau MH]]
-[[en:Template:Rijksmonument row]]
-[[eo:Ŝablono:Linio de tabelo de HM]]
-[[fr:Modèle:Ligne de tableau MH]]
-[[nl:Sjabloon:Tabelrij rijksmonument]]
-[[uk:Шаблон:WLM-рядок]]
 </noinclude>

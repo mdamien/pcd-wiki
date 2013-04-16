@@ -1,4 +1,5 @@
 <p></p>
-|}<noinclude>{{protected template}}
-{{template doc|Col-begin/doc}}[[ab:Ашаблон:Col-end]]
+|}<noinclude>
+{{protected template}}
+{{template doc|Col-begin/doc}}
 </noinclude>

@@ -1,10 +1,3 @@
-
-SantoshBot, ch'est un bot à 
-[http://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%AF:%E0%A4%B8%E0%A4%82%E0%A4%A4%E0%A5%8B%E0%A4%B7_%E0%A4%A6%E0%A4%B9%E0%A4%BF%E0%A4%B5%E0%A4%B3 ''' संतोष दहिवळ  '''] (édseur mr.wikipedia.org ch'wikipédia in linque Marathi - [[Inde]])
 {| class="messagebox plainlinks"
-|align="center"|[[Image:Crystal Clear action run.png|50px]]
-|align="left" width="100%"|'''Ch' compte-lo ch'est chti d'un [[Wikipédia:Bot|bot]] appartenant à [http://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%AF:%E0%A4%B8%E0%A4%82%E0%A4%A4%E0%A5%8B%E0%A4%B7_%E0%A4%A6%E0%A4%B9%E0%A4%BF%E0%A4%B5%E0%A4%B3 ''' संतोष दहिवळ  '''].'''
-Ch'est pon un [[Wikipédia:Feux-nase|feux-nase]], il est implouéyé par un programme automatique ou semi-automatique qui aide sin moaite à foaire des modificacions répétitives éd trop longues à foaire manuellemint.
-<br>
-<small>''Anménistrateus : si ch' bot il est in flagrant délit d'méchant fonctionnemint voère éd destruccion d’artikes, priére éd l' [[Spécial:Blockip/{{PAGENAME}}|blotcher]].''</small>
-|}{{{category|[[Category:Wikipedia bots|<includeonly>{{PAGENAME}}</includeonly> ]]}}}<noinclude>
+|align="left" width="100%"|'''Ch' compte-lo ch'est chti d'un [[Wikipédia:Bot|bot]] appartenant à [http://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%A6%E0%A4%B8%E0%A5%8D%E0%A4%AF:%E0%A4%B8%E0%A4%82%E0%A4%A4%E0%A5%8B%E0%A4%B7_%E0%A4%A6%E0%A4%B9%E0%A4%BF%E0%A4%B5%E0%A4%B3 ''' संतोष दहिवळ  ''']  (édseur mr.wikipedia.org ch'wikipédia in linque Marathi - [[Inde]])'''.
+{{bot|SantoshBot}}

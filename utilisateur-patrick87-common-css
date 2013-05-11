@@ -1,0 +1,2 @@
+/* ########## load global.css from dewiki for cross wiki usage ########## */
+@import "//de.wikipedia.org/w/index.php?title=User:Patrick87/global.css&action=raw&ctype=text/css";

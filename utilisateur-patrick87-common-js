@@ -1,0 +1,2 @@
+// ########## load global.js from dewiki for cross wiki usage ##########
+mw.loader.load('//de.wikipedia.org/w/index.php?title=User:Patrick87/global.js&action=raw&ctype=text/javascript');

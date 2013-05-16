@@ -8,16 +8,16 @@
 -->}}</noinclude><!--
 --> <div class="img_toogle">
   <div class="geobox" title="Carte topographique">
-{{Début de carte}}[[Fichier:{{Géolocalisation/Nord|image|{{{type|relief}}}}}|280px|Voir la carte topographique]]
+{{Début de carte}}[[Fichier:{{Géolocalisation/Nord|image|{{{type|relief}}}}}|280px|Vir l'carte topografique]]
 {{#ifexpr:{{{2|}}}|{{G|Nord|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|City|1{{{statut|4}}}}}| }}
 {{Fin de carte}}
   </div>
   <div class="geobox" title="Carte administrative">
-{{Début de carte}}[[Fichier:{{Géolocalisation/Nord|image|{{{type|}}}}}|280px|Voir la carte administrative]]
+{{Début de carte}}[[Fichier:{{Géolocalisation/Nord|image|{{{type|}}}}}|280px|Vir l'carte aménistrative]]
 {{#ifexpr:{{{2|}}}|{{G|Nord|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|City|1{{{statut|4}}}}}| }}
 {{Fin de carte}}
   </div>
 </div><noinclude><!--
--->{{Catégorie Nord-Pas-de-Calais}}
+{{Catégorie Nord-Pas-de-Calais}}-->
 [[Catégorie:Modèle]]
 [[Catégorie:Nord|Geolocalisation]]</noinclude>

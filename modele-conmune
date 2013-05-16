@@ -66,10 +66,16 @@ __NOTOC__
  | Altitudes
  | moyenne : {{{alt moy}}}<br />minimale : {{{alt mini}}}<br />maximale : {{{alt maxi}}}
 }}
-{{Infobox/Ligne mixte
- | Superfichie
- | {{{km²}}}  km²  ({{{hectares}}} ha)
+{{#if: {{{superficie|}}} | 
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Superfichie
+{{!}} style="background-color: #f3fff3;" {{!}} {{{superficie}}} km²  ({{{hectares}}} ha)}} 
+{{!-}}
+|-
+{{#if: {{{km²|}}} | 
+! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Superfichie
+{{!}} style="background-color: #f3fff3;" {{!}} {{{km²}}} km²  ({{{hectares}}} ha)}} 
 }}
+|-
 {{Infobox/Sous-titre
  | Démografie|dfd
 }}

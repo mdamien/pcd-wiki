@@ -69,6 +69,42 @@
 {{!}} {{{activités autres|}}}
 {{!-}}
 }}
+{{#if:{{{genre|}}} |
+! scope=row {{!}} Ginre musical
+{{!}} {{{genre|}}}
+{{!-}}
+}}
+<!--{{Infobox V3/Tableau Ligne mixte|width=9|Genre musical|{{{genre|}}}}}-->
+{{#if:{{{instrument|}}} |
+! scope=row {{!}} Instrumints
+{{!}} {{{instrument|}}}
+{{!-}}
+}}
+<!--{{Infobox V3/Tableau Ligne mixte|width=9|Instruments|{{{instrument|}}}}}-->
+{{#if:{{{années actives|}}} |
+! scope=row {{!}} Innées actives
+{{!}} {{{années actives|}}}
+{{!-}}
+}}
+<!--{{Infobox V3/Tableau Ligne mixte|width=9|Années actives|{{{années actives|}}}}}-->
+{{#if:{{{label|}}} |
+! scope=row {{!}} Labels
+{{!}} {{{label|}}}
+{{!-}}
+}}
+<!--{{Infobox V3/Tableau Ligne mixte|width=9|Labels|{{{label|}}}}}-->
+{{#if:{{{influences|}}} |
+! scope=row {{!}} Influinces
+{{!}} {{{influences|}}}
+{{!-}}
+}}
+{{#if:{{{site web|}}} |
+! scope=row {{!}} Site offichièl
+{{!}} {{{site web|}}}
+{{!-}}
+}}
+<!--{{Infobox V3/Tableau Ligne mixte|width=9|Influences|{{{influences|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Site officiel|{{{site web|}}}}}-->
 {{#if:{{{formation|}}} |
 ! scope=row {{!}} Formation
 {{!}} {{{formation|}}}
@@ -107,4 +143,4 @@
 [[Image:{{{signature}}}|128px|]]}}
 |}{{Suivi des biographies}}</includeonly><noinclude>
 {{Documentation}}
-<!-- Chés catégories pi intérwikis is doétte ète rajoutés dins l'edsous-pache /Documentation et pi non ichi. Merchi. --></noinclude>
+<!-- Chés catégories pi intérwikis is doétte ète rajoutés dins l'edsous-pache /Documentation et pi poin ichi. Merchi. --></noinclude>

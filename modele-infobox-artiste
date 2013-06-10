@@ -20,7 +20,7 @@
 {{!-}}
 }}
 {{#if:{{{nom de naissance|}}} |
-! scope=row {{!}} Nom de naissance
+! scope=row {{!}} Nom d' naissance
 {{!}} {{{nom de naissance|}}}
 {{!-}}
 }}
@@ -35,12 +35,12 @@
 {{!-}}
 }}
 {{#if:{{{nationalité|}}} |
-! scope=row {{!}} Nationalité(s)
+! scope=row {{!}} Nacionalité(s)
 {{!}} {{{nationalité|}}}
 {{!-}}
 }}
 {{#if:{{{date de mort|}}} |
-! scope=row {{!}} Déché
+! scope=row {{!}} Défuncté(e)
 {{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
 {{!-}}
 }}
@@ -55,46 +55,46 @@
 {{!}} {{{formation|}}}
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Moaite|{{{maître|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Moaite|{{{maître|}}}}}<!--
 {{#if:{{{maître|}}} |
 ! scope=row {{!}} Moaite
-{{!}} {{{maître|}}}
+{{!}} {{{maître|}}}-->
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Élèves|{{{élèves|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Élèves|{{{élèves|}}}}}<!--
 {{#if:{{{élèves|}}} |
 ! scope=row {{!}} élèves
-{{!}} {{{élèves|}}}
+{{!}} {{{élèves|}}}-->
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Mouvemint artistique|{{{mouvement|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Mouvemint artistique|{{{mouvement|}}}}}<!--
 {{#if:{{{mouvement|}}} |
 ! scope=row {{!}} Mouvemint artistique
-{{!}} {{{mouvement|}}}
+{{!}} {{{mouvement|}}}-->
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Œuves réputées|{{{œuvres|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Œuves réputées|{{{œuvres|}}}}}<!--
 {{#if:{{{œuvres|}}} |
 ! scope=row {{!}} Œuves réputées
-{{!}} {{{œuvres|}}}
+{{!}} {{{œuvres|}}}-->
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Mécènes|{{{mécènes|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Mécènes|{{{mécènes|}}}}}<!--
 {{#if:{{{mécènes|}}} |
 ! scope=row {{!}} mécènes
-{{!}} {{{mécènes|}}}
+{{!}} {{{mécènes|}}}-->
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Influincé par|{{{influencé_par|{{{influencé par|}}}}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Influincé par|{{{influencé_par|{{{influencé par|}}}}}}}}<!--
 {{#if:{{{influencé par|}}} |
 ! scope=row {{!}} Influincé par
-{{!}} {{{influencé par|}}}
+{{!}} {{{influencé par|}}}-->
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Il o influinçé|{{{influence_de|{{{influence de|}}}}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Il o influinçé|{{{influence_de|{{{influence de|}}}}}}}}<!--
 {{#if:{{{influence de|}}} |
 ! scope=row {{!}} Il o influinçé
-{{!}} {{{influence de|}}}
+{{!}} {{{influence de|}}}-->
 {{!-}}
 }}
 {{#if:{{{site internet|{{{site web|}}}}}}|

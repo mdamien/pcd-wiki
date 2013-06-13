@@ -1,0 +1,47 @@
+=== Statistiques globales ===
+
+;Wikipédia picard
+* [http://stats.wikimedia.org/FR/ChartsWikipediaPCD.htm Grafikes pcd]
+* [http://stats.wikimedia.org/FR/TablesWikipediaPCD.htm Tabes pcd]
+* [http://stats.wikimedia.org/FR/Sitemap.htm Éstatistiques Wikipédia]
+
+[//toolserver.org/~pathoschild/stewardry/?wiki=pcdwikipedia&sysop=on&bureaucrat=on&bot=on Dernières actions des administrateurs des bureaucrates et des bots sur la wikiversité]<br/>
+[//toolserver.org/~vvv/adminstats.php?wiki=pcdwikipedia_p&tlimit=31536000 Toutes les actions des administrateurs de la wikiversité]<br/>
+[//toolserver.org/~quentinv57/tools/localstewardlog.php?wiki=pcdwikipedia&limit=50&offset= Dernières actions des stewards sur la Wikiversité]
+
+=== Statistiques par profil ===
+[//toolserver.org/~quentinv57/sulinfo/ Informations SUL d’un nom d’utilisateur]. (Ce lien permet de savoir dans quel projet un nom d’utilisateur donné existe et précise lorsque les comptes sont liés entre eux ou non.)
+[//toolserver.org/~luxo/contributions/contributions.php?user=&fullblocklog=true&lang=fr Récapitulatif des dernières contributions d’un utilisateur sur chacun des projets]<br/>
+[//toolserver.org/~vvv/yaec.php Nombre de contributions par projet et par espace de noms]<br/>
+[//toolserver.org/~erwin85/xcontribs.php Vue globale des contributions d'un utilisateur sur tous les wikis]<br/>
+[//toolserver.org/~jackpotte/pages/index.php Tous les articles créés par un utilisateur donné sur un projet donné]<br/>
+[//toolserver.org/~pathoschild/stewardry/?wiki=frwikiversity&sysop=on&bureaucrat=on&bot=on Dernières actions des administrateurs des bureaucrates et des bots sur la wikiversité]<br/>
+[//toolserver.org/~vvv/adminstats.php?wiki=frwikiversity_p&tlimit=31536000 Toutes les actions des administrateurs de la wikiversité]<br/>
+[//toolserver.org/~quentinv57/tools/localstewardlog.php?wiki=frwikiversity&limit=50&offset= Dernières actions des stewards sur la Wikiversité]
+
+=== Statistiques diverses ===
+[http://stats.grok.se/fr.d/201301/dame Nombre de visites/pages] (changer le nom de l’article dont on veut voir les statistiques ''directement'' dans l’adresse internet – de même pour la date qui est sous la forme AnnéeMois)<br/>
+[[Spécial:Pages longues|Pages les plus longues]]<br/>
+[[Spécial:Pages courtes|Pages les plus courtes]]<br/>
+[[Spécial:Catégories les plus utilisées|Catégories les plus utilisées]]<br/>
+[//toolserver.org/~dispenser/cgi-bin/embeddedincount.py?title=Chapitre&ns=10&db=frwikiversity Nombre de pages liées à un modèle] (il suffit de changer le nom du modèle dans l’adresse internet (qui ici est ''Chapitre''), pour voir le nombre de pages liées à un autre modèle que le [[modèle:Chapitre]]). Il s’agit du nombre de pages qui font appel au moins une fois au modèle.<br/>
+[//toolserver.org/~dispenser/cgi-bin/backlinkscount.py?title=Java&ns=&db=frwikiversity Nombre de pages liées à une page] (en l’occurrence, il s’agit dans cet exemple du nombre de pages liées à l’article ''Java'' - c’est-à-dire du nombre de pages qui contiennent au moins une fois le lien [[Java]] - ; il suffit de toucher à l’[[w:URL|URL]] pour trouver le nombre de pages liées à une autre page que ''Java'').
+
+===wikiversité===
+;wikiversité francophone
+[[Spécial:Statistiques|Récapitulatif Statistiques]]<br/>
+[http://stats.wikimedia.org/wikiversity/FR/TablesWikipediaFR.htm Statistiques mensuelles]<br/>
+[http://www.wikistatistics.net/wikiversity/fr/pages/365 Nombre de pages créées/jour]<br/>
+[http://www.wikistatistics.net/wikiversity/fr Évolution journalière du nombre d’articles (entre autres)]
+
+;wikiversity (toutes langues confondues)
+[//meta.wikimedia.org/wiki/wikiversity/Table Statistiques récapitulatives]<br/>
+[http://stats.wikimedia.org/wikiversity/FR/TablesArticlesTotal.htm Évolution du nombre total d’articles]<br/>
+[http://stats.wikimedia.org/wikiversity/FR/TablesArticlesNewPerDay.htm Nombre de nouveaux articles par jour]<br/>
+[http://stats.wikimedia.org/wikiversity/FR/Sitemap.htm Nombre de visites/heures - autres statistiques poussées]
+
+=== Popularité édseur echl'ouèbe ===
+
+trafic dseur Alexa : 
+* [http://www.alexa.com/siteinfo/wikipedia.org wikipedia.org]
+* [http://www.alexa.com/siteinfo/wikiversity.org wikiversity.org]<br/>

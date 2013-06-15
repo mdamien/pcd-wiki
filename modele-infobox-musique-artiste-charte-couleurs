@@ -1,0 +1,7 @@
+{{#switch:{{{1|}}}
+| vocal          = &#35;b6ccde
+| groupe         = &#35;cdc1c5
+| instrumentiste = &#35;d2c6b6
+| arrière scène  = &#35;b4cdcd
+| #default       = transparent
+}}<noinclude><!--{{Documentation}}--></noinclude>

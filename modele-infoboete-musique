@@ -1,0 +1,32 @@
+<includeonly>{{Infobox V3/Début|text={{{nom|}}}|icon=musique|width=22|background={{Infobox Musique (artiste)/Charte couleurs|{{{charte}}}}}}}
+{{#if:{{{image|}}}|{{Infobox V3/Image|image={{{image|}}}|upright={{{upright|}}}|legend={{{légende|}}}}}<!--
+   Informations générales
+-->{{Infobox V3/Tableau début|text=Informations générales|background={{Infobox Musique (artiste)/Charte couleurs|{{{charte}}}}}}}<!--
+-->|{{Infobox V3/Tableau début|class=hidden}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Surnom|{{{nom alias|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Nom|{{{nom de naissance|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Naissance|{{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|{{#if:{{{date de naissance|}}}|<br />}}{{{lieu de naissance|}}}}}|if={{{date de naissance|}}}{{{lieu de naissance|}}}}}<!--
+-->{{#ifeq:{{{charte|}}}|groupe|{{Infobox V3/Tableau Ligne mixte|width=9|Pays d'origine|{{{pays d'origine|}}}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Décès|{{{date de décès|}}}{{#if:{{{lieu de décès|}}}|{{#if:{{{date de décès|}}}|<br />}}{{{lieu de décès|}}}}}|if={{{date de décès|}}}{{{lieu de décès|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Activité principale|{{{profession|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Activités annexes|{{{profession autre|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Genre musical|{{{genre|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Instruments|{{{instrument|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Années actives|{{{années actives|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Labels|{{{label|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Influences|{{{influences|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Site officiel|{{{site web|}}}}}<!--
+-->{{Infobox V3/Tableau fin}}<!--
+   Composition du groupe
+-->{{#if:{{{membres actuels|}}}{{{ex membres|}}}|{{Infobox V3/Tableau début|text=Composition du groupe|background={{Infobox Musique (artiste)/Charte couleurs|{{{charte}}}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Membres|{{{membres actuels|}}}}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|width=9|Anciens membres|{{{ex membres|}}}}}<!--
+-->{{Infobox V3/Tableau fin}}}}<!--
+   Logo
+-->{{Infobox V3/Séparateur|background=transparent}}<!--
+-->{{Infobox V3/Image|image={{{logo|}}}|alt=Logo}}<!--
+-->{{Infobox V3/Fin|Modèle:Infobox Musique (artiste)|class=bordered}}{{#switch:{{{charte|}}}
+|vocal
+|instrumentiste
+|arrière scène=<!--{{Suivi des biographies|Musique}}-->
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

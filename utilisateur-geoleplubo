@@ -36,11 +36,48 @@ Ech Wikipédia picard il o  '''[[Spécial:Prefixindex/|{{NUMBEROFARTICLES}}]]'''
 ===Divers===
 
 * '''[http://fr.wikipedia.org/wiki/Aide:Formules_TeX fr:Aide:Formules TeX]''', édition des formules mathématiques,
+* écriture droite : <math>\mathrm{ZnO}</math>.  <nowiki><math>\mathrm{ZnO}</math></nowiki>
+* '''texte gras''' : <nowiki><math>\mathbf{ABCD}</math></nowiki> =  <math>\mathbf{ABCD}</math> <br/>
+* <math>\left( \frac{1}{2} \right)</math> = <nowiki><math>\left( \frac{1}{2} \right)</math></nowiki>
+* <math>\left\{ {A \over B} \right\} \to X</math> = <nowiki><math>\left\{ {A \over B} \right\} \to X</math></nowiki>
+
+* <math>\left. {A \over B} \right\} \to X</math> = <nowiki><math>\left. {A \over B} \right\} \to X</math></nowiki>
+* <math>{}^{14}_{\ 6}\mathrm C\,</math> : <nowiki><math>{}^{14}_{\ 6}\mathrm C\,</math></nowiki>
+
+* l'éthane :
+{| border="1" width=90%
+|
+<pre>
+<math>
+  \begin{array}{lcl}
+&\rm H &\rm H\\
+&| &|\\
+\rm H-\!\!\!\! &\rm C-\!\!\!\! &\rm C - H\\
+&| &|\\
+&\rm H &\rm H\\
+  \end{array}
+</math>
+</pre>
+|
+<math>
+  \begin{array}{lcl}
+&\rm H &\rm H\\
+&| &|\\
+\rm H-\!\!\!\! &\rm C-\!\!\!\! &\rm C - H\\
+&| &|\\
+&\rm H &\rm H\\
+  \end{array}
+</math>
+|}
+
+::::<math>\begin{matrix} & {}_{\rm{T\ >\ 90^\circ\ C }} & \\ \mathrm{ZnS +  Fe_2(SO_4)_3} & \overrightarrow{\qquad\qquad\qquad} & \mathrm{ZnSO_4 + 2FeSO_4 + S\ (solide)}\ \\\end{matrix}</math>
+*<nowiki><math>\begin{matrix} & {}_{\rm{T\ >\ 90^\circ\ C }} & \\ \mathrm{ZnS +  Fe_2(SO_4)_3} & \overrightarrow{\qquad\qquad\qquad} & \mathrm{ZnSO_4 + 2FeSO_4 + S\ (solide)}\ \\\end{matrix}</math></nowiki>
+
+
 * [[Utilisateur:Geoleplubo/Statistiques|Éstatistiques]]
 
 
-* {{Lien|fr=Prénoms dans les langues d'Oil|lang=pcd|trad=Tiots noms din ches langues d'Ouol|texte=Prénoms dans les langues d'Oil}}
-
+* {{Lien|fr=Prénoms dans les langues d'Oil|lang=pcd|trad=Tiots noms din ches langues d'Ouol|texte=Prénoms dans les langues d'Oil}}  <nowiki>{{Lien|fr=Prénoms dans les langues d'Oil|lang=pcd|trad=Tiots noms din ches langues d'Ouol|texte=Prénoms dans les langues d'Oil}}</nowiki>
 
 === Les Icônes ===
 {{Boîte déroulante début|titre=Un petit icônes vaut mieux qu'un long discour }}

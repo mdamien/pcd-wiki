@@ -1,0 +1,48 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre|{{{nom|{{PAGENAME}}}}}}}
+{{#if: {{{image|}}} |
+  {{#ifexist: Media:{{{image|}}}
+     |{{Infobox/Image
+        |{{{image}}}
+        |{{{légende|}}}
+        |{{{taille image|260}}}
+        |{{{légende|}}}
+      }}
+     |{{Infobox/Ligne|{{{image}}} }}{{Infobox/Ligne optionnelle|{{{légende|}}} }}
+  }}
+  | {{#if: {{{graphie|}}}{{{capitale|}}}{{{bas-de-casse|}}}{{{isolée|}}}{{{initiale|}}}{{{médiane|}}}{{{finale|}}}
+      | {{!}} colspan="2" align="center"{{!}}<div style="margin: 0.3em; font-size:800%; line-height:110%; text-align:center">{{#if: {{{graphie|}}}
+             | {{{graphie}}}
+             | {{#if: {{{capitale|}}}|<span style="font-family:DejaVu Serif, Noto Serif, Cambria, Times New Roman, serif">{{{capitale}}}</span>|}}{{#if: {{{bas-de-casse|}}}| <span style="font-family:DejaVu Serif, Noto Serif, Cambria, Times New Roman, serif">{{{bas-de-casse}}}</span>|}} {{#if: {{{capitale|}}}|<span style="font-family:DejaVu Sans, Noto Sans, Segoe UI, Calibri, Helvetica, Arial, sans-serif">{{{capitale}}}</span>|}}{{#if: {{{bas-de-casse|}}}| <span style="font-family:DejaVu Sans, Noto Sans, Segoe UI, Calibri, Helvetica, Arial, sans-serif">{{{bas-de-casse}}}</span>|}}{{#if: {{{isolée|}}}| {{{isolée}}}|}}{{#if: {{{initiale |}}}|<br/>{{{initiale}}}|}}{{#if: {{{médiane|}}}| {{{médiane}}}|}}{{#if: {{{finale|}}}| {{{finale}}}|}}
+          }}</div>
+          {{!-}}
+      |
+    }}
+}}
+|-
+
+{{Infobox/Sous-titre optionnel|Grafies|{{{graphie|}}}{{{capitale|}}}{{{bas-de-casse|}}}{{{isolée|}}}{{{initiale|}}}{{{médiane|}}}{{{finale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Grafie{{#if: {{{pluriel|}}}|s}}|{{{graphie|}}}}}
+{{Infobox/Ligne mixte optionnelle|Capitale|{{{capitale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Bas-d'casse|{{{bas-de-casse|}}}}}
+{{Infobox/Ligne mixte optionnelle|Isolée|{{{isolée|}}}}}
+{{Infobox/Ligne mixte optionnelle|Initiale|{{{initiale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Médiane|{{{médiane|}}}}}
+{{Infobox/Ligne mixte optionnelle|Finale|{{{finale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Ésposant|{{{exposant|}}}}}
+{{Infobox/Ligne mixte optionnelle|Indice|{{{indice|}}}}}
+{{Infobox/Ligne mixte optionnelle|Diacritique suscrite|{{{suscrite|}}}}}
+{{Infobox/Ligne mixte optionnelle|Diacritique souscrite|{{{souscrite|}}}}}
+
+{{Infobox/Sous-titre optionnel|Utilisation|{{{écriture|}}}{{{alphabet|}}}{{{ordre|}}}{{{phonèmes|}}}}}
+{{Infobox/Ligne mixte optionnelle|Écrivure]]|{{{écriture|}}}}}
+{{Infobox/Ligne mixte optionnelle|Abécédés|{{{alphabet|}}}}}
+{{Infobox/Ligne mixte optionnelle|Orde|{{{ordre|}}}}}
+{{Infobox/Ligne mixte optionnelle|Fonèmes principaux|{{{phonèmes|}}}}}
+
+{{Infobox/Sous-titre optionnel|Codage|{{{nom_unicode|}}}{{{unicode|}}}{{{bloc|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nom{{#if: {{{pluriel|}}}|s}}|{{{nom_uni|}}}}}
+{{Infobox/Ligne mixte optionnelle|Unicode|{{{unicode|}}}}}
+{{Infobox/Ligne mixte optionnelle|Bloc{{#if: {{{bloc2|}}}|s}}|{{{bloc|}}}|{{#if: {{{lien_bloc|}}}|{{É}}{{É}}Table des caractères Unicode/{{{lien_bloc}}}{{!}}}}{{{bloc|}}}{{#if: {{{lien_bloc|}}}|{{Ê}}{{Ê}}}}{{#if: {{{lien_bloc2|}}}|<br/>{{É}}{{É}}Table des caractères Unicode/{{{lien_bloc2}}}{{!}}}}{{{bloc2|}}}{{#if: {{{lien_bloc2|}}}|{{Ê}}{{Ê}}}}{{#if: {{{lien_bloc3|}}}|<br/>{{É}}{{É}}Table des caractères Unicode/{{{lien_bloc3}}}{{!}}}}{{{bloc3|}}}{{#if: {{{lien_bloc3|}}}|{{Ê}}{{Ê}}}}}}
+{{Infobox/Notice|Infobox Graphème}}
+{{Infobox/Fin}}</includeonly><!--<noinclude>{{documentation}}</noinclude>-->

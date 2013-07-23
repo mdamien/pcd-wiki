@@ -30,22 +30,22 @@
 {{!-}}
 }}
 {{#if:{{{date de naissance|}}}{{{lieu de naissance|}}} |
-! scope=row {{!}} Naissance 
+! scope=row {{!}} Né(e) 
 {{!}} {{{date de naissance|}}}<br />{{{lieu de naissance|}}}
 {{!-}}
 }}
 {{#if:{{{date de décès|}}}{{{lieu de décès|}}} |
-! scope=row {{!}} Décès 
+! scope=row {{!}} Défuncté(e) 
 {{!}} {{{date de décès}}} {{#if:{{{âge au décès|}}}|(à {{{âge au décès|}}} ans)|}}<br />{{{lieu de décès|}}}
 {{!-}}
 }}
 {{#if:{{{nationalité|}}} |
-! scope=row {{!}} Nationalité
+! scope=row {{!}} Poéyis
 {{!}} {{{nationalité|}}}
 {{!-}}
 }}
 {{#if:{{{pays de résidence|}}} |
-! scope=row {{!}} Pays de résidence
+! scope=row {{!}} Poéyis d' résidinche
 {{!}} {{{pays de résidence|}}}
 {{!-}}
 }}
@@ -60,12 +60,12 @@
 {{!-}}
 }}
 {{#if:{{{activité principale|}}} |
-! scope=row {{!}} Activité principale
+! scope=row {{!}} Activité princhipale
 {{!}} {{{activité principale|}}}
 {{!-}}
 }}
 {{#if:{{{activités autres|}}} |
-! scope=row {{!}} Autres activités
+! scope=row {{!}} Eutes activités
 {{!}} {{{activités autres|}}}
 {{!-}}
 }}
@@ -115,6 +115,38 @@
 {{!}} {{{hommage|}}}
 {{!-}}
 }}
+<!--Arts
+{{Infobox V3/Tableau Ligne mixte|width=9|Activité(s)|{{{activités|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Formation|{{{formation|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Maître|{{{maître|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Élèves|{{{élèves|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Mouvement artistique|{{{mouvement|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Œuvres réputées|{{{œuvres|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Mécènes|{{{mécènes|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Influencé par|{{{influencé_par|{{{influencé par|}}}}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Influença|{{{influence_de|{{{influence de|}}}}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Récompenses|{{{récompenses|}}}}} -->
+{{#if:{{{activités|}}} |
+! scope=row {{!}} Activités
+{{!}} {{{activités|}}}
+{{!-}}
+}}
+{{#if:{{{maître|}}} |
+! scope=row {{!}} Moaite(s)
+{{!}} {{{maître|}}}
+{{!-}}
+}}
+{{#if:{{{élèves|}}} |
+! scope=row {{!}} Élèves
+{{!}} {{{élèves|}}}
+{{!-}}
+}}
+{{#if:{{{œuvres|}}} |
+! scope=row {{!}} Euves
+{{!}} {{{œuvres|}}}
+{{!-}}
+}}
+
 {{#if:{{{ascendants|}}} |
 ! scope=row {{!}} Ascendants
 {{!}} {{{ascendants|}}}
@@ -141,6 +173,7 @@
 {{#if:{{{signature|}}}| 
 {{!}} colspan="2" style="font-size: smaller; text-align: center;" {{!}}'''Signature'''<br/>
 [[Image:{{{signature}}}|128px|]]}}
-|}{{Suivi des biographies}}</includeonly><noinclude>
-{{Documentation}}
+|}
+<!--{{Suivi des biographies}}--></includeonly><noinclude>
+<!--{{Documentation}}-->
 <!-- Chés catégories pi intérwikis is doétte ète rajoutés dins l'edsous-pache /Documentation et pi poin ichi. Merchi. --></noinclude>

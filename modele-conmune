@@ -42,7 +42,7 @@ __NOTOC__
 }}
 {{Infobox/Ligne mixte optionnel
  | Code insee
- | {{{insee|}}}
+ | {{#property:p374}}
 }}
 {{Infobox/Ligne mixte
  | Code possal

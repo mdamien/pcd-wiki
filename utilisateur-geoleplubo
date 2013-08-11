@@ -50,6 +50,23 @@ Ech Wikipédia picard il o  '''[[Spécial:Prefixindex/|{{NUMBEROFARTICLES}}]]'''
 |-
 ! a12 !! b23 !! c34
 |}
+
+{| class="wikitable"
+|-
+! rowspan="2" |Désignation 
+! colspan="7" | niveau
+|-
+! 0 !! 1 !!2 !!3 !! 4 !! 5 !! 6 
+|-
+| présentation || {{non}} || {{fait}}|| {{fait}}|| {{fait}}|| {{fait}}|| {{fait}}|| {{fait}}
+|-
+| actif || {{non}} || {{non}}|| {{fait}}|| {{fait}}|| {{fait}}|| {{fait}}|| {{fait}}
+|-
+| picard || {{non}} || {{non}}|| {{non}}|| {{non}}|| {{non}}|| {{fait}}|| {{fait}}
+|-
+|}
+
+
 * '''[http://fr.wikipedia.org/wiki/Aide:Formules_TeX fr:Aide:Formules TeX]''', édition des formules mathématiques,
 * écriture droite : <math>\mathrm{ZnO}</math>.  <nowiki><math>\mathrm{ZnO}</math></nowiki>
 * '''texte gras''' : <nowiki><math>\mathbf{ABCD}</math></nowiki> =  <math>\mathbf{ABCD}</math> <br/>

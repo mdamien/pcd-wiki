@@ -2,6 +2,4 @@
 
 {{Documentation, template|content=This is a meta-template that is not intended to be transcluded directly from the main article space.  It can be used to construct other templates that need to extract the <tt>alias</tt> value from the specified <tt>[[:Category:Country data templates|country_data]]</tt> structure, so that customized wikilinks can be constructed.  For example, <tt><nowiki>{{getalias|USA}}</nowiki></tt> → "{{getalias|USA}}".  Use <tt>shortname</tt> as a second parameter to retrieve the <tt>shortname alias</tt> value if desired.  For example, <tt><nowiki>{{getalias|CHN}}</nowiki></tt> → "{{getalias|CHN}}", but <tt><nowiki>{{getalias|CHN|shortname}}</nowiki></tt> → "{{getalias|CHN|shortname}}". A third parameter can specify the variant, for example <nowiki>[[Image:{{getalias|USA|flag|1912}}|22px]]</nowiki> -> [[Image:{{getalias|USA|flag|1912}}|22px]] }}
 [[Catégorie:Modèle drapieu|{{PAGENAME}}]]
-[[en:Template:Getalias]]
-[[fr:Modèle:Getalias]]
 </noinclude>

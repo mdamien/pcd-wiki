@@ -83,23 +83,6 @@
 --- Erreur de paramétrage ---
 -->{{#if:{{{carte|}}}|[[Catégorie:Infobox Aire protégée/Erreur paramétrage]]}}<!--
 -->}}</includeonly><noinclude>{{Doc modèle}}
-[[ar:قالب:صندوق معلومات منطقة محمية]]
-[[cs:Šablona:Infobox chráněná oblast]]
-[[de:Vorlage:Infobox Nationalpark]]
-[[en:Template:Infobox protected area]]
-[[es:Plantilla:Ficha de espacio natural]]
-[[fi:Malline:Luonnonsuojelualue]]
-[[fr:Modèle:Infobox Aire protégée]]
-[[gu:ઢાંચો:માહિતીચોકઠું આરક્ષિત ક્ષેત્ર]]
-[[hy:Կաղապար:Արգելոցային տարածք]]
-[[ja:Template:Infobox Protected area]]
-[[ka:თარგი:ინფოდაფა დაცული ტერიტორია]]
-[[kk:Үлгі:Қорық аймақ]]
 [[mk:Шаблон:Природен резерват]]
-[[pt:Predefinição:Info/Área protegida]]
-[[ro:Format:Infocaseta Arie protejată]]
-[[ru:Шаблон:Заповедная зона]]
-[[th:แม่แบบ:กล่องเขตคุ้มครอง]]
-[[uk:Шаблон:Infobox Protected area]]
 [[vi:Bản mẫu:Infobox protected area]]
 </noinclude>

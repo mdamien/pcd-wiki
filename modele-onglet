@@ -1,11 +1,5 @@
 <includeonly>{{#if:{{{preums|}}}||<td class="onglet" style="width: 2%; border-bottom: {{#if:{{{bordure|}}}|{{{bordure}}}|solid 2px #A3B1BF}}">&nbsp;</td>}}<td class="onglet" style="text-align: {{#if:{{{alignement onglet|}}}|{{{alignement onglet}}}|center}}; {{#if:{{{arrondi|}}}|-moz-border-radius: {{{arrondi}}} {{{arrondi}}} 0 0; -webkit-border-radius: {{{arrondi}}} {{{arrondi}}} 0 0; border-radius: {{{arrondi}}} {{{arrondi}}} 0 0;}} padding:0.3em; border: {{#if:{{{bordure|}}}|{{{bordure}}}|solid 2px #A3B1BF}}; font-size: 110%; {{#ifeq:{{FULLPAGENAME}}|{{{URL}}}|background-color: {{#if:{{{fond cadre|}}}|{{{fond cadre}}}|transparent}}; border-bottom: none; font-weight:bold; |background-color: {{#if:{{{fond onglets|}}}|{{{fond onglets}}}|#CEE0F2}}; }}" width="{{#expr:(100/{{Nombre de paramètres définis|{{{1}}}|{{{2}}}|{{{3}}}|{{{4}}}|{{{5}}}|{{{6}}}|{{{7}}}|{{{8}}}|{{{9}}}|{{{10}}}}})-2}}%">{{#if:{{{Image|}}}|[[Fichier:{{{Image}}}|20px|{{{Onglet}}}|link={{{URL}}}]]&nbsp;|}}{{#ifeq:{{{URLType|}}}|http|<span class="plainlinks noarchive">[{{{URL}}} {{{Onglet}}}]</span>|[[{{{URL}}}|{{{Onglet}}}]]}}</td></includeonly>
 <noinclude>
 [[catégorie:Subroutines-pcd]]
-[[ca:Plantilla:Pestanyes-genera]]
-[[en:Template:Tab]]
 [[eo:Ŝablono:Butono]]
-[[fr:Modèle:Onglet]]
-[[hsb:Předłoha:Rajtark]]
-[[hy:Կաղապար:Ներդրուկ]]
-[[pt:Predefinição:Separador]]
 </noinclude>

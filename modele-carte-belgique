@@ -1,0 +1,25 @@
+<includeonly>{| style="margin:0 0 0.5em 0.5em; border: 1px #CCCCCC solid; border-collapse: collapse; font-size:90%;" border=1 cellpadding="4" cellspacing="0" align="right" bgcolor="#ffffff"
+|-----
+! colspan="2" bgcolor="#FFFFBB" align="center" |[[Image:Flag_of_Belgium_(civil).svg|27px]]&nbsp;&nbsp;{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+{{#if: {{{image|{{{carte|}}}}}}|
+{{!}}-----
+{{!}} colspan="2" align="center" style="padding:0px<!--trbl-->;background-color: #ffffff;" {{!}}<!--
+-->[[Image:{{{image|{{{carte}}}}}}|292px|{{{légende|{{{carte-legende|image de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}<!---->}}}<!---->}}}]]<br/><small>{{{légende|{{{carte-legende|image de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}<!---->}}}<!---->}}}</small>
+}}
+{{#if: {{{lat_deg|}}}|
+{{!}}-----
+{{!}}colspan="2" align="center"{{!}}{{Carte avec géolocalisation dans l'infobox
+|carte=Belgique
+|latitude={{#expr: {{{lat_deg|50}}} + {{{lat_min|0}}} / 60}}
+|longitude={{#expr: {{{lon_deg|3}}} + {{{lon_min|0}}} / 60}}
+|texte={{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+|point=Ville sans toponyme
+|arg1=15|
+|largeur=248
+}}
+{{!}}-----
+|-----
+|'''Coordonnées''' ||{{coord|{{{lat_deg|}}}|{{{lat_min|}}}|{{{lat_sec|0}}}|N|{{{lon_deg|}}}|{{{lon_min|}}}|{{{lon_sec|0}}}|E|region:BE_type:city}}
+|-----
+|}{{#if:{{{carte|}}}|{{#if:{{NAMESPACE}}||}}
+}}</includeonly>

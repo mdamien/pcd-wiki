@@ -23,10 +23,10 @@
 l'musique, ech téïate, echl opéra, pi chés voéyaches.
 
 {|
-|[[Image:BennyGoodmanStageDoorCanteen.jpg|center|thumb|100px|Benny Goodman]]
-| [[Image:P_culture.svg‎|center|thumb|100px|téïate]]
-|[[Image:Liege-Opera-20051226-A.jpg|center|thumb|100px|Echl'Opéra Liége au vèpe]]
-|[[Image:Ac.delphi1.jpg|thumb|center|upright=1.5|100px|Dèlfes : ch'téïate pi ch'timpe Apolon)]]
+|[[Image:BennyGoodmanStageDoorCanteen.jpg|center|thumb|200px|Benny Goodman]]
+| [[Image:P_culture.svg‎|center|thumb|200px|téïate]]
+|[[Image:Liege-Opera-20051226-A.jpg|center|thumb|200px|Echl'Opéra Liége au vèpe]]
+|[[Image:Ac.delphi1.jpg|thumb|center|upright=1.5|200px|Dèlfes : ch'téïate pi ch'timpe Apolon)]]
 |}
 
 <br />
@@ -36,48 +36,3 @@ Ech Wikipédia picard il o  '''[[Spécial:Prefixindex/|{{NUMBEROFARTICLES}}]]'''
 ===Divers===
 *[[Utilisateur:Geoleplubo/Statistiques]]
 *[[Utilisateur:Geoleplubo/Bac à sabe]]
-
-=== Les Icônes ===
-{{Boîte déroulante début|titre=Un petit icônes vaut mieux qu'un long discour }}
-{| rules="all" style="border: 1px solid #999;" cellspacing="0" cellpadding="3"
-|-bgcolor="#DFDFDF"
-! style="text-align: left" | Syntaxe et explications
-! width="50%" | Résultat
-|-
-| <nowiki>{{</nowiki>[[Modèle:Attention|Attention]]<nowiki>|</nowiki>''Texte''}}
-| {{Attention|Texte de test}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:Non|Non]]}} / <nowiki>{{</nowiki>[[Modèle:Oui|Oui]]}}
-| {{Non}} / {{Oui}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:Contre|Contre]]}} / <nowiki>{{</nowiki>[[Modèle:Pour|Pour]]}}
-| {{Contre}} / {{Pour}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:Supprimer|Supprimer]]}} / <nowiki>{{</nowiki>[[Modèle:Conserver|Conserver]]}} / <nowiki>{{</nowiki>[[Modèle:suppression immédiate|suppression immédiate]]}}
-| {{Supprimer}} / {{Conserver}} / {{suppression immédiate}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:Neutre|Neutre]]}} / <nowiki>{{</nowiki>[[Modèle:Attendre|Attendre]]}} / <nowiki>{{</nowiki>[[Modèle:Rediriger|Rediriger]]}}
-| {{Neutre}} / {{Attendre}} / {{Rediriger}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:sursis1|sursis1]]|''nombre de mois''}}
-| {{sursis1|3}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:Moins|Moins]]}} / <nowiki>{{</nowiki>[[Modèle:Plus|Plus]]}}
-| {{Moins}} / {{Plus}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:Plus2|Plus2]]}} / <nowiki>{{</nowiki>[[Modèle:Croix|Croix]]}}
-| {{Plus2}} / {{Croix}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:Peace|Peace]]}} / <nowiki>{{</nowiki>[[Modèle:Sourire|Sourire]]}} / <nowiki>{{</nowiki>[[Modèle:Mort|Mort]]}} / <nowiki>{{</nowiki>[[Modèle:mdr|mdr]]}}
-| {{Peace}} / {{Sourire}} / {{Mort}} / {{mdr}}
-|-
-| <nowiki>{{</nowiki>[[Modèle:Fait|Fait]]}} / <nowiki>{{</nowiki>[[Modèle:Stop|Stop]]}}
-| {{Fait}} / {{Stop}}
-|-
-| <nowiki>{{</nowiki> [[Modèle:VoteTranswiki]]}} / <nowiki>{{</nowiki>[[Modèle:VoteFusionner]]}} / <nowiki>{{</nowiki>[[Modèle:Recycle]]}}
-| {{VoteTranswiki}}{{VoteFusionner}} {{Recycle}}
-|}
-{{Galerie émoticônes}}
-{{Boîte déroulante fin}}
-<!-- NE PAS TOUCHER --></div>
-<!-- NE PAS TOUCHER --><div style="margin-bottom:0.1em; border:2px solid WHEAT; background:IVORY; -moz-border-radius:8px; padding:4px;">

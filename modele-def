@@ -1,0 +1,9 @@
+<h3 class="titredef" {{#if:{{{code|}}}{{{langue|}}}|id="{{{langue}}}-{{{code}}}{{#if:{{{num|}}}|-{{{num}}}}}"}}> <!-- -->{{{1}}}{{#if:{{{num|}}}|&nbsp;{{{num}}} }} {{#if:{{#ifeq:{{NAMESPACE}}||{{nom langue| {{{langue|}}} }} }}|<!--
+ -->[[Catégorie:{{nom langue| {{{langue|}}} }}{{#if:{{{clé|}}}|{{!}}{{{clé|}}}}}]]<!--
+ -->{{#if:{{#ifeq:{{{langue}}}|conv||{{{type|}}}}}|[[Catégorie:{{{type}}} en {{nom langue| {{{langue|}}} }}{{#if:{{{clé|}}}|{{!}}{{{clé|}}}}}]]}}<!--
+-->}}{{#if:{{NAMESPACE}}{{{langue|}}}||<!--
+ -->{{#ifeq:{{{1|}}}|Symbole||[[Catégorie:Wikamote:Codes langue non définis]]}}<!--
+-->}}</h3><noinclude>
+<!--{{documentation}}-->
+[[Catégorie:Modèles du Wikamote| ]]
+</noinclude>

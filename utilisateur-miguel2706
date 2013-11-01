@@ -1,0 +1,8 @@
+{{#babel:es-N|en-3|fr-1|}}
+{{#switch: {{CONTENTLANG}}
+| es = <div class="mw-content-ltr" lang="es" dir="ltr">Hola. Yo no edito mucho aquí, pero soy un miembro de [[m:Special:MyLanguage/Small Wiki Monitoring Team|el Small Wiki Monitoring Team]]. Tu puedes encontrarme en Meta o en Wikipedia en idioma español: [[m:User:Miguel2706]], [[m:es:User:Miguel2706]].
+</div>
+
+|<div class="mw-content-ltr" lang="en" dir="ltr">Hello. I do not edit here much, but I am a member of [[m:Special:MyLanguage/Small Wiki Monitoring Team|the Small Wiki Monitoring Team]]. You can find me on Meta or Wikipedia in spanish language: [[m:User:Miguel2706]], [[m:es:User:Miguel2706]].
+</div> }}
+[[File:Redirect arrow without text.svg|46px|link=]][[m:User talk:Miguel2706|Meta:{{ns:3}}:Miguel2706]]

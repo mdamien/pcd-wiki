@@ -1,0 +1,16 @@
+== Give search results even when page doesn't exist ==
+
+<div class="mw-content-ltr">
+[[File:Wdsearch script screenshot.png|thumb|280px|Screenshot of the [//en.wikipedia.org/w/index.php?search=Earth&fulltext=1&limit=3 Earth test search], with this script adding links to Wikidata, Reasonator, Commons, and Wikipedia.]]
+Hello, I propose to enable the tool created by Magnus Manske (creator of MediaWiki) to provide results from other languages and Commons (via Wikidata) when a page doesn't exist here: links are added to [[Special:Search]] and [[MediaWiki:noarticletext|noarticletext]]. This helps to encourage translation and to make readers use your wiki more, because they can be sure to find something even if it's not local (rather than searching directly on the biggest wiki). The Italian and Polish Wikipedias, among others already enabled it by default.<br>
+Examples: [https://it.wikipedia.org/w/index.php?search=Richard+II&title=Speciale%3ARicerca] [https://it.wikipedia.org/w/index.php?title=Speciale%3ARicerca&profile=default&search=Grace+Albee&fulltext=Search] [https://it.wikipedia.org/wiki/Salticoididae]. More information: [http://magnusmanske.de/wordpress/?p=108 Magnus blog].<br>
+How to: just add the following line at the end of Common.js.
+<pre>
+// Results from Wikidata
+// [[File:Wdsearch_script_screenshot.png]]
+if ( mw.config.get( 'wgCanonicalSpecialPageName' ) === 'Search' ||  ( mw.config.get( 'wgArticleId' ) === 0 && mw.config.get( 'wgCanonicalSpecialPageName' ) === false ) ) {
+	importScriptURI("//en.wikipedia.org/w/index.php?title=MediaWiki:Wdsearch.js&action=raw&ctype=text/javascript");
+}
+--[[m:User:Nemo_bis|Nemo]] ~~~~~ ([[w:en:MediaWiki talk:Wdsearch.js|comments, translations and last instructions]])
+</div>
+<!-- EdwardsBot 0661 -->

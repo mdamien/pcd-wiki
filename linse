@@ -87,18 +87,7 @@ Linse ch’est l’ pus tiote vile à avoèr yu eune coupe du monne ed [[fotbale
 
 <center>		
 '''Évolution démografique'''		
-{{Démografie2		
-|colonnes           =9 <!-- cette ligne est facultative mais si elle existe le paramètre colonnes doit avoir une valeur -->		
-|largeur-tableau    =60% <!-- facultatif (exple: 50em ) -->		
-|titre              =		
-|marge-interlignes  =18px <!-- facultatif (exple : 8px) -->		
-|taille-police      =90% <!-- facultatif (exple : 90%) -->		
-|hauteur-lignes     =120% <!-- facultatif (exple : 120%) -->		
-|hyperliens-années  =on <!-- facultatif ("on" ou sans valeur) -->		
-|années-fond        =#F5F5F5 <!-- facultatif (exple: #ddffdd ) -->		
-|population-fond    =#F3FFF3 <!-- facultatif (exple: #f3fff3 ) -->		
-|notes-fond         =#F5F5F5;font-size:90% <!-- facultatif (exple: #f3fff3 ) -->		
-|style-notes        = <!-- facultatif ("centré" ou sans valeur) -->		
+{{Démografie2			
 | 1793| {{formatnum:2081}}
 | 1800| {{formatnum:2365}}
 | 1806| {{formatnum:2316}}
@@ -134,20 +123,20 @@ Linse ch’est l’ pus tiote vile à avoèr yu eune coupe du monne ed [[fotbale
 | 1999| {{formatnum:36206}}
 | 2006| {{formatnum:35583}}
 		
-|notes=<center>Nombre retenu à partir de [[1962]] : [[Chiffres de population en France|population sans doubles comptes]] - Sources : Cassini<ref>		
+|notes=<center>Nombre retenu à partir de 1962 : populacion sans doubes comptes - Sources : Cassini<ref>		
 		
 {{Lien web		
    |url=http://cassini.ehess.fr/cassini/fr/html/6_index.htm		
    |titre=Des villages de Cassini aux communes d'aujourd'hui		
    |site =site de l'École des hautes études en sciences sociales		
-   |consulté le= {{date|7|mars|2010}}	
+   |consulté le=	
  }}		
 </ref> et Insee<ref>		
 {{Lien web		
    |url=http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/commune.asp?depcom=62498	
    |titre=Recensement de la population en 2006		
-   |site =[[Institut national de la statistique et des études économiques|INSEE]]		
-   |consulté le= {{date|7|mars|2010}}	
+   |site =INSEE		
+   |consulté le=
  }}		
 </ref>		
 </center>		

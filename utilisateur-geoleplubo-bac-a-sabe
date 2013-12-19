@@ -8,6 +8,11 @@
 |lon_min=10
 }}
 
+*  <nowiki> {{legend|#00ff00| '''''Étindu dech Picard''''' }}</nowiki>  {{legend|#00ff00| '''''Étindu dech Picard''''' }}
+*<code><nowiki><span style="color:red">texte rouge</span></nowiki></code> donne <span style="color:red">texte rouge</span>
+*<code><nowiki><span style="color:green">texte vert</span></nowiki></code> donne <span style="color:green">texte vert</span>
+*<code><nowiki><span style="color:blue">texte bleu</span></nowiki></code> donne <span style="color:blue">texte bleu</span>
+
 ==tableau==
 {| class="wikitable"
 ! aaa !! bbb !! ccc

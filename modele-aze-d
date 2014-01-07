@@ -1,0 +1,19 @@
+{{CIO-d|Azerbaijan|Azerbaïdjan|{{{1|20px}}}}}<noinclude>
+{{Documentation|Modèle:CIO-d/Documentation}}
+== TemplateData ==
+<templatedata>
+{
+  "description": "Modèle insérant le drapeau de l'Azerbaïdjan.",
+  "params": {
+    "1": {
+      "label": "Taille",
+      "description": "Largeur de l'icône, par exemple « 25px » (par défaut : 20px).",
+      "type": "string"
+    }
+  }
+}
+</templatedata>
+
+[[Catégorie:Modèle drapiau sans liache|{{PAGENAME}}]]
+[[Catégorie:Modèle Azerbaïdjan|*]]
+</noinclude>

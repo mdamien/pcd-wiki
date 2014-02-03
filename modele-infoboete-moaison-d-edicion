@@ -1,0 +1,92 @@
+<includeonly>{{Infobox/Début}}
+{{#if: {{{logo|}}}
+  |{{#ifexist: Media:{{{logo|}}}
+     |{{Infobox/Image
+       |{{{logo|}}}
+       |[[Logotype|Logo]] de {{#if:{{{nom complet|}}}|{{{nom complet}}}|{{PAGENAME}}}}
+       |{{{taille logo|}}}
+       |logo
+       |
+       |
+       |Maison d'édition
+      }}
+     |{{Infobox/Ligne | {{{logo}}}<br /><small>[[Logotype|Logo]] de {{#if:{{{nom complet|}}}|{{{nom complet}}}|{{PAGENAME}} }}</small>}}
+   }}
+ | {{Infobox/Titre
+    | {{#if:{{{nom complet|}}}|{{{nom complet}}}|{{PAGENAME}}}}
+    | {{#if:{{{couleur boîte|}}}|{{{couleur boîte}}}|8e5434}}
+    | entete {{#if:{{{entete|}}}|{{{entete}}}|defaut}}
+    | FFFFFF
+   }}
+   {{Infobox/Ligne | [[Image:Importez_le_logo-fr.svg|100px|link=Aide:Importer un logo|Importez le logo de cette maison d'édition]]}}
+}}
+<!-- -->
+{{Infobox/Sous-titre optionnel | Repères historiques | {{{date de création|}}} {{{dates-clés|}}} {{{date de disparition|}}} {{{fondateur(s)|}}} | {{#if:{{{couleur boîte|}}}|{{{couleur boîte}}}|8e5434  }} | FFFFFF}}
+{{Infobox/Ligne mixte optionnelle
+ | Création | {{{date de création|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Dates&nbsp;clés | {{{dates-clés|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Disparition | {{{date de disparition|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Fondateu(s) | {{{fondateur(s)|}}}
+}}
+{{Infobox/Sous-titre optionnel | Fiche d’identité | {{{forme juridique|}}} {{{statut|}}} {{{slogan|}}} {{{siège (ville)|}}} {{{direction actuelle|}}} {{{spécialité(s)|}}} {{{collections|}}} {{{titres phares|}}} {{{langue de publication|}}} {{{diffuseur(s)|}}} {{{société mère|}}} {{{filiales|}}} {{{effectif|}}} {{{site web|}}} | {{#if:{{{couleur boîte|}}}|{{{couleur boîte|}}}|8e5434}} | FFFFFF }}
+{{Infobox/Ligne mixte optionnelle
+ | Forme&nbsp;juridique | {{{forme juridique|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Statut | {{{statut|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Slogan(s) | {{{slogan|}}} | « {{{slogan}}} »
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Siège&nbsp;social | {{{siège (ville)|}}} | {{{siège (ville)}}} {{#if: {{{siège (pays)|}}} | <br />{{{{{siège (pays)}}}}} }}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Dirékcion | {{{direction actuelle|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Espécialité(s) | {{{spécialité(s)|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Collection(s) | {{{collections|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Titre(s) phare(s) | {{{titres phares|}}}
+}} 	
+{{Infobox/Ligne mixte optionnelle
+ | Langue(s) ed<br />publicacion | {{{langue de publication|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Diffuseur(s) | {{{diffuseur(s)|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Société mère | {{{société mère|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Filiale(s) | {{{filiales|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Effectif | {{{effectif|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Site ouèbe | {{{site web|}}}
+}}
+{{Infobox/Sous-titre optionnel | Données financières | {{{chiffre d'affaires|}}} {{{résultat net|}}} | {{#if:{{{couleur boîte|}}}|{{{couleur boîte|}}}|8e5434}} | FFFFFF }}
+{{Infobox/Ligne mixte optionnelle
+ | Chiffre&nbsp;d’afoaires | {{{chiffre d'affaires|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Résultat&nbsp;net | {{{résultat net|}}}
+}}
+{{Infobox/Sous-titre optionnel | Principaux concurrents | {{{concurrents|}}} | {{#if:{{{couleur boîte|}}}|{{{couleur boîte|}}}|8e5434}} | FFFFFF }}
+{{Infobox/Ligne optionnelle
+ | {{{concurrents|}}}
+}}
+{{Infobox/Notice | Infobox Maison d'édition | {{#if:{{{couleur boîte|}}}|{{{couleur boîte}}}|8e5434}} }}
+{{Infobox/Fin}}</includeonly><noinclude><!--{{documentation}}--></noinclude>

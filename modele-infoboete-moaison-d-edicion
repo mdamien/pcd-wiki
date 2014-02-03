@@ -3,7 +3,7 @@
   |{{#ifexist: Media:{{{logo|}}}
      |{{Infobox/Image
        |{{{logo|}}}
-       |[[Logotype|Logo]] de {{#if:{{{nom complet|}}}|{{{nom complet}}}|{{PAGENAME}}}}
+       |Logo à {{#if:{{{nom complet|}}}|{{{nom complet}}}|{{PAGENAME}}}}
        |{{{taille logo|}}}
        |logo
        |

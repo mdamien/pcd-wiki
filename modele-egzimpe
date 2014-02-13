@@ -1,0 +1,8 @@
+<includeonly>
+<div style="display:none;">Début de l'exemple</div>
+{{emphase|Icône=Crystal Projec icons.png|Titre={{{titre|Égzimpe}}}|Contenu={{{contenu|}}} | align={{{align|center}}} | width={{{width|70%}}} }}
+<div style="display:none;">Fin de l'exemple</div>
+{{#if:{{{contenu|}}}||{{#ifeq:{{NAMESPACE}}||{{#if:{{{nocat|}}}||-}}}}}}
+</includeonly><noinclude>
+[[Catégorie:Modèle]]
+</noinclude>

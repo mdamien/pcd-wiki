@@ -1,0 +1,270 @@
+<includeonly><div style="text-align: center;">
+{| class="wikitable"
+|+{{{titre|}}}
+! scope="col" bgcolor="#{{{couleur1|d9d9ff}}}" style="text-align: center;"|{{{{{langue1}}}}}
+! scope="col" bgcolor="#{{{couleur2|f2ffcc}}}" style="text-align: center;"|{{{{{langue2|fr}}}}}
+|-
+|bgcolor="#{{{pastel1|e9e9ff}}}"|{{lang|{{{langue1}}}|texte={{{1}}}}}
+|bgcolor="#{{{pastel2|f6ffdd}}}"|{{{2}}}
+|-
+|bgcolor="#{{{pastel1|e9e9ff}}}"|{{lang|{{{langue1}}}|texte={{{3}}}}}
+|bgcolor="#{{{pastel2|f6ffdd}}}"|{{{4}}}
+{{#if: {{{5|}}}
+|{{!}}-
+ {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{5|}}}}}
+ {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{6|}}}
+ {{#if: {{{7|}}}
+ |{{!}}-
+  {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{7|}}}}}
+  {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{8|}}}
+  {{#if: {{{9|}}}
+  |{{!}}-
+   {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{9|}}}}}
+   {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{10|}}}
+   {{#if: {{{11|}}}
+   |{{!}}-
+    {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{11|}}}}}
+    {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{12|}}}
+    {{#if: {{{13|}}}
+    |{{!}}-
+     {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{13|}}}}}
+     {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{14|}}}
+     {{#if: {{{15|}}}
+     |{{!}}-
+      {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{15|}}}}}
+      {{!}}bgcolor="#{{{pastel2|f6ffdd}}}" {{!}}{{{16|}}}
+      {{#if: {{{17|}}}
+      |{{!}}-
+       {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{17|}}}}}
+       {{!}}bgcolor="#{{{pastel2|f6ffdd}}}" {{!}}{{{18|}}}
+       {{#if: {{{19|}}}
+       |{{!}}-
+        {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{19|}}}}}
+        {{!}}bgcolor="#{{{pastel2|f6ffdd}}}" {{!}}{{{20|}}}
+        {{#if: {{{21|}}}
+        |{{!}}-
+         {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{21|}}}}}
+         {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{22|}}}
+         {{#if: {{{23|}}}
+         |{{!}}-
+          {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{23|}}}}}
+          {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{24|}}}
+          {{#if: {{{25|}}}
+          |{{!}}-
+           {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{25|}}}}}
+           {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{26|}}}
+           {{#if: {{{27|}}}
+           |{{!}}-
+            {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{27|}}}}}
+            {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{28|}}}
+            {{#if: {{{29|}}}
+            |{{!}}-
+             {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{29|}}}}}
+             {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{30|}}}
+             {{#if: {{{31|}}}
+             |{{!}}-
+              {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{31|}}}}}
+              {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{32|}}}
+              {{#if: {{{33|}}}
+              |{{!}}-
+               {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{33|}}}}}
+               {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{34|}}}
+               {{#if: {{{35|}}}
+               |{{!}}-
+                {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{35|}}}}}
+                {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{36|}}}
+                {{#if: {{{37|}}}
+                |{{!}}-
+                 {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{37|}}}}}
+                 {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{38|}}}
+                 {{#if: {{{39|}}}
+                 |{{!}}-
+                  {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{39|}}}}}
+                  {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{40|}}}
+                  {{#if: {{{41|}}}
+                  |{{!}}-
+                   {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{41|}}}}}
+                   {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{42|}}}
+                   {{#if: {{{43|}}}
+                   |{{!}}-
+                    {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{43|}}}}}
+                    {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{44|}}}
+                    {{#if: {{{45|}}}
+                    |{{!}}-
+                     {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{45|}}}}}
+                     {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{46|}}}
+                     {{#if: {{{47|}}}
+                     |{{!}}-
+                      {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{47|}}}}}
+                      {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{48|}}}
+                      {{#if: {{{49|}}}
+                      |{{!}}-
+                       {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{49|}}}}}
+                       {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{50|}}}
+<!--Début de la rallonge-->
+                       {{#if: {{{51|}}}
+                       |{{!}}-
+                        {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{51|}}}}}
+                        {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{52|}}}
+                        {{#if: {{{53|}}}
+                        |{{!}}-
+                         {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{53|}}}}}
+                         {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{54|}}}
+                         {{#if: {{{55|}}}
+                         |{{!}}-
+                          {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{55|}}}}}
+                          {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{56|}}}
+                          {{#if: {{{57|}}}
+                          |{{!}}-
+                           {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{57|}}}}}
+                           {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{58|}}}
+                           {{#if: {{{59|}}}
+                           |{{!}}-
+                            {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{59|}}}}}
+                            {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{60|}}}
+                            {{#if: {{{61|}}}
+                            |{{!}}-
+                             {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{61|}}}}}
+                             {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{62|}}}
+                             {{#if: {{{63|}}}
+                             |{{!}}-
+                              {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{63|}}}}}
+                              {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{64|}}}
+                               {{#if: {{{65|}}}
+                               |{{!}}-
+                                {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{65|}}}}}
+                                {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{66|}}}
+                                {{#if: {{{67|}}}
+                                |{{!}}-
+                                 {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{67|}}}}}
+                                 {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{68|}}}
+                                 {{#if: {{{69|}}}
+                                 |{{!}}-
+                                  {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{69|}}}}}
+                                  {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{70|}}}
+                                  {{#if: {{{71|}}}
+                                  |{{!}}-
+                                   {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{71|}}}}}
+                                   {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{72|}}}
+                                   {{#if: {{{73|}}}
+                                   |{{!}}-
+                                    {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{73|}}}}}
+                                    {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{74|}}}
+                                    {{#if: {{{75|}}}
+                                    |{{!}}-
+                                     {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{75|}}}}}
+                                     {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{76|}}}
+                                     {{#if: {{{77|}}}
+                                     |{{!}}-
+                                      {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{77|}}}}}
+                                      {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{78|}}}
+                                      {{#if: {{{79|}}}
+                                      |{{!}}-
+                                       {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{79|}}}}}
+                                       {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{80|}}}
+                                       {{#if: {{{81|}}}
+                                       |{{!}}-
+                                        {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{81|}}}}}
+                                        {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{82|}}}
+                                        {{#if: {{{83|}}}
+                                        |{{!}}-
+                                         {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{83|}}}}}
+                                         {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{84|}}}
+                                         {{#if: {{{85|}}}
+                                         |{{!}}-
+                                          {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{85|}}}}}
+                                          {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{86|}}}
+                                          {{#if: {{{87|}}}
+                                          |{{!}}-
+                                           {{!}}bgcolor="#{{{pastel1|e9e9ff}}}"{{!}}{{lang|{{{langue1}}}|texte={{{87|}}}}}
+                                           {{!}}bgcolor="#{{{pastel2|f6ffdd}}}"{{!}}{{{88|}}}
+                                         |{{!)}}
+                                         }}
+                                        |{{!)}}
+                                        }}
+                                       |{{!)}}
+                                       }}
+                                      |{{!)}}
+                                      }}
+                                     |{{!)}}
+                                     }}
+                                    |{{!)}}
+                                    }}
+                                   |{{!)}}
+                                   }}
+                                  |{{!)}}
+                                  }}
+                                 |{{!)}}
+                                 }}
+                                |{{!)}}
+                                }}
+                               |{{!)}}
+                               }}
+                              |{{!)}}
+                              }}
+                             |{{!)}}
+                             }}
+                            |{{!)}}
+                            }}
+                           |{{!)}}
+                           }}
+                          |{{!)}}
+                          }}
+                         |{{!)}}
+                         }}
+                        |{{!)}}
+                        }}
+                       |{{!)}}
+                       }}
+<!--Refermage du 49-->
+                      |{{!)}}
+                      }}
+                     |{{!)}}
+                     }}
+                    |{{!)}}
+                    }}
+                   |{{!)}}
+                   }}
+                  |{{!)}}
+                  }}
+                 |{{!)}}
+                 }}
+                |{{!)}}
+                }}
+               |{{!)}}
+               }}
+              |{{!)}}
+              }}
+             |{{!)}}
+             }}
+            |{{!)}}
+            }}
+           |{{!)}}
+           }}
+          |{{!)}}
+          }}
+         |{{!)}}
+         }}
+        |{{!)}}
+        }}
+       |{{!)}}
+       }}
+      |{{!)}}
+      }}
+     |{{!)}}
+     }}
+    |{{!)}}
+    }}
+   |{{!)}}
+   }}
+  |{{!)}} 
+  }}
+ |{{!)}} 
+ }} 
+|{{!)}} 
+}}
+</div></includeonly><noinclude>
+<!--{{Documentation}}-->
+[[Catégorie:Modèle]]
+[[it:Template:Traduzioni]]
+</noinclude>

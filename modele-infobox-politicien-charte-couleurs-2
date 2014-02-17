@@ -1,0 +1,11 @@
+<includeonly>{{#switch: {{{1|}}}
+ | Ambassadeur = 808080
+ | chef d'État = BFC5F9
+ | chef de gouvernement = E1E1FF
+ | conseiller fédéral suisse     = ffdddd
+ | gouverneur = BFC5F9
+ | ministre = 808000
+ | monarque = BFC5F9
+ | pharaon = CCCCAA
+ | #default   = B0C4DE
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

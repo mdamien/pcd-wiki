@@ -1,0 +1,215 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre|{{{nom|{{PAGENAME}}}}}|{{Infobox Politicien/Charte couleurs 1|{{lcfirst:{{{charte|}}}}}}}||FFFFFF}}
+{{Infobox/Image|{{{image|}}}|{{{légende|}}}|{{{taille image|220}}}|{{{légende|Illustration.}}}|||Politicien}}<!--
+
+FONCTIONS
+
+-->{{Infobox/Sous-titre optionnel|{{#ifeq:{{lcfirst:{{{charte|}}}}}|monarque|Titre|Fonctions}}|{{{fonction1|}}} {{{fonction2|}}} {{{fonction3|}}} {{{fonction4|}}} {{{fonction5|}}} {{{fonction6|}}} {{{fonction7|}}} {{{fonction8|}}} {{{fonction9|}}} {{{fonction10|}}} {{{fonction11|}}} {{{fonction12|}}} {{{fonction13|}}} {{{fonction14|}}} {{{fonction15|}}} {{{fonction16|}}}|{{Infobox Politicien/Charte couleurs 1|{{lcfirst:{{{charte|}}}}}}}|FFFFFF}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}| fonction={{{fonction1}}} | depuis le fonction={{{depuis le fonction1|}}} | a partir du fonction={{{a partir du fonction1|{{{à partir du fonction1|}}}}}} |jusqu'au fonction={{{jusqu'au fonction1|}}}
+| bailli={{{bailli 1|}}}| magistrat={{{magistrat 1|}}}| maire={{{maire 1|}}}| co-titulaire={{{co-titulaire 1|}}}| souverain={{{souverain 1|}}} | couronnement={{{couronnement 1|}}} | intronisation={{{intronisation 1}}} | élection={{{élection1|}}} | réélection={{{réélection1|}}} | protecteur={{{protecteur 1|}}} | régent={{{régent 1|}}}
+| président={{{président 1|{{{président de la république 1|{{{président de la Commission 1|}}}}}}}}}
+| président fédéral={{{président fédéral 1|}}}| chef de l'état={{{chef de l'état 1|}}} | monarque={{{monarque 1|}}} | gouverneur={{{gouverneur 1|}}}
+| ministre d'état={{{ministre d'état 1|}}} | lieutenant-gouverneur={{{lieutenant-gouverneur 1|}}} | premier ministre={{{premier ministre 1|}}} | ministre-président={{{ministre-président 1|}}} | président du gouvernement={{{président du gouvernement 1|}}} | chef du gouvernement={{{chef du gouvernement 1|}}} | chancelier={{{chancelier 1|}}} | président du conseil={{{président du conseil 1|}}} 
+| vice-président={{{vice-président 1|}}} | gouvernement={{{gouvernement 1|}}} | législature={{{législature 1|}}} | coalition={{{coalition 1|}}}| groupe parlementaire={{{groupe parlementaire 1|}}}
+| prédécesseur={{{prédécesseur 1|}}} | successeur={{{successeur 1|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction2|}}} | depuis le fonction={{{depuis le fonction2|}}} | a partir du fonction={{{a partir du fonction2|{{{à partir du fonction2|}}}}}} |jusqu'au fonction={{{jusqu'au fonction2|}}}
+| bailli={{{bailli 2|}}}| magistrat={{{magistrat 2|}}}| maire={{{maire 2|}}}| co-titulaire={{{co-titulaire 2|}}}| souverain={{{souverain 2|}}} | couronnement={{{couronnement 2|}}} | élection={{{élection2|}}} | réélection={{{réélection2|}}} | protecteur={{{protecteur 2|}}} | régent={{{régent 2|}}}
+| président={{{président 2|{{{président de la république 2|{{{président de la Commission 2|}}}}}}}}}
+| président fédéral={{{président fédéral 2|}}}| chef de l'état={{{chef de l'état 2|}}} | monarque={{{monarque 2|}}} | gouverneur={{{gouverneur 2|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 2|}}} | premier ministre={{{premier ministre 2|}}} | ministre-président={{{ministre-président 2|}}} | président du gouvernement={{{président du gouvernement 2|}}} | chef du gouvernement={{{chef du gouvernement 2|}}} |chancelier={{{chancelier 2|}}} | président du conseil={{{président du conseil 2|}}} | ministre d'état={{{ministre d'état 2|}}}
+| vice-président={{{vice-président 2|}}} | gouvernement={{{gouvernement 2|}}} | législature={{{législature 2|}}} | coalition={{{coalition 2|}}}| groupe parlementaire={{{groupe parlementaire 2|}}}
+| prédécesseur={{{prédécesseur 2|}}} | successeur={{{successeur 2|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction3|}}} | depuis le fonction={{{depuis le fonction3|}}} | a partir du fonction={{{a partir du fonction3|{{{à partir du fonction3|}}}}}} |jusqu'au fonction={{{jusqu'au fonction3|}}}
+| bailli={{{bailli 3|}}}| magistrat={{{magistrat 3|}}}| maire={{{maire 3|}}}| co-titulaire={{{co-titulaire 3|}}}| souverain={{{souverain 3|}}} | couronnement={{{couronnement 3|}}} | élection={{{élection3|}}} | réélection={{{réélection3|}}} | protecteur={{{protecteur 3|}}} | régent={{{régent 3|}}}
+| président={{{président 3|{{{président de la république 3|{{{président de la Commission 3|}}}}}}}}}
+| président fédéral={{{président fédéral 3|}}}| chef de l'état={{{chef de l'état 3|}}} | monarque={{{monarque 3|}}} | gouverneur={{{gouverneur 3|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 3|}}} | premier ministre={{{premier ministre 3|}}} | ministre-président={{{ministre-président 3|}}} | président du gouvernement={{{président du gouvernement 3|}}} | chef du gouvernement={{{chef du gouvernement 3|}}} |chancelier={{{chancelier 3|}}} | président du conseil={{{président du conseil 3|}}} | ministre d'état={{{ministre d'état 3|}}}
+| vice-président={{{vice-président 3|}}} | gouvernement={{{gouvernement 3|}}} | législature={{{législature 3|}}} | coalition={{{coalition 3|}}}| groupe parlementaire={{{groupe parlementaire 3|}}}
+| prédécesseur={{{prédécesseur 3|}}} | successeur={{{successeur 3|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction4|}}} | depuis le fonction={{{depuis le fonction4|}}} | a partir du fonction={{{a partir du fonction4|{{{à partir du fonction4|}}}}}} |jusqu'au fonction={{{jusqu'au fonction4|}}}
+| bailli={{{bailli 4|}}}| magistrat={{{magistrat 4|}}}| maire={{{maire 4|}}}| co-titulaire={{{co-titulaire 4|}}}| souverain={{{souverain 4|}}} | couronnement={{{couronnement 4|}}} | élection={{{élection4|}}} | réélection={{{réélection4|}}} | protecteur={{{protecteur 4|}}} | régent={{{régent 4|}}}
+| président={{{président 4|{{{président de la république 4|{{{président de la Commission 4|}}}}}}}}}
+| président fédéral={{{président fédéral 4|}}}| chef de l'état={{{chef de l'état 4|}}} | monarque={{{monarque 4|}}} | gouverneur={{{gouverneur 4|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 4|}}} | premier ministre={{{premier ministre 4|}}} | ministre-président={{{ministre-président 4|}}} | président du gouvernement={{{président du gouvernement 4|}}} | chef du gouvernement={{{chef du gouvernement 4|}}} |chancelier={{{chancelier 4|}}} | président du conseil={{{président du conseil 4|}}} | ministre d'état={{{ministre d'état 4|}}}
+| vice-président={{{vice-président 4|}}} | gouvernement={{{gouvernement 4|}}} | législature={{{législature 4|}}} | coalition={{{coalition 4|}}}| groupe parlementaire={{{groupe parlementaire 4|}}}
+| prédécesseur={{{prédécesseur 4|}}} | successeur={{{successeur 4|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction5|}}} | depuis le fonction={{{depuis le fonction5|}}} | a partir du fonction={{{a partir du fonction5|{{{à partir du fonction5|}}}}}} |jusqu'au fonction={{{jusqu'au fonction5|}}}
+| bailli={{{bailli 5|}}}| magistrat={{{magistrat 5|}}}| maire={{{maire 5|}}}| co-titulaire={{{co-titulaire 5|}}}| souverain={{{souverain 5|}}} | couronnement={{{couronnement 5|}}} | élection={{{élection5|}}} | réélection={{{réélection5|}}} | protecteur={{{protecteur 5|}}} | régent={{{régent 5|}}}
+| président={{{président 5|{{{président de la république 5|{{{président de la Commission 5|}}}}}}}}}
+| président fédéral={{{président fédéral 5|}}}| chef de l'état={{{chef de l'état 5|}}} | monarque={{{monarque 5|}}} | gouverneur={{{gouverneur 5|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 5|}}} | premier ministre={{{premier ministre 5|}}} | ministre-président={{{ministre-président 5|}}} | président du gouvernement={{{président du gouvernement 5|}}} | chef du gouvernement={{{chef du gouvernement 5|}}} |chancelier={{{chancelier 5|}}} | président du conseil={{{président du conseil 5|}}} | ministre d'état={{{ministre d'état 5|}}}
+| vice-président={{{vice-président 5|}}} | gouvernement={{{gouvernement 5|}}} | législature={{{législature 5|}}} | coalition={{{coalition 5|}}}| groupe parlementaire={{{groupe parlementaire 5|}}}
+| prédécesseur={{{prédécesseur 5|}}} | successeur={{{successeur 5|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction6|}}} | depuis le fonction={{{depuis le fonction6|}}} | a partir du fonction={{{a partir du fonction6|{{{à partir du fonction6|}}}}}} |jusqu'au fonction={{{jusqu'au fonction6|}}}
+| bailli={{{bailli 6|}}}| magistrat={{{magistrat 6|}}}| maire={{{maire 6|}}}| co-titulaire={{{co-titulaire 6|}}}| souverain={{{souverain 6|}}} | couronnement={{{couronnement 6|}}} | élection={{{élection6|}}} | réélection={{{réélection6|}}} | protecteur={{{protecteur 6|}}} | régent={{{régent 6|}}}
+| président={{{président 6|{{{président de la république 6|{{{président de la Commission 6|}}}}}}}}}
+| président fédéral={{{président fédéral 6|}}}| chef de l'état={{{chef de l'état 6|}}} | monarque={{{monarque 6|}}} | gouverneur={{{gouverneur 6|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 6|}}} | premier ministre={{{premier ministre 6|}}} | ministre-président={{{ministre-président 6|}}} | président du gouvernement={{{président du gouvernement 6|}}} | chef du gouvernement={{{chef du gouvernement 6|}}} |chancelier={{{chancelier 6|}}} | président du conseil={{{président du conseil 6|}}} | ministre d'état={{{ministre d'état 6|}}}
+| vice-président={{{vice-président 6|}}} | gouvernement={{{gouvernement 6|}}} | législature={{{législature 6|}}} | coalition={{{coalition 6|}}}| groupe parlementaire={{{groupe parlementaire 6|}}}
+| prédécesseur={{{prédécesseur 6|}}} | successeur={{{successeur 6|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction7|}}} | depuis le fonction={{{depuis le fonction7|}}} | a partir du fonction={{{a partir du fonction7|{{{à partir du fonction7|}}}}}} |jusqu'au fonction={{{jusqu'au fonction7|}}}
+| bailli={{{bailli 7|}}}| magistrat={{{magistrat 7|}}}| maire={{{maire 7|}}}| co-titulaire={{{co-titulaire 7|}}}| souverain={{{souverain 7|}}} | couronnement={{{couronnement 7|}}} | élection={{{élection7|}}} | réélection={{{réélection7|}}} | protecteur={{{protecteur 7|}}} | régent={{{régent 7|}}}
+| président={{{président 7|{{{président de la république 7|{{{président de la Commission 7|}}}}}}}}}
+| président fédéral={{{président fédéral 7|}}}| chef de l'état={{{chef de l'état 7|}}} | monarque={{{monarque 7|}}} | gouverneur={{{gouverneur 7|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 7|}}} | premier ministre={{{premier ministre 7|}}} | ministre-président={{{ministre-président 7|}}} | président du gouvernement={{{président du gouvernement 7|}}} | chef du gouvernement={{{chef du gouvernement 7|}}} |chancelier={{{chancelier 7|}}} | président du conseil={{{président du conseil 7|}}} | ministre d'état={{{ministre d'état 7|}}}
+| vice-président={{{vice-président 7|}}} | gouvernement={{{gouvernement 7|}}} | législature={{{législature 7|}}} | coalition={{{coalition 7|}}}| groupe parlementaire={{{groupe parlementaire 7|}}}
+| prédécesseur={{{prédécesseur 7|}}} | successeur={{{successeur 7|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction8|}}} | depuis le fonction={{{depuis le fonction8|}}} | a partir du fonction={{{a partir du fonction8|{{{à partir du fonction8|}}}}}} |jusqu'au fonction={{{jusqu'au fonction8|}}}
+| bailli={{{bailli 8|}}}| magistrat={{{magistrat 8|}}}| maire={{{maire 8|}}}| co-titulaire={{{co-titulaire 8|}}}| souverain={{{souverain 8|}}} | couronnement={{{couronnement 8|}}} | élection={{{élection8|}}} | réélection={{{réélection8|}}} | protecteur={{{protecteur 8|}}} | régent={{{régent 8|}}}
+| président={{{président 8|{{{président de la république 8|{{{président de la Commission 8|}}}}}}}}}
+| président fédéral={{{président fédéral 8|}}}| chef de l'état={{{chef de l'état 8|}}} | monarque={{{monarque 8|}}} | gouverneur={{{gouverneur 8|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 8|}}} | premier ministre={{{premier ministre 8|}}} | ministre-président={{{ministre-président 8|}}} | président du gouvernement={{{président du gouvernement 8|}}} | chef du gouvernement={{{chef du gouvernement 8|}}} |chancelier={{{chancelier 8|}}} | président du conseil={{{président du conseil 8|}}} | ministre d'état={{{ministre d'état 8|}}}
+| vice-président={{{vice-président 8|}}} | gouvernement={{{gouvernement 8|}}} | législature={{{législature 8|}}} | coalition={{{coalition 8|}}}| groupe parlementaire={{{groupe parlementaire 8|}}}
+| prédécesseur={{{prédécesseur 8|}}} | successeur={{{successeur 8|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction9|}}} | depuis le fonction={{{depuis le fonction9|}}} | a partir du fonction={{{a partir du fonction9|{{{à partir du fonction9|}}}}}} |jusqu'au fonction={{{jusqu'au fonction9|}}}
+| bailli={{{bailli 9|}}}| magistrat={{{magistrat 9|}}}| maire={{{maire 9|}}}| co-titulaire={{{co-titulaire 9|}}}| souverain={{{souverain 9|}}} | couronnement={{{couronnement 9|}}} | élection={{{élection9|}}} | réélection={{{réélection9|}}} | protecteur={{{protecteur 9|}}} | régent={{{régent 9|}}}
+| président={{{président 9|{{{président de la république 9|{{{président de la Commission 9|}}}}}}}}}
+| président fédéral={{{président fédéral 9|}}}| chef de l'état={{{chef de l'état 9|}}} | monarque={{{monarque 9|}}} | gouverneur={{{gouverneur 9|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 9|}}} | premier ministre={{{premier ministre 9|}}} | ministre-président={{{ministre-président 9|}}} | président du gouvernement={{{président du gouvernement 9|}}} | chef du gouvernement={{{chef du gouvernement 9|}}} |chancelier={{{chancelier 9|}}} | président du conseil={{{président du conseil 9|}}} | ministre d'état={{{ministre d'état 9|}}}
+| vice-président={{{vice-président 9|}}} | gouvernement={{{gouvernement 9|}}} | législature={{{législature 9|}}} | coalition={{{coalition 9|}}}| groupe parlementaire={{{groupe parlementaire 9|}}}
+| prédécesseur={{{prédécesseur 9|}}} | successeur={{{successeur 9|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction10|}}} | depuis le fonction={{{depuis le fonction10|}}} | a partir du fonction={{{a partir du fonction10|{{{à partir du fonction10|}}}}}} |jusqu'au fonction={{{jusqu'au fonction10|}}}
+| bailli={{{bailli 10|}}}| magistrat={{{magistrat 10|}}}| maire={{{maire 10|}}}| co-titulaire={{{co-titulaire 10|}}}| souverain={{{souverain 10|}}} | couronnement={{{couronnement 10|}}} | élection={{{élection10|}}} | réélection={{{réélection10|}}} | protecteur={{{protecteur 10|}}} | régent={{{régent 10|}}}
+| président={{{président 10|{{{président de la république 10|{{{président de la Commission 10|}}}}}}}}}
+| président fédéral={{{président fédéral 10|}}}| chef de l'état={{{chef de l'état 10|}}} | monarque={{{monarque 10|}}} | gouverneur={{{gouverneur 10|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 10|}}} | premier ministre={{{premier ministre 10|}}} | ministre-président={{{ministre-président 10|}}} | président du gouvernement={{{président du gouvernement 10|}}} | chef du gouvernement={{{chef du gouvernement 10|}}} |chancelier={{{chancelier 10|}}} | président du conseil={{{président du conseil 10|}}} | ministre d'état={{{ministre d'état 10|}}}
+| vice-président={{{vice-président 10|}}} | gouvernement={{{gouvernement 10|}}} | législature={{{législature 10|}}} | coalition={{{coalition 10|}}}| groupe parlementaire={{{groupe parlementaire 10|}}}
+| prédécesseur={{{prédécesseur 10|}}} | successeur={{{successeur 10|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction11|}}} | depuis le fonction={{{depuis le fonction11|}}} | a partir du fonction={{{a partir du fonction11|{{{à partir du fonction11|}}}}}} |jusqu'au fonction={{{jusqu'au fonction11|}}}
+| bailli={{{bailli 11|}}}| magistrat={{{magistrat 11|}}}| maire={{{maire 11|}}}| co-titulaire={{{co-titulaire 11|}}}| souverain={{{souverain 11|}}} | couronnement={{{couronnement 11|}}} | élection={{{élection11|}}} | réélection={{{réélection11|}}} | protecteur={{{protecteur 11|}}} | régent={{{régent 11|}}}
+| président={{{président 11|{{{président de la république 11|{{{président de la Commission 11|}}}}}}}}}
+| président fédéral={{{président fédéral 11|}}}| chef de l'état={{{chef de l'état 11|}}} | monarque={{{monarque 11|}}} | gouverneur={{{gouverneur 11|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 11|}}} | premier ministre={{{premier ministre 11|}}} | ministre-président={{{ministre-président 11|}}} | président du gouvernement={{{président du gouvernement 11|}}} | chef du gouvernement={{{chef du gouvernement 11|}}} |chancelier={{{chancelier 11|}}} | président du conseil={{{président du conseil 11|}}} | ministre d'état={{{ministre d'état 11|}}}
+| vice-président={{{vice-président 11|}}} | gouvernement={{{gouvernement 11|}}} | législature={{{législature 11|}}} | coalition={{{coalition 11|}}}| groupe parlementaire={{{groupe parlementaire 11|}}}
+| prédécesseur={{{prédécesseur 11|}}} | successeur={{{successeur 11|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction12|}}} | depuis le fonction={{{depuis le fonction12|}}} | a partir du fonction={{{a partir du fonction12|{{{à partir du fonction12|}}}}}} |jusqu'au fonction={{{jusqu'au fonction12|}}}
+| bailli={{{bailli 12|}}}| magistrat={{{magistrat 12|}}}| maire={{{maire 12|}}}| co-titulaire={{{co-titulaire 12|}}}| souverain={{{souverain 12|}}} | couronnement={{{couronnement 12|}}} | élection={{{élection12|}}} | réélection={{{réélection12|}}} | protecteur={{{protecteur 12|}}} | régent={{{régent 12|}}}
+| président={{{président 12|{{{président de la république 12|{{{président de la Commission 12|}}}}}}}}}
+| président fédéral={{{président fédéral 12|}}}| chef de l'état={{{chef de l'état 12|}}} | monarque={{{monarque 12|}}} | gouverneur={{{gouverneur 12|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 12|}}} | premier ministre={{{premier ministre 12|}}} | ministre-président={{{ministre-président 12|}}} | président du gouvernement={{{président du gouvernement 12|}}} | chef du gouvernement={{{chef du gouvernement 12|}}} |chancelier={{{chancelier 12|}}} | président du conseil={{{président du conseil 12|}}} | ministre d'état={{{ministre d'état 12|}}}
+| vice-président={{{vice-président 12|}}} | gouvernement={{{gouvernement 12|}}} | législature={{{législature 12|}}} | coalition={{{coalition 12|}}}| groupe parlementaire={{{groupe parlementaire 12|}}}
+| prédécesseur={{{prédécesseur 12|}}} | successeur={{{successeur 12|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction13|}}} | depuis le fonction={{{depuis le fonction13|}}} | a partir du fonction={{{a partir du fonction13|{{{à partir du fonction13|}}}}}} |jusqu'au fonction={{{jusqu'au fonction13|}}}
+| bailli={{{bailli 13|}}}| magistrat={{{magistrat 13|}}}| maire={{{maire 13|}}}| co-titulaire={{{co-titulaire 13|}}}| souverain={{{souverain 13|}}} | couronnement={{{couronnement 13|}}} | élection={{{élection13|}}} | réélection={{{réélection13|}}} | protecteur={{{protecteur 13|}}} | régent={{{régent 13|}}}
+| président={{{président 13|{{{président de la république 13|{{{président de la Commission 13|}}}}}}}}}
+| président fédéral={{{président fédéral 13|}}}| chef de l'état={{{chef de l'état 13|}}} | monarque={{{monarque 13|}}} | gouverneur={{{gouverneur 13|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 13|}}} | premier ministre={{{premier ministre 13|}}} | ministre-président={{{ministre-président 13|}}} | président du gouvernement={{{président du gouvernement 13|}}} | chef du gouvernement={{{chef du gouvernement 13|}}} | chancelier={{{chancelier 13|}}} | président du conseil={{{président du conseil 13|}}} | ministre d'état={{{ministre d'état 13|}}}
+| vice-président={{{vice-président 13|}}} | gouvernement={{{gouvernement 13|}}} | législature={{{législature 13|}}} | coalition={{{coalition 13|}}}| groupe parlementaire={{{groupe parlementaire 13|}}}
+| prédécesseur={{{prédécesseur 13|}}} | successeur={{{successeur 13|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction14|}}} | depuis le fonction={{{depuis le fonction14|}}} | a partir du fonction={{{a partir du fonction14|{{{à partir du fonction14|}}}}}} |jusqu'au fonction={{{jusqu'au fonction14|}}}
+| bailli={{{bailli 14|}}}| magistrat={{{magistrat 14|}}}| maire={{{maire 14|}}}| co-titulaire={{{co-titulaire 14|}}}| souverain={{{souverain 14|}}} | couronnement={{{couronnement 14|}}} | élection={{{élection14|}}} | réélection={{{réélection14|}}} | protecteur={{{protecteur 14|}}} | régent={{{régent 14|}}}
+| président={{{président 14|{{{président de la république 14|{{{président de la Commission 14|}}}}}}}}}
+| président fédéral={{{président fédéral 14|}}}| chef de l'état={{{chef de l'état 14|}}} | monarque={{{monarque 14|}}} | gouverneur={{{gouverneur 14|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 14|}}} | premier ministre={{{premier ministre 14|}}} | ministre-président={{{ministre-président 14|}}} | président du gouvernement={{{président du gouvernement 14|}}} | chef du gouvernement={{{chef du gouvernement 14|}}} | chancelier={{{chancelier 14|}}} | président du conseil={{{président du conseil 14|}}} | ministre d'état={{{ministre d'état 14|}}}
+| vice-président={{{vice-président 14|}}} | gouvernement={{{gouvernement 14|}}} | législature={{{législature 14|}}} | coalition={{{coalition 14|}}}| groupe parlementaire={{{groupe parlementaire 14|}}}
+| prédécesseur={{{prédécesseur 14|}}} | successeur={{{successeur 14|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction15|}}} | depuis le fonction={{{depuis le fonction15|}}} | a partir du fonction={{{a partir du fonction15|{{{à partir du fonction15|}}}}}} |jusqu'au fonction={{{jusqu'au fonction15|}}}
+| bailli={{{bailli 15|}}}| magistrat={{{magistrat 15|}}}| maire={{{maire 15|}}}| co-titulaire={{{co-titulaire 15|}}}| souverain={{{souverain 15|}}} | couronnement={{{couronnement 15|}}} | élection={{{élection15|}}} | réélection={{{réélection15|}}} | protecteur={{{protecteur 15|}}} | régent={{{régent 15|}}}
+| président={{{président 15|{{{président de la république 15|{{{président de la Commission 15|}}}}}}}}}
+| président fédéral={{{président fédéral 15|}}}| chef de l'état={{{chef de l'état 15|}}} | monarque={{{monarque 15|}}} | gouverneur={{{gouverneur 15|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 15|}}} | premier ministre={{{premier ministre 15|}}} | ministre-président={{{ministre-président 15|}}} | président du gouvernement={{{président du gouvernement 15|}}} | chef du gouvernement={{{chef du gouvernement 15|}}} |chancelier={{{chancelier 15|}}} | président du conseil={{{président du conseil 15|}}} | ministre d'état={{{ministre d'état 15|}}}
+| vice-président={{{vice-président 15|}}} | gouvernement={{{gouvernement 15|}}} | législature={{{législature 15|}}} | coalition={{{coalition 15|}}}| groupe parlementaire={{{groupe parlementaire 15|}}}
+| prédécesseur={{{prédécesseur 15|}}} | successeur={{{successeur 15|}}}
+}}
+{{Infobox Politicien/Fonction | charte={{lcfirst:{{{charte|}}}}}
+| fonction={{{fonction16|}}} | depuis le fonction={{{depuis le fonction16|}}} | a partir du fonction={{{a partir du fonction16|{{{à partir du fonction16|}}}}}} |jusqu'au fonction={{{jusqu'au fonction16|}}}
+| bailli={{{bailli 16|}}}| magistrat={{{magistrat 16|}}}| maire={{{maire 16|}}}| co-titulaire={{{co-titulaire 16|}}}| souverain={{{souverain 16|}}} | couronnement={{{couronnement 16|}}} | élection={{{élection16|}}} | réélection={{{réélection16|}}} | protecteur={{{protecteur 16|}}} | régent={{{régent 16|}}}
+| président={{{président 16|{{{président de la république 16|{{{président de la Commission 16|}}}}}}}}}
+| président fédéral={{{président fédéral 16|}}}| chef de l'état={{{chef de l'état 16|}}} | monarque={{{monarque 16|}}} | gouverneur={{{gouverneur 16|}}}
+| lieutenant-gouverneur={{{lieutenant-gouverneur 16|}}} | premier ministre={{{premier ministre 16|}}} | ministre-président={{{ministre-président 16|}}} | président du gouvernement={{{président du gouvernement 16|}}} | chef du gouvernement={{{chef du gouvernement 16|}}} |chancelier={{{chancelier 16|}}} | président du conseil={{{président du conseil 16|}}} | ministre d'état={{{ministre d'état 16|}}}
+| vice-président={{{vice-président 16|}}} | gouvernement={{{gouvernement 16|}}} | législature={{{législature 16|}}} | coalition={{{coalition 16|}}}| groupe parlementaire={{{groupe parlementaire 16|}}}
+| prédécesseur={{{prédécesseur 16|}}} | successeur={{{successeur 16|}}}
+}}<!--
+
+BIOGRAFIE
+
+-->{{Infobox/Sous-titre|Biographie|{{Infobox Politicien/Charte couleurs 1|{{lcfirst:{{{charte|}}}}}}}|FFFFFF}}
+{{Infobox/Ligne mixte optionnelle|Titre complet|{{{titres|}}}}}
+{{Infobox/Ligne mixte optionnelle|Hymne royal|{{{hymne|}}}}}
+{{Infobox/Ligne mixte optionnelle|Dynastie|{{{dynastie|}}}}}
+{{Infobox/Ligne mixte optionnelle|'' ''|{{{période|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nom de naissance|{{{nom de naissance|{{{nom naissance|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Surnom|{{{surnom|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date de naissance|{{{date de naissance|{{{naissance|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Lieu de naissance|{{{lieu de naissance|}}}}}
+{{Infobox/Ligne mixte optionnelle|Origine|{{{origine|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date de décès|{{{date de décès|{{{décès|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Lieu de décès|{{{lieu du décès|{{{lieu de décès|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Nature du décès|{{{nature du décès|{{{nature décès|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Sépulture|{{{sépulture|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nationalité|{{{nationalité|}}}}}
+{{Infobox/Ligne mixte optionnelle|Parti politique|{{{parti|{{{parti politique|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Père|{{{père|}}}}}
+{{Infobox/Ligne mixte optionnelle|'' ''|{{{détail-père|}}}|{{Grossir |facteur=0.8 |{{{détail-père|}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Mère|{{{mère|}}}}}
+{{Infobox/Ligne mixte optionnelle|'' ''|{{{détail-mère|}}}|{{Grossir |facteur=0.8 |{{{détail-mère|}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Grand-père paternel|{{{grand-père paternel|}}}}}
+{{Infobox/Ligne mixte optionnelle|Grand-mère paternelle|{{{grand-mère paternelle|}}}}}
+{{Infobox/Ligne mixte optionnelle|Grand-père maternel|{{{grand-père maternel|}}}}}
+{{Infobox/Ligne mixte optionnelle|Grand-mère maternelle|{{{grand-mère maternelle|}}}}}
+{{Infobox/Ligne mixte optionnelle|Fratrie|{{{fratrie|}}}}}
+{{Infobox/Ligne mixte optionnelle|Conjoint|{{{conjoint|}}}}}
+{{Infobox/Ligne mixte optionnelle|Conjoints|{{{conjoints|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s)|{{{enfants|}}}}}
+{{Infobox/Ligne mixte optionnelle|Deuxième conjoint|{{{conjoint 2|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s) avec le {{2e}} conjoint|{{{enfants 2|}}}}}
+{{Infobox/Ligne mixte optionnelle|Troisième conjoint|{{{conjoint 3|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s) avec le {{3e}} conjoint|{{{enfants 3|}}}}}
+{{Infobox/Ligne mixte optionnelle|Quatrième conjoint|{{{conjoint 4|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s) avec le {{4e}} conjoint|{{{enfants 4|}}}}}
+{{Infobox/Ligne mixte optionnelle|Cinquième conjoint|{{{conjoint 5|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s) avec le {{5e}} conjoint|{{{enfants 5|}}}}}
+{{Infobox/Ligne mixte optionnelle|Sixième conjoint|{{{conjoint 6|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s) avec le {{6e}} conjoint|{{{enfants 6|}}}}}
+{{Infobox/Ligne mixte optionnelle|Septième conjoint|{{{conjoint 7|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s) avec le {{7e}} conjoint|{{{enfants 7|}}}}}
+{{Infobox/Ligne mixte optionnelle|Huitième conjoint|{{{conjoint 8|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s) avec le {{8e}} conjoint|{{{enfants 8|}}}}}
+{{Infobox/Ligne mixte optionnelle|Neuvième conjoint|{{{conjoint 9|}}}}}
+{{Infobox/Ligne mixte optionnelle|Enfant(s) avec le {{9e}} conjoint|{{{enfants 9|}}}}}
+{{Infobox/Ligne mixte optionnelle|Héritier|{{{héritier|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom entourage|Entourage}}}|{{{entourage|}}}}}
+{{Infobox/Ligne mixte optionnelle|Diplômé{{#if:{{{féminin|}}}|e}} de|{{{université|}}}}}
+{{Infobox/Ligne mixte optionnelle|Profession|{{{profession|}}}}}
+{{Infobox/Ligne mixte optionnelle|Religion|{{{religion|}}}}}
+{{Infobox/Ligne mixte optionnelle|Résidence|{{{résidence|}}}}}<!--
+
+SIGNATURE, EMBLÈME et LISTE
+
+-->{{Infobox/Ligne optionnelle|{{{signature|}}}|{{Clear}}}}
+{{Infobox/Image optionnelle|{{{signature|}}}|{{{signature|}}}||{{{taille signature|110}}}|Signature}}
+{{Infobox/Ligne optionnelle|{{{emblème|}}}{{{légende emblème|}}}{{{armoiries avec ornements communs|}}}|{{Clear}}}}
+{{Infobox/Image double|{{{emblème|}}}||{{{taille emblème|110}}}||||{{{emblème2|}}}||{{{taille emblème2|110}}}}}
+{{Infobox/Ligne optionnelle|{{{armoiries avec ornements communs|}}}|<center>{{Armoiries avec ornements communs|{{{armoiries avec ornements communs|}}}|blason={{{blason|}}}|coef={{{coefficient blason|0.6}}}}}</center>}}
+{{Infobox/Ligne optionnelle|{{{légende emblème|}}}|<small>{{{légende emblème|}}}</small>}}
+{{Infobox/Ligne optionnelle|{{{liste|}}}|{{{liste|}}}}}
+{{Infobox/Notice|Infobox Politicien|{{Infobox Politicien/Charte couleurs 1|{{lcfirst:{{{charte|}}}}}}}}}
+{{Infobox/Fin}}{{Suivi des biographies|Politique}}</includeonly><noinclude>{{Documentation}}</noinclude>

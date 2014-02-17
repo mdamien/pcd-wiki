@@ -1,0 +1,9 @@
+<includeonly>{{#switch: {{{1|}}}
+ | chef d'État = 0033CC
+ | chef de gouvernement = 6688FF
+ | conseiller fédéral suisse = FF0000
+ | gouverneur = B0C4DE
+ | monarque = 000080
+ | pharaon = AAAA80
+ | #default   = 4682B4
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

@@ -1,12 +1,73 @@
 * <nowiki>#REDIRECTION  [[eute nom]]</nowiki>
 * <nowiki>Si la même note est utilisée plusieurs fois dans le texte, préférer la syntaxe <ref name="nom de la note"> … </ref> une fois dans le texte, puis <ref name="nom de la note" /> les autres fois. Elles peuvent aussi être nommées pour des appels multiples ou/et regroupées via des attributs à la balise : <ref name="nom" group="groupe"> … </ref></nowiki>
 
+==Cartes==
 {{Carte Belgique|nom=Chevri
 |lat_deg=50
 |lat_min=10
 |lon_deg=04
 |lon_min=10
 }}
+
+<div style="font-size:14pt;">[[Picardie]]</div>
+
+{|border="0" width=250 align="right"
+|-
+|colspan=2 align=center|<div style="width: 350px; border: 1px solid #aaa">
+<div class="img_toogle">
+  <div class="geobox" style="text-align: center">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Picardie|image|{{{type|relief}}}}}|350px|Voir la carte physique de la Picardie]]
+{{G|Picardie|49.47|3.666667|Aisne (département){{!}}'''AISNE'''|Mer|0|o}}
+{{G|Picardie|49.3|2.0|Oise (département){{!}}'''OISE'''|Mer|0|n}}
+{{G|Picardie|49.77|2.6|Somme (département){{!}}'''SOMME'''|Mer|0|n}}
+{{G|Picardie|49.9|2.3|Anmien{{!}}'''Anmien'''|Ville|2|so}}
+{{G|Picardie|50.1058|1.8358|Abbeville (Somme){{!}}'''Abbeville'''|Ville|4|ne}}
+{{G|Picardie|49.933056|2.937222|Péronne (Somme){{!}}'''Péronne'''|Ville|4|ne}}
+{{G|Picardie|49.6486|2.5708|Montdidier (Somme){{!}}'''Montdidier'''|Ville|4|n}}
+{{G|Picardie|49.848611|3.286389|Saint-Quentin{{!}}'''Saint-Quentin'''|Ville|4|ne}}
+{{G|Picardie|50.002778|2.652778|Albert (Somme){{!}}'''Albert'''|Ville|4|o}}
+{{G|Picardie|49.563889|3.624444|Laon{{!}}'''Laon'''|Ville|3|ne}}
+{{G|Picardie|49.381667|3.323611|Soissons{{!}}'''Soissons'''|Ville|4|se}}
+{{G|Picardie|49.04|3.4|Château-Thierry{{!}}'''Château-Thierry'''|Ville|4|n}}
+{{G|Picardie|49.835833|3.91|Vervins{{!}}'''Vervins'''|Ville|4|s}}
+{{G|Picardie|49.430278|2.0952|Beauvais{{!}}'''Beauvais'''|Ville|3|n}}
+{{G|Picardie|49.4149|2.823056|Compiègne{{!}}'''Compiègne'''|Ville|4|n}}
+{{G|Picardie|49.379722|2.413333|Clermont (Oise){{!}}'''Clermont'''|Ville|4|se}}
+{{G|Picardie|49.258333|2.483333|Creil{{!}}'''Creil'''|Ville|4|o}}
+{{G|Picardie|49.208056|2.5875|Senlis (Oise){{!}}'''Senlis'''|Ville|4|e}}
+{{G|Picardie|49.581667|2.999722|Noyon{{!}}'''Noyon'''|Ville|4|n}}
+
+{{Fin de carte}}
+</div>
+  <div class="geobox">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Picardie|image|{{{type|}}}}}|350px|Voir la carte administrative de la Picardie]]
+{{G|Picardie|49.47|3.666667|Aisne (département){{!}}'''AISNE'''|Mer|0|o}}
+{{G|Picardie|49.3|2.0|Oise (département){{!}}'''OISE'''|Mer|0|n}}
+{{G|Picardie|49.77|2.6|Somme (département){{!}}'''SOMME'''|Mer|0|n}}
+{{G|Picardie|49.9|2.3|Amiens{{!}}'''Amiens'''|Ville|2|so}}
+{{G|Picardie|50.1058|1.8358|Abbeville (Somme){{!}}'''Abbeville'''|Ville|4|ne}}
+{{G|Picardie|49.933056|2.937222|Péronne (Somme){{!}}'''Péronne'''|Ville|4|ne}}
+{{G|Picardie|49.6486|2.5708|Montdidier (Somme){{!}}'''Montdidier'''|Ville|4|n}}
+{{G|Picardie|49.848611|3.286389|Saint-Quentin{{!}}'''Saint-Quentin'''|Ville|4|ne}}
+{{G|Picardie|50.002778|2.652778|Albert (Somme){{!}}'''Albert'''|Ville|4|o}}
+{{G|Picardie|49.563889|3.624444|Laon{{!}}'''Laon'''|Ville|3|ne}}
+{{G|Picardie|49.381667|3.323611|Soissons{{!}}'''Soissons'''|Ville|4|se}}
+{{G|Picardie|49.04|3.4|Château-Thierry{{!}}'''Château-Thierry'''|Ville|4|n}}
+{{G|Picardie|49.835833|3.91|Vervins{{!}}'''Vervins'''|Ville|4|s}}
+{{G|Picardie|49.430278|2.0952|Beauvais{{!}}'''Beauvais'''|Ville|3|n}}
+{{G|Picardie|49.4149|2.823056|Compiègne{{!}}'''Compiègne'''|Ville|4|n}}
+{{G|Picardie|49.379722|2.413333|Clermont (Oise){{!}}'''Clermont'''|Ville|4|se}}
+{{G|Picardie|49.258333|2.483333|Creil{{!}}'''Creil'''|Ville|4|o}}
+{{G|Picardie|49.208056|2.5875|Senlis (Oise){{!}}'''Senlis'''|Ville|4|e}}
+{{G|Picardie|49.581667|2.999722|Noyon{{!}}'''Noyon'''|Ville|4|n}}
+
+{{Fin de carte}}
+</div>
+</div>
+</div>
+|}
+
+== color ==
 
 *<nowiki> {{legend|#00ff00| '''''Étindu dech Picard''''' }}</nowiki>  {{legend|#00ff00| '''''Étindu dech Picard''''' }}
 *<code><nowiki><span style="color:red">texte rouge</span></nowiki></code> donne <span style="color:red">texte rouge</span>

@@ -1,0 +1,66 @@
+<includeonly><div style="text-align: center; margin: 0 auto; overflow: hidden; zoom: 1">
+<div style="font-size:85%;">'''Débit moyen mensuel (en {{{unité}}})'''<br /> Station hydrologique : {{{station}}} {{#if:{{{date|}}} |<br/>({{{date|}}})}}{{#ifexist:{{ns:10}}:Relevé hydrologique/{{PAGENAME}}|<br>([[{{ns:10}}:Relevé hydrologique/{{PAGENAME}}|Tableau des données du graphique]])|[[Catégorie: Accessibilité : Graphique timeline sans alternative]]}}</div>
+{{#tag:timeline|
+Colors=
+  id:lightgrey value:gray(0.8)
+  id:darkgrey  value:gray(0.3)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.8,0.9)
+
+ImageSize  = width:600 height:300
+PlotArea   = left:40 bottom:40 top:20 right:20
+DateFormat = x.y
+Period     = from:0 till:{{{échelle maxi|1000}}}
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:{{{échelle principale|1000}}} start:0
+ScaleMinor = gridcolor:lightgrey increment:{{{échelle secondaire|100}}} start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:Jan text:Janvier
+  bar:Fév text:Février
+  bar:Mar text:Mars
+  bar:Avr text:Avril
+  bar:Mai text:Mai
+  bar:Jun text:Juin
+  bar:Jul text:Juillet
+  bar:Aoû text:Août
+  bar:Sep text:Sept.
+  bar:Oct text:Oct.
+  bar:Nov text:Nov.
+  bar:Déc text:Déc.
+
+PlotData=
+  color:barra width:30 align:left
+
+  bar:Jan from:0 till: {{{jan1|0}}}
+  bar:Fév from:0 till: {{{fev1|0}}}
+  bar:Mar from:0 till: {{{mar1|0}}}
+  bar:Avr from:0 till: {{{avr1|0}}}
+  bar:Mai from:0 till: {{{mai1|0}}}
+  bar:Jun from:0 till: {{{jun1|0}}}
+  bar:Jul from:0 till: {{{jul1|0}}}
+  bar:Aoû from:0 till: {{{aou1|0}}}
+  bar:Sep from:0 till: {{{sep1|0}}}
+  bar:Oct from:0 till: {{{oct1|0}}}
+  bar:Nov from:0 till: {{{nov1|0}}}
+  bar:Déc from:0 till: {{{dec1|0}}}
+  
+
+PlotData=
+  bar:Jan at: {{{jan1|0}}} fontsize:S text: {{formatnum:{{{jan1|0}}}}} shift:(-10,5)
+  bar:Fév at: {{{fev1|0}}} fontsize:S text: {{formatnum:{{{fev1|0}}}}} shift:(-10,5)
+  bar:Mar at: {{{mar1|0}}} fontsize:S text: {{formatnum:{{{mar1|0}}}}} shift:(-10,5)
+  bar:Avr at: {{{avr1|0}}} fontsize:S text: {{formatnum:{{{avr1|0}}}}} shift:(-10,5)
+  bar:Mai at: {{{mai1|0}}} fontsize:S text: {{formatnum:{{{mai1|0}}}}} shift:(-10,5)
+  bar:Jun at: {{{jun1|0}}} fontsize:S text: {{formatnum:{{{jun1|0}}}}} shift:(-10,5)
+  bar:Jul at: {{{jul1|0}}} fontsize:S text: {{formatnum:{{{jul1|0}}}}} shift:(-10,5)
+  bar:Aoû at: {{{aou1|0}}} fontsize:S text: {{formatnum:{{{aou1|0}}}}} shift:(-10,5)
+  bar:Sep at: {{{sep1|0}}} fontsize:S text: {{formatnum:{{{sep1|0}}}}} shift:(-10,5)
+  bar:Oct at: {{{oct1|0}}} fontsize:S text: {{formatnum:{{{oct1|0}}}}} shift:(-10,5)
+  bar:Nov at: {{{nov1|0}}} fontsize:S text: {{formatnum:{{{nov1|0}}}}} shift:(-10,5)
+  bar:Déc at: {{{dec1|0}}} fontsize:S text: {{formatnum:{{{dec1|0}}}}} shift:(-10,5)
+  
+}}
+{{#if:{{{source|}}} | <div style="font-size:85%; margin-top: -1em;">Source : {{{source}}}</div>}}</div></includeonly><noinclude><!--{{Documentation}}--></noinclude>

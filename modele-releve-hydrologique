@@ -1,5 +1,5 @@
 <includeonly><div style="text-align: center; margin: 0 auto; overflow: hidden; zoom: 1">
-<div style="font-size:85%;">'''Débit moyen mensuel (en {{{unité}}})'''<br /> Station hydrologique : {{{station}}} {{#if:{{{date|}}} |<br/>({{{date|}}})}}{{#ifexist:{{ns:10}}:Relevé hydrologique/{{PAGENAME}}|<br>([[{{ns:10}}:Relevé hydrologique/{{PAGENAME}}|Tableau des données du graphique]])|[[Catégorie: Accessibilité : Graphique timeline sans alternative]]}}</div>
+<div style="font-size:85%;">'''Débit moéyin pèr moés (in {{{unité}}})'''<br /> Éstacion hydrologique : {{{station}}} {{#if:{{{date|}}} |<br/>({{{date|}}})}}{{#ifexist:{{ns:10}}:Relevé hydrologique/{{PAGENAME}}|<br>([[{{ns:10}}:Relevé hydrologique/{{PAGENAME}}|Tableau des données du graphique]])|}}</div>
 {{#tag:timeline|
 Colors=
   id:lightgrey value:gray(0.8)
@@ -18,15 +18,15 @@ ScaleMinor = gridcolor:lightgrey increment:{{{échelle secondaire|100}}} start:0
 BackgroundColors = canvas:sfondo
 
 BarData=
-  bar:Jan text:Janvier
-  bar:Fév text:Février
-  bar:Mar text:Mars
-  bar:Avr text:Avril
-  bar:Mai text:Mai
-  bar:Jun text:Juin
+  bar:Jan text:Jinvié
+  bar:Fév text:Févrié
+  bar:Mar text:Marche
+  bar:Avr text:Avri
+  bar:Mai text:Moai
+  bar:Jun text:Join
   bar:Jul text:Juillet
-  bar:Aoû text:Août
-  bar:Sep text:Sept.
+  bar:Aoû text:Aout
+  bar:Sep text:Sect.
   bar:Oct text:Oct.
   bar:Nov text:Nov.
   bar:Déc text:Déc.

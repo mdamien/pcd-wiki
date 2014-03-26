@@ -1,0 +1,10 @@
+<includeonly><!--
+-->{{#if: {{{1|{{{texte|}}}}}}{{{couleurFond|}}}{{{style|}}}
+    | <!-- (construction avec tableau pour mise en page)
+      --><table class="alerte" style="background-color:{{{couleurFond|inherit}}};{{{style|}}}"><tr><!--
+          --><td style="border:none">[[Image:Nuvola apps important.svg|Icône pour souligner l'importance du texte|{{{dimension|40}}}px|alt=|link=]]</td><!--
+          -->{{#if: {{{1|{{{texte|}}}}}} | <td style="border:none">{{{1|{{{texte|}}}}}}</td> }}<!--
+      --></tr></table>
+    | <!-- (icône seule, sans texte)
+      -->[[Image:Nuvola apps important.svg|Icône pour souligner l'importance du texte|{{{dimension|40}}}px|alt=|link=]]
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

@@ -1,0 +1,8 @@
+<span class="smiley">[[Image:Face-blush.svg|{{{1|20}}}px|(Smiley oups)|link=Image:Face-blush.svg]]</span><noinclude>
+{{Documentation|contenu=
+== Utilisation ==
+* <nowiki>{{oups}}</nowiki> → {{oups}}
+* <nowiki>{{oups|50px}}</nowiki> → {{oups|50px}}
+}}<!-- fin contenu -->
+[[Catégorie:Modèle]]
+</noinclude>

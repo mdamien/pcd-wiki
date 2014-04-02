@@ -1,6 +1,6 @@
 <includeonly>{{#ifexpr: {{{1}}} > 1996| Flag of Ethiopia.svg
 |{{#ifexpr: {{{1}}} > 1991|Flag of Ethiopia (1975-1987, 1991-1996).svg
-| {{#ifexpr: {{{1}}} > 1987| Ethiopia 1987-1991.PNG
+| {{#ifexpr: {{{1}}} > 1987| Flag of Ethiopia (1987–1991).svg
 | {{#ifexpr: {{{1}}} > 1975| Flag of Ethiopia (1975-1987, 1991-1996).svg
 | Flag of Ethiopia (1897).svg}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de l'Éthiopie}}
 {| class="wikitable"

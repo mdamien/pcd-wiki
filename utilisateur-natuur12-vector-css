@@ -1,0 +1,56 @@
+* {
+	font-family: sans-serif;
+}
+h2#mw-previewheader,
+div#mw-usercsspreview strong {
+	font-family: sans-serif !important;
+	color: #c00 !important;
+}
+div#content #toc h2, div#content .toc h2,
+h2.diff-currentversion-title {
+	font-family: sans-serif !important;
+}
+div.mw-geshi div, div.mw-geshi div span, div.mw-geshi div pre, span.mw-geshi, span.mw-geshi span, pre.source-css, pre.source-css span, pre.source-javascript, pre.source-javascript span, pre.source-lua, pre.source-lua span {
+	font-family: monospace !important;
+	-moz-tab-size: 4;
+}
+div#content {
+	font-size: 93%;
+}
+h1#firstHeading {
+	font-size: 1.6em !important;
+}
+div#content.mw-body {
+	margin-left: 11.8em;
+	color: #000;
+}
+textarea#wpTextbox1,
+pre {
+	font-family: monospace;
+}
+ 
+/* Font size */
+code a {
+	font-family: monospace;
+	font-size: 130%;
+}
+pre {
+	font-size: 130%;
+}
+div#content h3 {
+	font-size: 132%;
+}
+div#content h4 {
+	font-sizeː 116%;
+}
+div#content h5 {
+	font-size: 100%;
+}
+div#content h6 {
+	font-size: 80%;
+}
+td.diff-deletedline,
+td.diff-addedline,
+td.diff-context {
+	font-size: 85%;
+}

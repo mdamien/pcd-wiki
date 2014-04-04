@@ -1,5 +1,11 @@
 <!--This is just an example. Edit it to make it yours. PLEASE CHANGE THE BABEL AND CONTENT. THIS IS 100% YOUR RESPONSIBILITY. -->
-{{#babel:<!--ADD BABEL HERE, UPDATE LANGUAGE LIST before #default (see right:)-->en-N|es-2|fr-1|}}
-<div class="mw-content-ltr" lang="en" dir="ltr">Hello. I do not edit here much, but I am a member of [[m:Special:MyLanguage/Small Wiki Monitoring Team|the Small Wiki Monitoring Team]]. You can find me on Meta.<!--Do not remove m: from link unless you know what you are doing (see docs for more info) --> [[m:User:Leitoxx]].
+{| style="width:238px" align=right
+|-
+| align="right" |
+[[File:Wikinews favicon.svg|15x15px|link=n:es:Usuario:Leitoxx]] [[File:Wikimedia Community Logo.svg|15x15px|link=m:User:Leitoxx]] [[File:Wikipedia-logo-v2.svg|15x15px|link=w:es:Usuario:Leitoxx]] [[File:Wiktionary-logo.svg|15x15px|link=wikt:es:Usuario:Leitoxx]] [[File:HSWBooks.svg|15x15px|link=b:es:Usuario:Leitoxx]] [[File:Commons-logo.svg|15x15px|link=commons:User:Leitoxx]] [[File:Incubator-logo.svg|15x15px|link=incubator:User:Leitoxx]] [[File:HSWQuote.svg|15x15px|link=q:es:User:Leitoxx]] [[File:HSWVersity.svg|15x15px|link=wikiversity:es:User:Leitoxx]] [[File:HSWSource.svg|15x15px|link=wikisource:es:User:Leitoxx]]
+[[File:Wikispecies 006.svg|15x15px|link=species:User:Leitoxx]]
+|}<br />
+{{#babel:<!--ADD BABEL HERE, UPDATE LANGUAGE LIST before #default (see right:)-->es-N|pt-3|en-2}}
+<div class="mw-content-ltr" lang="en" dir="ltr">Hello. I do not edit here much, but I am a member of [[m:Special:MyLanguage/Small Wiki Monitoring Team|the Small Wiki Monitoring Team]]. You can find me on [[m:User:Leitoxx|Meta]] or [[w:es:User:Leitoxx|Wikipedia]].<!--Do not remove m: from link unless you know what you are doing (see docs for more info) -->
 </div>
 <!--This can be used to make a redirect arrow.-->[[File:Redirect arrow without text.svg|46px|link=]][[m:User talk:Leitoxx|m:{{ns:3}}:Leitoxx]]

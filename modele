@@ -1,9 +1,1 @@
-<span class="smiley">[[Image:Face-sad.svg|{{{1|20}}}px|Triste|alt=(Smiley: triste)|link=Image:Face-sad.svg]]</span><noinclude>
-<!--{{Documentation|contenu=
-== Utilisation ==
-[[Émoticône]] exprimant la déception, la tristesse.
-* <nowiki>{{triste}}</nowiki> → {{triste}}
-* <nowiki>{{triste|14}}</nowiki> → {{triste|14}}
-}} - fin contenu -->
-[[Catégorie:Modèle|{{PAGENAME}}]]
-</noinclude>
+<span class="smiley">[[Image:Face-smile.svg|{{{1|20}}}px|Sourire]]</span><noinclude> </noinclude>

@@ -151,18 +151,18 @@ FONCTIONS
 
 BIOGRAFIE
 
--->{{Infobox/Sous-titre|Biographie|{{Infobox Politicien/Charte couleurs 1|{{lcfirst:{{{charte|}}}}}}}|FFFFFF}}
+-->{{Infobox/Sous-titre|Biografie|{{Infobox Politicien/Charte couleurs 1|{{lcfirst:{{{charte|}}}}}}}|FFFFFF}}
 {{Infobox/Ligne mixte optionnelle|Titre complet|{{{titres|}}}}}
 {{Infobox/Ligne mixte optionnelle|Hymne royal|{{{hymne|}}}}}
 {{Infobox/Ligne mixte optionnelle|Dynastie|{{{dynastie|}}}}}
 {{Infobox/Ligne mixte optionnelle|'' ''|{{{période|}}}}}
 {{Infobox/Ligne mixte optionnelle|Nom de naissance|{{{nom de naissance|{{{nom naissance|}}}}}}}}
 {{Infobox/Ligne mixte optionnelle|Surnom|{{{surnom|}}}}}
-{{Infobox/Ligne mixte optionnelle|Date de naissance|{{{date de naissance|{{{naissance|}}}}}}}}
-{{Infobox/Ligne mixte optionnelle|Lieu de naissance|{{{lieu de naissance|}}}}}
+{{Infobox/Ligne mixte optionnelle|L'est né(e) au |{{{date de naissance|{{{naissance|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Liu d' naissance|{{{lieu de naissance|}}}}}
 {{Infobox/Ligne mixte optionnelle|Origine|{{{origine|}}}}}
-{{Infobox/Ligne mixte optionnelle|Date de décès|{{{date de décès|{{{décès|}}}}}}}}
-{{Infobox/Ligne mixte optionnelle|Lieu de décès|{{{lieu du décès|{{{lieu de décès|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Défuncté(e) au|{{{date de décès|{{{décès|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Liu de décès|{{{lieu du décès|{{{lieu de décès|}}}}}}}}
 {{Infobox/Ligne mixte optionnelle|Nature du décès|{{{nature du décès|{{{nature décès|}}}}}}}}
 {{Infobox/Ligne mixte optionnelle|Sépulture|{{{sépulture|}}}}}
 {{Infobox/Ligne mixte optionnelle|Nationalité|{{{nationalité|}}}}}
@@ -198,7 +198,7 @@ BIOGRAFIE
 {{Infobox/Ligne mixte optionnelle|Héritier|{{{héritier|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom entourage|Entourage}}}|{{{entourage|}}}}}
 {{Infobox/Ligne mixte optionnelle|Diplômé{{#if:{{{féminin|}}}|e}} de|{{{université|}}}}}
-{{Infobox/Ligne mixte optionnelle|Profession|{{{profession|}}}}}
+{{Infobox/Ligne mixte optionnelle|Métié|{{{profession|}}}}}
 {{Infobox/Ligne mixte optionnelle|Religion|{{{religion|}}}}}
 {{Infobox/Ligne mixte optionnelle|Résidence|{{{résidence|}}}}}<!--
 

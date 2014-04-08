@@ -7,3 +7,4 @@ Ch''''carbon''' est eune roche qu'in peut breuler dins ches usines ou pou s'cauf
 [[Catégorie:Mine]]
 
 {{Link GA|ja}}
+{{Link GA|sk}}

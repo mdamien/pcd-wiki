@@ -29,3 +29,4 @@
 
 {{Link GA|de}}
 {{Link GA|fy}}
+{{Link GA|ja}}

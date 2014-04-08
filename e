@@ -28,3 +28,4 @@
 [[Catégorie:Insecques]]
 
 {{Link GA|de}}
+{{Link GA|fy}}

@@ -2,7 +2,7 @@
 * <nowiki>Si la même note est utilisée plusieurs fois dans le texte, préférer la syntaxe <ref name="nom de la note"> … </ref> une fois dans le texte, puis <ref name="nom de la note" /> les autres fois. Elles peuvent aussi être nommées pour des appels multiples ou/et regroupées via des attributs à la balise : <ref name="nom" group="groupe"> … </ref></nowiki>
 * Pour faire un espace : &nbsp
 *<nowiki> __HIDDENCAT__ </nowiki> donne une catégorie cachée
-
+* <nowiki> <span style="float:right;">'''Texte à droite'''</span></nowiki>  <span style="float:right;">'''Texte à droite'''</span>
 ==Cartes==
 {{Carte Belgique|nom=Chevri
 |lat_deg=50

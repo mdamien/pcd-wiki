@@ -1,0 +1,14 @@
+<span class="smiley">[[Fichier:Face-crying.svg|{{{1|22}}}px|Pleure]]</span><noinclude>
+<!--{{Documentation|contenu=
+== Utilisation ==
+Affiche un [[émoticône]] qui pleure.
+
+== Paramètres ==
+* taille : taille en [[pixel]], par défaut à 22 pixels.
+
+== Exemples ==
+* <code>'''<nowiki>{{pleure}}</nowiki></code>&nbsp;:''' {{pleure}}
+* <code>'''<nowiki>{{pleure|40}}</nowiki></code>&nbsp;: ''' {{pleure|40}}
+}}  fin contenu -->
+[[Catégorie:Modèle]]
+</noinclude>

@@ -6,6 +6,21 @@
 {{!}} colspan="2" align="center" style="padding:0px<!--trbl-->;background-color: #ffffff;" {{!}}<!--
 -->[[Image:{{{image|{{{carte}}}}}}|292px|{{{légende|{{{carte-legende|image de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}<!---->}}}<!---->}}}]]<br/><small>{{{légende|{{{carte-legende|image de {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}<!---->}}}<!---->}}}</small>
 }}
+{{#if:{{{nom_fr|}}}
+    |'''fr:''' {{{nom_fr}}}<br>
+ }}
+{{#if:{{{nom_nl|}}}
+      |{{#if:{{{nom_de|}}}
+        |{{#ifeq:{{{nom_nl|}}}|{{{nom_de|}}}
+           |'''nl/de''': {{{nom_nl|}}}
+           |'''nl:''' {{{nom_nl}}}<br />'''de:''' {{{nom_de}}}
+         }}
+        |'''nl:''' {{{nom_nl}}}
+       }}
+      |{{#if:{{{nom_de|}}}
+        |'''de:''' {{{nom_de}}}
+       }}
+    }}
 {{#if: {{{lat_deg|}}}|
 {{!}}-----
 {{!}}colspan="2" align="center"{{!}}{{Carte avec géolocalisation dans l'infobox
@@ -82,10 +97,22 @@
 ! colspan="2" bgcolor="#FFFFBB" align="center" |Autes données
 |-----
 |'''Gentilé'''
-|{{{gentile|(inconnu)}}}
+|{{#if:{{{gentilé|}}}
+    | {{{gentilé}}}
+ }}
+{{#if:{{{gentile|}}}
+    | {{{gentile}}}
+ }}
+<!--|{{{gentilé|(inconnu)}}}-->
 |-----
 |'''Code postal'''
-|{{{code-postal|(inconnue)}}}
+|{{#if:{{{code-postal|}}}
+    | {{{code-postal}}}
+ }}
+{{#if:{{{communes-cp|}}}
+    | {{{communes-cp}}}
+ }}
+<!--|{{{code-postal|(inconnue)}}}-->
 |-----
 |'''conmeunes'''
 |{{{communes-fusionnees|(inconnue)}}}

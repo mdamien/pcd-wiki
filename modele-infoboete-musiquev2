@@ -1,0 +1,108 @@
+<noinclude>{{Bandeau Infobox V2}}
+</noinclude><includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete musique" style="background-color:#{{Infobox Musique (artiste)/Charte couleurs|{{{charte}}}}}; height:45px; text-align:center; font-size:150%; font-weight:bolder" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
+|-
+{{#if:{{{image|}}} | 
+{{!}} colspan="2" style="text-align:center;" {{!}} {{{image}}}
+{{!-}}
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:1em;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+{{#if:{{{nom alias|}}} |
+! scope=row {{!}} Alias 
+{{!}} {{{nom alias|}}}
+{{!-}}
+}}
+{{#if:{{{nom naissance|}}} |
+! scope=row {{!}} Nom 
+{{!}} {{{nom naissance|}}}
+{{!-}}
+}}
+{{#if:{{{naissance|}}}{{{naissance lieu|}}} |
+! scope=row {{!}} Naissance 
+{{!}} {{#if:{{{naissance|}}}|{{{naissance}}}<br/>|}}{{{naissance lieu|}}}
+{{!-}}
+}}
+{{#if:{{{pays origine|}}} |
+! scope=row {{!}} Pays&nbsp;d’origine 
+{{!}} {{{pays origine|}}}
+{{!-}}
+}}
+{{#if:{{{décès|}}}{{{décès lieu|}}} |
+! scope=row {{!}} Décès 
+{{!}} {{#if:{{{décès|}}}|{{{décès}}}<br/>|}}{{{décès lieu|}}}
+{{!-}}
+}}
+{{#if:{{{profession|}}} |
+! scope=row {{!}} Professions 
+{{!}} {{{profession|}}}
+{{!-}}
+}}
+{{#if:{{{genre|}}} |
+! scope=row {{!}} Genres 
+{{!}} {{{genre|}}}
+{{!-}}
+}}
+{{#if:{{{type voix|}}} |
+! scope=row {{!}} Type&nbsp;de&nbsp;voix 
+{{!}} {{{type voix|}}}
+{{!-}}
+}}
+{{#if:{{{instrument|}}} |
+! scope=row {{!}} Instruments
+{{!}} {{{instrument|}}}
+{{!-}}
+}}
+{{#if:{{{années actives|}}} |
+! scope=row {{!}} Années&nbsp;actives
+{{!}} {{{années actives|}}}
+{{!-}}
+}}
+{{#if:{{{label|}}} |
+! scope=row {{!}} Labels
+{{!}} {{{label|}}}
+{{!-}}
+}}
+{{#if:{{{influences|}}} |
+! scope=row {{!}} Influences
+{{!}} {{{influences|}}}
+{{!-}}
+}}
+{{#if:{{{site officiel|{{{site web|}}}}}} |
+! scope=row {{!}} Site Web
+{{!}} {{{site officiel|{{{site web|}}}}}}
+{{!-}}
+}}
+{{#if:{{{membres actuels|{{{ex membres|{{{entourage|}}}}}}}}} |
+{{!}} colspan="2" {{!}} <hr /> 
+{{!-}}
+}}
+{{#if:{{{membres actuels|}}} |
+! scope=row {{!}} Membres
+{{!}} {{{membres actuels|}}}
+{{!-}}
+}}
+{{#if:{{{ex membres|}}} |
+! scope=row {{!}} Anciens&nbsp;membres
+{{!}} {{{ex membres|}}}
+{{!-}}
+}}
+{{#if:{{{entourage|}}} |
+! scope=row {{!}} Entourage
+{{!}} {{{entourage|}}}
+{{!-}}
+}}
+{{#if:{{{logo|}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+{{#if:{{{logo|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} {{{logo}}}
+}}
+|}</includeonly><noinclude><!-- {{/Documentation}} -->[[catégorie:Modèle]]</noinclude>

@@ -1,0 +1,9 @@
+<span class="smiley">[[Image:Emblem-very-very-evil.svg|{{{1|17}}}px|Énervé]]</span><noinclude>
+
+* taille : taille in picsels, par défaut à 17 picsels.
+; Egzimpe
+* <code>'''<nowiki>{{Agacé}}</nowiki></code>&nbsp;:''' {{Agacé}}
+* <code>'''<nowiki>{{Agacé|40}}</nowiki></code>&nbsp;: ''' {{Agacé|40}}
+<!-- fin contenu -->
+[[Catégorie:Modèle]]
+</noinclude>

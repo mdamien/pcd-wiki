@@ -8,7 +8,7 @@
 | width=10% | {{???}}
 | width=10% | {{ange}}
 | width=10% | {{bisou}}
-| width=10% | {{bonjour}}
+| width=10% | {{bojour}}
 | width=10% | {{Clin d'œil}}
 |-
 | colspan=10 height=5px |
@@ -16,7 +16,7 @@
 | valign=top | {{m|???}}
 | valign=top | {{m|ange}}
 | valign=top | {{m|bisou}}
-| valign=top | {{m|bonjour}}
+| valign=top | {{m|bojour}}
 | valign=top | {{m|clin}} {{m|;)}}
 |-
 | colspan=10 height=10px |
@@ -72,16 +72,16 @@
 | {{Tire langue}}
 | {{Triste}}
 | {{Bof}}
-| {{Boudeur}}
-| {{expert}}
+| {{Boudeu}}
+| {{éspért}}
 |-
 | colspan=10 height=5px |
 |-
 | valign=top | {{m|tire langue}}
 | valign=top | {{m|triste}} {{m|1==(}}
 | valign=top | {{m|bof}}
-| valign=top | {{m|boudeur}}
-| valign=top | {{m|expert}}
+| valign=top | {{m|boudeu}}
+| valign=top | {{m|éspért}}
 |-
 | colspan=10 height=10px |
 |-
@@ -110,7 +110,7 @@
 | {{Pendlg|20}}
 | {{Conf|20}}
 | {{Plr|20}}
-| {{Yeux|20}}
+| {{Zius|20}}
 |-
 | colspan=10 height=5px |
 |-
@@ -118,43 +118,43 @@
 | valign=top | {{m|pendlg}}
 | valign=top | {{m|conf}}
 | valign=top | {{m|plr}}
-| valign=top | {{m|yeux}}
+| valign=top | {{m|zius}}
 |-
 | colspan=10 height=10px |
 |-
 | {{Beurk}}
-| {{Enervé}}
+| {{agacé}}
 | {{Rougir|15}}
-| {{Sifflote}}
+| {{Siffloteu}}
 | {{Applau}}
 |-
 | colspan=10 height=5px |
 |-
 | valign=top | {{m|beurk}}
-| valign=top | {{m|énervé}}
+| valign=top | {{m|énervé}} {{m|agacé}}
 | valign=top | {{m|rougir}}
-| valign=top | {{m|sifflote}}
+| valign=top | {{m|siffloteu}}
 | valign=top | {{m|applau}}
 |-
 | colspan=10 height=10px |
 |-
-| {{Bâille}}
+| {{Bailleu}}
 | {{Troll3|25}}
 | {{Confus|18}}
 | {{youpi}}
-| {{dans le mur}}
+| {{dins ch' mur}}
 |-
 | colspan=10 height=5px |
 |-
-| valign=top | {{m|Bâille}}
+| valign=top | {{m|Bailleu}}
 | valign=top | {{m|Troll3}}
 | valign=top | {{m|confus}}
 | valign=top | {{m|youpi}}
-| valign=top | {{m|dans le mur}}
+| valign=top | {{m|dins ch' mur}}
 |-
 | colspan=10 height=10px |
 |-
-| {{ennui}}
+| {{innui}}
 | {{Malade|20}}
 | {{Gnii}}
 | {{Injure|30}}
@@ -162,7 +162,7 @@
 |-
 | colspan=10 height=5px |
 |-
-| valign=top | {{m|ennui}}
+| valign=top | {{m|innui}}
 | valign=top | {{m|malade}}
 | valign=top | {{m|Gnii}}
 | valign=top | {{m|Injure}}
@@ -170,25 +170,25 @@
 |-
 | colspan=10 height=10px |
 |-
-| valign=top | {{Trodrôle}}
+| valign=top | {{Trodrolet}}
 | valign=top | {{Gnii2}} 
-| valign=top | {{N'importe quoi}}
-| valign=top | {{Je rêve}}
+| valign=top | {{N'importe quoé}}
+| valign=top | {{Ej réve}}
 | valign=top | {{Ah Ah}}
 |-
 | colspan=10 height=5px |
 |-
-| valign=top | {{m|Trodrôle}}
+| valign=top | {{m|Trodrolet}}
 | valign=top | {{m|Gnii2}}
-| valign=top | {{m|N'importe quoi}}
-| valign=top | {{m|Je rêve}}
+| valign=top | {{m|N'importe quoé}}
+| valign=top | {{m|Ej réve}}
 | valign=top | {{m|Ah Ah}}
 |-
 | colspan=10 height=10px |
 |-
 | valign=top | {{miam}}
 | valign=top | {{boulet}}
-| valign=top | {{désespoir}}
+| valign=top | {{désespouér}}
 | valign=top | {{attent}}
 | valign=top | {{Fiesta}}
 |-
@@ -196,7 +196,7 @@
 |-
 | valign=top | {{m|miam}}
 | valign=top | {{m|boulet}} 
-| valign=top | {{m|désespoir}}
+| valign=top | {{m|désespouér}}
 | valign=top | {{m|attent}}
 | valign=top | {{m|Fiesta}}
 |-

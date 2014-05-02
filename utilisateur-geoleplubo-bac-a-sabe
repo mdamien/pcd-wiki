@@ -195,7 +195,7 @@
 
 == TeX ==
 
-* '''[http://fr.wikipedia.org/wiki/Aide:Formules_TeX fr:Aide:Formules TeX]''', édition des formules mathématiques,
+* '''[http://fr.wikipedia.org/wiki/Aide:Formules_TeX fr:Aide:Formules TeX]''', '''[https://meta.wikimedia.org/wiki/Help:Formula Méta:Help:TeX]  édition des formules mathématiques,
 * écriture droite : <math>\mathrm{ZnO}</math>.  <nowiki><math>\mathrm{ZnO}</math></nowiki>
 * '''texte gras''' : <nowiki><math>\mathbf{ABCD}</math></nowiki> =  <math>\mathbf{ABCD}</math> <br/>
 * <math>\left( \frac{1}{2} \right)</math> = <nowiki><math>\left( \frac{1}{2} \right)</math></nowiki>

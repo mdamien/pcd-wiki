@@ -1,0 +1,12 @@
+<includeonly>{{#if:{{{2|}}} | <!--
+
+valeur locale -->
+<th scope="row" {{#if:{{{3|}}}|width{{=}}"{{{3}}}%"}}>{{#if:{{{1|}}}|{{{1}}}|[[Site web]]}}
+<td {{#if:{{{4|}}}|colspan{{=}}"{{{4}}}"}}>{{joli lien|lien={{{2}}}}}
+<tr>|<!--
+
+valeur Wikidata --> 
+{{#ifeq: {{{wikidata|}}} | non || {{#ifexpr: {{#invoke: wikidata |numOfClaims | property=P856 |excludespecial= true }} >= 1  |
+<th scope="row" {{#if:{{{3|}}}|width{{=}}"{{{3}}}%"}}>{{#if:{{{1|}}}|{{{1}}}|[[Site web]]}}
+<td {{#if:{{{4|}}}|colspan{{=}}"{{{4}}}"}}>{{joli lien|lien={{#invoke: wikidata | formatStatements| property=P856|rank=one}}}}[[Catégorie:Page utilisant des données de Wikidata/P856]]{{#ifexpr: {{#invoke: wikidata |numOfClaims | property=P31}} >= 1 | [[Catégorie:Données Wikidata partiellement inutilisées/P856]]}} }} }}
+<tr>}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

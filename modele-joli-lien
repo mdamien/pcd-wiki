@@ -1,0 +1,2 @@
+<includeonly>[{{trim|{{{lien|}}} {{#if: {{{texte|}}}|{{{texte}}}|{{#titleparts:{{{lien|}}}||3}}}}}}]</includeonly><noinclude>
+<!--{{documentation}}--></noinclude>

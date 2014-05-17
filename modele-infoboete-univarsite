@@ -1,0 +1,175 @@
+<noinclude>
+<!--
+Infoboète Univarsité
+-->
+</noinclude><includeonly>{{Infobox/Début}}
+{{Infobox/Titre|{{{nom|{{PAGENAME}}}}}|B4464B|entete universite|FFFFFF}}
+<!---
+nom : champ nom, nom de la page par défaut
+Couleur du projet université et entête du livre
+--->
+{{#if: {{{blason|}}} |
+  {{#ifexist: Media:{{{blason|}}}
+     |{{Infobox/Image
+        |{{{blason|}}}
+        |{{{légende blason|}}}
+        |{{{taille blason|200}}}
+        |{{{légende blason|}}}
+      }}
+     |{{Infobox/Ligne|{{{blason|}}} }}{{Infobox/Ligne optionnelle|{{{légende blason|}}} }}
+  }}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Dvise|{{{devise|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nom original|{{{nom_original|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Informacions|{{{fondation|}}}{{{fondateur|}}}{{{dissolution|}}}{{{type|}}}{{{langue|}}}{{{budget|}}}{{{dotation|}}}|B4464B|FFFFFF
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Fondacion|{{{fondation|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Fondateu|{{{fondateur|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Dissolucion|{{{dissolution|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Type|{{{type|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Régime linguistique|{{{langue|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Budget|{{{budget|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Dotacion|{{{dotation|}}}
+}}
+{{Infobox/Sous-titre
+ | Localisacion|B4464B|FFFFFF
+}}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+ | Coordonnées|{{{latitude|}}}|{{{longitude|}}}|edu|dms long||title=oui||{{{référence|}}}
+}}
+{{Infobox/Ligne mixte 
+ | Ville|{{{ville|}}}
+}}
+{{Infobox/Ligne mixte 
+ | Poéyis|{{{pays|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Land|{{{land|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Région|{{{région|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Étot|{{{état|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Campus|{{{campus|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Dirékcion|{{{chef|}}}{{{sschef|}}}{{{proviseur|}}}{{{président|}}}{{{directeur|}}}{{{administrateur|}}}{{{recteur|}}}{{{doyen|}}}{{{chancelier|}}}{{{vicechancelier|}}}|B4464B|FFFFFF
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{#if: {{{lien titre chef|}}} | [[{{{lien titre chef|}}}{{!}}{{{titre chef|}}}]] | {{{titre chef|}}} }}|{{{chef|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{#if: {{{lien titre sschef|}}} | [[{{{lien titre sschef|}}}{{!}}{{{titre sschef|}}}]] | {{{titre sschef|}}} }}|{{{sschef|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Proviseu|{{{proviseur|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Présidint|{{{président|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Dirécteu|{{{directeur|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Anménistrateu|{{{administrateur|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Récteu|{{{recteur|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Douéyin|{{{doyen|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Canchelié|{{{chancelier|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Vice-Chancelier|{{{vicechancelier|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Chiffres clés|{{{personnel|}}}{{{enseignants|}}}{{{enseignants-chercheurs|}}}{{{chercheurs|}}}{{{étudiants|}}}{{{premier_cycle|}}}{{{deuxième_cycle|}}}{{{troisième_cycle|}}}{{{undergraduate|}}}{{{postgraduate|}}}{{{doctorants|}}}{{{niveau|}}}{{{diplômés_an|}}}|B4464B|FFFFFF
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Personnel|{{{personnel|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Enseignants|{{{enseignants|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Enseignants-chercheurs|{{{enseignants-chercheurs|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Chercheurs|{{{chercheurs|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Étudiants|{{{étudiants|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Premier cycle|{{{premier_cycle|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Deuxième cycle|{{{deuxième_cycle|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Troésième cycle|{{{troisième_cycle|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | ''Undergraduates''|{{{undergraduate|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | ''Postgraduates''|{{{postgraduate|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Doctorants|{{{doctorants|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Niveau|{{{niveau|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Diplômés/an|{{{diplômés_an|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ |Divers|{{{web|}}}{{{affiliation|}}}{{{web|}}}|B4464B|FFFFFF
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Mascotte|{{{mascotte|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Particularités|{{{particularités|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Affiliation|{{{affiliation|}}}
+}}
+{{Infobox/Ligne mixte site web optionnelle/Test
+ | Site web|{{{web|}}}|
+}}
+{{Infobox/Géolocalisation multiple
+ | géolocalisation={{{géolocalisation|}}}
+ | latitude={{{latitude|}}}
+ | longitude={{{longitude|}}}
+ | toponyme={{{nom|{{PAGENAME}}}}}
+ | point=Localité sans toponyme
+}}
+{{Infobox/Notice|Infobox Université|B4464B}}
+{{Infobox/Fin}}{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Université géolocalisable sans coordonnées paramétrées]]}}}}}}}}
+<!--Catégorisation-->{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{#if:{{{latitude|}}}|[[Catégorie:Article géolocalisé sur Terre]]}}}}</includeonly><noinclude>{{Documentation}}</noinclude>

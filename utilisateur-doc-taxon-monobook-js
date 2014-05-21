@@ -1,0 +1,27 @@
+//interwiki
+
+if ( typeof mw.libs.DocTaxon  !==  "object" ) {
+   mw.libs.DocTaxon  =  { };
+}
+
+mw.libs.DocTaxon.nsn  =  mw.config.get( "wgNamespaceNumber" );
+mw.libs.DocTaxon.furnish  =  function () {
+   var nsn     =  mw.libs.DocTaxon.nsn,
+       pgName  =  mw.config.get( "wgPageName" ),
+       server  =  mw.config.get( "wgServer" ),
+       title   =  mw.config.get( "wgTitle" ).replace( /\/.*$/, "" );
+   if ( nsn >= 0 ) {
+      mw.util.addPortletLink( "p-personal",
+                              server + "/w/index.php?title="
+                              + "Special:Export&pages=" + pgName
+                              + "&dir=desc&limit=5&wpDownload&history=1",
+                              "Export" );
+   }
+};
+
+mw.hook( "wikipage.content" ).add( function() {
+   if ( typeof mw.libs.DocTaxon.loaded  !==  "boolean" ) {
+               mw.libs.DocTaxon.furnish();
+               mw.libs.DocTaxon.loaded  =  true;
+   }
+} );

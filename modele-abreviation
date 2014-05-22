@@ -1,0 +1,1 @@
+<includeonly><abbr title="{{{2}}}" {{#if:{{{3|}}}|lang="{{{3}}}"}}>{{{1}}}</abbr></includeonly><noinclude><!--{{Documentation}}--></noinclude>

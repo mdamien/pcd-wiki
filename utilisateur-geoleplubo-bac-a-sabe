@@ -7,6 +7,40 @@
 
 
 ==Cartes==
+
+{| class="wikitable"
+|+ Exemples (approximatifs)
+! bleu
+! chemin
+! cuisine
+! poivre
+! soir
+|-----
+|
+<div style="position: absolute;">
+<div style="font-size: 12px; line-height: 12px; position: absolute; display: block; left: 60px; top: 50px; padding: 0; color:#5D0098;">
+blöi
+</div>
+<div style="font-size: 12px; line-height: 12px; position: absolute; display: block; left: 150px; top: 40px; padding: 0; color:#0060D0;">
+bloo
+</div>
+<div style="font-size: 12px; line-height: 12px; position: absolute; display: block; left: 120px; top: 110px; padding: 0; color:#00A040;">
+blöi
+</div>
+<div style="font-size: 12px; line-height: 12px; position: absolute; display: block; left: 70px; top: 220px; padding: 0; color:#00A040;">
+blaui
+</div>
+<div style="font-size: 12px; line-height: 12px; position: absolute; display: block; left: 70px; top: 270px; padding: 0; color:#00A040;">
+blàui
+</div>
+<div style="font-size: 12px; line-height: 12px; position: absolute; display: block; left: 75px; top: 320px; padding: 0; color:#005000;">
+blaü
+</div>
+</div>
+[[Image:Alsace region location map.svg|200px|vignette|left|{{fr}} : bleu<br />{{de}} : blau]]
+|}
+
+
 {{Carte Belgique|nom=Chevri
 |lat_deg=50
 |lat_min=10

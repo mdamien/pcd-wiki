@@ -1,13 +1,17 @@
 === Statistiques globales ===
 
 ;Wikipédia picard
+
+* http://stats.grok.se/pcd/top
+
 * [http://stats.wikimedia.org/FR/ChartsWikipediaPCD.htm Grafikes pcd]
 * [http://stats.wikimedia.org/FR/TablesWikipediaPCD.htm Tabes pcd]
 * [http://stats.wikimedia.org/FR/Sitemap.htm Éstatistiques Wikipédia]
 
-[//toolserver.org/~pathoschild/stewardry/?wiki=pcdwikipedia&sysop=on&bureaucrat=on&bot=on Dernières actions des administrateurs des bureaucrates et des bots sur la wikiversité]<br/>
-[//toolserver.org/~vvv/adminstats.php?wiki=pcdwikipedia_p&tlimit=31536000 Toutes les actions des administrateurs de la wikiversité]<br/>
-[//toolserver.org/~quentinv57/tools/localstewardlog.php?wiki=pcdwikipedia&limit=50&offset= Dernières actions des stewards sur la Wikiversité]
+
+* [//toolserver.org/~pathoschild/stewardry/?wiki=pcdwikipedia&sysop=on&bureaucrat=on&bot=on Dernières actions des administrateurs des bureaucrates et des bots ]<br/>
+* [//toolserver.org/~vvv/adminstats.php?wiki=pcdwikipedia_p&tlimit=31536000 Toutes les actions des administrateurs ]<br/>
+* [//toolserver.org/~quentinv57/tools/localstewardlog.php?wiki=pcdwikipedia&limit=50&offset= Dernières actions des stewards ]
 
 === Statistiques par profil ===
 [//toolserver.org/~quentinv57/sulinfo/ Informations SUL d’un nom d’utilisateur]. (Ce lien permet de savoir dans quel projet un nom d’utilisateur donné existe et précise lorsque les comptes sont liés entre eux ou non.)

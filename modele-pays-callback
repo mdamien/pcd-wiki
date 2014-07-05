@@ -1,0 +1,3 @@
+<includeonly><span class="datasortkey" data-sort-value="{{{sortkey|{{{alias}}}}}}"><span class="flagicon">[[Fichier:{{{flag alias-{{{variant}}}|{{{flag alias}}}}}}|{{#if:{{{size|}}}{{{taille|}}}|{{{size|{{{taille|}}}}}}|22x20px}}|{{{border-{{{variant}}} |{{{border|border}}}}}} |{{{alt attribute|{{{alias}}}}}}]]&nbsp;</span>[[{{{alias}}}|{{{name}}}]]</span></includeonly><noinclude>
+<!--{{Documentation d'une sous-page de modèle}}-->
+</noinclude>

@@ -270,6 +270,8 @@ blaü
 ::::<math>\begin{matrix} & {}_{\rm{T\ >\ 90^\circ\ C }} & \\ \mathrm{ZnS +  Fe_2(SO_4)_3} & \overrightarrow{\qquad\qquad\qquad} & \mathrm{ZnSO_4 + 2FeSO_4 + S\ (solide)}\ \\\end{matrix}</math>
 *<nowiki><math>\begin{matrix} & {}_{\rm{T\ >\ 90^\circ\ C }} & \\ \mathrm{ZnS +  Fe_2(SO_4)_3} & \overrightarrow{\qquad\qquad\qquad} & \mathrm{ZnSO_4 + 2FeSO_4 + S\ (solide)}\ \\\end{matrix}</math></nowiki>
 
+<math>L=K.\int\limits_{380~nm}^{780~nm} S(\lambda)\cdot\big(\overbrace{ 1\cdot\overline{r}(\lambda)+4,5907\cdot\overline{v}(\lambda)+0,0601\cdot \overline{b}(\lambda) }^{\overline{y}(\lambda)=V(\lambda)}\big)\cdot \mathrm d\lambda~.</math>
+
 == Eutes ==
 * [[Utilisateur:Geoleplubo/Statistiques|Éstatistiques]]
 

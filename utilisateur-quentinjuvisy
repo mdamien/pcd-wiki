@@ -25,7 +25,7 @@
 =[[Image:Nuvola apps kservices.png|32px]] Navigation=
 <div align=center>
 <small>Nous sommes le [[{{CURRENTDAYNAME}}]] [[{{CURRENTDAY}} {{CURRENTMONTHNAME}}]] [[{{CURRENTYEAR}}]]<br>Notre encyclopédie comporte actuellement {{NUMBEROFARTICLES}} articles.</small>
-<p>[http://pcd.wikipedia.org/w/wiki.phtml?title=Discussion_Utilisateur:QuentinJuvisy/{{CURRENTMONTHNAME}}_{{CURRENTYEAR}}&action=edit&section=new&preload=Utilisateur:Lorenzoalali/Discussion Laisser un message] | [[Discussion Utilisateur:{{PAGENAME}}|Ma page de discussion]] | [[Utilisateur:{{PAGENAME}}|Ma page utilisateur]] | [[Utilisateur:{{PAGENAME}}/Médiathèque|Ma médiathèque]] | [[Utilisateur:Lorenzoalali/Brouillon|Mes brouillons]] | [[Special:Emailuser/QuentinJuvisy|E-mail]] | [[Special:Contributions/QuentinJuvisy|Mes contributions]] | [[Special:Whatlinkshere/Utilisateur:QuentinJuvisy|Pages liées]] et [[Special:Recentchangeslinked/Utilisateur:QuentinJuvisy|Suivi des liens]] de ma page utilisateur | [http://pcd.wikipedia.org/w/index.php?title=Utilisateur:QuentinJuvisy&action=watch M'ajouter à votre liste de suivi] | [http://pcd.wikipedia.org/w/index.php?title=Discussion_Utilisateur:QuentinJuvisy&action=purge Purger le cache] | [http://pcd.wikipedia.org/w/index.php?title=Special%3AAllpages&from=QuentinJuvisy&namespace=2 Voir toutes mes sous-pages]
+<p>[[Discussion Utilisateur:{{PAGENAME}}|Ma page de discussion]] | [[Utilisateur:{{PAGENAME}}|Ma page utilisateur]] | [[Utilisateur:{{PAGENAME}}/Médiathèque|Ma médiathèque]] | [[Utilisateur:Lorenzoalali/Brouillon|Mes brouillons]] | [[Special:Emailuser/QuentinJuvisy|E-mail]] | [[Special:Contributions/QuentinJuvisy|Mes contributions]] | [[Special:Whatlinkshere/Utilisateur:QuentinJuvisy|Pages liées]] et [[Special:Recentchangeslinked/Utilisateur:QuentinJuvisy|Suivi des liens]] de ma page utilisateur | [http://pcd.wikipedia.org/w/index.php?title=Utilisateur:QuentinJuvisy&action=watch M'ajouter à votre liste de suivi] | [http://pcd.wikipedia.org/w/index.php?title=Discussion_Utilisateur:QuentinJuvisy&action=purge Purger le cache] | [http://pcd.wikipedia.org/w/index.php?title=Special%3AAllpages&from=QuentinJuvisy&namespace=2 Voir toutes mes sous-pages]
 <br />
 <inputbox>
 type=create
@@ -37,6 +37,7 @@ width=30
 {{Fin cadre}}
 
 {{Début cadre|vert}}
+
 =[[Image:Fairytale kuser.png|32px]] Qui suis-je?=
 {{Début cadre|jaune}}
 ==[[Image:Nuvola_apps_ksig.png|32px]] Présentation==

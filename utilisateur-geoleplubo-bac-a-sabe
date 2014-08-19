@@ -1,3 +1,4 @@
+{{DISPLAYTITLE:<span style="color: #008000; font: bold 30px 'Comic Sans MS';">Coucou</span>}}
 * <nowiki>#REDIRECTION  [[eute nom]]</nowiki>
 * <nowiki>Si la même note est utilisée plusieurs fois dans le texte, préférer la syntaxe <ref name="nom de la note"> … </ref> une fois dans le texte, puis <ref name="nom de la note" /> les autres fois. Elles peuvent aussi être nommées pour des appels multiples ou/et regroupées via des attributs à la balise : <ref name="nom" group="groupe"> … </ref></nowiki>
 * Pour faire un espace : &nbsp
@@ -118,6 +119,14 @@ blaü
 * <nowiki>('''<span style="color:red;"><span style="font-size:15px;;">?</span></span>''')</nowiki> ('''<span style="color:red;"><span style="font-size:15px;;">?</span></span>''')
 ::45px
 * <nowiki>('''<span style="color:red;"><span style="font-size:45px;;">?</span></span>''')</nowiki> ('''<span style="color:red;"><span style="font-size:45px;;">?</span></span>''')
+
+xxxxxxxxxxxxxxxxxxxx
+{{DISPLAYTITLE:<span style="color: #008000; font: bold 30px 'Comic Sans MS';">Coucou</span>}}
+<table style="float: right; margin-left: 1em; margin-bottom: 0.5em; width: 242px; border: black solid 2px; background-color:white; font-family:Comic Sans MS">
+<tr><td>{{#babel:en-N|bn-N|hi-1}}</tr></td>
+</table>
+<span style="font-family: Comic Sans MS">
+coucou</span>
 
 == codes ==
 

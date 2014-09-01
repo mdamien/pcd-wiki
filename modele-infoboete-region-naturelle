@@ -1,0 +1,103 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nom|{{PAGENAME}}}}}|009000|entete map|ffffff
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|}}|{{#if:{{{image taille|}}}|{{{image taille|}}}|280}}||||Région naturelle
+}}
+{{Infobox/Séparateur optionnel
+ | {{{image|}}}|009000
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Poéyis|{{{pays|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{#if:{{{lien subdivision1|{{{lien région|}}}}}}|[[{{{lien subdivision1|{{{lien région|}}}}}}]]|'''Région'''}}|{{{subdivision1|{{{région|}}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{#if:{{{lien subdivision2|{{{lien département|}}}}}}|[[{{{lien subdivision2|{{{lien département|}}}}}}]]|'''Départmint'''}}|{{{subdivision2|{{{département|}}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{#if:{{{lien subdivision3|}}}|[[{{{lien subdivision3|}}}]]|Eutes}}|{{{subdivision3|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{#if:{{{lien subdivision4|}}}|[[{{{lien subdivision4|}}}]]|:}}|{{{subdivision4|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Chés princhipales Villes |{{{villes|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Siège du païs|{{{capitale|}}}
+}}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+ | 
+ | {{{latitude|}}}|{{{longitude|}}}
+ | landmark_scale:{{#if:{{{échelle|}}}|{{{échelle}}}|300000}}|dms long|title=oui|8={{{référence|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Supérfichie à peu preu|{{{km²|}}}|{{unité|{{{km²|}}}|km|2}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Géolodjie|{{{géologie|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Relief|{{{relief|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Cours d'iau|{{{eau|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Faune remarquabe|{{{faune|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Flore remarquabe|{{{flore|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Produkcion(s)|{{{production|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Conmeune(s)|{{{nbcommunes|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nombe éd gins|{{{population|}}}|{{formatnum:{{{population|}}}}} hab. <small>({{{date pop|}}})</small>
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Région(s) naturelle(s)<br />vouésine(s)|{{{régions voisines|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Païs (div. territoriale)|{{{pays loi LOADDT|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Classemint|{{{classement|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Gestion|{{{gestion|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Site ouèbe|{{{web|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Région(s) pi éspache(s) connexe(s)|{{{espaces connexes|}}}
+}}
+{{Infobox/Séparateur optionnel
+ | {{{carte|}}}|009000
+}}
+{{Infobox/Image
+ | {{{carte|}}}|{{#if:{{{carte légende|}}}|{{{carte légende|}}}|Localisation}}|{{#if:{{{carte taille|}}}|{{{carte taille|}}}|280}}||||Région naturelle
+}}
+{{Infobox/Géolocalisation multiple
+ | géolocalisation={{{géolocalisation|}}}
+ | latitude={{{latitude|}}}
+ | longitude={{{longitude|}}}
+ | toponyme={{Non vide|{{{nom|}}}|{{PAGENAME}}}}
+ | point=Aire protégée sans toponyme
+ | largeur1={{{largeur carte|}}}
+ | largeur2={{{largeur carte2|}}}
+ | type=relief
+}}
+{{Infobox/Notice
+ | Infobox Région naturelle|009000
+}}
+{{Infobox/Fin}}<!--
+
+Catégorisation-->{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{#if:{{{latitude|}}}|[[Catégorie:Article géolocalisé sur Terre]]}}}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

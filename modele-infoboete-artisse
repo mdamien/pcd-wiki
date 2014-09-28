@@ -1,0 +1,47 @@
+<noinclude>
+</noinclude><includeonly>{{Infobox V3/Début|icon=artiste|background=#7DA7D9|color=#fff|text={{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}{{#if:{{{autres noms|}}}|{{#ifeq:{{{autres noms|}}}|{{{nom|}}}||
+<br />{{{autres noms}}}}}}}}}<!--
+
+IMAGE
+
+-->{{#if:{{{image|}}}
+  |{{Infobox V3/Image|image={{{image|}}}|legend={{{légende|}}}}}
+   {{Infobox V3/Séparateur|background=#7DA7D9}}
+}}<!--
+
+DONNEES CLE
+
+-->{{Infobox V3/Tableau début|class=hidden}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Nom d' naissance|{{{nom de naissance|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Naissance|{{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|{{#if:{{{date de naissance|}}}|<br />}}{{{lieu de naissance|}}}}}|if={{{date de naissance|}}}{{{lieu de naissance|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Défuncté|{{{date de décès|}}}{{#if:{{{lieu de décès|}}}|{{#if:{{{date de décès|}}}|<br />}}{{{lieu de décès|}}}}}|if={{{date de décès|}}}{{{lieu de décès|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Nacionalité|{{{nationalité|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Activités|{{{activités|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Eutes activités|{{{autres activités|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Formacion|{{{formation|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Moètes|{{{maîtres|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Élèves|{{{élèves|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Mouvemint artistique|{{{mouvement|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Mécènes|{{{mécènes|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Influencé par|{{{influencé par|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Influença|{{{influence de|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Récompenses|{{{récompenses|}}}}}
+{{Infobox V3/Tableau fin}}<!--
+
+Listes
+
+-->{{#if: {{{œuvres principales|}}}
+  |{{Infobox V3/Titre Bloc|text=Œuvres réputées}}
+   <div>{{{œuvres principales|}}}</div>
+}}{{#if: {{{compléments|}}}
+  |{{Infobox V3/Titre Bloc|text=Compléments}}
+   <div>{{{compléments|}}}</div>
+}}<!-- SIGNATURE 
+-->{{#if:{{{signature|}}}| 
+<p class="center" style="font-weight: bold; font-size: 0.9em;">Signature</p>
+{{Infobox V3/Image|image={{{signature|}}}|upright=0.7|alt=Signature de {{{nom|{{PAGENAME}}}}}}}
+}}<!--
+
+Fin
+
+-->{{Infobox V3/Fin|Modèle:Infoboète Artiste|class=bordered|border-color=#7DA7D9|border-width=2}}<!--{{Suivi des biographies|Culture et arts}}--></includeonly><noinclude><!--{{Documentation}}--></noinclude>

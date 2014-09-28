@@ -1,0 +1,78 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|4C6099|entete defaut|ffffff
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|}}|{{{taille image|}}}||||Architecte
+}}
+{{Infobox/Sous-titre optionnel
+ | |{{{nom de naissance|}}}{{{surnom|}}}{{{date de naissance|}}}{{{lieu de naissance|}}}{{{date de décès|}}}{{{lieu de décès|}}}{{{nationalité|}}}{{{mouvement|}}}{{{activités|}}}{{{diplôme|}}}{{{formation|}}}{{{élèves|}}}|4C6099|ffffff
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nom de naissance|{{{nom de naissance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Autres noms|{{{surnom|{{{nom alias|}}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Naissance|{{{date de naissance|}}}{{{lieu de naissance|}}}|{{{date de naissance|}}}<br />{{{lieu de naissance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Défuncté|{{{date de décès|}}}{{{lieu de décès|}}}{{{âge au décès|}}}|{{{date de décès|}}} {{#if:{{{âge au décès|}}}|(à {{{âge au décès|}}} ans)|}}<br />{{{lieu de décès|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nacionnalité|{{{nationalité|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Mouvemint(s)|{{{mouvement|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Activité(s) |{{{activités|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Diplôme|{{{diplôme|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Formacion|{{{formation|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Ses élèves|{{{élèves|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Euve|{{{agence|}}}{{{réalisations|}}}{{{projets|}}}{{{distinctions|}}}{{{publications|}}}|4C6099|ffffff
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Agence|{{{agence|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Réalisacions|{{{réalisations|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Prodjets|{{{projets|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Distinkcions|{{{distinctions|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Publicacions |{{{publications|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | famille|{{{père|}}}{{{mère|}}}{{{famille|}}}|4C6099|ffffff
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Père|{{{père|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Mère|{{{mère|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Famille|{{{famille|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | Complémints|{{{complément|}}}|4C6099|ffffff
+}}
+{{Infobox/Ligne optionnelle
+ | {{{complément|}}}|{{{complément|}}}|left
+}}
+{{Infobox/Notice|Infobox Architecte|4C6099}}
+{{Infobox/Fin}}<!--{{Suivi des biographies|Culture et arts}}--></includeonly><noinclude><!--{{Documentation}}-->[[catégorie:modèle]]</noinclude>

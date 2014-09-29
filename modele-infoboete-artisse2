@@ -9,10 +9,10 @@
  | |{{{nom de naissance|}}}{{{surnom|}}}{{{date de naissance|}}}{{{lieu de naissance|}}}{{{date de décès|}}}{{{lieu de décès|}}}{{{nationalité|}}}{{{mouvement|}}}{{{activités|}}}{{{diplôme|}}}{{{formation|}}}{{{élèves|}}}|4C6099|ffffff
 }}
 {{Infobox/Ligne mixte optionnelle
- | Nom de naissance|{{{nom de naissance|}}}
+ | Nom d' naissance|{{{nom de naissance|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | Autres noms|{{{surnom|{{{nom alias|}}}}}}
+ | Eutes noms|{{{surnom|{{{nom alias|}}}}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Naissance|{{{date de naissance|}}}{{{lieu de naissance|}}}|{{{date de naissance|}}}<br />{{{lieu de naissance|}}}
@@ -35,6 +35,10 @@
 {{Infobox/Ligne mixte optionnelle
  | Formacion|{{{formation|}}}
 }}
+maîtres 
+{{Infobox/Ligne mixte optionnelle
+ | Moaites|{{{maîtres|}}}
+}}
 {{Infobox/Ligne mixte optionnelle
  | Ses élèves|{{{élèves|}}}
 }}
@@ -42,7 +46,7 @@
  | Euve|{{{agence|}}}{{{réalisations|}}}{{{projets|}}}{{{distinctions|}}}{{{publications|}}}|4C6099|ffffff
 }}
 {{Infobox/Ligne mixte optionnelle
- | Agence|{{{agence|}}}
+ | Agince|{{{agence|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Réalisacions|{{{réalisations|}}}

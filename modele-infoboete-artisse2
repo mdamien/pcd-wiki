@@ -43,13 +43,16 @@ maîtres
  | Ses élèves|{{{élèves|}}}
 }}
 {{Infobox/Sous-titre optionnel
- | Euve|{{{agence|}}}{{{réalisations|}}}{{{projets|}}}{{{distinctions|}}}{{{publications|}}}|4C6099|ffffff
+ | Euve|{{{agence|}}}{{{réalisations|}}}{{{œuvres principales|}}}{{{projets|}}}{{{distinctions|}}}{{{publications|}}}|4C6099|ffffff
 }}
 {{Infobox/Ligne mixte optionnelle
  | Agince|{{{agence|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Réalisacions|{{{réalisations|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Réalisacions|{{{œuvres principales|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
  | Prodjets|{{{projets|}}}

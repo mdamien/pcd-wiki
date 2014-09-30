@@ -1,7 +1,7 @@
 {{Conmune
 |nomcommune         = Anmyin
-|image              = 
-|image-desc         = 
+|image              = Ami1d.JPG
+|image-desc         = '''Marie sans kmise'''
 |armoiries          = Blason fr ville Amiens.svg
 |armoiries-desc     = 
 |armoiries-taille   = 
@@ -70,30 +70,17 @@ A ch'timps éd ches romains, ch'étoait [[Samarobriva]]. ("Ch'pont édseur l' [[
 
 [[Fichier:Le beffroi d'Amiens 2004.JPG|thumb|center|upright=0.7|Ch’ béfroé Anmyin]]
 
-[[Fichier:Cirque Amiens foule début XXe.jpg|center|thumb|Ch’cirque d'Anmien in 1912, tandis l'fiète à Saint-Jean]]
-
-
-[[Fichier:Cirque municipale amiens.jpg|thumb|right|Cirque Municipal Anmyin]]
+{|
+|[[Fichier:Cirque Amiens foule début XXe.jpg|center|thumb|Ch’cirque d'Anmien in 1912, tandis l'fiète à Saint-Jean]]
+|[[Fichier:Cirque municipale amiens.jpg|thumb|right|Cirque Municipal Anmyin]]
+|}
 
 === XIXe sièke ===
 
-[[Fichier:P7210050 Palais de justice Amiens.JPG|thumb|center|Palais d’justiche Anmyin]]
-
-
-
-[[Fichier:Visite hortillonages amiens.jpg|thumb|right|Chés ortillonaches Anmyin]]
-
-
-
-
-
-
-
-
-
-
-
-
+{|
+|[[Fichier:P7210050 Palais de justice Amiens.JPG|thumb|center|Palais d’justiche Anmyin]]
+|[[Fichier:Visite hortillonages amiens.jpg|thumb|right|Chés ortillonaches Anmyin]]
+|}
 
 == démografie ==
 
@@ -179,6 +166,8 @@ PlotData=
 
 
 Boîte déroulante =  Maÿeurs d'Anmyin edpuis el [[Révoluchon franchoèse]]
+<center>
+<div style="width:900px; height:300px; overflow:auto; border:thin grey solid; padding:5px;">
 
 <div align="{{ #switch:{{{alignB}}} | gauche = left | droite = right | centre = center | left = left | right = right | center = center | #default = left }}">
 <div class="NavFrame" style="clear:both; margin-bottom:{{{margeBas|1em}}}; width:{{{largeur|99%}}}; border-style:solid; -moz-border-radius:{{{arrondi|0}}}; border-color:{{{couleurBordure|#AAAAAA}}}; background-color:{{{couleurFondB|#FFFFFF}}};" title="{{{label|[Dérouler]}}}" >
@@ -330,7 +319,8 @@ Boîte déroulante =  Maÿeurs d'Anmyin edpuis el [[Révoluchon franchoèse]]
 </div></div></includeonly><noinclude>
 </div></div>
 </noinclude>
-
+</div>
+</center>
 == Histoère ==
 
 == Cultchure ==

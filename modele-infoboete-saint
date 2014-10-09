@@ -1,0 +1,57 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nom|{{PAGENAME}}}}}|FFD700|entete defaut
+}}
+{{Infobox/Image
+ | {{{image|Defaut.svg}}}|{{#if:{{{légende|}}}|{{{légende|}}}|}}|{{#if:{{{taille image|}}}|{{{taille image|}}}|280}}||||Saint
+}}
+{{Infobox/Sous-titre optionnel
+ | {{{titre|}}}|{{{titre|}}}|FFD700
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Naissance|{{{date de naissance|}}}|{{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|<br />{{{lieu de naissance|}}}|}}|40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Défuncté |{{{date de décès|}}}|{{{date de décès|}}}{{#if:{{{date de décès|}}}|&nbsp;{{#if:{{{âge au décès|}}}|<small> ({{{âge au décès|}}} ans)</small>|}}<br /> {{{lieu de décès|}}}}}|40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nom d' naissance|{{{nom de naissance|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Eutes noms|{{{autres noms|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nacionalité|{{{nationalité|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Vénéré{{#if:{{{féminin|}}}|e}} à|{{{lieu de vénération|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Béatificacion|{{{date de béatification|}}}|{{{date de béatification|}}}{{#if:{{{lieu de l'annonce béatification|}}}|&nbsp;{{{lieu de l'annonce béatification|}}}}}{{#if:{{{béatifié par|}}}|</br>par {{{béatifié par|}}}}}|40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Canonisacion|{{{date de canonisation|}}}|{{{date de canonisation|}}}{{#if:{{{lieu de l'annonce canonisation|}}}| &nbsp;{{{lieu de l'annonce canonisation|}}}}}{{#if:{{{canonisé par|}}}|</br>par {{{canonisé par|}}}}}|40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Docteur ed l'Église |{{{date docteur église|}}}|{{{date docteur église|}}}{{#if:{{{lieu de l'annonce docteur|}}}| &nbsp;{{{lieu de l'annonce docteur|}}}}}{{#if:{{{docteur église par|}}}|</br>par {{{docteur église par|}}}}}{{#if:{{{docteur mention|}}}|</br>Déclaré{{#if:{{{féminin|}}}|e}} {{{docteur mention|}}}}}|40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Vénéré{{#if:{{{féminin|}}}|e}} par|{{{vénéré par|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Fiète|{{{fête|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Attributs|{{{attributs|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{#if: {{{titre saint patron|}}}|{{{titre saint patron}}}|Saint{{#if:{{{féminin|}}}|e}} patron{{#if:{{{féminin|}}}|ne}}}}|{{{saint patron|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Sujeuts controversés|{{{problème|}}}||40|
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Abolicion du culte|{{{date de suppression|}}}|{{{date de suppression|}}}{{#if:{{{suppression par|}}}|&nbsp;par {{{suppression par|}}}}}|40|
+}}
+{{Infobox/Notice|Infobox Saint|FFD700}}
+{{Infobox/Fin}}<!--{{Suivi des biographies|Religion}}--></includeonly><noinclude><!--{{Documentation}}--></noinclude>

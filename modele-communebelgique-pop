@@ -1,0 +1,5 @@
+<includeonly>{{formatnum:{{{1}}}}} ''<small>({{date|1|janvier|2014}})</small>''<br />{{unité|{{{2}}}|%}}<br />{{unité|{{{3}}}|%}}<br />{{unité|{{{4}}}|hab./km|2}}</includeonly><noinclude>
+<!--{{Avertissement|Ce modèle ne doit pas être utilisé directement, il doit être appelé exclusivement par {{m|Infobox Commune de Belgique/Population}}.}}
+
+[[Catégorie:Modèle Belgique]]-->
+</noinclude>

@@ -1,0 +1,149 @@
+-- Ne fonctionne qu'en français. Si besoin est, on peut s'inspirer de [[wikidata:Module:Linguistic]] pour ajouter d'autres langues.
+
+local p = {}
+local lang = 'fr'
+
+local vowels = 'aeiouyąăẵằẳặȃắâẫấầẩậãäǟāáàȁǎảẚåǻḁạǡæǣǽĕȇêễếềểệḙẽḛëēḕéḗèȅěẻẹęȩḝǝĭȋîĩḭïḯīíìȉǐỉịįıŏȏôỗốồổộõṏṍöōṑóṓòȍǒỏọǫǭơỡớờởợøǿŭȗûṷũṻṹṵüǖǘǜǚṳūúùȕǔủůụųưữứừửựŷỹÿȳýỳỷẙỵ'
+
+-- i18n
+local wordor = ' ou '
+local wordand = ' et '
+local comma = ', '
+local fullstop = '. '
+local wordsep = ' '
+
+local function isin(str, pattern)
+	if str and pattern and mw.ustring.find(str, pattern, 1, true ) then
+		return true
+	end
+end
+
+
+local function processgender(str)
+	if (str == 'f') or (str == 'fem') or (str == 'feminine') then 
+		return 'feminine'
+	elseif (str == 'n') or (str == 'neutral') then 
+		return 'neutral'
+	else
+		return 'masculine'
+	end
+end
+
+local function processnumber(str)
+	if (str == 'p') or (str == 'plural') then
+		return 'plural'
+	else 
+		return 'singular'
+	end
+end
+
+function p.vowelfirst (str)
+	if str and #str > 0 then return isin(vowels, string.lower(mw.ustring.sub(str, 1, 1))) end
+end
+
+function p.inparentheses(str)
+	if (not str) or str == '' then
+		return str
+	else 
+		return ' (' .. str .. ')' 
+	end
+end
+
+function p.of(word, gender, number, determiner, raw) 
+	if not raw then 
+		raw = word
+	end
+	gender = processgender(gender)
+	number = processnumber(number)
+	local vowel = p.vowelfirst(raw)
+	local feminine = (gender==feminine)
+	-- raw is the string without the Wikiformatting so that it correctly analyses the string that is [[:fr:Italie|Italie]] -> 'italie'
+	-- any way to automate this ?
+
+	
+	if number == 'plural' then
+		return 'des ' .. word
+	elseif determiner then-- de la, du 
+		if vowel then
+			return 'de l’' .. word
+		elseif feminine then
+			return 'de la ' .. word
+		else
+			return 'du ' .. word
+		end
+	else
+		if vowel then
+			return 'd’' .. word
+		elseif feminine then
+			return 'de la ' .. word
+		else
+			return 'de ' .. word
+		end
+	end
+end
+
+function p.noungroup(noun, adj)
+	if not noun or noun == '' then 
+		return nil -- not '' so that it is not counted as a string by mw.listToText
+	end
+	return noun .. wordsep(lang) .. adj -- lorsque c'est en français
+end
+
+function p.quickconj(args, conjtype)
+	local separator, conjunction
+	
+	-- cas où separator ~= conj
+	if (not conjtype) or conjtype == 'and' then
+		separator, conjunction = comma, wordand
+	elseif conjtype == 'or' then
+		separator, conjunction = comma, wordor
+	end
+	if (separator and conjunction) then
+		return  mw.text.listToText(args, conjunction, separator)
+	end
+	-- autres cas
+	if conjtype == 'comma' then
+		separator = comma
+	else
+		separator = conjtype
+	end
+	return table.concat(args, separator)
+end
+
+function p.conj(args, conjtype)
+	if (not args) or (#args == 0) then
+		return nil
+	end
+	local newargs = {}
+	for i, j in pairs(args) do
+		if type(j) ~= 'nil' then
+			table.insert(newargs, j)
+		end
+	end
+	args = newargs
+	return p.quickconj(newargs, conjtype, lang)
+end
+ 
+function p.conjfromWiki(frame)
+	args = frame.args
+	if not args or not args[1] then
+		args = mw.getCurrentFrame():getParent().args
+	end
+	local conjtype = args.type
+	newargs = {}  -- transform args metatable into a table so it can be concetenated
+	for i, j in pairs(args) do
+			if type(i) == 'number' then
+				j = mw.text.trim(j)
+				if j ~= '' then
+					table.insert(newargs, j)
+				end
+			else 
+				if i ~= 'type' and i ~= 'lang' then 
+					return error('bad parameter in template:Conj:' .. i), '[[Category:Pages with incorrect template usage/Conj|A]]'
+				end
+			end
+	end
+	return p.conj(newargs, conjtype)
+end
+
+return p

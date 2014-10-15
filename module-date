@@ -1,0 +1,850 @@
+local fun = {}
+
+local TableBuilder = require( 'Module:TableBuilder' )
+local Outils = require( 'Module:Outils' )
+
+
+-- nettoie un paramètre non nommé (vire les espaces au début et à la fin)
+-- retourne  nil si le texte est vide ou n'est pas du texte. Attention c'est important pour les fonction qui l'utilise.
+local trim = Outils.trim
+
+local function ucfirst( str )
+	return mw.ustring.upper( mw.ustring.sub( str, 1, 1 ) ) .. mw.ustring.sub( str, 2 )
+end
+
+
+-- liste des mois, écriture exacte et simplifiée, en minuscule
+local liste_mois = {
+	{ "janvier", "jan.", "janv.", "jan", "janv", "january", nJour = 31 },
+	{ "février", "fevrier", "fev.", "fev", "fév.", "fév", "february", nJour = 29 },
+	{ "mars", "mar.", "mar", "march", nJour = 31 },
+	{ "avril", "avr.", "avr", "apr", "april", nJour = 30 },
+	{ "mai", "may", nJour = 31 },
+	{ "juin", "jun", "june", nJour = 30 },
+	{ "juillet", "juil.", "juil", "juill.", "juill", "jul", "july", nJour = 31 },
+	{ "août", "aout", "aou", "aug", "august", nJour = 31 },
+	{ "septembre", "sept.", "sept", "sep.", "sep", "september", nJour = 30 },
+	{ "octobre", "oct.", "oct", "october", nJour = 31 },
+	{ "novembre", "nov.", "nov", "november", nJour = 30 },
+	{ "décembre", "decembre", "déc.", "dec.", "dec", "déc", "december", nJour = 31 },
+}
+
+-- nom du mois à partir du numéro
+function fun.nomDuMois( num )
+	if type( num ) ~= "number" or num < 1 or num > 12 then
+		return nil
+	end
+	return liste_mois[num][1]
+end
+
+---
+-- valide que la chaîne passée est un mois valide.
+-- retourne le nom complet ou nil si non reconnu
+-- si reconnu, retourne aussi le numéro du mois [1-12]
+function fun.valideMois( mois )
+	if type( mois ) ~= "string" then
+		return nil
+	end
+	
+	local m = mw.ustring.lower( mw.text.trim( mois ) )
+	
+	for i = 1, 12 do
+		local j = 1
+		while liste_mois[i][j] ~= nil do
+			if liste_mois[i][j] == m then
+				return liste_mois[i][1], i
+			end
+			j = j + 1
+		end
+	end
+	-- pas trouvé = return nil
+end
+
+---
+-- determinationMois trouve le numéro du mois et son nom,
+-- à partir de son nom, de son numéro ou d'une expression mathématique.
+-- l'objet frame est facultatif, mais permet de tester si mois est une expression type '2+3'
+function fun.determinationMois( mois, frame )
+	local num, nom
+	if tonumber( mois ) then
+		num = math.floor( math.fmod( tonumber( mois ) - 1, 12 )  ) + 1
+	elseif type( mois ) == "string" then
+		nom, num = fun.valideMois( mois )
+		if nom == nil and frame and frame.callParserFunction then
+			-- essai de détermination d'un nombre avec le parser #expr de Mediawiki.
+			-- la fonction s'appelle sans l'objet frame pour ne pas tourner en boucle.
+			nom, num = fun.determinationMois( frame:callParserFunction( '#expr', mois ) )
+		end
+	end
+	if num and not nom then
+		nom = liste_mois[num][1]
+	end
+	return nom, num
+end
+
+
+--  fonction interne à modeleDate, pour déterminer si on peut se passer de faire un ifexit
+local function existDate( dataQualificatif, annee, mois )
+	local data
+	if mois then
+		data = dataQualificatif.mois
+	else
+		data = dataQualificatif.annee
+	end
+	if type( data ) ~= 'table' then
+		-- si data n'existe pas c'est que l'on considère qu'il n'y a pas de lien.
+		return
+	end
+	-- le qualificatif est remplacer par celui de la base de donnée, ce qui permet des alias.
+	local lien = annee .. ' ' .. ( dataQualificatif.qualificatif or '' )
+	local seul = annee
+	if mois then
+		lien = mois .. ' ' .. lien
+		seul = ucfirst( mois ) .. ' ' .. annee
+	end
+	local aucun = tonumber( data.aucun )
+	if aucun and annee <= aucun then
+		-- si la l'année est dans la partie 'aucun' on teste s'il y a malgré tout un lien isolé
+		if type( data.seul ) == 'table' then
+			for i, v in ipairs( data.seul ) do
+				if seul == v or seul == tonumber( v ) then
+					return lien
+				end
+			end
+		end
+		-- partie aucun et pas de lien => nil
+		return nil
+	elseif type( data.tous ) == 'table' then
+		local tous1, tous2 = tonumber( data.tous[1] ), tonumber( data.tous[2] )
+		if tous1 and tous2 and annee >= tous1 and annee <= tous2 then
+			-- l'année est dans la partie 'tous' donc on retourne le lien
+			return lien
+		end
+	end
+	-- l'annee n'est ni dans la partie aucun, ni dans la partie tous donc il faut tester si la page existe.
+	cibleLien = mw.title.new( lien )
+	if cibleLien and cibleLien.exists then
+		return lien
+	end
+end
+
+---
+-- émule le modèle {{m|Date}}.
+-- Paramètres :
+--		1 : jour (numéro ou "1er"). optionnel, si absent pas de jour
+--		2 : mois (en toutes lettres)
+--		3 : année (nombre)
+--		4 : optionnel, spécialité de l'année
+--		Comportement spécial ("truc à deux balles au lieu d'utiliser un
+--		paramètre nommé du genre "sans année=oui"...") : si 1 est vide
+--		mais que le reste est complet → on n'affiche pas l'année
+function fun.modeleDate( frame )
+	local args = Outils.extractArgs( frame )
+	
+	-- chargement de la base de donnée répertoriant certaines pages existant ou n'existant pas pour éviter les "ifexist".
+	local dataLiens
+	local success, resultat = pcall ( mw.loadData, 'Module:Date/Data' )
+	if success then
+		dataLiens = resultat
+	else
+		-- protection au cas ou le sous module serait mal modifié
+		dataLiens = { [''] = { mois = { aucun = 1000, tous = { 1938, 2013 } }, } }
+	end
+	
+	local annee, mois, numMois, jour
+	local decalage = 0
+	-- si pas de jour mais que args[2] est un mois on décale tout et on
+	-- n'affiche pas l'année
+	if trim( args[1] ) == nil and fun.valideMois( trim( args[3] ) ) ~= nil then
+		decalage = 1
+	end
+	
+	-- on traite l'année
+	local bannee = args[3 + decalage]
+	if Outils.notEmpty( bannee ) then
+		annee = tonumber( bannee )
+		if annee == nil and type( bannee ) == 'string'  then
+			-- test si l'année contient av. J.-C.
+			annee = mw.ustring.match( mw.ustring.upper( bannee ), '^(%d+)%sAV%.?%s?J%.?%-?C' )
+			annee = tonumber( annee )
+			if annee then
+				annee = 0 - annee
+			else
+				local namespaceCategorisation = { [0] = true, [4] = true, [10] = true, [14] = true, [100] = true }
+				if namespaceCategorisation[ mw.title.getCurrentTitle().namespace ] then
+					return Outils.erreur( 'Année invalide (' .. bannee .. ')[[Catégorie:Page utilisant le modèle date avec une syntaxe erronée|A]]')
+				else
+					return Outils.erreur( 'Année invalide (' .. bannee .. ')')
+				end
+			end
+		end
+	else
+		annee = nil
+	end
+	
+	-- on traite le mois
+	local bmois = args[2 + decalage]
+	if Outils.notEmpty( bmois ) then
+		mois, numMois = fun.valideMois( bmois )
+		if mois == nil then
+			-- on teste si le mois est fourni sous forme numérique
+			numMois = tonumber( bmois )
+			mois = fun.nomDuMois( numMois )
+		end
+		if mois == nil then
+			local namespaceCategorisation = { [0] = true, [4] = true, [10] = true, [14] = true, [100] = true }
+			if namespaceCategorisation[ mw.title.getCurrentTitle().namespace ] then
+				return Outils.erreur( 'Mois invalide (' .. bmois .. ')[[Catégorie:Page utilisant le modèle date avec une syntaxe erronée|M]]')
+			else
+				return Outils.erreur( 'Mois invalide (' .. bmois .. ')')
+			end
+		else
+		
+			-- on traite le jour si présent
+			local bjour = args[1 + decalage]
+			if Outils.notEmpty( bjour ) then
+				jour = tonumber( bjour )
+				if jour == nil and type( bjour ) == 'string' then
+					bjour = mw.text.trim( bjour )
+					if bjour == '1er'
+						or bjour == '<abbr class="abbr" title="Premier" >1<sup>er</sup></abbr>' -- correspond à {{1er}}
+					then
+						jour = 1
+					else
+						local namespaceCategorisation = { [0] = true, [4] = true, [10] = true, [14] = true, [100] = true }
+						if namespaceCategorisation[ mw.title.getCurrentTitle().namespace ] then
+							return Outils.erreur( 'Jour invalide (' .. bjour .. ')[[Catégorie:Page utilisant le modèle date avec une syntaxe erronée|J]]')
+						else
+							return Outils.erreur( 'Jour invalide (' .. bjour .. ')')
+						end
+					end
+				end
+				-- on valide que le jour est correct
+				if jour < 1 or jour > 31 then
+					return Outils.erreur( 'Jour invalide (' .. bjour .. ')' )
+				elseif jour > liste_mois[numMois].nJour then
+					local namespaceCategorisation = { [0] = true, [4] = true, [10] = true, [14] = true, [100] = true }
+					if namespaceCategorisation[ mw.title.getCurrentTitle().namespace ] then
+						return Outils.erreur( 'Jour invalide (' .. bjour .. ')[[Catégorie:Page utilisant le modèle date avec une syntaxe erronée|J]]')
+					else
+						return Outils.erreur( 'Jour invalide (' .. bjour .. ')')
+					end
+					-- l'année bisextile n'est pas testée pour accepter les dates juliennes.
+				end
+			else
+				-- S'il n'y a pas de jour on regarde si la première lettre du mois est en majuscule
+				if mw.ustring.match( bmois, '^%u' ) then
+					-- oui, on passe la première lettre en majuscule
+					mois = ucfirst( mois )
+				end
+				-- s'il n'y a pas d'année non plus on retourne le mois simple
+			end
+		end
+	-- else
+	--	return Outils.erreur("Le mois est obligatoire")
+	end
+	
+	-- on traite le champs optionnel
+	local qualificatif = trim( args[4 + decalage] ) or args.qualificatif
+	
+	-- on traite l'age, naissance et mort
+	local age = trim( args['âge'] or args['age'] )
+	age = age and  fun.age( annee, numMois, jour )
+	local naissance = trim( args.naissance )
+	local mort = trim( args.mort )
+	
+	-- on traite le calendrier
+	local gannee, gmois, gjour = annee, numMois, jour        -- date suivant le calendrier grégorien pour <time>
+	local jannee, jmois, jjour, julien = annee, mois, jour   -- servira éventuellement à a affiché la date selon le calendrier julien
+	local julien2, julien3 = nil, nil                        -- servira éventuellement à a affiché des parenthèses
+	local julien = trim( string.lower( args.julien or '' ) )
+	if annee and jour then
+		local amj = annee * 10000 + numMois * 100 + jour
+		if amj < 15821014 then
+			gannee, gmois, gjour = fun.julianToGregorian( annee, numMois, jour )
+		elseif julien == 'oui' then
+			gannee, gmois, gjour = fun.julianToGregorian( annee, numMois, jour )
+			annee, mois, jour = gannee, liste_mois[gmois][1], gjour
+		end
+	end
+	
+	
+	-- on génère le résultat
+	
+	-- Déclarations des variables
+	local wikiListe = TableBuilder.new()   -- reçois le texte affiché pour chaque paramètre
+	local iso = TableBuilder.new()         -- reçois le format date ISO de ce paramètre
+	
+	local dataQualificatif = dataLiens[qualificatif or '']
+	if type( dataQualificatif ) ~= 'table' then
+		-- si le qualifiquatif n'est pas dans la base de donnée, on crée une table minimum,
+		-- qui imposera un test sur l'annee, mais considère qu'il n'y a pas de lien sur le jour ou le mois
+		dataQualificatif = { qualificatif = ' ' .. qualificatif, annee = { } }
+	end
+	local dataCat = dataLiens[dataQualificatif.cat]
+	if type( dataCat ) ~= 'table' or dataCat == dataQualificatif then
+		dataCat = { qualificatif = '' }
+	end
+	
+	-- Date julienne
+	if jjour ~= jour then
+		if jjour == 1 then
+			jjour = '<abbr class="abbr" title="premier">1<sup>er</sup></abbr>'
+		end
+		if jannee ~= annee then
+			julien3 = '(<abbr class=abbr title="selon le calendrier julien">' .. jjour .. ' ' .. jmois .. ' ' .. jannee .. '</abbr>)'
+		else
+			julien2 = '(<abbr class=abbr title="selon le calendrier julien">' .. jjour .. ' ' .. jmois .. '</abbr>)'
+		end
+	end
+	
+	
+	-- le jour si présent
+	local qualifJour = ''
+	if jour then
+		-- éphémérides du qualificatif, ou de sa catégorie, ou générale.
+		qualifJour = dataQualificatif.jour and dataQualificatif.qualificatif
+			or dataCat.jour and dataCat.qualificatif
+			or ''
+		local lien = jour .. ' ' .. mois .. ' ' .. qualifJour
+		if jour == 1 then
+			jour = '<abbr class="abbr" title="premier">1<sup>er</sup></abbr>'
+			lien = '1er ' .. mois .. ' ' .. qualifJour
+		end
+		-- s'il n'y a pas de lien sur le mois, il sera affiché avec le jour.
+		wikiListe.insert( '[[' .. lien .. '|' .. jour .. ']]' )
+		wikiListe.insert( '[[' .. lien .. '|' .. jour .. ' '.. mois .. ']]' )
+		iso.insert( 1, string.sub( '0' .. gjour, -2 ) )
+	end
+	
+	-- le mois
+	if mois then
+		local lien
+		if annee then
+			lien = existDate( dataQualificatif, annee, mois ) or existDate( dataCat, annee, mois )
+			if lien == nil and qualificatif and qualifJour == '' then
+				-- test nouveau test sans le qualificatif uniquement s'il n'y a pas d'éphémérides pour ce qualificatif.
+				lien = existDate( dataLiens[''], annee, mois )
+			end
+		end
+		if lien then
+			-- s'il y a un lien on retire le lien affichant 'jour mois' pour ajouter '[[mois annee|mois']]
+			wikiListe.remove()
+			wikiListe.insert(  '[[' .. lien .. '|' .. mois .. ']]' )
+		else
+			-- sinon on retire le lien affichant 'jour' pour ne garder que le lien 'jour mois'
+			wikiListe.remove( #wikiListe - 1 )
+			-- s'il n'y avait pas je jour, la liste est vide mais ça ne pose pas de problème
+			-- sauf si l'année n'est pas affichée :
+			if #wikiListe == 0 and ( annee == nil or decalage > 0 ) then
+				return mois
+			end
+		end
+		iso.insert( 1, string.sub( '0' .. gmois, -2 ) )
+	end
+	if( julien2 ) then
+		wikiListe.insert( julien2 )
+	end
+	-- l'année
+	if annee and decalage == 0 then -- seulement si on doit l'affichée
+		local lien = existDate( dataQualificatif, annee ) or existDate( dataCat, annee )
+		local texte = annee
+		if annee < 0 then
+			local annneeAvJc = 0 - annee
+			lien = lien or ( annneeAvJc .. ' av. J.-C.' )
+			local avJC = trim( string.lower( args.avJC or '' ) )
+			if args.avJC == 'non' then
+				texte = annneeAvJc
+			else
+				texte = annneeAvJc .. ' <abbr class="abbr" title="'
+					.. annneeAvJc .. ' avant Jésus-Christ">av. J.-C.</abbr>'
+			end
+			iso.insert( 1, tostring( annneeAvJc - 10000 ) )   -- ! avant JC, ce n'est pas une date iso ! Pour un tri correct sur wiki.
+		else
+			iso.insert( 1, string.sub( '000' .. annee , -4 ) )
+		end
+		lien = lien or annee
+		if mois and #wikiListe == 0 then
+			-- si le mois n'a pas de lien et n'est pas affiché avec le jour, il est affiché avec l'année.
+			texte = mois .. ' ' .. texte
+		end
+		wikiListe.insert(  '[[' .. lien .. '|' .. texte .. ']]' )
+	end
+	if( julien3 ) then
+		wikiListe.insert( julien3 )
+	end
+	-- l'age
+	if type( age ) == 'number' and age >= 0 then
+		if age == 0 then
+			age = '(moins d\'un&nbsp;an)'
+		elseif age == 1 then
+			age = '(1&nbsp;an)'
+		else
+			age = '(' .. age .. '&nbsp;ans)'
+		end
+	end
+	
+	-- compilation du résultat
+	local wikiTexte = wikiListe.concat( ' ' )
+	local isoTexte = iso.concat( '-' )
+	
+	-- On ajoute un peu de sémantique.
+	local wikiHtml = mw.html.create( '' )
+	
+	local dateHtml = wikiHtml:tag( 'span' )
+			:addClass( 'date-lien nowrap' )
+			:addClass( 'datasortkey' )
+			:attr( 'data-sort-value', isoTexte )
+			:wikitext( wikiTexte )
+	if naissance then 
+		dateHtml:addClass( 'bday' )
+	elseif mort then
+		dateHtml:addClass( 'dday' )
+	end
+	if age then
+		wikiHtml:wikitext( ' ' )
+				:tag( 'span' )
+					:addClass( 'noprint')
+					:wikitext( age )
+					:done()
+	end
+	
+	return tostring( wikiHtml )
+end
+
+---
+-- voir émule le modèle:Inscription date
+-- la détection des arguments permet d'utilisé la fonction depuis un modèle, depuis invoke, ou depuis une autre fonction.
+-- pour facilité l'écriture de lua, annee (sans accent) est accepté lors de l'appel depuis lua.
+function fun.inscriptionDate( frame )
+	local args = Outils.extractArgs( frame )
+	local annee = Outils.notEmpty( args['année'], args.annee, args.year )
+	if annee then
+		-- si l'année est renseigné, on essaye de trouver le mois
+		local mois = Outils.notEmpty( args.mois, args.month )
+		
+		if mois then
+			mois = fun.determinationMois( mois, frame ) or mois
+			local jour = Outils.notEmpty( args.jour, args.day, args['quantième'] )
+			if jour then
+				-- si le mois est valide on détermine le jour
+				jour = tonumber( jour ) or jour    -- suppresion des 0 qui trainent
+				if jour == 1 or jour == '1er' then
+					jour = '<abbr class="abbr" title="Premier">1<sup>er</sup></abbr>'
+				end
+				return jour .. '&nbsp;' .. mois .. '&nbsp;' .. annee
+			else
+				return mois .. '&nbsp;' .. annee
+			end
+		else
+			return annee
+		end
+	else
+		-- si annee n'est pas précisé, on utilise la paramètre date
+		local date = Outils.validTextArg( args, 'date' )
+		if date then
+			return '<span class="nowrap">' .. date .. '</span>'
+		else
+			return ''
+		end
+	end
+end
+
+---
+-- la fonction dateISO renvoie un date au format aaaa-mm-jj (sans liens)
+-- l'année peut être sous la forme 2013 ou [[2013 en litérature|2013]]
+-- le mois peut être en lettre ou en chiffres
+-- le jour peut être sous la forme '05', '{{1er}}' ou 'vendredi 13'
+function fun.dateISO( frame )
+	local args = Outils.extractArgs( frame )
+	local annee = Outils.notEmpty( args['année'], args.annee, args.year, args.date )
+	-- extraction de l'année
+	if type( annee ) == 'string' then
+		annee = ( tonumber( annee )	-- match '2013'
+				or string.match ( annee, '%D(%d%d%d%d)%D' ) -- match  '[[2013 en musique|2013]]'
+				or string.match ( annee, '%D(%d%d%d%d)$' )  -- match '17 septembre 2013'
+				or string.match ( annee, '^(%d%d%d%d)%D' )  -- match '2013-09-17'
+		)
+	end
+	annee = tonumber( annee )
+	
+	-- le format de date iso est défini suivant le calendrier grégorien.
+	-- Avant l'année 1583 la date est calendrier est probablement du calendrier julien,
+	-- donc autant s'abstenir.
+	if annee and annee > 1582  then
+		local mois = Outils.notEmpty( args.mois, args.month )
+		-- num mois trouve le numéro du mois, qu'il soit numérique ou texte, complet ou abrégé.
+		local nomMois, numMois = fun.determinationMois( mois )
+		if numMois then
+			mois = '-' .. string.sub( '0' .. numMois, -2 )
+			
+			local jour = Outils.notEmpty( args.jour, args.day, args['quantième'] )
+			if type( jour ) == 'string' then
+				jour = tonumber( jour ) or tonumber( string.match ( jour, '%d+') )
+			end
+			jour = tonumber( jour )
+			if jour and jour <= liste_mois[numMois].nJour then
+				jour = '-' .. string.sub( '0' .. jour, -2 )
+				return annee .. mois .. jour
+			else
+				return annee .. mois
+			end
+		else
+			return tostring( annee )
+		end
+	end
+end
+
+---
+-- Rang du jour dans l'année
+-- Usage : do_dayRank{année,mois,jour}
+function fun.do_dayRank(arguments)
+	local yr = tonumber(arguments.year or arguments[1]) or 1
+	local mt = tonumber(arguments.month or arguments[2]) or 1
+	local dy = tonumber(arguments.day or arguments[3]) or 1
+	-- Rangs des premiers des mois
+	local ranks = {0,31,59,90,120,151,181,212,243,273,304,334}
+	
+	local rank = (ranks[mt] or 0) + dy - 1
+	if(fun.isLeapYear(yr) and (mt >= 3)) then
+		rank = rank+1
+	end
+	return rank
+end
+
+-- Nombre de jours entre deux années (du 1er janvier au 1er janvier)
+-- Suit le calendrier grégorien
+function fun.do_daysBetween(arguments)
+	local yr1 = tonumber(arguments[1]) or 0
+	local yr2 = tonumber(arguments[2]) or 0
+	
+	return fun.daysSinceOrigin(yr2) - fun.daysSinceOrigin(yr1)
+end
+
+-- Nombre de jours depuis l'année 1 (du 1er janvier au 1er janvier)
+function fun.daysSinceOrigin(year)
+	local yr = year-1
+	return 365*yr + math.floor(yr/4) - math.floor(yr/100) + math.floor(yr/400)
+end
+
+-- Test d'année bissextile (Suit le calendrier grégorien)
+function fun.isLeapYear(year)
+	local yr = tonumber(year) or 1
+	return (yr%4 == 0) and ((yr%100 ~= 0) or (yr%400 == 0))
+end
+
+-- Conversion d'un nombre en chiffres romains
+function fun.toRoman(number)
+	local n = math.floor(number)
+	local letters = {"I","V","X","L","C","D","M","",""}
+	local pattern = {"","0","00","000","01","1","10","100","1000","02"}
+	local result = ""
+	if(n<=0 or n>=4000) then
+		result = "---"
+	else
+		for i=1,7,2 do
+			p = pattern[n%10 + 1]
+			for j=0,2 do
+				p = string.gsub(p,tostring(j),letters[i+j])
+			end
+			result = p .. result
+			n = math.floor(n/10)
+		end
+	end
+	return result
+end
+
+-- Conversion et affichage d'une date dans le calendrier républicain
+function fun.dateRepublicain(frame)
+	local pframe = frame:getParent()
+	local arguments = pframe.args
+	return fun.formatRepCal(fun.do_toRepCal(arguments))
+end
+
+---
+-- Calcul d'une date dans le calendrier républicain
+-- On suppose que les années 4n+3 sont sextiles (3, 7, 11...)
+function fun.do_toRepCal(arguments)
+	local yr = tonumber(arguments.year or arguments[1]) or 2000
+	-- rang absolu du jour demandé, le jour 0 étant le 22 septembre 1792 (1er jour de l'an I)
+	local repDays = fun.do_dayRank(arguments) + fun.do_daysBetween{1792,yr} - fun.do_dayRank{1792,9,22}
+	local repYear = math.floor((repDays+731)/365.25) - 1
+	local repDayRank = repDays - 365*(repYear-1) - math.floor(repYear/4)
+	local repMonth, repDay = math.floor(repDayRank/30)+1, (repDayRank%30)+1
+	return {repYear, repMonth, repDay}
+end
+
+---
+-- Formatage d'une date selon le calendrier républicain
+-- Usage : fun.formatRepCal{année,mois,jour}
+function fun.formatRepCal(arguments)
+	local months = {"Vendémiaire","Brumaire","Frimaire","Nivôse","Pluviôse","Ventôse","Germinal","Floréal","Prairial","Messidor","Thermidor","Fructidor"}
+	local extras = {"de la vertu","du génie","du travail","des récompenses","de l'opinion","de la révolution"}
+	local result = ""
+	if(arguments[2] < 13) then
+		result = result .. tostring(arguments[3]) .. "&nbsp;" .. months[arguments[2]]
+	else
+		result = result .. "jour " .. extras[arguments[3]]
+	end
+	result = result .. " de l'an " .. fun.toRoman(arguments[1])
+	return result
+end
+
+---
+-- Voir Modèle:Âge
+-- retourne l'age en fonction de la ou les dates fournies. La valeur retounée est de type 'number'
+-- Parammètres :
+-- 1, 2, 3 : année, mois jour de naissance (supposé dans le calendrier grégorien)
+-- 4, 5, 6 : année, mois, joue du calcul (facultatif, par défaut la date UTC courante).
+function fun.age( an, mn, jn, ac, mc, jc )
+	local an = tonumber( an )
+	if an == nil then
+		-- pas de message d'erreur qui risque de faire planter la fonction appelante
+		-- à elle de gérer ce retour.
+		return
+	end
+	-- les jours et mois sont par défaut égal à 1, pour pouvoir calculer un age même si la date est incompète.
+	local mn = tonumber( mn ) or 1
+	local jn = tonumber( jn ) or 1
+	
+	local today = os.date( '!*t' )
+	local ac = tonumber( ac ) or today.year
+	local mc = tonumber( mc ) or today.month
+	local jc = tonumber( jc ) or today.day
+	
+	local age = ac - an
+	if mc < mn or ( mc == mn and jc < jn ) then
+		age = age - 1
+	end
+	return age
+end
+
+function fun.modeleAge( frame )
+	args = frame.getParent().args
+	local annee = args[1] or args['année']
+	if annee == nil then
+		return Outils.erreur( "Il faut au minimum l'année pour calculer un âge" )
+	end
+	local age = fun.age (
+		args[1] or args['année'],
+		args[2] or args['mois'],
+		args[3] or args['jour'],
+		args[4],
+		args[5],
+		args[6]
+	)
+	if age then
+		return age
+	else
+		return Outils.erreur("les paramètres doivent être des chiffres" )
+	end
+end
+
+---
+-- calcul du jour julien à partir d'une date du calendrier grégorien
+function fun.julianDay( year, month, day, hour, min, sec )
+	local julian
+	julian = math.floor( math.floor( ( year * 12 + month + 57609 ) / 12 - 1 ) * 1461 / 4 )
+			- math.floor( math.floor( ( year * 12 + month + 57609 ) / 12 - 1 ) / 100 )
+			+ math.floor( math.floor( ( year * 12 + month + 57609 ) / 12 - 1 ) / 400 )
+			+ math.floor( ( math.fmod( month + 57609, 12 ) + 4 ) * 153 / 5 )
+			+ day + ( hour or 12 ) / 24 + ( min or 0 ) / 1440 + ( sec or 0 ) / 86400
+			- 32167.5
+	return julian
+end
+
+---
+-- calcul du jour julien à partir d'une date du calendrier julier
+function fun.julianDayJulian( year, month, day, hour, min, sec )
+	local julian
+	julian = math.floor( math.floor( ( year * 12 + month + 57609 ) / 12 - 1 ) * 1461 / 4 )
+			+ math.floor( ( math.fmod( month + 57609, 12 ) + 4 ) * 153 / 5 )
+			+ day + ( hour or 12 ) / 24 + ( min or 0 ) / 1440 + ( sec or 0 ) / 86400
+			- 32205.5
+	return julian
+end
+
+---
+-- calcul d'une date dans le calendrier grégorien à partir du jour julien
+function fun.julianDayToGregorian( julianDay )
+	local base = math.floor( julianDay + 32044.5 )  -- 1 March -4800 (proleptic Gregorian date)
+	local nCentury = math.floor( ( base * 4 + 3 ) / 146097 )
+	local sinceCentury = base - math.floor( nCentury * 146097 / 4 )
+	local nYear = math.floor( ( sinceCentury * 4 + 3 ) / 1461 )
+	local sinceYear = sinceCentury - math.floor( nYear * 1461 / 4 )
+	local nMonth = math.floor( ( sinceYear * 5 + 2 ) / 153 )
+	
+	local day = sinceYear - math.floor( (  nMonth  * 153 + 2 ) / 5 ) + 1
+	local month = nMonth  - math.floor(  nMonth  / 10 ) * 12 + 3
+	local year = math.floor( sinceYear / 306 ) + nYear + 100 * nCentury - 4800
+	
+	return year, month, day
+end
+
+---
+-- calcul d'une date dans le calendrier julien à partir du jour julien
+-- calcul basé sur l'algorythme de la page fr.wikipedia.org/wiki/Jour_julien (1/10/2013)
+function fun.julianDayToJulian( julianDay )
+	local year = math.modf( ( julianDay * 4 - 6884469 ) / 1461 )
+	local r2 = julianDay - math.modf( ( 1461 * year + 6884472 ) / 4 )
+	local month = math.modf( ( 5 * r2 + 461 ) / 153 )
+	local day = r2 - math.modf( ( 153 * month - 457 ) / 5 ) + 1
+	if month > 12 then
+		year = year + 1
+		month = month - 12
+	end
+	return year, month, day
+end
+
+---
+-- calcul d'une date dans le calendrier grégorien à partir d'une date dans le calendrier julien
+function fun.julianToGregorian( year, month, day )
+	return fun.julianDayToGregorian( fun.julianDayJulian( year, month, day ) )
+end
+
+---
+-- calcul d'une date dans le calendrier julien à partir d'une date dans le calendrier grégorien
+function fun.gregorianToJulian( year, month, day )
+	year = tonumber(year)
+	if month then month = tonumber(month) else month = 6 end --prend une valeur centrale pour donner un best "guess"
+	if day then day = tonumber(day) else day = 15 end
+	return fun.julianDayToJulian( fun.julianDay( year, month, day ) )
+end
+
+
+
+---
+-- erreurModuleData affiche  d'un message d'erreur si le Module:Langue/Data n'a pas été chargé correctement,
+-- pour la page de discussion de la base de donnée et ceux qui veulent surveiller cette page.
+function fun.erreurModuleData()
+	local success, resultat = pcall ( mw.loadData, 'Module:Date/Data' )
+	if success == false then
+		local message = [[<strong class="error">Le chargement du module Date/Data génère une erreur : </strong><br />%s<br />
+
+<span class="error">Cette erreur doit être corrigée au plus vite car des milliers de page ne s'affichent pas correctement</span>
+]]
+		return string.format( message, resultat )
+	end
+end
+
+---
+-- checkDataCat génère des liens vers les pages annuelles, mensuelles et d'éphémérides liè aux
+-- catégories du Module:Date/Data. La date la plus ancienne dépend de 'aucun' et 'seul[1]'
+-- Paramètres :
+-- 	1 : la catégorie. Il y aura une section par qualificatif de cette catégorie.
+-- 	mois : oui pour avoir les liens vers les pages mensuelles et éphémérides (4 jours dans l'année)
+-- 	alias : pour avoir des lien pour les alias en plus des qualificatif
+function fun.checkDataCat( frame )
+	local category = trim(frame.args[1])
+	local monthLinks = frame .args.mois == 'oui'
+	local alias = frame.args.alias == 'oui'
+	local dataLink = mw.loadData( 'Module:Date/Data' )
+	local wikiList =  TableBuilder.new()
+	local currentYear = tonumber( os.date( '%Y' ) )
+	local columns = '<div style="-moz-column-width:5em;-webkit-column-width:5em;column-width:5em;-moz-column-gap:1em;-webkit-column-gap:1em;column-gap:1em;text-align:left;">'
+	local newSection
+	if monthLinks then
+		newSection = '\n\n== %s ==\n\n=== Années ===\n' .. columns
+	else
+		newSection ='\n\n== %s ==\n' .. columns
+	end
+	for field, dataField in pairs( dataLink ) do
+		-- boucle sur tous les qualificatif ayant pour catégorie le premier paramère
+		if dataField.cat == category or ( category == 'cat' and dataField.cat == field ) then
+			local monthInitialYear, initialYear
+			-- définition de l'année à partir de laquelle on va tester toutes les année / mois
+			if dataField.qualificatif == field or ( category == 'cat' and dataField.cat == field ) then
+				if dataField.annee and dataField.annee.aucun and dataField.annee.aucun < currentYear then
+					local aucun = ( dataField.annee.seul and dataField.annee.seul[1] ) or dataField.annee.aucun
+					initialYear = math.min( aucun - math.ceil( (currentYear - aucun) / 4 ), currentYear - 50 )
+				else
+					initialYear = currentYear - 50
+				end
+				if dataField.mois and tonumber( dataField.mois.aucun ) and ( tonumber( dataField.mois.aucun ) < currentYear ) then
+					local aucun = dataField.mois.aucun
+					monthInitialYear = math.min( aucun - math.ceil( (currentYear - aucun) / 4 ), currentYear - 8 )
+				else
+					monthInitialYear = currentYear - 8
+				end
+			elseif alias then
+				-- si le paramètre alias est défini on teste aussi tous les alias, sinon ils sont ignorés
+				initialYear = currentYear - 50
+				monthInitialYear = currentYear - 8
+			end
+			
+			-- création de l'ensembles des liens
+			if initialYear then
+				-- ajout de lien vers les pages annuelles de l'année en court + 5 jusqu'à initialYear
+				wikiList.insert( string.format( newSection, field ) )
+				local fieldLink = ' ' .. field
+				if category == 'cat' then
+					fieldLink = ' ' .. dataField.qualificatif
+				end
+				for year = ( currentYear + 5 ), initialYear, -1  do
+					wikiList.insert( '\n* [[' .. year .. fieldLink ..'|' .. year .. ']]' )
+				end
+				wikiList.insert( '\n</div>' )
+				
+				if monthLinks then
+					-- insertstion de liens vers les mois de l'année en court + 1 jusqu'à monthInitialYear
+					wikiList.insert( '\n\n=== Mois ==='  )
+					local month, sep
+					for year = ( currentYear + 1 ), monthInitialYear, -1  do
+						wikiList.insert( '\n* ' .. year .. ' : ' )
+						sep = ' • '
+						for j = 1, 12 do
+							month = ucfirst( liste_mois[j][1] ) .. ' '
+							if j == 12 then sep = ''
+							end
+							wikiList.insert( '[[' .. month .. year .. ' ' .. fieldLink .. '|' .. month .. ']]' .. sep )
+						end
+					end
+					
+					-- insertion de quelques date pour tester les éphémérides
+					wikiList.insert( '\n\n=== Jours ==='  )
+					wikiList.insert( '\n* [[1er janvier ' .. fieldLink .. ']]' )
+					wikiList.insert( '\n* [[14 mars ' .. fieldLink .. ']]' )
+					wikiList.insert( '\n* [[22 juin ' .. fieldLink .. ']]' )
+					wikiList.insert( '\n* [[3 septembre ' .. fieldLink .. ']]' )
+				end
+			end
+		end
+	end
+	
+	return table.concat( wikiList )
+end
+
+--[[
+  Cette fonction retourne "CET" ou "CEST" selon que dans la pseudo-timezone en cours
+    c'est l'heure d'été ou l'heure d'hiver.
+  Cette fonction n'a de sens a priori que pour des modèles utilisés en Europe
+  
+  Paramètre optionnel non nommé : "sans lien" : retourne le texte CET/CEST. sinon
+    retourne ce même texte avec un wikilien vers les articles correspondant
+--]]
+function fun.CEST(frame)
+	-- option : ne pas créer de wikilien
+	local opt = mw.text.trim(frame.args[1] or frame:getParent().args[1] or "")
+	-- on récupère l'information dans la zone courante
+	local t = mw.getContentLanguage():formatDate("I", nil, true)
+	
+	if (t == "1") then  -- heure d'été
+		if (opt == "sans lien") then
+			return "CEST"
+		elseif (opt == "décalage") then
+			return "2"
+		else
+			return "[[Heure d'été d'Europe centrale|CEST]]"
+		end
+	else  -- heure d'hiver (ou autre zone où ça ne s'applique pas)
+		if (opt == "sans lien") then
+			return "CET"
+		elseif (opt == "décalage") then
+			return "1"
+		else
+			return "[[Heure normale d'Europe centrale|CET]]"
+		end
+	end
+end
+
+return fun

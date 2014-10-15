@@ -1,0 +1,159 @@
+-- sert à récupérer des données usuelles sur Wikidata (les fonctions élémentaires pour l'extraction des données se fait sur Module:Wikidata
+-- ce module peut-être appelé par Module:InfoboxBuilder/Helpers qui les met en infobox
+
+local formatdate = require( 'Module:Date')
+
+local p = {}
+
+function p.from(d)  -- retourne "à partir de date" en langage naturel
+	if d.year then year = d.year end
+	if d.month then month = d.month end
+	if d.day then day = d.day end
+	
+	if day then 
+		return 'à partir du ' .. datestring
+	elseif tonumber(month) == 4 or tonumber(month) == 8  or tonumber(month) == 10 then -- mois commençant par une voyelle
+		return 'à partir d\'' .. datestring
+	else return 
+		'à partir de ' .. datestring
+	end
+end
+
+function p.todate(d)  -- retourne "jusqu'à date' en langage naturel
+	local year = d.year
+	local month = d.month
+	local day = d.day
+	local datestring = d.datestring
+	
+	if day then 
+		return 'jusqu\'au ' .. datestring
+	else return 
+		'jusqu\'à' .. datestring
+	end
+end
+
+function p.rangetotext(begin, ending)
+	if not begin or not ending then return error end
+	
+	local beginstring = begin.datestring
+	local endstring = ending.datestring
+	
+	if begin.day then day1 = begin.day end
+	if begin.month then month1 = begin.month end
+	if begin.year then year1 = begin.year end
+
+	if ending.day then day2 = ending.day end
+	if ending.month then month2 = ending.month end
+	if ending.year then year2 = ending.year end
+       
+   	if year1 and year2 and (year1 == year2) then -- évite de répéter l'année si c'est deux fois la même
+   		return formatdate.modeleDate({day1, month1}) .. '-' .. endstring
+    else
+    	return  beginstring .. '-' .. endstring
+    end     
+ end
+ 
+ function p.dateobject(orig) --prend une table de date Wikibase, et la retourne sous un format plus manipulable
+ 	local label = orig.label
+ 	local timestamp = orig.time
+	local precision = orig.precision
+	local era = '+' -- (after Christ)
+		
+	if string.sub(timestamp,1,1) == '-' or  string.sub(timestamp,2,12) == '00000000000' then  -- Before Christ or year 0 (see datamodel)
+		era = '-' 
+	end 
+	local year = nil
+	local datestring = ''
+	
+	local calendar = 'gregorian' -- calendar for display, not storage
+	if orig.calendarmodel == 'http://www.wikidata.org/entity/Q1985786' then
+		calendar = 'julian'
+	end
+		
+	if precision == 7 or precision == 8 then
+		-- texte spécial pour précision = décennie
+		--[[ noter que précision = "decade" sur Wikidata, l'équivalenet GUI de precision == 8, ne veut pas forcément dire une décennie ronde
+		1957, precision = 8 est affiché comme 1950s sur Wikidata, mais il parait préférable de l'afficher comme "vers 1957"
+		mais que faire pour precision == 7 ?
+		]]
+		if mw.ustring.len(timestamp) ~= 28 then -- catégorie temporaire à cause d'un bug wikidata
+			return {type='dateobject', datestring = [[Catégorie:Date Wikidata au mauvais format]], datestring = datestring}
+		end
+		local decade = string.sub(timestamp, 9, 12)
+		if era == '-' then -- remove one Year for BC years because of year 0
+			decade = tostring(tonumber(decade) + 1)
+		end
+		if string.find(decade, '0') == 1 then -- enlève les zéros au début, à corriger pour enlever 2 zéros si besoin
+			decade = string.sub(decade, 2, 4) 
+		end
+		datestring = 'vers ' .. decade
+		return {type='dateobject', timestamp = timestamp, era= era, calendar=calendar, label=label, datestring = datestring}
+	end
+	
+	if precision >= 9 then 
+		year = string.sub(timestamp, 9, 12)
+		if era == '-' then -- remove one Year for BC years because of year 0
+			year = tostring(tonumber(year) + 1)
+		end
+	end
+	local month = nil
+	if precision >= 10 then
+		month = string.sub(timestamp, 14, 15)
+	end
+	local day = nil
+	if precision >= 11 then
+		day = string.sub(timestamp, 17, 18)
+	end
+	if calendar == 'julian' then
+			year, month, day = formatdate.gregorianToJulian( era .. year, month, day )
+	end
+	datestring = formatdate.modeleDate({day, month, year})
+		
+	return {type='dateobject', timestamp = timestamp, year=year, month=month, day=day, era= era, calendar=calendar, label=label, datestring = datestring}
+end
+
+function p.daterange(date1, date2, label)
+	if date1 then
+		if date1.type ~= 'dateobject' then return error end
+	end
+	if date2 then 
+		if date2.type ~= 'dateobject' then return error end
+	end
+	if date1 and date2 then
+		if date1.timestamp > date2.timestamp then return error end -- ne pas inverser les dates, c'est sans doute un erreur
+	end
+	if date1 then timestamp = date1.timestamp else timestamp = date2.timestamp end
+	return {type='daterange', timestamp = timestamp, begin = date1, ending = date2, label = label}
+end
+
+function p.objecttotext(object, formatting)
+	text = '' 
+	if object.type == 'dateobject' then
+		text = text .. object.datestring
+	elseif object.type == 'daterange' then
+		if object.begin and object.ending then
+			text = text .. p.rangetotext(object.begin, object.ending)
+		elseif object.begin then
+			text = text .. p.from(object.begin)
+		elseif object.ending then
+			text = text .. p.todate(object.ending)
+		end
+	else
+		return error('unknown date object')
+	end
+	if formatting and formatting.showlabel == 'true' then 
+		text = text .. ' : ' .. object.label
+	end
+	return text 
+end	
+
+function p.duration(range)
+	if not range.begin and range.ending then
+		return nil
+	else 
+		a, b = range.begin, range.ending
+	end
+	return formatdate.age(a.year, a.month, a.day, b.year, b.month, b.day)
+end
+
+return p

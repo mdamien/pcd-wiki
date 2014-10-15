@@ -1,0 +1,1343 @@
+local data = { }
+-- -------------------------------------------------------------------- -- 
+--   Liste des caractéristiques des langues triées par leur code IETF   --
+-- -------------------------------------------------------------------- --
+
+-- a
+data["aa"]  = {code = "aa",  nom = "afar", page = "Afar (langue)"}
+data["ab"]  = {code = "ab",  nom = "abkhaze"}
+data["abe"] = {code = "abe", nom = "abénaqui"}
+data["ace"] = {code = "ace", nom = "aceh", page = "Aceh (langue)"}
+data["acy"] = {code = "acy", nom = "arabe chypriote maronite", page = "Arabe chypriote maronite"}
+data["ady"] = {code = "ady", nom = "adyguéen", page = "Adyguéen (langue)"}
+data["ae"]  = {code = "ae",  nom = "avestique", rtl = true}
+data["aeb"] = {code = "aeb", nom = "arabe tunisien", rtl = true}
+data["af"]  = {code = "af",  nom = "afrikaans"}
+data["aib"] = {code = "aib", nom = "aïnou", page = "Aïnou (langue ouïghoure)"}
+data["ain"] = {code = "ain", nom = "aïnou", page = "Aïnou (langue du Japon)"}
+data["ak"]  = {code = "ak",  nom = "akan", page = "Akan (langue)"}
+data["akk"] = {code = "akk", nom = "akkadien"}   -- note : ce code est aussi utilisé pour l'assyrien, qui représente l'un des rameaux linguistiques de l'akkadien
+data["ale"] = {code = "ale", nom = "aléoute"}
+data["alg"] = {code = "alg", nom = "langues algonquiennes"}
+data["aln"] = {code = "aln", nom = "guègue"}
+data["alq"] = {code = "alq", nom = "algonquin"}
+data["als"] = {code = "als", nom = "tosque"}    -- note : le code de l'alémanique est gsw (mais als.wikipedia est en alémanique)
+data["alt"] = {code = "alt", nom = "altaï", page = "Altaï (langue)"}
+data["am"]  = {code = "am",  nom = "amharique"}
+data["an"]  = {code = "an",  nom = "aragonais"}
+data["ang"] = {code = "ang", nom = "anglo-saxon", page = "Vieil anglais"}
+data["ar"]  = {code = "ar",  nom = "arabe", rtl = true}
+data["arb"] = {code = "arb", nom = "arabe standard moderne", rtl = true}
+data["arc"] = {code = "arc", nom = "araméen"}
+data["arn"] = {code = "arn", nom = "mapudungun"}
+data["arq"] = {code = "arq", nom = "arabe algérien", rtl = true}
+data["ary"] = {code = "ary", nom = "arabe dialectal marocain", rtl = true}
+data["arz"] = {code = "arz", nom = "arabe égyptien", rtl = true}
+data["as"]  = {code = "as",  nom = "assamais"}
+data["asb"] = {code = "asb", nom = "assiniboine", page = "Assiniboine (langue)"}
+data["ast"] = {code = "ast", nom = "asturien"}
+data["atj"] = {code = "atj", nom = "atikamekw", page = "Atikamekw (langue)"}
+data["aus"] = {code = "aus", nom = "langues aborigènes d'Australie"}
+data["av"]  = {code = "av",  nom = "avar"}
+data["avk"] = {code = "avk", nom = "kotava"}
+data["ay"]  = {code = "ay",  nom = "aymara"}
+data["ayl"] = {code = "ayl", nom = "arabe libyen", rtl = true}
+data["az"]  = {code = "az",  nom = "azéri"}
+-- b
+data["ba"]  = {code = "ba",  nom = "bachkir"}
+data["bal"] = {code = "bal", nom = "baloutche"}
+data["ban"] = {code = "ban", nom = "balinais", page = "Balinais (langue)"}
+data["bar"] = {code = "bar", nom = "bavarois"}
+data["bat-smg"] = {code = "sgs", nom = "samogitien", invalide = true}   -- code non standard
+data["bbj"] = {code = "bbj", nom = "ghomala’"}
+data["bci"] = {code = "bci", nom = "baoulé", page = "Baoulé (langue)"}
+data["bcl"] = {code = "bcl", nom = "bicolano central"}
+data["be"]  = {code = "be",  nom = "biélorusse"}
+data["be-tarask"]  = {code = "be-tarask",  nom = "biélorusse (tarashkevitsa)", page = "Taraškievica"}
+data["bej"] = {code = "bej", nom = "bedja", page = "Beja (langue)"}
+data["ber"] = {code = "ber", nom = "berbère", page = "Langues berbères"}
+data["bg"]  = {code = "bg",  nom = "bulgare"}
+data["bh"]  = {code = "bh",  nom = "bihari"}
+data["bho"] = {code = "bho", nom = "bhodjpouri"}
+data["bi"]  = {code = "bi",  nom = "bichelamar"}
+data["bjn"] = {code = "bjn", nom = "banjar", page = "Banjar (langue)"}
+data["bm"]  = {code = "bm",  nom = "bambara", page = "Bambara (langue)"}
+data["bn"]  = {code = "bn",  nom = "bengali"}
+data["bo"]  = {code = "bo",  nom = "tibétain"}
+data["bpy"] = {code = "bpy", nom = "bishnupriya manipuri"}
+data["br"]  = {code = "br",  nom = "breton"}
+data["brx"]  = {code = "brx",  nom = "bodo"}
+data["bs"]  = {code = "bs",  nom = "bosnien"}
+data["bua"] = {code = "bua", nom = "bouriate"}
+data["bug"] = {code = "bug", nom = "bouguinais"}
+-- c
+data["ca"]  = {code = "ca",  nom = "catalan"}
+data["cak"] = {code = "cak", nom = "cakchiquel", page = "Cakchiquel (langue)"}
+data["cal"] = {code = "cal", nom = "carolinien"}
+data["car"] = {code = "car", nom = "Kali'na", page= "Kali'na (langue)"}
+data["cbk"] = {code = "cbk", nom = "chavacano"}
+data["cbk-zam"] = {code = "cbk-zam", nom = "chavacano de Zamboanga", page ="chavacano"}  -- cbk-zam.Wikipédia
+data["cdo"] = {code = "cdo", nom = "mindong"}
+data["ce"]  = {code = "ce",  nom = "tchétchène"}
+data["ceb"] = {code = "ceb", nom = "cebuano"}
+data["cel"] = {code = "cel", nom = "celte", page = "Langues celtiques"}
+data["ch"]  = {code = "ch",  nom = "chamorro"}
+data["cho"] = {code = "cho", nom = "choctaw", page = "Choctaw (langue)"}
+data["chp"] = {code = "chp", nom = "chipewyan", page = "Chipewyan (langue)"}
+data["chr"] = {code = "chr", nom = "tchérokî", page = "Cherokee (langue)"}
+data["chy"] = {code = "chy", nom = "cheyenne", page = "Cheyenne (langue)"}
+data["cia"] = {code = "cia", nom = "cia-cia"}
+data["cim"] = {code = "cim", nom = "cimbre"}
+data["ckb"] = {code = "ckb", nom = "sorani"}
+data["ckt"] = {code = "ckt", nom = "tchouktche"}
+data["cmn"] = {code = "cmn", nom = "mandarin", page = "Mandarin (langue)"}
+data["cnu"] = {code = "cnu", nom = "chenoui"}
+data["co"]  = {code = "co",  nom = "corse", page = "Corse (langue)"}
+data["com"] = {code = "com", nom = "comanche", page = "Comanche (langue)"}
+data["cop"] = {code = "cop", nom = "copte"}
+data["cpf"] = {code = "cpf", nom = "créoles français"}
+data["cr"]  = {code = "cr",  nom = "cri", page = "Cri (langue)"}
+data["crh"] = {code = "crh", nom = "tatar de Crimée"}
+data["crs"] = {code = "crs", nom = "créole seychellois"}
+data["cs"]  = {code = "cs",  nom = "tchèque"}
+data["csb"] = {code = "csb", nom = "cachoube"}
+data["cu"]  = {code = "cu",  nom = "slavon d'église"}
+data["cv"]  = {code = "cv",  nom = "tchouvache"}
+data["cy"]  = {code = "cy",  nom = "gallois"}
+data["cz"]  = {code = "cs",  nom = "tchèque", invalide = true}
+-- d
+data["da"]  = {code = "da",  nom = "danois"}
+data["ddo"] = {code = "ddo", nom = "tsez"}
+data["de"]  = {code = "de",  nom = "allemand"}
+data["dlg"] = {code = "dlg", nom = "dolgane"}
+data["dsb"] = {code = "dsb", nom = "bas-sorabe"}
+data["dtp"] = {code = "dtp", nom = "dusun"}
+data["dua"] = {code = "dua", nom = "douala", page = "Douala (langue)"}
+data["dum"] = {code = "dum", nom = "moyen néerlandais"}
+data["dv"]  = {code = "dv",  nom = "divehi", rtl = true}
+data["dyu"] = {code = "dyu", nom = "dioula", page = "Dioula (langue)"}
+data["dz"]  = {code = "dz",  nom = "dzongkha"}
+-- e
+data["ee"]  = {code = "ee",  nom = "ewe", page = "Ewe (langue)"}
+data["egl"] = {code = "egl", nom = "émilien", page = "Émilien (dialecte)"}
+data["egy"] = {code = "egy", nom = "égyptien ancien"}
+data["el"]  = {code = "el",  nom = "grec moderne"}
+data["eml"] = {code = "eml", nom = "émilien-romagnol"}       -- eml.Wikipédia
+data["en"]  = {code = "en",  nom = "anglais"}
+data["enm"] = {code = "enm", nom = "moyen anglais"}
+data["eo"]  = {code = "eo",  nom = "espéranto"}
+data["er"]  = {code = "er",  nom = "europanto"}  -- code non standard
+data["es"]  = {code = "es",  nom = "espagnol"}
+data["et"]  = {code = "et",  nom = "estonien"}
+data["eu"]  = {code = "eu",  nom = "basque"}
+data["ext"] = {code = "ext", nom = "estrémègne"}
+-- f
+data["fa"]  = {code = "fa",  nom = "persan", rtl = true}
+data["ff"]  = {code = "ff",  nom = "peul"}
+data["fi"]  = {code = "fi",  nom = "finnois"}
+data["fil"] = {code = "fil", nom = "filipino"}
+data["fj"]  = {code = "fj",  nom = "fidjien"}
+data["fo"]  = {code = "fo",  nom = "féroïen"}
+data["fon"] = {code = "fon", nom = "fon-gbe"}
+data["fr"]  = {code = "fr",  nom = "français"}
+data["fr-be"] = {code = "fr-BE", nom = "français de Belgique"}
+data["fra-jer"]  = {code = "fra-jer",  nom = "jersiais"}    -- code linguistlist
+data["fra-gal"] = {code = "fra-gal", nom = "gallo"}    -- code linguistlist
+data["fra-nor"] = {code = "fra-nor", nom = "normand"}    -- code linguistlist
+data["fr1835"] = {code = "fr1835", nom = "françois (1600-1835)", page = "Réforme de l'orthographe française de 1835"} -- code non standard
+data["frk"] = {code = "frk", nom = "francique", page = "Francique (langue morte)"}
+data["frm"] = {code = "frm", nom = "moyen français (1400-1600)", page = "Moyen français"}
+data["fro"] = {code = "fro", nom = "ancien français (842-1400)", page = "Ancien français"}
+data["frp"] = {code = "frp", nom = "francoprovençal"}
+data["frr"] = {code = "frr", nom = "frison septentrional"}
+data["frs"] = {code = "frs", nom = "frison oriental bas-allemand"}
+data["fuc"] = {code = "fuc", nom = "pulaar"}
+data["fur"] = {code = "fur", nom = "frioulan"}
+data["fy"]  = {code = "fy",  nom = "frison occidental"}
+-- g
+data["ga"]  = {code = "ga",  nom = "irlandais"}
+data["gag"] = {code = "gag", nom = "gagaouze"}
+data["gan"] = {code = "gan", nom = "gan", page = "Gan (langue)"}
+data["gcf"] = {code = "gcf", nom = "créole guadeloupéen"}
+data["gcr"] = {code = "gcr", nom = "créole guyanais"}
+data["gem"] = {code = "gem", nom = "langues germaniques"}
+data["gez"] = {code = "gez", nom = "guèze"}
+data["gd"]  = {code = "gd",  nom = "gaélique écossais"}
+data["gil"] = {code = "gil", nom = "gilbertin"}
+data["gl"]  = {code = "gl",  nom = "galicien"}
+data["glk"] = {code = "glk", nom = "gilaki", rtl = true}
+data["gmh"] = {code = "gmh", nom = "moyen haut-allemand"}
+data["gmh-hes"] = {code = "gmh-hes", nom = "hessois"}    -- code linguistlist
+data["gmy"] = {code = "gmy", nom = "mycénien"}
+data["gn"]  = {code = "gn",  nom = "guarani", page = "Guarani (langue)"}
+data["goh"] = {code = "goh", nom = "vieux haut-allemand"}
+data["gos"] = {code = "gos", nom = "groningois"}
+data["got"] = {code = "got", nom = "gotique"}
+data["gr"]  = {code = "grk", nom = "grec", page = "Grec (langue)", invalide = true}
+data["grc"] = {code = "grc", nom = "grec ancien"}
+data["grk"] = {code = "grk", nom = "grec", page = "Grec (langue)"}
+data["gsw"] = {code = "gsw", nom = "alémanique"}
+data["gu"]  = {code = "gu",  nom = "gujarati"}
+data["gv"]  = {code = "gv",  nom = "mannois"}
+-- h
+data["ha"]  = {code = "ha",  nom = "haoussa"}
+data["hak"] = {code = "hak", nom = "hakka", page ="Hakka (langue)"}
+data["haw"] = {code = "haw", nom = "hawaïen"}
+data["hbo"] = {code = "hbo", nom = "hébreu biblique "}
+data["he"]  = {code = "he",  nom = "hébreu", rtl = true}
+data["hess"] = {code = "gmh-hes", nom = "hessois", invalide = true}     -- code non IETF ni ISO 639, code linguistlist gmh-hes
+data["hi"]  = {code = "hi",  nom = "hindi"}
+data["hif"] = {code = "hif", nom = "hindi des Fidji"}
+data["hil"] = {code = "hil", nom = "hiligaïnon"}
+data["hit"] = {code = "hit", nom = "hittite", page = "Hittite (langue)"}
+data["ho"]  = {code = "ho",  nom = "hiri motou"}
+data["hop"] = {code = "hop", nom = "hopi", page = "Hopi (langue)"}
+data["hr"]  = {code = "hr",  nom = "croate"}
+data["hsb"] = {code = "hsb", nom = "haut-sorabe"}
+data["ht"]  = {code = "ht",  nom = "créole haïtien"}
+data["hu"]  = {code = "hu",  nom = "hongrois"}
+data["hwc"] = {code = "hwc", nom = "créole hawaïen"}
+data["hy"]  = {code = "hy",  nom = "arménien"}
+data["hz"]  = {code = "hz",  nom = "héréro", page = "Héréro (langue)"}
+-- i
+data["ia"]  = {code = "ia",  nom = "interlingua", page = "Interlingua (IALA)"}
+data["id"]  = {code = "id",  nom = "indonésien"}
+data["ie"]  = {code = "ie",  nom = "interlingue"}
+data["ig"]  = {code = "ig",  nom = "igbo"}
+data["ii"]  = {code = "ii",  nom = "yi de Shichuan", page = "Yi (langue)"}
+data["ik"]  = {code = "ik",  nom = "inupiak"}
+data["ilo"] = {code = "ilo", nom = "ilocano"}
+data["ine"] = {code = "ine", nom = "indo-européen", page = "langues indo-européennes"}
+data["inh"] = {code = "inh", nom = "ingouche"}
+data["io"]  = {code = "io",  nom = "ido"}
+data["iro"] = {code = "iro", nom = "iroquois", page = "Langues iroquoiennes"}
+data["is"]  = {code = "is",  nom = "islandais"}
+data["it"]  = {code = "it",  nom = "italien"}
+data["iu"]  = {code = "iu",  nom = "inuktitut"}
+-- j
+data["ja"]  = {code = "ja",  nom = "japonais"}
+data["jp"]  = {code = "ja",  nom = "japonais", invalide = true}
+data["jbo"] = {code = "jbo", nom = "lojban"}
+data["je"]  = {code = "fra-jer",  nom = "jersiais", invalide = true}
+data["jv"]  = {code = "jv",  nom = "javanais"}
+-- k
+data["ka"]  = {code = "ka",  nom = "géorgien"}
+data["kaa"] = {code = "kaa", nom = "karakalpak"}
+data["kab"] = {code = "kab", nom = "kabyle"}
+data["kbd"] = {code = "kbd", nom = "kabarde"}
+data["kbp"] = {code = "kbp", nom = "kabiyè"}
+data["ke"]  = {code = "ke",  nom = "koinè", page = "Koinè (grec)"}
+data["kea"] = {code = "kea", nom = "créole du Cap-Vert"}
+data["kg"]  = {code = "kg",  nom = "kikongo"}
+data["khi"] = {code = "khi", nom = "langues khoïsan"}
+data["khw"] = {code = "khw", nom = "khowar", rtl = true}
+data["ki"]  = {code = "ki",  nom = "kikuyu", page = "kikuyu (langue)"}
+data["kj"]  = {code = "kj",  nom = "kuanyama"}
+data["kk"]  = {code = "kk",  nom = "kazakh"}
+data["kl"]  = {code = "kl",  nom = "groenlandais"}
+data["km"]  = {code = "km",  nom = "khmer"}
+data["kn"]  = {code = "kn",  nom = "kannada"}
+data["ko"]  = {code = "ko",  nom = "coréen"}
+data["koi"] = {code = "ko",  nom = "komi-permiak"}
+data["koy"] = {code = "koy", nom = "koyukon"}
+data["krc"] = {code = "krc", nom = "karatchaï-balkar"}
+data["kri"] = {code = "kri", nom = "krio", page = "Krio (langue)"}
+data["krj"] = {code = "krj", nom = "kinaray-a"}
+data["krl"] = {code = "krl", nom = "carélien"}
+data["kr"]  = {code = "kr",  nom = "kanouri", page = "Kanouri (langue)"}
+data["ks"]  = {code = "ks",  nom = "cachemiri"}
+data["ksh"] = {code = "ksh", nom = "kölsch", page = "Kölsch (langue)"}
+data["ku"]  = {code = "ku",  nom = "kurde"}
+data["kv"]  = {code = "kv",  nom = "komi", page = "Komi (langue)"}
+data["kw"]  = {code = "kw",  nom = "cornique"}
+data["ky"]  = {code = "ky",  nom = "kirghize", page = "Kirghize (langue)"}
+-- l
+data["la"]  = {code = "la",  nom = "latin"}
+data["lad"] = {code = "lad", nom = "ladino", page = "Ladino (langue)"}
+data["lb"]  = {code = "lb",  nom = "luxembourgeois"}
+data["lbe"] = {code = "lbe", nom = "lak"}
+data["lez"] = {code = "lez", nom = "lezguien"}
+data["lfn"] = {code = "lfn", nom = "lingua franca nova"}
+data["li"]  = {code = "li",  nom = "limbourgeois"}
+data["lij"] = {code = "lij", nom = "ligure"}
+data["liv"] = {code = "liv", nom = "live", page = "Live (langue)"}
+data["lg"]  = {code = "lg",  nom = "luganda"}
+data["lkt"] = {code = "lkt", nom = "lakota", page = "Lakota (langue)"}
+data["lld"] = {code = "lld", nom = "ladin"}
+data["lmo"] = {code = "lmo", nom = "lombard", page = "Lombard (langue)"}
+data["ln"]  = {code = "ln",  nom = "lingala"}
+data["lo"]  = {code = "lo",  nom = "lao", page = "Lao (langue)"}
+data["lob"] = {code = "lob", nom = "lobiri"}
+data["lou"] = {code = "lou", nom = "créole louisianais"}
+data["lt"]  = {code = "lt",  nom = "lituanien"}
+data["ltg"] = {code = "ltg", nom = "latgalien"}
+data["lua"] = {code = "lua", nom = "tshiluba"}
+data["lu"] =  {code = "lu",  nom = "luba-katanga"}
+data["luo"] = {code = "luo", nom = "luo  (Kenya et Tanzanie)", page = "Luo (langue)"}
+data["lv"]  = {code = "lv",  nom = "letton"}
+data["lzh"] = {code = "lzh", nom = "chinois classique"}
+data["lzz"] = {code = "lzz", nom = "laze"}
+-- m
+data["map"] = {code = "map", nom = "langues austronésiennes"}
+data["map-bms"] = {code = "map-bms", nom = "banyumasan"} -- code non standard
+data["maz"] = {code = "maz", nom = "mazahua"}
+data["mdf"] = {code = "mdf", nom = "moksha"}
+data["mey"] = {code = "mey", nom = "hassanya"}
+data["mfe"]  = {code = "mfe",  nom = "créole mauricien"}
+data["mga"] = {code = "mga", nom = "moyen irlandais"}
+data["mg"]  = {code = "mg",  nom = "malgache"}
+data["mh"]  = {code = "mh",  nom = "marshallais"}
+data["mhr"] = {code = "mhr", nom = "mari oriental", page = "Mari (langue)"}
+data["mi"]  = {code = "mi",  nom = "maori de Nouvelle-Zélande"}
+data["mic"] = {code = "mic", nom = "micmac"}
+data["min"] = {code = "min", nom = "minangkabau", page = "Minangkabau (langue)"}
+data["mk"]  = {code = "mk",  nom = "macédonien"}
+data["mkh"] = {code = "mkh", nom = "langues môn-khmer"}
+data["ml"]  = {code = "ml",  nom = "malayalam"}
+data["mlv"] = {code = "mlv", nom = "mwotlap"}
+data["mn"]  = {code = "mn",  nom = "mongol"}
+data["mnc"] = {code = "mnc", nom = "mandchou"}
+data["mni"] = {code = "mni", nom = "meitei"}
+data["mnw"] = {code = "mnw", nom = "môn", page = "Môn (langue)"}
+data["mo"]  = {code = "mo",  nom = "moldave", invalide = true}
+data["moe"] = {code = "moe", nom = "innu-aimun"}
+data["moh"] = {code = "moh", nom = "mohawk", page = "mohawk (langue)"}
+data["mr"]  = {code = "mr",  nom = "marathi", page = "Marathi (langue)"}
+data["mrj"] = {code = "mrj", nom = "mari des montagnes"}
+data["mrn"] = {code = "mrn", nom = "cheke holo"}
+data["mrq"] = {code = "mrq", nom = "marquisien du Nord", page = "Marquisien"}
+data["ms"]  = {code = "ms",  nom = "malais", page = "Malais (langue)"}
+data["msn"] = {code = "msn", nom = "vurës"}
+data["mt"]  = {code = "mt",  nom = "maltais"}
+data["mua"] = {code = "mua", nom = "moundang", page = "Moundang (langue)"}
+data["mul"] = {code = "mul", nom = "multilingue", page = "Multilinguisme", invalide = true}
+data["mus"] = {code = "mus", nom = "creek", page = "Creek (langue)"}
+data["mwl"] = {code = "mwl", nom = "mirandais"}
+data["mwr"] = {code = "mwr", nom = "marwari"}
+data["my"]  = {code = "my",  nom = "birman", page = "Birman (langue)"}
+data["myk"] = {code = "myk", nom = "mamara"}
+data["myn"] = {code = "myn", nom = "langues mayas"}
+data["myv"] = {code = "myv", nom = "erzya"}
+data["mzn"] = {code = "mzn", nom = "mazandarani", rtl = true}
+-- n
+data["na"]  = {code = "na",  nom = "nauruan"}
+data["nan"] = {code = "nan", nom = "minnan"}
+data["nah"] = {code = "nah", nom = "nahuatl"}
+data["nap"] = {code = "nap", nom = "napolitain"}
+data["naq"] = {code = "naq", nom = "nama", page = "Nama (Langue)"}
+data["nb"]  = {code = "nb",  nom = "bokmål"}
+data["nba"] = {code = "nba", nom = "nyemba", page = "Nyemba (langue)"}
+data["nci"] = {code = "nci", nom = "nahuatl classique", page = "Nahuatl"}
+data["nd"]  = {code = "nd",  nom = "ndébélé du Nord", page = "Sindebele"}
+data["nds"] = {code = "nds", nom = "bas allemand"}
+data["nds-nl"] = {code = "nds-NL", nom = "bas-saxon néerlandais"}
+data["ne"]  = {code = "ne",  nom = "népalais"}
+data["new"] = {code = "new", nom = "nepalbhasha"}
+data["ng"]  = {code = "ng",  nom = "ndonga"}
+data["nia"] = {code = "nia", nom = "niha"}
+data["niu"] = {code = "niu", nom = "niuéen"}
+data["nl"]  = {code = "nl",  nom = "néerlandais"}
+data["nl-be"]  = {code = "nl-BE",  nom = "néerlandais de Belgique", page = "néerlandais"}
+data["nn"]  = {code = "nn",  nom = "nynorsk"}
+data["nnb"] = {code = "nnb", nom = "kinande"}
+data["no"]  = {code = "no",  nom = "norvégien"}
+data["non"] = {code = "non", nom = "vieux norrois"}
+data["nov"] = {code = "nov", nom = "novial"}
+data["nr"]  = {code = "nr",  nom = "ndébélé du Sud", page = "Nrebele"}
+data["nrm"] = {code = "nrm", nom = "narum"}     -- le code pour le normand est fra-nor (mais nrm.wikipedia est en normand)
+data["nso"] = {code = "nso", nom = "sotho du Nord"}
+data["nv"]  = {code = "nv",  nom = "navajo", page = "navajo (langue)"}
+data["ny"]  = {code = "ny",  nom = "chichewa"}
+-- o
+data["oar"] = {code = "oar", nom = "araméen ancien", page = "Araméen"}
+data["obt"] = {code = "obt", nom = "vieux breton"}
+data["oc"]  = {code = "oc",  nom = "occitan"}
+data["ofr"] = {code = "ofr", nom = "francique oriental"}
+data["ofs"] = {code = "ofs", nom = "vieux frison"}
+data["oj"]  = {code = "oj",  nom = "ojibwé", page = "Ojibwé (langue)"}
+data["om"]  = {code = "om",  nom = "oromo", page = "oromo (langue)"}
+data["or"]  = {code = "or",  nom = "oriya"}
+data["orv-olr"]  = {code = "orv-olr",  nom = "ruthène ancien"}
+data["os"]  = {code = "os",  nom = "ossète"}
+data["osp"] = {code = "osp", nom = "castillan ancien"}
+data["osx"] = {code = "osx", nom = "vieux saxon"}
+data["ota"] = {code = "ota", nom = "turc ottoman", rtl = true}
+data["otk"] = {code = "otk", nom = "vieux-turc", rtl = true}
+data["otw"] = {code = "otw", nom = "outaouais", page = "Outaouais (langue)"}
+data["owl"] = {code = "owl", nom = "vieux gallois"}
+-- p
+data["pa"]  = {code = "pa",  nom = "pendjabi"}
+data["pam"] = {code = "pam", nom = "pampangan"}
+data["pag"] = {code = "pag", nom = "pangasinan", page = "Pangasinan (langue)"}
+data["pap"] = {code = "pap", nom = "papiamento"}
+data["pau"] = {code = "pau", nom = "paluan"}
+data["pcd"] = {code = "pcd", nom = "picard"}
+data["pdc"] = {code = "pdc", nom = "allemand de Pennsylvanie"}
+data["pfl"] = {code = "pfl", nom = "palatin", page = "Palatin (langue)"}
+data["phn"] = {code = "phn", nom = "phénicien"}
+data["pi"]  = {code = "pi",  nom = "pali"}
+data["pih"] = {code = "pih", nom = "norfolk", page = "Norfolk (langue)"}
+data["pl"]  = {code = "pl",  nom = "polonais"}
+data["pms"] = {code = "pms", nom = "piémontais"}
+data["pnb"] = {code = "pnb", nom = "pendjabi occidental", page = "Pendjabi", rtl = true}
+data["pnt"] = {code = "pnt", nom = "grec pontique"}
+data["pon"] = {code = "pon", nom = "pohnpei"}
+data["prg"] = {code = "prg", nom = "vieux-prussien"}
+data["prk"] = {code = "prk", nom = "parauk"}
+data["pro"] = {code = "pro", nom = "ancien occitan"}
+data["prs"] = {code = "prs", nom = "dari"}
+data["ps"]  = {code = "ps",  nom = "pachto", rtl = true}
+data["pt"]  = {code = "pt",  nom = "portugais"}
+data["pui"] = {code = "pui", nom = "puinave", page = "Puinave (langue)"}
+-- q
+data["qu"]  = {code = "qu",  nom = "quechua"}
+data["quy"] = {code = "quy", nom = "ayacucho quechua", page = "Quechua"}
+data["quz"] = {code = "quz", nom = "cusco quechua "}
+data["qya"] = {code = "qya", nom = "quenya"}
+-- r
+data["rap"] = {code = "rap", nom = "rapanui", page = "Rapanui (langue)"}
+data["rar"] = {code = "rap", nom = "maori des îles Cook"}
+data["rde"] = {code = "rde", nom = "allemand de la Ruhr"}   -- code non standard
+data["rgl"] = {code = "rgl", nom = "romagnol"}
+data["rhg"] = {code = "rhg", nom = "rohingya "}
+data["rif"] = {code = "rif", nom = "rifain"}
+data["rm"]  = {code = "rm",  nom = "romanche"}
+data["rmy"] = {code = "rmy", nom = "romani"}
+data["rn"]  = {code = "rn",  nom = "kirundi"}
+data["ro"]  = {code = "ro",  nom = "roumain"}
+data["roa"] = {code = "roa", nom = "langues romanes"}
+data["roa-tara"] = {code = "roa-tara", nom = "tarentin"}   -- code non standard
+data["ru"]  = {code = "ru",  nom = "russe"}
+data["rue"] = {code = "rue", nom = "rusyn"}
+data["ruo"] = {code = "ruo", nom = "istro-roumain"}
+data["rup"] = {code = "rup", nom = "aroumain"}
+data["rw"]  = {code = "rw",  nom = "kinyarwanda"}
+data["ry"]  = {code = "orv-olr",  nom = "ruthène ancien", invalide = true}    -- code non standard, voir orv-olr
+data["ryu"]  = {code = "ryu",  nom = "okinawaïen"}
+-- s
+data["sa"]  = {code = "sa",  nom = "sanskrit"}
+data["sah"] = {code = "sah", nom = "iakoute"}
+data["srd"] = {code = "srd", nom = "sarde"}
+data["sc"]  = {code = "sc",  nom = "sarde"}
+data["scn"] = {code = "scn", nom = "sicilien"}
+data["sco"] = {code = "sco", nom = "scots"}
+data["sd"]  = {code = "sd",  nom = "sindhi"}
+data["se"]  = {code = "se",  nom = "same du Nord"}
+data["sem"] = {code = "sem", nom = "langues sémitiques"}
+data["ses"] = {code = "ses", nom = "koyraboro senni"}
+data["sg"]  = {code = "sg",  nom = "sango"}
+data["sga"] = {code = "sga", nom = "vieil irlandais"}
+data["sgs"] = {code = "sgs", nom = "samogitien"}
+data["sh"]  = {code = "sh",  nom = "serbo-croate"}
+data["shk"] = {code = "shk", nom = "shilluk", page = "Shilluk (langue)"}
+data["shi"] = {code = "shi", nom = "chleuh"}
+data["shn"] = {code = "shn", nom = "shan", page = "Shan (langue)"}
+data["shy"] = {code = "shy", nom = "chaoui"}
+data["si"]  = {code = "si",  nom = "cingalais"}
+data["simple"] = {code = "simple", nom = "anglais simple"} -- code non standard
+data["sjn"] = {code = "sjn", nom = "sindarin"}
+data["sk"]  = {code = "sk",  nom = "slovaque"}
+data["sl"]  = {code = "sl",  nom = "slovène"}
+data["sla"] = {code = "sla", nom = "langues slaves"}
+data["sm"]  = {code = "sm",  nom = "samoan"}
+data["smi"] = {code = "smi", nom = "same", page = "Langues sames"}
+data["sn"]  = {code = "sn",  nom = "shona", page = "Shona (langue)"}
+data["snk"] = {code = "snk", nom = "soninké", page = "Soninké (langue)"}
+data["so"]  = {code = "so",  nom = "somali"}
+data["sov"] = {code = "sov", nom = "sonsorolais"}
+data["sq"]  = {code = "sq",  nom = "albanais"}
+data["stq"] = {code = "stq", nom = "frison oriental"}
+data["sr"]  = {code = "sr",  nom = "serbe"}
+data["sr-me"] = {code = "sr-ME", nom = "monténégrin"}
+data["srn"] = {code = "srn", nom = "sranan"}
+data["st"]  = {code = "st",  nom = "sotho du Sud"}
+data["ss"]  = {code = "ss",  nom = "swati"}
+data["stq"] = {code = "stq", nom = "frison oriental"}
+data["su"]  = {code = "su",  nom = "soundanais"}
+data["sux"] = {code = "sux", nom = "sumérien"}
+data["sv"]  = {code = "sv",  nom = "suédois"}
+data["sw"]  = {code = "sw",  nom = "swahili"}
+data["sxu"] = {code = "sxu", nom = "haut-saxon"}
+data["syc"] = {code = "syc", nom = "syriaque classique", page = "Syriaque"}
+data["syl"] = {code = "syl", nom = "sylheti"}
+data["syr"] = {code = "syr", nom = "syriaque", rtl = true}
+data["szl"] = {code = "szl", nom = "silésien", page = "silésien (langue slave)"}
+-- t
+data["ta"]  = {code = "ta",  nom = "tamoul"}
+data["tbl"] = {code = "tbl", nom = "t'boli"}
+data["tcy"] = {code = "tcy", nom = "toulou"}
+data["te"]  = {code = "te",  nom = "télougou"}
+data["tet"] = {code = "tet", nom = "tétoum"}
+data["tfn"] = {code = "tfn", nom = "dena'in", page = "Dena'ina (langue)"}
+data["tg"]  = {code = "tg",  nom = "tadjik"}
+data["th"]  = {code = "th",  nom = "thaï"}
+data["ti"]  = {code = "ti",  nom = "tigrinya"}
+data["tk"]  = {code = "tk",  nom = "turkmène"}
+data["tl"]  = {code = "tl",  nom = "tagalog"}
+data["tlh"] = {code = "tlh", nom = "klingon", page = "Klingon (langue)"}
+data["tli"] = {code = "tli", nom = "tlingit"}
+data["tmh"] = {code = "tmh", nom = "touareg", page = "Touareg (langue)"}
+data["tmr"] = {code = "tmr", nom = "judéo-araméen babylonien"}
+data["tn"]  = {code = "tn",  nom = "tswana"}
+data["to"]  = {code = "to",  nom = "tonguien"}
+data["tpi"] = {code = "tpi", nom = "tok pisin"}
+data["tpn"]  = {code = "tpn",  nom = "tupinambá", page = "Tupinambá (langue)"}
+data["tr"]  = {code = "tr",  nom = "turc"}
+data["trk"] = {code = "trk", nom = "langues turques"}
+data["ts"]  = {code = "ts",  nom = "tsonga", page = "Tsonga (langue)"}
+data["tsg"] = {code = "tsg", nom = "tausug"}
+data["tsu"] = {code = "tsu", nom = "tsou", page = "Tsou (langue)"}
+data["tsz"] = {code = "tsz", nom = "p'urhépecha", page = "P'urhépecha (langue)"}
+data["tt"]  = {code = "tt",  nom = "tatar"}
+data["tum"] = {code = "tum", nom = "tumbuka", page = "Tumbuka (langue)"}
+data["tun"] = {code = "tun", nom = "tunica", page = "Tunica (langue)"}
+data["tut"] = {code = "tut", nom = "langues altaïques"}
+data["tvl"] = {code = "tvl", nom = "tuvaluan"}
+data["tw"]  = {code = "tw",  nom = "twi"}
+data["txb"] = {code = "txb", nom = "koutchéen"}
+data["ty"]  = {code = "ty",  nom = "tahitien"}
+data["tyv"] = {code = "tyv", nom = "touvain"}
+data["tzm"] = {code = "tzm", nom = "tamazight du Maroc central"}
+data["tzo"] = {code = "tzo", nom = "tzotzil"}
+-- u
+data["udm"] = {code = "udm", nom = "oudmourte"}
+data["ug"]  = {code = "ug",  nom = "ouïghour", rtl = true}
+data["uga"] = {code = "uga", nom = "ougaritique"}
+data["uhn"] = {code = "uhn", nom = "damal"}
+data["uk"]  = {code = "uk",  nom = "ukrainien"}
+data["und"] = {code = "und", nom = "langue indéterminée", page = "", invalide = true}
+data["ur"]  = {code = "ur",  nom = "ourdou", rtl = true}
+data["uz"]  = {code = "uz",  nom = "ouzbek"}
+-- v
+data["ve"]  = {code = "ve",  nom = "venda", page = "Venda (langue)"}
+data["vec"] = {code = "vec", nom = "vénitien"}
+data["vep"] = {code = "vep", nom = "vepse"}
+data["vi"]  = {code = "vi",  nom = "vietnamien"}
+data["vls"] = {code = "vls", nom = "flamand occidental"}
+data["vo"]  = {code = "vo",  nom = "volapük"}
+data["vro"] = {code = "vro", nom = "võro"}
+-- w
+data["wa"]  = {code = "wa",  nom = "wallon"}
+data["war"] = {code = "war", nom = "waray-waray"}
+data["wen"] = {code = "wen", nom = "sorabe"}
+data["wlm"] = {code = "wlm", nom = "moyen gallois"}
+data["wls"] = {code = "wls", nom = "wallisien"}
+data["wo"]  = {code = "wo",  nom = "wolof", page = "Wolof (langue)"}
+data["woe"] = {code = "woe", nom = "woléaïen"}
+data["wuu"] = {code = "wuu", nom = "wu", page = "Wu (langue)"}
+-- x
+data["xal"] = {code = "xal", nom = "kalmouk"}
+data["xbm"] = {code = "xbm", nom = "moyen breton"}
+data["xcl"] = {code = "xcl", nom = "arménien classique"}
+data["xcu"] = {code = "xcu", nom = "curonien"}
+data["xh"]  = {code = "xh",  nom = "xhosa"}
+data["xlu"] = {code = "xlu", nom = "louvite"}
+data["xmf"] = {code = "wmf", nom = "mingrélien"}
+data["xno"] = {code = "xno", nom = "anglo-normand", page = "Anglo-normand (langue)"}
+data["xto"] = {code = "xto", nom = "agnéen"}
+-- y
+data["yak"] = {code = "yak", nom = "sahaptin yakama", page = "Sahaptin (langue)"}
+data["yap"] = {code = "yap", nom = "yap", page = "Yap (langue)"}
+data["yi"]  = {code = "yi",  nom = "yiddish", rtl = true}
+data["yo"]  = {code = "yo",  nom = "yoruba"}
+data["ypk"] = {code = "ypk", nom = "langues yupik"}
+data["yua"] = {code = "yua", nom = "maya yucatèque"}
+data["yue"] = {code = "yue", nom = "cantonais"}
+data["yuf"] = {code = "yuf", nom = "langues yumanes du Nord", page = "Langues yumanes"}
+-- z
+data["za"]  = {code = "za",  nom = "zhuang", page = "Zhuang (langue)"}
+data["zea"] = {code = "zea", nom = "zélandais"}
+data["zh"]  = {code = "zh",  nom = "chinois", page = "langues chinoises"}
+data["zh-hans"] = {code = "zh-Hans", nom = "chinois simplifié", page = "Sinogramme simplifié"}
+data["zh-hant"] = {code = "zh-Hant", nom = "chinois traditionnel", page = "Sinogramme traditionnel"}
+data["zh-latn"] = {code = "zh-Latn", nom = "pinyin"}
+data["zh-cn"]  = {code = "zh-CN",  nom = "chinois de Chine continentale", page = "langues chinoises"}
+data["zh-hk"]  = {code = "zh-HK",  nom = "chinois de Hong Kong", page = "langues chinoises"}
+data["zh-mo"]  = {code = "zh-MO",  nom = "chinois de Macao", page = "langues chinoises"}
+data["zh-sg"]  = {code = "zh-SG",  nom = "chinois de Singapour", page = "langues chinoises"}
+data["zh-tw"]  = {code = "zh-TW",  nom = "chinois de Taïwan", page = "langues chinoises"}
+data["zls"] = {code = "zls", nom = "langues slaves méridionales"}
+data["zsm"] = {code = "zsm", nom = "malaisien", page = "Malaisien (langue)"}
+data["zu"]  = {code = "zu",  nom = "zoulou"}
+data["zza"] = {code = "zza", nom = "zazaki"}
+
+-- ----------------------------------------------------- -- 
+--   Liste des alias (nom de langue, code ISO 639,...)   --
+-- ----------------------------------------------------- --
+
+-- Cette liste est triée par le code IETF lié, c'est-à-dire la seconde partie de la ligne.
+
+-- a
+data["afar"] = data["aa"]
+data["abkhaze"] = data["ab"]
+data["abénaqui"] = data["abe"]
+data["aceh"] = data["ace"]
+data["arabe chypriote maronite"] = data["acy"]
+data["adyguéen"] = data["ady"]
+data["avestique"] = data["ae"]
+data["arabe tunisien"] = data["aeb"]
+data["afrikaans"] = data["af"]
+data["akan"] = data["ak"]
+data["akkadien"] = data["akk"]
+data["assyrien"] = data["akk"]
+data["aléoute"] = data["ale"]
+data["langues algonquiennes"] = data["alg"]
+data["guègue"] = data["aln"]
+data["algonquin"] = data["alq"]
+data["tosque"] = data["als"]
+data["altaï"] = data["alt"]
+data["amharique"] = data["am"]
+data["aragonais"] = data["an"]
+data["anglo-saxon"] = data["ang"]
+data["arabe"] = data["ar"]
+data["arabe standard moderne"] = data["arb"]
+data["araméen"] = data["arc"]
+data["mapudungun"] = data["arn"]
+data["mapuche"] = data["arn"]
+data["arabe algérien"] = data["arq"]
+data["arabe dialectal marocain"] = data["ary"]
+data["arabe marocain"] = data["ary"]
+data["ma"] = data["ary"]
+data["assiniboine"] = data["asb"]
+data["arabe égyptien"] = data["arz"]
+data["assamais"] = data["as"]
+data["asturien"] = data["ast"]
+data["atikamekw"] = data["atj"]
+data["langues aborigènes d'australie"] = data["aus"]
+data["australien"] = data["aus"]
+data["avar"] = data["av"]
+data["kotava"] = data["avk"]
+data["aymara"] = data["ay"]
+data["arabe libyen"] = data["ayl"]
+data["azéri"] = data["az"]
+-- b
+data["bachkir"] = data["ba"]
+data["baloutche"] = data["bal"]
+data["baloutchi"] = data["bal"]
+data["balinais"] = data["ban"]
+data["bavarois"] = data["bar"]
+data["ghomálá’"] = data["bbj"]  -- l'article est avec une apostrophe courbée, sans accents
+data["ghomálá’"] = data["bbj"]
+data["ghomala'"] = data["bbj"]
+data["ghomálá'"] = data["bbj"]
+data["ghomala"] = data["bbj"]
+data["ghomálá"] = data["bbj"]
+data["baoulé"] = data["bci"]
+data["bicolano central"] = data["bcl"]
+data["biélorusse"] = data["be"]
+data["be-x-old"] = data["be-tarask"]                    -- be-x-old correspond au wikipédia en biélorusse taraškievica
+data["biélorusse (tarashkevitsa)"] = data["be-tarask"]
+data["biélorusse tarashkevitsa"] = data["be-tarask"]
+data["tarashkevitsa"] = data["be-tarask"]
+data["taraskievica"] = data["be-tarask"]
+data["taraškievica"] = data["be-tarask"]
+data["bedja"] = data["bej"]
+data["berbère"] = data["ber"]
+data["tamazight"] = data["ber"]
+data["bulgare"] = data["bg"]
+data["bihari"] = data["bh"]
+data["bhodjpouri"] = data["bho"]
+data["bichelamar"] = data["bi"]
+data["banjar"] = data["bjn"]
+data["bambara"] = data["bm"]
+data["bengali"] = data["bn"]
+data["tibétain"] = data["bo"]
+data["bishnupriya manipuri"] = data["bpy"]
+data["breton"] = data["br"]
+data["bodo"] = data["brx"]
+data["bosnien"] = data["bs"]
+data["bosniaque"] = data["bs"]
+data["bouriate"] = data["bua"]
+data["bouguinaisg"] = data["bug"]
+data["bugis"] = data["bug"]
+data["bxr"] = data["bua"]       -- bxr.Wikipédia, en bouriate
+-- c
+data["catalan"] = data["ca"]
+data["cakchiquel"] = data["cak"]
+data["carolinien"] = data["cal"]
+data["kali'na"] = data["car"]
+data["galibi"] = data["car"]
+data["chavacano"] = data["cbk"]
+data["chavacano de Zamboanga"] = data["cbk-zam"]
+data["tchétchène"] = data["ce"]
+data["cebuano"] = data["ceb"]
+data["celte"] = data["cel"]
+data["chamorro"] = data["ch"]
+data["choctaw"] = data["cho"]
+data["cheyenne"] = data["chy"]
+data["chipewyan"] = data["chp"]
+data["tchérokî"] = data["chr"]
+data["chérokî"] = data["chr"]
+data["cherokee"] = data["chr"]
+data["cia-cia"] = data["cia"]
+data["cimbre"] = data["cim"]
+data["sorani"] = data["ckb"]
+data["tchouktche"] = data["ckt"]
+data["mandarin"] = data["cmn"]
+data["mandarin standard"] = data["cmn"]
+data["chinois standard"] = data["cmn"]
+data["chenoui"] = data["cnu"]
+data["chenoua"] = data["cnu"]
+data["corse"] = data["co"]
+data["comanche"] = data["com"]
+data["copte"] = data["cop"]
+data["créoles français"] = data["cpf"]
+data["cri"] = data["cr"]
+data["tatar de crimée"] = data["crh"]
+data["créole seychellois"] = data["crs"]
+data["tchèque"] = data["cs"]
+data["czech"] = data["cs"]
+data["cachoube"] = data["csb"]
+data["langue liturgique slave"] = data["cu"]
+data["slavon d'église"] = data["cu"]
+data["vieux slave liturgique"] = data["cu"]
+data["tchouvache"] = data["cv"]
+data["gallois"] = data["cy"]
+-- d
+data["danois"] = data["da"]
+data["danish"] = data["da"]
+data["tsez"] = data["ddo"]
+data["dido"] = data["ddo"]
+data["allemand"] = data["de"]
+data["german"] = data["de"]
+data["dolgane"] = data["dlg"]
+data["bas-sorabe"] = data["dsb"]
+data["dusun"] = data["dtp"]
+data["douala"] = data["dua"]
+data["moyen néerlandais"] = data["dum"]
+data["divehi"] = data["dv"]
+data["divéhi"] = data["dv"]
+data["maldivien"] = data["dv"]
+data["div"] = data["dv"]
+data["dioula"] = data["dyu"]
+data["dzongkha"] = data["dz"]
+-- e
+data["ewe"] = data["ee"]
+data["émilien"] = data["egl"]
+data["égyptien ancien"] = data["egy"]
+data["grec moderne"] = data["el"]   -- le grec sans précision est lié au code grk
+data["émilien-romagnol"] = data["eml"]
+data["anglais"] = data["en"]
+data["english"] = data["en"]
+data["moyen anglais"] = data["enm"]
+data["espéranto"] = data["eo"]
+data["europanto"] = data["er"]
+data["espagnol"] = data["es"]
+data["castillan"] = data["es"]
+data["spanish"] = data["es"]
+data["estonien"] = data["et"]
+data["basque"] = data["eu"]
+data["estrémègne"] = data["ext"]
+-- f
+data["persan"] = data["fa"]
+data["farsi "] = data["fa"]
+data["parsi "] = data["fa"]
+data["peul"] = data["ff"]
+data["finnois"] = data["fi"]
+data["finlandais"] = data["fi"]
+data["finnish"] = data["fi"]
+data["filipino"] = data["fil"]
+data["fidjien"] = data["fj"]
+data["féroïen"] = data["fo"]
+data["féroien"] = data["fo"]
+data["féringien"] = data["fo"]
+data["fon-gbe"] = data["fon"]
+data["fongbe"] = data["fon"]
+data["français"] = data["fr"]
+data["française"] = data["fr"]
+data["french"] = data["fr"]
+data["français de belgique"] = data["fr-be"]
+data["françois (1600-1835)"] = data["fr1835"]
+data["françois"] = data["fr1835"]
+data["gallo"] = data["fra-gal"]
+data["gal"] = data["fra-gal"]
+data["jersiais"] = data["fra-jer"]
+data["normand"] = data["fra-nor"]
+data["francique"] = data["frk"]
+data["vieux bas francique"] = data["frk"]
+data["moyen français"] = data["frm"]
+data["moyen françois"] = data["frm"]
+data["moyen français (1400-1600)"] = data["frm"]
+data["ancien français"] = data["fro"]
+data["ancien français (842-1400)"] = data["fro"]
+data["francoprovençal"] = data["frp"]
+data["frison septentrional"] = data["frr"]
+data["frison oriental bas-allemand"] = data["frs"]
+data["pulaar"] = data["fuc"]
+data["frioulan"] = data["fur"]
+data["frison"] = data["fy"]
+data["frison occidental"] = data["fy"]
+-- g
+data["gaélique irlandais"] = data["ga"]
+data["irlandais"] = data["ga"]
+data["gagaouze"] = data["gag"]
+data["kan"] = data["gan"]
+data["créole guadeloupéen"] = data["gcf"]
+data["créole guyanais"] = data["gcr"]
+data["gaélique écossais"] = data["gd"]
+data["écossais"] = data["gd"]
+data["langues germaniques"] = data["gem"]
+data["guèze"] = data["gez"]
+data["gilbertin"] = data["gil"]
+data["galicien"] = data["gl"]
+data["gilaki"] = data["glk"]
+data["moyen haut-allemand"] = data["gmh"]
+data["mycénien"] = data["gmy"]
+data["guarani"] = data["gn"]
+data["vieux haut-allemand"] = data["goh"]
+data["groningois"] = data["gos"]
+data["gotique"] = data["got"]
+data["grec ancien"] = data["grc"]     -- le grec sans précision est lié au code grk
+data["grec"] = data["grk"]
+data["alémanique"] = data["gsw"]    -- wikipédia utilise le code als (celui du tosque)
+data["gujarati"] = data["gu"]
+data["mannois"] = data["gv"]
+data["manxois"] = data["gv"]
+data["manx"] = data["gv"]
+-- h
+data["haoussa"] = data["ha"]
+data["hakka"] = data["hak"]
+data["hawaïen"] = data["haw"]
+data["hébreu biblique "] = data["hbo"]
+data["hébreu ancien"] = data["hbo"]
+data["hébreu médiéval"] = data["hbo"]
+data["hébreu mishnique"] = data["hbo"]
+data["hébreu"] = data["he"]
+data["iw"] = data["he"]
+data["hessois"] = data["gmh-hes"]
+data["hindi"] = data["hi"]
+data["hindi des fidji"] = data["hif"]
+data["hiligaïnon"] = data["hil"]
+data["hiligaynon"] = data["hil"]
+data["ilonggo"] = data["hil"]
+data["hittite"] = data["hit"]
+data["hiri motou"] = data["ho"]
+data["hiri motu"] = data["ho"]
+data["hopi"] = data["hop"]
+data["croate"] = data["hr"]
+data["croatian"] = data["hr"]
+data["haut-sorabe"] = data["hsb"]
+data["haïtien"] = data["ht"]
+data["hongrois"] = data["hu"]
+data["hungarian"] = data["hu"]
+data["créole hawaïen"] = data["hwc"]
+data["arménien"] = data["hy"]
+data["héréro"] = data["hz"]
+-- i
+data["interlingua"] = data["ia"]
+data["in"] = data["id"]
+data["indonésien"] = data["id"]
+data["interlingue"] = data["ie"]
+data["igbo"] = data["ig"]
+-- data["yi"] = data["ii"]              en conflit avec yiddish=yi
+data["yi de shichuan"] = data["ii"]
+data["inupiak"] = data["ik"]
+data["ilocano"] = data["ilo"]
+data["langues indo-européennes"] = data["ine"]
+data["ingouche"] = data["inh"]
+data["ido"] = data["io"]
+data["iroquois"] = data["iro"]
+data["islandais"] = data["is"]
+data["italien"] = data["it"]
+data["italian"] = data["it"]
+data["inuktitut"] = data["iu"]
+-- j
+data["japonais"] = data["ja"]
+data["japanese"] = data["ja"]
+data["lojban"] = data["jbo"]
+data["javanais"] = data["jv"]
+data["jw"] = data["jv"]
+-- k
+data["géorgien"] = data["ka"]
+data["karakalpak"] = data["kaa"]
+data["kabyle"] = data["kab"]
+data["kabarde"] = data["kbd"]
+data["kabiyè"] = data["kbp"]
+data["koinè"] = data["ke"]
+data["créole du cap-vert"] = data["kea"]
+data["kikongo"] = data["kg"]
+data["langues khoïsan"] = data["khi"]
+data["khoïsan"] = data["khi"]
+data["khoï"] = data["khi"]
+data["langues khoï"] = data["khi"]
+data["khowar"] = data["khw"]
+data["kikuyu"] = data["ki"]
+data["kuanyama"] = data["kj"]
+data["kwanyama"] = data["kj"]
+data["kazakh"] = data["kk"]
+data["groenlandais"] = data["kl"]
+data["khmer"] = data["km"]
+data["kannada"] = data["kn"]
+data["coréen"] = data["ko"]
+data["korean"] = data["ko"]
+data["komi permiak"] = data["koi"]
+data["koyukon"] = data["koy"]
+data["kanouri"] = data["kr"]
+data["kanuri"] = data["kr"]
+data["karatchaï-balkar"] = data["krc"]
+data["krio"] = data["kri"]
+data["kinaray-a"] = data["krj"]
+data["kinaray"] = data["krj"]
+data["carélien"] = data["krl"]
+data["cachemiri"] = data["ks"]
+data["kölsch"] = data["ksh"]
+data["francique ripuaire"] = data["ksh"]
+data["kurde"] = data["ku"]
+data["komi"] = data["kv"]
+data["cornique"] = data["kw"]
+data["kirghize"] = data["ky"]
+-- l
+data["latin"] = data["la"]
+data["lat"] = data["la"]
+data["ladino"] = data["lad"]
+data["luxembourgeois"] = data["lb"]
+data["lak"] = data["lbe"]
+data["lesghien"] = data["lez"]
+data["lezgi"] = data["lez"]
+data["lezghien"] = data["lez"]
+data["lesguien"] = data["lez"]
+data["lingua franca nova"] = data["lfn"]
+data["ganda"] = data["lg"]
+data["luganda"] = data["lg"]
+data["limbourgeois"] = data["li"]
+data["ligure"] = data["lij"]
+data["live"] = data["liv"]
+data["livonien"] = data["liv"]
+data["lakota"] = data["lkt"]
+data["ladin"] = data["lld"]
+data["lombard"] = data["lmo"]
+data["lingala"] = data["ln"]
+data["lao"] = data["lo"]
+data["lobiri"] = data["lob"]
+data["créole louisianais"] = data["lou"]
+data["lituanien"] = data["lt"]
+data["latgalien"] = data["ltg"]
+data["kiluba"] = data["lu"]
+data["luba-katanga"] = data["lu"]
+data["luba-shaba"] = data["lu"]
+data["tshiluba"] = data["lua"]
+data["luo"] = data["luo"]
+data["letton"] = data["lv"]
+data["chinois classique"] = data["lzh"]
+data["zh-classical"] = data["lzh"]
+data["laze"] = data["lzz"]
+-- m
+data["langues austronésiennes"] = data["map"]
+data["banyumasan"] = data["map-bms"]
+data["mazahua"] = data["maz"]
+data["moksha"] = data["mdf"]
+data["moksa"] = data["mdf"]
+data["mokṣa"] = data["mdf"]
+data["hassanya"] = data["mey"]
+data["créole mauricien"] = data["mfe"]
+data["mauricien"] = data["mfe"]
+data["moyen irlandais"] = data["mga"]
+data["marshallais"] = data["mh"]
+data["mari"] = data["mhr"]
+data["mari de l'est"] = data["mhr"]
+data["mari oriental"] = data["mhr"]
+data["malgache"] = data["mg"]
+data["malagasy"] = data["mg"]
+data["maori"] = data["mi"]
+data["maori de nouvelle-zélande"] = data["mi"]
+data["minangkabau"] = data["min"]
+data["micmac"] = data["mic"]
+data["macédonien"] = data["mk"]
+data["langues môn-khmer"] = data["mkh"]
+data["môn-khmer"] = data["mkh"]
+data["malayalam"] = data["ml"]
+data["mwotlap"] = data["mlv"]
+data["mongol"] = data["mn"]
+data["mandchou"] = data["mnc"]
+data["meitei"] = data["mni"]
+data["meithei"] = data["mni"]
+data["môn"] = data["mnw"]
+data["mon"] = data["mnw"]
+data["moldave"] = data["mo"]
+data["innu-aimun"] = data["moe"]
+data["montagnais"] = data["moe"]
+data["agnier"] = data["moh"]
+data["mohawk"] = data["moh"]
+data["marathi"] = data["mr"]
+data["marâthî"] = data["mr"]
+data["marāthī"] = data["mr"]
+data["marathe"] = data["mr"]
+data["mari des montagnes"] = data["mrj"]
+data["mari occidental"] = data["mrj"]
+data["cheke holo"] = data["mrn"]
+data["marquisien"] = data["mrq"]
+data["marquisien du nord"] = data["mrq"]
+data["malais"] = data["ms"]
+data["vurës"] = data["msn"]
+data["maltais"] = data["mt"]
+data["moundang"] = data["mua"]
+data["multilingue"] = data["mul"]
+data["creek"] = data["mus"]
+data["mirandais"] = data["mwl"]
+data["marwari"] = data["mwr"]
+data["birman"] = data["my"]
+data["mamara"] = data["myk"]
+data["langues mayas"] = data["myn"]
+data["langue maya"] = data["myn"]
+data["maya"] = data["myn"]
+data["erzya"] = data["myv"]
+data["mazandarani"] = data["mzn"]
+data["tabari"] = data["mzn"]
+-- n
+data["nauruan"] = data["na"]
+data["nahuatl"] = data["nah"]
+data["minnan"] = data["nan"]
+data["zh-min-nan"] = data["nan"]
+data["napolitain"] = data["nap"]
+data["nama"] = data["naq"]
+data["nama (Namibie)"] = data["naq"]
+data["bokmål"] = data["nb"]
+data["bokmal"] = data["nb"]
+data["norvégien classique"] = data["nb"]
+data["nyemba"] = data["nba"]
+data["ngangela"] = data["nba"]
+data["nahuatl classique"] = data["nci"]
+data["aztèque"] = data["nci"]
+data["ndébélé du nord"] = data["nd"]
+data["sindebele"] = data["nd"]
+data["ndébélé du zimbabwe"] = data["nd"]
+data["bas allemand"] = data["nds"]
+data["bas-saxon néerlandais"] = data["nds-nl"]
+data["népalais"] = data["ne"]
+data["nepalbhasha"] = data["new"]
+data["ndonga"] = data["ng"]
+data["niha"] = data["nia"]
+data["nias"] = data["nia"]
+data["niuéen"] = data["niu"]
+data["néerlandais"] = data["nl"]
+data["dutch"] = data["nl"]
+data["nynorsk"] = data["nn"]
+data["kinande"] = data["nnb"]
+data["konzo"] = data["nnb"]
+data["norvégien"] = data["no"]
+data["norwegian"] = data["no"]
+data["vieux norrois"] = data["non"]
+data["norrois"] = data["non"]
+data["novial"] = data["nov"]
+data["ndébélé du sud"] = data["nr"]
+data["nrebele"] = data["nr"]
+data["ndébélé du transvaal"] = data["nr"]
+data["narum"] = data["nrm"]                    -- codes en conflit avec wikipédia en normand
+data["narom"] = data["nrm"]
+data["pedi"] = data["nso"]
+data["sotho du nord"] = data["nso"]
+data["sesotho sa leboa"] = data["nso"]
+data["navajo"] = data["nv"]
+data["nav"] = data["nv"]
+data["chinyanja"] = data["ny"]
+data["chichewa"] = data["ny"]
+-- o
+data["araméen ancien"] = data["oar"]
+data["vieux breton"] = data["obt"]
+data["occitan"] = data["oc"]
+data["oci"] = data["oc"]
+data["gascon"] = data["oc"]
+data["provençal"] = data["oc"]
+data["francique oriental"] = data["ofr"]
+data["vieux frison"] = data["ofs"]
+data["ojibwé"] = data["oj"]
+data["oromo"] = data["om"]
+data["oriya"] = data["or"]
+data["ruthène"] = data["orv-olr"]
+data["ruthène ancien"] = data["orv-olr"]
+data["ossète"] = data["os"]
+data["castillan ancien"] = data["osp"]
+data["vieil espagnol"] = data["osp"]
+data["vieux saxon"] = data["osx"]
+data["vieux bas allemand"] = data["osx"]
+data["turc ottoman"] = data["ota"]
+data["vieux-turc"] = data["otk"]
+data["vieux turc"] = data["otk"]
+data["outaouais"] = data["otw"]
+data["vieux gallois"] = data["owl"]
+-- p
+data["panjabi"] = data["pa"]
+data["panjābī"] = data["pa"]
+data["pendjabi"] = data["pa"]
+data["penjabi"] = data["pa"]
+data["penjābī"] = data["pa"]
+data["pampangan"] = data["pam"]
+data["papiamento"] = data["pap"]
+data["pangasinan"] = data["pag"]
+data["paluan"] = data["pau"]
+data["picard"] = data["pcd"]
+data["allemand de pennsylvanie"] = data["pdc"]
+data["pennsilfaanisch"] = data["pdc"]
+data["palatin"] = data["pfl"]
+data["phénicien"] = data["phn"]
+data["pali"] = data["pi"]
+data["norfolk"] = data["pih"]
+data["norfuk"] = data["pih"]
+data["polonais"] = data["pl"]
+data["polish"] = data["pl"]
+data["piémontais"] = data["pms"]
+data["panjabi occidental"] = data["pnb"]
+data["panjābī occidental"] = data["pnb"]
+data["pendjabi occidental"] = data["pnb"]
+data["penjabi occidental"] = data["pnb"]
+data["penjābī occidental"] = data["pnb"]
+data["grec pontique"] = data["pnt"]
+data["pohnpei"] = data["pon"]
+data["vieux-prussien"] = data["prg"]
+data["vieux prussien"] = data["prg"]
+data["parauk"] = data["prk"]
+-- data["wa"] = data["prk"]         en conflit avec le wallon
+data["ancien occitan"] = data["pro"]
+data["dari"] = data["prs"]
+data["pachto"] = data["ps"]
+data["portugais"] = data["pt"]
+data["portuguese"] = data["pt"]
+data["puinave"] = data["pui"]
+-- q
+data["quechua"] = data["qu"]
+data["ayacucho quechua"] = data["quy"]
+data["cusco quechua "] = data["quz"]
+data["quenya"] = data["qya"]
+-- r
+data["rapanui"] = data["rap"]
+data["maori des îles cook"] = data["rar"]
+data["maori des iles cook"] = data["rar"]
+data["allemand de la Ruhr"] = data["rde"]
+data["romagnol"] = data["rgl"]
+data["rohingya "] = data["rhg"]
+data["rifain"] = data["rif"]
+data["romanche"] = data["rm"]
+data["rhéto-roman"] = data["rm"]
+data["romani"] = data["rmy"]
+data["rom"] = data["rmy"]
+data["kirundi"] = data["rn"]
+data["run"] = data["rn"]
+data["roumain"] = data["ro"]
+data["mo"] = data["ro"]
+data["moldave"] = data["ro"] -- le code mo existe pour le moldave mais est erroné (mo-Wikipédia est la wikipédia en moldave mais a été fermée)
+data["langues romanes"] = data["roa"]
+data["tarentin"] = data["roa-tara"]
+data["russe"] = data["ru"]
+data["russian"] = data["ru"]
+data["rusyn"] = data["rue"]
+data["aroumain"] = data["rup"]
+data["istro-roumain"] = data["ruo"]
+data["istrien"] = data["ruo"]
+data["valaque d’istrie"] = data["ruo"]
+data["roa-rup"] = data["rup"]
+data["kinyarwanda"] = data["rw"]
+data["okinawaïen"] = data["ryu"]
+-- s
+data["sanskrit"] = data["sa"]
+data["iakoute"] = data["sah"]
+data["sarde"] = data["sc"]
+data["srd"] = data["sc"]
+data["sicilien"] = data["scn"]
+data["scots"] = data["sco"]
+data["sindhi"] = data["sd"]
+data["same du Nord"] = data["se"] 
+data["langues sémitiques"] = data["sem"]
+data["koroboro senni"] = data["ses"]
+data["koyra senni"] = data["ses"]
+data["koyraboro senni songhaï"] = data["ses"]
+data["koyraboro senni songhai"] = data["ses"]
+data["koyraboro senni"] = data["ses"]
+data["songhaï de l'est"] = data["ses"]
+data["songhai de l'est"] = data["ses"]
+data["sango"] = data["sg"]
+data["vieil irlandais"] = data["sga"]
+data["samogitien"] = data["sgs"]
+data["serbo-croate"] = data["sh"]
+data["shilluk"] = data["shk"]
+data["chleuh"] = data["shi"]
+data["tachelhit"] = data["shi"]
+data["chelha"] = data["shi"]
+data["shan"] = data["shn"]
+data["chaoui"] = data["shy"]
+data["cingalais"] = data["si"]
+data["simple english"] = data["simple"]
+data["sindarin"] = data["sjn"]
+data["slovaque"] = data["sk"]
+data["slovène"] = data["sl"]
+data["langues slaves"] = data["sla"]
+data["samoan"] = data["sm"]
+data["same"] = data["smi"]
+data["shona"] = data["sn"]
+data["soninké"] = data["snk"]
+data["somali"] = data["so"]
+data["sonsorolais"] = data["sov"]
+data["albanais"] = data["sq"]
+data["frison oriental"] = data["stq"]
+data["serbe"] = data["sr"]
+data["sranan"] = data["srn"]
+data["sranan tongo"] = data["srn"]
+data["monténégrin"] = data["sr-me"]
+data["swati"] = data["ss"]
+data["sotho du sud"] = data["st"]
+data["sot"] = data["st"]
+data["frison oriental"] = data["stq"]
+data["soundanais"] = data["su"]
+data["sondonésien"] = data["su"]
+data["sumérien"] = data["sux"]
+data["suédois"] = data["sv"]
+data["swedish"] = data["sv"]
+data["swahili"] = data["sw"]
+data["haut-saxon"] = data["sxu"]
+data["syriaque classique"] = data["syc"]
+data["sylheti"] = data["syl"]
+data["syriaque"] = data["syr"]
+data["silésien"] = data["szl"]
+-- t
+data["tamoul"] = data["ta"]
+data["tagabili"] = data["tbl"]
+data["tboli"] = data["tbl"]
+data["t'boli"] = data["tbl"]
+data["toulou"] = data["tcy"]
+data["tulu"] = data["tcy"]
+data["télougou"] = data["te"]
+data["tétoum"] = data["tet"]
+data["dena'in"] = data["tfn"]
+data["tanaina"] = data["tfn"]
+data["tadjik"] = data["tg"]
+data["thaï"] = data["th"]
+data["thai"] = data["th"]
+data["tigrinya"] = data["ti"]
+data["turkmène"] = data["tk"]
+data["tagalog"] = data["tl"]
+data["klingon"] = data["tlh"]
+data["tlingit"] = data["tli"]
+data["touareg"] = data["tmh"]
+data["tamacheq"] = data["tmh"]
+data["judéo-araméen babylonien"] = data["tmr"]
+data["tswana"] = data["tn"]
+data["tonguien"] = data["to"]
+data["tok pisin"] = data["tpi"]
+data["tupinambá"] = data["tpn"]
+data["tupinamba"] = data["tpn"]
+data["turc"] = data["tr"]
+data["langues turques"] = data["trk"]
+data["tsonga"] = data["ts"]
+data["tausug"] = data["tsg"]
+data["tsou"] = data["tsu"]
+data["p'urhépecha"] = data["tsz"]
+data["tarasque"] = data["tsz"]
+data["tatar"] = data["tt"]
+data["tunica"] = data["tun"]
+data["langues altaïques"] = data["tut"]
+data["tuvaluan"] = data["tvl"]
+data["twi"] = data["tw"]
+data["koutchéen"] = data["txb"]
+data["tokharien b"] = data["txb"]
+data["tokharien occidental"] = data["txb"]
+data["tahitien"] = data["ty"]
+data["touvain"] = data["tyv"]
+data["tamazight du maroc central"] = data["tzm"]
+data["braber"] = data["tzm"]
+data["tzotzil"] = data["tzo"]
+-- u
+data["oudmourte"] = data["udm"]
+data["ouïghour"] = data["ug"]
+data["ougaritique"] = data["uga"]
+data["damal"] = data["uhn"]
+data["ukrainien"] = data["uk"]
+data["ourdou"] = data["ur"]
+data["ouzbek"] = data["uz"]
+-- v
+data["venda"] = data["ve"]
+data["vénitien"] = data["vec"]
+data["vepse"] = data["vep"]
+data["vietnamien"] = data["vi"]
+data["flamand occidental"] = data["vls"]
+data["volapük"] = data["vo"]
+data["võro"] = data["vro"]
+data["fiu-vro"] = data["vro"]
+-- w
+data["wallon"] = data["wa"]
+data["waray-waray"] = data["war"]
+data["sorabe"] = data["wen"]
+data["moyen gallois"] = data["wlm"]
+data["wallisien"] = data["wls"]
+data["wolof"] = data["wo"]
+data["woléaïen"] = data["woe"]
+data["wu"] = data["wuu"]
+-- x
+data["kalmouk"] = data["xal"]
+data["moyen breton"] = data["xbm"]
+data["arménien classique"] = data["xcl"]
+data["arménien ancien"] = data["xcl"]
+data["grabar"] = data["xcl"]
+data["krapar"] = data["xcl"]
+data["curonien"] = data["xcu"]
+data["xhosa"] = data["xh"]
+data["louvite"] = data["xlu"]
+data["mégrélien"] = data["xmf"]
+data["mingrélien"] = data["xmf"]
+data["anglo-normand"] = data["xno"]
+data["agnéen"] = data["xto"]
+data["tokharien A"] = data["xto"]
+data["tokharien"] = data["xto"]
+-- y
+data["yakama"] = data["yak"]
+data["yakima"] = data["yak"]
+data["yap"] = data["yap"]
+data["ji"] = data["yi"]
+data["yiddish"] = data["yi"]
+data["yoruba"] = data["yo"]
+data["langues yupik"] = data["ypk"]
+data["maya yucatèque"] = data["yua"]
+data["cantonais"] = data["yue"]
+data["zh-yue"] = data["yue"]
+data["langues yumanes du nord"] = data["yuf"]
+data["havasupai"] = data["yuf"]
+data["walapai"] = data["yuf"]
+data["yavapai"] = data["yuf"]
+-- z
+data["zhuang"] = data["za"]
+data["zélandais"] = data["zea"]
+data["chinois"] = data["zh"]
+data["hui"] = data["zh"]
+data["chinese"] = data["zh"]
+data["chinois de chine continentale"] = data["zh-cn"]
+data["chinois de hong kong"] = data["zh-hk"]
+data["chinois de macao"] = data["zh-mo"]
+data["chinois de singapour"] = data["zh-sg"]
+data["chinois de taïwan"] = data["zh-tw"]
+data["chinois simplifié"] = data["zh-hans"]
+data["chinois traditionnel"] = data["zh-hant"]
+data["pinyin"] = data["zh-latn"]
+data["langues slaves méridionales"] = data["zls"]
+data["malaisien"] = data["zsm"]
+data["zoulou"] = data["zu"]
+data["diq"] = data["zza"]   -- diq.Wikipédia, en zazaki
+data["zazaki"] = data["zza"]
+data["zz"] = data["zza"]     --ajouté pour des raisons d'erreur précédente sur wiki. à supprimer dans "un certain temps".
+
+-- -------------------------------------------------------------------------------- --
+--   liste des étiquettes d'écritures (script subtag) s'écrivant de droite à gauche   --
+-- -------------------------------------------------------------------------------- --
+data["rtl script"] = { 
+    Arab = true, 
+    Armi = true, 
+    Avst = true, 
+    Cprt = true, 
+    Hebr = true, 
+    Khar = true, 
+    Lydi = true, 
+    Mand = true, 
+    Nkoo = true, 
+    Orkh = true, 
+    Phli = true, 
+    Phlp = true, 
+    Phlv = true, 
+    Phnx = true, 
+    Prti = true, 
+    Samr = true, 
+    Sarb = true, 
+    Syrc = true, 
+    Syre = true, 
+    Syrj = true, 
+    Syrn = true, 
+    Thaa = true, 
+}
+
+return data

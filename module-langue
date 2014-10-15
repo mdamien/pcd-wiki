@@ -1,0 +1,457 @@
+local Langue = { }
+
+-- Chargement de la base de données des langues avec gestion d'erreur.
+local dataLangue
+local success, resultat = pcall (mw.loadData, 'Module:Langue/Data' )
+if success then
+    dataLangue = resultat
+else
+    -- Base de données a minima en cas de bug sur le Module:Langue/Data
+    dataLangue = { en = { code = 'en', nom = anglais }, 
+        fr = { code = 'fr', nom = 'français' },
+        de = { code = 'de', nom = 'allemand' }, 
+        es = { code = 'es', nom = 'espagnol' },
+        it = { code = 'it', nom = 'italien'  }, 
+        la = { code = 'la', nom = 'latin'    },
+        ['rtl script'] = { Arab = true } 
+    }
+    dataLangue.anglais = dataLangue.en
+    dataLangue['français'] = dataLangue.fr
+    dataLangue.allemand = dataLangue.de
+    dataLangue.espagnol = dataLangue.es
+    dataLangue.italien = dataLangue.it
+end
+
+-- premierParametre renvoie le premier paramètre de Frame, que celui-ci ait été passé au module par invoke, directement au modèle, 
+-- ou à l'intérieur d'un module sous forme de string dans un tableau ou directement de string.
+-- Si aucun de ces arguments ne contient de chaîne, la fonction renvoie nil.
+-- Si le deuxième paramètre est true, la chaîne est renvoyée trimée et en minuscules.
+local function premierParametre( frame, lowerCase )
+    local arg
+    if type( frame ) == 'table' then
+        arg = ( frame.getParent and ( frame.args[1] or frame:getParent().args[1] ) ) or frame[1]
+    elseif type( frame ) == 'string' then
+        arg = frame
+    end
+    if type( arg ) ~= 'string' then
+        arg = nil
+    end
+    if arg and lowerCase then
+        arg = mw.ustring.lower( mw.text.trim ( arg ) )
+    end
+    return arg
+end
+
+-- determinationCode retourne une table contenant le code de langue principal et la liste des subcode
+-- si le code de langue principal n'est pas reconnu, retourne nil.
+function Langue.determinationCode( langue )
+	if type( langue ) == 'string' and langue ~= '' then
+		local tabCode = mw.text.split( langue, '-' )
+		local tabLangue = dataLangue[ mw.ustring.lower( tabCode[1] ) ]
+		if tabLangue and tabLangue.code then
+			tabCode[1] = tabLangue.code
+			if tabLangue.invalide then
+				tabCode.invalide=true
+			end
+	        return tabCode
+	    end
+	end
+end
+
+-- Voir Modèle:Code langue
+-- Paramètre : 
+--     1  : nom de langue.
+function Langue.codeLangue( frame )
+    local arg = premierParametre( frame, true )
+    local tabCode = Langue.determinationCode( arg )
+    return ( tabCode and table.concat( tabCode, '-' ) ) or arg or ''
+end
+
+-- Voir Modèle:Code langue 2
+-- Paramètre : 
+--     1  : nom de langue.
+function Langue.codeLangue2( frame )
+    local arg = premierParametre( frame, true )
+    local tabCode = Langue.determinationCode( arg )
+    return ( tabCode and table.concat( tabCode, '-' ) ) or ''
+end
+
+
+-- Voir Modèle:Direction langue
+-- Paramètre : 
+--     1  : nom de langue ou code IETF.
+function Langue.directionLangue( frame )
+    local arg = premierParametre( frame, true )
+    if type( arg ) ~= 'string' or arg == '' then
+        return 'ltr'
+    end
+    -- séparation du code de langue en code principal et les différents subcode.
+    local tabCode = Langue.determinationCode( arg )
+    if tabCode then
+    	-- on essaye de savoir si la direction est de droite à gauche
+    	local codeScript = tabCode[2]
+    	if codeScript and string.len( codeScript ) == 4 and dataLangue[ 'rtl script' ] then
+    		-- il y a un subcode d'écritrure, c'est lui qui est pris en compte
+			codeScript = string.upper( string.sub( codeScript, 1, 1 ) ) .. string.sub( codeScript, 2 )
+	        if dataLangue[ 'rtl script' ][ codeScript ] then
+	            return 'rtl'
+	        end
+	    else
+	    	-- il n'y a pas de sub-code d'écriture, on prend en compte le code de langue principal.
+	    	local tabLangue = dataLangue[ tabCode[1] ]
+	    	if tabLangue and tabLangue.rtl then
+                return 'rtl' 
+            end
+    	end
+    end
+    
+    -- la langue n'est pas écrite de droite à gauche, donc ltr.
+    return 'ltr'
+end
+
+
+-- Voir Modèle:Nom langue
+-- Paramètre : 
+--     1  : code IETF de langue.
+function Langue.nomLangue( frame )
+    local arg = premierParametre( frame, true )
+    if type( arg ) ~= 'string' or arg == '' then 
+        return '<span style="color:red">langue non précisée</span>'
+    end
+    local tabLangue = dataLangue[ arg ]
+    if tabLangue == nil then
+        tabLangue = dataLangue[ mw.ustring.match( arg, '^(%a-)%-' ) ]
+    end
+    if tabLangue then
+        local nom
+        if type( tabLangue.page ) == 'string' then
+            nom = tabLangue.page .. '|' .. tabLangue.nom
+        else
+            nom = tabLangue.nom
+        end
+        return '[[' .. nom .. ']]'
+    else
+        return '<span style="color:red;">langue non reconnue : ' .. arg .. ' </span>'
+    end
+end
+
+
+-- Voir Modèle:Lang
+-- Paramètres :
+--    1 : code IETF de langue ;
+--    texte ou 2 : texte dans cette langue ;
+--    trans : translittération du texte ;
+--    dir : direction de la langue (obsolète : peut être en paramètre 1, avec code en 2 et texte en 3).
+function Langue.lang( frame )
+    local args = ( frame.getParent and frame:getParent().args ) or frame or { }         -- préparation pour appel par modèle ou direct.
+    local code = mw.ustring.lower( mw.text.trim( args[1] or '' ) )
+    local texte = args.texte or ''
+    if texte == '' then
+        texte = args[2] or ''
+    end
+    local dir = args.dir
+    local trans = args.trans
+    
+    -- Décalage des paramètres si code contient la direction du texte (obsolète mais toujours possible).
+    if code == 'ltr' or code == 'rtl' then
+        dir = code
+        code = mw.ustring.lower( mw.text.trim( args[2] ) or '' )
+        texte = args[3] or ''
+    end
+    local codeArg = code
+    
+    -- Si la langue est reconnue, la valeur de la table est prise en compte (permet de corriger les noms de langue en toutes lettres). 
+    local tabCode = Langue.determinationCode( code )
+    local tabLangue
+    if tabCode then
+    	code = table.concat( tabCode, '-' )
+    	tabLangue = dataLangue[ tabCode[1] ]
+    	
+    	local codeScript = tabCode[2]
+    	-- Si codeScript est bien un style d'écriture (len = 4) on applique sa direction
+        if codeScript and  string.len( codeScript ) == 4 and dataLangue[ 'rtl script' ] then
+        	-- formatage type Latn correspondant au fromat dans dataLangue[ 'rtl script' ]
+            codeScript = string.upper( string.sub(  codeScript, 1, 1 ) ) .. string.sub(  codeScript, 2 )
+            tabLangue = { code = tabLangue.code,
+                rtl = dataLangue[ 'rtl script' ][ codeScript ],
+                invalide = tabLangue.invalide
+            }
+        end
+    end
+    	
+    -- Prépatation du rendu de direction du texte.
+    dir = mw.ustring.lower(dir or '')
+    if dir == 'ltr' or dir == 'rtl' then
+        dir = ' dir=' .. dir
+    else
+        dir = (tabLangue and tabLangue.rtl and ' dir=rtl') or ''
+    end
+
+    -- Translittération.
+    if trans and trans ~= '' then
+        trans = ' (<span class="lang-' .. code .. ' transcription" lang="' .. code .. '-Latn"'
+            .. ' dir="ltr">' .. trans .. '</span>)'
+    else
+        trans = ''
+    end
+
+    -- Compilation du texte à retourner.
+    local wikiText = ''
+    if code == '' then
+        wikiText = texte
+    else
+        wikiText = '<span class="lang-' .. code .. '" lang="' .. code .. '"'
+             .. dir .. '>' .. texte .. '</span>' .. trans
+    end
+
+    -- Ajout de la catégorie Page avec code de langue invalide si le code langue non reconnu ou invalide.
+    if success and ( type( tabLangue ) ~= 'table' or tabCode.invalide ) then
+        local namespaceCategorisation = { [0] = true, [4] = true, [10] = true, [14] = true, [100] = true }
+        if namespaceCategorisation[ mw.title.getCurrentTitle().namespace ] then
+        	if codeArg == '' then
+        		codeArg = ' ' 	-- sinon la catégorie n'est pas wikifiée
+			end
+            wikiText = wikiText .. '[[Catégorie:Page avec code de langue invalide|' .. codeArg .. ']]'
+            wikiText = wikiText .. '<small><span class="error">\'' .. (codeArg or "<vide>") .. '\' erroné (lang)</span></small>'
+        end
+    end
+
+    return wikiText
+end
+
+-- Voir Modèle:Langue
+-- Paramètres :
+--    1 : nom de langue ou code IETF ;
+--    texte ou 2 : texte dans cette langue ;
+--    trans : translitération du texte ;
+--    dir : direction de la langue.
+function Langue.langue( frame )
+    return Langue.lang( frame )
+end
+
+
+-- Voir Modèle:Indication de langue
+-- Paramètres :
+--    1 : nom de langue ;
+--    2 : code IETF ;
+--    texte : texte dans cette langue ;
+--    dir : direction de la langue.
+function Langue.indicationDeLangue( frame )
+    local args = ( frame.getParent and frame:getParent().args ) or frame or { }
+    local nomLangue = args[1] or ''
+    local code = args.langue or mw.text.trim( args[2] or '' )
+    local texte = args.texte
+    local dir = args.dir
+    local wikiText = ''
+    -- Cas où le premier et/ou le deuxième paramètre est vide.
+    if code .. nomLangue == '' then
+        return texte
+    elseif nomLangue == '' then
+        nomLangue = dataLangue[ mw.ustring.lower( code ) ]
+        nomLangue = (nomLangue and nomLangue.nom or '???')
+    elseif code == '' then
+        code = dataLangue[ nomLangue ]
+        code = ( code and code.code or '' )
+        if code == '' then
+            return texte
+        end
+    end
+    -- Gestion du texte.
+    if texte and texte ~= '' then
+        texte = '&nbsp;' .. Langue.lang{ code, dir = dir, texte = texte }
+    else
+        texte = ''
+    end
+    -- Compilation de l'indicateur de langue et du texte.
+    wikiText = '<span class="indicateur-langue">(<abbr class="abbr" title="Langue : '
+        .. nomLangue .. '">'
+        .. code .. '</abbr>)</span>'
+        .. texte
+    return wikiText
+end
+
+
+-- Voir Modèle:Multiling
+-- Paramètres : codes IETF ou noms de langue, en nombre indéfini (string ou nil uniquement).
+function Langue.indicationMultilingue( frame )
+    local args = (frame.getParent and frame:getParent().args) or frame
+    local listeNom = { }
+    local listeCode = { }
+    local tabLangue
+    -- Valeur par défaut du premier paramètre = 'mul'.
+    local code = mw.text.trim( args[1] or '' )
+    if code == '' then
+        code = 'mul'
+    end
+    
+    -- Ajout des noms et codes de langue de chaque paramètre dans listeNom et ListeCode.
+    local i = 1
+    repeat
+    	code = mw.text.split( code, '-' )[1]
+        tabLangue = dataLangue[ mw.ustring.lower( code ) ]
+        if type( tabLangue ) == 'table' then
+            table.insert( listeNom, tabLangue.nom )
+            table.insert( listeCode, tabLangue.code )
+        else
+            table.insert( listeNom, '???' )
+            local erreur = ' <span style="color:red; font-size:120%;">langue non reconnue : ' 
+                .. code .. ' </span>'
+            table.insert( listeCode, erreur )
+        end
+        i = i+1
+        code = mw.text.trim( args[i] or '' )
+    until code == ''
+    
+    -- Préparation et renvoi du texte.
+    local n = #listeCode
+    local pluriel = ''
+    if n == 0 then
+        return ''
+    elseif n > 1 then
+        pluriel = 's'
+    end
+    
+    local wikiText = '<span class="indicateur-langue">(<abbr class="abbr" title="Langue' .. pluriel .. ' : '
+        .. mw.text.listToText( listeNom ) .. '">'
+        .. table.concat( listeCode, '+' ) .. '</abbr>)</span>'
+        
+    return wikiText
+end
+
+
+-- Voir Modèle:Langue avec nom
+-- Paramètres :
+--    1 : code IETF de langue ;
+--    texte ou 2 : texte dans cette langue ;
+--    trans : translittération du texte ;
+--    dir : direction de la langue.
+function Langue.langueAvecNom( frame )
+    local args = ( frame.getParent and frame:getParent().args ) or frame or { }
+    local code = mw.ustring.lower( mw.text.trim( args [1] or '') )
+    local texte = args.texte or args[2] or ''
+    local trans = args.trans
+    local dir = args.dir
+    local wikiText = ''
+
+    -- Détection de la direction du texte.
+    if code == 'ltr' or code == 'rtl' then
+        dir = code
+        code = mw.ustring.lower( mw.text.trim( args[2] ) )
+        texte = args[3] or ''
+    end
+
+    -- Définition du nom de la langue en français.
+    local nom = Langue.nomLangue{ code }
+
+    if texte ~= '' then
+        texte = '&nbsp;' .. Langue.lang{ code, dir = dir, texte = texte, trans = trans }
+    end
+
+    wikiText = nom .. ' :' .. texte
+
+    return wikiText
+end
+
+
+-- erreurModuleData affiche un message d'erreur si le Module:Langue/Data n'a pas été chargé correctement,
+-- pour la page de discussion de la base de données et ceux qui veulent surveiller cette page.
+function Langue.erreurModuleData()
+    if success == false then 
+        local message = [[<strong class="error">Le chargement du module Langue/Data génère une erreur : </strong> <br />%s <br />
+
+<span class="error">Cette erreur doit être corrigée au plus vite car des milliers de pages ne s'affichent pas correctement.</span>
+]]
+        return string.format( message, resultat )
+    end
+end
+
+-- tableauLangues génère un tableau triable de la liste des langues disponible dans Module:langue/Data.
+function Langue.tableauLangues()
+    if type( dataLangue ) ~= 'table' then
+        return
+    end
+
+    local tableau = { } 
+    local entete = [[{| class="wikitable alternance sortable"
+|-
+!scope=col|Alias
+!scope=col|Code IETF
+!scope=col|Nom principal
+!scope=col|Page (si différente du nom)
+!scope=col|RTL
+!scope=col|Invalide]]
+
+    local ligneTab, ligneSrt
+    for i, v in pairs( dataLangue ) do
+        if v.code then
+            ligneTab = {
+                i,
+                v.code,
+                v.nom,
+                v.page or '',
+                v.rtl and '[[Image:Yes check.svg|15px|oui|lien=]]' or '',
+                v.invalide and '[[Image:Yes check.svg|15px|oui|lien=]]' or '',
+            }
+            ligneSrt = table.concat( ligneTab, '\n|' )
+            table.insert( tableau, ligneSrt )
+        end
+    end   
+    table.sort( tableau )
+    table.insert( tableau, 1, entete )
+    table.insert( tableau, '}' )
+    
+    return table.concat( tableau, '\n|-\n|' )
+end
+
+-- listeCodeAlias génère une liste ; les langues sont la forme : * code : alias1, alias2
+function Langue.listeCodeAlias ()
+    if type( dataLangue ) ~= 'table' then
+        return
+    end
+    local languesTab, listeCodesAlias = { }, { }
+    local code, alias, codeAlias
+    for i, v in pairs( dataLangue ) do
+        -- on construit un table avec pour indices les codes de langue, et pour valeurs une table avec la liste des alias
+        code = v.code
+        if code then  
+            languesTab[code] = languesTab[code] or { }
+            if i ~= mw.ustring.lower( code ) then
+                table.insert( languesTab[code], i )
+            end
+        end
+    end
+    for i, v in pairs( languesTab ) do
+        -- transformation en un table séquence, avec pour valeur une chaîne correspondant à une ligne de la liste
+        alias = table.concat( v, ', ' )
+        if alias == '' then
+            codeAlias = '\n* <code>' .. i .. '</code>'
+        else
+            codeAlias = '\n* <code>' .. i .. '</code> : ' .. alias
+        end
+        table.insert( listeCodesAlias, codeAlias )
+    end
+    table.sort( listeCodesAlias )
+   
+    return table.concat( listeCodesAlias )
+end
+
+-- listeCodeAlias génère une liste ; les langues sont la forme : * code : alias1, alias2
+function Langue.listeAliasCode ()
+    if type( dataLangue ) ~= 'table' then
+        return
+    end
+    local languesTab = { '' }
+    local code
+    for i, v in pairs( dataLangue ) do
+        -- on construit un table avec pour indices les codes de langue, et pour valeurs une table avec la liste des alias
+        code = v.code
+        if code and i ~= code then  
+            table.insert( languesTab, i .. ' = ' .. code )
+        end
+    end
+    table.sort( languesTab )
+   
+    return table.concat( languesTab, '\n*' )
+end
+
+return Langue

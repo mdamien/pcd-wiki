@@ -1,0 +1,97 @@
+--Module appliquant aux fonctions de la librairie Table une inteface fluide.
+
+local meta = {
+
+    insert = function ( t, ... )
+        table.insert( t, ... )
+        return t
+    end,
+    
+    remove = function ( t, ... )
+        table.remove( t, ... )
+        return t
+    end,
+    
+    sort = function ( t, ... )
+        table.sort( t, ... )
+        return t
+    end,
+    
+    maxn = function ( t )
+        return table.maxn( t )
+    end,
+    
+    concat = function ( t, ... )
+        return table.concat( t, ... )
+    end,
+    
+    minsert = function( t, ... )
+        local sel
+        for i = 1, select( '#', ... ) do
+            sel = select( i, ... )
+            if sel then
+                table.insert( t, sel )
+            end
+        end
+        return t
+    end,
+    
+    tinsert = function( t, tab, first, last )
+        if type( tab ) == 'table' then
+            for i = ( tonumber( first ) or 1 ), ( tonumber( last ) or #tab ) do
+                table.insert( t, tab[i] )
+            end
+        end
+        return t
+    end,
+}   
+
+meta.__index = function ( t, key ) 
+    local metafunc = meta[key]
+    if type( metafunc ) == 'function' then
+        return function ( ... ) return metafunc( t, ... ) end
+    end
+end
+        
+-- fin des fonctions de la meta-table
+
+
+local TableBuilder = {
+    new = function( ... )
+        local t = { ... }
+        setmetatable( t, meta )
+        return t
+    end,
+    
+    set = function( t )
+        if type( t ) == 'table' then
+            setmetatable( t, meta )
+        end
+        return t
+    end,
+
+    clone = function ( t )
+        local tableRefs = { }
+        local function recursiveClone( val )
+            if type( val ) == 'table' then
+                -- Encode circular references correctly
+                if tableRefs[val] ~= nil then
+                    return tableRefs[val]
+                end
+    
+                local retVal = { }
+                tableRefs[val] = setmetatable( retVal, meta )
+    
+                for key, elt in pairs( val ) do
+                    retVal[key] = recursiveClone( elt )
+                end
+                return retVal
+            else
+                return val
+            end
+        end
+        return recursiveClone( t )
+    end,
+}
+
+return TableBuilder

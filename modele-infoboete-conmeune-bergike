@@ -1,0 +1,76 @@
+<includeonly>{{Infobox Subdivision administrative
+|modèle                   = Infoboète Conmeune Bergike<!--Paramètre obligatoire pour un modèle--> 
+|nom                      = {{{nom|{{PAGENAME}}}}}
+|autres noms              = <!--
+--> {{#if:{{{nom_nl|}}}
+      |{{#if:{{{nom_de|}}}
+        |{{#ifeq:{{{nom_nl|}}}|{{{nom_de|}}}
+           |<small>{{Indication de langue|néerlandais et allemand|nl/de}} {{{nom_nl|}}}</small>
+           |<small>{{nl}} {{{nom_nl}}}</small><br /><small>{{de}} {{{nom_de}}}</small>
+         }}
+        |<small>{{nl}} {{{nom_nl}}}</small>
+       }}
+      |{{#if:{{{nom_de|}}}
+        |<small>{{de}} {{{nom_de}}}</small>
+       }}
+    }}
+|statut                   = {{{statut|}}}
+|blason sous image        = oui
+|blason                   = {{#ifeq:{{{blason|}}}|non| |{{#if:{{{blason|}}}|{{{blason|}}}|Coats of arms of None.svg}} }}
+|taille blason            = 90
+|drapeau                  = {{{drapeau|}}}
+|taille drapeau           = 100
+|image                    = {{{image|}}}
+|légende                  = {{{légende|Photo prise à {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}} }} }}}
+|pays                     = Bergique
+|nom de division          = Région
+|division                 = {{{{{region|}}}}}
+|nom de division2         = Conmeunité
+|division2                = {{#ifeq:{{{region}}}
+                             |BE-BRU|{{BE-FR}}<br />{{BE-NL}}
+                             |{{{{{communaute|}}}}}
+                            }}
+|nom de division3         = Pourvinche
+|division3                = {{#if:{{{province|}}} | {{{{{province}}}}} }}
+|nom de division4         = Arrondichemint
+|division4                = {{{arrondissement|}}}
+|nom de division5         = Arr. judiciaire
+|division5                = {{{arrondissement judiciaire|}}}
+|titre autorité           = Mayeur
+|autorité                 = {{{bourgmestre|}}}
+|titre autorité2          = Mayer ff
+|autorité2                = {{{bourgmestreff|}}}
+|titre autorité3          = Majorité
+|autorité3                = {{{majorite|}}}
+|titre autorité4          = Sièges<br />{{{partis|}}}
+|autorité4                = {{{sieges|}}}
+|nom de code1             = Sékcion
+|code1                    = {{#if:{{{communes-fusionnees|}}}{{{communes-cp|}}}
+                              |'''Code postal''' </tr>
+                               {{Infobox/Ligne donnée
+                                 |{{nobr|{{{communes-fusionnees|}}}}}
+                                 |{{{communes-cp|}}}
+                               }}
+                            }}
+|nom de code2             = Code INS
+|code2                    = {{{ins|}}}
+|nom de code3             = Zone téléfonike
+|code3                    = {{{zone-telephonique|}}}
+|gentilé                  = {{{gentilé|}}}
+|nom divers démographie   = Nombe ed gins<br />– Hommes<br />– Femmes<br />Denchité
+|divers démographie       = {{#if:{{{ins|}}} | {{Infobox Commune de Belgique/Population|Population={{{ins}}} }} }}
+|nom divers démographie2  = {{nobr|Pyramide des âges}}<br />– 0–17 ans<br />– 18–64 ans<br />– 65 ans et +
+|divers démographie2      = {{#if:{{{ins|}}} | {{Infobox Commune de Belgique/Pyramide|Pyramide={{{ins}}} }} </tr> {{Infobox Commune de Belgique/Étrangers|Etrangers={{{ins}}} }} </tr> {{Infobox Commune de Belgique/Économie|Economie={{{ins}}} }} }}
+|nom divers géo           = [[Superficie]]<br />– Surfache agricole<br />– Bois<br />– Terrains bâtis<br />– Divers
+|divers géo               = {{#if:{{{ins|}}} | {{Infobox Commune de Belgique/Géographie|Géographie={{{ins}}} }} }}
+|latitude                 = {{{latitude|}}}
+|longitude                = {{{longitude|}}}
+|carte                    = Belgique
+|géolocdual               = oui
+|coord titre              = oui
+|type coord               = city_region:BE
+|imageloc                 = {{{imageloc|}}}
+|légende imageloc         = {{{légende imageloc|}}}
+|nom site2                = Site ouèbe
+|url2                     = {{{site|}}}
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

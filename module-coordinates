@@ -1,0 +1,930 @@
+local math_mod = require( "Module:Math" )
+local p = {}
+
+--Chargement de la liste En/Au/Aux/A
+local gdata
+local success, resultat = pcall (mw.loadData, "Module:Drapeau/Data" )
+if success then
+    gdata = resultat
+else
+    -- Banque de données à minima en cas de bogue dans le Module:Langue/Data
+    gdata={}
+    gdata.data={};
+    gdata.data[142]={qid="Q142", label="France", genre="fs"}
+end
+
+local i18n = {
+	N = ' N',
+	Nlong = ' Nord',
+	W = ' O',
+	Wlong = ' Ouest',
+	E = ' E',
+	Elong = ' Est',
+	S = ' S',
+	Slong = ' Sud',
+	degrees = '° ',
+	minutes = '\′ ',
+	seconds = '″ ',
+	geohackurl = 'http://tools.wmflabs.org/geohack/geohack.php?language=fr',
+	tooltip = 'Cartes, vues aériennes, etc.',
+	errorcat = 'Page avec des balises de coordonnées mal formées',
+	sameaswikidata = 'Page avec coordonnées similaires sur Wikidata',
+	notaswikidata = 'Page avec coordonnées différentes sur Wikidata',
+	nowikidata = 'Page sans coordonnées Wikidata',
+	throughwikidata = 'Page géolocalisée par Wikidata'
+}
+--Aide:Fonction_genre
+local genre={
+ ms=  {le="le " ,du="du "   ,de="du "   ,au="au "   ,en="au "}
+,msa= {le="l'"	,du="de l'"	,de="d'"	,au="à l'"	,en="en "}
+,msi= {le=""    ,du="de "	,de="de "	,au="à "	,en="à "}
+,msia={le=""	,du="d'"	,de="d'"	,au="à "	,en="à "}
+,fs=  {le="la "	,du="de la ",de="de "   ,au="à la "	,en="en "}
+,fsa= {le="l'"	,du="de l'"	,de="d'"	,au="à l'"	,en="en "}
+,fsi= {le=""	,du="de "	,de="de "	,au="à "	,en="à "}
+,fsia={le=""	,du="d'"	,de="d'"	,au="à "	,en="à "}
+,mp=  {le="les ",du="des "	,de="des "	,au="aux "	,en="aux "}
+,fp=  {le="les ",du="des "	,de="des "	,au="aux "	,en="aux "}
+}
+
+local globedata = 	{
+	--[[ notes:
+		radius in kilometers (especially imprecise for non spheric bodies)
+		defaultdisplay is currently disabled, activate it ?
+	]]-- 
+	ariel = {radius = 580, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	callisto =  {radius = 2410, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	ceres =  {radius = 470, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	deimos =  {radius = 7, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	dione =  {radius = 560, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	enceladus =  {radius = 255, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	ganymede =  {radius = 1631, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	earth = {radius = 6371, defaultdisplay = 'dms', trackingcat = 'Article géolocalisé sur Terre'},
+	europa =  {radius = 1561, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	hyperion =  {radius = 140, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	iapetus =  {radius = 725, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	['io'] =  {radius = 1322, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	jupiter =  {radius = 68911, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	mars =  {radius = 3389.5, defaultdisplay = 'dec east', trackingcat =  'Article géolocalisé sur Mars' },
+	mercury =  {radius = 2439.7, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	mimas =  {radius = 197, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	miranda =  {radius = 335, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	moon =  {radius = 1736, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé sur la Lune'},
+	neptune =  {radius = 24553, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	oberon =  {radius = 761, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	phoebe =  {radius = 110, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	phobos =  {radius = 11, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	rhea =  {radius = 765, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	saturn =  {radius = 58232, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	titan =  {radius = 2575.5, defaultdisplay = 'dec west', trackingcat = 'Article géolocalisé extraterrestre'},
+	tethys =  {radius = 530, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	titania =  {radius = 394, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	triton = {radius = 1353, defaultdisplay = 'dec west', trackingcat = 'Article géolocalisé extraterrestre'},
+	umbriel =  {radius = 584, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	uranus =  {radius = 25266, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	venus =  {radius = 6051.8, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'},
+	vesta =  {radius = 260, defaultdisplay = 'dec east', trackingcat = 'Article géolocalisé extraterrestre'}
+	
+}
+
+local wikidatathreshold = 10 -- si la distance entre coordonnées Wikipédia et Wikidata dépasse se seuil (en kilomètes), une catégorie de maintenance est ajoutée
+
+local function makecat(cat, sortkey)
+	return '[[Category:' .. cat .. '|' .. (sortkey or '*') .. ']]'
+end
+
+----------------------------------------
+--Error handling
+	--[[ Notes:
+	when errors occure a new error message is concatenated to errorstring
+	an error message contains an error category with a sortkey
+	For major errors, it can also display an error message (the error message will the usually be returned and the function terminated)
+	More minor errors do only add a category, so that readers are not bothered with error texts
+	sortkeys:
+		* A: invalid latitude, longitude or direction
+		* B: invalid globe
+		* C: something wrong with other parameters
+		* D: more than one primary coord
+	]]--
+
+local errorstring = ''
+
+local function makeerror(args)
+	local errormessage = ''
+	if args.message then 
+		errormessage = '<strong class="error">Coordonnées: ' .. args.message .. '</strong>' 
+	end
+	local errorcat = ''
+	if mw.title.getCurrentTitle().namespace == 0 then 
+		errorcat = makecat(i18n.errorcat, args.sortkey)
+	end
+	errorstring = errormessage .. errorcat -- reinitializes the string to avoid absurdly long messages
+	return nil
+end
+
+local function showerrors()
+	return errorstring
+end
+
+
+
+-- Distance computation
+function p._distance(a, b, globe) -- calcule la [[distance orthodromique]] en kilomètres entre deux points du globe
+
+	globe = string.lower(globe or 'earth')
+	
+	-- check arguments and converts degreees to radians
+	local latA, latB, longA, longB = a.latitude, b.latitude, a.longitude, b.longitude
+	if (not latA) or (not latB) or (not longA) or (not longB) then return
+		error('coordinates missing, can\'t compute distance')
+	end
+	if type(latA) ~= 'number' or type(latB) ~= 'number' or type(longA) ~= 'number' or type(longB) ~= 'number' then
+		error('coordinates are not numeric, can\'t compute distance')
+	end
+		if not globe or not globedata[globe] then
+		return error('globe: ' .. globe .. 'is not supported')
+	end
+	
+	-- calcul de la distance angulaire en radians
+	local convratio = math.pi / 180 -- convertit en radians
+	latA, latB, longA, longB = convratio * latA, convratio * latB, convratio * longA, convratio * longB
+	local cosangle = math.sin(latA) * math.sin(latB) + math.cos(latA) * math.cos(latB) * math.cos(longB - longA)
+	if cosangle >= 1 then -- may be above one because of rounding errors
+		return 0
+	end
+	local angle = math.acos(cosangle)
+	-- calcul de la distance en km
+	local radius = globedata[globe].radius
+	return radius * angle
+end
+
+function p.distance(frame)
+	local args = frame.args
+	return p._distance(
+		{latitude = tonumber(args.latitude1), longitude = tonumber(args.longitude1)}, 
+		{latitude = tonumber(args.latitude2), longitude = tonumber(args.longitude2)},
+		args.globe)
+end
+
+
+
+--HTML builder for a geohack link
+local function buildHTML(decLat, decLong, dmsLat, dmsLong, globe, displayformat, displayinline, displaytitle, objectname, extraparams)
+    local root, text, url, noprint
+	extraparams = extraparams or ''
+    -- geohack url and parameters
+    local decimalcoords = p.displaydec(decLat, decLong, displayformat)
+    local geohacklatitude, geohacklongitude
+
+    -- format latitude and longitude for the URL
+    if tonumber(decLat) < 0 then
+    	geohacklatitude = tostring(-tonumber(decLat)) .. '_S'
+    else 
+    	geohacklatitude = decLat .. '_N'
+	end
+	if tonumber(decLong) < 0 then
+		geohacklongitude = tostring(-tonumber(decLong)) .. '_W'
+    else 
+    	geohacklongitude = decLong .. '_E'
+	end
+	-- prepares the 'paramss=' parameter
+	local geohackparams = geohacklatitude .. '_' .. geohacklongitude .. '_' ..extraparams
+	-- concatenate parameteres for geohack
+	local url = i18n.geohackurl .. 
+		"&pagename=" .. mw.uri.encode(mw.title.getCurrentTitle().prefixedText, "WIKI") ..
+		"&params=" .. geohackparams ..
+		(objectname and ("&title=" .. mw.uri.encode(objectname)) or "")
+
+    root = mw.html.create('')
+    root
+		:tag("span")
+			:addClass("plainlinks nourlexpansion")
+            :attr('title', i18n.tooltip)
+			:wikitext("[" .. url)
+			:tag("span")
+            	:addClass(string.sub(displayformat,1,3) == "dec" and "geo-nondefault" or "geo-default") 
+                	:tag("span")
+					:addClass("geo-dms")
+					:tag("span")
+						:addClass("latitude")
+						:wikitext(p.displaydmsdimension(dmsLat, displayformat))
+						:done()
+					:wikitext(" ")
+					:tag("span")
+						:addClass("longitude")
+						:wikitext(p.displaydmsdimension(dmsLong, displayformat))
+						:done()
+					:done()
+				:done()
+			:tag("span")
+				:addClass("geo-multi-punct")
+				:wikitext("&ensp;/&ensp;")
+				:done()
+			:tag("span")
+				:addClass(string.sub(displayformat,1,3) == 'dec' and "geo-default" or "geo-nondefault")
+				:wikitext(objectname and "<span class=\"vcard\">" or "")
+				:tag("span")
+					:addClass("geo-dec")
+					:wikitext(decimalcoords)
+					:done()
+				:wikitext(objectname and ("<span style=\"display:none\">﻿ (<span class=\"fn org\">" ..
+						objectname .. "</span>)</span></span>") or "")
+				:done()
+			:wikitext("]")
+			:done()
+
+    -- formatta il risultato a seconda di args["display"] (nil, "inline", "title", "inline,title")
+    text = tostring(root)
+
+    noprint = displayinline and "class=\"noprint\" " or ""
+    htmlTitle = "<span style=\"font-size: small;\"><span " .. noprint .. "id=\"coordinates\">" 
+
+    return (displayinline and text or "") ..
+           (displaytitle and (htmlTitle .. text .. "</span></span>") or "")
+end
+
+
+-- dms specific funcions
+
+function p.displaydmsdimension(valuetable, format) -- formate en latitude ou une longitude dms
+	local str = ''
+	local direction = valuetable.direction
+	local degrees, minutes, seconds = '', '', ''
+	local dimension
+
+	if format == 'dms long' then
+		direction = i18n[direction .. 'long']
+	else
+		direction = i18n[direction]
+	end
+	degrees = valuetable.degrees .. i18n.degrees
+	
+	if valuetable.minutes then
+		minutes = valuetable.minutes .. i18n.minutes
+		if (valuetable.minutes < 10) then
+			minutes = '0' .. minutes
+		end
+	end
+	if valuetable.seconds then
+		seconds = valuetable.seconds .. i18n.seconds
+		if (valuetable.seconds < 10) then
+			seconds = '0' .. seconds
+		end
+	end
+	return degrees .. minutes .. seconds .. direction
+end
+
+local function validdms(coordtable)
+	local direction = coordtable.direction
+	local degrees = coordtable.degrees or 0
+	local minutes = coordtable.minutes or 0
+	local seconds = coordtable.seconds or 0
+	local dimension = coordtable.dimension
+	if not dimension then
+		if direction == 'N' or direction == 'S' then
+			dimension = 'latitude'
+		elseif direction == 'E' or direction == 'W' then 
+			dimension = 'longitude'
+		else
+			makeerror({message = 'invalid direction should be "N", "S", "E" or "W"', sortkey = 'A'})
+			return false
+		end
+end
+
+	if type(degrees) ~= 'number' or type(minutes) ~= 'number' or type(seconds) ~= 'number' then
+		makeerror({message = 'invalid format', sortkey = 'A'})
+		return false
+	end
+	
+	if dimension == 'latitude' and direction ~= 'N' and direction ~= 'S' then
+		makeerror({message = 'could not find latitude direction (should be N or S)', sortkey = 'A'})
+		return false
+	end
+	if dimension == 'longitude' and direction ~= 'W' and direction ~= 'E' then
+		makeerror({message = 'could not find longitude direction (should be W or E) ', sortkey = 'A'})
+		return false
+	end
+	
+	if dimension == 'latitude' and degrees > 90 then
+		makeerror({message = 'latitude > 90', sortkey = 'A'})
+		return false
+	end
+	
+	if dimension == 'longitude' and degrees > 360 then
+		makeerror({message = 'longitude > 360', sortkey = 'A'})
+		return false
+	end
+	
+	if degrees < 0 or minutes < 0 or seconds < 0 then
+		makeerror({message = 'dms coordinates should be positive', sortkey = 'A'})
+		return false
+	end
+	
+	if minutes > 60 or seconds > 60 then
+		makeerror({message = 'minutes or seconds > 60', sortkey = 'A'})
+		return false
+	end	
+	if (math.floor(degrees) ~= degrees and minutes ~= 0) or (math.floor(minutes) ~= minutes and seconds ~= 0) then
+		makeerror({message = 'degrees and minutes should be integers', sortkey = 'A'})
+		return false
+	end
+	return true
+end
+
+local function builddmsdimension(degrees, minutes, seconds, direction)
+	-- no error checking, done in function validdms
+	local dimensionobject = {}
+
+	
+	-- direction and dimension (= latitude or longitude)
+	dimensionobject.direction = direction
+	if direction == 'N' or direction == 'S' then
+		dimensionobject.dimension = 'latitude'
+	else
+		dimensionobject.dimension = 'longitude'
+	end
+	
+	-- degrees, minutes, seconds
+	dimensionobject.degrees = tonumber(degrees)
+	dimensionobject.minutes = tonumber(minutes)
+	dimensionobject.seconds = tonumber(seconds)
+	if degrees and not dimensionobject.degrees then dimensionobject.degrees = 'error' end
+	if minutes and not dimensionobject.minutes then dimensionobject.minutes = 'error' end
+	if seconds and not dimensionobject.seconds then dimensionobject.seconds = 'error' end
+	return dimensionobject
+end
+
+local function parsedmsstring(str) -- prend une séquence et donne des noms aux paramètres 
+	-- output table: {latitude=, longitude = , direction =  }
+	if not str then
+		return nil
+	end
+	if not tonumber(str) and not string.find(str, '/') then
+		makeerror({message ='invalid coordinate format', sortkey= 'A'})
+		return nil
+	end
+	args = mw.text.split(str, '/', true)
+	if #args > 4 then
+		makeerror({message = "too many parameters for coordinates", sortkey= 'A' })
+	end	
+	local direction = mw.text.trim(args[#args])
+	table.remove(args)
+	local degrees, minutes, seconds = args[1], args[2], args[3]
+	local dimensionobject = builddmsdimension(degrees, minutes, seconds, direction)
+	if validdms(dimensionobject) then
+		return dimensionobject
+	else
+		return nil
+	end
+end
+
+--- decimal specific functions
+function p.displaydec(latitude, longitude, format)
+	if format == 'dec west' then
+		local latsymbol = i18n.N
+		longitude = - longitude
+		if latitude < 0 then latsymbol = i18n.S end
+		if longitude < 0 then 
+			longitude = 360 + longitude
+		end
+	return latitude .. i18n.degrees .. latsymbol .. ', ' .. longitude ..  i18n.degrees .. i18n.W
+		
+	elseif format == 'dec east' then
+		local latsymbol = i18n.N
+		if latitude < 0 then latsymbol = i18n.S end
+		if longitude < 0 then 
+			longitude = 360 + longitude
+		end
+		return latitude .. i18n.degrees .. latsymbol .. ', ' .. longitude  ..  i18n.degrees .. i18n.E
+		
+	else 
+		return latitude .. ', ' .. longitude 
+	end
+end
+
+
+local function parsedec(dec, coordtype) -- coordtype = latitude or longitude
+	dec = mw.text.trim(dec)
+	if coordtype ~= 'latitude' and coordtype ~= 'longitude' then
+		makeerror({'invalid coord type', sortkey = "A"})
+		return nil
+	end
+	if not dec then
+		return nil
+	end
+	local numdec = tonumber(dec) -- numeric value, kept separated as it looses significant zeros
+	if not numdec then -- tries the decimal + direction format
+		direction = mw.ustring.sub(dec, mw.ustring.len(dec), mw.ustring.len(dec))
+		dec = mw.ustring.sub(dec, 1, mw.ustring.len(dec)-2) -- removes the /N at the end
+		if not dec or not tonumber(dec) then
+			return nil
+		end
+		if direction == 'N' or direction == 'E' then
+			return dec
+		elseif direction == 'W' or direction == 'S' then
+			return '-' .. dec
+		else
+			makeerror({message = 'could not find longitude direction (should be W or E) ', sortkey = 'A'})
+			return nil
+		end
+	end
+
+	if coordtype == 'latitude' and math.abs(numdec) > 90 then
+		makeerror({message = 'latitude > 90' , sortkey = 'A'})
+		return nil
+	end
+	if coordtype == 'longitude' and math.abs(numdec) > 360 then
+		makeerror({message = 'longitude > 360' , sortkey = 'A'})
+		return nil
+	end
+	return dec
+end
+
+-- dms/dec conversion functions
+local function convertprecision(precision) -- converts a decimal precision like "2" into "dm"
+	if precision >= 3 then
+		return 'dms'
+	elseif precision >=1 then
+		return 'dm'
+	else
+		return 'd'
+	end
+end
+
+local function determinedmsprec(decs) -- returns the most precision for a dec2dms conversion, depending on the most precise value in the decs table
+	local precision = 0
+	for d, val in ipairs(decs) do
+		precision = math.max(precision, math_mod._precision(val))
+	end
+	return convertprecision(precision)
+end
+
+local function dec2dms_d(dec)
+	local degrees = math_mod._round( dec, 0 )
+	return degrees
+end
+
+local function dec2dms_dm(dec)
+	dec = math_mod._round( dec * 60, 0 )
+	local minutes = dec % 60
+	dec = math.floor( (dec - minutes) / 60 )
+	local degrees = dec % 360
+	return degrees, minutes
+end 
+
+local function dec2dms_dms(dec)
+	dec = math_mod._round( dec * 60 * 60, 0 )
+	local seconds = dec % 60
+	dec = math.floor( (dec - seconds) / 60 )
+	local minutes = dec % 60
+	dec = math.floor( (dec - minutes) / 60 )
+	local degrees = dec % 360
+	return degrees, minutes, seconds
+end
+
+function p._dec2dms(dec, coordtype, precision) -- type: latitude or longitude
+
+	local degrees, minutes, seconds
+	
+	-- precision
+	if not precision or precision == '' then
+		precision = determinedmsprec({dec})
+	end
+	if precision ~= 'd' and precision ~= 'dm' and precision ~= 'dms' then
+		return makeerror({sortkey = 'C'})
+	end
+	local dec = tonumber(dec)
+	-- direction 
+	if coordtype == 'latitude' then 
+		if dec < 0 then
+			direction = 'S'
+		else 
+			direction = 'N'
+		end
+	elseif coordtype == 'longitude' then
+		if dec < 0 then
+			direction = 'W'
+		else 
+			direction = 'E'
+		end
+	end
+	
+	-- conversion
+	dec = math.abs(dec) -- les coordonnées en dms sont toujours positives
+	if precision == 'dms' then 
+		degrees, minutes, seconds = dec2dms_dms(dec)
+	elseif precision == 'dm' then
+		degrees, minutes = dec2dms_dm(dec)
+	else
+		degrees = dec2dms_d(dec)
+	end
+	return builddmsdimension(degrees, minutes, seconds, direction)
+end
+
+function p.dec2dms(frame) -- legacy function somewhat cumbersome syntax
+	args = frame.args
+	local dec = args[1] 
+	if not tonumber(dec) then
+		makeerror({message='invalid coordinate format', sortkey = 'A'})
+		return showerrors()
+	end
+	local precision = string.lower(args[4] or '')
+	local displayformat, coordtype
+	
+	if args[2] == 'N' or args[2] == 'Nord' then
+		coordtype = 'latitude'
+	else 
+		coordtype = 'longitude'
+	end
+	if args[2] == 'Nord' or args[2] == 'Est' or args[3] == 'Ouest' or args[3] == 'Sud' then
+		displayformat = 'dms long'
+	end
+	local coordobject = p._dec2dms(dec, coordtype, precision)
+	if coordobject then
+		return p.displaydmsdimension(coordobject, displayformat) .. showerrors()
+	else
+		return showerrors()
+	end
+end
+
+
+function p._dms2dec(dmsobject) -- transforme une table degré minute secondes en nombre décimal
+	local direction, degrees, minutes, seconds = dmsobject.direction, dmsobject.degrees, dmsobject.minutes, dmsobject.seconds
+	local factor = 0
+	local precision = 0
+	if not minutes then minutes = 0 end
+	if not seconds then seconds = 0 end
+	
+	if direction == "N" or direction == "E" then
+		factor = 1
+	elseif direction == "W" or direction == "S" then
+		factor = -1
+	elseif not direction then 
+		makeerror({message = 'no cardinal direction found in coordinates', sortkey = 'A'})
+		return nil
+	else
+		makeerror({message = 'invalid direction', sortkey = 'A'})
+		return nil
+	end
+	
+	if dmsobject.seconds then -- vérifie la précision des données initiales
+		precision = 5 + math.max( math_mod._precision(tostring(seconds), 0 ) ) -- passage par des strings assez tarabiscoté ?
+	elseif dmsobject.minutes then
+		precision = 3 + math.max( math_mod._precision(tostring(minutes), 0 ) )
+	else
+		precision = math.max( math_mod._precision(tostring(degrees), 0 ) )
+	end
+	
+	local decimal = factor * (degrees+(minutes+seconds/60)/60)
+	return math_mod._round(decimal, precision)
+end
+
+function p.dms2dec(frame) -- legacy function, somewhat bizarre syntax
+	local args = frame.args
+	if tonumber(args[1]) then 
+		return args[1] -- coordonnées déjà en décimal
+	elseif not args[2] then
+		local dmsobject = parsedmsstring(args[1])
+		if dmsobject then
+			return p._dms2dec(dmsobject) -- coordonnées sous la fore 23/22/N
+		else
+			return showerrors()
+		end
+	else 
+		return p._dms2dec({direction = args[1], degrees = args[2], minutes = args[3], seconds = args[4]})
+	end
+end
+
+-- Wikidata
+local function convertwikidataprecision(precision) -- converts a decima like "0.1" into "dm"
+	if precision < 0.016 then
+		return 'dms'
+	elseif precision < 1 then
+		return 'dm'
+	else
+		return 'd'
+	end
+end
+
+local function wikidatacoords(query)
+	query = query or {property = 'p625'}
+	query.formatting = 'raw'
+	local wd = require('Module:Wikidata')
+	local claim = wd.getClaims(query)
+	if claim and claim[1] then -- redundant but more robust in case of a change in the code of Module:Wikidata
+		local coords = wd.formatSnak(claim[1].mainsnak) -- todo: check for special values
+		return coords.latitude, coords.longitude, coords.globe or 'earth', convertwikidataprecision(coords.precision or .001)
+	end
+	return nil
+end
+
+
+local function wikidatacat(globe)
+	--catbase= Article géolocalisé sur Terre
+	local entitycat = mw.wikibase.getEntityObject()
+	
+	local basecat = 'Article géolocalisé'
+	local finalcat = {}
+	--BADGES
+    if entitycat then
+    	--BADGES
+       	for i, badgeId in ipairs( entitycat.sitelinks['frwiki'].badges ) do
+			if badgeId == 'Q17437796'  then
+				basecat=string.gsub(basecat, "Article géolocalisé", "Article de qualité géolocalisé")
+			end
+			if badgeId == 'Q17437798'  then
+				basecat=string.gsub(basecat, "Article géolocalisé", "Bon article géolocalisé")
+			end
+		end
+	end
+
+	if globe == 'earth'  then
+		if entitycat and entitycat.claims  then
+			local country=entitycat.claims['P17']
+			if not country then
+				--pas pays à récupérer
+				basecat=basecat .. ' sur Terre'
+				table.insert(finalcat,basecat)
+			else
+				--parfois plusieurs pays
+				for i, paysId in ipairs( country ) do
+					--on fait confiance au label wikidata
+					local gdataone,qid
+					
+					if paysId.mainsnak.snaktype == 'value' then
+						qid=paysId.mainsnak.datavalue.value['numeric-id']
+						gdataone=gdata.data[qid]
+					else
+						--Bir Tawil n'a pas de pays connu
+						qid='?'
+					end
+					if gdataone ~= nil then
+						local prep=genre[gdataone['genre']]['en'] or 'en '
+						local thecat=basecat .. ' '..prep ..mw.wikibase.label( 'Q'.. qid)
+						if mw.title.new('category:'..thecat).exists then
+							table.insert(finalcat,thecat)
+						else
+							--Dommage!
+							mw.log(thecat .. ' à créer')
+						end
+					else
+						--pas d'id?
+						mw.log(qid .. ' à paramétrer')
+					end
+				end
+				if #finalcat == 0 then
+					--pas pays à récupérer
+					basecat=basecat .. ' sur Terre'
+					table.insert(finalcat,basecat)
+				end
+			end
+		else
+			--pas wikidata
+			basecat=basecat .. ' sur Terre'
+			table.insert(finalcat,basecat)
+		end
+	elseif  globe == 'moon'  then
+			basecat=basecat .. ' sur la Lune'
+			table.insert(finalcat,basecat)
+	elseif  globe == 'mars'  then
+			basecat=basecat .. ' sur Mars'
+			table.insert(finalcat,basecat)
+	else
+			basecat=basecat .. ' extraterrestre'
+			table.insert(finalcat,basecat)
+	end
+	return finalcat
+end
+
+ -- main function for displaying coordinates
+function p._coord(args)
+
+	-- I declare variable	
+	local displayformat = args.format -- string: one of: 'dms', 'dms long', 'dec', 'dec east' and 'dec west'
+	local displayplace = string.lower(args.display or 'inline') --string: one of 'inline', 'title' or 'inline,title' 
+	local objectname = (args.name ~= '') and args.name -- string: name of the title displayed in geohack
+	local notes = (' ' and args.notes) or '' -- string: notes to de displayed after coordinates
+	local wikidata = args.wikidata -- string: set to "true" if needed
+	local wikidataquery = args.wikidataquery -- table: see [[Module:Wikidata]] see function wikidatacoords
+	local dmslatitude, dmslongitude -- table (when created)	
+	local extraparams = string.lower(args.extraparams or '') -- string (legacy, corresponds to geohackparams)
+ 	local trackingstring = '' -- tracking cats except error cats (already in errorstring)
+ 	local rawlat, rawlong = args.latitude, args.longitude
+ 	if ralwat == '' then rawlat = nil end
+ 	if rawlong == '' then rawlong = nil end
+ 	local globe = string.lower(args.globe or '') -- string: see the globedata table for accepted values
+	local latitude, longitude, precision, dmslatitude, dmslongitude -- latitude and longitude in decimal / dmslatitude and dmslongitude: tables withdms coords
+	
+	-- II extract coordinates from Wikitext
+	if (rawlat or rawlong) then
+		if (not rawlat) or (not rawlong) then -- if latitude is provided so should be longitude
+			makeerror({message = 'latitude or longitude missing', sortkey = 'A'})
+			return showerrors()
+		end
+		latitude = parsedec(rawlat, 'latitude')
+
+		if latitude then -- if latitude is decimal
+			longitude = parsedec(rawlong, 'longitude') -- so should be longitude
+			precision = determinedmsprec({latitude, longitude}) -- before conversion from string to number for trailing zeros
+			if not latitude or not longitude then
+				if errorstring == '' then
+					makeerror({message = 'invalid format', sortkey = 'A'})
+				end
+				return showerrors()
+			end
+			dmslatitude, dmslongitude = p._dec2dms(latitude, 'latitude', precision), p._dec2dms(longitude, 'longitude', precision)
+			latitude, longitude = tonumber(latitude), tonumber(longitude)
+		else -- if latitude is not decimal try to parse it as a dms string
+			dmslatitude, dmslongitude = parsedmsstring(args.latitude), parsedmsstring(args.longitude)
+			if not dmslatitude or not dmslongitude then
+				return showerrors()
+			end
+			latitude, longitude = p._dms2dec(dmslatitude), p._dms2dec(dmslongitude)
+		end
+	end
+
+	-- III extract coordinate data from Wikidata and compare them to local data
+	local wikidatalatitude, wikidatalongitude, wikidataglobe
+	if wikidata == 'true' then
+		wikidatalatitude, wikidatalongitude, wikidataglobe, wikidataprecision = wikidatacoords(wikidataquery)
+		
+		if wikidatalatitude and latitude and longitude then
+			local maxdistance = tonumber(args.maxdistance) or wikidatathreshold
+			if p._distance({latitude = latitude, longitude= longitude}, {latitude = wikidatalatitude, longitude= wikidatalongitude}, wikidataglobe) <  maxdistance then
+				trackingstring = trackingstring .. makecat(i18n.sameaswikidata)
+					else
+				trackingstring = trackingstring .. makecat(i18n.notaswikidata)
+			end
+		end
+		if wikidatalatitude and not latitude then
+			latitude, longitude, globe, precision = wikidatalatitude, wikidatalongitude, wikidataglobe, wikidataprecision
+			dmslatitude, dmslongitude = p._dec2dms(latitude, 'latitude', precision), p._dec2dms(longitude, 'longitude', precision)
+			trackingstring = trackingstring .. makecat(i18n.throughwikidata)
+		end
+		
+		if latitude and not wikidatalatitude then
+			if mw.title.getCurrentTitle().namespace == 0 then
+				trackingstring = trackingstring .. makecat(i18n.nowikidata)
+			end
+		end
+	end
+
+
+	-- exit if stil no latitude or no longitude
+	if not latitude and not longitude then
+		return nil -- ne rien ajouter ici pour que l'appel à cette fonction retourne bien nil en l'absence de données
+	end
+
+	-- IV best guesses for missing parameters
+	
+	--- globe
+	if globe == '' then -- cherche le globe dans l'extraparams destinée à geohack
+		local globe2 = string.match(extraparams, 'globe\:%a+')
+		if globe2 then 
+			globe = string.sub(globe2, 7) 
+		end
+		if globe == '' then
+			globe = 'earth'
+		end
+	end
+	if not globedata[globe] then
+		makeerror({message = 'invalid globe:' .. globe})
+		globe = 'earth'
+	end
+	
+	--- diplayformat
+	if not displayformat or displayformat == '' then
+		displayformat = globedata[globe].defaultdisplay
+	end
+	
+	-- displayinline/displaytitle
+    local displayinline =  string.find(displayplace, 'inline') 
+    local displaytitle = string.find(displayplace, 'title') 
+    if not displayinline and not displaytitle then
+    	displayinline = true
+    	if displayplace ~= '' then 
+    		makeerror({sortkey = 'C'}) --error if display not empty, but not not a major error, continue
+    	end
+    end
+    if displaytitle and mw.title.getCurrentTitle().namespace == 0 then
+    	--local cattoappend=globedata[globe].trackingcat
+    	--Récupération des badges
+    	local cats=wikidatacat(globe)
+    	for i, cat in ipairs( cats ) do
+    		trackingstring = trackingstring .. makecat(cat)
+    	end
+	
+    end
+    
+-- V geodata
+	local geodata = ''
+	if latitude and longitude then
+		local latstring, longstring = tostring(latitude), tostring(longitude)
+		local primary = ''
+
+		local frame = mw.getCurrentFrame()
+		local geodataparams = {[1] = latstring, [2] = longstring, [3] = extraparams }
+		if displaytitle then
+			geodataparams[4] = 'primary'
+		end
+		if objectname then
+			geodataparams.name = objectname
+		end
+		geodata = frame:callParserFunction('#coordinates', geodataparams )
+		if string.find(geodata, 'error') then -- the only error that has not been caught yet is primary key
+			geodata = ''
+			makeerror({sortkey='D'})
+		end
+    end
+-- VI final output
+	if globe ~= 'earth' then
+		extraparams = extraparams .. '_globe:' .. globe -- pas de problème si le globe est en double
+	end
+
+	local mainstring = ''
+	if args.formatitle then
+		if displaytitle then
+			mainstring = mainstring .. buildHTML(latitude, longitude, dmslatitude, dmslongitude, globe, args.formatitle, false, true, objectname,extraparams )
+		end
+		if displayinline then
+			mainstring = mainstring .. buildHTML(latitude, longitude, dmslatitude, dmslongitude, globe, displayformat, true, false, objectname,extraparams )
+		end
+	else
+		mainstring = buildHTML(latitude, longitude, dmslatitude, dmslongitude, globe, displayformat, displayinline, displaytitle, objectname,extraparams )
+	end
+	
+	return mainstring .. notes .. trackingstring .. geodata .. showerrors()
+end
+
+function p.coord(frame) -- parrses the strange parameters of Template:Coord before sending them to p.coord
+	local args = frame.args
+	local numericargs = {}
+	for i, j in ipairs(args) do
+		args[i] = mw.text.trim(j)
+		if type(i) == 'number' and args[i] ~= '' then
+			table.insert(numericargs, args[i])
+		end
+	end
+
+	if #numericargs %2 == 1 then -- if the number of args is odd, the last one provides formatting parameters
+		args.extraparams = numericargs[#numericargs]
+		if #numericargs == 1 and tonumber(numericargs[1]) then
+			makeerror({message = 'latitude or longitude missing', sortkey = 'A'})
+			return showerrors()
+		end
+		table.remove(numericargs)
+	end
+	if #numericargs == 1 then
+		makeerror({message = 'missing data for coords', sortkey = 'A'})
+		return showerrors()
+	end
+	for i, j in ipairs(numericargs) do
+		if i <= (#numericargs / 2) then
+			if not args.latitude then
+				args.latitude = j
+			else
+				args.latitude =	args.latitude .. '/' .. j
+			end
+		else
+			if not args.longitude then
+				args.longitude = j
+			else
+				args.longitude = args.longitude .. '/' .. j
+			end
+		end
+	end
+
+	if string.find(args.latitude or '', 'E') or string.find(args.latitude or '', 'W') then
+		args.latitude, args.longitude = args.longitude, args.latitude
+	end
+	return p._coord(args)
+end
+
+function p.Coord(frame)
+	return p.coord(frame)
+end
+
+
+function p.latitude(frame) -- helper function pour infobox, à déprécier
+	local args = frame.args
+	local latitude  = frame.args[1]
+	if latitude and mw.text.trim(latitude) ~= '' then
+		return latitude
+	elseif frame.args['wikidata'] == 'true' then
+		local lat, long = wikidatacoords()
+		return lat
+	end
+end
+function p.longitude(frame) -- helper function pour infobox, à déprécier
+	local args = frame.args
+	local longitude = frame.args[1]
+	if longitude and mw.text.trim(longitude) ~= '' then
+		return longitude
+	elseif frame.args['wikidata'] == 'true' then
+		local lat, long = wikidatacoords()
+		return long
+	end
+end
+
+
+return p

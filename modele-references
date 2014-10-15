@@ -1,0 +1,10 @@
+<noinclude>
+<!--==============================================================
+
+          ATTENTION : LA MODIFICATION D'UN MODÈLE PEUT ENTRAÎNER DES PROBLÈMES 
+         SUR TOUTES LES PAGES DANS LESQUELLES IL EST INCLUS.
+
+Veuillez ne pas tenter de le modifier à moins que vous ne soyez certain de bien comprendre sa conception. 
+
+==============================================================-->
+</noinclude><includeonly><div class="references-small {{#switch: {{{groupe|{{{group|}}}}}}|alpha=lower-alpha|grec=lower-greek|decimal|#default=decimal}}" style="column-count: {{{colonnes|1}}}; -moz-column-count: {{{colonnes|1}}}; -webkit-column-count: {{{colonnes|1}}}">{{#tag:references|{{{références|{{{refs|}}}}}}|group={{{groupe|{{{group|}}}}}}}}</div>{{#if:{{NAMESPACE}}||{{#if:{{{1|}}}{{{2|}}}{{{colwidth|}}}<!--{{{group|}}}--><!--{{{refs|}}}-->|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|References]]}}}}</includeonly><noinclude>{{Documentation}}</noinclude>

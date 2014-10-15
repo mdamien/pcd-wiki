@@ -1,0 +1,714 @@
+--script that retrieves basic data stored in Wikidata, for the datamodel, see https://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua
+
+
+local p = {}
+local linguistic = require('Module:Linguistique')
+local dates = require('Module:Wikidata/Dates')
+local langmodule = require('Module:Langue')
+lang = 'fr' -- peut-être écrasé par args.lang
+
+local i18n = {
+    ["errors"] = {
+        ["property-param-not-provided"] = "property parameter missing",
+        ["qualifier-param-not-provided"] = "qualifier parameter missing",
+        ["entity-not-found"] = "entity not found",
+        ["unknown-claim-type"] = "unknown claim type",
+        ["unknown-snak-typeg"] = "unknown snak type",
+        ["unknown-datavalue-type"] = "unknown datavalue type.",
+        ["unknown-entity-type"] = "unknown entity type",
+        ["invalid-id"] = "invalid ID"
+    },
+    ["no-label"] = "pas de libellé",
+    ['no description'] = "pas description",
+    ["novalue"] = "not applicable",
+    ["somevalue"] = "inconnu",
+    ["trackingcat"] = 'Page utilisant des données de Wikidata'
+}
+
+local function formatError( key )
+    return error(i18n.errors[key])
+end
+
+local function addtrackingcat(prop, cat)
+	if not prop and not cat then
+		return error("no property provided")
+	end
+	if not cat then
+		cat = i18n.trackingcat .. '/' .. string.upper(prop)
+	end
+	return '[[Category:' .. cat .. ']]'
+end
+
+function formatTheUnknown() -- voir si on peut accorder/adapter l'usage de "inconnu"
+	return i18n.somevalue
+end
+
+local function samevalue(snak, target)
+	if snak.snaktype == 'value' and p.getRawvalue(snak) == target then
+		return true
+	end
+end
+
+local function getEntity( val )
+	if type(val) == 'table' then
+		return val
+	end
+	return mw.wikibase.getEntityObject(val)
+end
+
+local function formattable(statements, params) -- transform a table of claims into a table of formatted values
+    for i, j in pairs(statements) do
+        j = p.formatStatement(j, params)
+    end
+    return statements
+end
+
+local function tableToText(values, params) -- takes a list of already formatted values and make them a text
+    if not values then
+        return nil
+    end
+    return linguistic.quickconj( values, params.conjtype)--linguistic.conj( values, params.lang, params.conjtype )
+end
+
+function p.getDate(statement)
+--[[
+return a "timedata" object as used by the date modules with the date of an item from the p580, p582 and p585 qualifiers 
+	object format:
+		* timestamp 28 char string value for the timepoint, or if non the beginning or if none, the end (for easy sorting)
+		* timepoint: snak
+		* begin: snak
+]]--
+	local q = statement.qualifiers
+	if not q or not (q.P585 or q.P580 or q.P582) then
+		return nil
+	end
+	if q.P585 and q.P585[1].snaktype == 'value' then -- P585: punctual date
+		return dates.dateobject(q.P585[1].datavalue.value)
+	end
+	local begin, ending
+
+	if q.P582 and q.P582[1].snaktype == 'value' then
+		ending = dates.dateobject(q.P582[1].datavalue.value)
+	end
+	if q.P580 and q.P580[1].snaktype == 'value' then 
+		begin = dates.dateobject(q.P580[1].datavalue.value)
+	end
+	return dates.daterange(begin, ending)
+end
+
+function p.getFormattedDate(statement, params)
+	local datetable = p.getDate(statement)
+	if not datetable then
+		return nil
+	end
+	return dates.objecttotext(datetable, params)
+end
+
+local function withtargetvalue(claims, targetvalue)
+    targetvalue = string.upper(targetvalue)
+    local oldclaims = claims
+    local claims = {}
+    for i, statement in pairs(oldclaims) do
+        if samevalue(statement.mainsnak, targetvalue) then
+                table.insert(claims, statement)
+        end
+    end
+    return claims
+end
+
+local function validclaims(claims)
+    local oldclaims = claims
+    local claims = {}
+    for i, statement in pairs(oldclaims) do
+        if statement.rank == 'preferred' or statement.rank == 'normal' then
+                table.insert(claims, statement)
+        end
+    end
+    return claims
+end
+
+local function withrank(claims, rank)
+    if rank == 'best' then
+        local preferred = withrank(claims, 'preferred')
+        if #preferred > 0 then
+            return preferred
+        else
+            return withrank(claims, 'normal')
+        end
+    end
+   
+    if rank == 'valid' then
+        return validclaims(claims)
+    end
+   
+    local oldclaims = claims
+    local claims = {}
+    for i, statement in pairs(oldclaims) do
+        if statement.rank == rank then
+                table.insert(claims, statement)
+        end
+    end
+    return claims
+end
+
+local function withqualifier(claims, qualifier, qualifiervalue)
+    qualifier, qualifiervalue = string.upper(qualifier), string.upper(qualifiervalue or '')
+   
+    local oldclaims = claims
+    local claims = {}
+    for i, statement in pairs(oldclaims) do
+        if statement.qualifiers and statement.qualifiers then
+            if qualifiervalue ~= '' then
+                for j, qualif in pairs(statement.qualifiers[qualifier]) do
+                    if p.getRawvalue(qualif) == qualifiervalue then
+                        table.insert(claims, statement)
+                    end
+                end
+            else
+                table.insert(claims, statement)
+            end
+        end
+    end
+    return claims
+end
+local function withsource(claims, source, sourceproperty)
+    local oldclaims = claims
+    local claims = {}
+    sourceproperty = string.upper(sourceproperty or 'P248')
+    local sourcevalue = string.upper(source or '')
+    for i, statement in pairs(oldclaims) do
+        local success
+        if statement.references then
+            for j, reference in pairs(statement.references) do
+                if success then break end -- sp that it does not return twice the same reference when the property is used twice
+                for prop, content in pairs(reference.snaks) do
+                    if prop == sourceproperty then
+                        if sourcevalue == '' then
+                            table.insert(claims, statement)
+                            success = true
+                        else
+                            for l, m in pairs(content) do
+                                if p.getRawvalue(m) == source then
+                                    table.insert(claims, statement)
+                                    success = true
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return claims
+end
+
+local function isinlanguage(claims, lang) -- ne fonctionne que pour les monolingualtext / étendre aux autres types en utilisant les qualifiers ?
+	local newclaims = {}
+	for i, j in pairs(claims) do 
+		if j.mainsnak.snaktype == 'value' and j.mainsnak.datavalue.type == 'monolingualtext' then
+			if j.mainsnak.datavalue.value.language == lang then
+				table.insert(newclaims,j)
+			end
+		end
+	end
+	return newclaims
+end
+
+local function excludespecial(claims)
+    local oldclaims = claims
+    local claims = {}
+    for i, statement in pairs(oldclaims) do
+        if statement.mainsnak.snaktype == 'value' then
+            table.insert(claims, statement)
+        end
+    end
+    return claims
+end
+
+local function comparedate(a, b) -- returns true if a is earlier than B or if a has a date but not b
+	if a and b then
+		return a.timestamp < b.timestamp
+	elseif a then
+		return true
+	end
+end
+
+local function chronosort(claims, inverted)
+	table.sort(claims, function(a,b)
+		local timeA = p.getDate(a)
+		local timeB = p.getDate(b)
+		if inverted then 
+			return comparedate(timeB, timeA)
+		else
+			return comparedate(timeA, timeB)
+		end
+		end
+	)
+	return claims
+end
+
+function p.sortclaims(claims, sorttype)
+	if sorttype == 'chronological' then
+		return chronosort(claims)
+	elseif sorttype == 'inverted' then
+		return chronosort(claims, true)
+	elseif type(sorttype) == 'function' then
+		table.sort(claims, sorttype)
+		return claims
+	end
+	return claims
+end
+
+local function numval(claims, numval)
+    local numval = tonumber(numval) or 0 -- raise a error if numval is not a positive integer ?
+    local newclaims = {}
+    for i, j in pairs(claims) do
+        if #newclaims == numval then
+            return newclaims
+        end
+        table.insert(newclaims,j)
+    end
+    return newclaims
+end
+
+function p.getRawvalue(snak)
+    return p.getDatavalue(snak, {format = 'raw'})
+end
+
+function p.getDatavalue(snak, params)
+	if not params then  
+		params = {} 
+	end
+	local formatting = params.formatting
+    if snak.snaktype ~= 'value' then
+        return nil
+    end
+   
+    local datatype = snak.datavalue.type
+    local value = snak.datavalue.value
+    local displayformat = params.format
+    if datatype == 'wikibase-entityid' then
+        if displayformat == 'raw' then
+            return "Q" .. tostring(value['numeric-id'])
+        else 
+            return p.formatEntity('Q' .. value['numeric-id'], params)
+        end
+       
+    elseif datatype == 'string' then
+        if params.displayformat == 'weblink' then
+            return require('Module:Weblink').makelink(value)
+        elseif params.urlpattern then
+        	value = '[' .. mw.ustring.gsub(params.urlpattern, '$1', value) .. ' ' .. value .. ']'
+        end
+        return value
+
+	elseif datatype == 'time' then -- format example: +00000001809-02-12T00:00:00Z
+		local precision = params.precision -- degré de précision à afficher ('day', 'month', 'year'), inférieur ou égal à value.precision
+		if formatting == 'raw' then
+			return value.time
+		else
+			return dates.objecttotext(dates.dateobject(value))
+		end
+
+	elseif datatype == 'globecoordinate' then
+		-- retourne une table avec clés latitude, longitude, précision et globe à formater par un autre module (à changer ?)
+		value.globe = require('Module:Wikidata/Globes')[value.globe] -- transforme l'ID du globe en nom anglais utilisable par geohack
+		if formatting == 'latitude' then
+			return value.latitude
+		elseif formatting == 'longitude' then
+			return value.longitude
+		else
+			return value -- note : les coordonnées Wikidata peuvent être utilisée depuis Module:Coordinates. Faut-il aussi autoriser à appeler Module:Coordiantes ici ?
+		end
+		
+
+    elseif datatype == 'quantity' then
+        if displayformat == 'raw' then
+            return value.amount
+        else
+            local str = string.sub(value.amount,2) -- 
+            return str
+        end
+	elseif datatype == 'monolingualtext' then
+		return langmodule.langue({value.language, value.text})
+    else
+        return formatError('unknown-datavalue-type' )
+    end
+end
+
+local function getMultipleClaims(args)
+	local newargs = args
+	local claims = {}
+	for i, j in pairs(args.property) do
+		newargs.property = j
+		local newclaims = p.getClaims(args)
+		for k, l in pairs(newclaims) do
+			table.insert(claims, l)
+		end
+	end
+	return claims
+end 
+function p.getClaims( args ) -- returns a table of the claims matching some conditions given in args
+    if not args.property then
+        return formatError( 'property-param-not-provided' )
+    end
+    if type(args.property) == 'table' then
+    	return getMultipleClaims(args)
+    end
+    --Get entity
+    if args.item then args.entity = args.item end -- synonyms
+    local entity = args.entity
+    if type(entity) ~= 'table' then
+        entity = getEntity( args.entity )
+    end
+	if (not entity) or (not entity.claims) then 
+		return nil 
+	end
+	local property = string.upper(args.property)
+	local claims = entity.claims[property]
+	if not claims then return nil end
+    -- mettre ~= '' pour le cas ou le paramètre est écrit mais laissé blanc ({{#invoke:formatStatements|property=pXX|targetvalue = xx}})
+    if args.targetvalue and args.targetvalue ~= '' then
+        claims = withtargetvalue(claims, args.targetvalue)
+    end
+
+    if args.qualifier and args.qualifier ~= '' then
+        claims = withqualifier(claims, args.qualifier, args.qualifiervalue)
+    end
+    if (args.source and args.source ~= '') or (args.sourceproperty and args.sourceproperty ~= '') then
+        claims = withsource(claims, args.source, args.sourceproperty)
+    end
+   	if (args.isinlanguage and args.isinlanguage ~= '')  then
+   		claims = isinlanguage(claims, args.inlanguage)
+   	end
+    if args.excludespecial and args.excludespecial ~= '' then
+        claims = excludespecial(claims)
+    end
+
+    if args.rank ~= 'all' then
+        if not args.rank or args.rank == '' then
+            args.rank = 'best'
+        end
+        claims = withrank(claims, args.rank)
+    end
+    
+    if args.sorttype then 
+    	claims = p.sortclaims(claims, args.sorttype)
+    end
+    
+    if args.numval and args.numval ~= '' then  --keep at the end, after other filters have been implmented
+        claims = numval(claims, args.numval)
+    end
+    if #claims > 0 then
+	    return claims
+	end
+end
+
+function p.formatClaimList(claims, args)
+    if not claims then
+        return nil
+    end
+	for i, j in pairs(claims) do
+        claims[i] = p.formatStatement(j, args)
+    end
+    return claims
+end
+
+function p.stringTable(args) -- like getClaims, but get a list of string rather than a list of snaks, for easier manipulation
+    local claims = p.getClaims(args)
+    return p.formatClaimList(claims, args)
+end
+
+
+local function getQualifiers(statement, qualifs, params)
+	if not statement.qualifiers then 
+		return nil
+	end
+	local vals = {} 
+	for i, j in pairs(qualifs) do
+		if statement.qualifiers[j] then
+			for k, l in pairs(statement.qualifiers[j]) do
+				table.insert(vals, l)
+			end
+		end
+	end
+	if #vals == 0 then
+		return nil
+	end
+	return vals
+end 
+
+function p.getFormattedQualifiers(statement, qualifs, params)
+	if not params then params = {} end
+	local qualiftable = getQualifiers(statement, qualifs)
+	if not qualiftable then
+		return nil
+	end
+	for i, j in pairs(qualiftable) do
+		qualiftable[i] = p.formatSnak(j, params)
+	end
+	return linguistic.conj(qualiftable, params)
+end
+
+function p.formatStatement( statement, args )
+    if not statement.type or statement.type ~= 'statement' then
+        return formatError( 'unknown-claim-type' )
+    end
+    local str = p.formatSnak( statement.mainsnak, args )
+    if args.showqualifiers then 
+    	local qualifs =  args.showqualifiers
+    	if type(qualifs) == 'string' then
+    		qualifs = mw.text.split(qualifs, ',')
+    	end
+    	local foundvalues = p.getFormattedQualifiers(statement, qualifs, args)
+    	if foundvalues then
+    		str = str .. linguistic.inparentheses(foundvalues, lang) 
+		end
+	end
+    
+    if args.showdate then -- when "withdate and chronosort are both set, date retrieval is performed twice
+    	local timedata = p.getDate(statement)
+    	if timedata then
+    		local formatteddate = dates.objecttotext(timedata, args)
+    		formattteddate = linguistic.inparentheses(formatteddate, lang)
+    		str = str .. '<small>' .. formattteddate ..'</small>'
+    	end
+    end
+
+    if args.showsource and statement.references then --[[needs abritrary access   
+    	local sourcestring = ''
+        for i, ref in pairs(statement.references) do
+            if ref.snaks.P248 then
+                for j, source in pairs(ref.snaks.P248) do
+                    if source.snaktype == 'value' then
+                    	local page
+                    	if ref.snaks.P304 and ref.snaks.P304[1].snaktype == 'value' then
+                    		page = ref.snaks.P304[1].datavalue.value
+                    	end
+                        local s = require('Module:Cite/sandbox').citeitem('Q' .. source.datavalue.value['numeric-id'], lang, page)
+                        s = mw.getCurrentFrame():extensionTag( 'ref', s )
+                        sourcestring = sourcestring .. s
+                    end
+                end
+            elseif ref.snaks.P854 and ref.snaks.P854[1].snaktype == 'value' then
+            	s = mw.getCurrentFrame():extensionTag( 'ref', formatLink(ref.snaks.P854[1].datavalue.value))
+            	sourcestring = sourcestring .. s
+            end
+        end 
+        str = str .. sourcestring ]]--
+    end
+    return str
+end
+
+function p.formatSnak( snak, params )
+    if not args then args = {} end -- pour faciliter l'appel depuis d'autres modules
+    if snak.snaktype == 'somevalue' then
+        return formatTheUnknown()
+    elseif snak.snaktype == 'novalue' then
+        return i18n['novalue'] --todo
+    elseif snak.snaktype == 'value' then
+        return p.getDatavalue( snak, params)
+    else
+        return formatError( 'unknown-snak-type' )
+    end
+end
+
+function p._getLabel(entity, default, inlanguage)
+	local label
+	if not entity then
+		return nil
+	end
+	if inlanguage then -- cherche dans l'élément complet s'il est déjà chargé, ou s'il faut une libellé non-français, inacessible par  mw.wikibase.label
+		entity = getEntity(entity)
+	end
+	if type(entity) == 'table' then
+		if entity and entity.labels and entity.labels[lang] then
+			label = entity.labels[lang].value
+		end
+	else
+		label = mw.wikibase.label(entity)
+	end
+	if label then 
+		return label
+	end
+	
+    if default == 'nolabel' then
+        return i18n['no-label']
+    end
+    return entity.id
+end
+
+function p._getDescription(entity, lang)
+	if type(entity) ~= 'table' then
+		entity = getEntity(entity)
+	end
+    if not entity.descriptions then
+    	return i18n['no description']
+    end
+    local descriptions = entity.descriptions
+    if not descriptions then 
+    	return nil
+    end
+    if descriptions[lang] then
+    	return descriptions[lang].value
+    end
+    local fblist = require('Module:Fallback').fblist(lang) -- list of fallback languages in no label in the desired language
+    for i, j in pairs (mw.language.getFallbacksFor(lang)) do
+        if descriptions.lang then
+        	return descriptions[lang].value
+        end
+    end
+    if default == 'nolabel' then
+        return i18n['no-label']
+    end
+    return entity.id
+end
+
+local function formattedLabel(label, entity, args)
+    if args.link== '-' then
+        return label
+    end
+    local link = mw.wikibase.sitelink( entity )
+	if not link then
+		link = 'd:' .. entity
+	end
+	return '[[' .. link .. '|' .. label .. ']]'
+end
+
+
+function p.getmainid(claim)
+	if claim and claim.mainsnak.snaktype == 'value' then
+		return 'Q' .. claim.mainsnak.datavalue.value['numeric-id']
+	end
+end
+
+function p.formatEntity( entity, args )
+    local label = p._getLabel(entity, lang)
+    if not label then
+    	label = entity
+    end
+    return formattedLabel(label, entity, args)
+end
+
+
+function p.getLabel(frame) -- simple for simple templates like {{Q|}}}
+	local args = frame.args
+    local entity = args.entity
+    local lang = lang
+    if args.lang and args.lang ~= '' then
+        lang = args.lang
+    end
+    if string.sub(entity, 1, 10) ==  'Property:P' then 
+    	entity = string.sub(entity, 10)
+    elseif (string.sub(entity, 1, 1) ~= 'P' and string.sub(entity, 1, 1) ~= 'Q') or (not tonumber(string.sub(entity, 2))) then
+        return i18n.errors['invalid-id']
+    end
+    if not args.link or args.link == '' then -- by default: no link
+    	args.link = '-'
+    end
+    if args.link == '-' then
+    	return p._getLabel(entity, lang) or  i18n.errors['invalid-id']
+    else
+    	lang = lang
+    	return p.formatEntity(entity, args)
+    end
+end
+
+function p._formatStatements( args )--Format statement and concat them cleanly
+	if args.value == '-' then 
+		return nil
+	end
+	--If a value is already set, use it
+	if args.value and args.value ~= '' then
+		return args.value
+	end
+    local valuetable = p.stringTable(args)
+    return tableToText(valuetable, args)
+end
+
+function p._formatAndCat(args) 
+	local val = p._formatStatements( args )
+	if val then
+		return val .. addtrackingcat(args.property)
+	end
+end
+
+function p.getTheDate(args)
+	local claims = p.getClaims(args)
+	if not claims then
+		return nil
+	end
+	local formattedvalues = {}
+	for i, j in pairs(claims) do
+		table.insert(formattedvalues, p.getFormattedDate(j))
+	end
+	return linguistic.conj(formattedvalues)
+end
+---FONCTIONS depuis le FRAME 
+function p.getaDate(frame)
+	return p.getTheDate(frame.args)
+end
+
+
+function p.getQualifier( frame )
+	local claims = p.getClaims(frame.args)
+	local str = ''
+	local qualifs = frame.args.qualifiers or frame.args.qualifier 
+	if not qualifs then
+		return formatError( 'property-param-not-provided' )
+	end
+	qualifs =  mw.text.split(qualifs, ',')
+	for i, j in pairs(claims) do 
+		local new = p.getFormattedQualifiers(j, qualifs) or ''
+		str = str .. new
+	end
+	return str
+end
+
+function p.getDescription(frame) -- simple for simple templates like {{Q|}}}
+    local entity = frame.args.entity
+    if frame.args.lang then
+    	lang = frame.args.lang
+    end
+    if (string.sub(entity, 1, 1) ~= 'P' and string.sub(entity, 1, 1) ~= 'Q') or (not tonumber(string.sub(entity, 2))) then
+        return i18n.errors['invalid-id']
+    end
+    return p._getDescription(entity, lang) or  i18n.errors['invalid-id']
+end
+
+function p.numOfClaims(frame)
+	local claims = p.getClaims(frame.args)
+	if claims then
+		return #claims
+	else
+		return 0
+    end
+end
+
+function p.formatStatements( frame )
+	local args = {}
+	if frame == mw.getCurrentFrame() then
+		args = frame:getParent().args -- paramètres du modèle appelant (est-ce vraiment une bonne idée ?)
+		for k, v in pairs(frame.args) do
+			args[k] = v
+		end
+	else
+		args = frame
+	end
+	return p._formatStatements( args )
+end
+
+function p.formatAndCat(frame) 
+	local args = {}
+	if frame == mw.getCurrentFrame() then
+		args = frame:getParent().args -- paramètres du modèle appelant (est-ce vraiment une bonne idée ?)
+		for k, v in pairs(frame.args) do
+			args[k] = v
+		end
+	else
+		args = frame
+	end
+	return p._formatAndCat( args )
+end
+
+return p

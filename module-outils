@@ -1,0 +1,494 @@
+local Outils = { }
+
+
+--[[
+	trim nettoie un paramètre non nommé (supprime les espaces et retours ligne au début et à la fin)
+	retourne  nil si le texte est vide ou n'est pas du texte. Les nombres ne sont PAS considérés 
+	comme du texte.
+]]
+function Outils.trim( texte )
+	if type( texte ) == 'string' and texte ~= '' then
+		texte = mw.text.trim( texte )
+		if texte ~= '' then
+			return texte
+		end
+	end
+end
+
+
+-- erreur génère un message d'erreur
+function Outils.erreur( texte )
+	return '<span class="error">' .. (texte or "''erreur : raison non précisée''") .. "</span>"
+end
+
+
+--[[
+	validTextArg renvoit le premier paramètre chaine non vide
+	Paramètre : 
+		1 - tableau contenant tous paramètres
+		2, ... - les noms des paramètres qui doivent êtres testés.
+]]
+function Outils.validTextArg( args, name, ... ) 
+	local texte = Outils.trim( args[name] )
+	if texte then
+		return texte
+	end
+	if select( '#', ... ) > 0 then
+		return Outils.validTextArg( args, ... )
+	end
+end
+
+
+--[[
+	notEmpty renvoie le premier paramètre non vide ou nul. 
+	Paramètre : 
+		1, ... - les variables qui doivent êtres testés.
+]]
+function Outils.notEmpty( var, ... )
+	local tvar = type( var )
+	
+	if tvar == 'string' and mw.text.trim( var ) ~= '' then
+		return mw.text.trim( var )
+	elseif tvar == 'table' then
+		local nextFunc = pairs( var )   -- n'utilise pas next car non défini par mw.loadData
+		if nextFunc( var ) ~= nil then
+			return var
+		end 
+	elseif var == true or ( tvar == 'number' and var ~= 0 ) or tvar == 'function' then
+		return var
+	end
+	
+	if select( '#', ... ) > 0 then
+		return Outils.notEmpty(  ... )
+	end
+end
+
+
+--[[
+	extractArgs permet de récupérer les arguements du modèle, 
+	ou la table transmise à la fonction par une autre fonction d'un module
+	Paramètres : 
+		1 - un objet frame ou une table contenant les paramètre
+		2, ...  - une liste de nom de paramètre pour déterminé si les paramètres sont transmis 
+			par #invoke. Le premier paramètre de frame sera systématiquement testé.
+]]
+function Outils.extractArgs ( frame, ... )
+	if type( frame ) == 'table' then
+		if type( frame.getParent ) == 'function' then
+			if Outils.notEmpty( frame.args.invokeArgsOnly ) then
+				return frame.args
+			else
+				local args = frame:getParent().args;
+				for k,v in pairs( frame.args ) do
+					args[k] = v;
+				end
+				return args
+			end
+		else
+			return frame 
+		end
+	else
+		return { frame, ... }
+	end
+end
+
+
+--[[
+	abr génère une abréviation (discrète par défaut)
+	paramètres : 
+		1 = abréviation, 
+		2 = texte, 
+		3 = langue, 
+		nbsp =  '-' pour une espace insécable avant l'abréviation, '+' pour l'avoir après.
+		visible = true pour une abréviation non discrète
+]]
+function Outils.abr( frame, ... )
+	local args = Outils.extractArgs( frame, ... )
+	if args[2] == nil then 
+		return args[1] or ''	
+		-- retoune l'abréviation ou au minimum une chaine vide s'il n'y a pas de texte
+	end
+
+	local wikiText = { '<abbr' }
+	if not args.visible then
+		table.insert( wikiText, ' class="abbr"' )
+	end
+	table.insert( wikiText, ' title="' .. args[2] )
+	if args[3] then 
+		table.insert( wikiText, '" lang="' .. args[3] )
+	end
+	table.insert( wikiText, '">' .. args[1] .. '</abbr>' )
+	if args.nbsp == '-' then
+		table.insert( wikiText, 1, '&nbsp;' )
+	elseif args.nbsp == '+' then
+		table.insert( wikiText, '&nbsp;' )
+	end
+
+	return table.concat( wikiText )
+end
+
+
+function Outils.nobr( texte )
+	if type( texte )  == 'number' or Outils.trim( texte) then 
+		return '<span class="nowrap">' .. texte .. '</span>'
+	else
+		return ''
+	end
+end
+
+
+--[=[
+	texteLien trouve le premier lien interwiki '[[lien|texte]]' de str et retourne : texte, lien
+	Si le lien est '[[texte]]', retourne : texte, texte.
+	Si str ne contient pas de lien interwiki, retourne : str (et nil)
+	Les fichiers et images ne sont pas considéré comme des liens.
+	Si str n'est pas une chaine, retourne : nil
+]=]
+function Outils.texteLien( str )
+	if type( str ) == 'string' then
+		for lien, texte in mw.ustring.gmatch( str, '%[%[ *([^%[%]|]*) *|? *([^%[%]]*) *%]%]' ) do
+			texte = ( texte ~= '' and texte ) or lien or str
+			if not lien then
+				return str
+			end
+			local testlien = string.lower( lien )
+			local fichier = string.match( testlien, '^fichier:' ) 
+				or  string.match( testlien, '^image:' )
+				or  string.match( testlien, '^file:' )
+			if not fichier then 
+				return texte, lien
+			end
+		end
+		return str
+	end
+end
+
+--[=[
+	texteLien trouve la première lien externe '[adresse texte]' de str et retourne : texte, adresse
+	Une adresse doit commencer par 'http://'
+	Si le lien est '[adresse]', retourne : '', adresse.
+	Si str ne contient pas de lien externe, retourne : str (et nil)
+	Si adresse ou texte contenienne le caratère '[', retourne l'adresse suivante ou str
+	Si str n'est pas une chaine, retourne : nil
+]=]
+function Outils.texteAdresse( str )
+	if type( str ) == 'string' then
+		local lien, texte = string.match( str, '%[(http://[^%[%] ]*) *([^%[%]]-)%]' )
+		texte = texte or str
+		return texte, lien
+	end
+end
+
+
+--[[
+	ordinal renvoie une chaine correspondant à l'abréviation de l'adjectif ordinal du nombre.
+	Paramètres :
+		1 = nombre (string ou number) 
+		2 = true pour avoir première au lieu de premier su nombre = 1
+--]]
+function Outils.ordinal( nombre, feminin )
+	local num = tonumber( nombre )
+	if num == nil then
+		return Outils.trim( tostring( nombre ) ) or ''
+	else
+		local nom = Outils.nombre2texte_reel( nombre, nil, 'ordinal', 'réformée', feminin and 'féminin' )
+		return Outils.abr{ num .. '<sup>e</sup>', nom }
+	end
+end
+
+
+--[[
+  Fonction de traitement d'une "tranche" de nombres entre 0 et 999.
+  Retourne la forme texturelle (5 → cinq, 46 → quarante six, 432 → quatre cent trente deux…)
+  Les paramètres sont les chiffres, du plus grand au plus petit (centaine, dizaine, unité).
+  La valeur nil signifie "0" (pour n'importe lequel des paramètres)
+  La fonction retourne le texte ou 'nil' si la valeur est zéro (pour gérer les 0 millier…)
+  Le paramètre 'langue' indique la variante de langue (fr, be, ch ou ch2).
+  Data est la table des données (issue de loadData())
+--]]
+function Outils.traite_tranche(_c1, _c2, _c3, langue, Data)
+	if (_c1 == nil) then c1 = 0 else c1 = tonumber(_c1) or 0 end
+	if (_c2 == nil) then c2 = 0 else c2 = tonumber(_c2) or 0 end
+	if (_c3 == nil) then c3 = 0 else c3 = tonumber(_c3) or 0 end
+
+	if (c1 == 0 and c2 == 0 and c3 == 0) then
+		return nil -- sil signifie "zéro" (mais à traiter spécialement quand entouré)
+	end
+	local resu = ""
+	
+	-- on calcule la valeur restante (sans les centaines)
+	local val = 10*c2 + c3
+	-- présence d'une centaine ?
+	if (c1 ~= 0) then
+		if (c1 == 1) then
+			resu = "cent " -- séparateur
+		else
+			-- plusieurs centaines : on ajoute l'unité
+			resu = Data.infcent[c1] .. " cent"
+			-- si pas d'unité 100 prend un 's'
+			if (val == 0) then
+				resu = resu .. "s "
+			else
+				resu = resu .. " "
+			end
+		end
+	end
+	-- reste = 0 ?
+	if (val == 0) then
+		-- on retourne directement la centaine
+		return resu
+	end
+	-- c'est forcément un nombre pré-défini
+	local vvv
+	if (langue == "fr") then
+		vvv = Data.infcent[val]
+	elseif (langue == "be") then
+		vvv = Data.infcent_be[val] or Data.infcent[val]
+	elseif (langue == "ch") then
+		vvv = Data.infcent_ch[val] or Data.infcent_be[val] or Data.infcent[val]
+	else
+		vvv = Data.infcent_ch2[val] or Data.infcent_be[val] or Data.infcent[val]
+	end
+	return resu .. vvv .. " "
+	-- note : cette fonction retourne *toujours* un " " à la fin du terme
+end
+
+--[[
+  Fonction principale
+  Reçoit en paramètre (premier non nommé) le nombre à traiter.
+  Retourne la forme textuelle de ce nombre.
+--]]
+function Outils.nombre2texte_reel(pnombre, plangue, ptype, porthographe, pgenre, pmajuscule, pordinal)
+	-- le nombre à convertir (vient toujours du modèle)
+	local valeur = pnombre
+	if (valeur == nil) then
+		return Outils.erreur("Il faut un paramètre non nommé numérique.")
+	elseif type(valeur) == "sting" then
+		
+		-- s'il y a une virgule, on l'ignore
+		local bla = mw.ustring.find(valeur, "[.,]")
+		if (bla ~= nil) then
+			-- extraction de la partie avant la virgule
+			valeur = mw.ustring.match(mw.text.trim(valeur), "^[-]?[0-9]*")
+		end
+	elseif type(valeur) == "number" then
+		valeur = math.floor(valeur)
+	end
+	
+	local nvaleur = tonumber(valeur)
+	if (type(nvaleur) ~= "number") then
+		return Outils.erreur("Le paramètre doit être un nombre.")
+	end
+	-- limites
+	if (nvaleur < -999999999999 or nvaleur > 999999999999) then
+		return Outils.erreur("Nombre trop grand ou trop petit.")
+	end
+	-- note : ici il faudrait s'assurer que le nombre est un entier !
+
+	-- on extrait le moins si présent
+	signe = false
+	if (nvaleur < 0) then
+		nvaleur = -nvaleur
+		signe = true
+	end
+
+	-- option : choix de la langue
+	local langue = plangue
+	if (langue == nil) then
+		langue = "fr"
+	else
+		langue = mw.text.trim(langue)
+	end
+	-- validation des valeurs permises
+	if (langue ~= "fr" and langue ~= "be" and langue ~= "ch" and langue ~= "ch2") then
+		return Outils.erreur("Paramètre langue non reconnu (fr, be, ch ou ch2).")
+	end
+
+	-- type de résultat : seule valeur autorisée : 'ordinal'
+	local style = ptype
+	if (style ~= nil and style ~= "ordinal") then
+		style = nil
+	end
+
+	-- type d'orthographe
+	local ortho = porthographe
+	if (ortho ~= nil and ortho ~= "réformée") then
+		ortho = nil
+	end
+	
+	-- genre : uniquement pour l'ordinal "premier / première"
+	local genre = pgenre
+	if (genre ~= nil and genre ~= "féminin") then
+		genre = nil
+	end
+	
+	-- majuscule : mettre une majuscule au premier mot
+	local maj = pmajuscule
+	if (maj ~= nil and maj ~= "oui") then
+		maj = nil
+	end
+
+	-- cas (très) simple : 0
+	if (nvaleur == 0) then
+		if (style == "ordinal") then
+			if (maj) then
+				return "Zéroième"
+			else
+				return "zéroième"
+			end
+		else
+			if (maj) then
+				return "Zéro"
+			else
+				return "zéro"
+			end
+		end
+	end
+
+	-- on charge les données
+	local Data = mw.loadData( 'Module:Outils/Data' )
+
+	-- on traite les autres cas simples : le nombre est pré-codé
+	local val
+	if (langue == "fr") then
+		val = Data.infcent[nvaleur]
+	elseif (langue == "be") then
+		val = Data.infcent_be[nvaleur] or Data.infcent[nvaleur]
+	elseif (langue == "ch") then
+		val = Data.infcent_ch[nvaleur] or Data.infcent_be[nvaleur] or Data.infcent[nvaleur]
+	else
+		val = Data.infcent_ch2[nvaleur] or Data.infcent_be[nvaleur] or Data.infcent[nvaleur]
+	end
+
+	local res = val or ""
+	if (val == nil) then
+		-- pas de résultat, on fait le "calcul"
+
+		-- on l'éclate en une table des différents caractères
+		local tvaleur = mw.text.split(valeur, "")
+		local nb = #tvaleur -- nombre d'éléments
+
+		-- on boucle sur les triplets de chiffres et on stocke le résultat dans une table
+		local tbl = {}
+		while (true) do
+			-- on prend les 3 valeurs concernées
+			local p1 = tvaleur[nb-2]
+			local p2 = tvaleur[nb-1]
+			local p3 = tvaleur[nb]
+			-- si les 3 sont 'nil' on a terminé
+			if (p1 == nil and p2 == nil and p3 == nil) then
+				break
+			end
+			-- on calcule la valeur du bloc concerné (rangé dans la table)
+			local tmp = mw.text.trim(Outils.traite_tranche(p1, p2, p3, langue, Data) or "zéro")
+			table.insert(tbl, tmp)
+			-- décalage
+			nb = nb - 3
+		end
+
+		-- on construit le résultat final en combinant les éléments
+		-- et en ajoutant les milliers/millions/...
+		local pos = 1
+		while (tbl[pos] ~= nil) do
+			local el = ""
+			-- on l'ajoute, s'il existe
+			if (tbl[pos] ~= "zéro " and tbl[pos] ~= "zéro") then
+				if (pos == 1) then
+					-- rang "1", on ajoute simplement la valeur
+					el = tbl[pos] .. " "
+				else
+					-- si la valeur est "un" on ajoute seulement le rang
+					if (tbl[pos] == "un " or tbl[pos] == "un") then
+						el = Data.sup[pos] .. " "
+					else
+						-- on ajoute X + rang
+						el = tbl[pos] .. " " .. Data.sup[pos]
+						-- le pluriel, sauf pour 1000, et le séparateur
+						if (pos ~= 2) then
+							el = el .. "s "
+						else
+							el = el .. " "
+						end
+					end
+				end
+			end
+			-- on insert
+			res = el .. res
+
+			-- on passe au suivant
+			pos = pos + 1
+		end
+
+		-- suppression espaces
+		res = mw.text.trim(res)
+
+	end -- fin (si on n'avait pas trouvé en pré-défini)
+
+	if (style ~= nil) then
+		-- ordinal : on cherche la fin du nombre pour ajouter le "ième" qui convient
+		if (res == "zéro") then
+			res = "zéroième" -- eurk!
+		elseif (res == "un") then
+			if (genre == nil) then
+				res = "premier"
+			else
+				res = "première"
+			end
+		else
+			-- on récupère le dernier mot
+			local fin = mw.ustring.match(res, "%a*$")
+			-- on récupère le reste (début)
+			local debut = mw.ustring.gsub(res, "%a*$", "")
+			
+			-- on génère la fin en ordinal
+			local nfin = Data.iemes[fin]
+			if (nfin == nil) then
+				nfin = Outils.erreur("erreur interne d'ordinal.")
+			end
+			res = debut .. nfin
+		end
+	end
+
+	-- si orthographe réformée on remplace les espaces par des tirets
+	if (ortho == "réformée") then
+		res = mw.ustring.gsub(res, "[ ]", "-")
+	else
+		-- sinon on remplace les espaces par des insécables
+		res = mw.ustring.gsub(res, "[ ]", "&#160;")
+	end
+	if (style == nil) then
+		-- traitement de signe éventuel (sauf ordinaux)
+		if (signe) then
+			res = "moins&#160;" .. res
+		end
+	end
+
+	-- si demandé on passe la première lettre en majuscule
+	if (maj) then
+		local langage = mw.getContentLanguage()
+		res = langage:ucfirst(res)
+	end
+
+	-- on retourne
+	return res
+end
+
+--[[
+  Fonction principale
+  Reçoit en paramètre (premier non nommé) le nombre à traiter.
+  Retourne la forme textuelle de ce nombre.
+--]]
+function Outils.nombre2texte(frame)
+	local pframe = frame:getParent()
+
+	return Outils.nombre2texte_reel(
+		 pframe.args[1] or frame.args[1], -- pas obligé. Pour permettre des exemples, avec priorité au modèle
+		 frame.args["langue"] or pframe.args["langue"],
+		 frame.args["type"] or pframe.args["type"],
+		 frame.args["orthographe"] or pframe.args["orthographe"],
+		 frame.args["genre"] or pframe.args["genre"],
+		 frame.args["majuscule"] or pframe.args["majuscule"],
+		 frame.args["ordinal"] or pframe.args["ordinal"]);
+end
+
+return Outils

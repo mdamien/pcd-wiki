@@ -34,18 +34,18 @@
 }}
 }}
 {{!}}-----
-{{ #switch: {{{armoiries|}}}{{{drapeau|}}}
+{{ #switch: {{{armoiries|}}}<!--{{{blason|}}}-->{{{drapeau|}}}
 | {{{armoiries|}}} = {{#if:{{{armoiries|}}}|
-{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}[[Héraldique|Armoéries]]
+{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}Armoéries
 {{!}}-----
 {{!}}colspan="2" align="center"{{!}}[[Image:{{{armoiries|Sin escudo.svg}}}|85px]] }}
 | {{{drapeau|}}} = {{#if:{{{drapeau|}}}|
-{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}[[Drapiau]]
+{{!}}colspan="2" bgcolor="#FFFFBB" align="center"{{!}}Drapiau
 {{!}}-----
 {{!}}colspan="2" align="center"{{!}}<span style="display:table-cell; border-collapse:collapse; border: solid 1px #BBBBBB;">[[Image:{{{drapeau|Sin bandera.svg}}}|125px]]</span> }}
 | {{{armoiries|}}}{{{drapeau|}}} = {{#if:{{{drapeau|}}}|
-{{!}}colspan="1" bgcolor="#FFFFBB" align="center"{{!}}[[Héraldique|Armoéries]]
-{{!}} colspan="1" bgcolor="#FFFFBB" align="center"{{!}} [[Drapiau]]
+{{!}}colspan="1" bgcolor="#FFFFBB" align="center"{{!}}Armoéries
+{{!}} colspan="1" bgcolor="#FFFFBB" align="center"{{!}} Drapiau
 {{!}}-----
 {{!}}colspan="1" align="center"{{!}}[[Image:{{{armoiries|Sin escudo.svg}}}|85px]]
 {{!}}colspan="1" align="center" {{!}}<span style="display:table-cell; border-collapse:collapse; border: solid 1px #BBBBBB;">[[Image:{{{drapeau|Sin bandera.svg}}}|125px]]</span> }}
@@ -123,7 +123,6 @@
 |'''Site deul mérrie'''
 |{{{site|(inconnu)}}}
 |}{{#if:{{{carte|}}}|{{#if:{{NAMESPACE}}||}}
-}}</includeonly><noinclude>
-{{/Documentation}}
+}}</includeonly><noinclude><!--{{/Documentation}}-->
 [[catégorie:Subroutines-pcd]][[catégorie:Infoboète]]
 </noinclude>

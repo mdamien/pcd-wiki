@@ -2,9 +2,4 @@
 This template "clears" both margins. It is often used before a header to make sure that the header will be the full width of the page.
 If you only want to clear left or right, use {{tl|clr|param=left}} or {{tl|clr|param=right}}.
 [[Catégorie:Modèle|{{PAGENAME}}]]
-
-[[en:Template:-]]
-[[ja:Template:-]]
-[[pt:Predefinição:-]]
-[[vi:Tiêu bản:-]]
 </noinclude>

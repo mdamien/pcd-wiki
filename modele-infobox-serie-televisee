@@ -1,0 +1,30 @@
+<noinclude>
+<!--==============================================================
+
+==============================================================-->
+</noinclude><includeonly>{{Infobox V3/Début|class=large|width=|icon=television|background=#7ABCF9|text={{#if:{{{titre|}}}|<cite>{{{titre|}}}</cite>|<cite>{{{PAGENAME}}}</cite>}}}}
+{{Infobox V3/Image|image={{{image|}}}|legend={{{légende|}}}|alt=|upright={{{upright|}}}}}{{#if:{{{image|}}}{{{légende|}}}|{{Infobox V3/Séparateur|class=|background=#7ABCF9}}}}<!-- 
+
+-->
+{{Infobox V3/Tableau début|class=hidden}}
+{{Infobox V3/Tableau Ligne mixte|Tite original|<cite>{{{titre original|}}}</cite>|width=8|if={{{titre original|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Tite original|<cite>{{{titre original non latin|}}}</cite>|width=8|if={{{titre original non latin|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Translittéracion|<cite>{{{translittération|}}}</cite>|width=8|if={{{translittération|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Eutes tites<br/>francophones|{{{autres titres francophones|}}}|width=8|if={{{autres titres francophones|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Ginre|{{{genre|}}}|width=8|if={{{genre|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Création|{{{créateur|}}}|width=8|if={{{créateur|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Produkcion|{{{producteur|}}}|width=8|if={{{producteur|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Acteus princhipaux|{{{acteur|}}}|width=8|if={{{acteur|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Musique|{{{musique|}}}|width=8|if={{{musique|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Païs d'origine|{{{pays|}}}|width=8|if={{{pays|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Chaîne d'origine|{{{chaine|{{{chaîne|}}}}}}|width=8|if={{{chaine|{{{chaîne|}}}}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{abréviation discrète|Nb.|Nombre}} ed saisons|{{{nb saisons|}}}|width=8|if={{{nb saisons|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{abréviation discrète|Nb.|Nombre}} d'épisodes|{{{nb épisodes|}}}|width=8|if={{{nb épisodes|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Format|{{{format|}}}|width=8|if={{{format|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Durée|{{{durée|}}}|width=8|if={{{durée|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{abréviation discrète|Diff. originale|Diffusion originale}}|{{{début|}}} – {{{fin|}}}|width=8|if={{{début|}}}}}
+{{Infobox V3/Tableau Ligne mixte|Site web|{{{site web|}}}|width=8|if={{{site web|}}}}}
+{{Infobox V3/Tableau fin}}
+{{Infobox V3/Navigateur|prev=<cite>{{{saison précédente|{{{précédente|}}}}}}</cite>|next=<cite>{{{saison suivante|{{{suivante|}}}}}}</cite>|class=bordered|border-color=#7ABCF9|link=oui|prev if={{{saison précédente|{{{précédente|}}}}}}|next if={{{saison suivante|{{{suivante|}}}}}}}}
+{{Infobox V3/Fin|Modèle:Infobox Série télévisée|class=|border-color=#7ABCF9}}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|<!--[[Catégorie:Wikipédia:Séries télévisées‎]]-->|}}
+{{Infobox/Titre en italique|nom={{{titre|}}}|activé={{{titre article en italique|}}}}}</includeonly><noinclude><!--{{documentation}}--></noinclude>

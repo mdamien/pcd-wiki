@@ -1,0 +1,7 @@
+<includeonly><!--
+-->{{#ifeq:{{{activé|}}}|non|<!--
+ -->|{{#if:{{{nom|{{{1|}}}}}}<!--
+   -->|{{DISPLAYTITLE:<i>{{#invoke:String|replace|{{#if:{{{langue|}}}|{{langue|1={{{langue|}}}|2={{{nom|{{{1|}}}}}}}}|{{{nom|{{{1|}}}}}}}}|’|'}}</i>{{#invoke:String|titledisambig}}|noreplace}}<!--
+  -->}}<!--
+  -->{{Titre en italique|1={{{langue|}}}|noreplace=1}}<!--
+-->}}</includeonly>

@@ -1,0 +1,5 @@
+{{DISPLAYTITLE:{{#if:{{NAMESPACE}}|{{NAMESPACE}}:}}{{#ifeq:{{#invoke:String|find|{{PAGENAME}}| (}}|0
+|''{{#if:{{{1|}}}|<span lang="{{{1|}}}">}}{{PAGENAME}}{{#if:{{{1|}}}|</span>}}''
+|''{{#if:{{{1|}}}|<span lang="{{{1|}}}">}}{{#Invoke:String|replace|{{PAGENAME}}| (|{{#if:{{{1|}}}|</span>}}'' (}}
+}}
+|{{#if:{{{noreplace|}}}|noreplace|noerror}}}}<nowiki />

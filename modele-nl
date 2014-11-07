@@ -1,0 +1,22 @@
+{{Indication de langue|nirlindé|nl|texte={{{texte|}}}}}<noinclude>
+
+<code><nowiki>{{nl|texte=tekst in het Nederlands}}</nowiki></code>
+
+== Résumé pour l'Éditeur Visuel ==
+<templatedata>
+{
+        "description": "Ce modèle insère un symbole indiquant que l'information qui suit est en néerlandais et balise le texte optionnel en tant que texte en néerlandais (à usage des synthétiseurs vocaux etc.).",
+        "params": {
+                "texte": {
+                        "label": "Texte en néerlandais",
+                        "description": "Insérez ici le texte en néerlandais.",
+                        "type": "string",
+                        "required": false
+                }
+        }
+}
+</templatedata>
+
+[[Catégorie:Modèle]]
+
+</noinclude>

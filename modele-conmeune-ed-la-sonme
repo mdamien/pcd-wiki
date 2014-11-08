@@ -4,7 +4,7 @@ __NOTOC__
   N’insérer AUCUN blanc ou saut de ligne avant < noinclude > ou après < /noinclude >.
 -->
 <!-- ne pas déplacer ce qui suit, et surtout pas en dehors du < noinclude > ... < noinclude > -->
-
+[[Catégorie:Subroutines-pcd]][[catégorie:Infoboète]][[catégorie:Modèle]]
 <!-- fin de la zone à ne pas déplacer -->
 </noinclude>{{Infobox/Début}}
 {{Infobox/Titre
@@ -124,5 +124,6 @@ __NOTOC__
 ! colspan="2" {{!}} {{Boîte déroulante infobox début|titre=Localisation carte |couleurFond=#dfd|couleurFondB=#dfd|couleurFondT=#dfd|couleurBordure=#dfd|label=[ départementale ] / [ départementale ]}}{{Géolocdual/{{{géoloc-département}}}|{{{longitude}}}|{{{latitude}}}|desc={{{nomcommune}}}}}{{Boîte déroulante infobox fin}}
 {{!-}}
 }}
-{{Infobox/Fin}}<!--
-|}<noinclude>[[Catégorie:Subroutines-pcd]][[catégorie:Infoboète]][[catégorie:Modèle]]</noinclude>
+{{Infobox/Fin}}<!--  a -->
+|}
+<noinclude>[[Catégorie:Subroutines-pcd]][[catégorie:Infoboète]][[catégorie:Modèle]]</noinclude>

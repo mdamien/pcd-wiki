@@ -149,4 +149,4 @@
 }}
 {{Infobox/Fin}}<!--
 les mauvais paramétrages
--->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Commune géolocalisable sans coordonnées paramétrées|Italie]]}}}}}}}}</includeonly><noinclude>{{Doc modèle|parser=oui}}</noinclude>
+-->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Commune géolocalisable sans coordonnées paramétrées|Italie]]}}}}}}}}</includeonly><noinclude>{{Doc modèle|parser=oui}}[[catégorie:Modèle]]</noinclude>

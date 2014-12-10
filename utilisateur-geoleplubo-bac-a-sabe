@@ -259,7 +259,18 @@ coucou</span>
  |}
 
 == Musique ==
-#'''Exemple code LilyPond'''
+#'''Exemples code LilyPond'''
+#<score >
+\relative c'{
+    \clef treble
+    \key c \major 
+    \time 4/4
+    c8 d e f g a b c 
+    c,1
+    \bar "||"
+    R1 \bar "|." 
+}
+</score>
 # <score vorbis="1" >
 \relative c'{
     \clef treble
@@ -272,7 +283,45 @@ coucou</span>
     R1 \bar "|." 
 }
 </score>
+4. <score >
+{
+    \clef treble
+    \key c \major 
+    \time 4/4
+    c8 d e f g a b c 
+    c,1
+    \bar "||"
+    R1 \bar "|." 
+}
+</score>
 
+
+exemple 5 =
+<score >
+\relative c'{
+    \clef treble
+    \key c \major 
+    \time 4/4
+    c8 d e f g a b c~
+    c1
+    \bar "|." 
+}
+</score>
+
+exemple 6.
+
+<score  >
+{
+    \clef treble
+    \key c \major 
+    \time 4/4
+    %Mesure 1
+    c8 d e f g a b c~
+    %Mesure 2
+    c1
+    \bar "|." 
+}
+</score>
 
 == TeX ==
 

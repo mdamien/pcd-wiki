@@ -258,6 +258,22 @@ coucou</span>
 *9
  |}
 
+== Musique ==
+#'''Exemple code LilyPond'''
+# <score vorbis="1" >
+\relative c'{
+    \clef treble
+    %staffkeysig
+    \key c \major 
+    \time 4/4
+    c8 d e f g a b c 
+    c,1
+    \bar "||"
+    R1 \bar "|." 
+}
+</score>
+
+
 == TeX ==
 
 * '''[http://fr.wikipedia.org/wiki/Aide:Formules_TeX fr:Aide:Formules TeX]''', '''[https://meta.wikimedia.org/wiki/Help:Formula Méta:Help:TeX]  édition des formules mathématiques,

@@ -1,0 +1,448 @@
+= essais musique =
+
+== Clarinette == 
+
+;???  midiInstrument = "clarinet"  ne marche pas ???
+
+<score vorbis="1">\new Staff \with { midiInstrument = "clarinet" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {e,1 a, d g b e'}}
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 2)
+   }} </score>
+
+<score vorbis="1">\new Staff \with { midiInstrument = "clarinet" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {c1 d e f g a b c b a g f e d c}}
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 2)
+   }} </score>
+
+== Guitare ==
+
+
+<score vorbis="1">\new Staff \with { midiInstrument = "acoustic guitar (nylon)" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {e,1 a, d g b e'}}
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 2)
+   }} </score>
+
+*mi(1)  (E1 noté E2) {{unité|82.4|Hz}}
+*la(1)  (A1 noté A2) {{unité|110.0|Hz}}
+*ré(2)  (D2 noté D3) {{unité|146.8|Hz}}
+*sol(2) (G2 noté G3) {{unité|196.0|Hz}}
+*si(2)  (B2 noté B3)  {{unité|246.9|Hz}}
+*mi(3)  (E3 noté E4) {{unité|329.6|Hz}}
+
+
+== suite ==
+
+
+<score vorbis="1">
+
+\new Staff \with {
+  midiInstrument = "trumpet"
+} {
+
+
+
+<score vorbis="1">{
+\new Staff \with {midiInstrument = "Church Organ"} 
+<e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
+<f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
+}</score>
+
+<score vorbis="1">{
+\new Staff \with {midiInstrument = "Overdriven Guitar"} 
+<e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
+<f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
+}</score>
+
+
+<score vorbis="1">{
+\new Staff \with {midiInstrument = "acoustic guitar (nylon)"} 
+<e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
+<f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
+}</score>
+
+
+<score vorbis="1">{
+\new Staff \with {midiInstrument = "Clarinet"} 
+<e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
+<f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
+}</score>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+<score vorbis="1">{
+\new Staff {
+   \set Staff.instrumentName = "clarinet"
+   \set Staff.midiInstrument = "clarinet"
+<e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
+<f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
+}</score>
+
+<score vorbis="1">{
+\new Staff {
+   \set Staff.instrumentName = "Church Organ"
+   \set Staff.midiInstrument = "Church Organ"
+<e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
+<f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
+}</score>
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+<score midi="1" vorbis="1" titre="lnlknl" title="lnlknl">
+\new PianoStaff <<
+    \set PianoStaff.instrumentName = #"   Piano"
+    \new Staff = "upper" \relative c {
+  \clef bass
+  \key bes \major
+  \time 4/4
+
+   r4 (d g4 cis ~ cis d b d,)
+}
+    \new Staff = "lower" \relative c {
+  \clef bass
+  \key bes \major
+  \time 4/4
+
+   r1 r1
+}
+  >>
+</score>
+
+
+<score midi="1" vorbis="1" titre="lnlknl" title="lnlknl">
+\new PianoStaff <<
+    \set PianoStaff.instrumentName = #"Church Organ"
+    \new Staff = "upper" \relative c {
+  \clef bass
+  \key bes \major
+  \time 4/4
+
+   r4 (d g4 cis ~ cis d b d,)
+}
+    \new Staff = "lower" \relative c {
+  \clef bass
+  \key bes \major
+  \time 4/4
+
+   r1 r1
+}
+  >>
+</score>
+
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
+<score vorbis="1">
+
+\new Staff \with {
+  midiInstrument = "voice oohs"
+} {
+\relative c'' {
+    \key d \major
+    \time 6/8
+    \partial 4.*1
+    b8 b b
+    b4 d8 cis4 d8
+    b b d d cis d
+    b4 d8 d cis d
+    b4. b8 b b
+    b4 a8 g4 fis8
+    g g g g fis g
+    e4 g8 g fis g
+    \partial 4.*1
+    e4. \bar "|."
+ }
+}
+\addlyrics {
+  \lyricmode {
+Quand Pier -- re par -- tit pour l'ar -- mé -- e, sept ans de -- meu -- rer,
+sept ans de -- meu -- rer.
+A lais -- sé sa mie à Gre -- no -- ble, qui fait que pleu -- rer,
+qui fait que pleu -- rer.
+  }
+}
+
+\midi {
+  \context {
+    \Score
+    tempoWholesPerMinute = #(ly:make-moment 100 4)
+  }
+}
+</score>
+
+
+<score vorbis="1">
+
+\new Staff \with {
+  midiInstrument = "trumpet"
+} {
+\relative c'' {
+    \key d \major
+    \time 6/8
+    \partial 4.*1
+    b8 b b
+    b4 d8 cis4 d8
+    b b d d cis d
+    b4 d8 d cis d
+    b4. b8 b b
+    b4 a8 g4 fis8
+    g g g g fis g
+    e4 g8 g fis g
+    \partial 4.*1
+    e4. \bar "|."
+ }
+}
+\addlyrics {
+  \lyricmode {
+Quand Pier -- re par -- tit pour l'ar -- mé -- e, sept ans de -- meu -- rer,
+sept ans de -- meu -- rer.
+A lais -- sé sa mie à Gre -- no -- ble, qui fait que pleu -- rer,
+qui fait que pleu -- rer.
+  }
+}
+
+\midi {
+  \context {
+    \Score
+    tempoWholesPerMinute = #(ly:make-moment 100 4)
+  }
+}
+</score>
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+<center> Une petite polka : ''Happy new year'' de ? (attention pas connu)... [[Discussion Utilisateur:P-e|p-e]] 2 janvier 2014 à 15:36 (CET)
+<score vorbis=1>
+\unfoldRepeats
+\new PianoStaff <<
+  \new Staff = "right" \with {
+    midiInstrument = "acoustic grand"
+  } \relative c'' {
+      \key g \major
+      \time 2/4
+      \tempo "Tempo di polka"
+      \stemNeutral
+     \partial 8*1 \times 2/3 { d16( e d) } 
+      b8 \times 2/3 { d16( e d) } b8 g'16 fis 
+      a g e8 ~ e c16 e
+      e d b8 ~ b g16 b 
+      d c a8 ~ a \times 2/3 { d16( e d) }
+      b8 \times 2/3 { d16( e d) } b8 g'16 fis 
+      a g e8 ~ e c16 e
+      e d b g d' c a fis 
+      g8 b g \bar ":|" 
+  }
+  \new Staff = "left" \with {
+    midiInstrument = "acoustic grand"
+  } {
+    \clef bass \relative c' {
+      \key g \major
+      \time 2/4
+      r8 
+     g <b d> g <b d> 
+     g <c e> <c e> <c e>
+     g <b d> <b d> <b d>
+     d, <fis c'> <fis c'> <fis c'>
+     g <b d> g <b d> 
+     g <c e> <c e> <c e>
+     g <b d> d, <fis c'>
+     g <b d> <b d> 
+    }
+  }
+>>
+\midi {
+  \context {
+    \Score
+    tempoWholesPerMinute = #(ly:make-moment 60 4)
+  }
+}
+</score></center>
+
+--------------------------------------------------------
+
+<score vorbis="1">
+
+\new Staff \with {
+  midiInstrument = "voice oohs"
+} {
+  \relative c'' {
+    \key c \major
+    \time 2/2
+    \partial 2
+    \tempo "Temps de marche animée"
+    \autoBeamOff
+    r8\mf r16 g e8. g16
+    c4 c d d
+    g4.( f8) e r16 c e8. c16
+    a4 f'2 d8. b16
+    c2 r4 c8.\cresc d16
+    e4 e e f8. e16
+    e4 d8 r r4 d8.\f e16
+    f4 f f g8. f16
+    \appoggiatura f8 e2 r4 g8.\ff g16
+    g4( e8.) c16 g'4 e8. c16
+    g2 r8\p r16 g g8.\cresc g16
+    b4. d8 f4. d8
+    d[ c] c r r4 aes\f
+    g c8. c16 c4 b8. c16
+    d2 r4 d\p
+    ees4.\cresc ees8 ees ees f g
+    d2 r4 ees8\f d
+    c4 c ees d8. c16
+    c4 b8 r r4 r8 r16 g'\ff
+    g2\<~ g8\! e c8. c16
+    d2 r4 r8 r16 g
+    g2~ g8 e c8. c16
+    d2 r4 g,\p
+    c2\< r4\! c
+    e2\< r\!
+    f\f g4 a
+    b,2 r4 r8 r16 a'\ff
+    g2~ g8 e f d
+    c2 r2
+    R1*6 r2 \bar "|."
+  }
+}
+\addlyrics {
+  \lyricmode {
+    Al -- lons en -- fants de la Pa -- tri -- e,
+    Le jour de gloire est ar -- ri -- vé_!
+    Con -- tre nous de la ty -- ran -- ni -- e,
+    L'É -- ten -- dart san -- glant est le -- vé,
+    L'é -- ten -- dart san -- glant est le -- vé,
+    En -- ten -- dez -vous dans les Cam -- pa -- gnes
+    Mu -- gir ces fé -- ro -- ces sol -- dats_?
+    Ils vien -- nent jus -- que dans vos bras
+    é -- gor -- ger vos fils, vos Com -- pa -- gnes_!...
+
+    Aux a -- rmes, Ci -- to -- yens_!
+    For -- mez vos ba -- tail -- lons_:
+    Mar -- chez, mar -- chez_!
+    Qu’un sang im -- pur
+    A -- breu -- ve nos sil -- lons_!
+  }
+}
+
+\midi {
+  \context {
+    \Score
+    tempoWholesPerMinute = #(ly:make-moment 120 4)
+  }
+}
+</score>
+
+===accompagnement===
+<score vorbis="1">
+\new PianoStaff \with {
+} <<
+  \new Staff = "right" \with {
+    midiInstrument = "harpsichord"
+  }
+  \relative c'' {
+    \key c \major
+    \time 2/2
+    \partial 2
+    \tempo "Temps de marche animée"
+    r8\mf r16 <e, g>16 <e g>8. <d g>16
+    <e g c>4 <e g c> <g b d> <g b d>
+    <c e g>4.( <b d f>8) <c e>8[ r16 <g e'>] <g e'>8. <bes g'>16
+    <a f'>4 <a f'>2 <b f'>4
+    <c e>16[ c b c] d c b c c4 b8.\cresc d16
+    <c e>4 <c e> <c e> <d f>8. <c e>16
+    d16[ g fis g] a g fis g g,8[ <b d>] <b d>8.\f <c e>16
+    <d f>4 <d f> <d f> <e g>8. <d f>16
+    \grace {  <d f>8 } <c e>16[ c b c] d c b c c4 <g g'>8.\ff <g g'>16
+    <g g'>4( <e e'>8.) <c c'>16 <g' g'>4( <e e'>8.) <c c'>16
+    <g' g'>16[ g' fis e] d c b a g8.\p g16\cresc g8. g16
+    <b d g>4. <g d'>8 <g f'>4. <f d'>8
+    <f d'>8 <e c'> <e c'>4 r <aes e'>\f
+    <g e'> <c e>8. <c e>16 <c e>4 <b d>8. c16
+    g[ g' fis g] a g fis g g,4 d'\p
+    ees4.\cresc ees8 ees ees ees <ees g>
+    <b d g> <b d> <b d> <b d> <b d>4 <c ees>8\f <g d'>
+    <g c>4 <c ees> <ees g> <d f>8. <c ees>16
+    <c ees>4 <b d>8 r r4 r8 r16 <g g'>\ff
+    <g g'>2 ~ <g g'>8[ <e' g>] <c e>8. <c e>16
+    <g d'>8 g' g g g4 r8 r16 <g, g'>
+    <g g'>2 ~ <g g'>8.[ <e' g>16] <c e>8. <c e>16
+    <b d'>8 g' g g g4 r8 <g, g'>\p
+    e' c c b a[ a'16 g] a8 b
+    c <c, e> <c e> <c e> <c e>4 r
+    <d f>2 <d g>4. <c a'>8
+    <g g'>8 g g g g[ b d r16 f]\ff
+    <c e>2 ~ <c e>8[ <e, c'>] <f d'> <d b'>
+    <e c'>4^\markup { \italic {Ritournelle.}} c'8. c16 <g d'>4 <g d'>8. <g d'>16
+    <c e>8[ e16 f] g8 g g f e d
+    <e, c'>[ <e c'>16 <e c'>] <e c'>8 <e c'> <g d'>[ <g d'>16 <g d'>] <g d'>8 <g d'>
+    <c e>[ e16 f] g8 g g f e d
+    <c e>[  <c e>16 <d f>] <e g>8 <e g> <e g> <d f> <c e> <b d>
+    <c e>[ a'16 b] c8 a g f e d
+    c[ <e, g c>16 <e g c>] <e g c>8 <e g c> <e g c>2
+    <e g c>
+  }
+  \new Staff = "left" \with {
+    midiInstrument = "harpsichord"
+  } {
+    \clef bass \relative c' {
+      \key c \major
+      \time 2/2
+      \partial 2
+      \tempo "Temps de marche animée"
+      r8 r16 c,16 e8. g16
+      c,4 c' b g
+      c8 c g e c e c e
+      d4 d2 g4
+      c g c, r
+      r c e c
+      g' d g r
+      r g\f b g
+      c g c, g'8.\ff g16
+      g4( e8.) c16 g'4( e8.) c16
+      g'4 g, g8\p b d f
+      g g b, g' b, g' b, g'
+      a, c' g e c4 <c c'>\f
+      <c c'>2. r8 fis
+      g4 d g, <g' b>\p
+      <g c>4. c8 c c d c
+      b a g f ees4 g8\f f
+      ees4 g c8[ c,] f8. fis16
+      g8 g d b g4 r8 r16 g'\ff
+      g2 ~ g8[ c,] e8. c16
+      g8 g' g g g4 r8 r16 g
+      g2 ~ g8[ c,] e8. c16
+      f,8 g' d b g4 g\p
+      r8 c e g e c e g
+      c c,e g e c e g
+      f2\f f4. e8
+      g g g f e4 r8 d\ff
+      c4 e g g,
+      c c' g g,
+      c e g g,
+      c8 e g c g, b d g
+      c,4 e g g,
+      c e g g,
+      c f d g
+      c, c' g e
+      c2 \bar "|."
+    }
+  }
+>>
+</score>
+
+== ABC ==
+
+<score lang="ABC" vorbis="1">
+X:1
+T:Amazing Grace
+M:3/4
+L:1/4
+K:G
+D | G2 B/G/ | B2A | G2E | D2
+D | G2B/G/ | B2B/d/ | d2
+B | d2B/G/ | B2A | G2E | D2
+D | G2 | B/G/ B2 |A G2
+ |]
+</score>

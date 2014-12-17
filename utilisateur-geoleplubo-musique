@@ -11,7 +11,7 @@
       tempoWholesPerMinute = #(ly:make-moment 100 2)
    }} </score>
 
-<score vorbis="1">\new Staff \with { midiInstrument = "clarinet" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {c1 d e f g a b c b a g f e d c}}
+<score vorbis="1">\new Staff \with { midiInstrument = "clarinet" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {g,1 c1 e g c e}}
 \midi {
     \context {
       \Score

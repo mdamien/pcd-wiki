@@ -35,6 +35,33 @@
 *si(2)  (B2 noté B3)  {{unité|246.9|Hz}}
 *mi(3)  (E3 noté E4) {{unité|329.6|Hz}}
 
+==== \transpose ====
+http://lilypond.org/doc/v2.19/Documentation/source/Documentation/notation/changing-multiple-pitches.fr.html#transpose
+'''Code'''
+
+<pre>
+<score >
+\transpose d e {
+  \relative c' {
+    \key d \major
+    d4 fis a d
+  }
+}
+</score>
+</pre>
+
+
+'''Résultat'''
+
+<score >
+\transpose d e {
+  \relative c' {
+    \key d \major
+    d4 fis a d
+  }
+}
+</score>
+
 
 == suite ==
 

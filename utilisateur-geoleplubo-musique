@@ -2,7 +2,7 @@
 
 == Clarinette == 
 
-;???  midiInstrument = "clarinet"  ne marche pas ???
+;midiInstrument = "clarinet"  
 
 <score vorbis="1">\new Staff \with { midiInstrument = "clarinet" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {e,1 a, d g b e'}}
 \midi {
@@ -35,6 +35,40 @@
 *si(2)  (B2 noté B3)  {{unité|246.9|Hz}}
 *mi(3)  (E3 noté E4) {{unité|329.6|Hz}}
 
+== divers ==
+
+<pre>
+<score >
+{
+    \clef bass
+    \key g \major 
+    \time 3/4
+    c8 d e fis g a b4 c'2
+
+<< c2. e g bes~ >>
+<< c2. e g bes >>
+
+    \bar "||"
+}
+</score>
+</pre>
+
+'''Résultat'''
+
+<score >
+{
+    \clef bass
+    \key g \major 
+    \time 3/4
+    c8 d e fis g a b4 c'2
+
+<< c2. e g bes~ >>
+<< c2. e g bes >>
+
+    \bar "||"
+}
+</score>
+
 ==== \transpose ====
 http://lilypond.org/doc/v2.19/Documentation/source/Documentation/notation/changing-multiple-pitches.fr.html#transpose
 '''Code'''
@@ -64,36 +98,63 @@ http://lilypond.org/doc/v2.19/Documentation/source/Documentation/notation/changi
 
 
 == suite ==
-
-
+ne marche pas ?
+<pre>
+<score vorbis="1">\new Staff \with { midiInstrument = "Church Organ" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {e,1 a, d g b e'}}
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 2)
+   }} </score>
+</pre>
+<pre>
 <score vorbis="1">
 
 \new Staff \with {
   midiInstrument = "trumpet"
 } {
+</pre>
 
 
+<score vorbis="1">\new Staff \with { midiInstrument = "trumpet" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {e,1 a, d g b e'}}
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 2)
+   }} </score>
 
+marche ... ??? !
+
+<score vorbis="1">\new Staff \with { midiInstrument = "clarinet" \remove "Time_signature_engraver"} {\time 6/1\clef "G_8" {e,1 a, d g b e'}}
+\midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 100 2)
+   }} </score>
+
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+midiInstrument = "Church Organ"
 <score vorbis="1">{
 \new Staff \with {midiInstrument = "Church Organ"} 
 <e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
 <f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
 }</score>
-
+midiInstrument = "Overdriven Guitar"
 <score vorbis="1">{
 \new Staff \with {midiInstrument = "Overdriven Guitar"} 
 <e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
 <f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
 }</score>
 
-
+midiInstrument = "acoustic guitar (nylon)"
 <score vorbis="1">{
 \new Staff \with {midiInstrument = "acoustic guitar (nylon)"} 
 <e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
 <f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
 }</score>
 
-
+midiInstrument = "Clarinet"
 <score vorbis="1">{
 \new Staff \with {midiInstrument = "Clarinet"} 
 <e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
@@ -101,6 +162,9 @@ http://lilypond.org/doc/v2.19/Documentation/source/Documentation/notation/changi
 }</score>
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ne marche pas !
+<pre>
 <score vorbis="1">{
 \new Staff {
    \set Staff.instrumentName = "clarinet"
@@ -116,7 +180,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <e'' a>8 <c'' a> <a' a> <e'' a> <c'' a> <a' a> <e'' a> <c'' a>
 <f'' a>8 <c'' a> <a' a> <f'' a> <c'' a> <a' a> <f'' a> <c'' a>
 }</score>
-
+</pre>
 oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 <score midi="1" vorbis="1" titre="lnlknl" title="lnlknl">

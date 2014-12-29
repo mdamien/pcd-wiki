@@ -1,5 +1,18 @@
 = essais musique =
 
+== Grille de blues ==
+
+<br />
+
+{| style="width:70%;"  border="1" cellpadding="10" 
+|-
+| style="text-align:center;" | C7 || style="text-align:center;" | F7 || style="text-align:center;" | C7 || style="text-align:center;" | _
+|-
+| style="text-align:center;" | F7 || style="text-align:center;" | _ || style="text-align:center;" | C7 || style="text-align:center;" | _
+|-
+| style="text-align:center;" | G7 || style="text-align:center;" | F7 || style="text-align:center;" | C7 || style="text-align:center;" | (G7)
+|}
+
 == Clarinette == 
 
 ;midiInstrument = "clarinet"  

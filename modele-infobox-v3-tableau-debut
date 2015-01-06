@@ -1,2 +1,2 @@
 <includeonly><table {{#if:{{{type|}}}|class="{{{type|}}}"}}>
-<caption {{#if:{{{class|}}}|class="{{{class}}}" {{#if:{{{border|}}}| style="border-color:{{{border}}}"}}|{{#if:{{{background|}}}| style="background:{{{background}}}; {{#if:{{{color|}}}|color: {{{color|}}};}}"}}}}>{{{text|Données clés}}}</caption></includeonly><noinclude>{{Documentation}}</noinclude>
+<caption {{#if:{{{class|}}}|class="{{{class}}}" {{#if:{{{border|}}}| style="border-color:{{{border}}}"}}|{{#if:{{{background|}}}| style="background:{{{background}}}; {{#if:{{{color|}}}|color: {{{color|}}};}}"}}}}>{{{text|Princhipales données}}}</caption></includeonly><noinclude><!--{{Documentation}}--></noinclude>

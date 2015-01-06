@@ -1,0 +1,72 @@
+<includeonly>{{Infobox V3/Début
+| background = #A864A8
+| color      = #fff
+| text       = {{{titre|}}}
+}}
+{{Infobox V3/Image
+ | image   = {{{symbole|}}}
+ | upright = 0.5
+ | alt     = Représentation en noir du symbole illustrant le signe {{{titre|{{PAGENAME}} }}} en astrologie.
+ | legend  = Érprésintacion symbolike du singne {{{titre|{{PAGENAME}} }}}.
+}}
+{{Infobox V3/Séparateur
+ | class =
+ | background = #A864A8
+ | height     = 1
+}}
+{{Infobox V3/Tableau début
+ | class = hidden
+}}
+{{Infobox V3/Tableau Ligne mixte
+ | if = {{{date début|}}}
+ | Période
+ | Du {{{date début}}}
+}}
+{{Infobox V3/Tableau Ligne mixte
+ | if = {{{date fin|}}}
+ |
+ | au {{{date fin}}}
+}}
+{{Infobox V3/Tableau Ligne mixte
+ | if = {{{place|}}}
+ | Plache dins ch' zodiake
+ | {{{place}}} sinne
+}}
+{{Infobox V3/Tableau Ligne mixte
+ | Élémint
+ | {{{élément|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte
+ | Polarité
+ | {{{polarité|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte
+ | Mode
+ | {{{mode|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte
+ | Moaison achuchonnée
+ | {{{maison|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte
+ |  Aste(s) gouvérnant(s)
+ | {{{planète|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte
+ | Opposé polaire
+ | {{{opposé|}}}
+}}
+{{Infobox V3/Tableau fin}}
+{{Infobox V3/Navigateur
+ | prev         = {{{précédent|}}}
+ | next         = {{{suivant|}}}
+ | prev text    = Signe précédent
+ | next text    = Signe suivant
+ | class        = bordered
+ | border-color = #A864A8
+}}
+{{Infobox V3/Fin
+ | Modèle:Infobox Signe du Zodiaque
+ | class        = bordered
+ | border-color = #A864A8
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

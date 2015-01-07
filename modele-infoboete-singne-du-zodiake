@@ -1,19 +1,44 @@
-<includeonly>{{Infobox V3/Début
-| background = #A864A8
-| color      = #fff
-| text       = {{{titre|}}}
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{#if:{{{titre|}}}|{{{titre}}}|{{PAGENAME}}}}|A864A8|entete defaut|fff
 }}
+<!--
 {{Infobox V3/Image
  | image   = {{{symbole|}}}
  | upright = 0.5
  | alt     = Représentation en noir du symbole illustrant le signe {{{titre|{{PAGENAME}} }}} en astrologie.
  | legend  = Érprésintacion symbolike du singne {{{titre|{{PAGENAME}} }}}.
+}}-->
+{{Infobox/Image
+ | {{{symbole|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|}}|{{{taille image|}}}||||Architecte
 }}
-{{Infobox V3/Séparateur
+{{Infobox/Sous-titre optionnel
+ | |{{{date début|}}}|4C6099|ffffff
+}}
+<!--{{Infobox V3/Séparateur
  | class =
  | background = #A864A8
  | height     = 1
+}}-->
+{{Infobox/Ligne mixte optionnelle
+ | if = {{{date début|}}}
+ | Période
+ | Du {{{date début}}}
 }}
+{{Infobox/Ligne mixte optionnelle
+ | if = {{{date fin|}}}
+ |
+ | au {{{date fin}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | |{{{place|}}}|4C6099|ffffff
+}}
+{{Infobox/Ligne mixte optionnelle
+ | if = {{{place|}}}
+ | Plache dins ch' zodiake
+ | {{{place}}} sinne
+}}
+<!--
 {{Infobox V3/Tableau début
  | class = hidden
 }}
@@ -32,30 +57,32 @@
  | Plache dins ch' zodiake
  | {{{place}}} sinne
 }}
-{{Infobox V3/Tableau Ligne mixte
+-->
+{{Infobox/Ligne mixte optionnelle
  | Élémint
  | {{{élément|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte
+{{Infobox/Ligne mixte optionnelle
  | Polarité
  | {{{polarité|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte
+{{Infobox/Ligne mixte optionnelle
  | Mode
  | {{{mode|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte
+{{Infobox/Ligne mixte optionnelle
  | Moaison achuchonnée
  | {{{maison|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte
+{{Infobox/Ligne mixte optionnelle
  |  Aste(s) gouvérnant(s)
  | {{{planète|}}}
 }}
-{{Infobox V3/Tableau Ligne mixte
+{{Infobox/Ligne mixte optionnelle
  | Opposé polaire
  | {{{opposé|}}}
 }}
+<!--
 {{Infobox V3/Tableau fin}}
 {{Infobox V3/Navigateur
  | prev         = {{{précédent|}}}
@@ -69,4 +96,7 @@
  | Modèle:Infobox Signe du Zodiaque
  | class        = bordered
  | border-color = #A864A8
-}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>
+}}
+</includeonly><noinclude></noinclude>
+{{Infobox/Notice|Infobox Architecte|4C6099}}-->
+{{Infobox/Fin}}</includeonly><noinclude><!--{{Documentation}}-->[[catégorie:modèle]]</noinclude>

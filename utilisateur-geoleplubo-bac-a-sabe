@@ -113,6 +113,24 @@ blaü
 |}
 
 == color ==
+* '''[https://fr.wikipedia.org/wiki/Liste_de_couleurs codes couleurs]'''
+
+{|class="wikitable sortable"
+! scope="col" width="160" align="center" | Nom de couleur
+! scope="col" width="120" class="unsortable" | Échantillon
+! scope="col" colspan="4" style="border-right-width:medium;"| Code hexadécimal
+! scope="col" colspan="3" class="unsortable" style="border-right-width:medium;"| Code Rouge vert bleu (RVB)
+! scope="col" colspan="4" class="unsortable" style="border-right-width:medium;"| Code Quadrichromie (CMJN)
+! scope="col" colspan="3"| Code Teinte saturation lumière (TSL)
+{{ListeCoul L|Abricot|E6|7E|30|230|126|48|5|60|87|0|26|79|90}}
+{{ListeCoul L|Absinthe|7F|DD|4C|127|221|76|43|0|66|13|99|66|87}}
+{{ListeCoul L|Acajou|88|42|1D|136|66|29|0|51|79|47|21|79|53}}
+{{ListeCoul L|Aigue-marine|79|F8|F8|121|248|248|51|0|0|3|180|51|97}}
+{{ListeCoul L|Aile de corbeau (cheveux)|00|00|00|0|0|0|0|0|0|100|0|0|0}}
+{{ListeCoul L|Albâtre|FE|FE|FE|254|254|254|0|0|0|0|0|0|100}}
+{{ListeCoul L|Alezan (chevaux)|A7|67|26|167|103|38|0|38|77|35|30|77|65}}
+{{ListeCoul L|Amande|82|C4|6C|130|196|108|34|0|45|23|105|45|77}}
+|}
 
 *<nowiki> {{legend|#00ff00| '''''Étindu dech Picard''''' }}</nowiki>  {{legend|#00ff00| '''''Étindu dech Picard''''' }}
 *<code><nowiki><span style="color:red">texte rouge</span></nowiki></code> donne <span style="color:red">texte rouge</span>

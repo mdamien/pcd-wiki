@@ -1,0 +1,48 @@
+{{Méta palette de navigation avec colonnes
+|modèle = Palette Zodiaque
+|titre  = Ech zodiake
+|dessus = {{Liste éléments
+   | '''[[Astronomie]]
+   | Constélacions éd l'écliptike'''
+   }}
+|étatboîte = uncollapsed
+|colheaderstyle = text-align:center;
+|colstyle = text-align:center;
+|colwidth = 7.69%
+
+|col1header = [[Ran (constélacion)|Ran]]
+|col2header = [[Toér (constélacion)|Toér]]
+|col3header = [[Moétiès (constélacion)|Moétiès]]
+|col4header = [[Vavèr (constélacion)|Vavèr]]
+|col5header = [[ion (constélacion)|ion]]
+|col6header = [[Vièrge (constélacion)|Vièrge]]
+|col7header = [[Bastchule (constélacion)|Bastchule]]
+|col8header = [[éscorpion (astrolodjie)|Éscorpion]]
+|col9header= [[Ophiuchus]]
+|col10header = [[Fléqueu (constélacion)|Fléqueu]]
+|col11header= [[Madjet (constélacion)|Madjet]]
+|col12header= [[pucheu (constélacion)|Pucheu]]
+|col13header= [[Pichons (constélacion)|Pichons]]
+
+|col1 = {{Grossir|[[♈]]|2}} <br />[[Ran (astrolodjie)|ran]]
+|col2 = {{Grossir|[[♉]]|2}} <br />[[Toér (astrolodjie)|Toér]]
+|col3 = {{Grossir|[[♊]]|2}} <br />[[Moétiès (astrolodjie)|Moétiès]]
+|col4 = {{Grossir|[[♋]]|2}} <br />[[Vavèr (astrolodjie)|vavèr]]
+|col5 = {{Grossir|[[♌]]|2}} <br />[[ion (astrolodjie)|ion]]
+|col6 = {{Grossir|[[♍]]|2}} <br />[[vièrge (astrolodjie)|Vièrge]]
+|col7 = {{Grossir|[[♎]]|2}} <br />[[bastchule (astrolodjie)|Bastchule]]
+|col8 = {{Grossir|[[♏]]|2}} <br />[[éscorpion (astrolodjie)|Éscorpion]]
+|col9 = {{Grossir|[[File:Asclepius staff.svg|20px|⛎]]|2}} <br />''[[Sérpintoère (astrolodjie)|Sérpintoère]]''
+|col10= {{Grossir|[[♐]]|2}} <br />[[fléqueu (astrolodjie)|fléqueu]]
+|col11= {{Grossir|[[♑]]|2}} <br />[[Madjet (astrolodjie)|Madjet]]
+|col12= {{Grossir|[[♒]]|2}} <br />[[pucheu (astrolodjie)|pucheu]]
+|col13= {{Grossir|[[♓]]|2}} <br />[[pichons (astrolodjie)|pichons]]
+
+|dessous = '''voir aussi :''' {{Liste éléments
+   | '''[[Astrolodjie]]'''
+   | '''[[Sinne du Zodiake|Singnes du Zodiake]]'''
+<br /> 
+   }}
+}}<noinclude><!--{{Documentation palette}}-->
+{{DEFAULTSORT:Zodiake}}
+[[Catégorie:astrolodjie]]</noinclude>

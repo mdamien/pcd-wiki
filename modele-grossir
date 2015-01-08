@@ -1,0 +1,1 @@
+<includeonly><span style="font-size:{{#if:{{{facteur|{{{2|}}}}}}|{{ #ifexpr:{{{facteur|{{{2|}}}}}}>=0.8|{{{facteur|{{{2}}}}}}|0.8}}|2.5}}em; line-height: 1.2em;">{{{1|}}}</span></includeonly><noinclude>{{Documentation}}</noinclude>

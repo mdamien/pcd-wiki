@@ -1,0 +1,6 @@
+|-
+|| {{{1}}} || bgcolor="{{{2}}}{{{3}}}{{{4}}}" |&nbsp;
+| width="30" align="right"|# ||width="20" align="center"|{{{2}}} ||width="20" align="center"| {{{3}}} ||width="20" align="center" style="border-right-width:medium;"| {{{4}}}
+| width="30" align="right"| {{{5}}} ||width="30" align="right"| {{{6}}} ||width="30" align="right" style="border-right-width:medium;"| {{{7}}}
+| width="30" align="right"| {{{8}}} ||width="30" align="right"| {{{9}}} ||width="30" align="right"| {{{10}}} ||width="30" align="right" style="border-right-width:medium;"| {{{11}}}
+| width="30" align="right"| {{{12}}} ||width="30" align="right"| {{{13}}} ||width="30" align="right"| {{{14}}}

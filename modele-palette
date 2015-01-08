@@ -1,0 +1,22 @@
+<includeonly>{{#invoke:Palette | listePalette | maxPalette = 20
+|{{Palette {{{1}}} |{{{parametre palette1|}}}| nocat={{{nocat1|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{2}}} |{{{parametre palette2|}}}| nocat={{{nocat2|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{3}}} |{{{parametre palette3|}}}| nocat={{{nocat3|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{4}}} |{{{parametre palette4|}}}| nocat={{{nocat4|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{5}}} |{{{parametre palette5|}}}| nocat={{{nocat5|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{6}}} |{{{parametre palette6|}}}| nocat={{{nocat6|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{7}}} |{{{parametre palette7|}}}| nocat={{{nocat7|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{8}}} |{{{parametre palette8|}}}| nocat={{{nocat8|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{9}}} |{{{parametre palette9|}}}| nocat={{{nocat9|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{10}}} |{{{parametre palette10|}}}| nocat={{{nocat10|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{11}}} |{{{parametre palette11|}}}| nocat={{{nocat11|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{12}}} |{{{parametre palette12|}}}| nocat={{{nocat12|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{13}}} |{{{parametre palette13|}}}| nocat={{{nocat13|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{14}}} |{{{parametre palette14|}}}| nocat={{{nocat14|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{15}}} |{{{parametre palette15|}}}| nocat={{{nocat15|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{16}}} |{{{parametre palette16|}}}| nocat={{{nocat16|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{17}}} |{{{parametre palette17|}}}| nocat={{{nocat17|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{18}}} |{{{parametre palette18|}}}| nocat={{{nocat18|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{19}}} |{{{parametre palette19|}}}| nocat={{{nocat19|{{{nocat|}}}}}} | parent=bandeau}}
+|{{Palette {{{20}}} |{{{parametre palette20|}}}| nocat={{{nocat20|{{{nocat|}}}}}} | parent=bandeau}}
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

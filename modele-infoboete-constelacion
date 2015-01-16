@@ -1,0 +1,81 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nom|{{PAGENAME}}}}}|E1E1E1|entete defaut
+}}
+{{Infobox/Image
+ | {{{carte|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|Vue deul constélacion}}|280
+}}
+{{Infobox/Sous-titre optionnel
+ | Désignacion|{{{latin|}}}{{{génitif|}}}{{{abréviation|}}}|E1E1E1
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nom latin|{{{latin|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Génitif|{{{génitif|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Abréviacion|{{{abréviation|}}}
+}}
+{{Infobox/Sous-titre
+ | Ravisacion|E1E1E1
+}}
+{{Infobox/Ligne
+ | <small>(Époque {{{époque|J2000.0}}})</small>
+}}
+{{Infobox/Ligne mixte
+ | Ascincion droéte|Intre {{{ad1|}}} pi {{{ad2|}}}
+}}
+{{Infobox/Ligne mixte
+ | Déclinaison|Intre {{{dec1|}}} pi {{{dec2|}}}
+}}
+{{Infobox/Ligne mixte
+ | Taille obsérvabe|{{{taille|}}} deg<sup>2</sup> ({{Plural:{{{rang taille|}}}|{{1re}}|{{#ifexist:Modèle:{{{rang taille|}}}e|{{{{{rang taille|}}}e}}|{{{rang taille|}}}{{e}}}}}})
+}}
+{{Infobox/Ligne mixte
+ | Visibilité|Intre {{{lat1|}}} pi {{{lat2|}}}
+}}
+{{Infobox/Ligne mixte
+ | Méridien|{{{méridien|}}}, 21h00
+}}
+{{Infobox/Sous-titre
+ | Étoéles|E1E1E1
+}}
+{{Infobox/Ligne mixte
+ | Brillantes&nbsp;(m ≤ 3,0)|{{{étoiles brillantes|}}}
+}}
+{{Infobox/Ligne mixte
+ | À ziu nu|{{{étoiles visibles à l'œil nu|}}}
+}}
+{{Infobox/Ligne mixte
+ | Bayer / Flamsteed|{{{bayer-flamsteed|}}}
+}}
+{{Infobox/Ligne mixte
+ | Prés&nbsp;(d ≤ 16&nbsp;al)|{{{étoiles proches|}}}
+}}
+{{Infobox/Ligne mixte
+ | El pus brillante|{{{étoile la plus brillante|}}} ({{{magnitude brillante|}}})
+}}
+{{Infobox/Ligne mixte
+ | El pus pré|{{{étoile la plus proche|}}} ({{{distance proche|}}} al)
+}}
+{{Infobox/Sous-titre
+ | Objés|E1E1E1
+}}
+{{Infobox/Ligne mixte
+ | Objés Messier|{{{messier|}}}
+}}
+{{Infobox/Ligne mixte
+ | Échins météoritikes|{{{essaims|}}}
+}}
+{{Infobox/Ligne mixte
+ | Constélacions limitrofes|{{{constellations limitrophes
+|}}}
+}}
+{{Infobox/Notice
+ | Infobox Constellation
+}}
+{{Infobox/Fin}}</includeonly><noinclude>
+
+<!--{{Documentation}}-->
+</noinclude>

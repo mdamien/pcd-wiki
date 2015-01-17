@@ -1,0 +1,13 @@
+Ch' module-lo ch'est avoèr des fonkcions utiles édseur ch' traitemint des couleurs.
+
+El fonkcion '''p.nuance''' donne un code d' couleur in hexadécimal pour un nom d' couleur connu intré in argumint. Si ch' nom il n'est poin connu, el fonkcion rinvoé à l'idintike. Par egzimpe, si o a rintré un code d'couleur in hexadécimal, chol code i s'ra rinvoyé sans modificacion.
+
+
+'''<nowiki>{{#invoke:Couleur|nuance|ocre}}</nowiki>''' nous donne : {{#invoke:Couleur|nuance|ocre}}
+
+
+'''<nowiki>{{#invoke:Couleur|nuance|a27ed3}}</nowiki>''' nous donne : {{#invoke:Couleur|nuance|a27ed3}}
+
+
+
+<includeonly>[[Catégorie:Module]]</includeonly>

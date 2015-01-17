@@ -524,7 +524,7 @@ efe edB | d2d def | gfe edB |1 dBA ABd :|2 dBA AFD |]
 
 <math>L=K.\int\limits_{380~nm}^{780~nm} S(\lambda)\cdot\big(\overbrace{ 1\cdot\overline{r}(\lambda)+4,5907\cdot\overline{v}(\lambda)+0,0601\cdot \overline{b}(\lambda) }^{\overline{y}(\lambda)=V(\lambda)}\big)\cdot \mathrm d\lambda~.</math>
 
-* <center> {{Encadre|couleur=rouge|contenu= <math> m_p = \frac {\Sigma v_i \times f_i}{\Sigma f_i} </math> }}</center>
+* '''modèle Encadre''' <center> {{Encadre|couleur=rouge|contenu= <math> m_p = \frac {\Sigma v_i \times f_i}{\Sigma f_i} </math> }}</center>
 
 == politique EDP (exemption doctrine policy) ==
 voir:

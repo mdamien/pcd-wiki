@@ -1,0 +1,14 @@
+local p = {}
+
+function p.nuance(frame)
+	local nuancier = mw.loadData('Module:Nomcouleur')
+	local param =frame.args[1]
+	local code = nuancier[string.lower(param)]
+	if code == nil then
+		return param
+	else
+		return code
+	end
+end
+
+return p

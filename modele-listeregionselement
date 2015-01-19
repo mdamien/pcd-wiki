@@ -1,0 +1,4 @@
+{|
+|- 
+| width="32px" bgcolor="{{{1}}}" | || '''{{{2}}}''' {{ #if: {{{3|}}} | ({{{3}}}) }}<br />{{{4}}}
+|}<noinclude>[[Catégorie:Modèle]]</noinclude>

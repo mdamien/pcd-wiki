@@ -1,0 +1,27 @@
+<div id="region_list">
+{| 
+|-
+| {{ #if: {{{carte|}}} | [[Fichier:{{{carte}}}|thumb|{{{taillecarte|350px}}}|{{{titrecarte|Carte des régions de {{PAGENAME}}}}}|{{{textecarte|}}}]] }}|| {{ #if: {{{nomregion1|}}} | {{ListeRegionsElement|{{{couleurregion1}}}|{{{nomregion1}}}|{{{elementsregion1|}}}|{{{descriptionregion1|}}} }} }}<!--
+-->{{ #if: {{{nomregion2|}}} | {{ListeRegionsElement|{{{couleurregion2}}}|{{{nomregion2}}}|{{{elementsregion2|}}}|{{{descriptionregion2|}}} }} }}<!--
+-->{{ #if: {{{nomregion3|}}} | {{ListeRegionsElement|{{{couleurregion3}}}|{{{nomregion3}}}|{{{elementsregion3|}}}|{{{descriptionregion3|}}} }} }}<!--
+-->{{ #if: {{{nomregion4|}}} | {{ListeRegionsElement|{{{couleurregion4}}}|{{{nomregion4}}}|{{{elementsregion4|}}}|{{{descriptionregion4|}}} }} }}<!--
+-->{{ #if: {{{nomregion5|}}} | {{ListeRegionsElement|{{{couleurregion5}}}|{{{nomregion5}}}|{{{elementsregion5|}}}|{{{descriptionregion5|}}} }} }}<!--
+-->{{ #if: {{{nomregion6|}}} | {{ListeRegionsElement|{{{couleurregion6}}}|{{{nomregion6}}}|{{{elementsregion6|}}}|{{{descriptionregion6|}}} }} }}<!--
+-->{{ #if: {{{nomregion7|}}} | {{ListeRegionsElement|{{{couleurregion7}}}|{{{nomregion7}}}|{{{elementsregion7|}}}|{{{descriptionregion7|}}} }} }}<!--
+-->{{ #if: {{{nomregion8|}}} | {{ListeRegionsElement|{{{couleurregion8}}}|{{{nomregion8}}}|{{{elementsregion8|}}}|{{{descriptionregion8|}}} }} }}<!--
+-->{{ #if: {{{nomregion9|}}} | {{ListeRegionsElement|{{{couleurregion9}}}|{{{nomregion9}}}|{{{elementsregion9|}}}|{{{descriptionregion9|}}} }} }}<!--
+-->{{ #if: {{{nomregion10|}}} | {{ListeRegionsElement|{{{couleurregion10}}}|{{{nomregion10}}}|{{{elementsregion10|}}}|{{{descriptionregion10|}}} }} }}<!--
+-->{{ #if: {{{nomregion11|}}} | {{ListeRegionsElement|{{{couleurregion11}}}|{{{nomregion11}}}|{{{elementsregion11|}}}|{{{descriptionregion11|}}} }} }}<!--
+-->{{ #if: {{{nomregion12|}}} | {{ListeRegionsElement|{{{couleurregion12}}}|{{{nomregion12}}}|{{{elementsregion12|}}}|{{{descriptionregion12|}}} }} }}<!--
+-->{{ #if: {{{nomregion13|}}} | {{ListeRegionsElement|{{{couleurregion13}}}|{{{nomregion13}}}|{{{elementsregion13|}}}|{{{descriptionregion13|}}} }} }}<!--
+-->{{ #if: {{{nomregion14|}}} | {{ListeRegionsElement|{{{couleurregion14}}}|{{{nomregion14}}}|{{{elementsregion14|}}}|{{{descriptionregion14|}}} }} }}<!--
+-->{{ #if: {{{nomregion15|}}} | {{ListeRegionsElement|{{{couleurregion15}}}|{{{nomregion15}}}|{{{elementsregion15|}}}|{{{descriptionregion15|}}} }} }}<!--
+-->{{ #if: {{{nomregion16|}}} | {{ListeRegionsElement|{{{couleurregion16}}}|{{{nomregion16}}}|{{{elementsregion16|}}}|{{{descriptionregion16|}}} }} }}<!--
+-->{{ #if: {{{nomregion17|}}} | {{ListeRegionsElement|{{{couleurregion17}}}|{{{nomregion17}}}|{{{elementsregion17|}}}|{{{descriptionregion17|}}} }} }}<!--
+-->{{ #if: {{{nomregion18|}}} | {{ListeRegionsElement|{{{couleurregion18}}}|{{{nomregion18}}}|{{{elementsregion18|}}}|{{{descriptionregion18|}}} }} }}<!--
+-->{{ #if: {{{nomregion19|}}} | {{ListeRegionsElement|{{{couleurregion19}}}|{{{nomregion19}}}|{{{elementsregion19|}}}|{{{descriptionregion19|}}} }} }}<!--
+-->{{ #if: {{{nomregion20|}}} | {{ListeRegionsElement|{{{couleurregion20}}}|{{{nomregion20}}}|{{{elementsregion20|}}}|{{{descriptionregion20|}}} }} }}
+|}
+</div><noinclude><!--{{Documentation}}-->
+[[Catégorie:Modèle]]
+</noinclude>

@@ -277,6 +277,9 @@ coucou</span>
  |}
 
 == Musique ==
+
+* '''modèle:Bémol''' <nowiki>{{Bémol|bémol}}</nowiki> donne {{Bémol|bémol}}  et  <nowiki>{{Bémol|doublebémol}}</nowiki> : {{Bémol|doublebémol}}
+
 * https://fr.wikipedia.org/wiki/Aide:Partitions
 * https://fr.wikibooks.org/wiki/Introduction_%C3%A0_LilyPond/G%C3%A9n%C3%A9ration_d%27un_fichier_de_son
 * 

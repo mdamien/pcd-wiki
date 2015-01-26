@@ -1,0 +1,7 @@
+<includeonly><span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;">{{#switch: {{lc:{{{1}}}}}
+  | b
+ | bémol = [[Image:Llpd-1.svg|6px|bémol]]
+ | bb
+ | doublebémol = [[Image:Llpd-2.svg|9px|double bémol]]
+ | #default = '''Impossible d'afficher le signe musical {{{1}}}'''
+}}</span></includeonly><noinclude>[[catégorie:Modèle]]</noinclude>

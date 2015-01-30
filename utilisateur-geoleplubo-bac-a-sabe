@@ -455,6 +455,25 @@ exemple 6.
 </score>
 </nowiki>
 
+; anatole
+
+
+<score vorbis="1">
+\new ChordNames \with {
+  \override BarLine #'bar-extent = #'(-2 . 2)
+  \consists "Bar_engraver"
+}
+\chordmode { \mark A
+  c2 a:m7 | d:m7 g:7 | c a:m7 | d:m7 g:7 | c    c:7 | f   f:m | c a:m7 | d:m7 g:7 |
+  \break \mark A
+  c2 a:m7 | d:m7 g:7 | c a:m7 | d:m7 g:7 | c    c:7 | f   f:m | c s    | c    s   |
+  \break\mark "B (pont)"
+  e2:7 s  | e:7  s   | a:7 s  | a:7  s   | d:7  s   | d:7 s   | g:7 s  | g:7  s   |
+  \break \mark A
+  c2 a:m7 | d:m7 g:7 | c a:m7 | d:m7 g:7 | c    c:7 | f   f:m | c s    | c  s\bar "|."
+}
+</score>
+
 
 ;Un exemple qui utilise la notation ABC.
 <source lang="XML">

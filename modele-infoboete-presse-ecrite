@@ -40,6 +40,10 @@
 {{!}}colspan="1"  valign="top" align="left"{{!}}{{{diffusion}}} ex. ({{{diffusion (date)}}})
 {{!}}-
 }}
+{{Infobox/Ligne mixte optionnelle
+ | Prix au liméro 
+ | {{{prix au numéro|}}}
+}}
 {{#if: {{{fondateur|<noinclude>-</noinclude>}}} |
 !colspan="1" align="left" valign="top"  {{!}}Fondateu
 {{!}}colspan="1"  valign="top"{{!}}{{{fondateu}}}

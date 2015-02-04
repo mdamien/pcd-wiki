@@ -88,7 +88,7 @@
 {{!}}colspan="1"  valign="top"{{!}}{{{propriétaire}}}
 {{!}}-
 }}
-!colspan="1" align="left" valign="top"  |[[ISSN|ISSN]]
+!colspan="1" align="left" valign="top"  |ISSN
 |colspan="1"  valign="top"|{{#if:{{{ISSN|}}}|{{#ifeq:{{{rechercher ISSN|}}}|non|{{{ISSN|}}}|{{Recherche ISSN|{{{ISSN|}}}}}}}|-}}
 |-
 ! colspan="2"  | <hr />

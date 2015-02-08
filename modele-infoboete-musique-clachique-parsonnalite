@@ -1,16 +1,19 @@
-<noinclude>
+<noinclude>{{Bandeau Infobox V2}}[[catégorie:Infoboète]]
 <!--==============================================================
-
           AFUTE : ECH CANJEMINT D'EUNE INFOBOÈTE PUT INTRAÎNER DES PROBLÈMES 
                     EDSEUR TOUS CHES PACHES DOUSQU'ALE EST.
-
 ==============================================================-->
-</noinclude><includeonly>{{Infobox V3/Début|class=|width=|icon={{Infoboète Musique clachique (parsonnalité)/Charte bandeau|{{{charte}}}}}|background=#{{Infoboète Musique clachique (parsonnalité)/Charte couleurs|{{{charte}}}}}|text={{{nom|}}}{{#if:{{{nom autre|}}}|<span style="font-size: 75%; display: block; font-style: italic">{{{nom autre|}}}</span>}}}}<!-- IMAGE
--->{{#if:{{{image|}}}|
-{{Infobox V3/Image|image={{{image|}}}|legend={{{légende|}}}}}
+</noinclude><includeonly>{| class="infobox_v2 vcard" cellspacing="7" border="0" style="border-color:#8888AA;"
+| colspan="2" class="entete {{#if:{{{entete|}}}|{{{entete|}}}|defaut}}" style="background-color:#EEEEFF;color:black;" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
+|-
+{{#if:{{{image|}}} |
+{{!}} colspan="2" align="center" {{!}} [[Image:{{{image|}}}|{{#if:{{{taille image|}}}|{{{taille image}}}px|220px}}|center|{{#if:{{{légende|}}}|{{{légende}}}}}]]
+{{!-}}
+<!--|[[Catégorie:Artique à illustrer]]-->
+}}
 {{Infobox V3/Séparateur|background=#aaa|height=1}}
-}}<!-- DONNEES CLE
--->{{Infobox V3/Tableau début|class=hidden}}{{trim|
+<!-- DONNEES CLE
+{{Infobox V3/Tableau début|class=hidden}}{{trim|}}-->
 {{Infobox V3/Tableau Ligne mixte|Surnom|''{{{surnom|}}}''|if={{{surnom|}}}}}
 {{Infobox V3/Tableau Ligne mixte|Nom de naissance|{{{nom de naissance|}}}}}
 {{Infobox V3/Tableau Ligne mixte|Naissance|{{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|{{#if:{{{date de naissance|}}}|<br />}}{{{lieu de naissance|}}}}}|if={{{date de naissance|}}}{{{lieu de naissance|}}}}}
@@ -34,7 +37,7 @@
 {{Infobox V3/Tableau Ligne mixte|Récompenses|{{{récompenses|}}}}}
 {{Infobox V3/Tableau Ligne mixte|Distinctions honorifiques|{{{distinctions|}}}}}
 {{Infobox V3/Tableau Ligne mixte|Site internet|{{{web|}}}}}
-}}{{Infobox V3/Tableau fin}}<!-- POUR LES CREATEURS (COMPOSITEURS, LIBRETTISTES OU CHORÉGRAPHES) UNIQUEMENT
+{{Infobox V3/Tableau fin}}<!-- POUR LES CREATEURS (COMPOSITEURS, LIBRETTISTES OU CHORÉGRAPHES) UNIQUEMENT
 -->{{#if:{{{œuvres|}}}|
 {{Infobox V3/Titre Bloc|background=#{{Infobox Musique classique (personnalité)/Charte couleurs|{{{charte|}}}}}|text=Œuvres principales}}
 <div style="font-size: 90%;">
@@ -53,4 +56,4 @@
 {{{scènes|}}}
 </div>
 }}
-{{Infobox V3/Fin|Modèle:Infoboète Musique clachique (parsonnalité)|class=bordered|border-color=#aaa}}{{Suivi des biographies|Musique}}</includeonly><noinclude>[[catégorie: Modèle]]</noinclude>
+{{Infobox V3/Fin|Modèle:Infoboète Musique clachique (parsonnalité)|class=bordered|border-color=#aaa}}<!--{{Suivi des biographies|Musique}}--></includeonly><noinclude>[[catégorie: Modèle]]</noinclude>

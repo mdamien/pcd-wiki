@@ -37,6 +37,109 @@ Il y o 7 collines : Aventin, Caelius, Capitole, Esquilin, Palatin, Quirinal pi V
 {{clr|left}}
 
 
+== Nombe éd gins ==
+
+''Nombe éd gins avant 1861 in milié d'habitants''
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8) 
+
+ImageSize  = width:455 height:373
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:1750
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:250 start:0
+ScaleMinor = gridcolor:lightgrey increment:50 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:-350 text:-350
+  bar:-270 text:-270
+  bar:1 text:1
+  bar:150 text:150
+  bar:400 text:400
+  bar:450 text:450
+  bar:553 text:553
+  bar:1000 text:1000
+  bar:1526 text:1526
+  bar:1600 text:1600
+  bar:1650 text:1650
+  bar:1750 text:1750
+  bar:1800 text:1800
+  bar:1850 text:1850
+ 
+PlotData=
+  color:barra width:20 align:left
+
+  bar:-350 from:0 till: 30.000
+  bar:-270 from:0 till: 187.000
+  bar:1 from:0 till: 1000.000
+  bar:150 from:0 till: 1500.000
+  bar:400 from:0 till: 800.000
+  bar:450 from:0 till: 650.000
+  bar:553 from:0 till: 40.000
+  bar:1000 from:0 till: 30.000
+  bar:1526 from:0 till: 86.000
+  bar:1600 from:0 till: 110.000
+  bar:1650 from:0 till: 120.000
+  bar:1750 from:0 till: 156.000
+  bar:1800 from:0 till: 163.000
+  bar:1850 from:0 till: 175.000
+
+PlotData=
+
+  bar:-350 at: 30.000 fontsize:S text: 30 shift:(-8,5)
+  bar:-270 at: 187.000 fontsize:S text: 187 shift:(-8,5)
+  bar:1  at: 1000.000 fontsize:S text: 1.000 shift:(-10,5)
+  bar:150  at: 1500.000 fontsize:S text: 1.500 shift:(-10,5)
+  bar:400  at: 800.000 fontsize:S text: 800 shift:(-10,5)
+  bar:450  at: 650.000 fontsize:S text: 650 shift:(-10,5)
+  bar:553  at: 40.000 fontsize:S text: 40 shift:(-10,5)
+  bar:1000 at: 30.000 fontsize:S text: 30 shift:(-10,5)
+  bar:1526 at: 86.000 fontsize:S text: 86 shift:(-10,5)
+  bar:1600 at: 110.000 fontsize:S text: 110 shift:(-10,5)
+  bar:1650 at: 120.000 fontsize:S text: 120 shift:(-10,5)
+  bar:1750 at: 156.000 fontsize:S text: 156 shift:(-10,5)
+  bar:1800 at: 163.000 fontsize:S text: 163 shift:(-10,5)
+  bar:1850 at: 175.000 fontsize:S text: 175 shift:(-10,5)
+
+TextData=
+  fontsize:S pos:(20,20)
+  text:Fonte variata piu 1861
+
+</timeline>
+
+{{DemografieIT
+|titolo = Nombe éd gins in milié<ref>''[http://dati.istat.it/Index.aspx Statistiche I.Stat]'' - Istituto nazionale di statistica - ISTAT; <small>&nbsp;2012</small>.</ref><br> in 2014, il y o 2 869 461 gins.
+|dimx = 488
+|dimy = 373
+|popmax = 3000
+|passo1 = 500
+|passo2 = 100
+|a1 = 1861|p1 = 
+|a2 = 1871|p2 = 212.386
+|a3 = 1881|p3 = 273.893
+|a4 = 1901|p4 = 422.319
+|a5 = 1911|p5 = 518.804
+|a6 = 1921|p6 = 660.091
+|a7 = 1931|p7 = 930.723
+|a8 = 1936|p8 = 1150.338
+|a9 = 1951|p9 = 1651.393
+|a10 = 1961|p10 = 2187.682
+|a11 = 1971|p11 = 2781.385
+|a12 = 1981|p12 = 2839.638
+|a13 = 1991|p13 = 2775.250
+|a14 = 2001|p14 = 2663.804
+|a15 = 2011|p15 = 2617
+}}
+
+
+== Jumelache ==
 Rome ale n'est jumelée qu'aveuc eune seule ville :
 * Paris (Franche) édpuis 1956
 :: « '''''Solo Parigi è degna di Roma; solo Roma è degna di Parigi''''' » .
@@ -85,7 +188,3 @@ Rome ale n'est jumelée qu'aveuc eune seule ville :
 * [http://www.romeguide.it/ Romeguide.it]
 
 [[Catégorie:Italie]]
-
-{{Link FA|hr}}
-{{Link GA|sr}}
-{{Link GA|zh}}

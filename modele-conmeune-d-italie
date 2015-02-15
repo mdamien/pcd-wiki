@@ -86,7 +86,7 @@
  | Préfixe tel.|{{{tel|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | {{#ifeq:{{{rég|}}}|VAO|[[Syndic]]|[[Maire]]}}|{{{maire|}}}|{{{maire|}}} {{#if:{{{mandat|}}}|<small>({{{mandat|}}})</small>}}
+ | {{#ifeq:{{{rég|}}}|VAO|Syndic|Maire}}|{{{maire|}}}|{{{maire|}}} {{#if:{{{mandat|}}}|<small>({{{mandat|}}})</small>}}
 }}
 {{Infobox/Ligne mixte site web optionnel
  | Site web|{{{site_web|}}}|
@@ -107,7 +107,7 @@
  | Saint patron|{{{Patrons|}}}
 }}
 {{Infobox/Ligne mixte optionnel
- | Fête patronale|{{{Fête_patronale|}}}
+ | Fiète patronale|{{{Fête_patronale|}}}
 }}
 {{Infobox/Sous-titre
  | Jourgrafie|ddffdd

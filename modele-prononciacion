@@ -1,0 +1,4 @@
+<includeonly>{{#if:{{{2|}}}
+|<sup><span class="audio">[[:Media:{{{1|}}}|{{{2}}}]]</span></sup>
+|<sup><span class="noprint">[[File:Loudspeaker.svg|link={{Filepath:{{{1}}}}}|alt=Prononciation du titre dans sa version originale|11px]]&nbsp;<small>[[Media:{{{1}}}|Acouter]]</small></span></sup>
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

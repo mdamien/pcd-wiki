@@ -18,7 +18,16 @@ __NOTOC__
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Code deul lingue
 | style="background-color: #f3fff3;" | {{{code}}}
 |-
-! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Egzèmpe
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| famille
+| style="background-color: #f3fff3;" | {{{famille}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| auteur
+| style="background-color: #f3fff3;" | {{{auteur}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| type langue construite
+| style="background-color: #f3fff3;" | {{{typelangueconstruite}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Égzimpe
 | style="background-color: #f3fff3;" | {{{egzempe}}}
 |-
 |}<noinclude>[[Catégorie:Subroutines-pcd]]</noinclude>

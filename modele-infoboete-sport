@@ -1,0 +1,61 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+|{{#if:{{{nom|}}}|{{{nom|}}}|{{PAGENAME}}}}{{#if:{{{nom alternatif|}}}|<br /><small>''{{{nom alternatif}}}''</small>}}
+|{{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}}
+|entete
+|{{charte sportive/Texte|{{lcfirst:{{{charte|}}}}}}}
+}}
+{{#if:{{{picto|}}}
+  |{{#ifexist: Media:{{{picto|}}}
+     |{{Infobox/Image
+       |{{{picto}}}
+       |
+       |{{{taille picto|100}}}
+       |Picto
+       |
+       |
+       |Sport
+      }}
+     |{{Infobox/Ligne optionnelle|{{{picto|}}} }}
+   }}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Eutes noms
+ |{{{autres appellations|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Fédéracion intarnacionale
+ |{{{fédération|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Princhipale instance
+ |{{{ligue|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Eute(s) instance(s)
+ |{{{autres ligues|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Clubs
+ |{{{clubs|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |{{#if:{{{j|}}}|Jueus l|L}}icenciés
+ |{{{licenciés|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |{{#if:{{{j|}}}|Jueus p|P}}ratiquants
+ |{{{pratiquants|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |{{#if:{{{j|}}}|Jueus p|P}}rofessionnels
+ |{{{professionnels|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ |Campion(ne)(s) du monne in titre
+ |{{{CDMH|}}}{{{CDMF|}}}
+ |{{#if:{{{CDMH|}}}|{{homme}} {{{CDMH}}}|}} {{#if:{{{CDMF|}}}|<br />{{femme}} {{{CDMF|''inconnu''}}}|}}
+}}
+{{Infobox/Image|{{#if:{{{image|}}}|{{{image|}}}|Defaut.svg}}|{{{légende|}}}|280||||Sport}}
+{{Infobox/Notice|Infobox Sport}}
+{{Infobox/Fin}}</includeonly><noinclude><!--{{Documentation}} mettre catégories et liens interwiki sur la sous-page de /Documentation, pas ici ! --></noinclude>

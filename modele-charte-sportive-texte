@@ -1,0 +1,29 @@
+<includeonly>{{#switch: {{{1|}}}
+ | athletisme
+ | athlétisme          = 000000
+ | baseball            = 000000
+ | basket-ball         = FFFFFF
+ | boxe                = 000000
+ | cyclisme            = 000000
+ | escrime             = 000080
+ | football            = 000000
+ | football canadien   = 000000
+ | gymnastique         = 000000
+ | handball            = 000000
+ | patinage
+ | ski
+ | sports d'hiver      
+ | hockey sur glace    = 000000
+ | natation            = FFFFFF
+ | rugby à XV          = FFFFFF
+ | sport automobile    
+ | sport mécanique     = 000000
+ | sports de combat    = 000000
+ | tennis              = 000000
+ | tir à l'arc         = 000000
+ | volley-ball         = 000000
+ | temporaire
+ | sport
+ | défault
+ | #default            = 000000
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

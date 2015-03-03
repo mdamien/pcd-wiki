@@ -1,0 +1,6 @@
+<includeonly>{{#if: {{{1|}}}|{{#ifeq: {{{indent|oui}}}|oui|<ul style="margin:0.1em 0;list-style:none;list-style-image:none;/*list-style-type:hyphen;*/line-height:normal;text-align:left">}}
+<li style="position:relative;margin:0.1em 0;margin-left:0.8em;line-height:normal;"><span style="position:absolute;left:-0.8em;color:#AAA">-</span> {{{1}}}}}</includeonly><noinclude>
+{{Hiérarchie/Voir documentation}}
+
+[[Catégorie:Modèle]]
+</noinclude>

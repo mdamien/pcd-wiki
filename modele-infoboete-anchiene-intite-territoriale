@@ -1,6 +1,6 @@
 <includeonly>{| class="infobox_v2" cellspacing="7" style="float:{{{float|right}}};width:{{{largeur|400}}}px;background:#fcfcfc;"
 |-
-! colspan="2" class="entete map" style="color:{{{couleur titre|black}}};background-color:{{{couleur|#ffdead}}};font-size:120%"|'''{{#if:{{{nom français|}}}|{{{nom français}}}}}<br>{{#if:{{{nom|}}}|{{{nom}}}}}'''{{#if:{{{autre nom|{{{autres noms|}}}}}}|<br /><small>{{{autre nom|{{{autres noms|}}}}}}</small>|}}<!--
+! colspan="2" class="entete map" style="color:{{{couleur titre|black}}};background-color:{{{couleur|#ffdead}}};font-size:120%"|'''{{#if:{{{nom picard|}}}|{{{nom picard}}}}}<br>{{#if:{{{nom|}}}|{{{nom}}}}}'''{{#if:{{{autre nom|{{{autres noms|}}}}}}|<br /><small>{{{autre nom|{{{autres noms|}}}}}}</small>|}}<!--
    AUTRES NOMS
 -->{{#if:{{{nom2|}}}|<p class="center">{{{nom2|}}} {{{nom2 langue|}}}{{#if:{{{nom3|}}}|{{espace}}<br/>{{{nom3|}}} {{{nom3 langue|}}}}}{{#if:{{{nom4|}}}|{{espace}}<br/>{{{nom4|}}} {{{nom4 langue|}}}}}{{#if:{{{nom5|}}}|{{espace}}<br/>{{{nom5|}}} {{{nom5 langue|}}}}}</p>}}<!--
    DATES

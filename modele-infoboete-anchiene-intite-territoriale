@@ -1,4 +1,6 @@
-<includeonly>{{Infobox V3/Début|background=#EBEBEB|text={{#if:{{{nom français|}}}|{{{nom français}}}{{#if:{{{nom|}}}|{{espace}}<br/>{{{nom|}}}}} {{{nom langue|}}}|{{{nom}}}}}}}<!--
+<includeonly>{| class="infobox_v2" cellspacing="7" style="float:{{{float|right}}};width:{{{largeur|400}}}px;background:#fcfcfc;"
+|-
+! colspan="2" class="entete map" style="color:{{{couleur titre|black}}};background-color:{{{couleur|#ffdead}}};font-size:120%"|'''{{#if:{{{nom français|}}}|{{{nom français}}}}}<br>{{#if:{{{nom|}}}|{{{nom}}}}}'''{{#if:{{{autre nom|{{{autres noms|}}}}}}|<br /><small>{{{autre nom|{{{autres noms|}}}}}}</small>|}}<!--
    AUTRES NOMS
 -->{{#if:{{{nom2|}}}|<p class="center">{{{nom2|}}} {{{nom2 langue|}}}{{#if:{{{nom3|}}}|{{espace}}<br/>{{{nom3|}}} {{{nom3 langue|}}}}}{{#if:{{{nom4|}}}|{{espace}}<br/>{{{nom4|}}} {{{nom4 langue|}}}}}{{#if:{{{nom5|}}}|{{espace}}<br/>{{{nom5|}}} {{{nom5 langue|}}}}}</p>}}<!--
    DATES
@@ -18,27 +20,27 @@
    }}</table><!-- 
    DEVISE ET HYMNE
 -->{{#if:{{{hymne|}}}{{{devise|}}}|{{Infobox V3/Séparateur|background=#aaa|height=1}}}}<!-- 
--->{{#if:{{{devise|}}}|<p class="center">[[Liste des devises nationales|Devise]] : {{{devise|}}}</p>}}<!-- 
--->{{#if:{{{hymne|}}}|<p class="center">[[Hymne national|Hymne]] : {{{hymne|}}}</p>}}<!-- 
+-->{{#if:{{{devise|}}}|<p class="center">D'vise : {{{devise|}}}</p>}}<!-- 
+-->{{#if:{{{hymne|}}}|<p class="center">Imne : {{{hymne|}}}</p>}}<!-- 
    CARTE -->{{#if:{{{carte|}}}|{{#if:{{{hymne|}}}{{{devise|}}}|{{Infobox V3/Séparateur|background=#aaa|height=1}}}}<!-- 
 -->{{Infobox V3/Image|image={{{carte|}}}|legend={{{légende|}}}}}
    {{Infobox V3/Image|image={{{carte2|}}}|legend={{{légende2|}}}}}}}<!-- 
    INFORMATIONS GÉNÉRALES
 -->{{#if:{{{gouvernement|}}}{{{dirigeant|}}}{{{revendication|}}}{{{reconnaissance|}}}{{{capitale|}}}{{{langues|}}}{{{religion|}}}{{{pib|}}}{{{pib hab|}}}{{{monnaie|}}}{{{fuseau horaire|}}}{{{domaine internet|}}}{{{indicatif téléphonique|}}}{{{info divers|}}}{{{info divers 2|}}}{{{info divers 3|}}}{{{info divers 4|}}}|<!-- 
--->{{Infobox V3/Tableau début|background=#EBEBEB|text=Informations générales}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|Statut|{{{gouvernement|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|Dirigeant|{{{dirigeant|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|{{{titre revendication|Revendiqué par}}}|{{{revendication|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|Reconnu par|{{{reconnaissance|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|{{{titre capitale|[[Capitale]]}}}|{{{capitale|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|[[Langue]]|{{{langues|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|[[Religion]]|{{{religion|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|[[Produit intérieur brut|PIB]]|{{{pib|}}} {{#if:{{{pib année|}}}|({{{pib année|}}})}}|width=10|if={{{pib|}}}}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|[[Produit intérieur brut|PIB]]/{{hab.}}|{{{pib hab|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|[[Monnaie]]|{{{monnaie|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|[[Fuseau horaire]]|{{{fuseau horaire|}}}|width=10}}<!-- 
--->{{Infobox V3/Tableau Ligne mixte|[[Nom de domaine|Domaine internet]]|{{{domaine internet|}}}|width=10}}<!--
--->{{Infobox V3/Tableau Ligne mixte|[[Liste des indicatifs téléphoniques internationaux par pays|Indicatif téléphonique]]|{{{indicatif téléphonique|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau début|background=#EBEBEB|text=Informacions générales}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Éstatut|{{{gouvernement|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Dirigint|{{{dirigeant|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|{{{titre revendication|Arvindiqué pèr}}}|{{{revendication|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Arconnu pèr|{{{reconnaissance|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|{{{titre capitale|Capitale}}}|{{{capitale|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Langue|{{{langues|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Arlidjion|{{{religion|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|PIB|{{{pib|}}} {{#if:{{{pib année|}}}|({{{pib année|}}})}}|width=10|if={{{pib|}}}}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|PIB/{{hab.}}|{{{pib hab|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Monnoué|{{{monnaie|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Fuseau oraire|{{{fuseau horaire|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Donmaine intarnète|{{{domaine internet|}}}|width=10}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|Indicatif téléfonike|{{{indicatif téléphonique|}}}|width=10}}<!-- 
 -->{{Infobox V3/Tableau Ligne mixte|{{{nom info divers|}}}|{{{info divers|}}}|width=10}}<!-- 
 -->{{Infobox V3/Tableau Ligne mixte|{{{nom info divers 2|}}}|{{{info divers 2|}}}|width=10}}<!-- 
 -->{{Infobox V3/Tableau Ligne mixte|{{{nom info divers 3|}}}|{{{info divers 3|}}}|width=10}}<!-- 
@@ -46,13 +48,13 @@
 -->{{Infobox V3/Tableau fin}}}}<!-- 
    POPULATION
 -->{{#if:{{{population|}}}{{{densite|}}}|
-{{Infobox V3/Tableau début|background=#EBEBEB|text=Démographie}}
-{{Infobox V3/Tableau Ligne mixte|Population {{#if:{{{pop date|}}}|{{{pop date}}}}}|{{{population|}}}|width=10}}
+{{Infobox V3/Tableau début|background=#EBEBEB|text=Démografie}}
+{{Infobox V3/Tableau Ligne mixte|Populachon {{#if:{{{pop date|}}}|{{{pop date}}}}}|{{{population|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{pop2 date|}}}|{{{population2|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{pop3 date|}}}|{{{population3|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{pop4 date|}}}|{{{population4|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{pop5 date|}}}|{{{population5|}}}|width=10}}
-{{Infobox V3/Tableau Ligne mixte|Densité {{#if:{{{pop date|}}}|{{{pop date}}}}}|{{{densite|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|Dinchité {{#if:{{{pop date|}}}|{{{pop date}}}}}|{{{densite|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{pop2 date|}}}|{{{densite2|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{pop3 date|}}}|{{{densite3|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{pop4 date|}}}|{{{densite4|}}}|width=10}}
@@ -60,8 +62,8 @@
 {{Infobox V3/Tableau fin}}}}<!-- 
    SUPERFICIE
 -->{{#if:{{{superficie|}}}|
-{{Infobox V3/Tableau début|background=#EBEBEB|text=Superficie}}
-{{Infobox V3/Tableau Ligne mixte|Superficie {{#if:{{{superficie date|}}}|{{{superficie date|}}}}}|{{{superficie|}}}|width=10}}
+{{Infobox V3/Tableau début|background=#EBEBEB|text=Supérfichie}}
+{{Infobox V3/Tableau Ligne mixte|Supérfichie {{#if:{{{superficie date|}}}|{{{superficie date|}}}}}|{{{superficie|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{superficie2 date|}}}|{{{superficie2|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{superficie3 date|}}}|{{{superficie3|}}}|width=10}}
 {{Infobox V3/Tableau Ligne mixte|{{{superficie4 date|}}}|{{{superficie4|}}}|width=10}}
@@ -69,7 +71,7 @@
 {{Infobox V3/Tableau fin}}}}<!-- 
    HISTOIRE ET ÉVÉNEMENTS
 -->{{#if:{{{evt1 date|}}}|
-{{Infobox V3/Tableau début|background=#EBEBEB|text=Histoire et événements}}
+{{Infobox V3/Tableau début|background=#EBEBEB|text=Histoére}}
 {{Infobox V3/Tableau Ligne mixte|{{{evt1 date|}}}|{{{evt1|}}}|width=10|if={{{evt1 date|}}}}}
 {{Infobox V3/Tableau Ligne mixte|{{{evt2 date|}}}|{{{evt2|}}}|width=10|if={{{evt2 date|}}}}}
 {{Infobox V3/Tableau Ligne mixte|{{{evt3 date|}}}|{{{evt3|}}}|width=10|if={{{evt3 date|}}}}}
@@ -157,7 +159,7 @@
 -->{{#if:{{{p1|}}}{{{s1|}}}|
 {{Infobox V3/Séparateur|background=#aaa|height=1}}}}{{#if:{{{p1|}}}|
 <div style="float:left;width:45%;">
-<p>Entités précédentes :</p>
+<p>Intités édvanches :</p>
 <ul style="text-align:left" >
 <li>{{{p1|}}}</li>
 <li>{{{p2|}}}</li>
@@ -181,7 +183,7 @@
 <li>{{{p20|}}}</li>
 </ul></div>}}{{#if:{{{s1|}}}|
 <div style="float:right;width:45%;">
-<p>Entités suivantes :</p>
+<p>Intités d'apré :</p>
 <ul style="text-align:left">
 <li>{{{s1|}}}</li>
 <li>{{{s2|}}}</li>
@@ -208,4 +210,6 @@
 -->{{#if:{{{notes|}}}|
 {{clr}}{{Infobox V3/Séparateur|background=#aaa|height=1}}
 {{{notes|}}}}}
-{{Infobox V3/Fin}}</includeonly><noinclude>{{documentation}}<noinclude>
+|}<!--
+{{Infobox V3/Fin}}-->
+</includeonly><noinclude><!--{{Doc modèle}}-->[[catégorie:Infoboète]]</noinclude>

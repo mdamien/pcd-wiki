@@ -1,0 +1,211 @@
+<includeonly>{{Infobox V3/Début|background=#EBEBEB|text={{#if:{{{nom français|}}}|{{{nom français}}}{{#if:{{{nom|}}}|{{espace}}<br/>{{{nom|}}}}} {{{nom langue|}}}|{{{nom}}}}}}}<!--
+   AUTRES NOMS
+-->{{#if:{{{nom2|}}}|<p class="center">{{{nom2|}}} {{{nom2 langue|}}}{{#if:{{{nom3|}}}|{{espace}}<br/>{{{nom3|}}} {{{nom3 langue|}}}}}{{#if:{{{nom4|}}}|{{espace}}<br/>{{{nom4|}}} {{{nom4 langue|}}}}}{{#if:{{{nom5|}}}|{{espace}}<br/>{{{nom5|}}} {{{nom5 langue|}}}}}</p>}}<!--
+   DATES
+-->{{#if:{{{année début|}}}|<p class="center">{{{année début|}}}{{#if:{{{année fin|}}}|{{espace}}–{{espace}}{{{année fin|}}}}}{{#if:{{{année début 2|}}}|{{espace}}<br/>{{{année début 2|}}}{{#if:{{{année fin 2|}}}|{{espace}}–{{espace}}{{{année fin 2|}}}}}}}{{#if:{{{année début 3|}}}|{{espace}}<br/>{{{année début 3|}}}{{#if:{{{année fin 3|}}}|{{espace}}–{{espace}}{{{année fin 3|}}}}}}}</p>}}<!--
+   DRAPEAU ET BLASON
+--><table>{{Infobox/Image double
+        |{{#if:{{{drapeau|}}}|{{#ifeq:{{{bordure_drapeau|}}}|non|{{{drapeau}}}|{{{drapeau}}}{{!}}border}}}}<!--
+     -->|{{#if:{{{drapeau lien|}}}|{{{drapeau lien}}}}}
+        |110
+        |Drapeau
+        |
+        |
+        |{{{blason|}}}<!--
+     -->|{{#if:{{{blason lien|}}}|{{{blason lien}}}}}
+        |88
+        |Blason
+   }}</table><!-- 
+   DEVISE ET HYMNE
+-->{{#if:{{{hymne|}}}{{{devise|}}}|{{Infobox V3/Séparateur|background=#aaa|height=1}}}}<!-- 
+-->{{#if:{{{devise|}}}|<p class="center">[[Liste des devises nationales|Devise]] : {{{devise|}}}</p>}}<!-- 
+-->{{#if:{{{hymne|}}}|<p class="center">[[Hymne national|Hymne]] : {{{hymne|}}}</p>}}<!-- 
+   CARTE -->{{#if:{{{carte|}}}|{{#if:{{{hymne|}}}{{{devise|}}}|{{Infobox V3/Séparateur|background=#aaa|height=1}}}}<!-- 
+-->{{Infobox V3/Image|image={{{carte|}}}|legend={{{légende|}}}}}
+   {{Infobox V3/Image|image={{{carte2|}}}|legend={{{légende2|}}}}}}}<!-- 
+   INFORMATIONS GÉNÉRALES
+-->{{#if:{{{gouvernement|}}}{{{dirigeant|}}}{{{revendication|}}}{{{reconnaissance|}}}{{{capitale|}}}{{{langues|}}}{{{religion|}}}{{{pib|}}}{{{pib hab|}}}{{{monnaie|}}}{{{fuseau horaire|}}}{{{domaine internet|}}}{{{indicatif téléphonique|}}}{{{info divers|}}}{{{info divers 2|}}}{{{info divers 3|}}}{{{info divers 4|}}}|<!-- 
+-->{{Infobox V3/Tableau début|background=#EBEBEB|text=Informations générales}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Statut|{{{gouvernement|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Dirigeant|{{{dirigeant|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|{{{titre revendication|Revendiqué par}}}|{{{revendication|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|Reconnu par|{{{reconnaissance|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|{{{titre capitale|[[Capitale]]}}}|{{{capitale|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|[[Langue]]|{{{langues|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|[[Religion]]|{{{religion|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|[[Produit intérieur brut|PIB]]|{{{pib|}}} {{#if:{{{pib année|}}}|({{{pib année|}}})}}|width=10|if={{{pib|}}}}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|[[Produit intérieur brut|PIB]]/{{hab.}}|{{{pib hab|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|[[Monnaie]]|{{{monnaie|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|[[Fuseau horaire]]|{{{fuseau horaire|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|[[Nom de domaine|Domaine internet]]|{{{domaine internet|}}}|width=10}}<!--
+-->{{Infobox V3/Tableau Ligne mixte|[[Liste des indicatifs téléphoniques internationaux par pays|Indicatif téléphonique]]|{{{indicatif téléphonique|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|{{{nom info divers|}}}|{{{info divers|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|{{{nom info divers 2|}}}|{{{info divers 2|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|{{{nom info divers 3|}}}|{{{info divers 3|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau Ligne mixte|{{{nom info divers 4|}}}|{{{info divers 4|}}}|width=10}}<!-- 
+-->{{Infobox V3/Tableau fin}}}}<!-- 
+   POPULATION
+-->{{#if:{{{population|}}}{{{densite|}}}|
+{{Infobox V3/Tableau début|background=#EBEBEB|text=Démographie}}
+{{Infobox V3/Tableau Ligne mixte|Population {{#if:{{{pop date|}}}|{{{pop date}}}}}|{{{population|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{pop2 date|}}}|{{{population2|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{pop3 date|}}}|{{{population3|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{pop4 date|}}}|{{{population4|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{pop5 date|}}}|{{{population5|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|Densité {{#if:{{{pop date|}}}|{{{pop date}}}}}|{{{densite|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{pop2 date|}}}|{{{densite2|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{pop3 date|}}}|{{{densite3|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{pop4 date|}}}|{{{densite4|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{pop5 date|}}}|{{{densite5|}}}|width=10}}
+{{Infobox V3/Tableau fin}}}}<!-- 
+   SUPERFICIE
+-->{{#if:{{{superficie|}}}|
+{{Infobox V3/Tableau début|background=#EBEBEB|text=Superficie}}
+{{Infobox V3/Tableau Ligne mixte|Superficie {{#if:{{{superficie date|}}}|{{{superficie date|}}}}}|{{{superficie|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{superficie2 date|}}}|{{{superficie2|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{superficie3 date|}}}|{{{superficie3|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{superficie4 date|}}}|{{{superficie4|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{superficie5 date|}}}|{{{superficie5|}}}|width=10}}
+{{Infobox V3/Tableau fin}}}}<!-- 
+   HISTOIRE ET ÉVÉNEMENTS
+-->{{#if:{{{evt1 date|}}}|
+{{Infobox V3/Tableau début|background=#EBEBEB|text=Histoire et événements}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt1 date|}}}|{{{evt1|}}}|width=10|if={{{evt1 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt2 date|}}}|{{{evt2|}}}|width=10|if={{{evt2 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt3 date|}}}|{{{evt3|}}}|width=10|if={{{evt3 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt4 date|}}}|{{{evt4|}}}|width=10|if={{{evt4 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt5 date|}}}|{{{evt5|}}}|width=10|if={{{evt5 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt6 date|}}}|{{{evt6|}}}|width=10|if={{{evt6 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt7 date|}}}|{{{evt7|}}}|width=10|if={{{evt7 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt8 date|}}}|{{{evt8|}}}|width=10|if={{{evt8 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt9 date|}}}|{{{evt9|}}}|width=10|if={{{evt9 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt10 date|}}}|{{{evt10|}}}|width=10|if={{{evt10 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt11 date|}}}|{{{evt11|}}}|width=10|if={{{evt11 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt12 date|}}}|{{{evt12|}}}|width=10|if={{{evt12 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt13 date|}}}|{{{evt13|}}}|width=10|if={{{evt13 date|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{evt14 date|}}}|{{{evt14|}}}|width=10|if={{{evt14 date|}}}}}
+{{Infobox V3/Tableau fin}}}}<!-- 
+   POUVOIR ÉXÉCUTIF LEADER A
+-->{{#if:{{{titre leaderA|}}}|
+{{Infobox V3/Tableau début|background=#EBEBEB|text={{{titre leaderA|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA1 date|}}}|{{{leaderA1|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA2 date|}}}|{{{leaderA2|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA3 date|}}}|{{{leaderA3|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA4 date|}}}|{{{leaderA4|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA5 date|}}}|{{{leaderA5|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA6 date|}}}|{{{leaderA6|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA7 date|}}}|{{{leaderA7|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA8 date|}}}|{{{leaderA8|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA9 date|}}}|{{{leaderA9|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA10 date|}}}|{{{leaderA10|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA11 date|}}}|{{{leaderA11|}}}|width=11}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA12 date|}}}|{{{leaderA12|}}}|width=12}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderA13 date|}}}|{{{leaderA13|}}}|width=13}}
+{{Infobox V3/Tableau fin}}}}<!-- 
+   POUVOIR ÉXÉCUTIF LEADER B
+-->{{#if:{{{titre leaderB|}}}|
+{{Infobox V3/Tableau début|background=#EBEBEB|text={{{titre leaderB|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB1 date|}}}|{{{leaderB1|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB2 date|}}}|{{{leaderB2|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB3 date|}}}|{{{leaderB3|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB4 date|}}}|{{{leaderB4|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB5 date|}}}|{{{leaderB5|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB6 date|}}}|{{{leaderB6|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB7 date|}}}|{{{leaderB7|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB8 date|}}}|{{{leaderB8|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB9 date|}}}|{{{leaderB9|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderB10 date|}}}|{{{leaderB10|}}}|width=10}}
+{{Infobox V3/Tableau fin}}}}<!-- 
+   POUVOIR ÉXÉCUTIF LEADER C
+-->{{#if:{{{titre leaderC|}}}|
+{{Infobox V3/Tableau début|background=#EBEBEB|text={{{titre leaderC|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC1 date|}}}|{{{leaderC1|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC2 date|}}}|{{{leaderC2|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC3 date|}}}|{{{leaderC3|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC4 date|}}}|{{{leaderC4|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC5 date|}}}|{{{leaderC5|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC6 date|}}}|{{{leaderC6|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC7 date|}}}|{{{leaderC7|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC8 date|}}}|{{{leaderC8|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC9 date|}}}|{{{leaderC9|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderC10 date|}}}|{{{leaderC10|}}}|width=10}}
+{{Infobox V3/Tableau fin}}}}<!--
+   POUVOIR ÉXÉCUTIF LEADER D
+-->{{#if:{{{titre leaderD|}}}|
+{{Infobox V3/Tableau début|background=#EBEBEB|text={{{titre leaderD|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD1 date|}}}|{{{leaderD1|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD2 date|}}}|{{{leaderD2|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD3 date|}}}|{{{leaderD3|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD4 date|}}}|{{{leaderD4|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD5 date|}}}|{{{leaderD5|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD6 date|}}}|{{{leaderD6|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD7 date|}}}|{{{leaderD7|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD8 date|}}}|{{{leaderD8|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD9 date|}}}|{{{leaderD9|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{leaderD10 date|}}}|{{{leaderD10|}}}|width=10}}
+{{Infobox V3/Tableau fin}}}}<!-- 
+   POUVOIR ÉXÉCUTIF PARLEMENT
+-->{{#if:{{{parlement|}}}|
+{{Infobox V3/Tableau début|background=#EBEBEB|text={{{parlement|}}}}}
+{{Infobox V3/Tableau Ligne mixte|{{{type_parlement1|}}}|{{{parlement1|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{type_parlement2|}}}|{{{parlement2|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{type_parlement3|}}}|{{{parlement3|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{type_parlement4|}}}|{{{parlement4|}}}|width=10}}
+{{Infobox V3/Tableau Ligne mixte|{{{type_parlement5|}}}|{{{parlement5|}}}|width=10}}
+{{Infobox V3/Tableau fin}}}}<!-- 
+   ENTITÉS
+-->{{#if:{{{p1|}}}{{{s1|}}}|
+{{Infobox V3/Séparateur|background=#aaa|height=1}}}}{{#if:{{{p1|}}}|
+<div style="float:left;width:45%;">
+<p>Entités précédentes :</p>
+<ul style="text-align:left" >
+<li>{{{p1|}}}</li>
+<li>{{{p2|}}}</li>
+<li>{{{p3|}}}</li>
+<li>{{{p4|}}}</li>
+<li>{{{p5|}}}</li>
+<li>{{{p6|}}}</li>
+<li>{{{p7|}}}</li>
+<li>{{{p8|}}}</li>
+<li>{{{p9|}}}</li>
+<li>{{{p10|}}}</li>
+<li>{{{p11|}}}</li>
+<li>{{{p12|}}}</li>
+<li>{{{p13|}}}</li>
+<li>{{{p14|}}}</li>
+<li>{{{p15|}}}</li>
+<li>{{{p16|}}}</li>
+<li>{{{p17|}}}</li>
+<li>{{{p18|}}}</li>
+<li>{{{p19|}}}</li>
+<li>{{{p20|}}}</li>
+</ul></div>}}{{#if:{{{s1|}}}|
+<div style="float:right;width:45%;">
+<p>Entités suivantes :</p>
+<ul style="text-align:left">
+<li>{{{s1|}}}</li>
+<li>{{{s2|}}}</li>
+<li>{{{s3|}}}</li>
+<li>{{{s4|}}}</li>
+<li>{{{s5|}}}</li>
+<li>{{{s6|}}}</li>
+<li>{{{s7|}}}</li>
+<li>{{{s8|}}}</li>
+<li>{{{s9|}}}</li>
+<li>{{{s10|}}}</li>
+<li>{{{s11|}}}</li>
+<li>{{{s12|}}}</li>
+<li>{{{s13|}}}</li>
+<li>{{{s14|}}}</li>
+<li>{{{s15|}}}</li>
+<li>{{{s16|}}}</li>
+<li>{{{s17|}}}</li>
+<li>{{{s18|}}}</li>
+<li>{{{s19|}}}</li>
+<li>{{{s20|}}}</li>
+</ul></div>
+}}<!-- NOTES
+-->{{#if:{{{notes|}}}|
+{{clr}}{{Infobox V3/Séparateur|background=#aaa|height=1}}
+{{{notes|}}}}}
+{{Infobox V3/Fin}}</includeonly><noinclude>{{documentation}}<noinclude>

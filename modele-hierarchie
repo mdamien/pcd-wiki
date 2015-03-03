@@ -1,0 +1,15 @@
+<includeonly>{{Hiérarchie début {{{1}}}}}{{{compl_parent|}}}{{#if:{{{2|}}}
+| {{Hiérarchie élément|{{{2|}}}}}
+| {{Hiérarchie élément|{{{fil1|}}}}}<!--
+  -->{{Hiérarchie élément|{{{fil2|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil3|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil4|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil5|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil6|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil7|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil8|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil9|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil10|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil11|}}}|indent=non}}<!--
+  -->{{Hiérarchie élément|{{{fil12|}}}|indent=non}}<!--
+-->}}</li></ul>{{Hiérarchie fin {{{1}}}}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

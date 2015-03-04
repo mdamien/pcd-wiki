@@ -1,0 +1,33 @@
+<noinclude>
+__NOTOC__
+<!--
+  N’poin mètte AUTCHUN blank o bin seut d'line édvant < noinclude > o apreu < /noinclude >.
+-->
+<!-- n'poin déplacher ch'qui suit, et pi surtout poin fwate < noinclude > ... < noinclude > -->
+
+<!-- fin de la zone à ne pas déplacer -->
+</noinclude>{| class="infobox" border="0" align="right" width="300" style="background-color: #004000;text-align: center"
+| style="background-color: #008000; color:black;font-size:larger;" colspan="2" | <font color="#FFFFF">'''{{{nomlangue}}}'''<br/>''{{{nomoriginellangue}}}''</font>
+|- valign="top"
+! scope=row style="background-color: #f3fff3;text-align: center" valign="middle"| Poéis
+| style="background-color: #f3fff3;" | {{{poéis}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Nompe eud'locuteus
+| style="background-color: #f3fff3;" | {{{nompe}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Code deul lingue
+| style="background-color: #f3fff3;" | {{{code}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| famille
+| style="background-color: #f3fff3;" | {{{famille}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| auteur
+| style="background-color: #f3fff3;" | {{{auteur}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| type langue construite
+| style="background-color: #f3fff3;" | {{{typelangueconstruite}}}
+|-
+! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Égzimpe
+| style="background-color: #f3fff3;" | {{{egzempe}}}
+|-
+|}<noinclude>[[Catégorie:Subroutines-pcd]]</noinclude>

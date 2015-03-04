@@ -19,13 +19,13 @@ __NOTOC__
 | style="background-color: #f3fff3;" | {{{code}}}
 |-
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| famille
-| style="background-color: #f3fff3;" | {{{famille}}}
+| style="background-color: #f3fff3;" | {{{famille}}}<!--
 |-
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| auteur
 | style="background-color: #f3fff3;" | {{{auteur}}}
 |-
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| type langue construite
-| style="background-color: #f3fff3;" | {{{typelangueconstruite}}}
+| style="background-color: #f3fff3;" | {{{typelangueconstruite}}}-->
 |-
 ! scope=row style="background-color: #f3fff3;text-align: center" valign="top"| Égzimpe
 | style="background-color: #f3fff3;" | {{{egzempe}}}

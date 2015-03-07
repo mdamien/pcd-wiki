@@ -1,0 +1,584 @@
+-- Les fonctions du module Biblio/Commun sont des éléments nécessaire au modules Biblio/Ouvrage, Biblio/Article, Biblio/Lien web.
+
+local Commun = {}
+
+
+local Date = require( 'Module:Date' )
+local Outils = require( 'Module:Outils' )
+local TableBuilder = require( 'Module:TableBuilder' )
+local Langue -- = require( 'Module:Langue' ) ne sera chargé que si nécessaire
+local Languedata -- = mw.loadData( 'Module:Langue/Data' ) ne sera chargé que si nécessaire
+
+local abr = Outils.abr      -- fonction abréviation discréte
+
+-- extractArgs permet de récupérer les arguement du modèle, 
+-- ou la table transmise à la fonction par une autre fonction d'un module
+local extractArgs = Outils.extractArgs
+
+function Commun.validTextArg( args, name, ... ) 
+	local texte = args[name]
+	if type( texte ) == 'string' and texte ~= '' and texte:match( '%S' ) then
+		return texte
+	elseif #{ ... } > 0 then
+		return Commun.validTextArg( args, ... )
+	end
+end
+
+
+-- Abréviation utiles 
+Commun.chap =   abr{ 'chap.', 'chapitre(s)', nbsp='+' }
+Commun.coll =   abr{ 'coll.', 'collection', nbsp='+' }
+Commun.ed =     abr{ 'éd.', 'édition', nbsp='-' }
+Commun.nbp =    abr{ 'p.', 'pages', nbsp='-' }
+Commun.numero = abr{ 'n<sup>o</sup>', 'numéro', nbsp='+' }
+Commun.page =   abr{ 'p.', 'page(s)', nbsp='+' }
+Commun.plume = [=[&nbsp;<span title="Ouvrage utilisé pour la rédaction de l'article">[[Image:Nuvola apps ksig horizonta.png|30px|link=|alt=Ouvrage utilisé pour la rédaction de l'article]]</span>]=]
+Commun.premiere = abr{ '1<sup>re</sup>', 'première' }
+Commun.reimpr = abr{ 'réimpr.', 'réimpression', nbsp='+' }
+Commun.tome = abr{ 't.', 'tome', nbsp='+' }
+Commun.vol = abr{ 'vol.', 'volume', nbsp='+' }
+
+
+function Commun.detailEdition( ref )
+	return '<small>&#91;[[' .. ref .. '|détail de l’édition]]&#93;</small>'
+end
+
+function Commun.detailEditions( ref ) 
+	return '<small>&#91;[[' .. ref .. '|détail des éditions]]&#93;</small>'
+end
+
+
+-- affiche le texte en nombre romain majuscule.
+function Commun.romain( texte )
+    local a = '<span class="romain" style="text-transform:uppercase">'
+    local b = '</span>'
+    return a, texte, b
+end
+
+function Commun.fusionTexteLien( texte, lien, categ )
+	local categorisation, result
+	local message = '<sup style="color:red;">[le lien externe a été retiré]</sup>'
+	if lien and lien ~= '' then
+		if texte:match( '%[%[' ) then
+			result = Commun.fusionTexteLien( texte, nil, categ )
+		elseif lien:match( '^http' ) or lien:match( '//' ) then
+			lien = false
+			categorisation = true
+			result = texte .. message
+		else
+			result = string.format( '[[%s|%s]]', lien, texte )
+		end
+	else
+		--[=[ if texte:match( '//' ) then
+			result = texte:gsub( '%[https?://[^%[%] ]* *([^%]]+)%]', '%1' )
+								:gsub( '%[//[^%[%] ]* *([^%]]+)%]', '%1' )
+			if result ~= texte then
+				result = result .. message
+				categorisation = true
+			end
+		end ]=] -- désactivé pour le moment (peut être activé si quelqu'un est prêt à corriger les erreurs)
+	end
+	if categorisation and type( categ ) == 'table' then
+		categ.lienExterne = true
+	end
+	return result or texte
+end
+
+-- voir Modèle:Module biblio/span initial
+function Commun.spanInitial( args, validArg )
+	local id, id2 = validArg( 'id' )
+
+	if id then
+		id = ' id="' .. id .. '"'
+	else
+		local nom = validArg( 'nom1', 'nom', 'last1', 'last', 'author' )
+		local prenom = validArg( 'prénom1', 'prénom', 'firt1', 'first' )
+		local postnom = validArg('postnom1', 'postnom' )
+		local auteur_i = validArg( 'auteur1', 'author1', 'auteur' )
+		local i = 1
+		local idTab, id2Tab = { }, { }
+		
+		while nom or auteur_i do
+			if auteur_i and not nom then
+				-- tentative de séparation de l'auteur en prénom nom. 
+				-- Enregistre le résultat dans args pour les COinS.
+				auteur_i = Outils.texteLien( auteur_i )
+				if auteur_i == '' then
+					break
+				end
+				local a1, a2, a3 = string.match( auteur_i, '^([^ ]+) ?([^ ]*) ?(.*)$' )
+				if Outils.notEmpty( a3 ) then
+					local a2len = mw.ustring.len( a2 )
+					if a2len == 1 or ( a2len == 2 and mw.ustring.sub( a2, -1 ) == "." ) then
+						-- a1 est le prénom, a2 une initiale et a3 le nom
+						nom = a3
+						if i == 1 then
+							args.nom = a3
+							args['prénom'] = a1 .. ' ' .. a2
+						end
+					else
+						-- a2 peut être le deuxième prénon ou le début du nom
+						nom = a2 .. ' ' .. a3
+					end
+				elseif Outils.notEmpty( a2 ) then
+					-- a1 prénom, a2 nom
+					nom = a2
+					if i == 1 then
+						args.nom = a2
+						args['prénom'] = a1
+					end
+				else
+					nom = a1
+				end
+			end
+			if not auteur_i then
+				if prenom and postnom then
+					auteur_i = prenom .. ' ' .. nom .. ' ' .. postnom
+				elseif prenom then
+					auteur_i = prenom .. ' ' .. nom
+				elseif postnom then
+					auteur_i = nom .. ' ' .. postnom
+				else
+					auteur_i = nom
+				end
+			end
+			table.insert( idTab, mw.uri.anchorEncode( nom ) )
+			table.insert( id2Tab, mw.uri.anchorEncode( auteur_i ) )
+			
+			if i == 4 then
+				break
+			end
+			i = i + 1
+			nom = validArg( 'nom' .. i, 'last' .. i )
+			prenom = validArg( 'prénom' .. i, 'first' .. i )
+			postnom = validArg( 'postnom' .. i)
+			auteur_i = validArg( 'auteur' .. i, 'author' .. i )
+		end
+		
+		if #idTab < 4 and validArg( 'auteur institutionnel' ) then
+			table.insert( idTab, mw.uri.anchorEncode( validArg( 'auteur institutionnel' ) ) )
+			table.insert( id2Tab, idTab[#idTab] )
+		end
+		
+		local annee = validArg( 'année', 'year' )
+		if annee then
+			table.insert( idTab, mw.uri.anchorEncode( annee ) )
+			table.insert( id2Tab, idTab[#idTab] )
+		end
+		
+		if #idTab > 0 then
+			id = ' id="' .. table.concat( idTab ) .. '"'
+			id2 = ' id="' .. table.concat( id2Tab ) .. '"'
+			if id2 == id then
+				id2 = false
+			end
+		else 
+			id = ''
+		end
+	end
+	
+	local spaninitial, spanfinal
+	if id2 then
+		spaninitial = '<span class="ouvrage"' .. id .. '><span class="ouvrage"' .. id2 .. '>'
+		spanfinal = '</span></span>'
+	else
+		spaninitial = '<span class="ouvrage"' .. id .. '>'
+		spanfinal = '</span>'
+	end
+	return spaninitial, spanfinal
+end
+
+-- voir Modèle:Module biblio/libellé
+function Commun.libelle( args )
+	local lib = args['libellé'] or ''
+	if lib ~= '' then
+		lib = '<small>[' .. lib .. ']</small> '
+	end
+	return lib
+end
+
+-- voir Modèle:Commentaire biblio
+function Commun.commentaire( args )
+	if Outils.trim( args.commentaire ) then
+		local a = '<div style="Margin-top:0.1em ;margin-left:2em; line-height:1.5; margin-bottom:0.5em;">'
+		local b = '</div>'
+		return a, args.commentaire, b
+	end
+	return ''
+end
+
+-- voir Modèle:Module biblio/indication de langue
+function Commun.indicationDeLangue( args, validArg )
+	local lang = validArg( 'langue', 'lang', 'lien langue', 'language' )
+	if lang then
+		Langue = require( 'Module:Langue' )
+		
+		-- on essai le code de langue comlet (nécessaire pour les langues avec plusieurs mot comme "grec ancien")
+		local codeLangue = Langue.codeLangue2( lang )
+		if codeLangue ~= '' then
+			if codeLangue == 'fr' then
+				return ''
+			else
+				return Langue.indicationMultilingue{ codeLangue }, codeLangue
+			end
+		end
+		
+		-- si la langue n'a pas été trouvé on considère qu'il y a plusieurs langues
+		-- séparation des langues s'il y en a plusieurs
+		local listeLangue = mw.text.split( lang, '[+,;:/ %.]+' )
+		
+		-- code langue principal qui sera appliqué aux titres
+		codeLangue = Langue.codeLangue2( listeLangue[1] )
+		
+		if codeLangue == '' then
+			if type( args.categ ) == 'table' then
+				args.categ.langue = true
+			end
+			return Langue.indicationMultilingue( listeLangue )
+		else
+			-- cacul code de langue et catégorie
+			local indicadionLangue = Langue.indicationMultilingue( listeLangue )
+			if type( args.categ ) == 'table' then
+				args.categ.langue = indicadionLangue:find( '???' , 1, true )
+			end
+			
+			if codeLangue ~= 'fr' then
+				return indicadionLangue, codeLangue
+			elseif #listeLangue > 1 then
+				return indicadionLangue, codeLangue
+			end
+		end
+	end
+	return ''
+end
+
+
+-- voir Modèle:Module biblio/responsabilité principale
+function Commun.responsabilitePrincipale( args, validArg )
+
+	local nom = validArg( 'nom1', 'nom', 'last1', 'last' )
+	local auteur = validArg( 'auteur1', 'auteur', 'author1', 'author' )
+	local auteurInstitutionnel = validArg( 'auteur institutionnel' )
+	if not ( nom or auteur or auteurInstitutionnel ) then
+		return ''
+	end
+	
+	if nom or auteur then
+		-- clarification des paramètres
+		args['prénom1'] = validArg( 'prénom1', 'prénom', 'first1', 'first' )
+		args['postnom1'] = validArg( 'postnom1', 'postnom' )
+	
+		args.directeur1 = validArg( 'directeur1', 'directeur' )
+		args['lien auteur1'] = validArg( 'lien auteur1', 'lien auteur' )
+	end
+	
+	-- préparation des variables
+	local listeRresponsables = { }  -- contiendra un élément pour chaque nom
+	local directeur = abr { 'dir.', 'directeur de publication' }
+	local prenom, postnom, dir, responsable, lien , precision, resp
+	local i = 1
+	
+
+	-- boucle sur chaque nom, assemble toutes les caractéristique et ajoute l'ensemble à la liste.
+	while nom or auteur do
+	
+		-- nom de l'auteur
+		if not auteur then
+			prenom = validArg( 'prénom' .. i, 'first' .. i )
+			nom = '<span class="nom_auteur">' .. nom .. '</span>'
+			postnom = validArg( 'postnom' .. i)
+			if prenom and postnom then
+				auteur = prenom .. ' ' .. nom .. ' ' .. postnom
+			elseif prenom then
+				auteur = prenom .. ' ' .. nom
+			elseif postnom then
+				auteur = nom .. ' ' .. postnom
+			else
+				auteur = nom
+			end
+		end
+		
+		-- lien sur l'auteur
+		auteur = Commun.fusionTexteLien( auteur, args['lien auteur' .. i], args.categ)
+
+		-- définition des responsabilités
+		dir = validArg( 'directeur' .. i )
+		resp = validArg( 'responsabilité' .. i )
+		if dir then
+			if resp then
+				precision = ' (' .. directeur .. ' et ' .. resp .. ')'
+			else
+				precision = ' (' .. directeur .. ')'
+			end
+		elseif resp then
+			precision = ' (' .. resp .. ')'
+		else
+			precision = ''
+		end
+
+		table.insert( listeRresponsables, auteur .. precision )
+
+		i = i + 1
+		nom = validArg( 'nom' .. i, 'last' .. i )
+		auteur = validArg( 'auteur' .. i, 'author' .. i )
+	end
+	
+	local listeAuteurs
+	local et_al = ''
+	if validArg( 'et al.', 'et alii' ) then
+		et_al = " ''" .. abr { "et al.", "et alii (et d’autres)" } .. "''"
+		listeAuteurs = table.concat( listeRresponsables, ', ' ) .. et_al
+	else
+		listeAuteurs = mw.text.listToText( listeRresponsables )
+	end
+	
+	if auteurInstitutionnel then
+		if #listeRresponsables > 0 then
+			return listeAuteurs .. ', ' .. auteurInstitutionnel
+		else
+			return auteurInstitutionnel .. et_al
+		end
+	else
+		return listeAuteurs
+	end
+
+end
+
+
+-- voir Module biblio/responsabilité secondaire
+function Commun.responsabiliteSecondaire( args, validArg )
+	local liste = { }
+	
+	-- fonction qui teste l'existence d'un paramètre et insérere  dans liste une abréviation discrète suivi de ce paramètre
+	local function insertAbr( arg, abrev, texte )
+		if arg then
+			table.insert( liste, abr{ abrev, texte, nbsp='+' } .. arg )
+		end
+	end
+	
+	-- langue originale et traducteur
+	local trad = validArg( 'traducteur', 'trad', 'traduction' ) 
+	local langueOriginale = validArg( 'langue originale' )
+	if langueOriginale then 
+		local Languedata = mw.loadData( 'Module:Langue/Data' )
+		langueOriginale = Languedata[langueOriginale] and Languedata[langueOriginale].nom
+	end
+	if langueOriginale then
+		if trad then
+			 trad = ' par ' .. trad
+		else
+			trad = ''
+		end
+		if mw.ustring.sub( langueOriginale, 1, 1 ):match( '[a, e, é, è, i, o, u, y]' ) or 
+			langueOriginale == 'hébreu' then
+			trad = "de l'" .. langueOriginale .. trad
+		else
+			trad = 'du ' .. langueOriginale .. trad
+		end
+	end
+	insertAbr( trad, 'trad.', 'traduction' )
+	
+	-- ajout des différents responsables
+	insertAbr( validArg( 'préface' ), 'préf.', 'préface' )
+	insertAbr( validArg( 'postface' ), 'post.', 'postface' )
+	insertAbr( validArg( 'illustrateur' ), 'ill.', 'illustrations' )
+	insertAbr( validArg( 'photographe' ), 'photogr.', 'photographies' )
+	if validArg( 'champ libre' ) then
+		table.insert( liste, args['champ libre'] )
+	end
+	
+	-- concaténation de l'ensemble
+	local texte = table.concat( liste, ', ')
+	if texte ~= '' then 
+		return ' (' .. texte .. ')'
+	end
+end
+
+-- émule le modèle:Inscription date
+Commun.inscriptionDate = Date.inscriptionDate
+
+-- retire toutes le lien interne, externe et balise html pour ne garder que le texte brut.
+local function nettoyageTexte( texte )
+	if type( texte ) == 'string'  then
+		if texte:match( '[%[<]' ) then
+			local function texteDuLien( l, t ) 
+				return ( t ~= '' and t ) or l 
+			end
+			-- nettoyage des liens interne
+			texte = texte:gsub( '%[%[([^%[%]|]*)|?([^%[%]]*)%]%]', texteDuLien )
+			-- nettoyage des liens externes
+				:gsub( '%[https?://[^%[%] ]* *([^%]]+)%]', '%1' )
+				:gsub( '%[//[^%[%] ]* *([^%]]+)%]', '%1' )
+			-- nettoyage des balise html
+				:gsub( '%b<>', '' )
+		end
+		return texte
+	end
+end
+
+-- voir Modèle:COinS bibliographique
+-- NISO Z39.88
+-- http://www.openurl.info/registry
+function Commun.COinS( args, validArg, genre ) 
+	local liste = { }
+	
+	-- insertlist ajoute à la table 'liste' un couple 'nom Coins normalisé' - 'donnée' 
+	-- Si istexte = true, le deuxième élément de tab est considéré comme du texte, 
+	-- sinon comme le nom d'un paramètre.
+	local function insertList( key, value, prefix )
+		prefix = prefix or ''
+		if type( value ) == 'string' and value ~= '' then
+			table.insert( liste, key .. '=' .. mw.uri.encode( prefix .. value ) )
+		end
+	end
+		
+	-- norme du COinS
+	insertList( 'ctx_ver', 'Z39.88-2004' )
+	
+	-- genre, titre et sous-titre
+	if genre == 'article' then
+		insertList( 'rft_val_fmt', 'info:ofi/fmt:kev:mtx:journal' )
+		insertList( 'rft.genre', 'article' )
+		insertList( 'rft.atitle', nettoyageTexte( args.titre ) )
+		insertList( 'rft.jtitle', nettoyageTexte( validArg( 'périodique', 'revue', 'journal' ) ) )
+		insertList( 'rft.issue', validArg( 'numéro', 'no', 'issue' ) )
+	else
+		-- genre = ouvrage ou chaitre
+		insertList( 'rft_val_fmt','info:ofi/fmt:kev:mtx:book' )
+		if genre == 'chapitre' then
+			insertList( 'rft.genre', 'bookitem' )
+		else
+			insertList( 'rft.genre', 'book' )
+		end
+		insertList( 'rft.btitle', nettoyageTexte( args.titre ) )
+		insertList( 'rft.atitle', nettoyageTexte( validArg( 'titre chapitre', 'titreChap' ) ) )
+		
+		-- donnée sur l'éditeur
+		insertList( 'rft.place', Outils.texteLien( validArg( 'lieu', 'location' ) ), nil )
+		insertList( 'rft.pub', Outils.texteLien( validArg( 'éditeur', 'édition' ) ), nil )
+		insertList( 'rft.edition', args["numéro d'édition"] )
+	end
+	insertList( 'rft.stitle', args['sous-titre'] )
+	
+	-- Premier auteur, séparé en noms et prénoms
+	local nom = Outils.texteLien( validArg( 'nom1', 'nom', 'last1', 'last' ) )
+	if nom then
+		insertList( 'rft.aulast', nom )
+		insertList( 'rft.aufirst', validArg( 'prénom1', 'prénom', 'first1', 'first' ) )
+		insertList( 'rtf.ausuffix ', validArg( 'postnom1', 'postnom' ) )
+	else
+		local auteur = Outils.texteLien( validArg( 'auteur', 'auteur1' ) )
+		if auteur then 
+			insertList( 'rft.au', auteur )
+		end
+	end
+	
+	-- les autres auteurs, la norme ne prévoit pas de séparation
+	for i = 2, 20 do
+		local nom_i = Outils.texteLien( validArg( 'nom' .. i ) )
+		if nom_i then
+			local prenom_i = validArg( 'prénom' .. i )
+			local postnom_i = validArg( 'postnom' .. i)
+			if prenom_i and postnom_i then 
+				insertList( 'rft.au', nom_i .. ' ' .. postnom_i .. ', ' .. prenom_i )
+			elseif prenom_i then
+				insertList( 'rft.au', nom_i .. ', ' .. prenom_i )
+			elseif postnom_i then
+				insertList( 'rft.au', nom_i .. ' ' .. postnom_i )
+			else
+				insertList( 'rft.au', nom_i )
+			end
+		else
+			local auteur_i = Outils.texteLien( validArg( 'auteur' .. i ) )
+			if auteur_i then
+				insertList( 'rft.au', auteur_i )
+			else
+				break
+			end
+		end
+	end
+	
+	if validArg( 'auteur institutionnel' ) then
+		insertList( 'rft.aucorp', args['auteur institutionnel'] )
+	end
+	
+	-- date
+	local datePub = Date.dateISO( args )
+	if datePub then 
+		insertList( 'rft.date', datePub )
+	else
+		insertList( 'rft.date', args.date )
+	end
+	
+	-- doonées physique de la publication
+	insertList( 'rft.volume', validArg( 'volume', 'vol' ) )
+	insertList( 'rft.pages', validArg( 'passage', 'page' ) )
+	insertList( 'rft.spage', args['page début chapitre'] )
+	insertList( 'rft.tpages', args['pages totales'] )
+	
+	
+	-- références internationales
+	insertList( 'rft.isbn', args.isbn )
+	insertList( 'rft.issn', args.issn )
+	insertList( 'rft_id', args.doi, 'info:doi/' )
+	insertList( 'rft_id', args.pmid, 'info:pmid/' )
+	insertList( 'rft_id', args.oclc, 'info:oclcnum/' )
+	insertList( 'rft_id', args.url )
+	
+	-- referer : page Wikipedia ou se trouve cette référence
+	insertList( 'rfr_id', 'fr.wikipedia.org:' .. mw.title.getCurrentTitle().fullText, 'info:sid/' )
+	
+	local contextObject = table.concat( liste, '&' )
+	
+	-- calcul d'un id pour que le span vide ne soit pas supprimé par tydy ( cf. https://bugzilla.wikimedia.org/show_bug.cgi?id=27786 )
+	local id=0
+	for i = 1, #contextObject do 
+		id = id + string.byte( contextObject, i )
+	end
+	
+	return '<span class="Z3988" title="' .. contextObject .. '" id="COinS_' .. id ..'"></span>'
+end
+
+-- voir Modèle:Module biblio/indication de langue
+-- la langue est passée en patamètre 
+function Commun.indicationDeLangue2( args, validArg, lang )
+	if lang then
+		Langue = require( 'Module:Langue' )
+ 
+		-- on essai le code de langue comlet (nécessaire pour les langues avec plusieurs mot comme "grec ancien")
+		local codeLangue = Langue.codeLangue2( lang )
+		if codeLangue ~= '' then
+			if codeLangue == 'fr' then
+				return ''
+			else
+				return Langue.indicationMultilingue{ codeLangue }, codeLangue
+			end
+		end
+ 
+		-- si la langue n'a pas été trouvé on considère qu'il y a plusieurs langues
+		-- séparation des langues s'il y en a plusieurs
+		local listeLangue = mw.text.split( lang, '[+,;:/ %.]+' )
+ 
+		-- code langue principal qui sera appliqué aux titres
+		codeLangue = Langue.codeLangue2( listeLangue[1] )
+ 
+		if codeLangue == '' then
+			return Langue.indicationMultilingue( listeLangue ), nil, true
+		else
+			-- cacul code de langue et catégorie
+			local indicadionLangue = Langue.indicationMultilingue( listeLangue )
+			local categLangue = string.find ( indicadionLangue, '???' , 1, true )
+ 
+			if codeLangue ~= 'fr' then
+				return indicadionLangue, codeLangue, categLangue
+			elseif #listeLangue > 1 then
+				return indicadionLangue, codeLangue, categLangue
+			end
+		end
+	end
+	return ''
+end
+
+
+
+return Commun

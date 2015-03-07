@@ -1,0 +1,340 @@
+local Ouvrage = { }
+
+
+local Commun = require( 'Module:Biblio/Commun' )
+local References = require( 'Module:Biblio/Références' )
+local Outils = require( 'Module:Outils' )
+local TableBuilder = require( 'Module:TableBuilder' )
+local Langue -- = require( 'Module:Langue' )    ne sera chargé que si nécessaire.
+
+
+function Ouvrage.chapitre( args )
+	-- validArg renvoie le premier paramètre non vide, ou nil s'ils sont tous vides.
+	-- Seul les noms des paramètres doivent être transmis à la fonction.
+	local validArg = function ( ... ) return Commun.validTextArg( args, ... ) end
+	
+	-- titreChap est un paramètre différent de ceux du modèle ouvrage pour utiliser le même programme
+	args.titreChap = validArg( 'titre chapitre', 'chap', 'titre', 'title' )
+	if args.titre == args.titreChap then
+		args.titre = false
+	end
+	args.titre = validArg( 'titre ouvrage', 'ouvrage', 'titre', 'title' ) or false
+	args['titre chapitre'] = false
+	args.chap = false
+	args['sous-titre chapitre'] = validArg( 'sous-titre chapitre', 'sous-titre' ) or false
+	args['sous-titre'] = validArg( 'sous-titre ouvrage', 'sous-titre' )
+	if args['sous-titre chapitre'] == args['sous-titre'] then
+		args['sous-titre'] = false
+	end
+	args['lien titre'] = validArg( 'lien titre ouvrage', 'lien titre' )
+	return Ouvrage.ouvrage( args, true )
+end
+
+
+function Ouvrage.ouvrage( args, chapitre )
+	-- La table wiki va recevoir tout les petits bouts de texte, et sera concaténée à la fin.
+	-- Elle utilise la meta-table de TableBuilder, permettant d'utiliser les fonctions de la
+	-- librairie table comme des méthodes. minsert permet d'insérer plusieurs éléments en une
+	-- seule fois en, ignorant les paramètres nil.
+	local wiki = TableBuilder.new()
+	
+	-- validArg renvoie le premier paramètre non vide, ou nil s'ils sont tous vides.
+	-- Seul les noms des paramètres doivent être transmis à la fonction.
+	local validArg = function ( ... ) return Commun.validTextArg( args, ... ) or false end
+	local genre = ( chapitre and 'chapitre' ) or 'ouvrage'
+	
+	--Table servant à la catégorisation
+	args.categ = {}
+
+	local modeNormal = not validArg( 'nocat' )
+	
+	-- Clarification des paramètres  nécessaires pour les COinS
+	args.titre = validArg( 'titre', 'title' )
+	args['pages totales'] = validArg( 'pages totales', 'pages' )
+	args.pages = ''
+	if args.format and string.match(args.format,"pdf") then
+		args['format électronique'] = args.format
+		args.format = false
+	end
+	
+	
+	-- span initial (id) et libellé
+	local spanInitial, spanFinal = Commun.spanInitial ( args, validArg )
+	wiki.minsert( spanInitial,  Commun.libelle( args ) )
+	
+	-- Indication de langue
+	local indicLangue, codeLangue = Commun.indicationDeLangue ( args, validArg )
+	local dir, attributsLangue
+	if Outils.notEmpty( indicLangue ) then
+		wiki.minsert( indicLangue, ' ' )
+		if codeLangue then
+			Langue = Langue or require( 'Module:Langue' )
+			dir = Langue.directionLangue( codeLangue )
+			if dir == 'rtl' then 
+				attributsLangue = ' lang="' .. codeLangue .. '" dir="rtl"'
+			else 
+				dir = nil
+				attributsLangue = ' lang="' .. codeLangue .. '"'
+			end
+		end
+	end
+
+	-- Liste des auteurs et de leurs responsabilités (principales et secondaires)
+	local auteur = validArg( 'nom1', 'nom', 'auteur1', 'auteur', 'auteurs', 'auteur institutionnel', 'last1', 'last', 'author1', 'author' )
+	if auteur then
+		if validArg( 'auteurs' ) then
+			wiki.minsert( args.auteurs )
+		else
+			wiki.minsert( Commun.responsabilitePrincipale( args, validArg ) )
+		end
+		local coauteur = validArg( 'co-auteur', 'coauteurs', 'coauteur', 'coauthors' )
+		if coauteur then
+			wiki.minsert( ', ', coauteur )
+		end
+		wiki.minsert( Commun.responsabiliteSecondaire( args, validArg ), ', ' )
+	end
+	
+	-- Pour le modèle chapitre : affichage du chapitre
+	if chapitre then
+		if args.titreChap then
+			wiki.minsert( '<cite style="font-style:normal"', attributsLangue, '>« ', args.titreChap )
+			if args['sous-titre chapitre'] then
+				wiki.minsert( ' : ', args['sous-titre chapitre'] )
+			end
+			wiki.minsert( ' »</cite>' )
+		elseif modeNormal then
+			wiki.minsert( Outils.erreur( ' [[Modèle:Chapitre|{{Chapitre}}]] : paramètre <code>titre chapitre</code> manquant' ) )
+			args.categ.titreChapitre = true
+		end
+		
+		wiki.minsert( ', dans ' )
+		
+		local auteurOuvrage = validArg( 'auteurs ouvrage', 'auteur ouvrage' )
+		if auteurOuvrage then
+			wiki.minsert( auteurOuvrage, ', ' )
+		end
+	end
+	
+	-- Titre
+	if args.titre then
+		local titre, sousTitre = args.titre, validArg( 'sous-titre' )
+		if sousTitre then
+			titre =  titre .. ' : ' .. sousTitre
+		end
+		titre = Commun.fusionTexteLien( titre, args['lien titre'], args.categ )
+		wiki.minsert( '<cite class="italique"', attributsLangue, '>', titre, '</cite>' )
+		
+	elseif modeNormal then
+		if chapitre then
+			args.categ.titreOuvrage = true
+			if args.categ.titreChapitre then
+				wiki.minsert( Outils.erreur( 'paramètre <code>titre ouvrage</code> manquant' ) )
+			else
+				wiki.minsert( Outils.erreur( '[[Modèle:Chapitre|{{Chapitre}}]] : paramètre <code>titre ouvrage</code> manquant' ) )
+			end
+		else
+			args.categ.titre = true
+			wiki.minsert( Outils.erreur( '[[Modèle:Ouvrage|{{Ouvrage}}]] : paramètre <code>titre</code> manquant' ) )
+		end
+	end
+	
+	-- Titre original et traducteur
+	local original = validArg( 'titre original', 'titre vo', 'traduction titre' )
+	if original and original ~= args.titre then
+		if validArg( 'langue originale' ) then
+			Langue = Langue or require( 'Module:Langue' )
+			wiki.minsert( ' [« ', Langue.langue{ args['langue originale'], original }, ' »]' )
+		else
+			wiki.minsert( ' [« ', original, ' »]' )
+		end
+	end
+	if not auteur then
+		local responsabiliteSecondaire = Commun.responsabiliteSecondaire( args, validArg )
+		if responsabiliteSecondaire then
+			wiki.minsert( ' ', responsabiliteSecondaire )
+		end
+	end
+		
+	-- Volume, tome
+	local volume = validArg( 'volume', 'vol' )
+	if volume then
+		wiki.minsert( ', ', Commun.vol, volume )
+	end
+	local tome = validArg( 'tome' )
+	if tome then
+		wiki.minsert( ', ', Commun.tome, tome )
+	end
+	local titreVolTome = validArg( 'titre volume', 'titre tome' )
+	if titreVolTome then
+		if volume or tome then
+			wiki.minsert( [[ : '']] )
+		else
+			wiki.minsert( [[, '']] )
+		end
+		if codeLangue then
+			Langue = Langue or require( 'Module:Langue' )
+			wiki.minsert( Langue.langue{ codeLangue, titreVolTome },  [['']] )
+		else
+			wiki.minsert( titreVolTome,  [['']] )
+		end
+		local tradTitreVolTome = validArg( 'traduction titre volume', 'traduction titre tome' )
+		if tradTitreVolTome then
+			wiki.minsert( ' [« ', tradTitreVolTome, ' »]' )
+		end
+	end
+	
+	-- Lieu et éditeur
+	local lieu = validArg( 'lieu', 'location' )
+	if lieu then
+		wiki.minsert( ', ', lieu )
+	end
+	local editeur = validArg( 'éditeur', 'édition', 'editeur', 'edition', 'publisher' )
+	if editeur then
+		local lienEditeur = validArg( 'lien éditeur' )
+		wiki.minsert( ', ', Commun.fusionTexteLien( editeur, lienEditeur, args.categ ) )
+	end
+	
+	-- Nature du document
+	local nature = validArg( 'nature ouvrage' )
+	if nature then
+		wiki.minsert( ' (', nature, ')')
+	end
+	
+	-- Collecion et numéro
+	local collection = validArg( 'collection' )
+	if collection then
+		wiki.minsert( ', ', Commun.coll, '« ', collection )
+		local serie = validArg( 'série' )
+		if serie then
+			wiki.minsert( ' / ', serie )
+		end
+		wiki.minsert( ' »' )
+	end
+	local numeroCollection = validArg( 'numéro dans collection', 'numéro dans la collection' )
+	if numeroCollection then
+		wiki.minsert( ' (', Commun.numero, numeroCollection, ')' )
+	end
+	
+	-- Date, réimpression et éditions
+	local annee = validArg( 'année', 'date', 'year' )
+	if annee then
+		wiki.minsert( ',&lrm; ', Commun.inscriptionDate( args ) )
+		-- le &lrm est une marque de texte gauche à droite, utile si le texte qui précède est en droite à gauche (arabe, hébreux...)
+	end
+	local publi = validArg( 'réimpression', 'publi' )
+	if publi then
+		wiki.minsert( ' (', Commun.reimpr, publi, ')' )
+	end
+	local numeroEdition = validArg( "numéro d'édition", "numéro édition"  )
+	if numeroEdition then
+		wiki.minsert( ', ', Outils.ordinal( numeroEdition, true ), Commun.ed )
+	end
+	local premiereEdition = validArg( 'année première édition', 'origyear' )
+	if premiereEdition then
+		wiki.minsert( ' (', Commun.premiere, Commun.ed, ' ', premiereEdition, ')' )
+	end
+	
+	-- Format et pages
+	local format = validArg( 'format livre', 'format' )
+	if format then
+		wiki.minsert( ', ', format )
+	end
+	local pages = validArg( 'pages totales', 'pages' )
+	if pages then
+		wiki.minsert( ', ', pages, Commun.nbp )
+	end
+		
+	-- Références
+	local reference = validArg( 'référence' )
+	if reference then
+		wiki.minsert( ' ', Commun.detailEditions( reference ) )
+	end
+	local refSimple = validArg( 'référence simplifiée', 'ref' )
+	if refSimple then
+		wiki.minsert( ' ', Commun.detailEdition( refSimple ) )
+	end
+	
+
+	-- Lien vers l'ouvrage en ligne (isbn, issn, pmid, doi, lire en ligne, résumé...)
+	wiki.minsert( References.affichageLiensExternes( args, validArg, true, false ) )
+	-- consulté le n'est plus affiché, voir [[Discussion_modèle:Ouvrage#Évolution documentation]]
+	
+	-- Précision sur le passage concerné
+	local partie = validArg( 'partie' )
+	if partie then
+		if string.match ( partie, '^[%dIVXLCM]+$' ) then
+			wiki.minsert( ', partie&nbsp;', partie )
+		elseif string.match ( partie, '^[ivxlcmIVXLCM]+$' ) then
+			wiki.minsert( ', partie&nbsp;',  Commun.romain( partie ) )
+		else
+			wiki.minsert( ', ', partie )
+		end
+	end
+	local numeroChapitre = validArg( 'numéro chapitre', 'numéro' )
+	if numeroChapitre then
+		wiki.minsert( ', ', Commun.chap, numeroChapitre )
+	end
+	local titreChapitre = validArg( 'titre chapitre', 'chap', 'chapitre', 'chapter' )
+	if titreChapitre then
+		if numeroChapitre then
+			titreChapitre = ' (« ' .. titreChapitre .. ' »)'
+		else
+			titreChapitre = ', « ' .. titreChapitre .. ' »'
+		end
+		if codeLangue then
+			Langue = Langue or require( 'Module:Langue' )
+			titreChapitre = Langue.langue{ codeLangue, titreChapitre }
+		end
+		wiki.minsert( titreChapitre )
+		local tradTitreChap = validArg( 'traduction titre chapitre' )
+		if tradTitreChap then
+			wiki.minsert( ' [« ', tradTitreChap, ' »]' )
+		end
+	end
+	local passage = validArg( 'passage', 'page' )
+	if passage then
+		if string.match ( passage, '^[%dIVXLCM]' ) then
+			wiki.minsert( ', ', Commun.page, passage )
+		else
+			wiki.minsert( ', ', passage )
+		end
+	end
+	
+	-- Ajout des méthadonnées COinS (ContextObjects in Spans)
+	wiki.minsert( Commun.COinS( args, validArg, genre ) )
+	
+	-- Fin du span (id) et de la description de l'ouvrage
+	wiki.minsert( spanFinal )
+	
+	-- Citation et commentaire de cet ouvrage
+	local citation = validArg( 'extrait', 'citation' )
+	if citation then
+		wiki.minsert( ' :<blockquote>« ', citation, ' »</blockquote>' )
+	end
+	if validArg( 'plume' ) then
+		wiki.minsert( Commun.plume )
+	end
+	wiki.minsert( Commun.commentaire( args ) )
+	local x = References.i
+	
+	
+	if mw.title.getCurrentTitle().namespace == 0 and modeNormal then
+		wiki.minsert(
+			args.categ.langue and '[[Catégorie:Page du modèle Ouvrage comportant une erreur|langue]]',
+			args.categ.titre and '[[Catégorie:Page du modèle Ouvrage comportant une erreur|titre]]',
+			args.categ.titreChapitre and '[[Catégorie:Page du modèle Chapitre comportant une erreur|Chapitre]]',
+			args.categ.titreOuvrage and '[[Catégorie:Page du modèle Chapitre comportant une erreur|Ouvrage]]',
+			args.categ.lienExterne and '[[Catégorie:Page du modèle Ouvrage comportant une erreur|Externe]]',
+			args.categ.isbnInvalid and '[[Catégorie:Ouvrage avec ISBN invalide]]'
+		)
+		if dir then
+			wiki.minsert( '[[Catégorie:Recension temporaire pour le modèle Ouvrage|rtl]]' )
+		end
+	end
+
+	
+	return wiki.concat()
+end
+
+
+return Ouvrage

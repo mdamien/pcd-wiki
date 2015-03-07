@@ -1,0 +1,89 @@
+-- Le module biblio centralise les différentes fonctions utiles pour les bibliographie et références.
+
+local Biblio = {  }
+
+
+local Outils = require( 'Module:Outils' )
+
+
+Biblio.ouvrage = function ( frame )
+    local args = Outils.extractArgs( frame )
+    local Ouvrage = require( 'Module:Biblio/Ouvrage' )
+    return Ouvrage.ouvrage( args ) 
+end
+
+
+Biblio.chapitre = function ( frame )
+    local args = Outils.extractArgs( frame )
+    local Ouvrage = require( 'Module:Biblio/Ouvrage' )
+    return Ouvrage.chapitre( args ) 
+end
+
+
+Biblio.article = function ( frame )
+    local args = Outils.extractArgs( frame )
+    local Ouvrage = require( 'Module:Biblio/Article' )
+    return Ouvrage.article( args ) 
+end
+
+
+Biblio.lienWeb = function( frame )
+    local args = Outils.extractArgs( frame )
+    local Ouvrage = require( 'Module:Biblio/Lien web' )
+    return Ouvrage.lienWeb( args ) 
+end
+
+
+Biblio.dictionnaire = function( frame )
+    local args = Outils.extractArgs( frame )
+    local article = Outils.validTextArg( args, 'notice', 'article', 'titre chapitre' )
+    local Ouvrage = require( 'Module:Biblio/Ouvrage' )
+	if article then
+		args['titre chapitre'] = article
+		return Ouvrage.chapitre( args ) 
+	else
+		args.titre = args['titre ouvrage']
+		args['sous-titre'] = args['sous-titre ouvrage']
+		args.auteur1 = args['auteur ouvrage']
+		args.auteurs = args['auteurs ouvrage']
+		return Ouvrage.ouvrage( args )
+	end
+end
+
+
+Biblio.ISBN = function ( frame )
+    local args = Outils.extractArgs( frame )
+    local References = require( 'Module:Biblio/Références' )
+    local newArgs = { categIsbnInvalid = false }
+    
+    if Outils.trim(args[1]) then
+	    newArgs.isbn1 = args[1]
+	    local i = 2
+	    while args[i] do
+	    	newArgs['isbn' .. i] = args[i]
+	    	i = i + 1
+	    end
+	    local listeISBN = References.isbn( newArgs )
+	    local categ = References.categorise{'Ouvrage avec ISBN invalide', newArgs.categIsbnInvalid }
+	    return '<small>(' .. listeISBN .. ')</small>' .. categ
+	else 
+		return '<small>([[International Standard Book Number|ISBN]]&nbsp;inconnu)</small>' .. References.categorise{'ISBN nécessaire'}
+	end
+end
+
+
+Biblio.ISSN = function ( frame )
+    local args = Outils.extractArgs( frame )
+    local References = require( 'Module:Biblio/Références' )
+    return References.ISSN( args ) 
+end
+
+
+Biblio.enLigne = function ( frame )
+    local args = Outils.extractArgs( frame )
+    local References = require( 'Module:Biblio/Références' )
+    return '<small>[' .. References.enLigne( args )  .. ']</small>'
+end
+
+
+return Biblio

@@ -1,0 +1,432 @@
+-- Les fonctions de ce module sont destinées à être utilisées par un autre module.
+-- Leur paramètre d'entrée est une table simple (args), voire une chaîne (oclc, bnf...)
+
+local References = { }
+
+
+local Outils = require( 'Module:Outils' )
+local validTextArg = Outils.validTextArg
+local TableBuilder = require( 'Module:TableBuilder' )
+
+
+ 
+--[[
+ISBN-10 and ISSN validator code calculates checksum across all isbn/issn digits including the check digit. ISBN-13 is checked in checkisbn().
+If the number is valid the result will be 0. Before calling this function, issbn/issn must be checked for length and stripped of dashes,
+	spaces and other non-isxn characters.
+]]
+function References.is_valid_isxn( isxn_str, len )
+	local temp = 0
+	isxn_str = { isxn_str:byte(1, len) }	-- make a table of bytes
+	len = len+1								-- adjust to be a loop counter
+	for i, v in ipairs( isxn_str ) do		-- loop through all of the bytes and calculate the checksum
+		if v == string.byte( 'X' ) then		-- if checkdigit is X
+			temp = temp + 10 * ( len - i )	-- it represents 10 decimal
+		else
+			temp = temp + tonumber( string.char( v ) ) * ( len - i )
+		end
+	end
+	return temp % 11 == 0					-- returns true if calculation result is zero
+end
+ 
+-- Teste si une chaîne ISBN est valide
+function References.checkisbn( isbn_str )
+	if type( isbn_str ) ~= 'string' then
+		return false
+	end
+	isbn_str = isbn_str:gsub( '[-%s]', '' ):gsub( 'x', 'X' )	-- supprime les traits d’union et espaces
+	local len = isbn_str:len()
+ 
+	if len == 10 and isbn_str:match( '^%d+X?$' ) then
+		return References.is_valid_isxn( isbn_str, 10 )
+	elseif len == 13 and isbn_str:match( '^%d+$' ) then
+		local temp = 0
+		isbn_str = { isbn_str:byte( 1, len ) }
+		for i = 1, #isbn_str do
+			temp = temp + ( 3 - 2 * ( i % 2 ) ) * tonumber( string.char( isbn_str[i] ) )
+		end
+		return temp % 10 == 0
+	end
+end
+ 
+
+-- voir Modèle:ISBN
+-- renvoie une liste de chaînes formant le résultat du modèle une fois concaténées
+function References.isbn( args, validArg )
+	local validArg = validArg or function ( ... ) return validTextArg( args, ... ) end
+	
+	local liste = { }
+	local i = 1
+	local avertissementInvalid = '<sup style="color:red">[à vérifier : [[:Catégorie:Ouvrage avec ISBN invalide|ISBN invalide]]]</sup>'
+	
+	local isbnErr = validArg( 'isbn erroné' )
+	local isbn = validArg( 'isbn', 'ISBN', 'isbn1', 'ISBN1' )
+	if isbnErr or isbn then
+		local isbnErrSanitised = isbnErr and isbnErr:match( '[%dXx -]+' )
+		if isbnErrSanitised then
+			local lien = '[[Spécial:Ouvrages de référence/' .. isbnErrSanitised
+					.. '|<span class="nowrap">' .. isbnErr .. '</span>]] (édité erroné)'
+			table.insert( liste, lien )
+		end
+				
+		-- boucle sur les isbn2, 3...		
+		while isbn do
+			-- vérifivation de la validité de l'ISBN
+			local isbnValid = References.checkisbn(isbn)
+			
+			-- préparation du texte à afficher
+			if isbnValid then
+				local lien = '[[Spécial:Ouvrages de référence/' .. isbn
+					.. '|<span class="nowrap">' .. isbn .. '</span>]]'
+				table.insert( liste, lien )
+			else
+				table.insert( liste, isbn .. avertissementInvalid )
+				args.categIsbnInvalid = true
+			end
+	
+			i = i + 1
+			isbn = validArg( 'isbn' .. i, 'ISBN' .. i )
+		end
+		
+		return '[[International Standard Book Number|ISBN]]&nbsp;' .. mw.text.listToText( liste )
+	end
+end
+
+
+-- voir Modèle:ISSN
+-- renvoie une liste de chaînes formant le résultat du modèle une fois concaténées
+function References.issn( args, validArg )
+	local validArg = validArg or function ( ... ) return validTextArg( args, ... ) end
+	
+	local liste = { }
+	local i = 1
+	
+	local issn = validArg( 'issn', 'ISSN', 'issn1', 'ISSN1' )
+	if issn then
+		-- on réduit la chaîne aux caractères qui peuvent être dans un code ISSN (pas de test de longueur)
+		
+		while issn do
+			local lien = '<span class="plainlinks noarchive">[http://worldcat.org/issn/' 
+				.. issn:gsub( ' ', '' ) .. '&lang=fr ' .. issn.. ']</span>'
+			table.insert( liste, lien )
+
+			i = i + 1
+			issn = validArg( 'issn' .. i, 'ISSN' .. i )
+		end
+		
+		return '[[International Standard Serial Number|ISSN]]&nbsp;' .. mw.text.listToText( liste ) 
+	end
+end
+
+
+local function databaseExterne( num, lienIinterne, lienExterne, complement, texteAffiche )
+	if Outils.notEmpty( num ) then
+		local adresse = 
+				lienIinterne	
+				.. '&nbsp;<span class="plainlinks noarchive nowrap">[http://'
+				.. lienExterne 
+				.. num
+				.. ( complement or ' ' ) 
+				.. ( texteAffiche or num )
+				.. ']</span>'
+			
+		return adresse
+	end
+end
+
+function References.arkId( base )
+	--  Nice Opaque Identifiern utilisé par les formats Ark pour générer une clé
+	base = tostring( base )
+	if base then
+		local xdigits = '0123456789bcdfghjkmnpqrstvwxz'
+		local sum = 0 
+		local position
+		for i = 1, base:len() do
+			position = xdigits:find( base:sub( i, i ), 1, true ) or 1
+			sum = sum + i * ( position - 1 )
+		end
+		local index = sum % 29 + 1
+		return xdigits:sub( index, index )
+	end
+end
+
+function References.oclc( oclc )
+	return databaseExterne( oclc, '[[Online Computer Library Center|OCLC]]', 'worldcat.org/oclc/', '&lang=fr ' )
+end
+
+function References.bnf( bnf )
+	bnf = Outils.trim( bnf )
+	if bnf then
+		local texte = bnf
+		local category = ''
+		local bnfId = bnf:upper():match( 'BNF(%d+%w)' ) or bnf:lower():match( 'cb(%d+%w)' ) or bnf:match( '^%d+%w' )
+		
+		if bnfId then
+			-- bnf contient une suite de chiffres qui peut être un ark valide
+			local base = bnfId:sub( 1, 8 )
+			if bnfId:len() == 8 then 
+				-- il manque la clé, on l'ajoute
+				bnf = base .. References.arkId( 'cb' .. base )
+				texte = base
+			elseif bnfId:len() > 8 and bnfId:sub( 9, 9 ) == References.arkId( 'cb' .. base ) then
+				-- ark valide
+				bnf = bnfId:sub( 1, 9 )
+				texte = base
+			else
+				-- ark qui semble non valide.
+				bnf = bnfId
+				texte = bnfId
+				category = '[[Catégorie:Recension temporaire pour le modèle Ouvrage|bnf]]'
+			end
+		else
+			-- le paramètre ne semble pas un ark valide
+			category = '[[Catégorie:Recension temporaire pour le modèle Ouvrage|bnf]]'
+		end	
+		
+		-- dans tous les cas on renvoie l'adresse, on catégorise juste pour vérifier ce qui ne va pas.
+		local lien = databaseExterne( bnf, 
+			'notice [[Bibliothèque nationale de France|BnF]] n<sup>o</sup>', 
+			'catalogue.bnf.fr/ark:/12148/cb', 
+			'/PUBLIC FRBNF', 
+			texte 
+		)
+		
+		return lien .. category
+	end
+end
+
+-- à transférer dans Biblio
+function References.BNF( frame )
+	return References.bnf( Outils.extractArgs( frame )[1] )
+end
+
+function References.lccn( lccn )
+	return databaseExterne( lccn, '[[Numéro de contrôle de la Bibliothèque du Congrès|LCCN]]', 'lccn.loc.gov/' )
+end
+
+function References.dnb( dnb )
+	return databaseExterne( dnb, '[[Bibliothèque nationale allemande|DNB]]', 'd-nb.info/' )
+end
+
+function References.jstor( jstor )
+	return databaseExterne( jstor, '[[JSTOR]]', 'jstor.org/stable/' )
+end
+
+function References.pmid( pmid )
+	return databaseExterne( pmid, '[[PubMed|PMID]]', 'www.ncbi.nlm.nih.gov/pubmed/' )
+end
+
+function References.pmcid( pmcid )
+	return databaseExterne( pmcid, '[[PubMed Central|PMCID]]', 'www.ncbi.nlm.nih.gov/pmc/articles/' )
+end
+
+function References.doi( doi )
+	return databaseExterne( doi, '[[Digital Object Identifier|DOI]]', 'dx.doi.org/' )
+end
+
+function References.bibcode( bibcode )
+	return databaseExterne( bibcode, '[[Bibcode]]', 'adsabs.harvard.edu/abs/' )
+end
+
+function References.mathreviews( mathreviews )
+	return databaseExterne( mathreviews, '[[Mathematical Reviews|Math Reviews]]', 'www.ams.org/mathscinet-getitem?mr=' )
+end
+
+function References.zbl( zbl )
+	return databaseExterne( zbl, '[[Zentralblatt MATH|zbMATH]]', 'zbmath.org/?q=an:' )
+end
+
+function References.arxiv( arxiv )
+	return databaseExterne( arxiv, '[[arXiv]]', 'fr.arxiv.org/abs/' )
+end
+
+function References.asin( asin )
+	return databaseExterne( asin, '[[Amazon Standard Identification Number|ASIN]]', 'www.amazon.fr/s/?url=search-alias&lang=fr&field-keywords=' )
+end
+
+function References.wikisource( wikisource )
+	if Outils.notEmpty( wikisource ) then
+		return '[[s:' .. wikisource .. '|lire sur Wikisource]]'
+	end
+end
+
+
+-- enLigne est destiné à remplacer "lire en ligne", "écouter en ligne", "présentation en ligne"
+function References.enLigne( args, validArg )
+	local validArg = validArg or function ( ... ) return validTextArg( args, ... ) end
+	local lang, esp = '', ''
+	if args.langue then
+		local Langue = require( 'Module:Langue' )
+		lang = Langue.indicationMultilingue{ args.langue, args.langue2, args.langue3 }
+		esp = '&nbsp'
+	end
+	
+	local url = validArg( 'lien', 'url' )
+	if url == nil then 
+		if validArg( 'doi' ) then 
+			url = 'http://dx.doi.org/' .. mw.uri.encode( args.doi ) 
+		else
+			return
+		end
+	end
+	url = url:gsub( '%[', '%%5B' ):gsub( '%]', '%%5D' )
+	
+	local texte = validArg( 'texte' ) or 'en ligne'
+	local date = validArg( 'date', 'consulté le' )
+	
+	if date then 
+		return lang .. esp .. '[' .. url .. ' ' .. texte .. ']&nbsp;(consultée le' .. date .. ')'
+	else
+		return lang .. esp .. '[' .. url .. ' ' .. texte .. ']'
+	end
+end
+
+function References.affichageLiensExternes(args, validArg, lireEnLigne, consulteLe)
+	local validArg = validArg or function ( ... ) return validTextArg( args, ... ) end
+--	if validArg( 'consulté le', 'accessdate', 'Consulté le', 'consulté', 'isbn', 'ISBN', 'isbn erroné', 'issn', 'consultée le', 'oclc', 'pmid', 'pmcid', 'pmc', 'doi', 'jstor', 'bibcode', 'math reviews', 'zbl', 'arxiv' ) then
+--	if validArg( 'url texte', 'url', 'issn', 'doi', 'pmid', 'résumé', 'ISSN',  'lire en ligne', 'isbn', 'texte', 'présentation en ligne', 'issn1', 'ISBN', 'oclc', 'PMID', 'pmcid', 'pmc', 'DOI', 'jstor', 'bibcode', 'math reviews', 'zbl', 'arxiv' ) then
+--	if validArg( 'isbn', 'lire en ligne', 'présentation en ligne', 'oclc', 'url', 'lccn', 'issn', 'bnf', 'ISBN', 'isbn1', 'isbn erroné', 'ISSN', 'wikisource', 'dnb', 'doi', 'pmid', 'jstor', 'bibcode', 'math reviews', 'zbl', 'arxiv', 'url texte', 'résumé' ) then
+	
+		local liensExternes = TableBuilder.new(  )
+		
+		-- isbn et issn
+		liensExternes.minsert( References.isbn( args, validArg ), References.issn( args, validArg ) )
+		
+		liensExternes.minsert( 
+			References.oclc( args.oclc ),
+			References.bnf ( args.bnf ),
+			References.lccn( args.lccn ),
+			References.dnb ( args.dnb ),
+			References.pmid( validArg( 'pmid', 'PMID' ) ),
+			References.pmcid ( validArg( 'pmcid', 'pmc'  ) ),
+			References.doi( validArg( 'doi', 'DOI' ) ),
+			References.jstor( args.jstor ),
+			References.bibcode( args.bibcode ),
+			References.mathreviews( args['math reviews'] ),
+			References.zbl( validArg( 'zbl', 'zbmath' ) ),
+			References.arxiv( args.arxiv ),
+			References.asin( args.asin ),
+			References.wikisource( args.wikisource )
+		)
+		
+		liensExternes.minsert( 
+				References.enLigne{ url = args['résumé'], texte = 'résumé' },
+				References.enLigne{ url = args['présentation en ligne'], texte = 'présentation en ligne' },
+				References.enLigne{ url = args['écouter en ligne'], texte = 'écouter en ligne' }
+			)
+		
+		local url = validArg( 'lire en ligne', 'url texte', 'url', 'texte' )
+		if url and lireEnLigne then
+			liensExternes.minsert( 
+				References.enLigne{
+					lien = url,
+					texte = 'lire en ligne',
+				} .. ( References.indicationDeFormat( args['format électronique'] ) or '' )
+			)
+		end
+		
+		-- consulté le
+		if consulteLe then
+			local consult = validArg( 'consulté le', 'accessdate', 'Consulté le', 'consulté', 'consultée le' )
+			local consulteLe = ''
+			if consult then
+				if string.sub( consult, -1,-1) == '.' then
+					consult = string.sub( consult, 1, -2)
+				end
+				if (string.match(consult, '.[ /-]+[^ /-]+[ /-]+[^ /-]') ) then
+					consulteLe = 'consulté le '
+				else
+					consulteLe = 'consulté en '
+				end 
+				liensExternes.minsert( consulteLe .. Outils.nobr( consult ) )
+			end
+		end
+		
+		if #liensExternes > 0 then
+			return ' <small style="line-height:1em;">(' .. liensExternes.concat( ', ' ),  ')</small>'
+		end
+--	end
+end
+
+function References.indicationDeFormat( format )
+	if not Outils.trim( format ) then 
+		return
+	end
+	local listeFormat = {
+		audio = { "audio", "Fichiers audio au format MP3, Ogg..." },
+		bat   = { "bat",   "Script de traitement par lot (batch)" },
+		djvu  = { "DjVu",  "Document au format DjVu" },
+		doc   = { "doc",   "Document Microsoft Word" },
+		epub  = { "EPUB",  "Document au format Epub" },
+		flash = { "flash", "Animation vectorielle au format Macromedia Flash" },
+		hlp   = { "hlp",   "Fichier HeLP (aide) datant de Microsoft Windows 3.1" },
+		html  = { "html",  "Fichier au format Hypertext Markup Language (HTML)" },
+		image = { "image", "Image au format JPEG, PNG, GIF..." },
+		java  = { "java",  "Applet Java" },
+		mov   = { "mov",   "Vidéo au format Apple QuickTime" },
+		mp3   = { "MP3",   "Son au format MP3 (MPEG-1/2 Audio Layer 3)" },
+		odt   = { "odt",   "Document au format OpenDocument" },
+		ogg   = { "ogg",   "Fichier au format conteneur Ogg" },
+		pdf   = { "PDF",   "Document au format Portable Document Format (PDF) d'Adobe" },
+		php   = { "php",   "Script PHP" },
+		pl    = { "pl",    "Script Practical Extraction and Report Language (Perl)" },
+		ppt   = { "ppt",   "Présentation Microsoft PowerPoint" },
+		ps    = { "ps",    "Fichier de description vectorielle au format PostScript" },
+		radio = { "radio", "Radio au format MPEG, AVI..." },
+		rar   = { "rar",   "Document compressé au format rar" },
+		rm    = { "rm",    "Vidéo au format RealMedia, RealAudio..." },
+		rtf   = { "RTF",   "Document texte en Rich Text Format (RTF)" },
+		svg   = { "SVG",   "Image vectorielle au format Scalable Vector Graphics (SVG)" },
+		sxi   = { "sxi",   "Présentation OpenOffice.org Impress" },
+		sxw   = { "sxw",   "Document OpenOffice.org Writer" },
+		tex   = { "TeX",   "Document TeX" },
+		txt   = { "txt",   "Fichier au format texte brut" },
+		video = { "vidéo", "Vidéo au format MPEG, AVI..." },
+		xls   = { "xls",   "Classeur Microsoft Excel" },
+		xml   = { "XML",   "Document au format Extensible Markup Language (XML)" },
+		zip   = { "zip",   "Archive au format Zip" },
+	}
+	listeFormat['vidéo'] = listeFormat.video
+	listeFormat.vid = listeFormat.video
+	listeFormat.htm = listeFormat.html
+	listeFormat.excel = listeFormat.xls
+	listeFormat.powerpoint = listeFormat.ppt
+	listeFormat.word = listeFormat.doc
+	listeFormat.aud = listeFormat.audio
+	
+	local tabFormat = listeFormat[ string.lower( format ) ]
+	if tabFormat then
+		return ( ' <abbr class="abbr indicateur-format" title="' .. tabFormat[2] 
+			.. '">' .. mw.text.nowiki( '[' .. tabFormat[1] .. ']' ) .. '</abbr>' )
+	else
+		-- teste si l'extention est suivi d'une précision (ex : pdf 6 Mo)
+		local ext, texte = string.match( format, "^(...) (.*)$")
+		if ext and listeFormat[ string.lower( ext ) ] then
+			return References.indicationDeFormat( ext ) .. ' ' .. texte
+		else
+			return ' ' .. '&#91;' .. format .. '&#93;'  -- '&#91;' = '<nowiki>[</nowiki>',  '&#93;' = '<nowiki>]</nowiki>',
+		end
+	end
+	
+end
+
+-- catégorise une page en fonction du namespace
+function References.categorise(args)
+	
+	local category = args[1] or args.category
+	local flag = ( args[2] ~= false and args.categorise ~= false )
+	
+	if type(category) == 'string'
+		and flag 
+		and mw.title.getCurrentTitle().namespace == 0 
+	then
+		local sort = ''
+		if type( args.display or args.tri ) == 'string' then 
+			sort = '|' .. (args.display or args.tri)
+		end
+		return '[[Category:' .. category .. sort .. ']]'
+	end
+	return ''
+end
+
+return References

@@ -68,7 +68,7 @@ __NOTOC__
 }}
 {{#if: {{{superficie|}}} | 
 ! scope=row style="background-color: #f3fff3;text-align: center" {{!}} Superfichie
-{{!}} style="background-color: #f3fff3;" {{!}} {{{superficie}}} km²  ({{{hectares}}} ha)}} 
+{{!}} style="background-color: #f3fff3;" {{!}} {{{superficie}}} km²  ({{{hectares}}} ha) 
 {{!-}}
 |-
 {{#if: {{{km²|}}} | 

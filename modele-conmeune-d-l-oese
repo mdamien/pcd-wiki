@@ -8,11 +8,18 @@ __NOTOC__
 <!-- fin de la zone à ne pas déplacer -->
 </noinclude>{| class="infobox" border="1" align="right" width="300" style="background-color: #f3fff3;text-align: center"
 | style="background-color: #ddffdd; color:black;font-size:larger;" colspan="2" | '''{{{nomcommune}}}'''
-|- valign="top"
+|- valign="top"<!--
 {{#if:{{{armoiries|}}}|
 {{!}} colspan="2" style="padding: 5px 0 0 0;background-color: #ffffff;" {{!}}
-[[Fichier:{{{armoiries}}} {{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]
-{{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détail]]</small>|}} }}
+[[Fichier:{{{armoiries}}} {{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]-->
+{{#if:{{{armoiries-desc|}}}|<br /><small>[[{{{armoiries-desc}}}|Détail]]</small>|}} 
+{{#if:{{{armoiries|}}}{{{logo|}}} |
+{{!}} colspan="2" align="center" {{!}} {{#switch:{{{armoiries|}}}{{{logo|}}}
+| {{{armoiries|}}} =[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}
+| {{{logo|}}} =[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br><small>[[{{{logo-desc}}}|Détail]]</small>|}}
+| {{{armoiries|}}}{{{logo|}}} =<table style="text-align:center;background-color:#f9f9f9;width:100%"><tr><td style="width:50%">[[Fichier:{{{armoiries}}}{{!}}{{#if:{{{armoiries-taille|}}}|{{{armoiries-taille}}}|54}}px{{!}}Armoiries]]{{#if:{{{armoiries-desc|}}}|<br><small>[[{{{armoiries-desc}}}|Détail]]</small>|}}</td><td>[[Fichier:{{{logo}}}{{!}}{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}px{{!}}logo]]{{#if:{{{logo-desc|}}}|<br/><small>[[{{{logo-desc}}}|Détail]]</small>|}}</td></tr></table>|}}
+{{!-}}
+}}
 |- valign="top"
 {{Infobox/Image
  | {{{image|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|

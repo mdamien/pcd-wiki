@@ -1,0 +1,158 @@
+Recherche:Acoustique de la clarinette
+
+
+{{Travail de recherche
+  | idfaculté = musique
+  | niveau    = 16
+}}
+
+Le son est émis par la vibration de l'air dans le tube de la clarinette.
+
+D'un point de vue acoustique, la clarinette comprend:
+* un ensemble «cavité buccale-bec-anche» ( l'embouchure ) = c'est la source d'énergie qui produit une oscillation de pression ( '''l'excitateur''' )
+* une perce ''quasi''-cylindrique = c'est le '''résonateur''' où se trouve la colonne d'air et qui produit une onde stationnaire.
+* des trous (ou le bout du tube) qui agissent comme des radiateurs ('''système rayonnant''').
+
+On peut estimer que l'énergie sonore émise représente une très faible partie de l'énergie envoyée par le clarinettiste (environ 0,2 %). Une grande partie de l’énergie est dissipée dans l'embouchure et dans le tube.
+
+[[File:Clarinet_sy.png|center|650px]]
+
+== L'oscillateur ou excitateur  ==
+L'anche est un oscillateur qui produit un débit d'air oscillant. Quand on souffle dans la clarinette, on a une augmentation de pression dans la perce mais cette différence de pression va ensuite provoquer la fermeture du bec (donc arrêt du flux d'air et l'anche se comporte comme une soupape). La pression acoustique de l'air dans une clarinette est d'environ 3 kPa ( i.e. environ 3% d'une atmosphère ). 
+L'oscillateur qui excite l'air, n'a pas de fréquence naturelle vraiment défini. Il s'adapte à la vitesse de vibration de l'air dans la clarinette. La vitesse dépend du temps mis par une impulsion pour faire un aller-retour dans le tube.
+
+La colonne d'air de la clarinette est caractérisée par l' impédance d'entrée qui s'obtient en mesurant la pression dans le bec excité par une vitesse sinusoïdale. On obtient ainsi une une courbe de réponse pour une fréquence donnée qui est une suite de maxima et de minima. Quand on dépasse la fréquence de coupure, la courbe de réponse ne présente plus que des petites irrégularités.
+
+
+Il faut prendre en compte la relation entre le débit d'air à l'entrée, la pression de l'air dans la cavité buccale du clarinettiste et dans la chambre du bec.
+
+[[File:Bec-Anche-Clarinette.png|300px|centré|thumb|L'oscillateur]]
+
+
+Le comportement de l'anche est décrit par la relation<ref>[[w:Amortissement physique|Amortissement de l'anche]]</ref>:
+
+<center><math> m . \frac{d^2 y}{dt^2} + \mu . \frac{dy}{dt} + k(\Delta p) . y = \Delta p </math></center>
+
+
+où <math>y</math> est le déplacement de l'anche, <math>m</math>  la masse, <math>\mu</math>  le coefficient d'amortissement et <math>k</math> la raideur qui est une fonction de la variation de pression  <math>\Delta p</math>. 
+
+
+Regardons un peu plus la relation entre le débit d'air à l'entrée, la pression de l'air dans la bouche du clarinettiste et la pression dans le bec. 
+
+[[Image:ReedResistance.png|center|thumb|550px|<center>Figure 3: Débit d'air à l'entrée vs. différence de pression (<math>\Delta p = p_{bouche} - p_{bec}</math>) <center>]]
+
+Sur la Figure 3, on observe grossièrement deux parties. A gauche, on  voit le comportement résistant, i.e., le débit d'air augmente quand la différence de pression entre la bouche et le bec augmente. La partie droite correspond à une résistance négative, i.e., le débit d'air décroit quand la différence de pression augmente. Les oscillations périodiques se produisent seulement dans la partie droite et le clarinettiste doit donc jouer avec une pression dans sa bouche pour se placer dans cette zone. En particulier, la différence de pression doit être plus grande que la pression minimale correspondant au début de la partie droite, soit pas plus que le maximum de pression qui va fermer l'anche.
+
+La relation entre le débit en volume  <math> U </math> et la différence de pression <math> \Delta p </math> qui traverse le canal de l'anche est décrit mathématiquement par l'équation de Bernoulli:
+
+<center><math> U = hw \sqrt{\frac{2|\Delta p|}{\rho}}sgn(\Delta p) ,</math></center>
+
+où <math> h </math> est l'ouverture de l'anche, <math> w </math> la largeur du canal et <math> \rho </math> la densité du fluide. L'ouverture de l'anche <math> h </math> est reliée à la différence de pression <math> \Delta p</math>. En gros, si on augmente <math> \Delta p</math> on aura une diminution de  <math> h </math> jusqu'à ce que le canal du bec soit fermé et que l'air ne passe plus.
+
+Le caractère non-linéaire du système bouche-bec-anche est compliqué et <<is beyond the scope of linear acoustics>>. Andrey da Silva (2008) Université McGill a simulé le couplage fluide-structure pour une anche simple en utilisant un modèle <<2-D lattice Boltzmann>>, où les champs de vitesse à différents instants sont visualisés <ref>thèse [http://www.music.mcgill.ca/~dasilva/lib/exe/fetch.php?media=dasilvahesis.pdf PhD thesis - Numerical Studies of Aeroacoustic Aspects of Wind Instruments,McGill Université, Andrey da Silva (2008)</ref>
+
+== La perce cylindrique ==
+
+La clarinette est un tuyau quasi-cylindrique ouvert à un bout et quasi-obstrué à l'autre bout par une anche simple battante.
+
+Si tous les trous sont fermés, la perce de la clarinette est presque un cylindre et le bec peut être vu comme une extrémité fermée. Donc on peut considérer que l'on a un tube cylindrique fermé-ouvert (i.e. Un tube avec un bout fermé et un bout ouvert). Ainsi, pour simplifier les calculs on va dire que l'on a des parois rigides, parfaitement lisses et isolées thermiquement.  
+
+La propagation du son dans le tube peut s'exprimer par une somme d'un grand nombre de modes normaux. Ces modes sont produits par le déplacement de l'onde dans le tube. On aura un déplacement suivant des cercles concentriques transverse,  un déplacement suivant le plan transverse radial et les déplacements plans suivant l'axe principal du tube. En fait, les modes  transverse sont faibles dans un vrai instrument et on ne s'occupera ici seulement de l'onde plane longitudinale.
+
+
+=== Fréquence fondamentale ===
+
+[[File:TUBE-F-O.png|centré|300px|thumb|Tube fermé-ouvert]]
+<center>schéma simplifié de l'acoustique d'une clarinette<br>variation de la pression et de la vitesse de la fondamentale f0 dans un tube idéal</center>
+
+Les vibrations naturelles de la colonne d'air confinées dans le tube sont supportées par une série d'ondes stationaires. 
+
+En regardant les conditions aux limites, on peut d'une manière intuitive déduire quelques informations sur ces ondes stationnaires. 
+
+On doit avoir un nœud de pression au niveau du bout ouvert puisque la pression totale ici doit être pratiquement la même que la pression atmosphérique, i,e, on a une pression acoustique nulle au bout du tube ouvert. 
+Si on regarde le bout fermé  (en fait il n'est pas vraiment complètement fermé...), puisque la vitesse du débit d'air est proche de zéro, alors la pression est à son maximum. 
+
+La fréquence la plus basse de ces ondes stationnaires peut être trouvée à partir de l'onde avec la plus grande longueur d'onde qui est 4 fois la longueur de l'instrument. 
+
+Pourquoi? parce que si nous traçons 1/4 de cercle de cette onde sinusoïdale et si on la met dans un tube fermé-ouvert, avec l'amplitude maximale placée à la fin fermée et avec le zéro d'amplitude sur la fin ouverte, alors ceci est la représentation parfaite d'une onde de pression stationnaire à l'intérieur d'un tube fermé-ouvert. 
+
+
+La Figure 4 montre l'onde de pression et l'onde de vitesse correspondante au pitch le plus bas (la fréquence de première résonance) dans un tube cylindrique idéal fermé-ouvert : 
+[[Image:c_o_pipe.png|center|thumb|350px|<center>Figure 4: distribution de la Pression et de la vitesse pour f0 dans un tube sans perte cylindrique fermé-ouvert </center>]]
+
+La  Figure 5 montre la distribution normalisée de la pression et de la vitesse pour le 1er, 3ième et 5ième fréquence de résonance pour un tube fermé-ouvert de 148 cm de longueur. Pour simplifier , la réflectance du bout ouvert est prise à  -1 et les pertes par viscosité ne sont pas prises en compte. 
+
+[[Image:c_o_pipe_pu_f135.png|center|thumb|650px|<center>Figure 5: Distribution de la Pression et de la vitesse pour f1, f3 et f5 dans un tube sans pertes cylindrical fermé-ouvert</center>]]
+
+
+=== Les harmoniques  ===
+Il faut faire attention de ne pas extrapoler trop rapidement les résultats obtenus avec des modèles simplifiés ( par exemple un tube cylindrique idéal). Par exemple, un tuyau cylindrique bouché à un bout ne produit que des harmoniques impairs alors qu'une vraie clarinette émet aussi des harmoniques pairs qui sont même parfois plus intenses que les harmoniques impairs dans les registres clairon et aigu.
+
+
+Dans la perce, les ondes stationnaires des autres fréquences plus élevées sont aussi possibles, mais leurs fréquences doivent être les harmoniques impaires de la fréquence fondamentale suite aux restrictions d'un tube fermé-ouvert. C'est aussi un facteur important qui caractérise la timbre unique de la clarinette. Les fréquences de résonance d'un tube fermé-ouvert de longueur L sont <ref>Citation - titre = An acoustic analysis of single-reed woodwind instruments with an emphasis on design and performance issues and digital waveguide modeling techniques, publisher = Stanford University - auteur = Gary Paul Scavone - 1997</ref>:
+
+:<math> f_n = \frac{(2n-1)c}{4L} </math>, où <math>n=1,2,...</math>
+
+Par exemple, pour un tube de longueur 14,8 cm , les 5 premiers harmoniques sont: 0,581 , 1,7432 , 2,9054, 4,0676 et  5,2297 kHz pour un tube cylindrique idéal. Pour un clarinette réelle, cependant, les fréquences de résonance sont déterminées non seulement par la longueur du tube mais aussi par la forme de la perce qui n'est pas vraiment un cylindre et par le bouchage des trous par les doigts. Aussi, suite aux effets de correction des bouts dûs à l'impédance de radiation au bout ouvert, la longueur effective d'un tube inchangé ouvert est: 
+
+
+<math>L_{eff}=L+0.6a</math>,<ref>L.E.Kinsler, A.R.Frey, A.B.Coppens et J.V.Sanders, ''Fundamentals of Acoustics'', 4th ed. , John Wiley & Sons Inc., page 274 (2000)</ref>. 
+
+
+donc la fréquence fondamentale  et les harmoniques sont un petit peu abaissées.
+
+
+== Les trous ==
+L'ouverture ou la fermeture des trous donne la réduction ou l'allongement de la colonne d'air dans la perce et cela change la hauteur des sons (i.e. les notes émises).
+
+Le rôle des trous dans la clarinette peut être vu sous deux aspects = 
+
+1 - Le trou ouvert change la longueur de tube et donc change les fréquences de résonance de la colonne d'air. Chaque note produite par la clarinette est déterminé par un doigté spécifique. En utilisant des techniques avancées, un clarinettiste peut jouer <<pitch bending>> (une variation continue de pitch depuis une note vers la suivante). Ces techniques vont inclure la couverture partielle d'un trou  (pour  un pitch bending limité des notes depuis G3/175 Hz à G4/349 Hz et au-dessus D5/523 Hz) et en utilisant un tract vocal (pour les  pitch bending substantiels au-dessus de (above) D5/523 Hz)<ref> name = "Chen2009" - Citation - titre = Pitch bending and glissandi on clarinet: Roles of the vocal tract and partial tone hole closure- publisher = J. Acoust. Soc. Am, volume= 126(3), auteur = J.Chen, J.Smith, J.Wolfe -2009</ref>. Le début de la  ''Rhapsody in Blue'' de Gershwin's <ref>[http://www.youtube.com/watch?v=jK_ShoOL2ao], George Gershwin: Rhapsody in Blue - Fantasia 2000</ref> donne un exemple célèbre d'un large pitch bending sur une amplitude de 2,5 octaves.
+
+2- Le son est émis à la fois par le trou ouvert et par le pavillon. Ceci fait que la clarinette (et aussi d'autres instruments à vent) a un comportement différent si on la compare avec une autre famille d'instruments à vent , les cuivres , qui ont aussi un pavillon mais ne possèdent pas de trous. 
+
+
+=== Le pavillon ===
+Le pavillon évasé de la clarinette est moins important que celui des cuivres car les trous participent à la radiation du son en plus du pavillon. Le rôle principal du pavillon est de permettre une transition douce de l'impédance depuis le tube vers l'air atmosphérique. Une clarinette peut pratiquement fonctionner sans son pavillon.
+
+=== Clé de registre (ou clé de douzième) ===
+
+L'action de la clé est d’arrêter la fondamentale mais en gardant les harmoniques supérieures si possible, ainsi la fréquence de la note sera triplée par l'ouverture de la clé de douzième.
+
+
+
+== Propagation de l'onde dans la perce ==
+
+Le son est une onde qui se propage dans l'air. Elle résulte d'une variation locale de pression P. Les étapes du déroulement d'un cycle d'oscillation de la colonne d'air (en régime d'anche battante) sont les suivantes<ref> ''La Clarinette et le clarinettiste : influence du conduit vocal sur la production du son'', Claudia Fritz, thèse de l'université Paris VI soutenue le 15 décembre 2004</ref>: 
+
+# Le souffle d'air dans la perce de l'instrument se déplace en direction du pavillon (ou du premier trou ouvert). La fente entre le bec et l'anche est petite et ne permet qu'à une quantité infime d'air d'entrer dans l'instrument. Ceci crée une dépression dans le bec. La différence de pression entre les deux faces de l'anche augmente, ce qui provoque la fermeture de l'embouchure.
+# Une onde de dépression progresse dans le corps de l'instrument et arrive au 1{{er}} trou ouvert.
+# L'air extérieur, à pression atmosphérique, est aspiré par la dépression et entre dans la perce. 
+# La dépression se comble progressivement au fur et à mesure de la progression de l'onde de dépression en direction du bec.
+# Lorsque toute la colonne d'air revient à la pression atmosphérique, l'anche s'ouvre à nouveau.
+# L'air sous pression venant de la bouche provoque la formation d'une onde de surpression qui se dirige vers le 1{{er}} trou ouvert. 
+# Quand elle y arrive, l'air qui entrait dans la perce change brusquement de direction et sort par le trou.
+# La surpression se comble progressivement et on se retrouve au début du cycle, lorsque toute la colonne d'air se retrouve à pression atmosphérique, se déplaçant en direction du pavillon.
+
+Ce cycle se répétant à fréquence constante, on obtient l'émission d'une note dont la hauteur est liée à cette fréquence. Ainsi le ''la (3)'', à 440 Hz, est obtenu quand ce cycle se produit 440 fois par seconde.
+
+
+
+== Étude de prototypes expérimentaux ==
+
+à venir ...
+
+== Étude numérique de la Clarinette ==
+
+Des laboratoires universitaires font des études numériques pour optimiser la clarinette ou pour étudier le comportement des anches.
+
+Les systèmes acoustiques peuvent être décrits par des forces d' inertie, d' élasticité et d' amortissement.
+
+à venir ...
+
+== Notes ==
+<references />
+* Ce chapitre est une traduction partielle de  [https://en.wikibooks.org/wiki/Engineering_Acoustics/Clarinet_Acoustics en.wikibooks.org - ''Clarinet Acoustics'']
+* {{en}} [http://www.phys.unsw.edu.au/~jw/clarinetacoustics.html#pipe Acoustique de la clarinette]
+* Daniel Bariaux, ''Quelques aspects de la physique de la clarinette'' , Bulletin du Groupe d' Acoustique Musicale, n° 70, Université Paris VI, Novembre 1973.
+* A. Chaigne et J. Kergomard, ''Acoustique des instruments de musique'', Belin, Paris, 2008.

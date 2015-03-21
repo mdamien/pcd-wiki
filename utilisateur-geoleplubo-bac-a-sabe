@@ -551,6 +551,24 @@ efe edB | d2d def | gfe edB |1 dBA ABd :|2 dBA AFD |]
 
 * '''modèle Encadre''' <center> {{Encadre|couleur=rouge|contenu= <math> m_p = \frac {\Sigma v_i \times f_i}{\Sigma f_i} </math> }}</center>
 
+
+{{BDdebut|titre=Boite à outils TeX}}
+{{Boîte déroulante|titre=Boite à outils TeX|contenu=
+* forcer le PNG, quel que soit le mode choisi : <code>\,\!</code> (petit espace et espace négatif)
+* ensembles : <code>\mathbb{...}</code> exemple : <math>\mathbb{R}</math>
+* système d'équations : <code>\begin{cases} ax+by=c \\ dx+ey=f \end{cases}</code> donne <math>\begin{cases} ax+by=c \\ dx+ey=f \end{cases}</math>
+* coefficients binomiaux :
+** ''taille normale'' : <code>\binom{n}{k}</code> => <math>\binom{n}{k}</math>
+** ''taille petite'' : <code>\tbinom{n}{k}</code> => <math>\tbinom{n}{k}</math>
+* intégrale : <code>\int_{-N}^{N} e^x\, dx</code> donne <math>\int_{-N}^{N} e^x dx</math>
+* somme : <code>\sum_{k=1}^{n^2} k</code> donne <math>\sum_{k=1}^{n^2} k</math>
+* pour la physique/chimie : <code>{}_1^2\!X_3^4</code> donne <math>{}_1^2\!X_3^4</math>
+* changement de base (arithmétique) : <code>\overline{abc}^n</code> donne <math>\overline{abc}^n</math>
+* vecteurs : <code>\overrightarrow{AB}</code> donne <math>\overrightarrow{AB}</math>
+* limites : <code>\lim_{x \to +\infty} f(x)</code> donne <math>\lim_{x \to +\infty} f(x)</math>
+* taille petite : <code>\scriptstyle{instructions}</code>}}
+{{BDfin}}
+
 == politique EDP (exemption doctrine policy) ==
 voir:
 https://fr.wikiversity.org/wiki/Wikiversit%C3%A9:La_salle_caf%C3%A9/32_2014#Des_captures_d.27.C3.A9cran_de_logiciels_et_de_l.27opportunit.C3.A9_d.27une_EDP_sur_Wikiversit.C3.A9_les_autorisant.

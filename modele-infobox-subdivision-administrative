@@ -150,7 +150,7 @@ Administration
 -->
 {{Infobox/Sous-titre|Adménistrachon|{{{couleur|DDFFDD}}}|{{{couleur titre|}}} }}
 {{Infobox/Ligne mixte optionnelle
-  |Poéis]]
+  |Poéis
   |{{#ifexist: Modèle:{{{pays|}}} 
     | {{ {{{pays}}} }} 
     | {{{pays|}}} 

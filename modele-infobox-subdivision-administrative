@@ -148,9 +148,9 @@ Noms
 Administration 
 
 -->
-{{Infobox/Sous-titre|Administration|{{{couleur|DDFFDD}}}|{{{couleur titre|}}} }}
+{{Infobox/Sous-titre|Adménistrachon|{{{couleur|DDFFDD}}}|{{{couleur titre|}}} }}
 {{Infobox/Ligne mixte optionnelle
-  |[[Liste des pays du monde|Pays]]
+  |Poéis]]
   |{{#ifexist: Modèle:{{{pays|}}} 
     | {{ {{{pays}}} }} 
     | {{{pays|}}} 
@@ -190,14 +190,14 @@ Administration
 Démographie 
 
 -->
-{{Infobox/Sous-titre optionnel|Démographie|{{{population|}}}{{{population agglomération|}}}{{{population division|}}}{{{gentilé|}}}{{{divers démographie|}}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}}}}
-{{Infobox/Ligne mixte optionnelle |[[gentilé|Gentilé]]|{{{gentilé|}}}}}
+{{Infobox/Sous-titre optionnel|Démografie|{{{population|}}}{{{population agglomération|}}}{{{population division|}}}{{{gentilé|}}}{{{divers démographie|}}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}}}}
+{{Infobox/Ligne mixte optionnelle |Gentilé|{{{gentilé|}}}}}
 {{Infobox/Ligne mixte optionnelle
-  |{{{nom_pop|[[Recensement de la population|Population]]}}}
+  |{{{nom_pop|Nombe éd gins}}}
   |{{{population|}}}
   |{{#iferror:{{#expr:{{{population|}}}}}
-     |{{{population|}}}&nbsp;{{abréviation discrète|hab.|habitants}}
-     |{{Unité |{{{population|}}}|{{abréviation discrète|hab.|habitants}} }}
+     |{{{population|}}}&nbsp;hab.
+     |{{Unité |{{{population|}}}|hab. }}
    }}{{#if:{{{population notes|}}} 
      |{{#if: {{padright:| 1 |{{{population notes|}}} }}<!-- vide si population notes est entre balises ref -->
         |{{#tag:ref |{{{population notes|}}}}}
@@ -206,10 +206,10 @@ Démographie
    }} {{#if:{{{année_pop|}}}|{{espace}}<small>({{{année_pop|}}})<small>}}
 }}
 {{#if: {{{densité|}}} 
-  |{{Infobox/Ligne mixte|[[Densité de population|Densité]]|{{Unité|{{{densité|}}}|{{abrd|hab.|habitant(s)}}/km{{2}} }} }}
+  |{{Infobox/Ligne mixte|Dinchité|{{Unité|{{{densité|}}}|hab./km<sup>2</sup> }} }}
   |{{#iferror:{{#expr:{{{population|}}}/{{{superficie|}}} }}
     |
-    |{{Infobox/Ligne mixte densité optionnelle|[[Densité de population|Densité]]|{{{superficie|}}}|{{{population|}}} }}
+    |{{Infobox/Ligne mixte densité optionnelle|Dinchité|{{{superficie|}}}|{{{population|}}} }}
    }}
 }}
 {{Infobox/Ligne mixte optionnelle
@@ -217,38 +217,38 @@ Démographie
   |{{{population division a|{{{population agglomération|}}} }}}
   |{{#iferror:{{#expr:{{{population division a|{{{population agglomération|}}} }}} }}
     |{{{population division a|{{{population agglomération|}}} }}}&nbsp;{{#if:{{{nom_pop division a|{{{nom_pop agglomération|}}} }}}| |{{abréviation discrète|hab.|habitants}} }}
-    |{{Unité|{{{population division a|{{{population agglomération|}}} }}}|{{abréviation discrète|hab.|habitants}}}}
+    |{{Unité|{{{population division a|{{{population agglomération|}}} }}}|hab.}}
    }} {{#if:{{{année_pop division a|{{{année_pop agglomération|}}} }}}|{{espace}}<small>({{{année_pop division a|{{{année_pop agglomération|}}}}}})<small>}}
 }}
 {{#iferror:{{#expr:{{{population division a|{{{population agglomération|}}} }}}/{{{superficie division a|{{{superficie agglomération|}}} }}} }}
   |
-  |{{Infobox/Ligne mixte densité optionnelle|[[Densité de population|Densité]]|{{{superficie division a|{{{superficie agglomération|}}} }}}|{{{population division a|{{{population agglomération|}}} }}} }}
+  |{{Infobox/Ligne mixte densité optionnelle|Dinchité|{{{superficie division a|{{{superficie agglomération|}}} }}}|{{{population division a|{{{population agglomération|}}} }}} }}
 }}
 
 {{Infobox/Ligne mixte optionnelle
   |Population {{{nom_pop division b|{{{nom_pop division|}}} }}}
   |{{{population division b|{{{population division|}}} }}}
   |{{#iferror:{{#expr:{{{population division b|{{{population division|}}} }}} }}
-    |{{{population division b|{{{population division|}}} }}}&nbsp;{{abréviation discrète|hab.|habitants}}
-    |{{Unité|{{{population division b|{{{population division|}}} }}}|{{abréviation discrète|hab.|habitants}}}}
+    |{{{population division b|{{{population division|}}} }}}&nbsp;hab.
+    |{{Unité|{{{population division b|{{{population division|}}} }}}|hab.}}
    }} {{#if:{{{année_pop division b|{{{année_pop division|}}} }}}|{{espace}}<small>({{{année_pop division b|{{{année_pop division|}}}}}})<small>}}
 }}
 {{#iferror:{{#expr:{{{population division b|{{{population division|}}} }}}/{{{superficie division b|{{{superficie division|}}} }}} }}
   |
-  |{{Infobox/Ligne mixte densité optionnelle|[[Densité de population|Densité]]|{{{superficie division b|{{{superficie division|}}} }}}|{{{population division b|{{{population division|}}} }}} }}
+  |{{Infobox/Ligne mixte densité optionnelle|Dinchité|{{{superficie division b|{{{superficie division|}}} }}}|{{{population division b|{{{population division|}}} }}} }}
 }}
 {{Infobox/Ligne mixte optionnelle|{{{nom divers démographie|Divers}}}|{{{divers démographie|}}} }} 
 {{Infobox/Ligne mixte optionnelle|{{{nom divers démographie2|Divers}}}|{{{divers démographie2|}}} }}
 {{Infobox/Ligne mixte optionnelle|{{{nom divers démographie3|Divers}}}|{{{divers démographie3|}}} }}
 <!-- 
 
-Géographie 
+Jografie 
 
 -->
-{{Infobox/Sous-titre optionnel|Géographie|{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{superficie division2|{{{superficie agglomération|}}} }}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}} }}
-{{Infobox/Ligne mixte latitude longitude optionnelle|[[Coordonnées géographiques|Coordonnées]]|{{{latitude|}}}|{{{longitude|}}}|{{{type coord|city}}}|title={{#ifeq:{{{coord titre|}}}|non| |oui}}|géolocalisation={{{géolocalisation dans coords|{{{géolocalisation|}}}}}}|inline={{{inline|}}}}}
+{{Infobox/Sous-titre optionnel|Jografie|{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}{{{superficie division2|{{{superficie agglomération|}}} }}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}} }}
+{{Infobox/Ligne mixte latitude longitude optionnelle|Coordonnées|{{{latitude|}}}|{{{longitude|}}}|{{{type coord|city}}}|title={{#ifeq:{{{coord titre|}}}|non| |oui}}|géolocalisation={{{géolocalisation dans coords|{{{géolocalisation|}}}}}}|inline={{{inline|}}}}}
 {{Infobox/Ligne mixte optionnelle
-  |[[Altitude]]
+  |Altitude
   |{{#if:{{{altitude|}}}
     |{{Unité|{{{altitude}}}|m}}{{espace}}<!--
   -->{{#if:{{{alt mini|}}}|(min.&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}}){{espace}} }}<!--
@@ -258,14 +258,14 @@ Géographie
    }}
 }}
 {{Infobox/Ligne mixte optionnelle
-  |[[Superficie]]
+  |Supérfichie
   |{{#if:{{{superficie|}}}
     |{{#iferror:{{#expr:{{{superficie}}}}}
-      |{{Rouge|{{{superficie}}}&nbsp;km{{2}}}}
+      |{{Rouge|{{{superficie}}}&nbsp;km<sup>2</sup>}}
       |{{#ifeq:{{lc:{{{superficie ha|}}} }}|non
         |
         |{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;
-       }}{{Unité|{{{superficie}}}|km{{2}}}}
+       }}{{Unité|{{{superficie}}}|km<sup>2</sup>}}
      }} {{#if:{{{superficie notes|}}} 
       |{{#if: {{padright:| 1 |{{{superficie notes|}}} }}<!-- vide si population notes est entre balises ref -->
         |{{#tag:ref |{{{superficie notes|}}}}}
@@ -278,7 +278,7 @@ Géographie
   |Superficie {{{nom_pop division a|{{{nom_pop agglomération|de l'agglomération}}} }}}
   |{{#if:{{{superficie division a|{{{superficie agglomération|}}} }}}
     |{{#iferror:{{#expr:{{{superficie division a|{{{superficie agglomération|}}} }}} }}
-      |{{Rouge|{{{superficie division a|{{{superficie agglomération|}}} }}}&nbsp;km{{2}}}}
+      |{{Rouge|{{{superficie division a|{{{superficie agglomération|}}} }}}&nbsp;km<sup>2</sup>}}
       |{{#ifeq:{{lc:{{{superficie ha|}}} }}|non
         |
         |{{Unité|{{#expr:{{{superficie division a|{{{superficie agglomération|}}} }}}*100}}|ha}}&nbsp;=&nbsp;
@@ -290,7 +290,7 @@ Géographie
   |Superficie {{{nom_pop division b|{{{nom_pop division|}}} }}}
   |{{#if:{{{superficie division b|{{{superficie division|}}} }}}
     |{{#iferror:{{#expr:{{{superficie division b|{{{superficie division|}}} }}} }}
-      |{{Rouge|{{{superficie division b|{{{superficie division|}}} }}}&nbsp;km{{2}}}}
+      |{{Rouge|{{{superficie division b|{{{superficie division|}}} }}}&nbsp;km<sup>2</sup>}}
       |{{#ifeq:{{lc:{{{superficie ha|}}} }}|non
         |
         |{{Unité|{{#expr:{{{superficie division b|{{{superficie division|}}}}}}*100}}|ha}}&nbsp;=&nbsp;

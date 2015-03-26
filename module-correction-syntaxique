@@ -1,0 +1,22 @@
+local p = {}
+
+function p.verifierLesArguments(frame)
+	local passed_args = frame:getParent().args
+	local modele_args = frame.args
+	local rv = ""
+	local nombre = 0
+    for a,b in pairs(passed_args) do
+       if (modele_args[a] == nil and b ~= "") then
+       		nombre = nombre + 1
+       		rv = rv .. '<div style="display: none">' .."L'argument " .. a .. "(valeur <nowiki>" .. b .. "</nowiki>) n'existe pas dans le modèle appelé</div>"
+       	end
+    end
+ 	if (nombre > 10) then
+       		rv = rv .. "[[Catégorie:Page appelant un modèle avec un paramètre inconnu|+" .. nombre .. "]]"
+    elseif (nombre > 0) then
+       		rv = rv .. "[[Catégorie:Page appelant un modèle avec un paramètre inconnu|" .. nombre .. "]]"
+	end 		
+    return rv
+end
+
+return p

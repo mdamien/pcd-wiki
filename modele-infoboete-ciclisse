@@ -1,0 +1,34 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+  |{{#if:{{{prénom|}}} {{{nom|}}} | {{{prénom|}}} {{{nom|}}} | {{PAGENAME}} }}
+  |{{Charte sportive/Niveau 1|{{lcfirst:cyclisme}}}}
+  |entete cyclisme
+}}
+{{#if: {{{image|}}}
+  |{{Infobox/Image|{{{image|}}}|{{{légende|}}}|250}}
+  |{{Infobox/Image|Importez le logo individu-fr.svg||100|Importez l’image de cette personne||Aide:Importer un fichier}}
+}}
+{{Infobox/Sous-titre|Informations|{{Charte sportive/Niveau 1|{{lcfirst:cyclisme}}}} }}
+{{Infobox/Ligne mixte optionnelle|Nom|{{{nom|}}}|{{{prénom|}}} {{{nom|}}}|40%}}
+{{Infobox/Ligne mixte optionnelle|Nom d'naissance|{{{nom de naissance|}}}||40%}}
+{{Infobox/Ligne mixte optionnelle|Surpitchet|{{{surnom|}}}||40%}}
+{{Infobox/Ligne mixte optionnelle|Date d' naissance|{{{date de naissance|}}}|{{{date de naissance}}}{{#if:{{{lieu de naissance|}}}|<br />{{{lieu de naissance}}}}}|40%}}
+{{Infobox/Ligne mixte optionnelle|Défuncté(e) au |{{{date de décès|}}}|{{{date de décès}}}{{#if:{{{lieu de décès|}}}|<br />{{{lieu de décès}}}}}|40%}}
+{{Infobox/Ligne mixte optionnelle|Poéyis|{{{pays|}}}|{{#ifexist: Modèle:{{{pays|}}} | {{ {{{pays}}} }} | {{{pays|}}} }}|40%}}
+{{Infobox/Ligne mixte optionnelle|Étchipe actuèle|{{{équipe|}}}||40%}}
+{{Infobox/Ligne mixte optionnelle|Éspéchialité|{{{type coureur|}}}||40%}}
+
+{{Infobox/Sous-titre optionnel|Étchipes amateurs|{{{équipes amateur|}}}|{{Charte sportive/Niveau 1|{{lcfirst:cyclisme}}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{années amateur|}}}|{{{équipes amateur|}}}||40%}}
+{{Infobox/Sous-titre optionnel|Étchipes professionnèles|{{{équipes pro|}}}|{{Charte sportive/Niveau 1|{{lcfirst:cyclisme}}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{années pro|}}}|{{{équipes pro|}}}||40%}}
+{{Infobox/Sous-titre optionnel|Étchipes non-UCI|{{{équipes non-UCI|}}}|{{Charte sportive/Niveau 1|{{lcfirst:cyclisme}}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{années non-UCI|}}}|{{{équipes non-UCI|}}}||40%}}
+{{Infobox/Sous-titre optionnel|Étchipes UCI|{{{équipes UCI|}}}|{{Charte sportive/Niveau 1|{{lcfirst:cyclisme}}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{années UCI|}}}|{{{équipes UCI|}}}||40%}}
+{{Infobox/Sous-titre optionnel|Étchipes dirigées|{{{équipes dirigées|}}}|{{Charte sportive/Niveau 1|{{lcfirst:cyclisme}}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{années direction|}}}|{{{équipes dirigées|}}}||40%}}
+{{Infobox/Sous-titre optionnel|Princhipales victoères|{{{victoires principales|}}}|{{Charte sportive/Niveau 1|{{lcfirst:cyclisme}}}} }}
+{{Infobox/Ligne optionnelle|{{{victoires principales|}}}||40%}}
+{{Infobox/Notice|Infobox Cycliste}}
+{{Infobox/Fin}}<!--{{Suivi des biographies|Sport}}--></includeonly><noinclude><!--{{Documentation}}--></noinclude>

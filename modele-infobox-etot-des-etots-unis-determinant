@@ -1,0 +1,45 @@
+<includeonly>{{#switch:{{{2}}}
+| Alabama             = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Alabama
+| Alaska              = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Alaska
+| Arizona             = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Arizona
+| Arkansas            = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Arkansas
+| California          = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Californie
+| North Carolina      = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Caroline du Nord
+| South Carolina      = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Caroline du Sud
+| Florida             = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Floride
+| Georgia             = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Géorgie
+| Hawaï              = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'État d' Hawaï
+| Idaho               = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Idaho
+| Illinois            = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Illinois
+| Indiana             = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Indiana
+| Iowa                = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Iowa
+| Louisiana           = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Louisiane
+| Ohio                = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Ohio
+| Oklahoma            = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Oklahoma
+| Oregon              = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Oregon
+| Pennsylvania        = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Pennsylvanie
+| Rhode Island              = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'État éd Rhode Island
+| Utah                = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'Utah
+| Virginia            = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Virginie
+| West Virginia       = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l' Virginie-Occidentale
+| Washington          = {{#ifeq:{{{1|}}}|de|de{{Espace}}|}}l'État du Washington
+| New Mexico          = {{#ifeq:{{{1|}}}|de|du|le}} Nouvieu-Mexike
+| #default            = {{#ifeq:{{{1|}}}|de|du|le}} {{{2}}}
+}}</includeonly><noinclude>
+{{Documentation|contenu=
+Ce modèle permet de gérer correctement les accords avec le nom de l'État.
+
+* <code><nowiki>{{Infobox État des États-Unis/Déterminant|de|Alabama}}</nowiki></code>
+** Carte {{Infobox État des États-Unis/Déterminant|de|Alabama}}
+** Carte {{Infobox État des États-Unis/Déterminant|de|Pennsylvania}}
+** Carte {{Infobox État des États-Unis/Déterminant|de|Rhode Island}}
+** Carte {{Infobox État des États-Unis/Déterminant|de|Hawaï}}
+* <code><nowiki>{{Infobox État des États-Unis/Déterminant|le|Alabama}}</nowiki></code>
+** Carte avec {{Infobox État des États-Unis/Déterminant|le|Alabama}}
+** Carte avec {{Infobox État des États-Unis/Déterminant|le|Pennsylvania}}
+** Carte avec {{Infobox État des États-Unis/Déterminant|le|Rhode Island}}
+** Carte avec {{Infobox État des États-Unis/Déterminant|le|Hawaï}}
+}}
+
+[[Catégorie:Anmérikes]]
+</noinclude>

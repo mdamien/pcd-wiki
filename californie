@@ -78,5 +78,48 @@
 El '''Californie''' (''California'') ch'est un Étots des [[Étots-Unis]] édseur l' cote Ouest. L' capitale deul Californie ch'est [[Sacramento]] mais chés pus grandes viles ch'est [[Los Angeles]] et pi [[San Francisco]].
 
 
+'''Chés dich pus grandes viles d'Californie (2013)'''
+<timeline>
+TimeAxis	= orientation:horizontal format:yyyy
+ImageSize	= width:640 height:auto barincrement:25
+PlotArea 	= left:10 right:10 top:10 bottom:40
+AlignBars 	= justify
+
+Colors =
+  id:canvas        	value:rgb(0.97,0.97,0.97)
+
+BackgroundColors = canvas:canvas
+
+Period = from:0 till:4000
+ScaleMajor = unit:year increment:500 start:0 gridcolor:drabgreen
+
+BarData=
+  barset:Einwohnerzahl
+
+PlotData=
+  width:20 fontsize:M textcolor:black color:skyblue shift:(20,-6) anchor:from
+ 
+  barset:Einwohnerzahl
+
+  from:start till:3800.0  text:[[Los Angeles]]_(3 884 307)
+  from:start till:1300.0  text:[[San Diego]]_(1 355 896)
+  from:start till:945.0    text:[[San José (Californie)|San José]]_(998 537)
+  from:start till:805.0    text:[[San Francisco]]_(837 442)
+  from:start till:494.0    text:Fresno_(509 924)
+  from:start till:466.0    text:Sacramento_(479 686)
+  from:start till:462.0    text:Long Beach_(469 428)
+  from:start till:390.0    text:Oakland_(406 253) 
+  from:start till:347.0    text:Bakersfield_(363 630)
+  from:start till:336.0    text:Anaheim_(345 012)
+  
+TextData=
+  fontsize:S pos:(450,20)
+  text:Nombe ed gins (in millés)
+</timeline>
+
+
+
+
+
 == Notes ==
 [[Catégorie:Anmérikes]]

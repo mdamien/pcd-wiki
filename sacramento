@@ -1,0 +1,127 @@
+{{Infoboète Vile étrangère
+ | nom                      = Sacramento
+ | blason                   = Sacramento armes.jpg
+ | drapeau                  = Flag of Sacramento, California.svg
+ | image                    = Sacramento Skyline (2).jpg
+ | légende                  = 
+ | état                     = Californie
+ | comté                    = Sacramento
+ | maire                    = Kevin Johnson (Parti démocrate)
+ | mandat maire             = 
+ | type                     = ''City''
+ | ZIP                      = 942xx, 958xx
+ | FIPS                     = 06-64000
+ | GNIS                     = 1659564
+ | indicatif tél            = 916
+ | latitude                 = <!-- Coordonnées sur Wikidata -->
+ | longitude                = 
+ | altitude                 = 8
+ | alt mini                 = 
+ | alt maxi                 = 
+ | population               = 470956
+ | année_pop                = 2010
+ | population agglomération = 2461780
+ | année_pop agglomération = 2010
+ | superficie               = 257
+ | terre                    = 251.6
+ | utc                      = 8
+ | imageloc                 = Sacramento County California Incorporated and Unincorporated areas Sacramento Highlighted.svg
+ | fondée                   = 1849
+ | municipalitédepuis       = 
+ | devise                   = « Urbs indomita »
+ | surnom                   = « Sacto », « Sac », « River City », « Sacratomato »
+ | site web                 = http://www.cityofsacramento.org
+}}
+
+El ville éd '''Sacramento''' ch'est l'capitale dechl’Étot d' [[Californie]], dins chés [[Étots-Unis]]. Al est surlonmée « Sacto » obin « Sac » pèr chés gins. Il yo étou chés surpitchets « River City » pi  « Sacratomato ».
+
+== Démographie ==
+
+{{Démografie
+| titre = Évolution de la population de Sacramento
+| charte = commune
+| colonnes = 9
+| largeur-tableau = 60%
+| notes = Population basée sur les chiffres du recensement
+| 1850 = 6820
+| 1860 = 13785
+| 1870 = 16283
+| 1880 = 21420
+| 1890 = 26386
+| 1900 = 29282
+| 1910 = 44696
+| 1920 = 65908
+| 1930 = 93750
+| 1940 = 105958
+| 1950 = 137572
+| 1960 = 191667
+| 1970 = 257105
+| 1980 = 275741
+| 1990 = 369365
+| 2000 = 407018
+| 2007 = 460242
+| 2013 = 479686
+| flottant = centre
+| marge-interlignes = 6px
+| taille-police = 90%
+| hauteur-lignes = 120%
+| hyperliens-années = on
+| années-fond = #F5F5F5
+| population-fond = #F3FFF3
+}}
+
+
+'''Chés dich pus grandes viles d'Californie (2013)'''
+<timeline>
+TimeAxis	= orientation:horizontal format:yyyy
+ImageSize	= width:640 height:auto barincrement:25
+PlotArea 	= left:10 right:10 top:10 bottom:40
+AlignBars 	= justify
+
+Colors =
+  id:canvas        	value:rgb(0.97,0.97,0.97)
+
+BackgroundColors = canvas:canvas
+
+Period = from:0 till:4000
+ScaleMajor = unit:year increment:500 start:0 gridcolor:drabgreen
+
+BarData=
+  barset:Einwohnerzahl
+
+PlotData=
+  width:20 fontsize:M textcolor:black color:skyblue shift:(20,-6) anchor:from
+ 
+  barset:Einwohnerzahl
+
+  from:start till:3800.0  text:[[Los Angeles]]_(3 884 307)
+  from:start till:1300.0  text:[[San Diego]]_(1 355 896)
+  from:start till:945.0    text:[[San José (Californie)|San José]]_(998 537)
+  from:start till:805.0    text:[[San Francisco]]_(837 442)
+  from:start till:494.0    text:Fresno_(509 924)
+  from:start till:466.0    text:Sacramento_(479 686)
+  from:start till:462.0    text:Long Beach_(469 428)
+  from:start till:390.0    text:Oakland_(406 253) 
+  from:start till:347.0    text:Bakersfield_(363 630)
+  from:start till:336.0    text:Anaheim_(345 012)
+  
+TextData=
+  fontsize:S pos:(450,20)
+  text:Nombe ed gins (in millés)
+</timeline>
+
+== Histoère ==
+{|
+|[[Image:Sacramento california 1849.jpg|thumb|Sacramento in 1849]]
+|[[Fichier:Sutterfort.jpg|thumb|left|150px|Ech Sutter's Fort inhui]]
+|[[File:Ancien Locaux de BF Hastings & Co et de Wells Fargo. Terminus du service postal Pony Express.JPG|thumb|left|BF Hastings & Co et pi Wells Fargo batimint <br> Terminus du Pony Express]]
+|[[Fichier:Birds-eye view of Sacramento 1857.jpg|thumb|Sacramento in 1857]]
+|}
+
+== Jografie ==
+{|
+|[[Image:California Capitol-fromSW.JPG|thumb|Sacramento, ch' Capitole]]
+|}
+
+== Notes ==
+[[Catégorie:Anmérikes]]

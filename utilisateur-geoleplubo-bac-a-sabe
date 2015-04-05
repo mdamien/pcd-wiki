@@ -279,6 +279,107 @@ coucou</span>
 *9
  |}
 
+=== Texte sur plusieurs colonnes ===
+
+==== Avec le modèle 'colonnes' ====
+
+<br />
+
+{{m|Colonnes}}
+
+<br />
+
+{| class="wikitable"
+! Code source !! Résultat
+|-
+|
+<source lang="text">
+{{colonnes|nombre=3|
+* premier
+* second
+* troisième
+* quatrième
+* cinquième
+* sixième
+}}
+</source>
+|
+{{colonnes|nombre=3|
+* premier
+* second
+* troisième
+* quatrième
+* cinquième
+* sixième
+}}
+|}
+
+<br />
+
+==== Avec un tableau ====
+
+''dont les cellules ont un alignement vertical "en haut"''
+
+
+'''Code source'''
+
+<source lang="text">
+{| style="width:100%;" 
+|- 
+| style="width:33%;vertical-align:top;" | 
+Colonne 1
+* premier
+* second
+* troisième
+| style="width:33%;vertical-align:top;" | 
+Colonne 2
+* quatrième
+* cinquième
+| style="width:33%;vertical-align:top;" | 
+Colonne 3
+* sixième
+|}
+</source>
+
+
+'''Résultat'''
+
+{| style="width:100%;" 
+|- 
+| style="width:33%;vertical-align:top;" | 
+Colonne 1
+* premier
+* second
+* troisième
+| style="width:33%;vertical-align:top;" | 
+Colonne 2
+* quatrième
+* cinquième
+| style="width:33%;vertical-align:top;" | 
+Colonne 3
+* sixième
+|}
+
+<br />
+
+=== Texte en format brut ===
+
+<source lang="text">
+<pre>
+(...)
+</pre>
+</source>
+
+ou bien
+
+<pre>
+<source lang="text">
+(...)
+</source>
+</pre>
+
+<br />
+
 == Musique ==
 
 * '''modèle:Bémol''' <nowiki>{{Bémol|bémol}}</nowiki> donne {{Bémol|bémol}}  et  <nowiki>{{Bémol|doublebémol}}</nowiki> : {{Bémol|doublebémol}}

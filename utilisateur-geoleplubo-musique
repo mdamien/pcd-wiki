@@ -1,5 +1,85 @@
 = essais musique =
 
+=== Altérations ===
+
+'''Code'''
+
+<pre>
+<code>\flat</code> : bémol <math>\flat</math> ;
+<code>\natural</code> : bécarre <math>\natural</math> ;
+<code>\sharp</code> : dièse <math>\sharp</math>.
+</pre>
+
+
+'''Résultat'''
+
+* <code>\flat</code> : bémol <math>\flat</math> ;
+* <code>\natural</code> : bécarre <math>\natural</math> ;
+* <code>\sharp</code> : dièse <math>\sharp</math>.
+
+<br />
+
+
+=== Accords ===
+
+{| class="wikitable"
+! Code source !! Résultat
+|-
+|
+<source lang="text">
+<math>E^\flat m^{\Delta \, 9}</math>
+
+<math>E \flat m^{\Delta \, 9}</math>
+
+<math>C^\sharp m^{\Delta \, +9}</math>
+
+<math>C \sharp m^{\Delta \, 9}</math>
+</source>
+|
+<math>E^\flat m^{\Delta \, 9}</math>
+
+<math>E \flat m^{\Delta \, 9}</math>
+
+<math>C^\sharp m^{\Delta \, +9}</math>
+
+<math>C \sharp m^{\Delta \, 9}</math>
+|-
+|}
+
+
+
+=== Grille d'accords ===
+
+'''Code'''
+
+<pre>
+{| style="width:65%;text-align:center;" border="2" cellpadding="25" 
+|-
+| <math>C^7</math> || <math>F^7</math> || <math>C^7</math> || _
+|-
+| <math>F^7</math> || _ || <math>C^7</math> || _
+|-
+| <math>G^7</math> || <math>F^7</math> || <math>C^7</math> || <math>(G^7)</math>
+|}
+</pre>
+
+
+'''Résultat'''
+
+<br />
+
+{| style="width:65%;text-align:center;" border="2" cellpadding="25" 
+|-
+| <math>C^7</math> || <math>F^7</math> || <math>C^7</math> || _
+|-
+| <math>F^7</math> || _ || <math>C^7</math> || _
+|-
+| <math>G^7</math> || <math>F^7</math> || <math>C^7</math> || <math>(G^7)</math>
+|}
+
+<br />
+
+
 == Grille de blues ==
 
 <br />

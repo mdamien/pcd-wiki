@@ -279,9 +279,9 @@ coucou</span>
 *9
  |}
 
-=== Texte sur plusieurs colonnes ===
+== Texte sur plusieurs colonnes ==
 
-==== Avec le modèle 'colonnes' ====
+=== Avec le modèle 'colonnes' ===
 
 <br />
 
@@ -316,7 +316,7 @@ coucou</span>
 
 <br />
 
-==== Avec un tableau ====
+=== Avec un tableau ===
 
 ''dont les cellules ont un alignement vertical "en haut"''
 
@@ -379,6 +379,37 @@ ou bien
 </pre>
 
 <br />
+
+== Définitions, propriétés, remarques… (sobres) ==
+
+Idée : toujours la même chose, aller vers plus de simplicité et de professionnalisme — capter l'attention sans la monopoliser. Encore une variation sur les boîtes colorées.
+
+{| style="margin-left:1em; border-left:2px solid #996600;" cellspacing="0" cellpadding="0" width="70%"|
+|style="padding-left: 0.5em;"|
+En 2008, une seconde a été ajoutée pour tenir compte du ralentissement de la rotation de la Terre.
+|}
+
+Avec un titre :
+
+{| style="margin-left:1em; border-left:2px solid #006699;" cellspacing="0" cellpadding="0" width="70%"|
+|+
+|style="padding-left: 0.5em;"|
+'''Exemple'''
+|-
+|style="padding-left: 0.5em;"|
+Le nombre ''π'' est un réel, irrationnel, transcendant.
+|}
+
+On peut aussi s'en servir pour noter des choses importantes :
+
+{| style="margin-left:1em; border-left:2px solid #cc0000;" cellspacing="0" cellpadding="0" width="70%"|
+|+
+|style="padding-left: 0.5em;"|
+'''''À retenir'''''
+|-
+|style="padding-left: 0.5em;"|
+L'invariance de l'hamiltonien d'un système sous un groupe continu de transformation a pour conséquence la conservation du générateur infinitésimal du groupe.
+|}
 
 == Musique ==
 

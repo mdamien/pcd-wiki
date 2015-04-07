@@ -93,6 +93,237 @@
 | style="text-align:center;" | G7 || style="text-align:center;" | F7 || style="text-align:center;" | C7 || style="text-align:center;" | (G7)
 |}
 
+== Musique ==
+
+* '''modèle:Bémol''' <nowiki>{{Bémol|bémol}}</nowiki> donne {{Bémol|bémol}}  et  <nowiki>{{Bémol|doublebémol}}</nowiki> : {{Bémol|doublebémol}}
+
+* https://fr.wikipedia.org/wiki/Aide:Partitions
+* https://fr.wikibooks.org/wiki/Introduction_%C3%A0_LilyPond/G%C3%A9n%C3%A9ration_d%27un_fichier_de_son
+* 
+
+;'''Exemples code LilyPond'''
+#Par exemple : ''do, mi, sol'' (accord parfait de do majeur) : 
+<score vorbis=1>\new Staff \with {\remove "Time_signature_engraver"}{\time 4/4 <c' e' g'>1 }</score>
+#<score >
+\relative c'{
+    \clef treble
+    \key c \major 
+    \time 4/4
+    c8 d e f g a b c 
+    c,1
+    \bar "||"
+    R1 \bar "|." 
+}</score>
+# <score vorbis="1" >
+\relative c'{
+    \clef treble
+    %staffkeysig
+    \key c \major 
+    \time 4/4
+    c8 d e f g a b c 
+    c,1
+    \bar "||"
+    R1 \bar "|." 
+}
+</score>
+4. <score >
+{
+    \clef treble
+    \key c \major 
+    \time 4/4
+    c8 d e f g a b c 
+    c,1
+    \bar "||"
+    R1 \bar "|." 
+}
+</score>
+
+
+exemple 5 =
+<score >
+\relative c'{
+    \clef treble
+    \key c \major 
+    \time 4/4
+    c8 d e f g a b c~
+    c1
+    \bar "|." 
+}
+</score>
+
+exemple 6.
+
+<score  >
+{
+    \clef treble
+    \key c \major 
+    \time 4/4
+    %Mesure 1
+    c8 d e f g a b c~
+    %Mesure 2
+    c1
+    \bar "|." 
+}
+</score>
+
+;exemple Do Majeur
+<score vorbis="1">
+\new Staff {
+  \relative c' {
+    \key c \major
+    \override Staff.TimeSignature #'stencil = ##f
+    \override Staff.BarLine #'stencil = ##f
+     c1 d e f g a b c b a g f e d c
+  }
+}
+\midi {
+  \context {
+    \Score
+    tempoWholesPerMinute = #(ly:make-moment 120 1)
+  }
+}
+</score>
+;exemple Sol Majeur
+<score vorbis="1">
+
+\new Staff {
+  \relative c'' {
+    \key g \major
+    \override Staff.TimeSignature #'stencil = ##f
+    \override Staff.BarLine #'stencil = ##f
+     g1 a b c d e fis g fis e d c b a g
+  }
+}
+\midi {
+  \context {
+    \Score
+    tempoWholesPerMinute = #(ly:make-moment 120 1)
+  }
+}
+</score>
+
+; les bémols (Sib M)
+: \key bes \major
+::    \override Staff.TimeSignature #'stencil = ##f
+::    \override Staff.BarLine #'stencil = ##f
+::     bes1 c d es f g a bes a g f es d c bes
+
+;son clarinette
+[http://lilypond.org/doc/v2.8/Documentation/user/lilypond/MIDI-instruments.html#MIDI-instruments MIDI instruments]
+; Exemple
+ <span style="color: #AA0000;">\new Staff {</span>
+    \set Staff.instrumentName = "''nom de l'instrument''"
+    \set Staff.midiInstrument = "''instrument midi''"
+ 
+    ''musique''
+ <span style="color: #AA0000;">}</span>
+{| border="1"
+|+ Liste non exhaustive de noms d'instrument utilisables
+|-
+! Instrument !! Nom codifié
+|-
+! colspan = "2" |...
+|-
+| clarinette || <code>clarinet</code>
+|-
+| guitare classique<br />guitare folk || <code>acoustic guitar (nylon)</code><br /><code>acoustic guitar (steel)</code>
+|-
+| guitare électrique || <code>electric guitar (jazz)</code>, <code>electric guitar (clean)</code>, <code>electric guitar (muted)</code>, <code>overdriven guitar</code>, <code>distorted guitar</code>
+|-
+| piano || <code>acoustic grand</code>, <code>bright acoustic</code>, <code>electric grand</code>, <code>honky-tonk</code> (bastringue), <code>electric piano 1</code> ou <code>2</code>
+|-
+| clavecin || <code>harpsichord</code>
+|-
+|}
+
+
+;Au clair de la lune
+<nowiki>
+<score vorbis="1">
+
+\new Staff {
+\relative c'' {
+  \key c \major
+  \time 4/4
+  c4 c c d e2 d c4 e d d c1 \break
+  c4 c c d e2 d c4 e d d c1 \break
+  d4 d d d a2 a d4 c b a g1 \break
+  c4 c c d e2 d c4 e d d c1 \break
+\bar "|."
+} }
+\addlyrics { 
+\lyricmode {
+    Au clair de la lu -- ne,
+    Mon a -- mi Pier -- rot,
+    Prê -- te -- moi ta plu -- me
+    Pour é -- crire un mot.
+    Ma chan -- delle est mor -- te,
+    Je n'ai plus de feu_;
+    Ou -- vre -- moi ta por -- te,
+    Pour l'a -- mour de Dieu.
+} }
+
+  \midi {
+    \context {
+      \Score
+      tempoWholesPerMinute = #(ly:make-moment 120 4)
+    }
+  }
+</score>
+</nowiki>
+
+; anatole
+
+
+<score vorbis="1">
+\new ChordNames \with {
+  \override BarLine #'bar-extent = #'(-2 . 2)
+  \consists "Bar_engraver"
+}
+\chordmode { \mark A
+  c2 a:m7 | d:m7 g:7 | c a:m7 | d:m7 g:7 | c    c:7 | f   f:m | c a:m7 | d:m7 g:7 |
+  \break \mark A
+  c2 a:m7 | d:m7 g:7 | c a:m7 | d:m7 g:7 | c    c:7 | f   f:m | c s    | c    s   |
+  \break\mark "B (pont)"
+  e2:7 s  | e:7  s   | a:7 s  | a:7  s   | d:7  s   | d:7 s   | g:7 s  | g:7  s   |
+  \break \mark A
+  c2 a:m7 | d:m7 g:7 | c a:m7 | d:m7 g:7 | c    c:7 | f   f:m | c s    | c  s\bar "|."
+}
+</score>
+
+
+;Un exemple qui utilise la notation ABC.
+<source lang="XML">
+<score lang="ABC" vorbis=1>
+X:1
+T:The Legacy Jig
+M:6/8
+L:1/8
+R:jig
+K:G
+GFG BAB | gfg gab | GFG BAB | d2A AFD |
+GFG BAB | gfg gab | age edB |1 dBA AFD :|2 dBA ABd |:
+efe edB | dBA ABd | efe edB | gdB ABd |
+efe edB | d2d def | gfe edB |1 dBA ABd :|2 dBA AFD |]
+</score>
+</source>
+
+<score lang="ABC" vorbis=1>
+X:1
+T:The Legacy Jig
+M:6/8
+L:1/8
+R:jig
+K:G
+GFG BAB | gfg gab | GFG BAB | d2A AFD |
+GFG BAB | gfg gab | age edB |1 dBA AFD :|2 dBA ABd |:
+efe edB | dBA ABd | efe edB | gdB ABd |
+efe edB | d2d def | gfe edB |1 dBA ABd :|2 dBA AFD |]
+</score>
+
+
+
+
 == Clarinette == 
 
 ;midiInstrument = "clarinet"  

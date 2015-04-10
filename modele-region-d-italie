@@ -72,8 +72,10 @@
  |{{{code ISTAT|}}}
 }}
 {{Infobox/Ligne mixte
+{{#if:{{{iso|}}} |
  |ISO 3166-2
  |{{{iso}}}
+}}
 }}
 {{Infobox/Ligne mixte
  |Site intarnète

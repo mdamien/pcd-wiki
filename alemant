@@ -1,33 +1,63 @@
 {{Langue
 |nomlangue   = Alemant
 |nomoriginellangue = Deutsch
+|nomnatif        =''{{lang|de|Deutsch}}''
+| parlée               =
+|région          =
+|locuteurs       =89 - 100 millions<ref>{{Référence incomplète|SIL Ethnologue|date=novembre 2014}} (2013). 78 millions d'allemand standard ; 105 millions les dialects du haut et moyen allemand inclus ; 120 millions le bas saxon et le yiddish inclus.</ref> <small>(langue maternelle)</small><br>80 millions <small>(langue étrangère)</small><ref name=natgeo2006>{{ouvrage | auteur1 = [[National Geographic]] | titre = National Geographic Collegiate Atlas of the World | éditeur = R.R Donnelley & Sons Company | année = 2006 | mois = 4 | lieu = Willard (Ohio) | passage = 257–270 | isbn1 = 0-7922-3662-9 |isbn2 = 978-0-7922-3662-7 }}</ref>
+|nomlocuteurs    =djérmanofones
+|typologie       ={{V2}} et {{SOV}}, {{Langue flexionnelle}}, {{Langue accusative}}, {{Langue accentuelle}}, {{langue à accent d'intensité}}
+|couleurfamille  =mediumseagreen
+| langueofficielle     = {{DEU}} <br /> {{AUT}} <br /> {{BEL}} <br /> {{LIE}} <br /> {{LUX}} <br /> {{CHE}} <br /> [[Fichier:Flag of Trentino-South Tyrol.svg|22px|Trentin-Haut-Adige]] [[Trentin-Haut-Adige]] ([[Italie]]) <br /><br /> [[Fichier:POL województwo opolskie flag.svg|22px|Voïvodie d'Opole]] [[Voïvodie d'Opole]] ([[Pologne]])<br /><br />[[File:Blumenau_bandeira.jpg|22px|Blumenau]] [[Blumenau]]<br />{{Santa Catarina}}<br />({{Brésil}})<br /><br />{{NAM}} (langue coofficielle régionale)<br /><br />{{VAT}} (langue officielle de la [[garde suisse pontificale]])
+|officielle      =
+|académie        = {{Lien|fr=Rat für deutsche Rechtschreibung|lang=de|trad=Rat für deutsche Rechtschreibung|texte=Conseil pour l'orthographe allemande}} uniquement pour l'[[allemand standard]] ({{lang|de|Standarddeutsch}})
+|iso1            =de
+|iso2            =ger, deu
+|iso3            =deu
+|iso5            =
+|lingua          =
+|ietf            =de
+|type            =langue vivante
+|étendue         =langue individuelle
+| échantillon      = Article premier de la ''[http://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=ger Déclaration universelle des droits de l’homme]'' ([http://www.un.org/fr/documents/udhr/#a1 voir le texte en français]) :
+{{lang|de|'''Artikel 1'''
+Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.}}
+|nomfamille      =
+|auteur          =
+|naissance       =
+|période         =
+|mort            =
+|languefille     =
+|typelangueconstruite=
+|carte           = Map German World.png
+|légende carte   = Carte de la [[Germanophone|germanophonie]].{{Légende/Début}}
+{{Légende|#FF9900|Orange foncé : langue maternelle}}
+{{Légende|#FFCC00|Orange clair : langue importante, "langue nationale" et/ou langue de culture}}
+{{Légende|#FF6633|Carré orange : minorités germanophones}}
+{{Légende/Fin}}
 |poéis       = [[Alemanne]], [[Otriche]], [[Suisse]] et pi din 8 eutes poéis.
 |nompe       = 125 milions
 |code        = de
+|famille={{Hiérarchie|heut-alemant|alemant}}
 |egzempe     = Artikel 1
 Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen
 }}
 
+* rang = 10
 
+* tipolodjie = Langue flexionnelle - Langue accentuelle
 
-rang = 10
+* ofichièle in	 [[Otriche]] , [[Bergike]] , [[Alemanne]] , [[Liechtenstein]] , [[Lussimbourq]] , Voïvodie d'Opole, [[Polonne]] , Ville éd Sopron, [[Hongrie]] , Suisse , Trentin-Heut-Adige, [[Italie]] , Namibie (langue co-ofichièle régionale), Union uropéïène , Vatican (langue ofichièle del Garde Suisse Pontificale)
 
-tipolodjie = Langue flexionnelle - Langue accentuelle
+* ISO 639-1	de
 
+* ISO 639-2	ger (B) / deu (T)
 
+* ISO 639-3	(en) deu
 
+* tipe : L (langue vivante)étindue : I (langue individuèle)
 
-ofichièle in	 [[Otriche]] , [[Bergike]] , [[Alemanne]] , [[Liechtenstein]] , [[Lussimbourq]] , Voïvodie d'Opole, [[Polonne]] , Ville de Sopron, [[Hongri]] , Suisse , Trentin-Haut-Adige, [[Italie]] , Namibie (langue co-ofichièle régionale) Union uropéïène , Vatican (langue ofichièle del Garde Suisse Pontificale)
-
-ISO 639-1	de
-
-ISO 639-2	ger (B) / deu (T)
-
-ISO 639-3	(en) deu
-
-tipe : L (langue vivante)étindue : I (langue individuèle)
-
-SIL	GER
+* SIL	GER
 
 
 langue ofichielle = 
@@ -39,7 +69,7 @@ langue ofichielle =
 ::* [[Fichier:POL województwo opolskie flag.svg|20px]] Voïvodie d'Opole, 
 ::* [[Polonne]]<br />
 ::* [[Fichier:Sopron wappen.JPG|20px]] Vile éd Sopron,
-::* [[Hongri]]<br />
+::* [[Hongrie]]<br />
 ::* [[Suisse]]<br />
 ::* [[Fichier:Flag of Trentino-South Tyrol.svg|20px]] Trentin-Heut-Adige, [[Italie]]<br />
 ::* Namibie (langue co-ofichielle régionale)<br />
@@ -73,13 +103,13 @@ L''''alemant''' ch’est une langue indo-uropéyène del branche occhidintale é
 
 ** L'alemant ch'est eune langue officielle in [[Alemanne]], in [[Otriche]], au [[Liechtenstein]], in [[Suisse]], au [[Lussimbourq]], in [[Bergike]] pi dins l'région [[italie]]nne du Tyrol du Sud;
 
-** Il est étou parlé, sans avoér ech éstatut d' langue offichielle au [[Danemark]], in [[République tchèque]] (Alemants in République tchèque pi Alemants des Sudètes), [[Slovaquie]] (Alemants des Carpates), [[Franche]] (Alsace pi Lorraine (Francique rhénan d' Lorraine)), [[Hongrie]], [[Polonne]], [[Russie]] (Alemants éd la Volga), [[Roumanie]] (Transylvanie/Banat, Saxons ed Transylvanie, Alemants d' Bucovine pi Alemants du Banat) ;
+** Il est étou parlé, sans avoér ech éstatut d' langue offichielle au [[Danemark]], in [[République tchèque]] (Alemants in République tchèque pi Alemants des Sudètes), [[Slovakie]] (Alemants des Carpates), [[Franche]] (Alsace pi Lorraine (Francique rhénan d' Lorraine)), [[Hongrie]], [[Polonne]], [[Russie]] (Alemants éd la Volga), [[Roumanie]] (Transylvanie/Banat, Saxons ed Transylvanie, Alemants d' Bucovine pi Alemants du Banat) ;
 
 
-* in [[Afrique]] : Namibie, Togo, [[Afrique du Sud]], Tanzanie ;
+* in [[Afrike]] : Namibie, Togo, [[Afrike du Sud]], Tanzanie ;
 
 
-* in [[Anmérique]] : Anmérique du Nord (souvent dins des variantes dialectales o bin arkaïques, par egzimpe in Pennsylvanie aux [[Étots-Unis]] dousque vit eune granne conmeunité amish ), Anmérique du Sud, (Paraguay, Chili, Argentine, [[Brésil]]).
+* in [[Anmérikes]] : Anmérike du Nord (souvent dins des variantes dialectales o bin arkaïques, par egzimpe in Pennsylvanie aux [[Étots-Unis]] dousque vit eune granne conmeunité amish ), Anmérike du Sud, (Paraguay, Chili, Argintine, [[Brésil]]).
 
 
 {| class="wikitable"
@@ -113,7 +143,7 @@ L''''alemant''' ch’est une langue indo-uropéyène del branche occhidintale é
 |[[Italie]]                   
 |align="right"|           300 000  || langue régionale
 |-
-|[[Argentine]]                
+|[[Argintine]]                
 |align="right"|           300 000  ||
 |-
 |[[Lussimbourq]]               
@@ -122,13 +152,13 @@ L''''alemant''' ch’est une langue indo-uropéyène del branche occhidintale é
 |[[Canada]]                    
 |align="right"|           250 000  ||
 |-
-|[[Chili]]                    
+|[[Chilie]]                    
 |align="right"|           200 000  ||
 |-
 |[[Polonne]]                  
 |align="right"|           190 000  ||
 |-
-|[[République tchèque]] pi [[Slovaquie]]
+|[[Républike tchèke]] pi [[Slovakie]]
 |align="right"|           150 000  ||
 |-
 |[[Ostralie]]
@@ -137,7 +167,7 @@ L''''alemant''' ch’est une langue indo-uropéyène del branche occhidintale é
 |[[Paraguay]]                 
 |align="right"|           150 000  ||
 |-
-|[[Hongri]]                  
+|[[Hongrie]]                  
 |align="right"|           145 000  ||
 |-
 |[[Kirghizstan]]               
@@ -153,19 +183,19 @@ L''''alemant''' ch’est une langue indo-uropéyène del branche occhidintale é
 |[[Bolivie]]                  
 |align="right"|            50 000  ||
 |-
-|[[Afrique du Sud]]           
+|[[Afrike du Sud]]           
 |align="right"|            45 000  ||
 |-
 |[[Ouzbékistan]]              
 |align="right"|            40 000  ||
 |-
-|[[Bos-Poéis]]                 
+|[[Bas-Païs]]                 
 |align="right"|            40 000  ||
 |-
-|[[Mexique]]                  
+|[[Mexike]]                  
 |align="right"|            40 000  ||
 |-
-|[[Ukraine]]                  
+|[[Oucrinne]]                  
 |align="right"|            38 000  ||
 |-
 |[[Équateur (poéis)|Équateur]]                 
@@ -186,16 +216,16 @@ L''''alemant''' ch’est une langue indo-uropéyène del branche occhidintale é
 |[[Slovénie]]                 
 |align="right"|            20 000  ||
 |-
-|[[Croatie]]                  
+|[[Croachie]]                  
 |align="right"|            11 000  ||
 |-
 |[[Belize]]                   
 |align="right"|            10 000  ||
 |-
-|[[République éd Moldavie|Moldavie]]                 
+|[[Moldavie]]                 
 |align="right"|             7 000  ||
 |-
-|[[Lettonie]]                 
+|[[Létonie]]                 
 |align="right"|             4 000  ||
 |-
 |[[Lituanie]]                 
@@ -335,8 +365,4 @@ Ch'est eune langue djermanique del branke ouest, conme ech [[nirlindé]].
 
 == Notes pi référinches ==
 <references/>
-
 [[Catégorie:Langue]]
-
-{{Link FA|an}}
-{{Link FA|la}}

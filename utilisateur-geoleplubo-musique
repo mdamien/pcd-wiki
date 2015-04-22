@@ -93,6 +93,38 @@
 | style="text-align:center;" | G7 || style="text-align:center;" | F7 || style="text-align:center;" | C7 || style="text-align:center;" | (G7)
 |}
 
+== Rythme ==
+
+<br />
+
+{| class="wikitable sortable" style="text-align:center;"
+|-
+! Code !! Nb notes !! Motif
+|- 
+| 0 || 0 || <score> \new RhythmicStaff { \stemDown r4 r4 r4 r4  \bar "|."} </score>
+|- 
+| 1 || 1 || <score> \new RhythmicStaff { \stemDown r4 r4 r4 r8 c8  \bar "|."} </score>
+|- 
+| 2 || 1 || <score> \new RhythmicStaff { \stemDown r4 r4 r4 c8 r8  \bar "|."} </score>
+|- 
+| 3 || 2 || <score> \new RhythmicStaff { \stemDown r4 r4 r4 c8 c8  \bar "|."} </score>
+|- 
+| 4 || 3 || <score> \new RhythmicStaff { \stemDown r4 r4 r4 \times 2/3{ c8 c c }  \bar "|."} </score>
+|-
+| ... || ... || ...
+|-
+| 621 || 10 || <score> \new RhythmicStaff { \stemDown \times 2/3{ c8 c c } \times 2/3{ c8 c c } \times 2/3{ c8 c c } r8 c8  \bar "|."} </score>
+|- 
+| 622 || 10 || <score> \new RhythmicStaff { \stemDown \times 2/3{ c8 c c } \times 2/3{ c8 c c } \times 2/3{ c8 c c } c8 r8  \bar "|."} </score>
+|- 
+| 623 || 11 || <score> \new RhythmicStaff { \stemDown \times 2/3{ c8 c c } \times 2/3{ c8 c c } \times 2/3{ c8 c c } c8 c8  \bar "|."} </score>
+|- 
+| 624 || 12 || <score> \new RhythmicStaff { \stemDown \times 2/3{ c8 c c } \times 2/3{ c8 c c } \times 2/3{ c8 c c } \times 2/3{ c8 c c }  \bar "|."} </score>
+|}
+
+<br />
+
+
 == Musique ==
 
 * '''modèle:Bémol''' <nowiki>{{Bémol|bémol}}</nowiki> donne {{Bémol|bémol}}  et  <nowiki>{{Bémol|doublebémol}}</nowiki> : {{Bémol|doublebémol}}

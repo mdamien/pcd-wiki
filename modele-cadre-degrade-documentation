@@ -1,0 +1,69 @@
+<noinclude><!--{{Documentation}}--></noinclude>
+
+== Paramètes ==
+* <code>id</code> : idintificateur (pour styles CSS, facultatif)
+* <code>titre</code> : tite du cadre (facultatif)
+* <code>image</code> : icône éd tite (facultatif, obligatoire si titre)
+* <code>couleur</code> : couleur du fond du tite (facultatif), bleu pèr défaut
+* <code>contenu</code> (obligatoère)
+
+== Couleurs possibes ==
+
+{| class="wikitable"
+
+| [[Fichier:Black-bg.svg]]
+| Black
+| [[Fichier:Blue-bg.svg]]
+| Blue
+|-
+| [[Fichier:Bright Red-bg.svg]]
+| Bright Red
+| [[Fichier:Dark Blue-bg.svg]]
+| Dark Blue
+|-
+| [[Fichier:Dark Green-bg.svg]]
+| Dark Green
+| [[Fichier:French Beige-bg.svg]]
+| French Beige
+|-
+| [[Fichier:Green-bg.svg]]
+| Green
+| [[Fichier:Grey-bg.svg]]
+| Grey
+|-
+| [[Fichier:Orange-bg.svg]]
+| Orange
+| [[Fichier:Pink-bg.svg]]
+| Pink
+|-
+| [[Fichier:Purple-bg.svg]]
+| Purple
+| [[Fichier:Red-bg.svg]]
+| Red
+|-
+| [[Fichier:Yellow-bg.svg]]
+| Yellow
+| [[Fichier:LGBT-bg.svg]]
+| LBGT
+|-
+| [[Fichier:Gryffindor-bg.svg]]
+| Gryffindor
+| [[Fichier:Hufflepuff-bg.svg]]
+| Hufflepuff
+|-
+| [[Fichier:Ravenclaw-bg.svg]]
+| Ravenclaw
+| [[Fichier:Slytherin-bg.svg]]
+| Slytherin
+|}
+
+== Egzimpes ==
+<code><nowiki>{{Cadre dégradé|titre=Egzimpe éd cadre|image=HSWVersity.svg|contenu=Hello world !}}</nowiki></code> cha donne :
+
+{{Cadre dégradé|titre=Egzimpe éd cadre|image=HSWVersity.svg|contenu=Hello world !}}
+
+<code><nowiki>{{Cadre dégradé|titre=Egzimpe éd cadre|image=HSWVersity.svg|couleur=Red|contenu=Hello world !}}</nowiki></code> cha donne :
+
+{{Cadre dégradé|titre=Egzimpe éd cadre|image=HSWVersity.svg|couleur=Red|contenu=Hello world !}}
+
+Vir [[commons:HS icons|HS icons]] pour plus d' logos.

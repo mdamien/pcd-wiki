@@ -551,7 +551,11 @@ __TOC__
 Coucou
 {{BUfin}}
 
-ch'est un egzimpe éd boète.
+{{Cadre dégradé
+| image   = Face-smile.svg
+| titre   = Bienvenue sur ma page utilisateur ! 
+| contenu =
+ch'est un egzimpe éd boète.  }}
 
 == Chés Icônes ==
 {{Boîte déroulante début|titre=Un petit icône vaut mieux qu'un long discours }}

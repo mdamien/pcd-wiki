@@ -19,6 +19,11 @@
 {{!}} {{{nom alias|}}}
 {{!-}}
 }}
+{{#if:{{{surnom|}}} |
+! scope=row {{!}} Surpitchet
+{{!}} {{{surnom |}}}
+{{!-}}
+}}
 {{#if:{{{nom naissance|}}} |
 ! scope=row {{!}} Nom 
 {{!}} {{{nom naissance|}}}
@@ -29,14 +34,24 @@
 {{!}} {{#if:{{{naissance|}}}|{{{naissance}}}<br/>|}}{{{naissance lieu|}}}
 {{!-}}
 }}
+{{#if:{{{date de naissance|}}}{{{lieu de naissance|}}} |
+! scope=row {{!}} Naissance 
+{{!}} {{#if:{{{date de naissance|}}}|{{{naissance}}}<br/>|}}{{{lieu de naissance|}}}
+{{!-}}
+}}
 {{#if:{{{pays origine|}}} |
-! scope=row {{!}} Pays&nbsp;d’origine 
+! scope=row {{!}} Poéys&nbsp;d’origine 
 {{!}} {{{pays origine|}}}
 {{!-}}
 }}
 {{#if:{{{décès|}}}{{{décès lieu|}}} |
-! scope=row {{!}} Décès 
+! scope=row {{!}} Défuncté 
 {{!}} {{#if:{{{décès|}}}|{{{décès}}}<br/>|}}{{{décès lieu|}}}
+{{!-}}
+}}
+{{#if:{{{date de décès|}}}{{{lieu de décès|}}} |
+! scope=row {{!}} Défuncté 
+{{!}} {{#if:{{{date de décès|}}}|{{{décès}}}<br/>|}}{{{lieu de décès|}}}
 {{!-}}
 }}
 {{#if:{{{profession|}}} |
@@ -45,7 +60,7 @@
 {{!-}}
 }}
 {{#if:{{{genre|}}} |
-! scope=row {{!}} Genres 
+! scope=row {{!}} Ginres 
 {{!}} {{{genre|}}}
 {{!-}}
 }}
@@ -55,12 +70,12 @@
 {{!-}}
 }}
 {{#if:{{{instrument|}}} |
-! scope=row {{!}} Instruments
+! scope=row {{!}} Instrumints
 {{!}} {{{instrument|}}}
 {{!-}}
 }}
 {{#if:{{{années actives|}}} |
-! scope=row {{!}} Années&nbsp;actives
+! scope=row {{!}} Innées&nbsp;actives
 {{!}} {{{années actives|}}}
 {{!-}}
 }}
@@ -70,12 +85,12 @@
 {{!-}}
 }}
 {{#if:{{{influences|}}} |
-! scope=row {{!}} Influences
+! scope=row {{!}} Influinches
 {{!}} {{{influences|}}}
 {{!-}}
 }}
 {{#if:{{{site officiel|{{{site web|}}}}}} |
-! scope=row {{!}} Site Web
+! scope=row {{!}} Site Intarnète
 {{!}} {{{site officiel|{{{site web|}}}}}}
 {{!-}}
 }}
@@ -84,17 +99,17 @@
 {{!-}}
 }}
 {{#if:{{{membres actuels|}}} |
-! scope=row {{!}} Membres
+! scope=row {{!}} Mimbes
 {{!}} {{{membres actuels|}}}
 {{!-}}
 }}
 {{#if:{{{ex membres|}}} |
-! scope=row {{!}} Anciens&nbsp;membres
+! scope=row {{!}} Anchiens&nbsp;mimbes
 {{!}} {{{ex membres|}}}
 {{!-}}
 }}
 {{#if:{{{entourage|}}} |
-! scope=row {{!}} Entourage
+! scope=row {{!}} Intourage
 {{!}} {{{entourage|}}}
 {{!-}}
 }}

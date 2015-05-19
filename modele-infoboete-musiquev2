@@ -3,7 +3,8 @@
 | colspan="2" class="entete musique" style="background-color:#{{Infobox Musique (artiste)/Charte couleurs|{{{charte}}}}}; height:45px; text-align:center; font-size:150%; font-weight:bolder" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
 |-
 {{#if:{{{image|}}} | 
-{{!}} colspan="2" style="text-align:center;" {{!}} {{{image}}}
+{{!}} colspan="2" style="text-align:center;" {{!}} [[image:{{{image}}}|200px]]<!--
+{{!}} colspan="2" style="text-align:center;" {{!}} {{{image}}}-->
 {{!-}}
 }}
 {{#if:{{{légende|}}} |
@@ -36,7 +37,7 @@
 }}
 {{#if:{{{date de naissance|}}}{{{lieu de naissance|}}} |
 ! scope=row {{!}} Naissance 
-{{!}} {{#if:{{{date de naissance|}}}|{{{naissance}}}<br/>|}}{{{lieu de naissance|}}}
+{{!}} {{#if:{{{date de naissance|}}}|{{{date de naissance}}}<br/>|}}{{{lieu de naissance|}}}
 {{!-}}
 }}
 {{#if:{{{pays origine|}}} |
@@ -51,7 +52,7 @@
 }}
 {{#if:{{{date de décès|}}}{{{lieu de décès|}}} |
 ! scope=row {{!}} Défuncté 
-{{!}} {{#if:{{{date de décès|}}}|{{{décès}}}<br/>|}}{{{lieu de décès|}}}
+{{!}} {{#if:{{{date de décès|}}}|{{{date de décès}}}<br/>|}}{{{lieu de décès|}}}
 {{!-}}
 }}
 {{#if:{{{profession|}}} |

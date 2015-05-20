@@ -59,6 +59,11 @@
 {{!}} {{{profession|}}}
 {{!-}}
 }}
+{{#if:{{{équipe|}}} |
+! scope=row {{!}} étchipe
+{{!}} {{{équipe|}}}
+{{!-}}
+}}
 {{#if:{{{activité principale|}}} |
 ! scope=row {{!}} Activité princhipale
 {{!}} {{{activité principale|}}}

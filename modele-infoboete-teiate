@@ -1,0 +1,87 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre|''{{{titre|{{PAGENAME}}}}}''{{#if:{{{titre autre|}}}|<br />{{Grossir|''{{{titre autre|}}}''|facteur=0.8}}}}|B03030|entete persofiction}}
+{{Infobox/Image|{{{image|}}}|{{{légende|}}}||{{{légende|Illustration.}}}|||Pièce de théâtre}}
+{{Infobox/Séparateur optionnel|{{{image|}}}|B03030}}<!--
+
+GÉNÉRALITÉS
+
+-->
+{{Infobox/Ligne mixte optionnelle|Auteu|{{{auteur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Ginre|{{{genre|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nb. d'akes|{{{actes|}}}}}
+{{Infobox/Ligne mixte optionnelle|Durée approximative|{{{durée|}}}}}
+{{Infobox/Ligne mixte optionnelle|Dates d'écrivure|{{{dates écriture|}}}}}
+{{Infobox/Ligne mixte optionnelle|Sources|{{{sources|}}}}}
+{{Infobox/Ligne mixte optionnelle|Musique d' scène|{{{musique de scène|}}}}}
+{{Infobox/Ligne mixte optionnelle|Suite orkestrale|{{{suite orchestrale|}}}}}<!--
+
+VERSION ORIGINALE AUTRE QU'EN FRANÇAIS
+
+-->{{Infobox/Sous-titre optionnel|Version originale|{{{langue originale|}}}|B03030|FFFFFF}}
+{{Infobox/Ligne mixte optionnelle|Tite original|{{{titre original|}}}|''{{{titre original}}}''}}
+{{Infobox/Ligne mixte optionnelle|Langue originale|{{{langue originale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Poéyis d'origine|{{{pays d'origine|}}}}}
+{{Infobox/Ligne mixte optionnelle|Éditeu original|{{{éditeur original|}}}}}
+{{Infobox/Ligne mixte optionnelle|Liu d' parucion originale|{{{lieu parution originale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date d' parucion originale|{{{date parution originale|}}}}}
+{{Infobox/Ligne mixte optionnelle|ISBN|{{{isbn original|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date deul 1<sup>re</sup> arprésintacion|{{{date première originale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Liu deul 1<sup>re</sup> arprésintacion|{{{théatre première originale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Compagnie téïâtrale|{{{compagnie première originale|}}}}}
+{{Infobox/Ligne mixte optionnelle|Metteu in scène|{{{metteur en scène original|}}}}}
+{{Infobox/Ligne mixte optionnelle|Scénografe|{{{scénographe original|}}}}}
+{{Infobox/Ligne mixte optionnelle|Rôle princhipal|{{{rôle principal original|}}}}}<!--
+
+VERSION FRANÇAISE
+
+-->{{Infobox/Sous-titre optionnel|Version franchoaise|{{{traducteur|}}}|B03030|FFFFFF}}
+{{Infobox/Ligne mixte optionnelle|Traducteu|{{{traducteur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Liu d' parucion|{{{lieu parution|}}}}}
+{{Infobox/Ligne mixte optionnelle|Éditeu|{{{éditeur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Collekcion|{{{collection|}}}}}
+{{Infobox/Ligne mixte optionnelle|Préface|{{{préface|}}}}}
+{{Infobox/Ligne mixte optionnelle|Directeu d' publicacion|{{{directeur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date ed parucion|{{{date parution|}}}}}
+{{Infobox/Ligne mixte optionnelle|Illustrateu|{{{illustrateur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Illustracion couverture|{{{illustrateur couverture|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nombe d' paches|{{{pages|}}}}}
+{{Infobox/Ligne mixte optionnelle|ISBN|{{{isbn|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date deul 1<sup>re</sup> arprésintacion in frinsé|{{{date première|}}}}}
+{{Infobox/Ligne mixte optionnelle|Liu deul 1<sup>re</sup> arprésintacion in frinsé|{{{théatre première|}}}}}
+{{Infobox/Ligne mixte optionnelle|Compagnie téïatrale|{{{compagnie première|}}}}}
+{{Infobox/Ligne mixte optionnelle|Metteu in scène|{{{metteur en scène|}}}}}
+{{Infobox/Ligne mixte optionnelle|Scénografe|{{{scénographe|}}}}}
+{{Infobox/Ligne mixte optionnelle|Rôle princhipal|{{{rôle principal|}}}}}
+{{Infobox/Ligne mixte optionnelle|Inrégistrémint|{{{type support enregistrement|}}}}}<!--
+
+REPRÉSENTATIONS NOTABLES
+
+-->{{Infobox/Sous-titre optionnel|Arprésintacions notabes|{{{représentations notables|}}}|B03030|FFFFFF}}
+{{Infobox/Ligne optionnelle|{{{représentations notables|}}}|<small>{{{représentations notables|}}}</small>|left}}<!--
+
+PERSONNAGES PRINCIPAUX
+
+-->{{Infobox/Sous-titre optionnel|Parsonnaches principals|{{{personnages|}}}|B03030|FFFFFF}}
+{{Infobox/Ligne optionnelle|{{{personnages|}}}|<small>{{{personnages|}}}</small>|left}}<!--
+
+LIEUX DE L'ACTION
+
+-->{{Infobox/Sous-titre optionnel|Lius éd l'akcion|{{{lieux de l'action|}}}|B03030|FFFFFF}}
+{{Infobox/Ligne optionnelle|{{{lieux de l'action|}}}|<small>{{{lieux de l'action|}}}</small>|left}}<!--
+
+TIRADES
+
+-->{{Infobox/Sous-titre optionnel|Incipit des tirades célèbes|{{{tirades|}}}|B03030|FFFFFF}}
+{{Infobox/Ligne optionnelle|{{{tirades|}}}|<small>{{{tirades|}}}</small>|left}}<!--
+
+ADAPTATIONS
+
+-->{{Infobox/Sous-titre optionnel|Adaptacions|{{{adaptations|}}}|B03030|FFFFFF}}
+{{Infobox/Ligne optionnelle|{{{adaptations|}}}|<small>{{{adaptations|}}}</small>|left}}<!--
+
+ADAPTATIONS
+
+-->{{Infobox/Sous-titre optionnel|Notes|{{{notes|}}}|B03030|FFFFFF}}
+{{Infobox/Ligne optionnelle|{{{notes|}}}|<small>{{{notes|}}}</small>|left}}
+{{Infobox/Notice|Infobox Pièce de théâtre|B03030}}
+{{Infobox/Fin}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

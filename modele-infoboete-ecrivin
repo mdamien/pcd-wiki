@@ -20,7 +20,9 @@
 
 {{Infobox V3/Tableau Ligne mixte|width=9|Eutes noms|{{{nom alias|}}}}}
 
-{{Infobox V3/Tableau Ligne mixte|width=9|Activités|{{{activité|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Surpitchets|{{{surnom|}}}}} 
+
+{{Infobox V3/Tableau Ligne mixte|width=9|Activités|{{{activités|}}}}}
 
 <!--{{#if:{{{date de naissance|}}} |
 {{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{date de naissance}}}</div>
@@ -28,7 +30,7 @@
 }}-->{{Infobox V3/Tableau Ligne mixte|width=9|Né(e)|{{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|{{#if:{{{date de naissance|}}}|<br />}}{{{lieu de naissance|}}}}}|if={{{date de naissance|}}}{{{lieu de naissance|}}}}}
 
 <!--{{#if:{{{date de décès|}}} |-->
-{{Infobox V3/Tableau Ligne mixte|width=9|Décès|{{{date de décès|}}}{{#if:{{{lieu de décès|}}}|{{#if:{{{date de décès|}}}|<br />}}{{{lieu de décès|}}}}}|if={{{date de décès|}}}{{{lieu de décès|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Défuncté|{{{date de décès|}}}{{#if:{{{lieu de décès|}}}|{{#if:{{{date de décès|}}}|<br />}}{{{lieu de décès|}}}}}|if={{{date de décès|}}}{{{lieu de décès|}}}}}
 
 {{Infobox V3/Tableau Ligne mixte|width=9|Langue d'chés lifes|{{{langue|}}}}}
 
@@ -36,19 +38,24 @@
 
 {{Infobox V3/Tableau Ligne mixte|width=9|Ginres|{{{genre|}}}}}
 
-{{Infobox V3/Tableau Ligne mixte|width=9|Distinctions|{{{distinctions|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Distinkcions|{{{distinctions|}}}}}
 
 {{Infobox V3/Tableau Ligne mixte|width=9|Adjectifs dérivés|{{{adjectifs dérivés|}}}}}
 
 <!--{{#if:{{{œuvre|}}} |
 {{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{œuvre}}}</div>
 {{!-}}
-}}-->{{Infobox V3/Tableau Ligne mixte|width=9|écrits|{{{œuvre|}}}}}
+}}-->{{Infobox V3/Tableau Ligne mixte|width=9|écrivures|{{{œuvre|}}}}}
+
+<!--{{#if:{{{œuvres principales|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{œuvre}}}</div>
+{{!-}}
+}}-->{{Infobox V3/Tableau Ligne mixte|width=9|écrivures|{{{œuvres principales|}}}}}
 
 <!--{{#if:{{{complément|}}}|
 {{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{complément}}}</div>
 {{!-}}
-}}-->{{Infobox V3/Tableau Ligne mixte|width=9|+|{{{complément|}}}}}
+}}-->{{Infobox V3/Tableau Ligne mixte|width=9|eutes|{{{complément|}}}}}
 
 <!--{{#if:{{{signature|}}}| 
 {{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{signature}}}</div>

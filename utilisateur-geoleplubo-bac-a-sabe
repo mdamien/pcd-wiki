@@ -136,6 +136,25 @@ texte azerty
 
 == color ==
 * '''[https://fr.wikipedia.org/wiki/Liste_de_couleurs codes couleurs]'''
+* [https://fr.wikipedia.org/wiki/Aide:Couleurs Aide:Couleurs]
+* [https://fr.wikipedia.org/wiki/Aide:Couleurs/table_d%C3%A9taill%C3%A9e Aide:Couleurs/table détaillée]
+
+* Exemple: <code><nowiki>{{Coloré|#9966CC|chaussette}}</nowiki></code> donne {{Coloré|#9966CC|chaussette}}
+Avec des balises "span"
+*Exemple: <code><nowiki><span style="color:#9966CC">chaussette</span></nowiki></code> donne <span style="color:#9966CC">chaussette</span>
+
+*<code><nowiki><span style="color:red">texte rouge</span></nowiki></code> donne <span style="color:red">texte rouge</span>
+*<code><nowiki><span style="color:green">texte vert</span></nowiki></code> donne <span style="color:green">texte vert</span>
+*<code><nowiki><span style="color:blue">texte bleu</span></nowiki></code> donne <span style="color:blue">texte bleu</span>
+::15px
+* <nowiki>('''<span style="color:red;"><span style="font-size:15px;;">?</span></span>''')</nowiki> ('''<span style="color:red;"><span style="font-size:15px;;">?</span></span>''')
+::45px
+* <nowiki>('''<span style="color:red;"><span style="font-size:45px;;">?</span></span>''')</nowiki> ('''<span style="color:red;"><span style="font-size:45px;;">?</span></span>''')
+
+
+
+xxxxxxxxxxxxxxxxxxxx
+
 
 {|class="wikitable sortable"
 ! scope="col" width="160" align="center" | Nom de couleur
@@ -155,15 +174,7 @@ texte azerty
 |}
 
 *<nowiki> {{legend|#00ff00| '''''Étindu dech Picard''''' }}</nowiki>  {{legend|#00ff00| '''''Étindu dech Picard''''' }}
-*<code><nowiki><span style="color:red">texte rouge</span></nowiki></code> donne <span style="color:red">texte rouge</span>
-*<code><nowiki><span style="color:green">texte vert</span></nowiki></code> donne <span style="color:green">texte vert</span>
-*<code><nowiki><span style="color:blue">texte bleu</span></nowiki></code> donne <span style="color:blue">texte bleu</span>
-::15px
-* <nowiki>('''<span style="color:red;"><span style="font-size:15px;;">?</span></span>''')</nowiki> ('''<span style="color:red;"><span style="font-size:15px;;">?</span></span>''')
-::45px
-* <nowiki>('''<span style="color:red;"><span style="font-size:45px;;">?</span></span>''')</nowiki> ('''<span style="color:red;"><span style="font-size:45px;;">?</span></span>''')
 
-xxxxxxxxxxxxxxxxxxxx
 {{DISPLAYTITLE:<span style="color: #008000; font: bold 30px 'Comic Sans MS';">Coucou</span>}}
 <table style="float: right; margin-left: 1em; margin-bottom: 0.5em; width: 242px; border: black solid 2px; background-color:white; font-family:Comic Sans MS">
 <tr><td>{{#babel:en-N|bn-N|hi-1}}</tr></td>

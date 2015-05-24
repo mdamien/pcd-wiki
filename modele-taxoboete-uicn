@@ -3,7 +3,7 @@
 {{Infobox V3/Titre Bloc|text=Éstatut d' consérvacion UICN}}
 <p class="center">{{#ifeq:{{{1}}}|DD||[[Image:Status iucn{{#ifeq:{{{1}}}|CD|2.3|3.1}} {{#ifeq:{{{1}}}|jamais|blank|{{{1}}}}}-fr.svg|alt=({{{1}}})|link=|244px]]<br />}}
 '''{{{1}}}'''{{#if:{{{2|}}}| {{{2}}}}}&nbsp;: {{#ifeq:{{{1}}}|CR|<br/>| }}'''{{UICN {{{1}}}}}'''{{#if: {{{3|}}}|<br/>''{{{3}}}''}}</p>
-[[Catégorie:Statut UICN {{UICN {{{1}}}|court}}]]
+<!--[[Catégorie:Statut UICN {{UICN {{{1}}}|court}}]]-->
 <noinclude>
 <!--{{Documentation}}-->
 [[Catégorie:Modèle]]</noinclude>

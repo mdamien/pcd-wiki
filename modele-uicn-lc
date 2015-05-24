@@ -1,0 +1,13 @@
+{{#ifeq:{{{1}}}|court|Préoccupation mineure|Préotchupacion&nbsp;mineure}}<noinclude>
+<!--La version courte est là pour créer la catégorie 'Statut UICN Préoccupation mineure' sans caractère spécial-->
+{{Documentation|contenu=
+
+== Vir étou ==
+*{{m|UICN}} pour el pache complète UICN éd l'espèche.
+:* {{m|UICN EX}}, {{m|UICN PEW}}, {{m|UICN PE}}, {{m|UICN NE}}, {{m|UICN DD}}, {{m|UICN EW}}
+:: {{m|UICN CR}}, {{m|UICN EN}}, {{m|UICN VU}}
+:: {{m|UICN CD}}, {{m|UICN NT}}), {{m|UICN LC}}) pour décrire un niveau de risque [[UICN]].
+:* {{m|Taxobox UICN}} pour avoèr dins eune taxoboète ch' risque d'éstinkcion ed l'éspèche d'apré ch' site Union internationale pour la conservation de la nature (UICN)
+}}<!-- fin contenu -->
+[[Catégorie:Modèle]]
+</noinclude>

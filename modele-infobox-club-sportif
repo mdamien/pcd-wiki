@@ -1,4 +1,8 @@
-<includeonly>{{Infobox V3/Début
+{{nobots}}
+<includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete cinema" style="background-color:rgb(23,165,165);" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+|-
+<!--<includeonly>{{Infobox V3/Début
   |icon={{ #switch: {{lcfirst:{{{charte}}}}}
 | aikido | judo  = artsmartiauxjap
 | athlétisme = athletisme
@@ -34,7 +38,7 @@
   |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
   |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
   |text= {{#if: {{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
-  |width=28
+  |width=28-->
 }}<!--
 IMAGE  -->{{Infobox V3/Image
   |image= {{{logo|}}}
@@ -121,7 +125,7 @@ GENERALITES  -->{{Infobox V3/Tableau début
   |Site web|{{#if: {{{site web|}}} |<span class="plainlinks">{{{site web|}}}</span>|}}
 }}
 }}{{Infobox V3/Tableau fin}}<!--
-PALMARÈS  -->{{#if: {{{palmarès national|}}} {{{palmarès international|}}} {{{complément|}}}
+PALMARÈS  {{#if: {{{palmarès national|}}} {{{palmarès international|}}} {{{complément|}}}
 |{{Infobox V3/Tableau début
   |text=Palmarès principal
   |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
@@ -135,9 +139,9 @@ PALMARÈS  -->{{#if: {{{palmarès national|}}} {{{palmarès international|}}} {{
 }}
 {{#if: {{{complément|}}}|
 {{{complément|}}}
-}}
-}}{{Infobox V3/Tableau fin}}}}<!--
-MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}{{{corps1|}}}
+}}-->
+}}<!--{{Infobox V3/Tableau fin}}}}--><!--
+MAILLOTS  --><!--{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}{{{corps1|}}}
 |{{Infobox V3/Titre Bloc
   |text={{{titre maillots|Maillots}}}
   |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
@@ -247,8 +251,8 @@ MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{s
   socks      = {{{socks3|}}} |
   title      = {{#if:{{{titre3|}}}|{{{titre3}}}|Autre}}
 }}}}}}
-|}<!--
-NEWS  -->{{#if: {{{actualité|}}} |{{Infobox V3/Titre Bloc
+|}--> <!--
+NEWS  {{#if: {{{actualité|}}} |{{Infobox V3/Titre Bloc
   |text=Actualités
   |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
   |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}} }}
@@ -275,4 +279,8 @@ NEWS  -->{{#if: {{{actualité|}}} |{{Infobox V3/Titre Bloc
 | water polo = [[Image:Water polo current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
 }} Pour la saison en cours, voir :<br /> '''''[[{{{actualité}}}]]'''''<br />{{0}}</center>
 }}{{#if: {{{maj|}}}|
-<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V3/Fin|Modèle:{{#if:{{{modèle|}}}|{{{modèle}}}|Infobox Club sportif}}|class=bordered|border-color=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }} |border-width=2}}</includeonly><noinclude> </noinclude>
+<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V3/Fin|Modèle:{{#if:{{{modèle|}}}|{{{modèle}}}|Infobox Club sportif}}|class=bordered|border-color=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }} |border-width=2}}-->  </includeonly><noinclude> </noinclude>
+|}
+</includeonly><noinclude>
+__NOTOC__
+</noinclude>

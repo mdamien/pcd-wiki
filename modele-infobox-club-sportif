@@ -1,0 +1,278 @@
+<includeonly>{{Infobox V3/Début
+  |icon={{ #switch: {{lcfirst:{{{charte}}}}}
+| aikido | judo  = artsmartiauxjap
+| athlétisme = athletisme
+| aviron = aviron
+| baseball = baseball
+| basket-ball = basket-ball
+| canoë-kayak = kayak
+| catch = catch
+| cyclisme = cyclisme
+| escrime = escrime
+| floorball = floorball
+| football = {{#if: {{{personnage blanc|}}}{{{Personnage blanc|}}} | football | footballblack }}
+| futsal = futsal
+| gymnastique = gymnastique
+| handball = handball
+| hockey = hockey
+| hockey sur gazon | hockey-sur-gazon = hockey-sur-gazon
+| karaté = karate
+| natation = natation
+| omnisports = omnisports
+| pingpong | ping pong | tennis de table | tennis-de-table = {{#if: {{{personnage blanc|}}}{{{Personnage blanc|}}} | tennis-de-table | tennis-de-tableblack }}
+| rugby | rugby à XIII | rugby à XV = {{#if: {{{personnage blanc|}}}{{{Personnage blanc|}}} | rugby | rugbyblack }}
+| sport-automobile = sport-automobile
+| rink hockey = rinkhockey
+| tennis = tennis
+| tir sportif = tir sportif
+| ultimate = ultimate
+| volley-ball = volleyball
+| water polo = water-polo
+| autre =
+| sport = sport
+}}
+  |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
+  |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
+  |text= {{#if: {{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
+  |width=28
+}}<!--
+IMAGE  -->{{Infobox V3/Image
+  |image= {{{logo|}}}
+  |upright= {{#if: {{{upright logo|}}} | {{{upright logo|}}} |0.6}}
+  |légende= {{{légende logo|}}}
+  |alt= Logo du {{{nom|{{PAGENAME}}}}}
+}}<!--
+GENERALITES  -->{{Infobox V3/Tableau début
+  |text=Généralités
+  |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
+  |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
+}}{{trim|
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Nom complet| {{{nom complet|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Surpitchets | ''{{{surnoms|}}}'' |if={{{surnoms|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Noms précédints| {{{noms précédents|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Slogan | ''{{{slogan|}}}'' |if={{{slogan|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Mascotte | {{{mascotte|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Fondacion| {{{date de fondation|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Disparicion| {{{date de disparition|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |[[Sport professionnel|Statut professionnel]]| {{{statut professionnel|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Couleurs| {{{couleurs|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |{{#if: {{{nom équipement sportif|}}} | {{{nom équipement sportif|}}} | {{#switch: {{lcfirst:{{{charte}}}}} | pingpong = Salle| Stade}}}}
+  | {{{équipement sportif|}}} {{#if: {{{capacité|}}} |<br />({{{capacité|}}} places) |}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Siège| {{{siège|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Campionnat actuèl| {{{championnat actuel|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Propriétaire| {{{propriétaire|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Présidint| {{{président|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Manager| {{{manager|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  | {{{titre entraîneur|[[Entraîneur]]}}} | {{{entraîneur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  | Capitaine| {{{capitaine|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Joueu l' pus capé| {{{joueur le plus capé|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Meilleur buteu| {{{meilleur buteur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  | {{{nom divers|}}} | {{{divers|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  | {{{nom divers2|}}} | {{{divers2|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  | {{{nom divers3|}}} | {{{divers3|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  | {{{nom divers4|}}} | {{{divers4|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |Site web|{{#if: {{{site web|}}} |<span class="plainlinks">{{{site web|}}}</span>|}}
+}}
+}}{{Infobox V3/Tableau fin}}<!--
+PALMARÈS  -->{{#if: {{{palmarès national|}}} {{{palmarès international|}}} {{{complément|}}}
+|{{Infobox V3/Tableau début
+  |text=Palmarès principal
+  |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
+  |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
+}}{{trim|
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |{{#if: {{{note|}}} | National<ref name=palmares group="Note">Seuls les principaux titres en compétitions officielles sont indiqués ici.</ref> | {{#if: {{{note (minuscule)|}}} | National<ref name=palmares group="note">Seuls les principaux titres en compétitions officielles sont indiqués ici.</ref> | National<ref name=palmares>Seuls les principaux titres en compétitions officielles sont indiqués ici.</ref>}} }}| {{{palmarès national|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10
+  |{{#if: {{{note|}}} | International<ref name=palmares group="Note">Seuls les principaux titres en compétitions officielles sont indiqués ici.</ref> | {{#if: {{{note (minuscule)|}}} | International<ref name=palmares group="note">Seuls les principaux titres en compétitions officielles sont indiqués ici.</ref> | International<ref name=palmares>Seuls les principaux titres en compétitions officielles sont indiqués ici.</ref>}} }}| {{{palmarès international|}}}
+}}
+{{#if: {{{complément|}}}|
+{{{complément|}}}
+}}
+}}{{Infobox V3/Tableau fin}}}}<!--
+MAILLOTS  -->{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}{{{corps1|}}}
+|{{Infobox V3/Titre Bloc
+  |text={{{titre maillots|Maillots}}}
+  |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
+  |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
+}}}}
+{| style="background-color:#FFFFFF; border:1px solid #999;font-size:90%;"
+|-
+{{#if: {{{pattern_b1|}}}{{{body1|}}}{{{corps1|}}}|{{!}}{{#switch: {{lcfirst:{{{charte}}}}}
+ | baseball = {{Uniforme de baseball
+  | casquette     = {{{casquette1|}}}
+  | pattern cas   = {{{pattern cas1|}}}
+  | bras gauche   = {{{bras gauche1|}}}
+  | pattern bg    = {{{pattern bg1|}}}
+  | corps         = {{{corps1|}}}
+  | bras droit    = {{{bras droit1|}}}
+  | pattern bd    = {{{pattern bd1|}}}
+  | pantalon      = {{{pantalon1|}}}
+  | pattern pant  = {{{pattern pant1|}}}
+  | chaussures    = {{{chaussures1|}}}
+  | titre         = {{#if:{{{titre1|}}}|{{{titre1}}}|}}
+ }}
+ | basket-ball | aviron | gymnastique = {{Basket-ball kit
+  | pattern_b  = {{{pattern_b1|_unknown}}}
+  | pattern_s  = {{{pattern_s1|}}}
+  | body       = {{{body1|}}}
+  | shorts     = {{{shorts1|}}}
+  | title      = {{#if:{{{titre1|}}}|{{{titre1}}}|Domicile}}
+ }}
+ | {{Football kit |
+  pattern_la = {{{pattern_la1|}}} |
+  pattern_b  = {{{pattern_b1|}}} |
+  pattern_ra = {{{pattern_ra1|}}} |
+  pattern_sh = {{{pattern_sh1|}}} |
+  pattern_so = {{{pattern_so1|}}} |
+  leftarm    = {{{leftarm1|}}} |
+  body       = {{{body1|}}} |
+  rightarm   = {{{rightarm1|}}} |
+  shorts     = {{{shorts1|}}} |
+  socks      = {{{socks1|}}} |
+  title      = {{#if:{{{titre1|}}}|{{{titre1}}}|Domicile}}
+}}}}}}
+{{#if: {{{pattern_b2|}}}{{{body2|}}}{{{corps2|}}}|{{!}}{{#switch: {{lcfirst:{{{charte}}}}}
+ | baseball = {{Uniforme de baseball
+  | casquette     = {{{casquette2|}}}
+  | pattern cas   = {{{pattern cas2|}}}
+  | bras gauche   = {{{bras gauche2|}}}
+  | pattern bg    = {{{pattern bg2|}}}
+  | corps         = {{{corps2|}}}
+  | bras droit    = {{{bras droit2|}}}
+  | pattern bd    = {{{pattern bd2|}}}
+  | pantalon      = {{{pantalon2|}}}
+  | pattern pant  = {{{pattern pant2|}}}
+  | chaussures    = {{{chaussures2|}}}
+  | titre         = {{#if:{{{titre2|}}}|{{{titre2}}}|}}
+ }}
+ | basket-ball | aviron | gymnastique = {{Basket-ball kit
+  | pattern_b  = {{{pattern_b2|_unknown}}}
+  | pattern_s  = {{{pattern_s2|}}}
+  | body       = {{{body2|}}}
+  | shorts     = {{{shorts2|}}}
+  | title      = {{#if:{{{titre2|}}}|{{{titre2}}}|Extérieur}}
+ }}
+ | {{Football kit |
+  pattern_la = {{{pattern_la2|}}} |
+  pattern_b  = {{{pattern_b2|}}} |
+  pattern_ra = {{{pattern_ra2|}}} |
+  pattern_sh = {{{pattern_sh2|}}} |
+  pattern_so = {{{pattern_so2|}}} |
+  leftarm    = {{{leftarm2|}}} |
+  body       = {{{body2|}}} |
+  rightarm   = {{{rightarm2|}}} |
+  shorts     = {{{shorts2|}}} |
+  socks      = {{{socks2|}}} |
+  title      = {{#if:{{{titre2|}}}|{{{titre2}}}|Extérieur}}
+}}}}}}
+{{#if: {{{pattern_b3|}}}{{{body3|}}}{{{corps3|}}}|{{!}}{{#switch: {{lcfirst:{{{charte}}}}}
+ | baseball = {{Uniforme de baseball
+  | casquette     = {{{casquette3|}}}
+  | pattern cas   = {{{pattern cas3|}}}
+  | bras gauche   = {{{bras gauche3|}}}
+  | pattern bg    = {{{pattern bg3|}}}
+  | corps         = {{{corps3|}}}
+  | bras droit    = {{{bras droit3|}}}
+  | pattern bd    = {{{pattern bd3|}}}
+  | pantalon      = {{{pantalon3|}}}
+  | pattern pant  = {{{pattern pant3|}}}
+  | chaussures    = {{{chaussures3|}}}
+  | titre         = {{#if:{{{titre3|}}}|{{{titre3}}}|}}
+ }}
+ | basket-ball | aviron | gymnastique = {{Basket-ball kit
+  | pattern_b  = {{{pattern_b3|_unknown}}}
+  | pattern_s  = {{{pattern_s3|}}}
+  | body       = {{{body3|}}}
+  | shorts     = {{{shorts3|}}}
+  | title      = {{#if:{{{titre3|}}}|{{{titre3}}}|Autre}}
+ }}
+ | {{Football kit |
+  pattern_la = {{{pattern_la3|}}} |
+  pattern_b  = {{{pattern_b3|}}} |
+  pattern_ra = {{{pattern_ra3|}}} |
+  pattern_sh = {{{pattern_sh3|}}} |
+  pattern_so = {{{pattern_so3|}}} |
+  leftarm    = {{{leftarm3|}}} |
+  body       = {{{body3|}}} |
+  rightarm   = {{{rightarm3|}}} |
+  shorts     = {{{shorts3|}}} |
+  socks      = {{{socks3|}}} |
+  title      = {{#if:{{{titre3|}}}|{{{titre3}}}|Autre}}
+}}}}}}
+|}<!--
+NEWS  -->{{#if: {{{actualité|}}} |{{Infobox V3/Titre Bloc
+  |text=Actualités
+  |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
+  |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}} }}
+<center>{{ #switch: {{lcfirst:{{{charte}}}}}
+| aikido | aviron | canoë-kayak | catch | futsal | judo | karaté | sport-automobile | autre | omnisports | sport = 
+| athlétisme = [[Image:Athletics current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| baseball = [[Image:Sports current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| basket-ball = [[Image:Basketball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| cyclisme = [[Image:Cycling current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| escrime = [[Image:Fencing current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| floorball = [[Image:Floorball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| football = [[Image:Soccerball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| gymnastique = [[Image:Gymnastics current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| handball = [[Image:Handball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| hockey = [[Image:Hockey current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| hockey sur gazon | hockey-sur-gazon = [[Image:Field hockey current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| natation = [[Image:Swimming current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| pingpong | ping pong | tennis de table | tennis-de-table = [[Image:TableTennis current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| rink hockey = [[Image:Roller hockey current event.png{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| rugby | rugby à XIII | rugby à XV = [[Image:Rugby current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| tennis = [[Image:Tennisball current event.png{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| tir sportif = [[Image:Shooting pictogram.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| volley-ball = [[Image:Volleyball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+| water polo = [[Image:Water polo current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
+}} Pour la saison en cours, voir :<br /> '''''[[{{{actualité}}}]]'''''<br />{{0}}</center>
+}}{{#if: {{{maj|}}}|
+<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V3/Fin|Modèle:{{#if:{{{modèle|}}}|{{{modèle}}}|Infobox Club sportif}}|class=bordered|border-color=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }} |border-width=2}}</includeonly><noinclude> </noinclude>

@@ -26,7 +26,3 @@
 <references/>
 
 [[Catégorie:Insecques]]
-
-{{Link GA|de}}
-{{Link GA|fy}}
-{{Link GA|ja}}

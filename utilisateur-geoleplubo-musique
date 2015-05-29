@@ -354,6 +354,118 @@ efe edB | d2d def | gfe edB |1 dBA ABd :|2 dBA AFD |]
 </score>
 
 
+=== Portées multiples ===
+
+'''Source'''
+
+http://www.lilypond.org/doc/v2.18/Documentation/notation/common-notation-for-keyboards
+
+
+Il y a deux façons de faire :
+
+{{colonnes|nombre=2|
+
+'''Code 1'''
+
+<pre>
+<score vorbis="1">
+{
+
+<<
+\new Staff {
+\clef treble
+< e' c'' >1
+}
+
+\new Staff {
+\clef bass
+< c g >1
+}
+>>
+
+\bar "|."
+}
+</score>
+</pre>
+
+
+'''Résultat 1'''
+
+<score vorbis="1">
+{
+
+<<
+\new Staff {
+\clef treble
+< e' c'' >1
+}
+
+\new Staff {
+\clef bass
+< c g >1
+}
+>>
+
+\bar "|."
+}
+</score>
+
+
+'''Code 2'''
+
+<pre>
+<score vorbis="1">
+{
+\new PianoStaff
+<<
+
+\new Staff = "up" {
+\clef treble
+< e' c'' >1
+}
+
+\new Staff = "down" {
+\clef bass
+< c g >1
+}
+
+>>
+
+\bar "|."
+}
+</score>
+
+</pre>
+
+
+'''Résultat 2'''
+
+<score vorbis="1">
+{
+\new PianoStaff
+<<
+
+\new Staff = "up" {
+\clef treble
+< e' c'' >1
+}
+
+\new Staff = "down" {
+\clef bass
+< c g >1
+}
+
+>>
+
+\bar "|."
+}
+</score>
+
+}}
+
+<br />
+
+
 
 
 == Clarinette == 

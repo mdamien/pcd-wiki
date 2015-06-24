@@ -9,5 +9,5 @@
 | texte='''[[Media:{{{filename|{{{nomfichier|{{{2|}}}}}}}}}|{{{title|{{{titre|{{{1|}}}}}}}}}]]''' ([[:Fichier:{{{filename|{{{nomfichier|{{{2|}}}}}}}}}|info]]) {{{suitetexte|{{{description|}}}}}}
 <div style="margin:.35em 0">[[Image:{{{filename|{{{nomfichier|{{{2|}}}}}}}}}|230px|noicon]]</div>
 <small>''Os n'povez poin acouter ch' fichié ? [[Aïude:Acouter chés sons ogg|Aïude'']]</small>
-|couleur_fond=f9f9f9}}</includeonly><noinclude>
-<nowiki> {{/Documentation}} </nowiki> </noinclude>
+<!--|couleur_fond=f9f9f9-->}}</includeonly><noinclude>
+<nowiki> <!--{{/Documentation}}--></nowiki> </noinclude>

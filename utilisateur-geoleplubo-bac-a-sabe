@@ -1,9 +1,22 @@
 {{DISPLAYTITLE:<span style="color: #008000; font: bold 30px 'Comic Sans MS';">Coucou</span>}}
 * [[Utilisateur:Geoleplubo/Tests]]
 *[[Utilisateur:Geoleplubo/Musique]]
+
+
 * <nowiki>#REDIRECTION  [[eute nom]]</nowiki>
+
+
 * <nowiki>Si la même note est utilisée plusieurs fois dans le texte, préférer la syntaxe <ref name="nom de la note"> … </ref> une fois dans le texte, puis <ref name="nom de la note" /> les autres fois. Elles peuvent aussi être nommées pour des appels multiples ou/et regroupées via des attributs à la balise : <ref name="nom" group="groupe"> … </ref></nowiki>
+
 * Pour faire un espace : &nbsp; <nowiki> &nbsp; </nowiki> <code> &nbsp; </code> &nbsp; & nbsp ; (attaché)
+#des corrections typographiques,
+## Je retire les espaces insécables <code>&amp;nbsp;</code> devant les deux-points, les guillemets, etc. parce qu’ils sont gérés directement par le logiciel moteur MediaWiki
+## Je remplace les <code>&amp;nbsp;</code> par un <nowiki>{{formatnum:}}</nowiki> pour les chiffres et même par le modèle {{M|Nombre}} (qui utilise formatnum).
+## J’ajoute les espaces où elles manquent (devant les points d’exclamation, points d’interrogation, etc.).
+# Je remplace les guillemets allophones (guillemets droits ", guillemets anglais “ ”,  ou guillemets allemands „ “ ) par des guillemets français « » (sauf pour les citations allophones).
+# Pour les apostrophes :
+## Je remplace les barres verticales droites (''' ' '''touche 4 de la plupart des claviers) par de véritables apostrophes typographiques (''' ’ '''), sauf dans les titres d’articles.
+
 *<nowiki> __HIDDENCAT__ </nowiki> donne une catégorie cachée
 * <nowiki> <span style="float:right;">'''Texte à droite'''</span></nowiki>  <span style="float:right;">'''Texte à droite'''</span>
 * {{Abréviation|P.I.B.|produit intérieur brut}}

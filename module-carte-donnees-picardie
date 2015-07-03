@@ -1,0 +1,16 @@
+return {
+	images = {
+		default = '728x599-Carte-Région-Picardie-A1.jpg',
+		relief = '728x599-Carte-Région-Picardie-R1.jpg',
+	},
+	name = 'Picardie',
+	zone = 'région française',
+	determiner = false,
+	genre = 'fs',
+	top = 50.40,
+	bottom = 48.8,
+	left = 1.4,
+	right = 4.25,
+	projection = 'Projection équirectangulaire',
+	wikidata = 'Q13950',
+}

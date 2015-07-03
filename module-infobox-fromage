@@ -7,19 +7,19 @@ return {
 	maincolor = '#FFFF77',
 	parts = {
 		cheese.title(),
-		cheese.mainimage('Article à illustrer Fromage'),
+		cheese.mainimage('Artike à illustrer Froumache'),
 		{
 			type	= 'table',
 			rows	= {
 				{
 					type		= 'mixed',
-					label		= 'Pays d’origine',
+					label		= 'Poéyis d’origine',
 					value		= 'pays',
 					property	= 'P495'
 				},
 				{
 					type		= 'mixed',
-					label		= 'Région',
+					label		= 'Liu',
 					value		= 'lieu',
 					property	= 'P1071'
 				},
@@ -43,7 +43,7 @@ return {
 				},
 				{
 					type		= 'mixed',
-					label		= 'Pâte',
+					label		= 'Pate',
 					value		= 'pâte',
 					wikidata    = function(item)
 						-- Pour déterminer le type de pâte du fromage sur Wikidata, récupération des valeurs éventuelles
@@ -67,7 +67,7 @@ return {
 				},
 				{
 					type		= 'mixed',
-					label		= 'Appellation',
+					label		= 'Appélacion',
 					value		= 'aoc',
 					wikidata 	= wikidata.formatAndCat{item = item, property = 'P1389', showdate=true, conjtype = '<br />', textformat = 'minimum'}
 						-- P1389 ("certificat de produit")

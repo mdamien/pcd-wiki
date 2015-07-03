@@ -1,0 +1,149 @@
+local coord = require('Module:Coordinates')
+local wikidatamod = require('Module:Wikidata')
+local p = {}
+
+
+local p = {}
+function p.country(country, label, flagdate, size) -- à faire : gestion des dates, mapping Wikidata/modèles, peut-être mettre une partie de la fonction dans un module séparé
+	return function(localdata, item)
+	if localdata['pays'] then -- priorité aux données locales
+		country =  localdata['pays']
+	end
+	local countrymodule = require('Module:Country data')
+	country = countrymodule.standarddisplay(country)
+	local wikidatacountry = wikidatamod.formatAndCat{
+		item = item,
+		property = 'P17',
+		displayformat = function(snak)
+			local id = 'Q' .. snak.datavalue.value['numeric-id']
+			local formattedval, success
+			if snak.snaktype == 'value' then
+				formattedval, success = countrymodule.standarddisplay(id)
+			end
+			if success then return
+				formattedval
+			else
+				return wikidatamod.formatSnak(snak)
+			end
+		end
+	}
+	return  {
+		type = 'mixed',
+		label = 'Pays',
+		value = function() return country end,
+		wikidata = function() return wikidatacountry end
+	}
+	end
+end
+
+local function coordcore(moduleparams, localdata, item)
+	-- vérifie qu'il faut afcficher les coordonnées
+	if localdata["géolocalisation"] == 'pas pertinent' or localdata['géolocalisation'] == 'non' and not (localdata['coordonnées'] == 'oui') then
+		return nil
+	end
+	local function getfirstval(vals) -- permet de donner un ordre de priorité aux paramètres à utiliser
+		for i, j in pairs(vals) do
+			if type(j) ~= 'nil' then return j end
+		end
+	end
+	
+	local function toboolean(val) -- transforme les textes en true / false
+		if val == '-' or val == 'non' then
+			return false
+		end
+		return val
+	end
+	-- récupération des paramètres d'affichage
+	local globe = getfirstval{localdata['globe'], moduleparams['globe']}
+	local displayinline = toboolean(getfirstval{localdata['coords en ligne'], moduleparams.displayinline, true})
+	local displaytitle = toboolean(getfirstval{localdata['coords en titre'], moduleparams.displaytitle, localdata['infoboxrank'] == 'main'})
+	local wikidata = toboolean(getfirstval{localdata['wikidata'], true})
+	local displayformat = getfirstval{localdata['format coordonnées'], moduleparams.displayformat}
+	local wikidataquery = moduleparams.wikidataquery or {property = 'P625'}
+	if not wikidataquery.entity then
+		wikidataquery.entity = item
+	end
+	local maxdistance = moduleparams.maxdistance
+
+	-- displayplace format utilisé par Module:Coordinates, devrait être simplifié
+	local displayplace = ''
+	if displayinline then
+		displayplace = displayplace .. 'inline'
+	end
+	if displaytitle then
+		displayplace = displayplace .. 'title,'
+	end
+	if wikidata == true then wikidata = 'true' end
+	--
+	local latitude = localdata['latitude']
+	local longitude = localdata['longitude']
+	local parameterlist = {
+		latitude = latitude,
+		longitude = longitude,
+		displayformat = displayformat,
+		display= displayplace,
+		globe = globe,
+		wikidata = wikidata,
+		wikidataquery = wikidataquery,
+		maxdistance = maxdistance,
+	}
+	local val = coord._coord(parameterlist)
+	if (not val) and moduleparams.fallbackquery then -- si pas de valeur, essayer la query de sustitution
+		parameterlist.wikidataquery = moduleparams.fallbackquery
+		parameterlist.wikidataquery.entity = item
+		val = coord._coord(parameterlist)
+	end
+	if val and latitude and longitude and localdata['référence géolocalisation'] then
+		val = val .. ' ' .. localdata['référence géolocalisation']
+	end
+	if val and not localdata['latitude'] then
+		val = wikidatamod.addLinkback(val, item, wikidataquery.property)
+	end
+	if displayinline == false then
+		return -- type: external text pour ne pas avoir de ligne vide en infobox
+		{
+		type = 'external text',
+		sortkey = sortkey,
+ 		value = val
+ 		}
+ 	else 
+ 		return val
+ 	end
+end
+
+function p.coordinates(moduleparams)
+	-- initialise les paramètres avec les valeurs du module d'infobox (moduleparams)
+	if not moduleparams then moduleparams = {} end
+	return {
+		type = 'mixed',
+		label = 'Coordonnées',
+		maintenancecat = function(localdata, item) 
+			local relevant = localdata['coordonnées'] or localdata['géolocalisation'] 
+			--désactivation des catégories de maintenance
+			if (relevant == '-') or (relevant == 'non') or (relevant == 'non pertinent') or (relevant == 'pas pertinent') then -- un peu bordélique, "-" devrait suffire
+				return nil
+			end
+			return moduleparams.maintenancecat or 'Page géolocalisable sans coordonnées paramétrées'
+			end,
+		sortkey = sortkey,
+ 		value = function(localdata, item) return coordcore(moduleparams, localdata, item) end
+ 		}	
+end
+
+function p.geoloc(moduleparams)
+	return   {
+		type = 'map',
+		latitude = 'latitude',
+		longitude = 'longitude',
+		wikidata = function(item, query)
+			if not query then
+				query = {property = 'P625'}
+			end
+			query.item = query.entity or item
+			return wikidatamod.getClaims(query) end,
+		maps = 'géolocalisation', -- paramètre pour la liste des cartes à utiliser
+		params = {guessmaps = guessmaps} -- = quelles cartes utiliser en l'absence de données fournies dans |gélocalisation
+     }
+ 
+end
+return p

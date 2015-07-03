@@ -1,0 +1,24 @@
+-- style par défaut. Plus pratique pour l'instant que d'utiliser les classes de l'énorme common.css
+return {
+entete = {
+	display = 'table',
+	width ='100%',
+	['border-spacing'] = '0',
+	zoom = '1',
+	['background-color'] = maincolor or '#E1E1E1',
+	['word-wrap'] = 'break-word',
+	height = '45px', -- celle de infobox V2. Celle d'infobox V2, '100%!ie', est souvent moche
+	['font-weight'] = 'bold',
+	['text-align'] = 'center',
+	['font-size'] = '1.4em',
+	['line-height'] = '1.1em',
+	margin = '0 0 10px 0 !important',
+	padding = '3px 0',
+	border = '2px',
+	solid = '#DFEDFF',
+	},
+boldline = {
+	['text-align'] = 'center',
+	['font-weight'] = 'bold'
+},
+}

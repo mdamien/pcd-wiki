@@ -1,0 +1,592 @@
+local p = {}
+
+-- variables globales alimentées par les paramètres utilisés
+item = nil -- l'élément Wikidata lié
+moduledata = nil -- la sous-page de module:Infobox demandée
+localdata = {}-- données concernant les paramètres passés au modèle
+maincolor = '#E1E1E1'
+page = { -- données concernant la page où est affichée l'infobox
+	name = mw.title.getCurrentTitle().prefixedText,
+	namespace =  mw.title.getCurrentTitle().namespace
+}
+
+-- l'objet principal à retournerp
+local infobox = mw.html.create('div')
+
+-- objes secondaires à retourner
+local maintenance = '' -- chaîne retournfoée avec le module : cats de maintenance
+local externaltext = '' -- par exemple coordonnées en titre
+-- modules importés
+local wikidata = require('Module:Wikidata')
+local defaultstyle = require('Module:Infobox/Style')
+local mapmod = require('Module:Carte')
+
+local i18n = {
+	['see doc'] = 'Documentation du modèle',
+	['edit'] = 'modifier',
+	['edit code'] = 'modifier le code',
+	['edit item'] = 'modifier Wikidata',
+	['tracking cat'] = "Page utilisant des données de Wikidata",
+	['invalid block type'] = "Bloc de données invalide dans le module d'infobox",
+	['default cat'] = "Maintenance des infobox",
+}
+
+local function addwikidatacat(prop)
+	maintenance = maintenance .. '[[Category:' .. i18n['tracking cat'] .. '/' .. string.upper(prop) .. ']]'
+end
+
+local function getWikidataValue(params, wikidataparam)
+	-- Récupère la valeur Wikidata pour la valeur, soit dans le paramètre "wikidata" soit dans le praramètre "property"
+	if not item then
+		return nil
+	end
+	local value
+	
+	if not wikidataparam then -- par défaut la valeur wikidata est dans le paramètre "wikidata" mais dans les structures composées comme "title", il y a plusieurs paramètres wikidata
+		wikidataparam = 'wikidata'
+	end
+	if params[wikidataparam] then
+		if type(params[wikidataparam]) == 'function' then
+			value = params[wikidataparam](item)
+		else
+			value = params[wikidataparam]
+		end
+	elseif params.property then
+		value = wikidata.formatAndCat({entity = item, property = params.property, conjtype = 'comma'})
+	end
+	return value
+end
+
+local function getvalue(val, params)
+	if type(val) == 'string' then
+		return localdata[val]
+	elseif type(val) == 'function' then
+		return val(localdata, item, params)
+	elseif type(val) == 'table' then
+		for i, j in pairs(val) do -- si plusieurs paramètres possibles (legacy de vieux code), prendre le preimeir non bide
+			if localdata[j] then
+				return localdata[j]
+			end
+		end
+	end
+end
+
+local function addmaintenancecat(cat, sortkey)
+	if page.namespace ~= 0 then
+		return ''
+	end
+	if cat then
+		maintenance = maintenance .. '[[Category:' .. cat .. '|' .. (sortkey or page.name) .. ']]'
+	end
+end
+
+function p.buildtitle(params)
+	local text = getvalue(params.value, params) or params.textdefaultvalue or  getWikidataValue(params) or mw.title.getCurrentTitle().text
+	local subtext = getvalue(params.subtitle) or  getWikidataValue(params, 'wikidatasubtitle') or params.subtitledefaultvalue
+	if subtext and (subtext ~= text) then
+		text = text .. '<br /><small>' .. subtext .. '</small>'
+	end
+	local icon = params.icon or ''
+	if icon ~= '' and not params.large then
+		icon = 'icon ' .. icon
+	end
+	local class = 'entete ' .. icon
+	
+	-- overwrites with those provided in the module
+	local style = {}
+	if maincolor then
+		style['background-color'] = maincolor
+	end
+	if params.style then
+		for i, j in pairs(params.style) do
+			style[i] = j
+		end
+	end
+	local title = mw.html.create('div')
+		:addClass(class)
+		:css(style)
+		:tag('div')
+			:wikitext(text)
+		:allDone()
+	return title
+end
+
+function p.buildnavbox(params)
+	local class = "overflow nav " .. (params.class or '')
+	local style = params.style or {['border-width'] = '1px'}
+	if not style['border-color'] then
+		style['border-color'] = maincolor
+	end
+	local previousval = localdata[params.previousparameter]	or getWikidataValue(params, 'previouswikidata')
+	if not previousval and params['previousproperty'] then
+		previousval = wikidata.formatAndCat{entity = item, property = params['previousproperty']}
+	end
+	local nextval = localdata[params.nextparameter] or getWikidataValue(params, 'nextwikidata')
+	if not nextval and params['nextproperty'] then
+		nextval = wikidata.formatAndCat{entity = item, property = params['nextproperty']}
+	end
+	local navbox =
+	mw.html.create('p')
+		:addClass(class)
+		:css(style)
+		:tag('span')
+			:addClass('prev_bloc')
+			:wikitext(previousval)
+			:done()
+		:tag('span')
+			:addClass('next_bloc')
+			:wikitext(nextval)
+			:done()
+		:done()
+		return navbox
+end
+
+function p.buildimages(params)
+	local images = {}
+	if type(params.imageparameters) == 'string' then
+		params.imageparameters = {params.imageparameters}
+	end
+	if not params.imageparameters then -- s'il n'y a pa de paramètre image, continuer, peut-être y-a-t-il une image par défaut définie dans le module d'infobox
+		params.imageparameters = {}
+	end
+	for j, k in ipairs(params.imageparameters) do
+		table.insert(images, localdata[k])
+	end
+	if #images == 0 and item then
+		if params.property then
+			images = wikidata.getClaims{item= item, property = params.property} or {}
+			if #images > 0 then
+				addwikidatacat(params.property)
+			end
+		end
+		if params.wikidata then
+			images = params.wikidata()
+			if type(images) == 'string' then
+				return images
+			end -- c'est probablement une erreur dans la requête => afficher le message
+		end
+	end
+	if ((not images) or (#images == 0)) and params.defaultimages then
+		images = params.defaultimages
+		if type(images) == 'string' then
+			images = {images}
+		end
+	end		
+	if (not images) or #images == 0 then
+		if params.maintenancecat then
+			local maintenancecat = getvalue(params.maintenancecat, params)
+			addmaintenancecat(maintenancecat, params.sortkey)
+		end
+		return
+	end
+	-- extrait les images des valeurs Wikidata
+	if type(images[1]) == 'table' then
+		for i, j in pairs(images) do
+			if j.mainsnak.snaktype ~= 'value' then
+				return
+			end
+			if i > (params.numval) then
+				images[i] = nil
+			else
+				images[i] = j.mainsnak.datavalue.value
+			end
+		end
+	end
+	local captiontext = localdata[params.captionparameter] or params.defaultcaption
+	local size = localdata[params.sizeparameter] or params.defaultsize or '280x400px'
+	local numsize = mw.ustring.gsub(size, 'x.*', '')
+	numsize = numsize:gsub('px', '')
+	numsize = tonumber(numsize)
+	if type(numsize) ~= 'number' or numsize > 280 then
+		addmaintenancecat("taille d'image invalide")
+	end
+	if type(captiontext) == 'function' then
+		captiontext = captiontext(localdata)
+	end
+	local style = params.style or {padding ='2px 0',}
+
+	-- Partie image
+
+	local imagesString = ''
+	for i,image in pairs(images) do
+		if image == '-' then
+			return
+		end
+		imagesString = imagesString ..  '[[Fichier:' .. image .. '|frameless|' .. size
+		if #images == 1 then
+			imagesString = imagesString .. '|center'
+		end
+		if image.upright then
+			imagesString = imagesString .. '|upright=' .. image.upright
+		else
+			imagesString = imagesString .. '|upright=' .. ( 1 / #images )
+		end
+		imagesString = imagesString .. ']]'
+	end
+
+	local image = mw.html.create('div')
+		:addClass("images")
+		:css(style)
+		:wikitext(imagesString)
+
+	-- Partie légende
+	local caption = mw.html.create('p')
+	if captiontext then
+		caption
+			:wikitext(captiontext)
+			:css(params.style or {})
+			:addClass("legend")
+			:done()
+	end
+	
+	-- séparateur
+	local separator
+	if params.separator then
+		local separatorStyle = params['separator style'] or {}
+		separatorStyle.height = separatorStyle.height or '2px'
+		separatorStyle['background-color'] = separatorStyle['background-color'] or maincolor
+		separator = mw.html.create('hr')
+		separator:css( separatorStyle )
+	end
+	return mw.html.create('div'):node(image):node(caption):node(separator):done()
+end
+
+function p.buildtext(params)
+	local class = params.class or ''
+	local style = defaultstyle['boldline']
+	if params.style then
+		for i, j in pairs(params.style) do
+			style[i] = j
+		end
+	end
+	local text = getvalue(params.value, params) or getWikidataValue(params) or params.defaultvalue
+	if text == '-' then
+		return
+	end
+	if not text then
+		addmaintenancecat(params.maintenancecat, params.sortkey)
+		return nil
+	end
+	local formattedtext = mw.html.create('p')
+		:addClass(class)
+		:css(style)
+		:wikitext(text)
+		:done()
+	return formattedtext
+end
+
+function p.buildrow(params)
+	local class = params.class or ''
+	local style = params.style or {}
+	local value =  getvalue(params.value, params)
+	local label
+	
+	if not value then
+		value =  getWikidataValue(params, 'wikidata')
+		if (value and params.wikidatalabel) then
+			label = getWikidataValue(params, 'wikidatalabel')
+		end
+	end
+
+	if not value then
+		value = params.defaultvalue
+	end
+
+	if value == '-' then
+		return nil
+	end
+	
+	if not value then
+		if params.maintenancecat then
+			local maintenancecat = getvalue(params.maintenancecat, params)
+			addmaintenancecat(maintenancecat, params.sortkey)
+		end
+		return nil
+	end
+
+	if not label then
+		label = params.label
+		if type(label) == 'function' then
+			label = label(localdata, item)
+		end
+	end
+
+	-- format
+	local formattedvalue = mw.html.create('div')
+		:wikitext('\n' .. value) -- Le '\n' est requis lorsque value est une liste commençant par '*' ou '#'
+		
+	if (params.hidden == true)then
+		formattedvalue
+			:attr({class="NavContent", style="display: none; text-align: left;"})
+		formattedvalue = mw.html.create('div')
+			:attr({class="NavFrame", title="[Afficher]/[Masquer]", style="border: none; padding: 0;"})
+			:node(formattedvalue)
+	end
+	formattedvalue =  mw.html.create('td')
+			:node(formattedvalue)
+			:allDone()
+	
+	local formattedlabel
+	if label then
+		formattedlabel = mw.html.create('th')
+			:attr('scope', 'row')
+			:wikitext(label)
+			:done()
+	end
+	local row = mw.html.create('tr')
+		:addClass(class)
+		:css(style)
+		:node(formattedlabel)
+		:node(formattedvalue)
+		:done()
+	
+	return row
+end
+
+function p.buildtable(params)
+	local tab = mw.html.create('table'):css(params.style or {})
+	local title
+	if params.title then
+		local text
+		if type(params.title) == 'string' then -- raccourci moche mais pratique : n'utiliser qu'une chaîne pour le titre
+			text = params.title
+			params.title = {}
+		else
+			text = params.title.value or error('no value provided for this title')
+		end
+		local titlestyle = params.title.style or {['text-align'] = 'center', color = '000000'}
+		if not titlestyle['background-color'] then
+			titlestyle['background-color']  = maincolor
+		end
+		local colspan = params.title.colspan or '2'
+		title = mw.html.create('caption')
+			:attr({colspan = 2})
+			:css(titlestyle)
+			:wikitext(text)
+			:done()
+	end
+	local rows = {} -- does not add the rows directly to tab: check if some rows are non empty beoforehand so that we do not add a title if there are no data to show
+	
+	for k, l in pairs(params.rows) do
+		if type(l) == 'table' and l.type == 'multi' then -- when a single function is used for return several rows
+			table.remove(params.rows, k)
+			local count = 0
+			for m, n in pairs(l.rows) do
+				table.insert(params.rows, k + count, n)
+				count = count + 1
+			end
+			l = params.rows[k]
+		end
+
+		if type(l) == 'function' then --accepte les fonctions qui retournent des tables
+			l = l(localdata, item)
+		end
+		if type(l) == 'nil' then
+			--ne rien faire (quand la valeur est originellemenet une fonctin elle peut retourner nil)
+		elseif type(l) ~= 'table' then
+			return error('les lignes d\'infobox ("rows") doivent être des tables, est ' .. type(l))
+		else
+			local row = p.buildblock(l)
+			table.insert(rows, row)
+		end
+	end
+	if #rows > 0 then
+		if title then
+			tab:node(title)
+		end
+		for i, j in pairs (rows) do
+			tab:node(j)
+		end
+		tab:allDone()
+		return tab
+	else
+		return nil
+	end
+end
+
+function p.buildinvalidblock(args)
+	addmaintenancecat(defaultcat)
+	local text = ''
+	if type(args) ~= 'table' then
+		text = "Les blocs d'infobox doivent être des tables"
+	else
+		text = i18n["invalid block type"] .. ' : ' .. (args.type or '??')
+	end
+	return text
+end
+
+function p.buildmap(params)
+	local maplist = getvalue(params.maps)
+	local pointimage = params.pointimage
+	local maptype = params.maptype -- choisit le type de carte le plus approprié (relief, administratif, etc.)	
+	if type(maplist) == 'function' then
+		maplist = maplist(localdata, item)
+	end
+	local width = tonumber(params.width) or 280
+	if width > 280 then
+		addmaintenancecat("Erreur d'Infobox/Image trop grande")
+		return 'image trop grande, la largeur doit être inférieure ou égale à 280px'
+	end
+	local latitude, longitude
+	if type(params.latitude) == 'function' then
+		latitude, longitude = params.latitude(localdata, item), params.longitude(localdata, item)
+	else
+		latitude, longitude = localdata[params.latitude], localdata[params.longitude]
+	end
+	if (not latitude or not longitude) and item and params.wikidata then
+		if not type(params.wikidata) == 'function' then
+			return error('valeur wikidata incorrecte pour la géolocalisation')
+		end
+		local val = params.wikidata(item, query)
+		if not val then
+			return nil
+		end
+		if (not type(val) == 'table')  then
+			return error("mauvaise requête pour les coordonnées de géolocalisation")
+		end
+		val = val[1]
+		if val.mainsnak.snaktype == 'value' then
+			latitude, longitude = val.mainsnak.datavalue.value.latitude, val.mainsnak.datavalue.value.longitude
+		end
+	end
+	if not latitude or not longitude then
+		return nil
+	end
+	local newparams = {maplist = maplist, pointimage = pointimage, width = width, item = item, latitude = latitude, longitude = longitude}
+	if params.params and type(params.params) == 'table' then -- paramètres additionnels
+		for i, j in pairs(params.params) do
+			newparams[i] = j
+		end
+	end
+	return mapmod.multimap(newparams)
+end
+
+function p.buildfooter(params)
+	if not params then
+		params = {}
+	end
+	
+	local class = 'navbar noprint ' .. (params.class or '')
+	local style = params.style or {}
+	style['border-top'] = style['border-top'] or '1px solid ' .. maincolor
+	
+	local backlinkstr = '[' .. tostring( mw.uri.fullUrl( page.name, '&veaction=edit&section=0' ) ) .. ' ' .. i18n['edit'] .. ']'
+		.. ' - [' .. tostring( mw.uri.fullUrl( page.name, '&action=edit&section=0' ) ) .. ' ' .. i18n['edit code'] .. ']'
+
+	local itemlinkstr
+	if item then
+		itemlinkstr = '[[d:' .. item.id .. '|' .. i18n['edit item'] .. ']]'
+	end
+	local editstr = backlinkstr
+	if itemlinkstr then
+		editstr = editstr .. ' - ' .. itemlinkstr
+	end
+	local editlinkspan =  mw.html.create('span')
+		:css({['text-align'] = "left"})
+		:addClass('plainlinks')
+		:wikitext(editstr)
+		:done()
+	
+	local doclinkstr = '[[Image:Gtk-dialog-info.svg|12px|link=' .. 'Template:Infobox ' .. moduledata.name .. '|' .. i18n['see doc'] .. ']]'
+	-- si ce lien ne marche pas toujours, il faut ajouter un variable pour le nom de l'infobox récupéré par le frame
+	local doclinkspan = mw.html.create('span')
+		:css({['text-align'] = "right"})
+		:wikitext(doclinkstr)
+		:done()
+	
+	local footer = mw.html.create('p')
+		:addClass(class)
+		:css(style)
+		:node(editlinkspan)
+		:node(doclinkspan)
+	return footer
+end
+
+function p.buildblock(block)
+	local blocktypes = { -- maps a block type to the function building it
+		['invalid'] = p.buildinvalidblock,
+		['external text'] = p.buildexternaltext,
+		['footer'] = p.buildfooter,
+		['images'] = p.buildimages,
+		['map']= p.buildmap,
+		['mixed'] = p.buildrow,
+		['navbox'] = p.buildnavbox,
+		['table'] = p.buildtable,
+		['row'] = p.buildrow,
+		['text'] = p.buildtext,
+		['title'] = p.buildtitle,
+	}
+	local fun = blocktypes['invalid']
+	if type( blocktypes ) == 'table' then
+		fun = blocktypes[block.type] or fun
+	end
+	return fun(block)
+end
+
+function p._build(modulename, params)
+
+	-- fill-up global variable localdata using params
+	for i, j in pairs(params) do
+		if j and mw.text.trim(j) ~= '' then -- empty parameters are ignored
+			localdata[i] = j
+		end
+	end
+
+	-- guess "rank" of the infobox
+	local infoboxrank = 'main' -- main infobox of the page, with coordinates displayed in title etc.
+	if page.namespace ~= 0 then
+		infoboxrank = 'secondary'
+	end
+	localdata.infoboxrank = infoboxrank
+
+	-- load wikidata item as a global variable:
+	if localdata.wikidata == 'non' then
+		item = nil
+	elseif (not localdata.wikidata) or (localdata.wikidata == '') then
+		item = mw.wikibase.getEntityObject()
+	else
+		item = nil -- topic of the infobox corresponds to another Wikidata item, should eventually be fetched through arbitrary access
+		localdata.infoboxrank = 'secondary'
+	end
+	
+	-- load infobox module page
+	moduledata = require('Module:Infobox/' .. modulename)
+	moduledata.name = modulename
+	
+	-- defines main color
+	maincolor = localdata['couleur infobox'] or localdata['couleur boîte'] or moduledata.maincolor or maincolor
+	if maincolor:match( '^%x%x%x%x%x%x$' ) or maincolor:match( '^%x%x%x$' ) then
+		maincolor = '#' .. maincolor
+	end
+	
+	-- class
+	local class = 'infobox_v3'
+	if moduledata.class then
+		class = class .. ' ' .. moduledata.class
+	end
+	
+	-- style
+	local style = moduledata.style or {}
+	if not style['max-wdith'] then
+		style['max-width'] = '300px'
+	end
+	
+	-- build infobox
+	infobox	:addClass(class)
+			:css(style)
+	for i, j in pairs( moduledata.parts ) do
+		infobox:node( p.buildblock(j) )
+	end
+	infobox	:node(p.buildfooter(moduledata.footer))
+			:done()
+			
+	return tostring(infobox) .. externaltext, maintenance
+end
+
+function p.build(frame)
+	local name =  frame.args.nom
+	local params = frame:getParent().args
+	return p._build(name, params)
+end
+
+return p

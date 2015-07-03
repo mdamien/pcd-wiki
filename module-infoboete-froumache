@@ -1,0 +1,79 @@
+local cheese = require "Module:Infobox/Fonctions"
+local wikidata = require "Module:Wikidata"
+local dates = require "Module:Wikidata/Dates"
+local linguistic = require "Module:Linguistique"
+
+return {
+        maincolor = '#FFFF77',
+        parts = {
+                cheese.title(),
+                cheese.mainimage('Article à illustrer Fromage'),
+                {
+                        type    = 'table',
+                        rows    = {
+                                {
+                                        type            = 'mixed',
+                                        label           = 'Pays d’origine',
+                                        value           = 'pays',
+                                        property        = 'P495'
+                                },
+                                {
+                                        type            = 'mixed',
+                                        label           = 'Région',
+                                        value           = 'lieu',
+                                        property        = 'P1071'
+                                },
+                                {
+                                        type            = 'mixed',
+                                        label           = 'Fabricant',
+                                        value           = 'fabricant',
+                                        property        = 'P176'
+                                },
+                                {
+                                        type            = 'mixed',
+                                        label           = 'Lait',
+                                        value           = 'lait',
+                                        wikidata        = function(item)
+                                                return wikidata._formatAndCat({
+                                                        item=item,
+                                                        property= 'P186', qualifiervalue = {'Q8495'}, qualifier = 'P518', -- récupère la propriété P186 (matériau) seulement si elle a le qualificatif "s'applique à la partie : lait"
+                                                        labelformat = function(label) return linguistic.keepcomplement(label, "lait") end-- retire "lait de" du libellé, un peu lourd
+                                                        })
+                                                end
+                                },
+                                {
+                                        type            = 'mixed',
+                                        label           = 'Pâte',
+                                        value           = 'pâte',
+                                        wikidata    = function(item)
+                                                -- Pour déterminer le type de pâte du fromage sur Wikidata, récupération des valeurs éventuelles
+                                                -- de la propriété P279 ("sous-classe de") dont le label contiennent "pâte"
+                                                local paste_list = {}
+                                                local claims = wikidata.getClaims({item = item, property = 'P279'})
+                                                if claims then
+                                                        for claim_key, claim_value in pairs(claims) do
+                                                                statement = wikidata.formatStatement(claim_value)
+                                                                if string.match(statement:lower(), "pâte") then
+                                                                        statement = mw.ustring.gsub(statement, "\|fromage à pâte ", "\|")
+                                                                        table.insert(paste_list, statement)
+                                                                end
+                                                        end
+                                                end
+                                                if #paste_list > 0 then
+                                                                return mw.text.listToText(paste_list, "<br />", "<br />")
+                                                end
+                                                return false
+                                        end
+                                },
+                                {
+                                        type            = 'mixed',
+                                        label           = 'Appellation',
+                                        value           = 'aoc',
+                                        wikidata        = wikidata.formatAndCat{item = item, property = 'P1389', showdate=true, conjtype = '<br />', textformat = 'minimum'}
+                                                -- P1389 ("certificat de produit")
+
+                                }
+                        }
+                }
+        }
+}

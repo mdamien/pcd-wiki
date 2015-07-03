@@ -1,0 +1,127 @@
+-- Fonctions communes à diverses infobox
+local wikidata = require('Module:Wikidata')
+local d = require('Module:Wikidata/Dates')
+local coordfunctions = require 'Module:Infobox/Fonctions/Géolocalisation'
+local p = {}
+
+function p.title(icon, style)
+	return {
+			type = 'title',
+			value = function(localdata, item) 
+				local label = localdata['nom']
+				if not label then
+					label = wikidata._getLabel(item) or mw.title.getCurrentTitle().text
+					label = label:gsub("^%l", string.upper)
+				end
+				return label
+			end,
+			subtitle = function(localdata, item)
+				if localdata['nom local'] then
+					return localdata['nom local']
+				end
+				if not item then 
+					return nil
+				end
+				local subtitles = wikidata.getClaims({item=item, property = 'P1448'})
+				local subtitlestr = ''
+				if not subtitles then return 
+					nil
+				end
+				local title = localdata['nom'] or wikidata._getLabel(item) or mw.title.getCurrentTitle().text
+				local langspan = require('Module:Langue').langue
+				local dones = {}
+				local text, textlang
+				for i, j in pairs(subtitles) do
+					if j.mainsnak.snaktype then
+						text, textlang = j.mainsnak.datavalue.value.text, j.mainsnak.datavalue.value.language
+					end
+					if text ~= title and not dones[text] then
+						subtitlestr = subtitlestr .. langspan{textlang, text} .. '<br />'
+						dones[text]= true
+					end
+				end
+				return subtitlestr
+				end
+			,
+			icon = icon, 
+	}
+end
+
+function p.mainimage(cat, defaultimage, size)
+	return {
+		type = 'images',
+		imageparameters =  {'image'},
+		defaultimage = {defaultimage},
+		maintenancecat =
+			function(localdata, item, params)
+			if (cat == '-') or localdata['image'] == 'non' then
+				return nil
+			elseif cat then
+				return cat
+			else
+				return 'Article à illustrer'
+			end
+			end,
+		captionparameter = 'légende',
+		sizeparameter = 'taille image',
+		defaultsize = 	size,
+		defaultcaption = function() return defaultcaption end,
+		property = 'P18',
+		numval = 1,
+	}
+end
+
+function p.logo(size)
+	return {
+		type = 'images',
+		imageparameters =  {'logo'},
+	--	defaultimage = {},
+	--	maintenancecat =
+		captionparameter = 'légende logo',
+		property = 'P154',
+		defaultsize = '140px',
+		sizeparameter = 'taillelogo',
+		numval = 1,
+	}
+end
+
+-- Liens externes
+function p.website() --texte libre [http://example.org example.org] ou url seule
+	local function getLinks(item)
+		return wikidata.getClaims {property='P856', entity = item} 
+	end
+	return { 
+            type = 'mixed',
+            label = 'Site web', 
+            wikidatalabel = function(localdata, item) 
+            	local links = getLinks(item)
+            	if links and #links > 1 then
+            		return 'Sites web'
+            	end
+            	return 'Site web'
+            	end,
+            wikidata = function(localdata, item)
+            	local claims = getLinks(item)
+            	return wikidata._formatAndCat{claims = claims, displayformat = 'weblink', conjtype = '<br />', property = 'P856'}
+            	end,
+            value = function(localdata) 
+            	local website = localdata['site web'] or localdata['site_web'] or localdata['site officiel']
+            	if website then
+            		if (string.sub(website, 1, 4) == 'http') and (not string.find(website, ' ')) then -- if website is url
+            			return require("Module:Weblink").makelink(website)
+            		else
+            			return website
+            	end
+            	elseif localdata['url'] then
+	            	return require("Module:Weblink").makelink(localdata['url'])
+            	end
+            	end
+            }
+end
+
+-- Pays
+function p.country(default)
+	return	coordfunctions.country(default)	
+end
+
+return p

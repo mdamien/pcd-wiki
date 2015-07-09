@@ -40,7 +40,7 @@
 {{!-}}
 }}
 {{#if:{{{date de mort|}}} |
-! scope=row {{!}} Déché
+! scope=row {{!}} Défuncté
 {{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
 {{!-}}
 }}

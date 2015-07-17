@@ -1,0 +1,11 @@
+<includeonly>{{#switch: {{{1|}}}
+ | classique               = musique
+ | monde                   = musique
+ | jazz                    = musique
+ | danse                   = musique
+ | rock                    = musique
+ | autres                  = musique
+ | théâtre                 = persofiction
+ | pluridisciplinaire      = defaut
+ | #default                = defaut
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

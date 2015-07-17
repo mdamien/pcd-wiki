@@ -1,0 +1,42 @@
+<noinclude>
+<!--==============================================================
+
+          ATTENTION : LA MODIFICATION D'UNE INFOBOX PEUT ENTRAÎNER DES PROBLÈMES 
+         SUR TOUTES LES PAGES DANS LESQUELLES ELLE EST INCLUSE.
+
+Veuillez ne pas tenter de le modifier à moins que vous ne soyez certain de bien comprendre sa conception. 
+D'autre part, le présent modèle ayant fait l'objet d'un consensus, l'ajout ou la suppression de champs doivent 
+être préalablement discutés sur la page consacrée.
+
+==============================================================-->
+</noinclude><includeonly>{{Infobox/Début}}
+{{Infobox/Titre|{{{nom|{{PAGENAME}}}}} {{#if:{{{nom autre|}}}|{{clr}}<span style="font-size: 75%;">''{{{nom autre}}}}}''</span>|{{Infoboète Musique (festival)/Charte couleurs|{{{charte}}}}}|entete {{Infoboète Musique (festival)/Charte bindieu|{{{charte}}}}}}}
+{{Infobox/Image|{{{image|}}}|{{{légende|}}}|250||||Festival de musique}}
+{{Infobox/Séparateur optionnel|{{{image|}}}{{{légende|}}}|{{Infoboète Musique (festival)/Charte couleurs|{{{charte}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Genre|{{{genre|}}}}}
+{{Infobox/Ligne mixte optionnelle|Lieu|{{{lieu|}}}}}
+{{Infobox/Ligne mixte latitude longitude optionnelle||{{{latitude|}}}|{{{longitude|}}}|event|dms long|title=yes}}
+{{Infobox/Ligne mixte optionnelle|Période|{{{période|}}}}}
+{{Infobox/Ligne mixte optionnelle|Scènes|{{{scènes|}}}}}
+{{Infobox/Ligne mixte optionnelle|Capacité|{{{capacité|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date de création|{{{création|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date de disparition|{{{disparition|}}}}}
+{{Infobox/Ligne mixte optionnelle|Fondateurs|{{{fondateurs|}}}}}
+{{Infobox/Ligne mixte optionnelle|Statut juridique|{{{statut|}}}}}
+{{Infobox/Ligne mixte optionnelle|Organisateurs|{{{organisation|}}}}}
+{{Infobox/Ligne mixte optionnelle|Structure-mère|{{{structure-mère|}}}}}
+{{Infobox/Ligne mixte optionnelle|Tutelle|{{{tutelle|}}}}}
+{{Infobox/Ligne mixte optionnelle|Direction|{{{direction|}}}}}
+{{Infobox/Ligne mixte optionnelle|Direction artistique|{{{direction artistique|}}}}}
+{{Infobox/Ligne mixte optionnelle|Collaborations|{{{collaborations|}}}}}
+{{Infobox/Ligne mixte optionnelle|Médias associés|{{{média|}}}}}
+{{Infobox/Ligne mixte optionnelle|Site web|{{{site web|}}}}}
+{{Infobox/Géolocalisation multiple
+ | géolocalisation={{{géolocalisation|}}}
+ | latitude={{{latitude|}}}
+ | longitude={{{longitude|}}}
+ | toponyme={{{nom|{{PAGENAME}}}}}
+ | point=1
+}}
+{{Infobox/Notice|Infobox Musique (festival)|{{Infoboète Musique (festival)/Charte couleurs|{{{charte}}}}}}}
+{{Infobox/Fin}}</includeonly><noinclude><!--{{Documentation}}{{Catégorie musique classique}}--></noinclude>

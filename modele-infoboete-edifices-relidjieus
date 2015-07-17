@@ -3,11 +3,11 @@
 ! colspan="2" class="entete defaut" style="background-color:#E7E7E7; color:#000000" | {{{nommonument|{{PAGENAME}}}}}
 |- 
 {{#if:{{{photo|}}}|
-{{!}} colspan="2" align="center" style="padding: 0.1em;" {{!}} [[Fichier:{{{photo}}}{{!}}280px{{#if:{{{alternative|}}}|{{!}}alt={{{alternative}}}}}{{!}}{{#if:{{{légende|}}}|{{{légende}}}|Vue générale de l'édifice}}]]
+{{!}} colspan="2" align="center" style="padding: 0.1em;" {{!}} [[Fichier:{{{photo}}}{{!}}280px{{#if:{{{alternative|}}}|{{!}}alt={{{alternative}}}}}{{!}}{{#if:{{{légende|}}}|{{{légende}}}|Vue générale du monumint}}]]
 {{!-}}
 }}
 {{#if: {{{photo|}}} |
-{{!}} colspan="2" align="center" {{!}} <small>{{#if:{{{légende|}}}|{{{légende}}}|Vue générale de l'édifice}}</small>
+{{!}} colspan="2" align="center" {{!}} <small>{{#if:{{{légende|}}}|{{{légende}}}|Vue générale du monumint}}</small>
 {{!-}}
 }}
 {{#if: {{{photo|}}} |
@@ -19,11 +19,11 @@
 {{!}} {{{nomlocal}}}
 {{!-}}
 }}
-! scope=row style=font-weight:normal valign=top {{!}} '''[[Coordonnées géographiques|Latitude<br />Longitude]]'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Latitude<br />Longitude'''
 | {{#if:{{{latitude|}}}|{{#if:{{{longitude|}}}|{{coordonnées|{{{latitude}}}/{{{longitude}}}/type:landmark|format=dms long}}|}}</small>|<small>''Non renseigné''<br />''([http://stable.toolserver.org/geohack/geohack.php?pagename=&language=fr&params=0_N_0_E_scale:80000000 Chercher ce lieu])''}}&nbsp;{{{référence|}}}
 |-
 {{#if:{{{pays|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''[[Liste des pays du monde|Pays]]'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Poéyis'''
 {{!}} {{{pays}}}
 {{!-}}
 }}
@@ -33,12 +33,12 @@
 {{!-}}
 }}
 {{#if:{{{province|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''{{#if:{{{lien province|}}}|{{{lien province}}}|Province historique}}'''
+! scope=row style=font-weight:normal valign=top {{!}} '''{{#if:{{{lien province|}}}|{{{lien province}}}|Prouvinche historike}}'''
 {{!}} {{{province}}}
 {{!-}}
 }}
 {{#if:{{{département|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''{{#if:{{{lien subdivision|}}}|{{{lien subdivision}}}|Département}}'''
+! scope=row style=font-weight:normal valign=top {{!}} '''{{#if:{{{lien subdivision|}}}|{{{lien subdivision}}}|Départémint}}'''
 {{!}} {{{département}}}
 {{!-}}
 }}
@@ -58,27 +58,27 @@
 {{!-}}
 }}
 {{#if:{{{rattachement|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Rattaché à'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Racaché à'''
 {{!}} {{{rattachement}}}
 {{!-}}
 }}
 {{#if:{{{début constr|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Début de la construction'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Début deul construkcion'''
 {{!}} {{{début constr}}}
 {{!-}}
 }}
 {{#if:{{{fin const|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Fin des travaux'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Fin'''
 {{!}} {{{fin const}}}
 {{!-}}
 }}
 {{#if:{{{architecte|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Architecte(s)'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Arkitékte(s)'''
 {{!}} {{{architecte}}}
 {{!-}}
 }}
 {{#if:{{{autres constr|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Autres campagnes <br />de travaux'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Eutes travals'''
 {{!}} {{{autres constr}}}
 {{!-}}
 }}
@@ -93,12 +93,12 @@
 {{!-}}
 }}
 {{#if:{{{siteweb|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Site internet'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Site intarnet'''
 {{!}} <span class="plainlinks">[{{{siteweb}}} Consulter]</span>
 {{!-}}
 }}
 {{#if:{{{géolocalisation|}}}|
-! colspan="2" style="text-align:center; background-color:#E7E7E7; color:black" {{!}} Localisation
+! colspan="2" style="text-align:center; background-color:#E7E7E7; color:black" {{!}} Localisacion
 {{!-}}
 }}
 |-
@@ -106,7 +106,7 @@
   {{#ifexist:Modèle:Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|
     {{!}} colspan=2 align=center {{!}} {{#if:{{#titleparts:{{{géolocalisation|}}}|1|2}}|<div class=img_toogle>
 <div class=geobox>
-&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|name}}]]</small>
+&nbsp; <small> Géolocalisacion édseur l' carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|name}}]]</small>
 {{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|image}}|250px|(Voir situation sur carte : {{#titleparts:{{{géolocalisation|}}}|1|2}})]]
 {{G|{{#titleparts:{{{géolocalisation|}}}|1|2}}
 |{{Coordonnées/dms2dec|{{{latitude|}}}}}
@@ -123,7 +123,7 @@
 |{{PAGENAME}}
 |{{#switch: {{{culte|}}}|[[Islam]]=Mosquée sans toponyme|[[Islam|Musulman]]=Mosquée sans toponyme||[[Judaïsme]]=Synagogue sans toponyme|[[Judaïsme|Israëlite]]=Synagogue sans toponyme|#default=Église sans toponyme}}}}
 {{Fin de carte}}
-</div></div>|&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{{géolocalisation}}}|name}}]] </small>
+</div></div>|&nbsp; <small> Géolocalisacion édseur l' carte : [[{{Géolocalisation/{{{géolocalisation}}}|name}}]] </small>
 {{Début de carte}}[[Fichier:{{Géolocalisation/{{{géolocalisation}}}|image}}|250px]]
 {{G|{{{géolocalisation}}}
 |{{Coordonnées/dms2dec|{{{latitude}}}}}
@@ -137,4 +137,4 @@
 |}}}}
 |-
 {{Infodoc|colspan=2|couleur=E7E7E7|lien=Infobox Édifice religieux}}
-|}</includeonly><noinclude>{{Doc modèle}}</noinclude>
+|}</includeonly><noinclude><!--{{Doc modèle}}-->[[catégorie:Modèle]]</noinclude>

@@ -1,0 +1,11 @@
+<includeonly>{{#switch: {{{1|}}}
+ | classique          = FFEECC
+ | monde              = FCAA3C
+ | jazz               = B2FFC6
+ | rock               = F56E6E
+ | autres             = B0D2ED
+ | danse              = FFFF80 
+ | théâtre            = AA3333
+ | pluridisciplinaire = white
+ | #default           = white
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

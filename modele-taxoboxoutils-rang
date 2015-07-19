@@ -1,56 +1,56 @@
 {{#switch:{{{1}}}
-| clade = [[Clade]]
-| type = [[Clachification dés virus|Tipe]]
-| groupe = [[Clachification des virus#Clachification par tipe ed génome|Groupe]]
+| clade = Clade
+| type = Tipe
+| groupe = Groupe
 | non-classé = — non-classé —
-| sous-forme = [[Forme botanique|Dsous-forme]]
-| forme = [[Forme botanique|Forme]]
-| cultivar = [[Cultivar]]
-| variété = [[Variété (biolodjie)|Variété]]
-| sous-espèce = [[Dsous-éspèche (biolodjie)|Dsous-éspèche]]
-| hybride = [[Hybride]]
-| espèce = {{#ifeq: {{{2|virus}}}|virus|[[Éspèche (biolodjie)|Éspèche]]|[[Nom binominal]]}}
-| sous-série = [[Série (biolodjie)|Dsous-série]]
-| série = [[Série (biolodjie)|Série]]
-| sous-section = [[Section (biolodjie)|Sous-section]]
-| section = [[Section (biolodjie)|Section]]
-| sous-genre = [[Dsous-ginre (biolodjie)|Dsous-ginre]]
-| genre = [[Ginre (biolodjie)|Ginre]]
-| sous-tribu = [[Sous-tribu (biolodjie)|Sous-tribu]]
-| tribu = [[Tribu (biolodjie)|Tribu]]
-| super-tribu = [[Super-tribu (biologie)|Super-tribu]]
-| sous-famille = [[Dsous-famille]]
-| famille = [[Famille (biologie)|Famille]]
-| super-famille = [[Super-famille]]
-| micro-ordre = [[Micro-ordre]]
-| infra-ordre = [[Infraordre|Infra-ordre]]
-| sous-ordre = [[Dsous-ordre]]
-| ordre = [[Ordre (biolodjie)|Ordre]]
-| super-ordre = [[Superordre (biolodjie)|Super-ordre]]
-| sous-cohorte = [[Sous-cohorte (biolodjie)|Sous-cohorte]]
-| cohorte = [[Cohorte (biolodjie)|Cohorte]]
-| super-cohorte = [[Super-cohorte (biolodjie)|Super-cohorte]]
-| infra-classe = [[Infraclache|Infra-clache]]
-| sous-classe = [[Sous-clache (biolodjie)|Sous-clache]]
-| classe = [[Clache (biolodjie)|Clache]]
-| super-classe = [[Superclache|Super-clache]]
-| sous-embranchement = {{#ifeq:{{{format}}}|long|[[Dsous-inbranchemint]]|[[Dsous-inbranchemint|Dsous-inbr.]]}}
-| embranchement = {{#ifeq:{{{format}}}|long|[[Inbranchemint (biolodjie)|Inbranchemint]]|[[Inbranchemint (biolodjie)|Inbranchemint]]}}
-| super-embranchement = {{#ifeq:{{{format}}}|long|[[Super-inbranchemint (biolodjie)|Super-inbranchemint]]|[[Super-inbranchemint (biologie)|Super-inbr.]]}}
-| sous-division = [[Dsous-division (biolodjie)|Dsous-division]]
-| division = [[Division (biolodjie)|Division]]
-| super-division = [[Division (biolodjie)|Super-Division]]
-| infra-règne = [[Infra-règne]]
-| sous-règne = [[Sous-règne]]
-| règne = [[Règne (biolodjie)|Règne]]
-| super-règne = [[Super-règne (biolodjie)|Super-règne]]
-| sous-domaine = [[Sous-donmène (biolodjie)|Sous-donmène]]
-| domaine = [[Donmène (biolodjie)|Donmène]]
-| empire = [[Empire (biolodjie)|Empire]]
+| sous-forme = Dsous-forme
+| forme = Forme
+| cultivar = Cultivar
+| variété = Variété
+| sous-espèce = Dsous-éspèche
+| hybride = Hybride
+| espèce = {{#ifeq: {{{2|virus}}}|virus|Éspèche|Nom binominal}}
+| sous-série = Dsous-série
+| série = Série
+| sous-section = Sous-section
+| section = Section
+| sous-genre = Dsous-ginre
+| genre = Ginre
+| sous-tribu = Sous-tribu
+| tribu = Tribu
+| super-tribu = Super-tribu
+| sous-famille = Dsous-famille
+| famille = Famille
+| super-famille = Super-famille
+| micro-ordre = Micro-ordre
+| infra-ordre = Infra-ordre
+| sous-ordre = Dsous-ordre
+| ordre = Ordre
+| super-ordre = Super-ordre
+| sous-cohorte = dSous-cohorte
+| cohorte = Cohorte
+| super-cohorte = Super-cohorte
+| infra-classe = Infra-clache
+| sous-classe = DSous-clache
+| classe = Clache
+| super-classe = Super-clache
+| sous-embranchement = {{#ifeq:{{{format}}}|long|Dsous-inbranchemint|Dsous-inbr.}}
+| embranchement = {{#ifeq:{{{format}}}|long|Inbranchemint|Inbranchemint}}
+| super-embranchement = {{#ifeq:{{{format}}}|long|Super-inbranchemint|Super-inbr.}}
+| sous-division = Dsous-division
+| division = Division
+| super-division = Super-Division
+| infra-règne = Infra-règne
+| sous-règne = Sous-règne
+| règne = Règne
+| super-règne = Super-règne
+| sous-domaine = Sous-donmène
+| domaine = Donmène
+| empire = Empire
 | '''I feut donner ch'rang''' {{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Catégorie:Article à taxobox à corriger|Ang]]}}
 }}<noinclude>
 
-{{/Documentation}}
+<!--{{/Documentation}}-->
 
 [[Catégorie:Subroutines-pcd]]
 

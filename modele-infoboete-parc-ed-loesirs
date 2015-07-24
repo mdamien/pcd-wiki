@@ -1,0 +1,100 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{#if:{{{nom|}}}|{{{nom|}}}|{{PAGENAME}} }} | DFDDFD | entete map
+}}
+{{Infobox/Image
+ | {{{photo|}}}|{{{légende|}}}|{{{taille photo|200}}}||||Parc de loisirs
+}}
+{{Infobox/Image optionnelle
+ | {{{logo|}}}|{{{logo|}}}||{{{taille logo|200}}}
+}}
+{{Infobox/Séparateur optionnel|{{{photo|}}}{{{logo|}}}|DFDDFD}}
+{{Infobox/Ligne mixte optionnelle
+ | Viu&nbsp;nom
+ | {{{ancien nom|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nouvieu&nbsp;nom
+ | {{{nouveau nom|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Ouvérture
+ | {{{date ouverture|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Férmeture
+ | {{{fermeture|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Donmaine
+ | {{{domaine|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Supérfichie
+ | {{{superficie|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Poéyis
+ | {{{pays|}}}
+ | {{#if:{{{pays|}}}|{{{{{pays}}}}} }}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{{lien subdivision|Subdivision}}}
+ | {{{subdivision|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{{lien subdivision2|Subdivision 2}}}
+ | {{{subdivision2|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | {{{lien commune|Commune}}}
+ | {{{commune|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Ville
+ | {{{ville|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Propriétaire
+ | {{{propriétaire|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Type&nbsp;éd&nbsp;parc
+ | {{{type|Parc d'attractions|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nombe d'attrakcions
+ | {{{nb attractions|}}}{{{nb coaster|}}}{{{nb aquatique|}}}
+ | {{#if: {{{nb attractions|}}} |  Total : {{{nb attractions|}}}}}<!--
+-->{{#if: {{{nb coaster|}}} | <br />Nb ed montagnes russes : {{{nb coaster|}}}}}<!--
+-->{{#if: {{{nb aquatique|}}} | <br />Nb d'attrakcions aquatikes : {{{nb aquatique|}}}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nombe&nbsp;éd&nbsp;visiteus
+ | {{{nb de visiteurs|}}}
+ | {{{nb de visiteurs|}}} {{#if: {{{année visiteurs|}}}|<small>({{{année visiteurs}}})</small>}}
+}}
+{{Infobox/Ligne mixte site web optionnelle
+ | Site Ouèbe
+ | {{{site web|}}}
+}}
+{{Infobox/Ligne mixte latitude longitude optionnelle
+ | Coordonnées|{{{latitude|}}}|{{{longitude|}}}|type:landmark_scale:5000|dms long||||title=oui
+}}
+{{#ifexist:Modèle:Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|
+{{Infobox/Géolocalisation multiple
+ | géolocalisation = {{{géolocalisation|}}}
+ | latitude = {{{latitude|}}}
+ | longitude = {{{longitude|}}}
+ | toponyme = {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+ | point = Site sans toponyme
+}}
+}}
+{{Infobox/Notice
+ | Infoboète Parc éd loésirs <!--Infobox Parc de loisirs--> | DFDDFD
+}}
+{{Infobox/Fin}}<!--
+les mauvais paramétrages
+-->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Page géolocalisable sans coordonnées paramétrées|Parc de loisirs]]}}}}}}}}</includeonly><!--
+
+ Catégorisation-->{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{#if:{{{latitude|}}}|<!--[[Catégorie:Article géolocalisé sur Terre]]-->}}}}<noinclude><!--{{Documentation}}--></noinclude>

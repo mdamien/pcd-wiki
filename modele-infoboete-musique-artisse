@@ -1,0 +1,85 @@
+<noinclude>{{Infobox V2}}
+<!--==============================================================
+
+==============================================================-->
+</noinclude><includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete musique" style="background-color:rgb(23,165,165);" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+|-
+{{#if:{{{image|}}} | 
+{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{image}}}|{{#if:{{{taille image|}}}|{{{taille image}}}|180px}}|{{#if:{{{légende|}}}|{{{légende}}}|Image associée à la personnalité}}]]
+{{!-}}
+| [[Catégorie:Article à illustrer]]
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+<!--
+   Informations générales
+-->{{#if:{{{nom de naissance|}}} |
+! scope=row {{!}} Nom d' naissance
+{{!}} {{{nom de naissance|}}}
+{{!-}}
+}}
+{{#if:{{{surnom|}}} |
+! scope=row {{!}} Surpitchet
+{{!}} {{{surnom|}}}
+{{!-}}
+}}
+{{#if:{{{date de naissance|}}} |
+! scope=row {{!}} Né(e) l’
+{{!}} {{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|<br>{{{lieu de naissance}}}|}}
+{{!-}}
+}}
+{{#if:{{{nationalité|}}} |
+! scope=row {{!}} Nacionalité(s)
+{{!}} {{{nationalité|}}}
+{{!-}}
+}}
+{{#if:{{{date de mort|}}} |
+! scope=row {{!}} Défuncté
+{{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
+{{!-}}
+}}
+{{#if:{{{profession(s)|}}} |
+! scope=row {{!}} Proféchon(s)
+{{!}} {{{profession(s)|}}}
+{{!-}}
+}}
+{{#if:{{{genre|}}} |
+! scope=row {{!}} Ginre musical
+{{!}} {{{genre|}}}
+{{!-}}
+}}
+{{#if:{{{instrument|}}} |
+! scope=row {{!}} instrumint
+{{!}} {{{instrument|}}}
+{{!-}}
+}}
+{{#if:{{{années actives|}}} |
+! scope=row {{!}} Innées actives
+{{!}} {{{années actives|}}}
+{{!-}}
+}}
+{{#if:{{{label|}}} |
+! scope=row {{!}} Labels
+{{!}} {{{label|}}}
+{{!-}}
+}}
+<!--
+-->{{#if:{{{site internet|{{{site web|}}}}}}|
+! scope=row {{!}} Site oficièl
+{{!}} {{{site internet|{{{site web}}}}}}
+{{!-}}
+}}
+{{#if:{{{récompense|}}} |
+! scope=row {{!}} récompinse(s)
+{{!}} {{{récompense|}}}
+{{!-}}
+}}
+|}</includeonly><noinclude>[[catégorie:Infoboète]]
+</includeonly><noinclude><!--{{Documentation}}--></noinclude>

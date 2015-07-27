@@ -1,0 +1,240 @@
+<noinclude>{{Bandeau Infobox V2}}[[catégorie:Infoboète]]
+<!--==============================================================
+          AFFUTE ! : L' MODIFICATION D'EUNE INFOBOÈTE ALE PEUT ENTRAÎNER DES PROBLÈMES 
+         EDSEUR TOUTES CHÉS PACHES DOUSQU'ALE EST INCLUSE.
+==============================================================-->
+</noinclude><includeonly>{| class="infobox_v2 vcard" cellspacing="7" border="0" style="border-color:#8888AA;"
+| colspan="2" class="entete {{#if:{{{entete|}}}|{{{entete|}}}|defaut}}" style="background-color:#EEEEFF;color:black;" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
+|-
+{{#if:{{{image|}}} |
+{{!}} colspan="2" align="center" {{!}} [[Image:{{{image|}}}|{{#if:{{{taille image|}}}|{{{taille image}}}px|220px}}|center|{{{légende|}}}]]
+{{!-}}
+|[[Catégorie:Artique à illustrer]]
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+<!--
+GENERALITES-->
+{{Sous-titre optionnel|Généralités|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle|Païs| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
+{{Ligne optionnelle|Étot|{{{état|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Sport|{{{sport|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Créachon|{{{création|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |1<sup>re</sup> apparicion|{{{apparition|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Disparicion|{{{disparition|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Eute(s) nom(s)|{{{autre nom|}}}{{{ancien nom|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Organisateu(s)|{{{organisation|}}}{{{organisateur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Édicion|{{{édition|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Édicions|{{{nombre d'éditions|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Catégorie|{{{niveau|}}}{{{catégorie|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Type / Format|{{{type|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Périodicité|{{{périodicité|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Liu|{{{lieu|}}} {{{nation|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Date|{{{date|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Nacions|{{{nations|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Participants|{{{participants|}}}{{{équipes|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Disciplines|{{{disciplines|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Épreuves|{{{nombre d'épreuves|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Nombe éd manches|{{{nombre de manche|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Matchs joués|{{{matchs joués|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Éstatut des participants|{{{statut des joueurs|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Surfache|{{{surface|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Directeu|{{{directeur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Dotacion|{{{dotation|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Affluinche|{{{affluence|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Distance|{{{distance|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Dénivelée|{{{dénivelée|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Site(s)|{{{site|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Site ouèbe|{{#if: {{{site web|}}}{{{web|}}}|<p class="plainlinks">{{{site web|}}}{{{web|}}}</p>|}}
+}}
+<!--
+HIERARCHIE  --> 
+{{Sous-titre optionnel|Hiérarchie|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle|Étot|{{{état|}}}}}
+{{#if:{{{hiérarchie|}}} |
+! scope=row {{!}} hiérarchie
+{{!}} {{{hiérarchie|}}}
+{{!-}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Hiérarchie|{{{hiérarchie|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Niviau supérieur|{{{hiérarchie+|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Niviau inférieur|{{{hiérarchie-|}}}
+}}
+<!--
+PALMARES {{#if: {{{vainqueur coupe FIA des pilotes|}}}{{{champion pilote|}}}{{{champion copilote|}}}{{{champion constructeur|}}} {{{vainqueur|}}}{{{finaliste|}}}{{{deuxième|}}}{{{demi-finalistes|}}}{{{champion europe|}}}{{{troisième|}}}{{{plus titré|}}}{{{buts|}}}{{{points|}}}{{{plus médaillés|}}}{{{meilleure nation|}}}{{{records|}}}{{{meilleur buteur|}}}{{{meilleur joueur|}}}{{{meilleur passeur|}}}{{{meilleur marqueur|}}}{{{meilleur réalisateur|}}}{{{meilleur pointeur|}}}{{{plus apparitions|}}}{{{promu fin|}}}{{{relégué|}}}{{{relégué fin|}}}{{{barragiste|}}}{{{record wickets|}}}{{{record runs|}}}{{{champion europe|}}}{{{yelcards|}}}{{{redcards|}}}{{{sous-compétition 1|}}}{{{tenant|}}}{{{promu début|}}}{{{relégué début|}}}| -->
+{{Sous-titre optionnel|Palmarès|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Vainqueur coupe FIA des pilotes|{{{vainqueur coupe FIA des pilotes|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Campion pilote|{{{champion pilote|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Campion copilote|{{{champion copilote|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Campion constructeu|{{{champion constructeur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Tenant du tite|{{{tenant|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Promu(s) in début d' saison|{{{promu début|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Érlégué(s) in début d' saison|{{{relégué début|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Éscofieu|{{{vainqueur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Finalisse|{{{finaliste|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Deusième|{{{deuxième|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Troésième|{{{troisième|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |D'mi-finalisses|{{{demi-finalistes|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Campion d'Urope|{{{champion europe|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Pus titré(s)|{{{plus titré|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Promu(s)|{{{promu fin|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Arlégué(s)|{{{relégué|}}}{{{relégué fin|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Buts|{{{buts|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Points|{{{points|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |{{yel}} Gannes Cartons|{{{yelcards|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |[[Image:Yellow Red Card.svg|10px|=Double jaune]] Doubes Gannes|{{{doubleyelcards|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |[[Fichier:Red card.svg|10px]] Rouches Cartons|{{{redcards|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Pus médaillés|{{{plus médaillés|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Meilleure nacion|{{{meilleure nation|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Ércords|{{{records|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |{{#if: {{{joueuses|}}} | Meilleure jueuse | Meilleur jueur}}|{{{meilleur joueur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Soulier d'or|{{{soulier d'or|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |{{#if: {{{joueuses|}}} | Meilleure(s) buteuse(s) | Meilleur(s) buteu(s) }}|{{{meilleur buteur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |{{#if: {{{joueuses|}}} | Meilleure(s) passeuse(s) | Meilleur(s) passeu(s) }}|{{{meilleur passeur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |{{#if: {{{joueuses|}}} | Meilleure marqueuse | Meilleur(s) marqueu(s) }}|{{{meilleur marqueur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Meilleur réalisateu|{{{meilleur réalisateur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Meilleur pointeu|{{{meilleur pointeur|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Pus d'apparicions|{{{plus apparitions|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Ércord d' courses]]|{{{record runs|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Ércord d' guichets|{{{record wickets|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Barragiste(s)|{{{barragiste|}}}
+}}
+|}
+<noinclude>
+<!--{{Documentation}}-->
+<!-- Chés catégories pi intérwikis is doétte ète rajoutés dins l'edsous-pache /Documentation et pi poin ichi. Merchi. --></noinclude>

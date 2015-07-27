@@ -44,6 +44,11 @@
 {{!}} {{{nationalité|}}}
 {{!-}}
 }}
+{{#if:{{{pays|}}} |
+! scope=row {{!}} Poéyis
+{{!}} {{{pays|}}}
+{{!-}}
+}}
 {{#if:{{{pays de résidence|}}} |
 ! scope=row {{!}} Poéyis d' résidinche
 {{!}} {{{pays de résidence|}}}
@@ -59,9 +64,50 @@
 {{!}} {{{profession|}}}
 {{!-}}
 }}
+<!--Sport-->
+{{#if:{{{type coureur|}}} |
+! scope=row {{!}} type coureu
+{{!}} {{{type coureur|}}}
+{{!-}}
+}}
 {{#if:{{{équipe|}}} |
 ! scope=row {{!}} étchipe
 {{!}} {{{équipe|}}}
+{{!-}} 
+}}
+{{#if:{{{équipes amateur|}}} |
+! scope=row {{!}} étchipes amateu
+{{!}} {{{équipes amateur|}}}
+{{!-}}
+}}
+{{#if:{{{équipes pro|}}} |
+! scope=row {{!}} étchipes pro
+{{!}} {{{équipes pro|}}}
+{{!-}}
+}}
+{{#if:{{{années amateur|}}} |
+! scope=row {{!}} Innées amateu
+{{!}} {{{années amateur|}}}
+{{!-}}
+}}
+{{#if:{{{années pro|}}} |
+! scope=row {{!}} Innées pro
+{{!}} {{{années pro|}}}
+{{!-}}
+}}
+{{#if:{{{victoires principales|}}} |
+! scope=row {{!}} princhipales victoères 
+{{!}} {{{victoires principales|}}}
+{{!-}}
+}}
+{{#if:{{{années direction|}}} |
+! scope=row {{!}} Innées dirékcion
+{{!}} {{{années direction|}}}
+{{!-}}
+}}
+{{#if:{{{équipes dirigées|}}} |
+! scope=row {{!}} étchipes dirigées
+{{!}} {{{équipes dirigées|}}}
 {{!-}}
 }}
 {{#if:{{{activité principale|}}} |

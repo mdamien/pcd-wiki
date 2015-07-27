@@ -28,6 +28,47 @@
 
 * [https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Cl%C3%A9ry  Wikimédia France met à disposition de la communauté une partie de ses bureaux.]
 
+== Infoboète ==
+<nowiki>
+
+<noinclude>{{Bandeau Infobox V2}}[[catégorie:Infoboète]]
+<!--==============================================================
+          AFFUTE ! : L' MODIFICATION D'EUNE INFOBOÈTE ALE PEUT ENTRAÎNER DES PROBLÈMES 
+         EDSEUR TOUTES CHÉS PACHES DOUSQU'ALE EST INCLUSE.
+==============================================================-->
+</noinclude><includeonly>{| class="infobox_v2 vcard" cellspacing="7" border="0" style="border-color:#8888AA;"
+| colspan="2" class="entete {{#if:{{{entete|}}}|{{{entete|}}}|defaut}}" style="background-color:#EEEEFF;color:black;" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
+|-
+{{#if:{{{image|}}} |
+{{!}} colspan="2" align="center" {{!}} [[Image:{{{image|}}}|{{#if:{{{taille image|}}}|{{{taille image}}}px|220px}}|center|{{{légende|}}}]]
+{{!-}}
+|[[Catégorie:Artique à illustrer]]
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+
+{{Sous-titre optionnel|Généralités|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
+{{Ligne optionnelle|Païs| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
+{{Ligne optionnelle|Étot|{{{état|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Sport|{{{sport|}}}
+}}
+{{Infobox V3/Tableau Ligne mixte|width=10.5
+  |Création|{{{création|}}}
+}}
+
+{{#if:{{{signature|}}}| 
+{{!}} colspan="2" style="font-size: smaller; text-align: center;" {{!}}'''Signature'''<br/>
+[[Image:{{{signature}}}|128px|]]}}
+|}
+<noinclude>
+<!--{{Documentation}}-->
+<!-- Chés catégories pi intérwikis is doétte ète rajoutés dins l'edsous-pache /Documentation et pi poin ichi. Merchi. --></noinclude>
+
+</nowiki>
+
 ==copyright==
 * Pour les chercheurs et les créateurs qui n'ont pas trouvé d'éditeur afin que leurs idées ne soient pas perdues et servent à tous, il est évident que ce qui sera partagé tombera dans le domaine public mais les auteurs conservent le bénéfice de l'antériorité, ce qui leur permet d'éditer leurs créations, fruit de leurs recherches, sans leur en réserver le copyright.
 * Inversement, tout exploitation de leurs travaux par autrui est libre et exempte de droits, mais on ne peut leur opposer un copyright, de la même façon qu'une enveloppe Soleau permet à son auteur d'éditer et de faire fructifier ses travaux.

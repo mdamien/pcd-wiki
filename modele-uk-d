@@ -1,0 +1,19 @@
+{{CIO-d|the United Kingdom|Royaume-Uni|{{{1|20px}}}}}<noinclude>
+<!--{{Documentation|contenu=
+{{CIO-d/Documentation}}-->
+== TemplateData ==
+<templatedata>
+{
+  "description": "Modèle drapieu deul Grande-Bértanne",
+  "params": {
+    "1": {
+      "label": "Taille",
+      "description": "Largeur éd l'icône, pèr égzimpe « 25px » (pèr défaut : 20px).",
+      "type": "string"
+    }
+  }
+}
+</templatedata>
+}}<!-- fin contenu --> 
+[[Catégorie:Modèle drapieu]]
+</noinclude>

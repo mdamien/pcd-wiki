@@ -66,7 +66,7 @@
  | Nombe d'attrakcions
  | {{{nb attractions|}}}{{{nb coaster|}}}{{{nb aquatique|}}}
  | {{#if: {{{nb attractions|}}} |  Total : {{{nb attractions|}}}}}<!--
--->{{#if: {{{nb coaster|}}} | <br />Nb ed montagnes russes : {{{nb coaster|}}}}}<!--
+-->{{#if: {{{nb coaster|}}} | <br />Nb ed montainnes russes : {{{nb coaster|}}}}}<!--
 -->{{#if: {{{nb aquatique|}}} | <br />Nb d'attrakcions aquatikes : {{{nb aquatique|}}}}}
 }}
 {{Infobox/Ligne mixte optionnelle

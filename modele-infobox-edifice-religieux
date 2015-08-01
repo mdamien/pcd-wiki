@@ -19,7 +19,7 @@
 {{!}} {{{nomlocal}}}
 {{!-}}
 }}
-! scope=row style=font-weight:normal valign=top {{!}} '''[[Coordonnées géographiques|Latitude<br />Longitude]]'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Latitude<br />Longitude'''
 | {{#if:{{{latitude|}}}|{{#if:{{{longitude|}}}|{{coordonnées|{{{latitude}}}/{{{longitude}}}/type:landmark|format=dms long}}|}}</small>|<small>''Non renseigné''<br />''([http://stable.toolserver.org/geohack/geohack.php?pagename=&language=fr&params=0_N_0_E_scale:80000000 Chercher ce lieu])''}}&nbsp;{{{référence|}}}
 |-
 {{#if:{{{pays|}}} | 
@@ -68,12 +68,12 @@
 {{!-}}
 }}
 {{#if:{{{architecte|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Arquitèque(s)'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Arkitèke(s)'''
 {{!}} {{{architecte}}}
 {{!-}}
 }}
 {{#if:{{{autres constr|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Eutes campagnes <br />éd construcchon'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Eutes campagnes <br />éd construkchon'''
 {{!}} {{{autres constr}}}
 {{!-}}
 }}
@@ -83,7 +83,7 @@
 {{!-}}
 }}
 {{#if:{{{classement|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''Classé(e)'''
+! scope=row style=font-weight:normal valign=top {{!}} '''Claché(e)'''
 {{!}} {{{classement}}}
 {{!-}}
 }}
@@ -92,8 +92,10 @@
 {{!}} <span class="plainlinks">[{{{siteweb}}} Consulter]</span>
 {{!-}}
 }}
-{{#if:{{{géolocalisation|}}}|
-! colspan="2" style="text-align:center; background-color:#E7E7E7; color:black" {{!}} Localisation
+<!--
+Géolocalisacion
+-->{{#if:{{{géolocalisation|}}}|
+! colspan="2" style="text-align:center; background-color:#E7E7E7; color:black" {{!}} Localisacion
 {{!-}}
 }}
 |-
@@ -101,7 +103,7 @@
   {{#ifexist:Modèle:Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|
     {{!}} colspan=2 align=center {{!}} {{#if:{{#titleparts:{{{géolocalisation|}}}|1|2}}|<div class=img_toogle>
 <div class=geobox>
-&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|name}}]]</small>
+&nbsp; <small> Géolocalisation édseur el carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|name}}]]</small>
 {{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|2}}|image}}|250px|(Voir situation sur carte : {{#titleparts:{{{géolocalisation|}}}|1|2}})]]
 {{G|{{#titleparts:{{{géolocalisation|}}}|1|2}}
 |{{Coordonnées/dms2dec|{{{latitude|}}}}}
@@ -110,7 +112,7 @@
 |{{#switch: {{{culte|}}}|[[Islam]]=Mosquée sans toponyme|[[Islam|Musulman]]=Mosquée sans toponyme||[[Judaïsme]]=Synagogue sans toponyme|[[Judaïsme|Israëlite]]=Synagogue sans toponyme|#default=Église sans toponyme}}}}
 {{Fin de carte}}
 </div><div class=geobox>
-&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|name}}]] </small>
+&nbsp; <small> Géolocalisation édseur el carte : [[{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|name}}]] </small>
 {{Début de carte}}[[Fichier:{{Géolocalisation/{{#titleparts:{{{géolocalisation|}}}|1|1}}|image}}|250px|(Voir situation sur carte : {{#titleparts:{{{géolocalisation|}}}|1|1}})]]
 {{G|{{#titleparts:{{{géolocalisation|}}}|1|1}}
 |{{Coordonnées/dms2dec|{{{latitude|}}}}}
@@ -118,7 +120,7 @@
 |{{PAGENAME}}
 |{{#switch: {{{culte|}}}|[[Islam]]=Mosquée sans toponyme|[[Islam|Musulman]]=Mosquée sans toponyme||[[Judaïsme]]=Synagogue sans toponyme|[[Judaïsme|Israëlite]]=Synagogue sans toponyme|#default=Église sans toponyme}}}}
 {{Fin de carte}}
-</div></div>|&nbsp; <small> Géolocalisation sur la carte : [[{{Géolocalisation/{{{géolocalisation}}}|name}}]] </small>
+</div></div>|&nbsp; <small> Géolocalisation édseur el carte : [[{{Géolocalisation/{{{géolocalisation}}}|name}}]] </small>
 {{Début de carte}}[[Fichier:{{Géolocalisation/{{{géolocalisation}}}|image}}|250px]]
 {{G|{{{géolocalisation}}}
 |{{Coordonnées/dms2dec|{{{latitude}}}}}

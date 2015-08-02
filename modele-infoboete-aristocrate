@@ -88,10 +88,10 @@
  | Surpitchet | {{{surnom|}}}
 }}
 {{Infobox/Ligne mixte optionnelle
- | Naissance | {{{date de naissance|}}} | {{#invoke:Date|dateInfobox|naissance|{{{date de naissance|}}}|{{{date de décès|}}}|qualificatif={{{qualificatif date|}}} }}<br />{{{lieu de naissance|}}}
+ | Naissance | {{{date de naissance|}}} <!--| {{#invoke:Date|dateInfobox|naissance|{{{date de naissance|}}}|{{{date de décès|}}}|qualificatif={{{qualificatif date|}}} }}<br />{{{lieu de naissance|}}}-->
 }}
 {{Infobox/Ligne mixte optionnelle
- | Défuncté | {{{date de décès|}}} | {{#invoke:Date|dateInfobox|mort|{{{date de naissance|}}}|{{{date de décès|}}}|qualificatif={{{qualificatif date|}}} }}<br />{{{lieu de décès|}}}
+ | Défuncté | {{{date de décès|}}} <!--| {{#invoke:Date|dateInfobox|mort|{{{date de naissance|}}}|{{{date de décès|}}}|qualificatif={{{qualificatif date|}}} }}<br />{{{lieu de décès|}}}-->
 }}
 {{Infobox/Ligne mixte optionnelle
  | Père | {{{père|}}}

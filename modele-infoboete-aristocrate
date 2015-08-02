@@ -1,0 +1,125 @@
+<noinclude><!--==============================================================
+
+::AFFUTE
+
+==============================================================--></noinclude>
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nom|{{PAGENAME}}}}} | DFDFDF | entete personne
+}}
+{{#if:{{{image|}}}
+  |{{#ifexist: Media:{{{image|}}}
+     |{{Infobox/Image
+       |{{{image}}}
+       |{{{légende|}}}
+       |{{#if:{{{taille image|}}}|{{{taille image|}}}|250}}
+       |{{{légende|{{PAGENAME}} }}}
+       |
+       |
+       |Arbitre
+      }}
+     |{{Infobox/Ligne optionnelle|{{{image|}}} }}
+   }}
+}}
+{{Infobox/Séparateur optionnel|{{{image|}}} }}
+{{Infobox/Ligne mixte optionnelle
+ | Eutes noms | {{{noms|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Tite | {{{titre1|}}} | {{{titre1|}}} {{#if:{{{début de règne|}}}{{{fin de règne|}}}|<br /> ({{{début de règne|}}}-{{{fin de règne|}}})}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Eutre tite | {{{titre2|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Couronnemint | {{{couronnement|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Sacre | {{{sacre|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Prédécesseu | {{{prédécesseur|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Successeu | {{{successeur|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Arme | {{{arme|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Alléginche | {{{allégeance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Grade militoère | {{{grade militaire|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Innées d' service | {{{début de carrière|}}} | {{{début de carrière|}}} {{#if:{{{fin de carrière|}}} |-}} {{{fin de carrière|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Commandemint | {{{commandement|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Gouvérnemint militoère | {{{gouvernement militaire|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Conflits | {{{conflits|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Foaits d'armes | {{{faits d'armes|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Distinkcions | {{{distinctions|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Eutes fonkcions | {{{autres fonctions|}}}
+}}
+{{Infobox/Sous-titre optionnel
+|Biografie
+|{{{nom de naissance|}}}{{{surnom|}}}{{{date de naissance|}}}{{{lieu de naissance|}}}{{{date de décès|}}}{{{lieu de décès|}}}{{{père|}}}{{{mère|}}}{{{conjoint|}}}{{{liaisons|}}}{{{enfants|}}}
+|DFDFDF
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Dynastie | {{{dynastie|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nom d' naissance | {{{nom de naissance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Surpitchet | {{{surnom|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Naissance | {{{date de naissance|}}} | {{#invoke:Date|dateInfobox|naissance|{{{date de naissance|}}}|{{{date de décès|}}}|qualificatif={{{qualificatif date|}}} }}<br />{{{lieu de naissance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Défuncté | {{{date de décès|}}} | {{#invoke:Date|dateInfobox|mort|{{{date de naissance|}}}|{{{date de décès|}}}|qualificatif={{{qualificatif date|}}} }}<br />{{{lieu de décès|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Père | {{{père|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Mère | {{{mère|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Conjoint  | {{{conjoint|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Liaisons | {{{liaisons|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Éfants | {{{enfants|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Signature
+ | {{{signature|}}}
+ | {{#ifexist: Media:{{{signature|}}}
+     | [[Image:{{{signature}}}|{{{taille signature|150}}}px|left]]
+     | {{{signature}}}
+   }}
+}}
+{{Infobox/Séparateur optionnel|{{{blason|}}} }}
+{{Infobox/Ligne optionnelle|{{{blason|}}} | <center>{{#if:{{{ornements extérieurs|}}}|{{Armoiries avec ornements communs|{{{ornements extérieurs|}}}|blason={{{blason|}}}|coef={{{coef blason|0.8}}}}}|[[Image:{{{blason|}}}|{{#if:{{{taille blason|}}}|{{{taille blason|}}}px|100px}}]]}}</center>
+}}
+{{Infobox/Notice
+ | Infobox Aristocrate
+}}
+{{Infobox/Fin}}<!--{{Suivi des biographies}}--></includeonly><noinclude><!--{{Documentation}}-->[[catégorie:Infoboète]]</noinclude>

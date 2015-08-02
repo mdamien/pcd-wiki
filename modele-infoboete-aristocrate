@@ -7,21 +7,10 @@
 {{Infobox/Titre
  | {{{nom|{{PAGENAME}}}}} | DFDFDF | entete personne
 }}
-{{#if:{{{image|}}}
-  |{{#ifexist: Media:{{{image|}}}
-     |{{Infobox/Image
-       |{{{image}}}
-       |{{{légende|}}}
-       |{{#if:{{{taille image|}}}|{{{taille image|}}}|250}}
-       |{{{légende|{{PAGENAME}} }}}
-       |
-       |
-       |Arbitre
-      }}
-     |{{Infobox/Ligne optionnelle|{{{image|}}} }}
-   }}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|}}|280|{{{légende|}}}|
 }}
-{{Infobox/Séparateur optionnel|{{{image|}}} }}
+{{Infobox/Séparateur optionnel|{{{image|}}} }}légende
 {{Infobox/Ligne mixte optionnelle
  | Eutes noms | {{{noms|}}}
 }}

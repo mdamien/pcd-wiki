@@ -1,3 +1,29 @@
-{{Rom|{{{1}}}}}{{exp|{{{2}}}}}&nbsp;siècle<noinclude>
-{{/Documentation}}
+<includeonly>{{#switch: {{{1}}}
+  | 1  = <span style="cursor:help" title="Nombe 1 in chiffe romain">I</span>
+  | 2  = <span style="cursor:help" title="Nombe 2 in chiffe romain">II</span>
+  | 3  = <span style="cursor:help" title="Nombe 3 in chiffe romain">III</span>
+  | 4  = <span style="cursor:help" title="Nombe 4 in chiffe romain">IV</span>
+  | 5  = <span style="cursor:help" title="Nombe 5 in chiffe romain">V</span>
+  | 6  = <span style="cursor:help" title="Nombe 6 in chiffe romain">VI</span>
+  | 7  = <span style="cursor:help" title="Nombe 7 in chiffe romain">VII</span>
+  | 8  = <span style="cursor:help" title="Nombe 8 in chiffe romain">VIII</span>
+  | 9  = <span style="cursor:help" title="Nombe 9 in chiffe romain">IX</span>
+  | 10 = <span style="cursor:help" title="Nombe 10 in chiffe romain">X</span>
+  | 11 = <span style="cursor:help" title="Nombe 11 in chiffe romain">XI</span>
+  | 12 = <span style="cursor:help" title="Nombe 12 in chiffe romain">XII</span>
+  | 13 = <span style="cursor:help" title="Nombe 13 in chiffe romain">XIII</span>
+  | 14 = <span style="cursor:help" title="Nombe 14 in chiffe romain">XIV</span>
+  | 15 = <span style="cursor:help" title="Nombe 15 in chiffe romain">XV</span>
+  | 16 = <span style="cursor:help" title="Nombe 16 in chiffe romain">XVI</span>
+  | 17 = <span style="cursor:help" title="Nombe 17 in chiffe romain">XVII</span>
+  | 18 = <span style="cursor:help" title="Nombe 18 in chiffe romain">XVIII</span>
+  | 19 = <span style="cursor:help" title="Nombe 19 in chiffe romain">XIX</span>
+  | 20 = <span style="cursor:help" title="Nombe 20 in chiffe romain">XX</span>
+  | 21 = <span style="cursor:help" title="Nombe 21 in chiffe romain">XXI</span>
+  | 22 = <span style="cursor:help" title="Nombe 22 in chiffe romain">XXII</span>
+  | 23 = <span style="cursor:help" title="Nombe 22 in chiffe romain">XXIII</span>
+  | {{{1}}}
+}}<sup>{{#ifeq:{{{1}}}|1|er|e}}</sup> sièke</includeonly><noinclude>
+<!--{{Documentation}}-->
+[[Catégorie:Modèles]]
 </noinclude>

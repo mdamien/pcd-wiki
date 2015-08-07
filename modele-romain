@@ -1,0 +1,32 @@
+<includeonly><span class="romain" {{{2|}}}>{{{1}}}</span></includeonly><noinclude>
+
+;Vir itou
+:* {{M|rom}} nombe romain normal in tiotes capitales.<!--
+{{Documentation}}
+; Utilisation
+:Modèle de base permettant de formater un nombre romain.
+:Par défaut il s'affichera en <span class="romain" style="text-transform:lowercase;font-variant:small-caps;">petites capitales romaines</span> uniquement. On peut éventuellement préciser une variante de style, mais il est préférable d'utiliser les autres modèles indiqués ci-dessous.
+
+; Syntaxe
+: <source lang="text">{{Romain|1=''nombre romain''|2=''formatage''}}</source>
+;Paramètres;
+:* <code>1</code> : le nombre romain écrit en lettres MAJUSCULES (obligatoire).
+:* <code>2</code> : indications de formatage pour l'élément <code><nowiki><span></nowiki></code> (optionnel). S’il est présent, il doit l'être sous la forme « <code>2=''attribut1''="''valeur1''" ''attribut2''="''valeur2''"...</code> ».
+
+;Exemple
+:* « <code><nowiki>{{romain|XII|2=title="Nombre 12 écrit en chiffres romains"}}</nowiki></code> » donne « {{romain|XII|2=title="Nombre 12 écrit en chiffres romains"}} »
+
+;Notes sur le rendu
+:* « <code><nowiki>{{romain|xviij}}</nowiki></code> » donne « {{romain|xviij}} ». Cet exemple, utilisant un paramètre écrit en lettres minuscules, ne devrait pas s'afficher en minuscules mais bien en petites capitales si le navigateur supporte le style "small-caps" (pas les anciennes versions de Mozilla ou Netscape).
+:* « <code><nowiki>{{romain|XVIIJ}}</nowiki></code> » donne « {{romain|XVIIJ}} ». Cet exemple, utilisant un paramètre écrit en lettres majuscules, ne devrait pas s'afficher en grandes capitales mais bien en petites capitales si le navigateur supporte la transformation de texte en minuscules (pas Internet Explorer)
+:* Le thème d’affichage de l’utilisateur peut ne pas afficher le style par défaut, défini par la classe CSS nommée ici "romain", et peut donc conserver le premier paramètre tel qu'il est écrit dans l'article où ce modèle est utilisé.
+
+;Voir aussi
+:* {{M|rom}} nombre romain normal en petites capitales.
+:* {{M|rom-maj}} nombre romain en grandes capitales.
+:* {{M|rom-min}} nombre romain en minuscules.
+:* {{M|nombre en romain}} modèle permettant de convertir un nombre arabe en nombre romain.
+-->
+
+[[Catégorie:Modèle]]
+</noinclude>

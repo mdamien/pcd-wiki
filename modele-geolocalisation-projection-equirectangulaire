@@ -1,0 +1,11 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: 100 * ({{{2}}}-({{{top}}}))/({{{bottom}}}-({{{top}}})) }}
+|x={{#expr: 100 * ({{{3}}}-({{{left}}}))/({{{right}}}-({{{left}}})) }}
+|code={{Géolocalisation/Projection équirectangulaire/Code<!--
+-->|image={{{image|}}}|iwidth={{{iwidth|}}}|iheight={{{iheight|}}}<!--
+-->|top={{{top|}}}|bottom={{{bottom|}}}<!--
+-->|left={{{left|}}}|right={{{right|}}}<!--
+-->|name={{{name|}}}|zone={{{zone|}}}|geo={{{geo|}}}<!---->}}
+|projection|modèle=Projection équirectangulaire
+|#default={{{ {{{1}}}|}}}
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

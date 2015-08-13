@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bavière
+| shortname alias = Bavière
+| sortkey = Baviere
+| flag alias = Flag of Bavaria (lozengy).svg
+| alt attribute = Drapeau de Bavière
+| flag alias-horizontal = Flag of Bavaria (striped).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = horizontal
+| redir1 = État libre de Bavière
+| related1 = Électorat de Bavière
+| related2 = République des conseils de Bavière
+| related3 = Royaume de Bavière
+| related4 = Allemagne
+</noinclude>
+}}

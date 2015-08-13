@@ -33,14 +33,17 @@ Anménistrachon
 {{Sous-titre optionnel|Aménistracion|couleur fond={{{couleur|#ffdead}}}|couleur={{{couleur titre|black}}}}}
 {{Ligne optionnelle|Païs| {{#ifexist: Modèle:{{{pays|}}} | {{{{{pays}}}}} | {{{pays|}}} }}}}
 {{Ligne optionnelle|Étot|{{{état|}}}}}
-{{Ligne optionnelle|Colectivité|{{{collectivité|}}}}}
+{{Ligne optionnelle|Colectivité|{{{collectivité|}}}}}<!--alemanne-->
+{{Ligne optionnelle|{{{nom de division|Land}}}|{{{land|}}}}}<!-- 
+{{Ligne optionnelle|{{{nom de division2|District}}}|{{{district|}}}}}--> 
 {{Ligne optionnelle|Région|{{{région|}}}}}
 {{Ligne optionnelle|Provinche|{{{province|}}}}}
 {{Ligne optionnelle|Départémint|{{{département|}}}}}
 {{Ligne optionnelle|Munichipalité|{{{municipalité|}}}}}
 {{Ligne optionnelle|Parosse|{{{paroisse|}}}}}
-{{Ligne optionnelle|Arrondichemint|{{{arrondissement|}}}}}
 {{Ligne optionnelle|District|{{{district|}}}}}
+{{Ligne optionnelle|Arrondichemint|{{{arrondissement|}}}}}
+{{Ligne optionnelle|{{{nom de division3|Arrondichemint<br /><small>(Landkreis)</small>}}}|{{{arr|}}}}}
 {{Ligne optionnelle|Kraj (région)|{{{kraj|}}}}}
 {{Ligne optionnelle|Okres (district)|{{{okres|}}}}}
 {{Ligne optionnelle|Obec (munichipalité)|{{{obec|}}}}}
@@ -61,8 +64,7 @@ Anménistrachon
 {{Ligne optionnelle|{{{nom de code postal|Code possal}}}|{{{cp|}}}}}
 {{Ligne optionnelle|{{{nom de code1|}}}|{{{code1|}}}}}
 {{Ligne optionnelle|{{{nom de code2|}}}|{{{code2|}}}}}
-{{Ligne optionnelle|{{{nom de code3|}}}|{{{code3|}}}}}<!-- 
-
+{{Ligne optionnelle|{{{nom de code3|}}}|{{{code3|}}}}}<!--
 Jourgrafie 
 
 -->

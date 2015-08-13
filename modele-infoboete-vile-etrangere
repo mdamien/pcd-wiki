@@ -48,7 +48,11 @@ Anménistrachon
 {{Ligne optionnelle|Okres (district)|{{{okres|}}}}}
 {{Ligne optionnelle|Obec (munichipalité)|{{{obec|}}}}}
 {{Ligne optionnelle|Ramòÿmint|{{{agglomération|}}}}}
+{{Ligne optionnelle|immatriculacion|{{{immatriculation|}}}}}
+{{Ligne optionnelle|immatriculacion|{{{Immatriculation|}}}}}
 {{Ligne optionnelle|Maire|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|<br />{{{mandat maire}}}|}}|}}}}
+{{Ligne optionnelle|partis|{{{partis|}}}}}
+{{Ligne optionnelle|partis|{{{Conseillers|}}}}}
 {{Ligne optionnelle|Landeshauptmann|{{#if:{{{landeshauptmann|}}}|{{{landeshauptmann}}}{{#if:{{{mandat Landeshauptmann|}}}|<br />{{{mandat Landeshauptmann}}}|}}|}}}}
 {{Ligne optionnelle|Préfet|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|<br />{{{mandat préfet}}}|}}|}}}}
 {{Ligne optionnelle|Gouvérneu|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|<br />{{{mandat gouverneur}}}|}}|}}}}

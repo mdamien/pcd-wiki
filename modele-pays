@@ -1,0 +1,6 @@
+<includeonly>{{country data {{{1}}}
+|Pays/callback
+|name = {{{name|{{{nom|{{{1|}}}}}}}}}
+|variant={{{variant|{{{2|}}}}}}
+|size= {{{size|{{{taille|20x18}}}}}}px
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

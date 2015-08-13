@@ -1,0 +1,66 @@
+<includeonly>{{Infobox Subdivision administrative
+|modèle                   = Infoboète Étot d'Alemanne<!--Paramètre obligatoire pour un modèle-->
+|nom                      = {{{nom|{{PAGENAME}} }}}
+|autres noms              = {{{nom allemand|}}}
+|couleur                  = BBDEFD
+|blason                   = {{{blason|}}}
+|légende blason           = {{{légende blason|Armoiries}}}
+|drapeau                  = {{{drapeau|}}}
+|légende drapeau          = {{{légende drapeau|Drapeau}}}
+|image                    = {{{imageloc|}}}
+|légende                  = {{{légende imageloc|}}}
+|pays                     = Alemanne
+|nom de division          = Capitale
+|division                 = {{{capitale|}}}
+|titre autorité           = {{{titre président|Ministre-président}}}
+|autorité                 = {{{ministre-président|}}}
+|nom de code1             = [[ISO 3166-2:DE|ISO 3166-2]]
+|code1                    = {{#Property:P300}}
+|population               = {{{population|}}}
+|population notes         = {{{population notes|}}}
+|année_pop                = {{{année_pop|}}}
+|nom divers démographie   = Rang
+|inline                   = non
+|type coord               = adm1st
+|latitude                 = {{{latitude|}}}
+|longitude                = {{{longitude|}}}
+|divers démographie       = {{#if:{{{rang population|}}}|{{{rang population}}}{{#ifeq:{{{rang population}}}|1|{{er}}|{{e}}}}}}
+|nom divers démographie2  = PIB{{#if:{{{date pib|}}}|&nbsp;<small>({{{date pib}}})</small>}}<br /><br />PIB/hab.
+|divers démographie2      = {{#if:{{{pib|}}}
+|  {{unité|{{{pib}}}|Md €}}{{{pib notes|}}}{{#if:{{{rang pib|}}}|&nbsp;({{{rang pib}}}{{#ifeq:{{{rang pib}}}|1|{{er}}|{{e}}}})}}<!--
+--><br /><br /><!--
+-->{{unité|{{#expr:({{{pib}}}*1000000000)/{{{population}}} round -2}}|€}}{{#if:{{{rang pib par habitant|}}}|&nbsp;({{{rang pib par habitant}}}{{#ifeq:{{{rang pib par habitant}}}|1|{{er}}|{{e}}}})}}
+}}
+|superficie               = {{{superficie|}}}
+|superficie notes         = {{{superficie notes|}}}
+|nom divers géo           = Rang
+|divers géo               = {{#if:{{{rang superficie|}}}|{{{rang superficie}}}{{#ifeq:{{{rang superficie}}}|1|{{er}}|{{e}}}}}}
+|titre divers             = Politike
+|nom divers               = Parti<small>(s)</small> au pouvoir
+|divers                   = {{{partis au pouvoir|}}}
+|nom divers2              = {{{titre landtag|[[Landtag]]}}}<!--
+-->{{#if:{{{nom parti landtag 1|}}}|<br />{{{nom parti landtag 1}}} }}<!--
+-->{{#if:{{{nom parti landtag 2|}}}|<br />{{{nom parti landtag 2}}} }}<!--
+-->{{#if:{{{nom parti landtag 3|}}}|<br />{{{nom parti landtag 3}}} }}<!--
+-->{{#if:{{{nom parti landtag 4|}}}|<br />{{{nom parti landtag 4}}} }}<!--
+-->{{#if:{{{nom parti landtag 5|}}}|<br />{{{nom parti landtag 5}}} }}<!--
+-->{{#if:{{{nom parti landtag 6|}}}|<br />{{{nom parti landtag 6}}} }}<!--
+-->{{#if:{{{nom parti landtag 7|}}}|<br />{{{nom parti landtag 7}}} }}<!--
+--><br />'''Total'''
+|divers2                  =<!--
+-->{{#if:{{{nom parti landtag 1|}}}|<br />{{{sièges parti landtag 1|}}} }}<!--
+-->{{#if:{{{nom parti landtag 2|}}}|<br />{{{sièges parti landtag 2|}}} }}<!--
+-->{{#if:{{{nom parti landtag 3|}}}|<br />{{{sièges parti landtag 3|}}} }}<!--
+-->{{#if:{{{nom parti landtag 4|}}}|<br />{{{sièges parti landtag 4|}}} }}<!--
+-->{{#if:{{{nom parti landtag 5|}}}|<br />{{{sièges parti landtag 5|}}} }}<!--
+-->{{#if:{{{nom parti landtag 6|}}}|<br />{{{sièges parti landtag 6|}}} }}<!--
+-->{{#if:{{{nom parti landtag 7|}}}|<br />{{{sièges parti landtag 7|}}} }}<!--
+--><br />'''{{{sièges landtag|}}}'''
+|nom divers3              = Dareines élekcions au Landtag
+|divers3                  = {{{d-élec|}}}
+|nom divers4              = Prochaines élekcions au Landtag
+|divers4                  = {{{p-élec|}}}
+|nom divers5              = Nombe d' voés<br />au Bundesrat
+|divers5                  = {{{bundesrat|}}}
+|url                      = {{{site officiel|}}}
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

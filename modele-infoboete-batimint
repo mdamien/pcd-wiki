@@ -1,0 +1,59 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre|{{{nom|{{PAGENAME}}}}}|D4D0BA|entete map}}
+{{Infobox/Image|{{{image|}}}|{{{légende|}}}||{{{légende|Illustration.}}}|||Pont}}
+{{Infobox/Sous-titre optionnel|Jografie|{{{pays|}}}{{{région|}}}{{{province|}}}{{{subdivision|}}}{{{ville|}}}{{{latitude|}}}{{{longitude|}}}|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Poéyis|{{{pays}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{lien région|Région}}}|{{{région|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{lien province|Province historique}}}|{{{province|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{lien subdivision|Département}}}|{{{subdivision|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{lien subdivision1}}} | {{{subdivision1|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{lien subdivision2}}} | {{{subdivision2|}}}}}
+{{Infobox/Ligne mixte optionnelle|Localité|{{{ville|}}}}}
+{{Infobox/Ligne mixte latitude longitude optionnelle|Coordonnées jographikes|{{{latitude|}}}|{{{longitude|}}}||dms|title=oui|wikidata={{{wikidata|}}}|géolocalisation={{{géolocalisation|}}}}}
+{{Infobox/Sous-titre optionnel|Fonkcion|{{{franchit|}}}{{{fonction|}}}{{{itinéraire|}}}|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Franchit|{{{franchit|}}}}}
+{{Infobox/Ligne mixte optionnelle|Fonkcion|{{{fonction|}}}}}
+{{Infobox/Ligne mixte optionnelle|Itinéraire|{{{itinéraire|}}}}}
+{{Infobox/Sous-titre optionnel|Caractéristikes téknikes|{{{type|}}}{{{largeur|}}}{{{longueur|}}}{{{portée|}}}{{{hauteur|}}}{{{hauteur libre|}}}{{{matériau|}}}|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Type|{{{type|}}}}}
+{{Infobox/Ligne mixte optionnelle|Londjueur|{{{longueur|}}}|{{unité|{{{longueur|}}}|m}}}}
+{{Infobox/Ligne mixte optionnelle|Portée princhipale|{{{portée|}}}|{{unité|{{{portée|}}}|m}}}}
+{{Infobox/Ligne mixte optionnelle|Lérdjeur|{{{largeur|}}}|{{unité|{{{largeur|}}}|m}}}}
+{{Infobox/Ligne mixte optionnelle|Heuteur|{{{hauteur|}}}|{{unité|{{{hauteur|}}}|m}}}}
+{{Infobox/Ligne mixte optionnelle|Heuteur libe|{{{hauteur libre|}}}|{{unité|{{{hauteur libre|}}}|m}}}}
+{{Infobox/Ligne mixte optionnelle|Matériau(s)|{{{matériau|}}}}}
+{{Infobox/Sous-titre optionnel|Construkcion|{{{construction|{{{dates|}}}}}}{{{démolition|{{{destruction|}}}}}}{{{inauguration|}}}{{{mise en service|}}}{{{maître d'ouvrage|}}}{{{architecte|}}}{{{ingénieur|}}}{{{entreprises|}}}|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Construkcion|{{{construction|{{{dates|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Démolicion|{{{démolition|{{{destruction|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Inauguracion|{{{inauguration|}}}}}
+{{Infobox/Ligne mixte optionnelle|Mise in sérvice|{{{mise en service|}}}}}
+{{Infobox/Ligne mixte optionnelle|Concepteu|{{{concepteur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Arkitekte(s)|{{{architecte|}}}}}
+{{Infobox/Ligne mixte optionnelle|Ingénieu(s)|{{{ingénieur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Moaître(s) d'euve|{{{maître d'oeuvre|}}}}}
+{{Infobox/Ligne mixte optionnelle|Moaître d'ouvrage|{{{maître d'ouvrage|}}}}}
+{{Infobox/Ligne mixte optionnelle|Intreprise(s)|{{{entreprises|}}}}}
+{{Infobox/Sous-titre optionnel|Géstion|{{{propriétaire|}}}{{{concessionnaire|}}}|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Propiétaire|{{{propriétaire|}}}}}
+{{Infobox/Ligne mixte optionnelle|Concessionnaire|{{{concessionnaire|}}}}}
+{{Infobox/Sous-titre optionnel|Historike|{{{noms|}}}{{{protection|}}}|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Anchiens noms|{{{noms|}}}}}
+{{Infobox/Ligne mixte optionnelle|Protekcion|{{{protection|}}}}}
+{{Infobox/Géolocalisation multiple
+ | géolocalisation={{{géolocalisation|}}}
+ | latitude={{{latitude|}}}
+ | longitude={{{longitude|}}}
+ | toponyme={{{nom|{{PAGENAME}}}}}
+ | point=Localité sans toponyme
+ | type1={{{type carte1|}}}
+ | type2={{{type carte2|}}}
+ | type3={{{type carte3|}}}
+}}
+{{Infobox/Notice|Infobox Pont|D4D0BA}}
+{{Infobox/Fin}}<!--
+
+Mauvais paramétrages
+-->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Page géolocalisable sans coordonnées paramétrées|Pont]]}}}}}}}}{{#if:{{{commons|}}}|[[Catégorie:Page utilisant un modèle avec un paramètre obsolète|Pont]]}}<!--
+
+Catégorisation
+{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{#if:{{{latitude|}}}|[[Catégorie:Article géolocalisé sur Terre]]}}}}--></includeonly><noinclude>{{Documentation}}[[catégorie:modèle]]</noinclude>

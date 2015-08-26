@@ -8,7 +8,9 @@
 {{Infobox/Ligne mixte optionnelle|{{{lien subdivision|Département}}}|{{{subdivision|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{lien subdivision1}}} | {{{subdivision1|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{lien subdivision2}}} | {{{subdivision2|}}}}}
+{{Infobox/Ligne mixte optionnelle|Adrèche|{{{adresse|}}}}}
 {{Infobox/Ligne mixte optionnelle|Localité|{{{ville|}}}}}
+{{Infobox/Ligne mixte optionnelle|Localité|{{{localisation|}}}}}
 {{Infobox/Ligne mixte latitude longitude optionnelle|Coordonnées jographikes|{{{latitude|}}}|{{{longitude|}}}||dms|title=oui|wikidata={{{wikidata|}}}|géolocalisation={{{géolocalisation|}}}}}
 {{Infobox/Sous-titre optionnel|Fonkcion|{{{franchit|}}}{{{fonction|}}}{{{itinéraire|}}}|E1E1E1}}
 {{Infobox/Ligne mixte optionnelle|Franchit|{{{franchit|}}}}}
@@ -21,6 +23,7 @@
 {{Infobox/Ligne mixte optionnelle|Lérdjeur|{{{largeur|}}}|{{unité|{{{largeur|}}}|m}}}}
 {{Infobox/Ligne mixte optionnelle|Heuteur|{{{hauteur|}}}|{{unité|{{{hauteur|}}}|m}}}}
 {{Infobox/Ligne mixte optionnelle|Heuteur libe|{{{hauteur libre|}}}|{{unité|{{{hauteur libre|}}}|m}}}}
+
 {{Infobox/Ligne mixte optionnelle|Matériau(s)|{{{matériau|}}}}}
 {{Infobox/Sous-titre optionnel|Construkcion|{{{construction|{{{dates|}}}}}}{{{démolition|{{{destruction|}}}}}}{{{inauguration|}}}{{{mise en service|}}}{{{maître d'ouvrage|}}}{{{architecte|}}}{{{ingénieur|}}}{{{entreprises|}}}|E1E1E1}}
 {{Infobox/Ligne mixte optionnelle|Construkcion|{{{construction|{{{dates|}}}}}}}}
@@ -39,6 +42,13 @@
 {{Infobox/Sous-titre optionnel|Historike|{{{noms|}}}{{{protection|}}}|E1E1E1}}
 {{Infobox/Ligne mixte optionnelle|Anchiens noms|{{{noms|}}}}}
 {{Infobox/Ligne mixte optionnelle|Protekcion|{{{protection|}}}}}
+
+{{Infobox/Ligne mixte optionnelle|heuteur flèke|{{{antenne flèche|}}}}}
+{{Infobox/Ligne mixte optionnelle|étages|{{{étages|}}}}}
+{{Infobox/Ligne mixte optionnelle|supérfichie|{{{superficie|}}}}}
+{{Infobox/Ligne mixte optionnelle|ascinseus|{{{ascenseurs|}}}}}
+{{Infobox/Ligne mixte optionnelle|usage|{{{usage|}}}}}
+
 {{Infobox/Géolocalisation multiple
  | géolocalisation={{{géolocalisation|}}}
  | latitude={{{latitude|}}}

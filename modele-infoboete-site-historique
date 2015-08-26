@@ -1,32 +1,45 @@
 <includeonly>{{Infobox/Début}}
 {{Infobox/Titre|{{{nom|{{PAGENAME}}}}}{{#if:{{{autres noms|}}}|<br /><small>{{{autres noms|}}}</small>}}|WhiteSmoke|entete map}}
-{{Infobox/Image
- |{{#ifexist:Media:{{{image|}}}|{{{image}}}|}}
- |{{{légende image|}}}
- |{{{taille image|}}}
- |{{{légende image|{{PAGENAME}} }}}
- |
- |
- |Site archéologique
-}}<!-- 
+{{Infobox/Image|{{{image|}}}|{{{légende|}}}||{{{légende|Illustration.}}}|||Pont}}
+<!-- 
 
 Localisacion 
 
--->{{Infobox/Sous-titre optionnel
- |Localisacion
- |{{{pays|}}}{{{nom région1|}}}{{{région1|}}}{{{nom région2|}}}{{{région2|}}}{{{nom région3|}}}{{{région3|}}}{{{nom région4|}}}{{{région4|}}}{{{nom type|Type}}}{{{type|}}}{{{protection|}}}{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{superficie|}}}
- |WhiteSmoke
-}}
-{{Infobox/Ligne mixte optionnelle|Païs|{{{{{pays|}}}}} }}
+-->
+{{Infobox/Sous-titre optionnel|Jografie|{{{pays|}}}{{{région|}}}{{{province|}}}{{{subdivision|}}}{{{ville|}}}{{{latitude|}}}{{{longitude|}}}|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Poéyis|{{{pays}}} }}
 {{Infobox/Ligne mixte optionnelle|{{{nom région1|}}}|{{{région1|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom région2|}}}|{{{région2|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom région3|}}}|{{{région3|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom région4|}}}|{{{région4|}}}}}
+
+
+{{Infobox/Ligne mixte optionnelle|{{{lien région|Région}}}|{{{région|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{lien province|Province historique}}}|{{{province|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{lien subdivision|Département}}}|{{{subdivision|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{lien subdivision1}}} | {{{subdivision1|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{lien subdivision2}}} | {{{subdivision2|}}}}}
+{{Infobox/Ligne mixte optionnelle|Localité|{{{ville|}}}}}
+{{Infobox/Ligne mixte optionnelle|Localité|{{{commune|}}}}}
+ 
 {{Infobox/Ligne mixte optionnelle|{{{nom type|Type}}}|{{{type|}}}}}
 {{Infobox/Ligne mixte optionnelle|Protekchon|{{{protection|}}}}}
 {{Infobox/Ligne mixte latitude longitude optionnelle|Coordonnées|{{{latitude|}}}|{{{longitude|}}}|title=yes}}
 {{Infobox/Ligne mixte optionnelle|Altitude|{{{altitude|}}}|{{Unité|{{{altitude}}}|m}}}}
 {{Infobox/Ligne mixte optionnelle|Superfichie|{{{superficie|}}}|{{Unité|{{{superficie}}}|hectares}}|}}
+
+{{Infobox/Sous-titre optionnel|Construkcion|{{{construction|{{{dates|}}}}}}{{{démolition|{{{destruction|}}}}}}{{{inauguration|}}}{{{mise en service|}}}{{{maître d'ouvrage|}}}{{{architecte|}}}{{{ingénieur|}}}{{{entreprises|}}}|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Construkcion|{{{construction|{{{dates|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Date|{{{construction|{{{date de construction|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Démolicion|{{{démolition|{{{destruction|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|Inauguracion|{{{inauguration|}}}}}
+{{Infobox/Ligne mixte optionnelle|Mise in sérvice|{{{mise en service|}}}}}
+{{Infobox/Ligne mixte optionnelle|Concepteu|{{{concepteur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Arkitekte(s)|{{{architecte|}}}}}
+{{Infobox/Ligne mixte optionnelle|Ingénieu(s)|{{{ingénieur|}}}}}
+{{Infobox/Ligne mixte optionnelle|Moaître(s) d'euve|{{{maître d'oeuvre|}}}}}
+{{Infobox/Ligne mixte optionnelle|Moaître d'ouvrage|{{{maître d'ouvrage|}}}}}
+
 <!--
 
 Géolocalisacion 
@@ -44,6 +57,16 @@ Géolocalisacion
  | largeur=280
 }}
 -->
+{{Infobox/Géolocalisation multiple
+ | géolocalisation={{{géolocalisation|}}}
+ | latitude={{{latitude|}}}
+ | longitude={{{longitude|}}}
+ | toponyme={{{nom|{{PAGENAME}}}}}
+ | point=Localité sans toponyme
+ | type1={{{type carte1|}}}
+ | type2={{{type carte2|}}}
+ | type3={{{type carte3|}}}
+}}
 <!-- 
 
 Histoère
@@ -83,6 +106,6 @@ Histoère
 
 Mauvais paramétrages
 
--->{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Page géolocalisable sans coordonnées paramétrées|Archeologie]]}}}}}}}}
+{{#if:{{NAMESPACE}}||{{#ifeq:{{{géolocalisation}}}|pas pertinent|[[Catégorie:Article à ne pas géolocaliser]]|{{#ifeq:{{{géolocalisation}}}|non||{{#if:{{{latitude|}}}{{{longitude|}}}||[[Catégorie:Page géolocalisable sans coordonnées paramétrées|Archeologie]]}}}}}}}}-->
 
 </includeonly><noinclude><!--{{Documentation}}--></noinclude>

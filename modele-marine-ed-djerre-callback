@@ -1,0 +1,5 @@
+<includeonly><span class="flagicon"><!--
+-->[[File:{{{flag alias-naval-{{{variant}}}|{{{flag alias-{{{variant}}}|{{{flag alias-naval|{{{flag alias}}}}}}}}}}}}|{{#if:{{{size|}}}|{{{size}}}|22x20px}}|{{{border-naval-{{{variant}}}|{{{border-{{{variant}}}|{{{border-naval|{{{border|border}}}}}}}}}}}}]]&nbsp;</span><!--
+-->[[{{{link alias-naval|Marine de {{{shortname alias|{{{alias}}}}}}}}}{{#if:{{{name|}}}|{{!}}{{{name}}}}}]]</includeonly><noinclude>
+{{Documentation d'une sous-page de modèle}}
+</noinclude>

@@ -1,0 +1,25 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bos-Péis
+| sortkey = Bos-Péis
+| flag alias = Flag of the Netherlands.svg
+| alt attribute = Drapieu des Bos-Péis
+| flag alias-pri  = Prinsenvlag.svg
+| flag alias-naval = Naval_Jack_of_the_Netherlands.svg
+| link alias-naval = Marine roéyale nirlindoèse
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = pri
+| redir1 = NLD
+| redir2 = NED
+| redir3 = Bos-Péis
+| related1 = Roéyôme des Bos-Péis
+| related2 = Bos-Péis caribéens
+| related3 = Antilles nirlindoèses
+</noinclude>
+}}<noinclude>
+[[Catégorie:Modèle]]
+</noinclude>

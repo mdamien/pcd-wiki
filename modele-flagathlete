@@ -1,0 +1,1 @@
+{{drapeau2|CIO={{{2|}}}|domaine=Sport CIO|année={{#if: {{{3|}}}|{{#ifeq: {{{3|}}}|Nazi|1940|{{{3}}}}}|{{CURRENTYEAR}}}}|cible={{#if: {{{1|}}}|{{{1}}}|[[Modèle:Flagathlete|?????]]}}}}<noinclude><!--{{Documentation}}--></noinclude>

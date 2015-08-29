@@ -1,0 +1,327 @@
+<noinclude>{{Documentation}}</noinclude>{{#switch: {{{1}}}
+| Afghanistan = Afghanistan#Sport{{!}}AFG 
+| Afrique du Sud = Afrique du Sud#Sport{{!}}RSA 
+| Albanie = Albanie#Sport{{!}}ALB 
+| Algérie = Sport en Algérie{{!}}ALG 
+| Allemagne = Allemagne#Sport{{!}}GER 
+| Andorre = Andorre#Sport{{!}}AND 
+| Angola = Angola#Sport{{!}}ANG 
+| Antigua-et-Barbuda = Antigua-et-Barbuda#Sport{{!}}ANT 
+| Arabie saoudite = Arabie saoudite#Sport{{!}}KSA 
+| Argentine = Argentine#Sport{{!}}ARG 
+| Arménie = Arménie#Sport{{!}}ARM 
+| Australie = Sport en Australie{{!}}AUS 
+| Autriche = Autriche#Sport{{!}}AUT 
+| Azerbaïdjan = Azerbaïdjan#Sport{{!}}AZE 
+| Bahamas = Bahamas#Sport{{!}}BAH 
+| Bahreïn = Bahreïn#Sport{{!}}BRN 
+| Bangladesh = Bangladesh#Sport{{!}}BAN 
+| Barbade = Barbade#Sport{{!}}BAR 
+| Belgique = Sport en Belgique{{!}}BEL 
+| Belize = Belize#Sport{{!}}BIZ 
+| Bénin = Bénin#Sport{{!}}BEN 
+| Bhoutan = Bhoutan#Sport{{!}}BHU 
+| Biélorussie = Biélorussie#Sport{{!}}BLR 
+| Birmanie = Birmanie#Sport{{!}}MYA 
+| Bolivie = Bolivie#Sport{{!}}BOL 
+| Bosnie-Herzégovine = Bosnie-Herzégovine#Sport{{!}}BIH 
+| Botswana = Botswana#Sport{{!}}BOT 
+| Brésil = Brésil#Sport{{!}}BRA 
+| Brunei = Brunei#Sport{{!}}BRU 
+| Bulgarie = Bulgarie#Sport{{!}}BUL 
+| Burkina Faso = Sport au Burkina Faso{{!}}BUR 
+| Burundi = Burundi#Sport{{!}}BDI 
+| Cambodge = Cambodge#Sport{{!}}CAM 
+| Cameroun = Cameroun#Sport{{!}}CMR 
+| Canada = Sport au Canada{{!}}CAN 
+| Cap-Vert = Cap-Vert#Sport{{!}}CPV 
+| République centrafricaine = République centrafricaine#Sport{{!}}CAF 
+| Chili = Chili#Sport{{!}}CHI 
+| Chine = Sport en Chine{{!}}CHN 
+| Chypre = Chypre (pays)#Sport{{!}}CYP 
+| Colombie = Colombie#Sport{{!}}COL 
+| Comores = Union des Comores#Sport{{!}}COM 
+| République démocratique du Congo = République démocratique du Congo#Sport{{!}}COD 
+| République du Congo = République du Congo#Sport{{!}}CGO 
+| Corée du Nord = Sport en Corée du Nord{{!}}PRK 
+| Corée du Sud = Corée du Sud#Sport{{!}}KOR 
+| Costa Rica = Costa Rica#Sport{{!}}CRC 
+| Côte d'Ivoire = Sport en Côte d'Ivoire{{!}}CIV 
+| Croatie = Croatie#Sport{{!}}CRO 
+| Cuba = Cuba#Sport{{!}}CUB 
+| Danemark = Danemark#Sport{{!}}DEN 
+| Djibouti = Djibouti#Sport{{!}}DJI 
+| République dominicaine = République dominicaine#Sport{{!}}DOM 
+| Dominique = Dominique (pays)#Sport{{!}}DMA 
+| Égypte = Égypte#Sport{{!}}EGY 
+| Émirats arabes unis = Émirats arabes unis#Sport{{!}}UAE 
+| Équateur = Équateur (pays)#Sport{{!}}ECU 
+| Érythrée = Érythrée#Sport{{!}}ERI 
+| Espagne = Sport en Espagne{{!}}ESP 
+| Estonie = Estonie#Sport{{!}}EST 
+| États-Unis = Sport aux États-Unis{{!}}USA 
+| Éthiopie = Sport en Éthiopie{{!}}ETH 
+| Fidji = Fidji#Sport{{!}}FIJ
+| Finlande = Sport en Finlande{{!}}FIN
+| France = Sport en France{{!}}FRA
+| Gabon = Gabon#Sport{{!}}GAB
+| Gambie = Gambie#Sport{{!}}GAM
+| Géorgie = Géorgie (pays)#Sport{{!}}GEO 
+| Ghana = Ghana#Sport{{!}}GHA 
+| Grèce = Grèce#Sport{{!}}GRE 
+| Grenade = Grenade (pays)#Sport{{!}}GRN 
+| Guatemala = Guatemala#Sport{{!}}GUA 
+| Guinée = Guinée#Sport{{!}}GUI 
+| Guinée-Bissau = Guinée-Bissau#Sport{{!}}GBS 
+| Guinée équatoriale = Guinée équatoriale#Sport{{!}}GEQ 
+| Guyana = Guyana#Sport{{!}}GUY 
+| Haïti = Haïti#Sport{{!}}HAI 
+| Honduras = Honduras#Sport{{!}}HON 
+| Hongrie = Hongrie#Sport{{!}}HUN 
+| Inde = Inde#Sport{{!}}IND 
+| Indonésie = Sport en Indonésie{{!}}INA 
+| Irak
+| Iraq = Irak#Sport{{!}}IRQ 
+| Iran = Sport en Iran{{!}}IRI 
+| Irlande = Sport en Irlande{{!}}IRL 
+| Islande = Sport en Islande{{!}}ISL 
+| Israël = Israël#Sport{{!}}ISR 
+| Italie = Italie#Sport{{!}}ITA 
+| Jamaïque = Jamaïque#Sport{{!}}JAM 
+| Japon = Japon#Sport{{!}}JPN 
+| Jordanie = Jordanie#Sport{{!}}JOR 
+| Kazakhstan = Kazakhstan#Sport{{!}}KAZ 
+| Kenya = Kenya#Sport{{!}}KEN 
+| Kirghizistan = Kirghizistan#Sport{{!}}KGZ 
+| Kiribati = Kiribati#Sport{{!}}KIR 
+| Koweït = Koweït#Sport{{!}}KUW 
+| Laos = Laos#Sport{{!}}LAO 
+| Lesotho = Lesotho#Sport{{!}}LES 
+| Lettonie = Lettonie#Sport{{!}}LAT 
+| Liban = Liban#Sport{{!}}LIB 
+| Libéria = Libéria#Sport{{!}}LBR 
+| Libye = Libye#Sport{{!}}LBA 
+| Liechtenstein = Liechtenstein#Sport{{!}}LIE 
+| Lituanie = Lituanie#Sport{{!}}LTU 
+| Luxembourg = Luxembourg (pays)#Sport{{!}}LUX 
+| Macédoine = Macédoine (pays)#Sport{{!}}MKD 
+| Madagascar = Madagascar#Sport{{!}}MAD 
+| Malaisie = Malaisie#Sport{{!}}MAS 
+| Malawi = Malawi#Sport{{!}}MAW 
+| Maldives = Maldives#Sport{{!}}MDV 
+| Mali = Mali#Sport{{!}}MLI 
+| Malte = Malte (pays)#Sport{{!}}MLT 
+| Maroc = Sport au Maroc{{!}}MAR 
+| Marshall= Îles Marshall#Sport{{!}}MHL 
+| Maurice= Maurice (pays)#Sport{{!}}MRI 
+| Mauritanie = Mauritanie#Sport{{!}}MTN 
+| Mexique = Sport au Mexique{{!}}MEX 
+| Micronésie= Micronésie#Sport{{!}}FSM 
+| Moldavie = Moldavie#Sport{{!}}MDA 
+| Monaco = Monaco#Sport{{!}}MON 
+| Mongolie = Mongolie#Sport{{!}}MGL 
+| Monténégro = Monténégro#Sport{{!}}MNE 
+| Mozambique = Mozambique#Sport{{!}}MOZ 
+| Namibie = Namibie#Sport{{!}}NAM 
+| Nauru = Nauru#Sport{{!}}NRU 
+| Népal = Népal#Sport{{!}}NEP 
+| Nicaragua = Nicaragua#Sport{{!}}NCA 
+| Niger = Niger#Sport{{!}}NIG 
+| Nigeria = Nigeria#Sport{{!}}NGR 
+| Norvège = Norvège#Sport{{!}}NOR 
+| Nouvelle-Zélande = Sport en Nouvelle-Zélande{{!}}NZL 
+| Oman = Oman#Sport{{!}}OMA 
+| Ouganda = Ouganda#Sport{{!}}UGA 
+| Ouzbékistan = Ouzbékistan#Sport{{!}}UZB 
+| Pakistan = Pakistan#Sport{{!}}PAK 
+| Palaos = Palaos#Sport{{!}}PLW 
+| Panamá
+| Panama = Panamá#Sport{{!}}PAN 
+| Papouasie-Nouvelle-Guinée
+| Papouasie-Nouvelle Guinée = Sport en Papouasie-Nouvelle-Guinée{{!}}PNG 
+| Paraguay = Paraguay#Sport{{!}}PAR 
+| Pays-Bas = Pays-Bas#Sport{{!}}NED 
+| Pérou = Pérou#Sport{{!}}PER 
+| Philippines = Philippines#Sport{{!}}PHI 
+| Pologne = Sport en Pologne{{!}}POL 
+| Portugal = Portugal#Sport{{!}}POR 
+| Qatar = Qatar#Sport{{!}}QAT 
+| Roumanie = Sport en Roumanie{{!}}ROU 
+| Royaume-Uni | Grande-Bretagne = Royaume-Uni#Sport{{!}}GBR 
+| Russie = Sport en Russie{{!}}RUS 
+| Rwanda = Rwanda#Sport{{!}}RWA 
+| Saint-Christophe-et-Niévès = Saint-Christophe-et-Niévès#Sport{{!}}SKN 
+| Sainte-Lucie = Sainte-Lucie#Sport{{!}}LCA 
+| Saint-Marin = Saint-Marin#Sport{{!}}SMR 
+| Saint-Vincent-et-les Grenadines = Saint-Vincent-et-les Grenadines#Sport{{!}}VIN 
+| Salomon= Salomon (pays)#Sport{{!}}SOL 
+| Salvador = Salvador#Sport{{!}}ESA 
+| Samoa = Samoa#Sport{{!}}SAM 
+| Sao Tomé-et-Principe = Sao Tomé-et-Principe#Sport{{!}}STP 
+| Sénégal = Sport au Sénégal{{!}}SEN 
+| Serbie = Sport en Serbie{{!}}SRB 
+| Seychelles = Seychelles#Sport{{!}}SEY 
+| Sierra Leone = Sierra Leone#Sport{{!}}SLE 
+| Singapour = Sport à Singapour{{!}}SIN 
+| Slovaquie = Sport en Slovaquie{{!}}SVK 
+| Slovénie = Sport en Slovénie{{!}}SLO 
+| Somalie = Somalie#Sport{{!}}SOM 
+| Soudan = Soudan#Sport{{!}}SUD 
+| Sri Lanka = Sri Lanka#Sport{{!}}SRI 
+| Suède = Suède#Sport{{!}}SWE 
+| Suisse = Sport en Suisse{{!}}SUI 
+| Suriname = Suriname#Sport{{!}}SUR 
+| Swaziland = Swaziland#Sport{{!}}SWZ 
+| Syrie = Syrie#Sport{{!}}SYR 
+| Tadjikistan = Tadjikistan#Sport{{!}}TJK 
+| Tanzanie = Tanzanie#Sport{{!}}TAN 
+| Tchad = Tchad#Sport{{!}}CHA 
+| République tchèque = République tchèque#Sport{{!}}CZE 
+| Thaïlande = Thaïlande#Sport{{!}}THA 
+| Timor oriental = Timor oriental#Sport{{!}}TLS 
+| Togo = Togo#Sport{{!}}TOG 
+| Tonga = Tonga#Sport{{!}}TGA 
+| Trinité-et-Tobago = Trinité-et-Tobago#Sport{{!}}TRI 
+| Tunisie = Sport en Tunisie{{!}}TUN 
+| Turkménistan = Turkménistan#Sport{{!}}TKM 
+| Turquie = Sport en Turquie{{!}}TUR 
+| Tuvalu = Tuvalu#Sport{{!}}TUV 
+| Ukraine = Ukraine#Sport{{!}}UKR 
+| Uruguay = Uruguay#Sport{{!}}URU 
+| Vanuatu = Vanuatu#Sport{{!}}VAN 
+| Vatican = Vatican#Sport{{!}}<!--#N/A-->
+| Venezuela = Venezuela#Sport{{!}}VEN 
+| Viêt Nam | Vietnam = Viêt Nam#Sport{{!}}VIE 
+| Yémen = Yémen#Sport{{!}}YEM 
+| Zambie = Zambie#Sport{{!}}ZAM 
+| Zimbabwe = Zimbabwe#Sport{{!}}ZIM 
+<!--Territoires non autonomes-->
+| Anguilla= Anguilla#Sport{{!}}<!--FIFA-->AIA 
+| Bermudes= Bermudes#Sport{{!}}BER 
+| Chypre du Nord= Chypre du Nord#Sport{{!}}<!--#N/A--> 
+| Caïmans= Îles Caïmans#Sport{{!}}CAY 
+| Gibraltar= Gibraltar#Sport{{!}}<!--#N/A--> 
+| Guam= Guam#Sport{{!}}GUM 
+| Falkland
+| Malouines = Îles Malouines#Sport{{!}}<!--#N/A-->
+| Kosovo= Kosovo#Sport{{!}}<!--#N/A-->
+| Montserrat= Montserrat#Sport{{!}}<!--FIFA-->MSR 
+| Nouvelle-Calédonie= Sport en Nouvelle-Calédonie{{!}}<!--FIFA-->NCL 
+| Palestine= Palestine#Sport{{!}}PLE 
+| Pitcairn= Îles Pitcairn#Sport{{!}}<!--#N/A-->
+| Sainte-Hélène= Sainte-Hélène#Sport{{!}}<!--#N/A-->
+| Sahara occidental= Sahara occidental#Sport{{!}}<!--#N/A-->
+| Samoa américaines= Samoa américaines#Sport{{!}}ASA 
+| Taïwan= Taïwan#Sport{{!}}ROC 
+| Turques-et-Caïques= Îles Turques-et-Caïques#Sport{{!}}<!--FIFA-->TCA 
+| Vierges américaines= Îles Vierges américaines#Sport{{!}}ISV 
+| Vierges britanniques= Îles Vierges britanniques#Sport{{!}}IVB 
+<!--Dépendances-->
+| Åland
+| Aland = Åland#Sport{{!}}<!--#N/A-->
+| Antilles néerlandaises = Antilles néerlandaises#Sport{{!}}<!--FIFA-->AHO
+| Aruba = Aruba#Sport{{!}}ARU 
+| Açores = Açores#Sport{{!}}<!--#N/A-->
+| Canaries = Îles Canaries#Sport{{!}}<!--#N/A-->
+| Ceuta = Ceuta#Sport{{!}}<!--#N/A-->
+| Christmas = Île Christmas#Sport{{!}}<!--#N/A-->
+| Cocos= Îles Cocos#Sport{{!}}<!--#N/A-->
+| Cook= Îles Cook#Sport{{!}}COK 
+| Curaçao = Curaçao#Sport{{!}}CUW
+| Féroé = Îles Féroé#Sport{{!}}<!--FIFA-->FRO 
+| Géorgie du Sud-et-les Îles Sandwich du Sud
+| Géorgie du Sud
+| Sandwich du Sud = Géorgie du Sud-et-les Îles Sandwich du Sud#Sport{{!}}<!--#N/A-->
+| Groenland = Groenland#Sport{{!}}<!--#N/A-->
+| Guadeloupe = Guadeloupe#Sport{{!}}<!--FIFA~-->GPE 
+| Guernesey = Guernesey#Sport{{!}}<!--#N/A-->
+| Guyane = Guyane#Sport{{!}}<!--FIFA~-->GYF 
+| Hong Kong = Hong Kong#Sport{{!}}HKG 
+| Jersey = Jersey#Sport{{!}}<!--#N/A-->
+| Macao = Macao#Sport{{!}}<!--FIFA-->MAC 
+| Madère = Madère#Sport{{!}}<!--#N/A-->
+| Man = Sport à l'île de Man{{!}}<!--#N/A-->
+| Mariannes du Nord = Îles Mariannes du Nord#Sport{{!}}<!--FIFA~-->NMI 
+| Martinique = Martinique#Sport{{!}}<!--FIFA~-->MTQ 
+| Mayotte = Mayotte#Sport{{!}}<!--#N/A-->
+| Melilla = Melilla#Sport{{!}}<!--#N/A-->
+| Niue = Niue#Sport{{!}}<!--FIFA~-->NIU 
+| Norfolk = Île Norfolk#Sport{{!}}<!--#N/A-->
+| Polynésie française = Polynésie française#Sport{{!}}<!--FIFA-->TAH 
+| Porto Rico = Porto Rico#Sport{{!}}PUR 
+| Réunion = Sport à La Réunion{{!}}<!--FIFA~-->REU 
+| Saint-Barthélemy = Saint-Barthélemy#Sport{{!}}<!--#N/A-->
+| Saint-Martin = Saint-Martin (Antilles françaises)#Sport{{!}}<!--FIFA~-->SMT 
+| Sint-Maarten = Sint-Marteen#Sport{{!}}<!--FIFA~-->SXM 
+| Saint-Pierre-et-Miquelon = Saint-Pierre-et-Miquelon#Sport{{!}}<!--#N/A-->
+| Territoire britannique de l'océan Indien = Territoire britannique de l'océan Indien#Sport{{!}}<!--#N/A-->
+| Tokelau = Tokelau#Sport{{!}}<!--#N/A-->
+| Wallis-et-Futuna = Wallis-et-Futuna#Sport{{!}}<!--#N/A-->
+<!--Territoires séparatistes-->
+| Abkhazie = Abkhazie#Sport{{!}}<!--#N/A-->
+| Gagaouzie = Gagaouzie#Sport{{!}}<!--#N/A-->
+| Haut-Karabagh = Haut-Karabagh#Sport{{!}}<!--#N/A-->
+| Ossétie du Sud = Ossétie du Sud#Sport{{!}}<!--#N/A-->
+| Somaliland = Somaliland#Sport{{!}}<!--#N/A-->
+| Transnistrie = Transnistrie#Sport{{!}}<!--#N/A-->
+<!--Anciens-->
+| Indes occidentales = Indes occidentales#Sport{{!}}BWI 
+| Allemagne de l'Est = Allemagne de l'Est#Sport{{!}}GDR 
+| Allemagne de l'Ouest = Allemagne de l'Ouest#Sport{{!}}FRG
+| Autriche-Hongrie = Autriche-Hongrie#Sport{{!}}<!--#N/A-->
+| Bohême = Royaume de Bohême#Sport{{!}}BOH
+| Ceylan = Sri Lanka#Sport{{!}}CEY
+| Communauté des États indépendants = Communauté des États indépendants#Sport{{!}}CEI
+| Côte-de-l'Or britannique = Côte-de-l'Or britannique#Sport{{!}}GOC
+| Dahomey = Bénin#Sport{{!}}DAH
+| Haute-Volta = République de Haute-Volta#Sport{{!}}VOL
+| Rhodésie = Rhodésie (pays)#Sport{{!}}RHO
+| Rhodésie du Nord = Rhodésie du Nord#Sport{{!}}NRH
+| Rhodésie du Sud = Rhodésie du Sud#Sport{{!}}SRH
+| République arabe unie = République arabe unie#Sport{{!}}UAR 
+| Sarre = Sarre#Sport{{!}}<!--#N/A-->
+| Serbie-et-Monténégro = Serbie-et-Monténégro#Sport{{!}}SCG 
+| Tchécoslovaquie = Tchécoslovaquie#Sport{{!}}TCH 
+| URSS = Union soviétique#Sport{{!}}URS 
+| Yémen du Nord = Yémen du Nord#Sport{{!}}YUG 
+| Yémen du Sud = Yémen du Sud#Sport{{!}}YAR 
+| Yougoslavie = Yougoslavie#Sport{{!}}YMD 
+| Zaïre = Zaïre#Sport{{!}}ZAI 
+<!--Autres-->
+| Antarctique= Antarctique#Sport{{!}}<!--#N/A-->
+| Australasie= Australasie{{!}}ANZ
+| Europe = Sport dans l'Union européenne{{!}}<!--#N/A-->
+| Nations Unies= Sport{{!}}<!--#N/A-->
+| Angleterre = Angleterre#Sport{{!}}<!--FIFA-->ENG 
+| Écosse
+| Ecosse = Sport en Écosse{{!}}<!--FIFA-->SCO 
+| Irlande du Nord = Irlande du Nord#Sport{{!}}<!--FIFA-->NIR 
+| Pays de Galles = Pays de Galles#Sport{{!}}<!--FIFA-->WAL 
+| Taipei chinois
+| Chinese Taipei = Taipei chinois{{!}}TPE 
+| Équipe unifiée
+| Equipe unifiée = Équipe unifiée{{!}}EUN 
+| Équipe unifiée d'Allemagne
+| Equipe unifiée d'Allemagne = Équipe unifiée d'Allemagne{{!}}EUA
+| #default= Liste des codes pays du CIO{{!}}???
+}}<noinclude>
+{|
+! Syntaxe
+! Aperçu
+|-
+|<nowiki>{{drapeau2|France|domaine=Sport CIO}}</nowiki>
+|{{drapeau2|France|domaine=Sport CIO}}
+|-
+|<nowiki>{{drapeau2|CIO=GBR|domaine=Sport CIO}}</nowiki>
+|{{drapeau2|CIO=GBR|domaine=Sport CIO}}
+|-
+|<nowiki>{{drapeau2|Bahamas|domaine=Sport CIO}}</nowiki>
+|{{drapeau2|Bahamas|domaine=Sport CIO}}
+|-
+|<nowiki>{{drapeau2|Vatican|domaine=Sport CIO}}</nowiki>
+|{{drapeau2|Vatican|domaine=Sport CIO}}
+|-
+|<nowiki>{{drapeau2|CIO=FRA|domaine=Sport CIO}}</nowiki>
+|{{drapeau2|CIO=FRA|domaine=Sport CIO}}
+|}
+[[Catégorie:Modèle]]</noinclude>

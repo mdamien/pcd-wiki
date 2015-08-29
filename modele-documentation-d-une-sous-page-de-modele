@@ -1,0 +1,14 @@
+<includeonly>{{Documentation
+| titre = Documentation de la sous-page de modèle
+| notice = El documintacion dech modèle-lo il est générée pèr ch' [[Modèle:Documentation d'une sous-page de modèle]].<br />{{Purger le cache}}. 
+| contenu = Ch' est l' pache éd documentacion du modèle <nowiki>{{</nowiki>'''{{PAGENAME}}'''<nowiki>}}</nowiki>.
+
+Ch' modèle-lo il est uzé directemint, mais il est destiné à ète uzé pèr ch' modèle {{m|{{{racine|{{BASEPAGENAME}}}}}}}.
+
+== Utilisacion ==
+{{{contenu|{{Documentation attendue|corps=1}} }}}}}
+
+[[Catégorie:modèle]]
+</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

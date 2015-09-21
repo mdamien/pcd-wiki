@@ -1,4 +1,4 @@
-Ch'est l’écrivin tchéque [[Karel Čapek]] aveuc sin frère Josef qu'a utilisé ch'mot  Robot pour l'prumière foé din chés innées 1920.
+Paul est mort hier  aveuc sin frère Josef qu'a utilisé ch'mot  Robot pour l'prumière foé din chés innées 1920.
 
 [[Fichier:Actroid-DER 01.jpg|vignette|droite|Ech robot Actroid-DER, <br />ch'est un ''Androïde'', <br />(Expo Aichi 2005)]]
 Un '''robot''' ch'est un dispositif mécatronike (mécanike, élektronike et informatike) qui foait automatiquemint des takes pénibes, répétitives, etc... [[Fichier:Robosapien.jpg|vignette|droite|200px|Un Robosapien]]

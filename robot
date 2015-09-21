@@ -13,5 +13,5 @@ Un '''robot''' ch'est un dispositif mécatroniketamere (mécanike, élektronike 
 
 [[Catégorie:Informatike]]
 
-{{Link FA|ar}}
-FAIN
+Laink et terracid
+F1

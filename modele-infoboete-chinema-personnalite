@@ -43,6 +43,16 @@
 ! scope=row {{!}} Défuncté
 {{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
 {{!-}}
+}} 
+{{#if:{{{sexe|}}} |
+! scope=row {{!}} sexe
+{{!}} {{{sexe|}}}
+{{!-}}
+}}
+{{#if:{{{espèce|}}} |
+! scope=row {{!}}éspèche
+{{!}} {{{espèce|}}}
+{{!-}}
 }}
 {{#if:{{{profession(s)|}}} |
 ! scope=row {{!}} Proféchon(s)
@@ -62,6 +72,16 @@
 {{#if:{{{enfant|}}} |
 ! scope=row {{!}} infant(s)
 {{!}} {{{enfant|}}}
+{{!-}}
+}} 
+{{#if:{{{famille|{{{famille|}}}}}}|
+! scope=row {{!}} famille
+{{!}} {{{famille|{{{famille}}}}}}
+{{!-}}
+}}  
+{{#if:{{{habite|{{{habite|}}}}}}|
+! scope=row {{!}} moaison à
+{{!}} {{{habite|{{{habite}}}}}}
 {{!-}}
 }}
 {{#if:{{{site internet|{{{site web|}}}}}}|

@@ -1,0 +1,38 @@
+<includeonly><div class="VideoSRTGroup" style="
+float:{{{align|right}}};
+clear:{{{align|right}}};
+{{#switch:{{{align|right}}}|right=margin-left:1em|left=margin-right:1em|}};
+border:1px solid {{{bordure|#AAAAAA}}};
+background-color:{{{fond|white}}};
+text-align:center;
+">
+<div class="VideoSRTGroupUnits">{{#if:{{{1|}}}|[[{{{1}}}|{{#if:{{{upright|}}}|upright={{{upright}}}|}}|{{#if:{{{largeur|}}}|{{{largeur}}}px|}} |center]]}}{{#if:{{{2|}}}|[[{{{2}}}|{{#if:{{{upright|}}}|upright={{{upright}}}|}}|{{#if:{{{largeur|}}}|{{{largeur}}}px|}}|center]]}}</div></div>{{#ifeq:{{{align|}}}|left|{{Clr|left}}|}}</includeonly><noinclude>
+
+{{Documentation}}
+; dsous-titre
+
+Ch'modèle i permet d'insérer deus vidéo : eune dsous-titrée pi l'eute non.
+
+Pour passer éd l'eune à l'eute, o buke édseur ch' loyen plaché dsous l' vidéo. 
+
+; Syntaxe : <code><nowiki>{{VideoSRT
+|titre=Versions de la vidéo
+|align=center
+|Fichier:IntroLogique-Chap1.ogg|Fichier:DemonstrateurSRT.ogv}}</nowiki></code>
+:* <code>largeur</code> : El largeur in px
+:* <code>fond</code> : L' couleur ed fond du cade. Défaut : blank.
+:* <code>bordure</code> : L' couleur deul bordure du cade. Défaut : #BBB.
+:* <code>align</code> : posicion : ''left'' à gueuche , ''center'' pour chintrer, ''right'' pour aligner à droéte.
+
+; Egzimpe : 
+{{VideoSRT
+|align=center
+|largeur=500
+|Fichier:IntroLogique-Chap1.ogg|Fichier:DemonstrateurSRT.ogv}}
+
+; Vir itou :
+* {{m|Images}}
+* {{m|Imagedual}}
+
+[[Catégorie:Modèle]]
+</noinclude>

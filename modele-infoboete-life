@@ -1,0 +1,59 @@
+<noinclude><!--==============================================================
+
+ AFFUTE : L' MODIFICACION D'EUNE INFOBOETE PEUT INTRAÎNER DES PROBLÈMES.
+
+==============================================================-->
+</noinclude><includeonly>{{Infobox/Début}}
+{{Infobox/Titre | ''{{#if:{{{titre|}}}|{{{titre|}}}|{{PAGENAME}}}}'' | 7DA7D9 | entete universite }}
+{{Infobox/Image | {{{image|}}} | {{{légende|}}} | {{#if:{{{taille image|}}}|{{{taille image|}}}|250}} | {{{alternative|}}} | | | Livre }}
+{{Infobox/Séparateur optionnel | {{{image|}}} | 7DA7D9 }}
+{{Infobox/Ligne mixte optionnelle | Auteu | {{{auteur|}}} }}
+{{Infobox/Ligne mixte optionnelle | Préface | {{{préface|}}} }}
+{{Infobox/Ligne mixte optionnelle | Directeu éd publicacion | {{{directeur|}}} }}
+{{Infobox/Ligne mixte optionnelle | Ginre | {{{genre|}}} }}
+<!---------------------------------########### VO #########--------------------------------->
+{{Infobox/Sous-titre optionnel | Version originale | {{{langue|}}} | 7DA7D9 }}
+{{Infobox/Ligne mixte optionnelle | Langue | {{{langue|}}} }}
+{{Infobox/Ligne mixte optionnelle | Tite | {{{titre_orig|}}} | ''{{{titre_orig|}}}''}}
+{{Infobox/Ligne mixte optionnelle | Éditeu | {{{éditeur_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Collekcion | {{{collection_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Liu d' parucion | {{{lieuparution_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Païs d'origine | {{{pays_orig|{{#if:{{{langue|}}} | {{{pays|}}} }} }}} }}
+{{Infobox/Ligne mixte optionnelle | Date ed parucion | {{{dateparution_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Ouvraches du cycle | {{{ouvragescycle_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Type | {{{type_média_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Illustrateu | {{{dessinateur_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Couverture | {{{artiste_couverture_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Nombe ed paches | {{{pages_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | ISBN original | {{{isbn_orig|}}} | [[Spécial:Ouvrages de référence/{{{isbn_orig}}}{{!}}{{{isbn_orig}}}]] }}
+{{Infobox/Ligne mixte optionnelle | Date deul {{1re}} arprésintacion | {{{datethéatre_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Metteu in scène | {{{metteurenscène_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Liu deul {{1re}} arprésintacion | {{{théatre_orig|}}} }}
+{{Infobox/Ligne mixte optionnelle | Série | {{{série_orig|}}} | ''{{{série_orig|}}}'' }}
+<!---------------------------------########### VF #########--------------------------------->
+{{Infobox/Sous-titre optionnel | Version française | {{#if:{{{langue|}}} | {{{traducteur|}}}{{{éditeur|}}}{{{collection|}}}{{{dateparution|}}}{{{lieuparution|}}}{{{pays|}}}{{{ouvragescycle|}}}{{{type_média|}}}{{{dessinateur|}}}{{{artiste_couverture|}}}{{{pages|}}}{{{isbn}}}{{{datethéatre_fr|}}}{{{metteurenscène_fr|}}}{{{théatre_fr|}}}{{{série|}}} }} | 7DA7D9 }}
+{{Infobox/Ligne mixte optionnelle | Traducteu | {{{traducteur|}}} }}
+{{Infobox/Ligne mixte optionnelle | Éditeu | {{{éditeur|}}} }}
+{{Infobox/Ligne mixte optionnelle | Collekcion | {{{collection|}}} }}
+{{Infobox/Ligne mixte optionnelle | Date ed parucion | {{{dateparution|}}} }}
+{{Infobox/Ligne mixte optionnelle | Liu ed parucion | {{{lieuparution|}}} }}
+{{Infobox/Ligne mixte optionnelle | Païs d'origine | {{#if:{{{langue|}}} | {{#if:{{{pays_orig|}}}|{{{pays|}}}}} | {{{pays|}}} }} }}
+{{Infobox/Ligne mixte optionnelle | Ouvraches du cycle | {{{ouvragescycle|}}} }}
+{{Infobox/Ligne mixte optionnelle | Type | {{{type_média|}}} }}
+{{Infobox/Ligne mixte optionnelle | Illustrateu | {{{dessinateur|}}} }}
+{{Infobox/Ligne mixte optionnelle | Couverture | {{{artiste_couverture|}}} }}
+{{Infobox/Ligne mixte optionnelle | Nombe ed paches | {{{pages|}}} }}
+{{Infobox/Ligne mixte optionnelle | ISBN | {{{isbn|}}} | [[Spécial:Ouvrages de référence/{{{isbn}}}{{!}}{{{isbn}}}]] }}
+{{Infobox/Ligne mixte optionnelle | Date deul {{1re}} arprésintacion | {{{datethéatre_fr|}}} }}
+{{Infobox/Ligne mixte optionnelle | Metteu in scène | {{{metteurenscène_fr|}}} }}
+{{Infobox/Ligne mixte optionnelle | Liu deul {{1re}} arprésintacion | {{{théatre_fr|}}} }}
+{{Infobox/Ligne mixte optionnelle | Série | {{{série|}}} | ''{{{série|}}}'' }}
+{{Infobox/Sous-titre optionnel | Cronolodjie | {{{précédent|}}}{{{suivant|}}} | 7DA7D9 }}
+{{Infobox/Succession
+ | {{#if:{{{précédent|}}} | ''{{{précédent|}}}''}} {{#if:{{{date précédent|}}} | ([[{{{date précédent|}}} en littérature|{{{date précédent|}}}]])}}
+ | 
+ | {{#if:{{{suivant|}}} | ''{{{suivant|}}}'' {{#if:{{{date suivant|}}} | ([[{{{date suivant|}}} en littérature|{{{date suivant|}}}]])}}}}
+}}
+{{Infobox/Notice | Infobox Livre | 7DA7D9}}
+{{Infobox/Fin}}
+{{Infobox/Titre en italique|nom={{{titre|}}}|activé={{{titre article en italique|}}}}}</includeonly><noinclude>{{Documentation}}</noinclude>

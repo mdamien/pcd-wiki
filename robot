@@ -11,5 +11,3 @@ Un '''robot''' ch'est un dispositif mécatronike (mécanike, élektronike et inf
 }}
 
 [[Catégorie:Informatike]]
-
-{{Link FA|ar}}

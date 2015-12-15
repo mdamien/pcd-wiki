@@ -2,6 +2,9 @@
 * [[Utilisateur:Geoleplubo/Tests]]
 *[[Utilisateur:Geoleplubo/Musique]]
 
+* <nowiki>{{Sommaire à droéte}}</nowiki>
+{{Sommaire à droéte}}
+<nowiki><includeonly><div style="float:right; padding: 0 0 0 1em;">__TOC__</div></includeonly><noinclude></nowiki>
 
 * <nowiki>#REDIRECTION  [[eute nom]]</nowiki>
 
@@ -729,111 +732,4 @@ La Wikiversité bénéficie du soutien de la [[Foundation:Accueil?uselang=fr|Wik
 | align="left" |[[commons:Accueil|'''Wikimedia Commons''']]<br /><small>Base de données multimédia</small>
 |}
 
-<noinclude>
-[[Catégorie:Modèle interwiki]]
-[[de:Vorlage:Hauptseite:Schwesterprojekte]]
-[[el:Βικιεπιστήμιο:Άλλα εγχειρήματα]]
-[[en:Template:Sisterprojects]]
-[[es:Plantilla:Proyectos de Wikimedia]]
-[[it:Pagina principale/Progetti]]
-</noinclude>
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-</div>
-<div id="globalWrapper">
-<div id="column-content">
-<div id="content">
-
-<h1 class="firstHeading">Chés Wiki</h1>
-<div id="bodyContent">
-    
-<h3 id="siteSub"><I>From Meta</I></h3>
-<div id="contentSub"></div>
-   
-	    
-<!-- <esi:include src="userxy/message"/> cached per user, purged on new message-->
-
-<!-- the content area is cached with the remaining inexpensive skeleton, one version for all.
-The edit links and right-click section stuff can be attached from js -->
-<!-- start content -->
-
-<p>vir:</p>
-
-<div style="margin-top: 1.5em; width: 100%; vertical-align: middle; text-align: center; font-weight: bold;">
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-[[image:Wiktionary-logo-en.png|35px]]<br />
-<div style="margin-top: 12px;">&#160;&#160;"[http://www.wiktionary.org wiktionary.org]/" <br />
-<br />
-<br />
-<br />
-<br />
-
-
-{{clr}}
-
-
-</div><br style="clear: both;" />
-
-<div style="margin: 1.5em 0 2em 0; text-align: center;">
-<a href="http://wikimediafoundation.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/8/8b/Wikimedia-button-for-homepage.png" width="88" height="31" alt="Wikimedia" /></a>
-</div>
-
-</div>
-</td>
-</tr>
-</table>
-
-
-
-<!-- end content -->
-<div class="visualClear"></div>
-</div>
-</div>
-</div>
-<!-- end of main content block -->
-<!-- start of the left (by default at least) column -->
-<!--<esi:include src="thisurl?esiview=toolbox&loggedin=0"/> static footer, same for all pages but contains a few messaged that are worth caching --> 
-<div class="visualClear"></div>
-
-<div id="colophon"></div>
-</div>
-
-{{clr}}
-
--Wiktionary-logo-en.png" width="35" height="38" alt="" /></a>&#160;<a href="http://www.wiktionary.org/">Wiktionary</a></div>
-</div>
-
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-<div style="margin-top: 13px;">&#160;&#160;<a href="http://meta.wikimedia.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/35px-Wikimedia-logo.svg.png" width="35" height="35" alt="" /></a>&#160;<a href="http://meta.wikimedia.org/">Meta-Wiki</a></div>
-</div>
-
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-<div style="margin-top: 19px;">&#160;&#160;<a href="http://www.wikinews.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikinews-logo.png/35px-Wikinews-logo.png" width="35" height="19" alt="" /></a>&#160;<a href="http://www.wikinews.org/">Wikinews</a></div>
-</div>
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-<div style="margin-top: 10px;">&#160;&#160;<a href="http://www.wikiquote.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/35px-Wikiquote-logo.svg.png" width="35" height="41" alt="" /></a>&#160;<a href="http://www.wikiquote.org/">Wikiquote</a></div>
-</div>
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-<div style="margin-top: 11px;">&#160;&#160;<a href="http://www.wikibooks.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/35px-Wikibooks-logo.svg.png" width="35" height="35" alt="" /></a>&#160;<a href="http://www.wikibooks.org/">Wikibooks</a></div>
-</div>
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-<div style="margin-top: 13px;">&#160;&#160;<a href="http://species.wikimedia.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/35px-Wikispecies-logo.svg.png" width="35" height="41" alt="" /></a>&#160;<a href="http://species.wikimedia.org/">Wikispecies</a></div>
-</div>
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-<div style="margin-top: 10px;">&#160;&#160;<a href="http://www.wikisource.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/35px-Wikisource-logo.svg.png" width="35" height="37" alt="" /></a>&#160;<a href="http://www.wikisource.org/">Wikisource</a></div>
-</div>
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-<div style="margin-top: 22px;">&#160;&#160;<a href="http://www.wikiversity.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/35px-Wikiversity-logo.svg.png" width="35" height="28" alt="" /></a>&#160;<a href="http://www.wikiversity.org/">Wikiversity</a></div>
-
-</div>
-
-<div style="float: left; width: 33%; min-width: 12em; height: 60px;">
-<div style="margin-top: 7px;">&#160;&#160;<a href="http://commons.wikimedia.org/"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/35px-Commons-logo.svg.png" width="35" height="47" alt="" /></a>&#160;<a href="http://commons.wikimedia.org/">Commons</a></div>
-</div>

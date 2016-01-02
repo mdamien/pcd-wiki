@@ -3,10 +3,10 @@
 |x={{#expr: ({{{3}}} + 5.80)* 6.32911392405}}
 |image={{#switch: {{{2|}}}
 |relief=France_relief_location_map.jpg
-|#default=France location map-Regions and departements.svg
+|#default=France location map-Regions and departements-2016.svg
 }}
 |image1=624x-France-loc-carte-Départements-Reliefs.png
-|image2=France_location_map-Regions.svg
+|image2=France location map-Regions and departements-2016.svg
 |image3=France_location_map-Departements.svg
 |image4=France_relief_location_map.jpg
 |image5=624x-France-loc-carte-Départements-Reliefs.png

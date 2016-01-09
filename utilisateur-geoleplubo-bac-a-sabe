@@ -34,6 +34,44 @@
 == signature ==
 * https://fr.wikipedia.org/wiki/Aide:Signature#Comment_personnaliser_sa_signature_.3F
 
+== Utilisateur ==
+
+
+__NOINDEX__
+{{Titre incorrect|'''S ''t'' <small>a</small> <big>''r''</big> u ''s'''''|invisible=oui}}
+{{Début des onglets|Onglet-1=<big><big><big><font color="#008080">'''S&nbsp;''t''&nbsp;<small>a</small>&nbsp;<big>''r''</big>&nbsp;u&nbsp;''s'''''</font></big></big></big><br /><br /><br /><big>'''<span class="plainlinks">[//fr.wikipedia.org/w/index.php?title=Discussion_utilisateur:Geoleplubo&action=edit&section=new Me laisser un message]</span>'''</big>|URL-1={{FULLPAGENAME}}|bordure=3px solid #170279|fond cadre=#ffff00|arrondi=3em|alignement onglet=center}}<div style="color:#008080"><center>Nous sommes le '''[[{{CURRENTDAYNAME}}]] {{Date|{{CURRENTDAY}}|{{CURRENTMONTHNAME}}|{{CURRENTYEAR}}}},'''<br />je suis inscrit sur '''[[Wikipédia:Accueil principal|Wikipédia]]''' depuis '''{{#expr: {{CURRENTJULIANDAY}}-{{JULIANDAY|2006|7|13}} round 0}}''' jours.</center></div><br />
+
+<!--
+{{Début des onglets
+|Onglet-1='''Moi'''
+|URL-1=Utilisateur:Starus
+|Image-1=Crystal Clear kdm user male.png
+|Onglet-2='''Contributions'''
+|URL-2=Utilisateur:Starus/Contributions
+|Image-2=Tomboy logo.svg
+|Onglet-3='''Discussion'''
+|URL-3=Discussion utilisateur:Starus
+|Image-3=Nuvola apps edu languages.png
+|Onglet-4='''Message'''
+|URLType-4=externe2
+|URL-4=//fr.wikipedia.org/w/index.php?title=Discussion_utilisateur:Starus&action=edit&section=new
+|Image-4=Gnome-envelope.svg
+|Onglet-5='''Compteur'''
+|URLType-5=externe
+|URL-5=http://wikiscan.org/utilisateur/Starus
+|Image-5=Wikipedia progress icon.svg
+|Onglet-6='''Bloc-notes'''
+|URL-6=Utilisateur:Starus/Pense-bête
+|Image-6=Notepad icon.svg
+|bordure=3px solid #170279
+|fond onglets=#c0c0ff
+|alignement onglet=center
+|fond cadre=#c0c0ff
+|arrondi=5em
+}}
+-->
+
+
 == Infoboète ==
 <nowiki>
 

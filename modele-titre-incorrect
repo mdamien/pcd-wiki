@@ -1,0 +1,56 @@
+<includeonly><div {{#if:{{{nocorr|}}}|id="DisableRealTitle"}} {{#if:{{{invisible|}}}|style="display:none"}}>{{Méta bandeau d'avertissement
+| id = RealTitleBanner
+| niveau = information
+| icône = Icon falscher Titel.svg
+| titre = Titre correct : « <span id="RealTitle">{{{1|{{PAGENAME}}}}}</span> »
+| texte = En raison de limitations techniques, la typographie souhaitable du titre n’a pu être restituée correctement. {{{2|}}}
+}}</div></includeonly><noinclude>Ce modèle modifie le contenu du titre visible rendu par MediaWiki.
+Ce modèle n'est utilisé que lorsque MediaWiki est incapable de restituer le véritable titre en raison de caractères non autorisés tels que :
+
+    #
+    |
+    < et >
+    [ et ]
+    { et }
+     : (uniquement en début de titre ou après un mot identifié comme préfixe de lien interwiki, par exemple NG Dev.Team)
+
+Ce modèle peut empêcher la création d'un lien vers une page par un copier-coller de son titre apparent. Par exemple, le lien J# créé en copiant le titre apparent de l'article J sharp mène à J qui n'est pas la cible souhaitée. De même, il est impossible de créer le lien [[i>Télé]] en copiant le titre apparent de I-Télé. Son utilisation doit donc rester exceptionnelle.
+
+Il ne doit pas être utilisé pour :
+
+    Mettre une partie du titre en exposant ou en indice, ou encore en italique. Dans ce cas, utilisez {{Titre mis en forme}} (exemple : François Ier).
+    Mettre en minuscule la première lettre du titre. Dans ce cas, utilisez {{Minuscule}} (exemple : iTunes).
+    Indiquer que le titre entier n'est pas en français. Dans ce cas, utilisez {{Langue du titre}} (exemple : World Wide Web).
+    Masquer une partie du titre ou modifier celui-ci sans ajout de caractères interdits : dans ce cas, renommez l'article.
+
+Syntaxe dans les articles
+
+{{titre incorrect | 1=<titre correct> | 2=<explication>}}
+
+Où :
+
+    <titre correct> (obligatoire) est le titre souhaité. La numérotation explicite du paramètre (« 1=... ») est nécessaire lorsqu'il contient le symbole « = » ;
+    <explication> (optionnel) permet de compléter l'explication donnée dans le bandeau lorsque celui-ci est affiché.
+
+Syntaxe en dehors de l'espace article
+
+Deux paramètres supplémentaires peuvent être utilisés en dehors des articles :
+
+    invisible=oui : n'affiche pas le bandeau d'avertissement, même lorsque le titre corrigé n'a pas pu être restitué (par exemple lorsque JavaScript est désactivé). Mais l'information sera alors perdue pour une partie des lecteurs ;
+    nocorr=oui : désactive la correction par défaut du titre et le masquage du bandeau par JavaScript.
+
+Exemple
+
+{{Titre incorrect|J#}} affiche le titre « J# » dans l'article J sharp. Si JavaScript n'est pas activé dans son navigateur, le lecteur verra en revanche le bandeau :
+	
+Titre correct : « J# »
+En raison de limitations techniques, la typographie souhaitable du titre n’a pu être restituée correctement.
+Voir aussi
+
+    Wikipédia:Liste d'avertissements permanents
+    {{Langue du titre}} pour indiquer un titre complet dans une autre langue que le français
+    {{Titre mis en forme}} pour modifier la mise en forme du titre
+    {{Minuscule}} pour écrire en minuscule la première lettre du titre
+
+
+<!--{{Documentation}}--></noinclude>

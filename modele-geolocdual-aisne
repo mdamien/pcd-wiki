@@ -1,0 +1,16 @@
+<!--
+--><noinclude><!--{{Documentation}}--></noinclude><!--
+--> <div class="img_toogle">
+  <div class="geobox" title="Carte topographique">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Aisne|image|{{{type|relief}}}}}|280px|Voir la carte topographique]]
+{{#ifexpr:{{{2|}}}|{{G|Aisne|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|City|1{{{statut|4}}}}}| }}
+{{Fin de carte}}
+  </div>
+  <div class="geobox" title="Carte administrative">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Aisne|image|{{{type|}}}}}|280px|Voir la carte administrative]]
+{{#ifexpr:{{{2|}}}|{{G|Aisne|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}|City|1{{{statut|4}}}}}| }}
+{{Fin de carte}}
+  </div>
+</div><noinclude><!--
+--><!--{{Catégorie Aisne}}-->
+</noinclude>

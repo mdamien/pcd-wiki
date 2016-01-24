@@ -1,0 +1,20 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-(50.125))*-74.074074074074}} 
+|x={{#expr: ({{{3}}}-(2.9))*71.428571428571}}
+|image={{#switch: {{{2|}}}
+|relief=Aisne_department_relief_location_map.jpg
+|#default=Aisne_department_location_map.svg
+}}
+|iwidth=1124
+|iheight=1667
+|name=Aisne (département){{!}}Aisne
+|zone=département français
+|genre=fs'M
+|geo=-6681
+|top=50.125
+|bottom=48.775
+|left=2.9
+|right=4.3
+|projection=Projection équirectangulaire
+}}</includeonly><noinclude><!--{{Documentation paramétrage de carte|code=1}}-->
+</noinclude>

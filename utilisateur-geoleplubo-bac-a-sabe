@@ -655,6 +655,82 @@ Phabricator is a collaboration platform open to all Wikimedia and MediaWiki cont
 * dessine une branche haut gauche = <nowiki><span style="position:absolute;top:-50px;left:-200px;z-index:-1">[[File:Mtree-spiral-11_nevit_25.gif|225px]]</span></nowiki>
 <span style="position:absolute;top:-50px;left:-200px;z-index:-1">[[File:Mtree-spiral-11_nevit_25.gif|225px]]</span>
 
+=== chrono ===
+{|class="wiktable"
+|-
+! Code source !! Rendu
+|-
+|
+<source lang="text"><timeline>
+ImageSize  = width:900 height:700
+PlotArea   = left:50 right:20 bottom:20 top:20
+
+DateFormat = yyyy
+Period     = from:751 till:884
+TimeAxis   = orientation:vertical order:reverse
+ScaleMajor = unit:year increment:5 start:884
+ScaleMinor = unit:year increment:1 start:751
+
+PlotData=
+  color:purple mark:(line, black) align:left fontsize:12
+  shift:(25,-5) # shift text to right side of bar
+
+  # there is no automatic collision detection,
+  # so shift texts up or down manually to avoid overlap shift:(25,10)
+
+  at:751 fontsize:m text:Début du règne de Pépin le Bref (751-768)
+  at:754 fontsize:m text:Début de la série des capitulaires
+  at:768 fontsize:m text:Début du règne de Charlemagne (768 - 814) 
+  at:785 fontsize:m text:Capitulaire ''De partibus Saxoniae'', 785
+  at:789 fontsize:m text:Capitulaire ''Admonitio generalis'', 789
+  at:794 fontsize:m text:Capitulaire portant qu'on ne peut conférer l'ordination à un esclave sans la permission de son maître, 794 (I, 43. - Isambert, 1833)
+  at:800 fontsize:m text:Capitulaire ''De Villis'', vers 800
+  at:803 fontsize:m text:Capitulaire sur l'esclavage et la responsabilité des délits commis par les esclaves, 803 (I, 50. - Isambert, 1833)
+  at:808 fontsize:m text:Capitulaire instaurant la défense de receler les esclaves fugitifs, 808 (id. 54, V. - Isambert, 1833)
+  at:814 fontsize:m text:Début du règne de Louis le Pieux (814-840)
+  at:817 fontsize:m text:Capitulaire ''Ordinatio Imperii'', 817
+  at:843 fontsize:m text:Début du règne de Charles le Chauve (843-877) et Capitulaire de Coulaines, 843
+  at:847 fontsize:m text:Capitulaire de Meerssen, 847
+  at:877 fontsize:m text:Capitulaire de Quierzy, 877
+  at:884 fontsize:m text:Décès de Carloman II et fin de la série des capitulaires
+</timeline></source>
+|
+<timeline>
+ImageSize  = width:900 height:700
+PlotArea   = left:50 right:20 bottom:20 top:20
+
+DateFormat = yyyy
+Period     = from:751 till:884
+TimeAxis   = orientation:vertical order:reverse
+ScaleMajor = unit:year increment:5 start:884
+ScaleMinor = unit:year increment:1 start:751
+
+PlotData=
+  color:purple mark:(line, black) align:left fontsize:12
+  shift:(25,-5) # shift text to right side of bar
+
+  # there is no automatic collision detection,
+  # so shift texts up or down manually to avoid overlap shift:(25,10)
+
+  at:751 fontsize:m text:Début du règne de Pépin le Bref (751-768)
+  at:754 fontsize:m text:Début de la série des capitulaires
+  at:768 fontsize:m text:Début du règne de Charlemagne (768 - 814) 
+  at:785 fontsize:m text:Capitulaire ''De partibus Saxoniae'', 785
+  at:789 fontsize:m text:Capitulaire ''Admonitio generalis'', 789
+  at:794 fontsize:m text:Capitulaire portant qu'on ne peut conférer l'ordination à un esclave sans la permission de son maître, 794 (I, 43. - Isambert, 1833)
+  at:800 fontsize:m text:Capitulaire ''De Villis'', vers 800
+  at:803 fontsize:m text:Capitulaire sur l'esclavage et la responsabilité des délits commis par les esclaves, 803 (I, 50. - Isambert, 1833)
+  at:808 fontsize:m text:Capitulaire instaurant la défense de receler les esclaves fugitifs, 808 (id. 54, V. - Isambert, 1833)
+  at:814 fontsize:m text:Début du règne de Louis le Pieux (814-840)
+  at:817 fontsize:m text:Capitulaire ''Ordinatio Imperii'', 817
+  at:843 fontsize:m text:Début du règne de Charles le Chauve (843-877) et Capitulaire de Coulaines, 843
+  at:847 fontsize:m text:Capitulaire de Meerssen, 847
+  at:877 fontsize:m text:Capitulaire de Quierzy, 877
+  at:884 fontsize:m text:Décès de Carloman II et fin de la série des capitulaires
+</timeline>
+|-
+|}
+
 === BU ===
 {{BUdébut|texte= }}
 <div style="float:right;background:white;">

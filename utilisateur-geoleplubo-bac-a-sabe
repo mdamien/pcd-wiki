@@ -35,6 +35,17 @@
 == signature ==
 * https://fr.wikipedia.org/wiki/Aide:Signature#Comment_personnaliser_sa_signature_.3F
 
+== à feuilleter ==
+{{Animation
+ | upright = 4
+ | titre = Annuaire administratif de la Somme (1933)
+ | float = right
+ | Annuaire administratif Somme 1933 (couverture).jpg
+ | | Annuaire administratif Somme 1933 (pages 422-423).jpg
+ | | Annuaire administratif Somme 1933 (pages 448-449).jpg
+ | }}
+
+
 == Utilisateur ==
 
 
@@ -749,7 +760,7 @@ Coucou
 | titre   = Bienvenue sur ma page utilisateur ! 
 | contenu =
 ch'est un egzimpe éd boète.  }}
-
+{{clr}}
 == Chés Icônes ==
 {{Boîte déroulante début|titre=Un petit icône vaut mieux qu'un long discours }}
 {| rules="all" style="border: 1px solid #999;" cellspacing="0" cellpadding="3"

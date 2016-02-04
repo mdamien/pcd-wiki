@@ -1,0 +1,7 @@
+<includeonly>{{#if:{{{1|}}}|
+<div class="ImageFile">
+{{{1}}}
+</div>
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

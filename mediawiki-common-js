@@ -127,3 +127,230 @@ function GeoBox_Toggle(link){
           }
      }
 }
+
+/**
+ * Utilisation du modèle Modèle:Animation
+ */
+
+var Diaporama = {};
+Diaporama.Params = {};
+Diaporama.Fonctions = {};
+
+Diaporama.Params.DiaporamaIndex = 0;
+Diaporama.Params.ImageDelay = 1;
+Diaporama.Params.Paused = [];
+Diaporama.Params.Visible = [];
+Diaporama.Params.Length = [];
+Diaporama.Params.Delay = [];
+Diaporama.Params.Timeout = [];
+
+Diaporama.Fonctions.Init = function(node){
+	if(!node) node = document;
+	var Diaporamas = $( node ).find( 'div.diaporama' ).get();
+	for(var a=0,l=Diaporamas.length;a<l;a++){
+		Diaporama.Fonctions.InitDiaporama(Diaporamas[a]);
+	}
+};
+Diaporama.Fonctions.InitDiaporama = function(DiaporamaDiv){
+	var index = Diaporama.Params.DiaporamaIndex;
+	Diaporama.Params.DiaporamaIndex++;
+	DiaporamaDiv.id = "Diaporama_"+index;
+	var DiaporamaFileContainer = $( DiaporamaDiv ).find( 'div.diaporamaFiles' )[0];
+	var DiaporamaControl = $( DiaporamaDiv ).find( 'div.diaporamaControl' )[0];
+	if(!DiaporamaFileContainer || !DiaporamaControl) return;
+	var DiaporamaFiles = $( DiaporamaFileContainer ).find( 'div.ImageFile' ).get();
+	var width;
+	var firstTumbinner = $( DiaporamaFileContainer ).find( 'div.thumbinner' )[0];
+	if(firstTumbinner){ // force la largeur du diaporama (pour IE)
+		width = firstTumbinner.style.width.split("px").join("");
+	}else{
+		if(DiaporamaFileContainer.firstChild.firstChild) width = DiaporamaFileContainer.firstChild.firstChild.offsetWidth;
+	}
+	if(width) DiaporamaDiv.style.width = (parseInt(width)+30) + "px";
+	if(DiaporamaFiles.length<2) return;
+	Diaporama.Params.Length[index] = DiaporamaFiles.length;
+	DiaporamaFileContainer.id = "DiaporamaFileContainer_"+index;
+	DiaporamaControl.id = "DiaporamaControl_"+index;
+	Diaporama.Params.Delay[index] = Diaporama.Params.ImageDelay;
+	var DiaporamaDivClass = DiaporamaDiv.className.HTMLize();
+	var ParamDelay = DiaporamaDivClass.match(/Delay[0-9]+(\.|,)?[0-9]*/);
+	if(ParamDelay!=null){
+		ParamDelay = parseFloat(ParamDelay[0].split("Delay").join("").split(",").join("."));
+		if(ParamDelay && ParamDelay>0) Diaporama.Params.Delay[index] = ParamDelay;
+	}
+	Diaporama.Fonctions.ShowThisDiapo(index, 0);
+	var ControlLinks = DiaporamaControl.getElementsByTagName("a");
+	ControlLinks[0].firstChild.id = "DiaporamaPlay"+index;
+	ControlLinks[0].href = "javascript:Diaporama.Fonctions.Play("+index+");";
+	ControlLinks[1].firstChild.id = "DiaporamaPause"+index;
+	ControlLinks[1].href = "javascript:Diaporama.Fonctions.Pause("+index+");";
+	ControlLinks[2].firstChild.id = "DiaporamaStop"+index;
+	ControlLinks[2].href = "javascript:Diaporama.Fonctions.Stop("+index+");";
+	ControlLinks[3].firstChild.id = "DiaporamaLast"+index;
+	ControlLinks[3].href = "javascript:Diaporama.Fonctions.ToggleDiapo("+index+",-1);";
+	ControlLinks[4].firstChild.id = "DiaporamaNext"+index;
+	ControlLinks[4].href = "javascript:Diaporama.Fonctions.ToggleDiapo("+index+", 1);";
+	ControlLinks[5].parentNode.appendChild(Diaporama.Fonctions.CreateSelect(index, ControlLinks[5].title));
+	ControlLinks[5].parentNode.removeChild(ControlLinks[5]);
+	for(var e=0,t=ControlLinks.length;e<t;e++){
+		ControlLinks[e].onmousedown = function(){Diaporama.Fonctions.Onclick(this);};
+		ControlLinks[e].onmouseup = function(){Diaporama.Fonctions.Offclick(this, index);};
+		ControlLinks[e].firstChild.style.backgroundColor = "white";
+		ControlLinks[e].onmouseover = function(){ this.focus(); };
+	}
+	DiaporamaControl.style.display = "block";
+	if( $( DiaporamaDiv ).hasClass( 'Autoplay' ) ){
+		Diaporama.Fonctions.Play(index);
+	}else{
+		Diaporama.Fonctions.Pause(index);
+	}
+};
+
+Diaporama.Fonctions.Play = function(index){
+	if(Diaporama.Params.Paused[index] === false) return;
+	Diaporama.Params.Paused[index] = false;
+	clearTimeout(Diaporama.Params.Timeout[index]);
+	Diaporama.Params.Timeout[index] = setTimeout("Diaporama.Fonctions.ToggleDiapo("+index+",1);", Diaporama.Params.Delay[index]*1000);
+	var ButtonPlay = document.getElementById("DiaporamaPlay"+index);
+	ButtonPlay.style.backgroundColor = "silver";
+	var ButtonPause = document.getElementById("DiaporamaPause"+index);
+	ButtonPause.style.backgroundColor = "white";
+	var ButtonStop = document.getElementById("DiaporamaStop"+index);
+	ButtonStop.style.backgroundColor = "white";
+};
+
+Diaporama.Fonctions.Pause = function(index){
+	Diaporama.Params.Paused[index] = true;
+	clearTimeout(Diaporama.Params.Timeout[index]);
+	var ButtonPlay = document.getElementById("DiaporamaPlay"+index);
+	ButtonPlay.style.backgroundColor = "white";
+	var ButtonPause = document.getElementById("DiaporamaPause"+index);
+	ButtonPause.style.backgroundColor = "silver";
+	var ButtonStop = document.getElementById("DiaporamaStop"+index);
+	ButtonStop.style.backgroundColor = "white";
+};
+
+Diaporama.Fonctions.Stop = function(index){
+	Diaporama.Params.Paused[index] = true;
+	clearTimeout(Diaporama.Params.Timeout[index]);
+	Diaporama.Fonctions.ShowThisDiapo(index, 0);
+	var ButtonPlay = document.getElementById("DiaporamaPlay"+index);
+	ButtonPlay.style.backgroundColor = "white";
+	var ButtonPause = document.getElementById("DiaporamaPause"+index);
+	ButtonPause.style.backgroundColor = "white";
+	var ButtonStop = document.getElementById("DiaporamaStop"+index);
+	ButtonStop.style.backgroundColor = "silver";
+};
+
+Diaporama.Fonctions.ToggleDiapo = function(index, diff){
+	clearTimeout(Diaporama.Params.Timeout[index]);
+	var DiaporamaFileContainer = document.getElementById("DiaporamaFileContainer_"+index);
+	var DiaporamaFiles = $( DiaporamaFileContainer ).find( 'div.ImageFile' ).get();
+	var VisibleIndex = Diaporama.Params.Visible[index];
+	var NextDiaporamaIndex = (VisibleIndex+diff);
+	if(NextDiaporamaIndex==DiaporamaFiles.length || NextDiaporamaIndex<0){
+			var DiaporamaDiv = document.getElementById("Diaporama_"+index);
+			if( diff < 0 || ! $( DiaporamaDiv ).hasClass( 'AutoLoop' ) ){
+				return;
+			}
+			NextDiaporamaIndex = 0;
+	}
+	Diaporama.Fonctions.ShowThisDiapo(index, NextDiaporamaIndex);
+};
+
+Diaporama.Fonctions.ShowThisDiapo = function(index, Value){
+	clearTimeout(Diaporama.Params.Timeout[index]);
+	var DiaporamaFileContainer = document.getElementById("DiaporamaFileContainer_"+index);
+	var DiaporamaFiles = $( DiaporamaFileContainer ).find( 'div.ImageFile' ).get();
+	for(var x=0,z=DiaporamaFiles.length;x<z;x++){
+			if(x!=Value){
+				DiaporamaFiles[x].style.display = "none";
+			}else{
+				DiaporamaFiles[x].style.display = "block";
+			}
+	}
+	Diaporama.Params.Visible[index] = Value;
+	Diaporama.Fonctions.UpdateBar(index);
+	Diaporama.Fonctions.UpdateSelect(index);
+	if(!Diaporama.Params.Paused[index]){
+			var multipl = 1;
+			if(Value==(Diaporama.Params.Length[index]-1)) multipl = 3;
+			Diaporama.Params.Timeout[index] = setTimeout("Diaporama.Fonctions.ToggleDiapo("+index+",1);", Diaporama.Params.Delay[index]*1000*multipl);
+	}
+};
+
+Diaporama.Fonctions.CreateSelect = function(index, Title){
+	var Total = Diaporama.Params.Length[index];
+	var Select = document.createElement('select');
+	Select.id = "DiaporamaSelect"+index;
+	Select.title = Title;
+	for(var s=0;s<Total;s++){
+			var Opt = document.createElement('option');
+			if(s==0) Opt.selected = "selected";
+			Opt.text = (s+1)+"/"+Total;
+			Opt.innerHTML = (s+1)+"/"+Total;
+			Opt.value = s;
+			Select.appendChild(Opt);
+	}
+	Select.onchange = function(){ Diaporama.Fonctions.SelectDiapo(Diaporama.Fonctions.getIndex(this)); };
+	Select.onmouseover = function(){ this.focus(); };
+	return Select;
+};
+
+Diaporama.Fonctions.SelectDiapo = function(index){
+	var Select = document.getElementById("DiaporamaSelect"+index);
+	if(!Select) return;
+	var Opts = Select.getElementsByTagName('option');
+	for(var o=0,p=Opts.length;o<p;o++){
+		if(Opts[o].selected) {
+			var Value = parseInt(Opts[o].value);
+			return Diaporama.Fonctions.ShowThisDiapo(index, Value);
+		}
+	}
+};
+
+Diaporama.Fonctions.UpdateSelect = function(index){
+	var Select = document.getElementById("DiaporamaSelect"+index);
+	if(!Select) return;
+	var Opts = Select.getElementsByTagName('option');
+	for(var o=0,p=Opts.length;o<p;o++){
+		if(o==Diaporama.Params.Visible[index]) {
+			Opts[o].selected = "selected";
+		}else{
+			Opts[o].selected = false;
+		}
+	}
+};
+
+Diaporama.Fonctions.UpdateBar = function(index){
+	var Percent = (100/(Diaporama.Params.Length[index]-1)) * Diaporama.Params.Visible[index];
+	if(Percent>100) Percent = 100;
+	var DiaporamaControl = document.getElementById("DiaporamaControl_"+index);
+	var DiaporamaScrollBar = $( DiaporamaControl ).find( 'div.ScrollBar' )[0];
+	DiaporamaScrollBar.style.width = Percent + "%";
+};
+
+Diaporama.Fonctions.Onclick = function(Link){
+	var Image = Link.getElementsByTagName('img')[0];
+	Image.style.backgroundColor = "gray";
+};
+
+Diaporama.Fonctions.Offclick = function(Link, index){
+	var Span = Link.parentNode;
+	var SpanClass = Span.className;
+	var Image = Link.getElementsByTagName('img')[0];
+	var DiapoState = Diaporama.Params.Paused[index];
+	if( ( $( Span ).hasClass( 'Play' ) && DiapoState == false ) || ( ( $( Span ).hasClass( 'Pause' ) || $( Span ).hasClass( 'Stop' ) ) && DiapoState == true ) ){
+		Image.style.backgroundColor = "silver";
+	}else{
+		Image.style.backgroundColor = "white";
+	}
+};
+
+Diaporama.Fonctions.getIndex = function(Element){
+	return parseInt(Element.id.replace(/[^0-9]/g, ""));
+};
+
+$( function () {
+	Diaporama.Fonctions.Init();
+} );

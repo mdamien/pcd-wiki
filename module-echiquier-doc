@@ -1,0 +1,122 @@
+== Utilisation ==
+Fonctions exportables :
+* <code>board(frame)</code> – affiche un échiquier à partir d'une position des pièces fournie sous forme de tableau (précisions ci-dessous).
+* <code>fen2ascii(frame)</code> – convertit une notation [[Notation Forsyth-Edwards|FEN]] en une position des pièces fournie sous forme de tableau.
+* <code>ascii2fen(frame)</code> – convertit une position des pièces fournie sous forme de tableau en une notation [[Notation Forsyth-Edwards|FEN]].
+
+Autres fonctions :
+''Sans objet''
+
+Modules externes et autres éléments dont ce module a besoin pour fonctionner :
+''Sans objet''
+
+== board( frame ) ==
+=== Paramètres ===
+* <code>1</code> ou <code>align</code> - alignement - alignement de l'échiquier, <code>tleft</code>, <code>tright</code>.
+* <code>2</code> ou <code>header</code> - titre - titre de l'échiquier.
+* <code>3</code> à <code>66</code> (pour un échiquier 8x8) - case - contenu de chaque case (de <code>a8</code> à <code>h1</code>).
+* <code>67</code> (pour un échiquier 8x8) ou <code>footer</code> - explications - texte affiché sous l'échiquier.
+* <code>fen</code> - notation FEN - en remplacement des paramètres <code>3</code> à <code>66</code>
+* <code>size</code> - taille des cases
+* <code>width</code> - nombre de cases de l’échiquier en largeur (<code>8</code> par défaut)
+* <code>height</code> - nombre de cases de l’échiquier en hauteur (<code>8</code> par défaut)
+* <code>reverse</code> - <code>true</code> pour afficher les pièces à l'envers
+* <code>letters</code> - endroit où afficher les lettres repérant les colonnes (<code>top</code>, <code>bottom</code> ou <code>both</code>)
+* <code>numbers</code> - endroit où afficher les numéros repérant les lignes (<code>left</code>, <code>right</code> ou <code>both</code>)
+
+=== Exemple ===
+{{#invoke:Échiquier|board
+| tright
+|
+|rd|nd|bd|qd|kd|bd|  |rd
+|  |pd|  |  |pd|pd|pd|pd
+|pd|  |  |pd|  |nd|  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |nl|pl|  |  |  
+|  |  |nl|  |  |  |  |  
+|pl|pl|pl|  |  |pl|pl|pl
+|rl|  |bl|ql|kl|bl|  |rl
+|Variante Najdorf. Position après 5...a6.}}
+
+<pre>
+{{#invoke:Échiquier|board
+| tright
+|
+|rd|nd|bd|qd|kd|bd|  |rd
+|  |pd|  |  |pd|pd|pd|pd
+|pd|  |  |pd|  |nd|  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |nl|pl|  |  |  
+|  |  |nl|  |  |  |  |  
+|pl|pl|pl|  |  |pl|pl|pl
+|rl|  |bl|ql|kl|bl|  |rl
+|Variante Najdorf. Position après 5...a6.}}
+</pre>
+{{clr}}
+
+{{#invoke:Échiquier|board
+| tright
+|fen=rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R14
+|footer=Variante Najdorf. Position après 5...a6.
+}}
+
+<pre>
+{{#invoke:Échiquier|board
+| tright
+|fen=rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R14
+|footer=Variante Najdorf. Position après 5...a6.
+}}
+</pre>
+{{clr}}
+
+== fen2ascii( frame ) ==
+=== Paramètres ===
+* <code>1</code> - 
+* <code>2</code> à <code>65</code> - case - contenu de chaque case (de <code>a8</code> à <code>h1</code>).
+
+=== Exemple ===
+<pre>
+{{#invoke:Échiquier|ascii2fen|
+|rd|nd|bd|qd|kd|bd|  |rd
+|  |pd|  |  |pd|pd|pd|pd
+|pd|  |  |pd|  |nd|  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |nl|pl|  |  |  
+|  |  |nl|  |  |  |  |  
+|pl|pl|pl|  |  |pl|pl|pl
+|rl|  |bl|ql|kl|bl|  |rl
+}}
+</pre>
+
+Résultat : {{#invoke:Échiquier|ascii2fen|
+|rd|nd|bd|qd|kd|bd|  |rd
+|  |pd|  |  |pd|pd|pd|pd
+|pd|  |  |pd|  |nd|  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |nl|pl|  |  |  
+|  |  |nl|  |  |  |  |  
+|pl|pl|pl|  |  |pl|pl|pl
+|rl|  |bl|ql|kl|bl|  |rl
+}}
+
+== ascii2fen( frame ) ==
+=== Paramètres ===
+* <code>fen</code> - notation FEN.
+
+=== Exemple ===
+<pre>
+{{#invoke:Échiquier|fen2ascii
+|fen=rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R14
+}}
+</pre>
+
+{{#invoke:Échiquier|fen2ascii
+|fen=rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R14
+}}
+
+<includeonly>
+{{Projet Scribunto}}
+</includeonly>
+<noinclude>
+[[Catégorie:Documentation de module]]
+</noinclude>

@@ -36,16 +36,17 @@
 * https://fr.wikipedia.org/wiki/Aide:Signature#Comment_personnaliser_sa_signature_.3F
 
 == à feuilleter ==
+ne marche pas ? modèle animation
 {{Animation
  | upright = 4
  | titre = Annuaire administratif de la Somme (1933)
- | float = right
- | Annuaire administratif Somme 1933 (couverture).jpg
- | | Annuaire administratif Somme 1933 (pages 422-423).jpg
- | | Annuaire administratif Somme 1933 (pages 448-449).jpg
+ | float = center
+ | Annuaire administratif Somme 1933 (couverture).jpg|300px
+ | | Annuaire administratif Somme 1933 (pages 422-423).jpg|300px
+ | | Annuaire administratif Somme 1933 (pages 448-449).jpg|300px
  | }}
 
-
+{{clr}}
 == Utilisateur ==
 
 

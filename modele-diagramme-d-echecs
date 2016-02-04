@@ -1,0 +1,431 @@
+{{#invoke:Échiquier|board}}<noinclude>{{Documentation|contenu=
+{{Article détaillé|amorce=Documentation |Wikipédia:Diagramme de jeu{{!}}encodage des diagrammes de jeu}}
+
+<templatedata>
+{
+	"params": {
+		"1": {
+			"aliases": [
+				"align"
+			],
+			"label": "alignement",
+			"description": "Alignement de l'échiquier dans l'article",
+			"type": "string",
+			"autovalue": "tright",
+			"suggested": true
+		},
+		"2": {
+			"aliases": [
+				"header"
+			],
+			"label": "titre",
+			"description": "Titre de l'échiquier",
+			"type": "string",
+			"autovalue": "",
+			"suggested": true
+		},
+		"3": {
+			"label": "case a8",
+			"description": "Contenu de la case a8",
+			"type": "string",
+			"suggested": true
+		},
+		"4": {
+			"label": "case b8",
+			"description": "Contenu de la case b8",
+			"type": "string",
+			"suggested": true
+		},
+		"5": {
+			"label": "case c8",
+			"description": "Contenu de la case c8",
+			"type": "string",
+			"suggested": true
+		},
+		"6": {
+			"label": "case d8",
+			"description": "Contenu de la case d8",
+			"type": "string",
+			"suggested": true
+		},
+		"7": {
+			"label": "case e8",
+			"description": "Contenu de la case e8",
+			"type": "string",
+			"suggested": true
+		},
+		"8": {
+			"label": "case f8",
+			"description": "Contenu de la case f8",
+			"type": "string",
+			"suggested": true
+		},
+		"9": {
+			"label": "case g8",
+			"description": "Contenu de la case g8",
+			"type": "string",
+			"suggested": true
+		},
+		"10": {
+			"label": "case h8",
+			"description": "Contenu de la case h8",
+			"type": "string",
+			"suggested": true
+		},
+		"11": {
+			"label": "case a7",
+			"description": "Contenu de la case a7",
+			"type": "string",
+			"suggested": true
+		},
+		"12": {
+			"label": "case b7",
+			"description": "Contenu de la case b7",
+			"type": "string",
+			"suggested": true
+		},
+		"13": {
+			"label": "case c7",
+			"description": "Contenu de la case c7",
+			"type": "string",
+			"suggested": true
+		},
+		"14": {
+			"label": "case d7",
+			"description": "Contenu de la case d7",
+			"type": "string",
+			"suggested": true
+		},
+		"15": {
+			"label": "case e7",
+			"description": "Contenu de la case e7",
+			"type": "string",
+			"suggested": true
+		},
+		"16": {
+			"label": "case f7",
+			"description": "Contenu de la case f7",
+			"type": "string",
+			"suggested": true
+		},
+		"17": {
+			"label": "case g7",
+			"description": "Contenu de la case g7",
+			"type": "string",
+			"suggested": true
+		},
+		"18": {
+			"label": "case h7",
+			"description": "Contenu de la case h7",
+			"type": "string",
+			"suggested": true
+		},
+		"19": {
+			"label": "case a6",
+			"description": "Contenu de la case a6",
+			"type": "string",
+			"suggested": true
+		},
+		"20": {
+			"label": "case b6",
+			"description": "Contenu de la case b6",
+			"type": "string",
+			"suggested": true
+		},
+		"21": {
+			"label": "case c6",
+			"description": "Contenu de la case c6",
+			"type": "string",
+			"suggested": true
+		},
+		"22": {
+			"label": "case d6",
+			"description": "Contenu de la case d6",
+			"type": "string",
+			"suggested": true
+		},
+		"23": {
+			"label": "case e6",
+			"description": "Contenu de la case e6",
+			"type": "string",
+			"suggested": true
+		},
+		"24": {
+			"label": "case f6",
+			"description": "Contenu de la case f6",
+			"type": "string",
+			"suggested": true
+		},
+		"25": {
+			"label": "case g6",
+			"description": "Contenu de la case g6",
+			"type": "string",
+			"suggested": true
+		},
+		"26": {
+			"label": "case h6",
+			"description": "Contenu de la case h6",
+			"type": "string",
+			"suggested": true
+		},
+		"27": {
+			"label": "case a5",
+			"description": "Contenu de la case a5",
+			"type": "string",
+			"suggested": true
+		},
+		"28": {
+			"label": "case b5",
+			"description": "Contenu de la case b5",
+			"type": "string",
+			"suggested": true
+		},
+		"29": {
+			"label": "case c5",
+			"description": "Contenu de la case c5",
+			"type": "string",
+			"suggested": true
+		},
+		"30": {
+			"label": "case d5",
+			"description": "Contenu de la case d5",
+			"type": "string",
+			"suggested": true
+		},
+		"31": {
+			"label": "case e5",
+			"description": "Contenu de la case e5",
+			"type": "string",
+			"suggested": true
+		},
+		"32": {
+			"label": "case f5",
+			"description": "Contenu de la case f5",
+			"type": "string",
+			"suggested": true
+		},
+		"33": {
+			"label": "case g5",
+			"description": "Contenu de la case g5",
+			"type": "string",
+			"suggested": true
+		},
+		"34": {
+			"label": "case h5",
+			"description": "Contenu de la case h5",
+			"type": "string",
+			"suggested": true
+		},
+		"35": {
+			"label": "case a4",
+			"description": "Contenu de la case a4",
+			"type": "string",
+			"suggested": true
+		},
+		"36": {
+			"label": "case b4",
+			"description": "Contenu de la case b4",
+			"type": "string",
+			"suggested": true
+		},
+		"37": {
+			"label": "case c4",
+			"description": "Contenu de la case c4",
+			"type": "string",
+			"suggested": true
+		},
+		"38": {
+			"label": "case d4",
+			"description": "Contenu de la case d4",
+			"type": "string",
+			"suggested": true
+		},
+		"39": {
+			"label": "case e4",
+			"description": "Contenu de la case e4",
+			"type": "string",
+			"suggested": true
+		},
+		"40": {
+			"label": "case f4",
+			"description": "Contenu de la case f4",
+			"type": "string",
+			"suggested": true
+		},
+		"41": {
+			"label": "case g4",
+			"description": "Contenu de la case g4",
+			"type": "string",
+			"suggested": true
+		},
+		"42": {
+			"label": "case h4",
+			"description": "Contenu de la case h4",
+			"type": "string",
+			"suggested": true
+		},
+		"43": {
+			"label": "case a3",
+			"description": "Contenu de la case a3",
+			"type": "string",
+			"suggested": true
+		},
+		"44": {
+			"label": "case b3",
+			"description": "Contenu de la case b3",
+			"type": "string",
+			"suggested": true
+		},
+		"45": {
+			"label": "case c3",
+			"description": "Contenu de la case c3",
+			"type": "string",
+			"suggested": true
+		},
+		"46": {
+			"label": "case d3",
+			"description": "Contenu de la case d3",
+			"type": "string",
+			"suggested": true
+		},
+		"47": {
+			"label": "case e3",
+			"description": "Contenu de la case e3",
+			"type": "string",
+			"suggested": true
+		},
+		"48": {
+			"label": "case f3",
+			"description": "Contenu de la case f3",
+			"type": "string",
+			"suggested": true
+		},
+		"49": {
+			"label": "case g3",
+			"description": "Contenu de la case g3",
+			"type": "string",
+			"suggested": true
+		},
+		"50": {
+			"label": "case h3",
+			"description": "Contenu de la case h3",
+			"type": "string",
+			"suggested": true
+		},
+		"51": {
+			"label": "case a2",
+			"description": "Contenu de la case a2",
+			"type": "string",
+			"suggested": true
+		},
+		"52": {
+			"label": "case b2",
+			"description": "Contenu de la case b2",
+			"type": "string",
+			"suggested": true
+		},
+		"53": {
+			"label": "case c2",
+			"description": "Contenu de la case c2",
+			"type": "string",
+			"suggested": true
+		},
+		"54": {
+			"label": "case d2",
+			"description": "Contenu de la case d2",
+			"type": "string",
+			"suggested": true
+		},
+		"55": {
+			"label": "case e2",
+			"description": "Contenu de la case e2",
+			"type": "string",
+			"suggested": true
+		},
+		"56": {
+			"label": "case f2",
+			"description": "Contenu de la case f2",
+			"type": "string",
+			"suggested": true
+		},
+		"57": {
+			"label": "case g2",
+			"description": "Contenu de la case g2",
+			"type": "string",
+			"suggested": true
+		},
+		"58": {
+			"label": "case h2",
+			"description": "Contenu de la case h2",
+			"type": "string",
+			"suggested": true
+		},
+		"59": {
+			"label": "case a1",
+			"description": "Contenu de la case a1",
+			"type": "string",
+			"suggested": true
+		},
+		"60": {
+			"label": "case b1",
+			"description": "Contenu de la case b1",
+			"type": "string",
+			"suggested": true
+		},
+		"61": {
+			"label": "case c1",
+			"description": "Contenu de la case c1",
+			"type": "string",
+			"suggested": true
+		},
+		"62": {
+			"label": "case d1",
+			"description": "Contenu de la case d1",
+			"type": "string",
+			"suggested": true
+		},
+		"63": {
+			"label": "case e1",
+			"description": "Contenu de la case e1",
+			"type": "string",
+			"suggested": true
+		},
+		"64": {
+			"label": "case f1",
+			"description": "Contenu de la case f1",
+			"type": "string",
+			"suggested": true
+		},
+		"65": {
+			"label": "case g1",
+			"description": "Contenu de la case g1",
+			"type": "string",
+			"suggested": true
+		},
+		"66": {
+			"label": "case h1",
+			"description": "Contenu de la case h1",
+			"type": "string",
+			"suggested": true
+		},
+		"67": {
+			"aliases": [
+				"footer"
+			],
+			"label": "description",
+			"description": "Texte affiché sous l'échiquier",
+			"type": "string",
+			"suggested": true
+		},
+		"fen": {
+			"label": "notation FEN",
+			"description": "Notation FEN",
+			"type": "string"
+		}
+	},
+	"description": "Affichage d'un échiquier"
+}
+</templatedata>
+}}
+[[Catégorie:Modèle échecs|{{PAGENAME}}]]
+</noinclude>

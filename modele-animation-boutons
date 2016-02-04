@@ -1,0 +1,22 @@
+<div class="thumbcaption diaporamaControl noZoom nopopups" style="<includeonly>display:none;</includeonly>clear:both;border:1px solid silver;margin:5px;margin-top:3px;background-color:#ECECEC;"><center><!--
+--><span class="Play">[[File:Gnome-media-playback-start.svg|border|999x20px|link=#top|alt=Play|Lancer le diaporama]]</span><!--
+-->&nbsp;<!--
+--><span class="Pause">[[File:Gnome-media-playback-pause.svg|border|999x20px|link=#top|alt=Pause|Pause]]</span><!--
+-->&nbsp;<!--
+--><span class="Stop">[[File:Gnome-media-playback-stop.svg|border|999x20px|link=#top|alt=Stop|Stop]]</span><!--
+-->&nbsp;<!--
+--><span class="Last">[[File:Gnome-media-skip-backward.svg|border|999x20px|link=#top|alt=Précédent|Image précédente]]</span><!--
+-->&nbsp;<!--
+--><span class="Next">[[File:Gnome-media-skip-forward.svg|border|999x20px|link=#top|alt=Suivant|Image suivante]]</span><!--
+-->&nbsp;<!--
+--><span class="Select">[[File:Gnome-media-eject.svg|border|999x20px|link=#top|alt=Select|Sélectionner une image]]</span>
+</center>
+<div class="ScrollBarContainer" style="width:auto;height:5px;margin-top:3px;border:1px solid silver;background-color:Gainsboro;overflow:hidden;">
+<div class="ScrollBar" style="width:<includeonly>0</includeonly><noinclude>25</noinclude>%;background-color:DarkGray;border-right:1px solid DimGray;overflow:hidden;">&nbsp;</div>
+</div>
+</div><noinclude>{{Documentation|contenu=
+
+Ce modèle génère les boutons de contrôle du modèle {{m|Animation}}.}}
+
+[[Catégorie:Modèle]]
+</noinclude>

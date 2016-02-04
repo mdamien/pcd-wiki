@@ -1,0 +1,7 @@
+<includeonly>{{#ifeq:{{{image|}}}|||
+<div class="ImageFile">
+[[Image:{{{image|}}}|thumb|center|upright={{#ifeq:{{{upright|}}}||1|{{{upright}}}}}|alt={{{alt|{{{légende|Image}}}}}}|{{{légende|}}}]]
+</div>
+}}</includeonly><noinclude>
+<!--{{Documentation}}-->
+</noinclude>

@@ -1,0 +1,51 @@
+<includeonly><div class="thumb t{{{float|right}}} diaporama Delay{{{delai|4}}} {{#ifeq:{{{autoplay|}}}|1|Autoplay|}} {{#ifeq:{{{lire en boucle|}}}|1|AutoLoop|}}" style="width: auto; margin: 0 auto .5em auto;">
+{{#if:{{{titre|}}}|<p><center>'''{{{titre|}}}'''</center></p>}}
+<div class="thumbinner" style="width:auto;{{#ifeq:{{{style|}}}|||{{{style|}}}}}">
+{{#ifeq:{{{boutons haut|}}}|1|{{Animation/Boutons}}|}}
+<div class="diaporamaFiles" style="margin:0;padding:0;"><!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image1|{{{1|}}}}}}|légende={{{légende1|{{{2|}}}}}}|alt={{{alt1|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image2|{{{3|}}}}}}|légende={{{légende2|{{{4|}}}}}}|alt={{{alt2|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image3|{{{5|}}}}}}|légende={{{légende3|{{{6|}}}}}}|alt={{{alt3|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image4|{{{7|}}}}}}|légende={{{légende4|{{{8|}}}}}}|alt={{{alt4|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image5|{{{9|}}}}}}|légende={{{légende5|{{{10|}}}}}}|alt={{{alt5|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image6|{{{11|}}}}}}|légende={{{légende6|{{{12|}}}}}}|alt={{{alt6|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image7|{{{13|}}}}}}|légende={{{légende7|{{{14|}}}}}}|alt={{{alt7|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image8|{{{15|}}}}}}|légende={{{légende8|{{{16|}}}}}}|alt={{{alt8|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image9|{{{17|}}}}}}|légende={{{légende9|{{{18|}}}}}}|alt={{{alt9|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image10|{{{19|}}}}}}|légende={{{légende10|{{{20|}}}}}}|alt={{{alt10|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image11|{{{21|}}}}}}|légende={{{légende11|{{{22|}}}}}}|alt={{{alt11|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image12|{{{23|}}}}}}|légende={{{légende12|{{{24|}}}}}}|alt={{{alt12|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image13|{{{25|}}}}}}|légende={{{légende13|{{{26|}}}}}}|alt={{{alt13|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image14|{{{27|}}}}}}|légende={{{légende14|{{{28|}}}}}}|alt={{{alt14|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image15|{{{29|}}}}}}|légende={{{légende15|{{{30|}}}}}}|alt={{{alt15|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image16|{{{31|}}}}}}|légende={{{légende16|{{{32|}}}}}}|alt={{{alt16|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image17|{{{33|}}}}}}|légende={{{légende17|{{{34|}}}}}}|alt={{{alt17|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image18|{{{35|}}}}}}|légende={{{légende18|{{{36|}}}}}}|alt={{{alt18|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image19|{{{37|}}}}}}|légende={{{légende19|{{{38|}}}}}}|alt={{{alt19|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image20|{{{39|}}}}}}|légende={{{légende20|{{{40|}}}}}}|alt={{{alt20|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image21|{{{41|}}}}}}|légende={{{légende21|{{{42|}}}}}}|alt={{{alt21|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image22|{{{43|}}}}}}|légende={{{légende22|{{{44|}}}}}}|alt={{{alt22|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image23|{{{45|}}}}}}|légende={{{légende23|{{{46|}}}}}}|alt={{{alt23|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image24|{{{47|}}}}}}|légende={{{légende24|{{{48|}}}}}}|alt={{{alt24|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image25|{{{49|}}}}}}|légende={{{légende25|{{{50|}}}}}}|alt={{{alt25|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image26|{{{51|}}}}}}|légende={{{légende26|{{{52|}}}}}}|alt={{{alt26|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image27|{{{53|}}}}}}|légende={{{légende27|{{{54|}}}}}}|alt={{{alt27|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image28|{{{55|}}}}}}|légende={{{légende28|{{{56|}}}}}}|alt={{{alt28|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image29|{{{57|}}}}}}|légende={{{légende29|{{{58|}}}}}}|alt={{{alt29|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image30|{{{59|}}}}}}|légende={{{légende30|{{{60|}}}}}}|alt={{{alt30|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image31|{{{61|}}}}}}|légende={{{légende31|{{{62|}}}}}}|alt={{{alt31|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image32|{{{63|}}}}}}|légende={{{légende32|{{{64|}}}}}}|alt={{{alt32|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image33|{{{65|}}}}}}|légende={{{légende33|{{{66|}}}}}}|alt={{{alt33|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image34|{{{67|}}}}}}|légende={{{légende34|{{{68|}}}}}}|alt={{{alt34|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image35|{{{69|}}}}}}|légende={{{légende35|{{{70|}}}}}}|alt={{{alt35|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image36|{{{71|}}}}}}|légende={{{légende36|{{{72|}}}}}}|alt={{{alt36|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image37|{{{73|}}}}}}|légende={{{légende37|{{{74|}}}}}}|alt={{{alt37|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image38|{{{75|}}}}}}|légende={{{légende38|{{{76|}}}}}}|alt={{{alt38|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image39|{{{77|}}}}}}|légende={{{légende39|{{{78|}}}}}}|alt={{{alt39|}}}}}<!--
+-->{{Animation/Image|upright={{{upright|1}}}|image={{{image40|{{{79|}}}}}}|légende={{{légende40|{{{80|}}}}}}|alt={{{alt40|}}}}}<!--
+-->{{#if:{{{Contenu|}}}|{{{Contenu}}}}}<!--
+--></div>
+{{#ifeq:{{{boutons haut|}}}|1||{{Animation/Boutons}}}}
+</div></div></includeonly><noinclude>
+<!--{{Documentation}}-->
+</noinclude>

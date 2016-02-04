@@ -1,0 +1,416 @@
+local p = {}
+
+-- Construit le commentaire associé à une case vide
+--
+-- Paramètres:
+--  -row: numéro de ligne de l'échiquier
+--  -col: numéro de colonne de l'échiquier
+--  -colchar: lettres des colonnes
+local function comment_empty( row, col, colchar )
+	if ((row + col) % 2 == 1) then
+		return 'Case blanche ' .. colchar[col] .. row .. ' vide'
+	else
+		return 'Case noire ' .. colchar[col] .. row .. ' vide'
+	end
+end
+
+-- Construit le code HTML pour l'image d'une case
+--
+-- Paramètres:
+--  -img_empty: true si les images de case vide doivent être générées
+--  -pc: code de la pièce sur la case
+--       (cf. fullpiecenames, piecenames + colornames, symnames)
+--  -row: numéro de ligne de l'échiquier
+--  -col: numéro de colonne de l'échiquier
+--  -size: taille en pixels d'une case
+-- Retour:
+--  Code HTML pour l'image d'une case
+local function image_square( img_empty, pc, row, col, size )
+	local colornames = { l = 'blanc', d = 'noir' }
+	local piecenames = { 
+		z = 'champion',
+		w = 'wizard',
+		t = 'fool',
+		h = 'upside-down pawn',
+		m = 'upside-down rook',
+		s = 'upside-down knight',
+		f = 'upside-down king',
+		e = 'upside-down bishop',
+		g = 'upside-down queen',
+	}
+	local fullpiecenames = {
+		pl = 'Pion blanc',
+		pd = 'Pion noir',
+		rl = 'Tour blanche',
+		rd = 'Tour noire',
+		nl = 'Cavalier blanc',
+		nd = 'Cavalier noir',
+		bl = 'Fou blanc',
+		bd = 'Fou noir',
+		ql = 'Reine blanche',
+		qd = 'Reine noire',
+		kl = 'Roi blanc',
+		kd = 'Roi noir',
+		al = 'Princesse blanche',
+		ad = 'Princesse noire',
+		cl = 'Impératrice blanche',
+		cd = 'Impératrice noire',
+	}
+	local symnames = {
+		xx = 'croix noire',
+		ox = 'croix blanche',
+		xo = 'cercle noir',
+		oo = 'cercle blanc',
+		ul = 'haut gauche',
+		ua = 'haut',
+		ur = 'haut droite',
+		la = 'gauche',
+		ra = 'droite',
+		dl = 'bas gauche',
+		da = 'bas',
+		dr = 'bas droite',
+		lr = 'gauche droite',
+		ud = 'haut bas',
+		x0 = 'zéro',
+		x1 = 'un',
+		x2 = 'deux',
+		x3 = 'trois',
+		x4 = 'quatre',
+		x5 = 'cinq',
+		x6 = 'six',
+		x7 = 'sept',
+		x8 = 'huit',
+		x9 = 'neuf',
+	}
+	local colchar = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+	local color = mw.ustring.gsub( pc, '^.*(%w)(%w).*$', '%2' ) or ''
+	local colorLower = string.lower(color)
+	local piece = mw.ustring.gsub( pc, '^.*(%w)(%w).*$', '%1' ) or ''
+	local alt =  ''
+	local colorSquare = 't'
+	if ((row + col) % 2 == 1) then
+		colorSquare = 'l'
+	else
+		colorSquare = 'd'
+	end
+	local caseName = piece .. color .. colorSquare
+
+	if fullpiecenames[piece .. colorLower] or (colornames[colorLower] and piecenames[piece]) then
+		local piecename = nil
+		if fullpiecenames[piece .. colorLower] then
+			piecename = fullpiecenames[piece .. colorLower]
+		else
+			piecename = colornames[colorLower] .. ' ' .. piecenames[piece]
+		end
+		alt = alt .. ' sur case '
+		if ((row + col) % 2 == 1) then
+			alt = piecename .. ' sur case blanche ' .. colchar[col] .. row
+		else
+			alt = piecename .. ' sur case noire ' .. colchar[col] .. row
+		end
+	else
+		alt = comment_empty(row, col, colchar)
+		if not symnames[piece .. colorLower] then
+			if not img_empty then
+				return nil
+			end
+			caseName = colorSquare
+		end
+	end
+
+	return '[[File:Chess ' .. caseName .. '45.svg|' .. size .. 'x' .. size .. 'px|alt=' .. alt .. '|' .. alt .. ']]'
+
+end
+
+-- Construit le code HTML interne de l'échiquier
+--
+-- Paramètres:
+--  -board_name: nom de l'image de fond de l'échiquier
+--  -board_width: largeur de l'échiquier
+--  -board_height: hauteur de l'échiquier
+--  -args: arguments divers
+--  -size: taille en pixels d'une case de l'échiquier
+--  -rev: true si l'échiquier doit être inversé
+-- Retour:
+--  Code HTML pour l'échiquier
+local function innerboard(board_name, board_width, board_height, args, size, rev)
+	local colchar = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+	local root = mw.html.create('div')
+	local img_name = board_name or 'Chessboard480.svg'
+	root:addClass('chess-board')
+		:css('position', 'relative')
+		:wikitext(string.format( '[[File:%s|%dx%dpx|link=]]', img_name, board_width * size, board_height * size ))
+
+	local widthValue = size .. 'px'
+	local heightValue = size .. 'px'
+	for trow = 1,board_height do
+		local row = rev and trow or ( board_height + 1 - trow )
+		local topValue = tostring(( trow - 1 ) * size) .. 'px'
+		for tcol = 1,board_width do
+			local leftValue = tostring(( tcol - 1 ) * size) .. 'px'
+			local col = rev and ( board_width + 1 - tcol ) or tcol
+			local piece = args[board_width * ( board_height - row ) + col + 2] or ''
+			local pc = piece:match( '%w%w' ) or '  '
+			local img = image_square(board_name == nil, pc, row, col, size)
+			if img then
+				root:tag('div')
+					:css('position', 'absolute')
+					:css('z-index', '3')
+					:css('top', topValue)
+					:css('left', leftValue)
+					:css('width', widthValue)
+					:css('height', heightValue)
+					:wikitext(img)
+			else
+				root:tag('div')
+					:attr('title', comment_empty(row, col, colchar))
+					:css('position', 'absolute')
+					:css('z-index', '3')
+					:css('top', topValue)
+					:css('left', leftValue)
+					:css('width', widthValue)
+					:css('height', heightValue)
+			end
+		end
+	end
+
+	return tostring(root)
+end
+
+-- Construit le code HTML de l'échiquier
+--
+-- Paramètres:
+--  -board_name: nom de l'image de fond de l'échiquier
+--  -board_width: largeur de l'échiquier
+--  -board_height: hauteur de l'échiquier
+--  -args: arguments divers
+--  -size: taille en pixels d'une case de l'échiquier
+--  -rev: true si l'échiquier doit être inversé
+--  -letters: lettres à utiliser pour identifier les colonnes
+--  -numbers: numéros à utiliser pour identifier les lignes
+--  -header: en-tête
+--  -footer: détails
+--  -align: alignement de l'échiquier sur la page
+--  -clear:
+-- Retour:
+--  Code HTML pour l'échiquier
+function chessboard(board_name, board_width, board_height, args, size, rev, letters, numbers, header, footer, align, clear)
+	function letters_row( rev, num_lt, num_rt, width )
+		local letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'}
+		local root = mw.html.create('')
+		if num_lt then
+			root:tag('td')
+				:css('vertical-align', 'inherit')
+				:css('padding', '0')
+		end
+		for k = 1,board_width do
+			root:tag('td')
+				:css('padding', '0')
+				:css('vartical-align', 'inherit')
+				:css('height', '18px')
+				:css('width', size .. 'px')
+				:wikitext(rev and letters[board_width+1-k] or letters[k])
+		end
+		if num_rt then
+			root:tag('td')
+				:css('vertical-align', 'inherit')
+				:css('padding', '0')
+		end
+		return tostring(root)
+	end
+
+	local letters_tp = letters:match( 'both' ) or letters:match( 'top' )
+	local letters_bt = letters:match( 'both' ) or letters:match( 'bottom' )
+	local numbers_lt = numbers:match( 'both' ) or numbers:match( 'left' )
+	local numbers_rt = numbers:match( 'both' ) or numbers:match( 'right' )
+	local width = board_width * size + 2
+	if ( numbers_lt ) then width = width + 18 end
+	if ( numbers_rt ) then width = width + 18 end
+
+	local root = mw.html.create('div')
+		:addClass('thumb')
+		:addClass(align)
+		:css('clear', clear)
+		:css('text-align', 'center')
+		:wikitext(header)
+	local div = root:tag('div')
+		:addClass('thumbinner')
+		:css('width', width .. 'px')
+	local b = div:tag('table')
+		:attr('cellpadding', '0')
+		:attr('cellspacing', '0')
+		:css('background', 'white')
+		:css('font-size', '88%')
+		:css('border' , '1px #b0b0b0 solid')
+		:css('padding', '0')
+		:css('margin', 'auto')
+
+	if ( letters_tp ) then
+		b:tag('tr')
+			:css('vertical-align', 'middle')
+			:wikitext(letters_row( rev, numbers_lt, numbers_rt ))
+	end
+	local tablerow = b:tag('tr'):css('vertical-align','middle')
+	if ( numbers_lt ) then 
+		tablerow:tag('td')
+			:css('padding', '0')
+			:css('vertical-align', 'inherit')
+			:css('width', '18px')
+			:css('height', size .. 'px')
+			:wikitext(rev and 1 or board_height) 
+	end
+	local td = tablerow:tag('td')
+		:attr('colspan', board_width)
+		:attr('rowspan', board_height)
+		:css('padding', '0')
+		:css('vertical-align', 'inherit')
+		:wikitext(innerboard(board_name, board_width, board_height, args, size, rev))
+
+	if ( numbers_rt ) then 
+		tablerow:tag('td')
+			:css('padding', '0')
+			:css('vertical-align', 'inherit')
+			:css('width', '18px')
+			:css('height', size .. 'px')
+			:wikitext(rev and 1 or board_height) 
+	end
+	if ( numbers_lt or numbers_rt ) then
+		for trow = 2, board_height do
+			local idx = rev and trow or ( board_height + 1 - trow )
+			tablerow = b:tag('tr')
+				:css('vertical-align', 'middle')
+			if ( numbers_lt ) then 
+				tablerow:tag('td')
+					:css('padding', '0')
+					:css('vertical-align', 'inherit')
+					:css('height', size .. 'px')
+					:wikitext(idx)
+			end
+			if ( numbers_rt ) then 
+				tablerow:tag('td')
+					:css('padding', '0')
+					:css('vertical-align', 'inherit')
+					:css('height', size .. 'px')
+					:wikitext(idx)
+			end
+		end
+	end
+	if ( letters_bt ) then
+		b:tag('tr')
+			:css('vertical-align', 'middle')
+			:wikitext(letters_row( rev, numbers_lt, numbers_rt ))
+	end
+
+	if (footer and footer ~= '') then
+		div:tag('div')
+			:addClass('thumbcaption')
+			:wikitext(footer)
+	end
+
+	return tostring(root)
+end
+
+-- Construit une notation FEN en code utilisable pour board()
+--
+-- Paramètres:
+--  -fen: notation FEN
+-- Retour:
+--  Equivalent de la notation FEN pour board()
+function convertFenToArgs( fen )
+	-- converts FEN notation to 64 entry array of positions, offset by 2
+	local res = { ' ', ' ' }
+	-- Loop over rows, which are delimited by /
+	for srow in string.gmatch( "/" .. fen, "/%w+" ) do
+		-- Loop over all letters and numbers in the row
+		for piece in srow:gmatch( "%w" ) do
+			if piece:match( "%d" ) then -- if a digit
+				for k=1,piece do
+					table.insert(res,' ')
+				end
+			else -- not a digit
+				local color = piece:match( '%u' ) and 'l' or 'd'
+				piece = piece:lower()
+				table.insert( res, piece .. color )
+			end
+		end
+	end
+
+	return res
+end
+
+-- Construit un code utilisable pour board() en une notation FEN
+--
+-- Paramètres:
+--  -args: arguments
+--  -offset: décalage si le contenu de l'échiquier ne commence pas à l'argument 2
+-- Retour:
+--  Notation FEN équivalente
+function convertArgsToFen( args, offset )
+	function nullOrWhitespace( s ) return not s or s:match( '^%s*(.-)%s*$' ) == '' end
+	function piece( s ) 
+		return nullOrWhitespace( s ) and 1
+			or s:gsub( '%s*(%a)(%a)%s*', function( a, b ) return b == 'l' and a:upper() or a end )
+	end
+    
+	local res = ''
+	offset = offset or 0
+	for row = 1, 8 do
+		for file = 1, 8 do
+			res = res .. piece( args[8*(row - 1) + file + offset] )
+		end
+		if row < 8 then res = res .. '/' end
+	end
+	return mw.ustring.gsub(res, '1+', function( s ) return #s end )
+end
+
+function p.board(frame)
+	local args = frame.args
+	local pargs = frame:getParent().args
+	local size = args.size or pargs.size or '26'
+	local reverse = ( args.reverse or pargs.reverse or '' ):lower() == "true"
+	local letters = ( args.letters or pargs.letters or 'both' ):lower() 
+	local numbers = ( args.numbers or pargs.numbers or 'both' ):lower() 
+	local header = args.header or pargs.header or args[2] or pargs[2] or ''
+	local board_width = args.width or pargs.width or 8
+	local board_height = args.height or pargs.height or 8
+	local footer = args.footer or pargs.footer or args[board_width * board_height + 3] or pargs[board_width * board_height + 3] or ''
+	local align = (args.align or pargs.align or args[1] or pargs[1] or 'tright' ):lower()
+	local clear = args.clear or pargs.clear or ( align:match('tright') and 'right' ) or 'none'
+	local fen = args.fen or pargs.fen
+	local board_name = nil
+	if (board_width == 8) and (board_height == 8) then
+		board_name = 'Chessboard480.svg'
+	end
+
+	size = mw.ustring.match( size, '[%d]+' ) or '26' -- remove px from size
+	if (fen) then
+		return chessboard(board_name, board_width, board_height, convertFenToArgs(fen), size, reverse, letters, numbers, header, footer, align, clear)
+	end
+	if args[3] then
+		return chessboard(board_name, board_width, board_height, args, size, reverse, letters, numbers, header, footer, align, clear)
+	else
+		return chessboard(board_name, board_width, board_height, pargs, size, reverse, letters, numbers, header, footer, align, clear)
+	end
+end
+
+function p.fen2ascii(frame)
+	-- {{#invoke:Chessboard|fen2ascii|fen=...}}
+	local b = convertFenToArgs( frame.args.fen )
+	local res = ''
+	local offset = 2
+	for row = 1,8 do
+		local n = (9 - row)
+		res = res .. ' |' .. 
+		table.concat(b, '|', 8*(row-1) + 1 + offset, 8*(row-1) + 8 + offset) .. '\n'
+	end
+	res = mw.ustring.gsub( res,'\| \|', '|  |' )
+	res = mw.ustring.gsub( res,'\| \|', '|  |' )
+	return res
+end
+
+function p.ascii2fen( frame )
+	-- {{#invoke:Chessboard|ascii2fen|kl| | |....}}
+	return convertArgsToFen( frame.args, frame.args.offset or 1 )
+end
+
+return p

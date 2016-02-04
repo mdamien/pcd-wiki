@@ -1,0 +1,330 @@
+{{Sous-page de documentation}}
+
+<div style='border:1px solid red;font-size:110%;text-align:center'>documentation.</div> 
+
+== Utilisation ==
+Ce modèle crée un diaporama d'images de même largeur. Une fonction JavaScript permet de voir les images une par une. La version imprimable est lisible et la désactivation de JavaScript n'empêche pas de voir les images.
+
+Attention : pour ne pas perturber la mise en page, il est recommandé d'utiliser uniquement des images de mêmes proportions ou de proportions très proches. Lorsqu'il n'y a pas beaucoup de texte autour, l'alignement à gauche est conseillé.
+
+==  Syntaxe == 
+<pre>{{Animation
+|float=
+|upright=
+|image1=
+|image2=
+|image3=
+|image4=
+|image5=
+|image6=
+|image7=
+|image8=
+|image9=
+|image10=
+...
+...
+...
+|image39=
+|image40=
+}}</pre>
+
+== Paramètres ==
+* '''<code>float</code>''' = alignement : <code>right</code> ou <code>left</code>, <code>right</code> par défaut);
+* '''<code>delai</code>''' = délai entre deux changements, en seconde : <code>4</code> par défaut (peut être un nombre entier ou décimal, avec indifféremment un point ou une virgule, mais DOIT être positif);
+* '''<code>autoplay</code>''' = état initial du diaporama : <code>0</code> (pause) ou <code>1</code> (play), <code>0</code> par défaut;
+** ''Sauf cas très particulier, il est recommandé de ne pas utiliser ce paramètre''
+* '''<code>lire en boucle</code>''' = Lecture en boucle (délai x2 après la dernière diapo) : <code>0</code> (non) ou <code>1</code> (oui), <code>0</code> par défaut;
+* '''<code>boutons haut</code>''' = Mettre les boutons en haut plutôt qu'en bas : <code>0</code> (en bas) ou <code>1</code> (en haut), <code>0</code> par défaut;
+* '''<code>upright</code>''' = multiplicateur de la taille des images (défini dans les [[Spécial:préférences#mw-prefsection-rendering|préférences]]), <code>1</code> par défaut;
+* '''<code>style</code>''' = style du conteneur du diaporama (rien par défaut);
+* '''<code>titre</code>''' = titre du diaporama;
+* '''<code>image1</code>''' à '''<code>image40</code>''' = images à afficher;
+* '''<code>légende1</code>''' à '''<code>légende40</code>''' = légende des images;
+* '''<code>alt1</code>''' à '''<code>alt40</code>''' = texte alternatif des images;
+* '''<code>Contenu</code>''' = contenu supplémentaire, peut servir à afficher des images supplémentaires voire autre chose que des images. Chaque item doit être entouré d'un modèle {{m|Animation/Image}} ou {{m|Animation/Contenu}} pour être intégré au diaporama (Voir [[#Sous-modèles]]).
+
+== Sous-modèles ==
+=== {{m|Animation/Image}} ===
+Ce sous-modèle permet d'ajouter des images supplémentaires, il s'utilise avec la syntaxe suivante :
+<pre>
+{{Animation/Image|upright=|image=|légende=|alt=}}
+</pre>
+
+:Paramètres :
+* upright = taille de l'image
+* image = nom de l'image
+* légende de l'image
+* alternative textuelle
+
+'''Voir [[#Exemple 3]].'''
+
+=== {{m|Animation/Contenu}} ===
+Ce sous-modèle permet d'ajouter des diapos supplémentaires qui ne sont pas forcément des images, il s'utilise avec la syntaxe suivante :
+<pre>
+{{Animation/Contenu|mon contenu}}
+</pre>
+
+'''Voir [[#Exemple 4]].'''
+
+== Exemples ==
+=== Exemple 1 ===
+{{Animation
+|float=right
+|delai=2
+|autoplay=1
+|upright=0.3
+|style=border:1px dashed red;background-color:Bisque;
+|image1=Paris m 1 jms.svg
+|image2=Paris m 2 jms.svg
+|image3=Paris m 3 jms.svg
+}}
+<pre>
+{{Animation
+|float=right
+|delai=2
+|autoplay=1
+|upright=0.3
+|style=border:1px dashed red;background-color:Bisque;
+|image1=Paris m 1 jms.svg
+|image2=Paris m 2 jms.svg
+|image3=Paris m 3 jms.svg
+}}
+</pre>
+{{clr}}
+
+=== Exemple 2 ===
+{{Animation
+|titre = Évolution territoriale de la Colombie
+|delai=1.5
+|upright=0.2
+|image1=Colombia (1810).svg|légende1='''1800''' : [[Vice-royauté de Nouvelle-Grenade]]
+|image2=Colombia (1819).svg|légende2='''1819''' : [[Grande Colombie]]
+|image3=Colombia (1824).svg|légende3='''1824''' : [[Grande Colombie]]
+|image4=Colombia (1835).svg|légende4='''1835''' : [[République de Nouvelle-Grenade]]
+|image5=Colombia (1847).svg|légende5='''1847''' : [[République de Nouvelle-Grenade]]
+|image6=Colombia (1853).svg|légende6='''1853''' : [[République de Nouvelle-Grenade]]
+|image7=Colombia (1858).svg|légende7='''1858''' : [[Confédération grenadine]]
+|image8=Colombia (1870).svg|légende8='''1863''' : [[États-Unis de Colombie]]
+|image9=Colombia (1905).svg|légende9='''1905''' : [[République de Colombie]]
+|image10=Colombia (1908).svg|légende10='''1908''' : [[République de Colombie]]
+|image11=Colombia (1912).svg|légende11='''1912''' : [[République de Colombie]]
+|image12=Colombia (1916).svg|légende12='''1916''' : [[République de Colombie]]
+|image13=Colombia (1928).svg|légende13='''1928''' : [[République de Colombie]]
+|image14=Colombia (1942).svg|légende14='''1942''' : [[République de Colombie]]
+|image15=Colombia (1958).svg|légende15='''1958''' : [[République de Colombie]]
+|image16=Colombia (1966).svg|légende16='''1966''' : [[République de Colombie]]
+|image17=Colombia (1990).svg|légende17='''1990''' : [[République de Colombie]]
+|image18=Colombia (2000).svg|légende18='''2000''' : [[République de Colombie]]
+|image19=Colombia Mapa Oficial.svg|légende19='''{{CURRENTYEAR}}''' : [[République de Colombie]]
+}}
+<pre>
+{{Animation
+|titre = Évolution territoriale de la Colombie
+|delai=1.5
+|upright=0.2
+|image1=Colombia (1810).svg|légende1='''1800''' : [[Vice-royauté de Nouvelle-Grenade]]
+|image2=Colombia (1819).svg|légende2='''1819''' : [[Grande Colombie]]
+|image3=Colombia (1824).svg|légende3='''1824''' : [[Grande Colombie]]
+|image4=Colombia (1835).svg|légende4='''1835''' : [[République de Nouvelle-Grenade]]
+|image5=Colombia (1847).svg|légende5='''1847''' : [[République de Nouvelle-Grenade]]
+|image6=Colombia (1853).svg|légende6='''1853''' : [[République de Nouvelle-Grenade]]
+|image7=Colombia (1858).svg|légende7='''1858''' : [[Confédération grenadine]]
+|image8=Colombia (1870).svg|légende8='''1863''' : [[États-Unis de Colombie]]
+|image9=Colombia (1905).svg|légende9='''1905''' : [[République de Colombie]]
+|image10=Colombia (1908).svg|légende10='''1908''' : [[République de Colombie]]
+|image11=Colombia (1912).svg|légende11='''1912''' : [[République de Colombie]]
+|image12=Colombia (1916).svg|légende12='''1916''' : [[République de Colombie]]
+|image13=Colombia (1928).svg|légende13='''1928''' : [[République de Colombie]]
+|image14=Colombia (1942).svg|légende14='''1942''' : [[République de Colombie]]
+|image15=Colombia (1958).svg|légende15='''1958''' : [[République de Colombie]]
+|image16=Colombia (1966).svg|légende16='''1966''' : [[République de Colombie]]
+|image17=Colombia (1990).svg|légende17='''1990''' : [[République de Colombie]]
+|image18=Colombia (2000).svg|légende18='''2000''' : [[République de Colombie]]
+|image19=Colombia Mapa Oficial.svg|légende19='''{{CURRENTYEAR}}''' : [[République de Colombie]]
+}}
+</pre>
+{{clr}}
+
+=== Exemple 3 ===
+{{Animation
+|titre=Le [[Mat du berger]]
+|float=right
+|delai=2,5
+|Contenu=
+{{Animation/Image|upright=1.2|image=MatBerger1.gif|légende=Le plateau d’échecs.         |alt=Mat Berger 1}}
+{{Animation/Image|upright=1.2|image=MatBerger2.gif|légende=Les Blancs avancent un pion. |alt=Mat Berger 2}}
+{{Animation/Image|upright=1.2|image=MatBerger3.gif|légende=Les Noirs  avancent un pion. |alt=Mat Berger 3}}
+{{Animation/Image|upright=1.2|image=MatBerger4.gif|légende=Les Blancs avancent la reine.|alt=Mat Berger 4}}
+{{Animation/Image|upright=1.2|image=MatBerger5.gif|légende=Les Noirs avancent le cheval.|alt=Mat Berger 5}}
+{{Animation/Image|upright=1.2|image=MatBerger6.gif|légende=Les Blancs avancent le fou.  |alt=Mat Berger 6}}
+{{Animation/Image|upright=1.2|image=MatBerger7.gif|légende=Les Noirs avancent le cheval.|alt=Mat Berger 7}}
+{{Animation/Image|upright=1.2|image=MatBerger8.gif|légende=Les Blancs font échec et mat.|alt=Mat Berger 8}}
+}}
+<pre>
+{{Animation
+|titre=Le [[Mat du berger]]
+|float=right
+|delai=2,5
+|Contenu=
+{{Animation/Image|upright=1.2|image=MatBerger1.gif|légende=Le plateau d’échecs.         |alt=Mat Berger 1}}
+{{Animation/Image|upright=1.2|image=MatBerger2.gif|légende=Les Blancs avancent un pion. |alt=Mat Berger 2}}
+{{Animation/Image|upright=1.2|image=MatBerger3.gif|légende=Les Noirs  avancent un pion. |alt=Mat Berger 3}}
+{{Animation/Image|upright=1.2|image=MatBerger4.gif|légende=Les Blancs avancent la reine.|alt=Mat Berger 4}}
+{{Animation/Image|upright=1.2|image=MatBerger5.gif|légende=Les Noirs avancent le cheval.|alt=Mat Berger 5}}
+{{Animation/Image|upright=1.2|image=MatBerger6.gif|légende=Les Blancs avancent le fou.  |alt=Mat Berger 6}}
+{{Animation/Image|upright=1.2|image=MatBerger7.gif|légende=Les Noirs avancent le cheval.|alt=Mat Berger 7}}
+{{Animation/Image|upright=1.2|image=MatBerger8.gif|légende=Les Blancs font échec et mat.|alt=Mat Berger 8}}
+}}
+</pre>
+{{clr}}
+
+=== Exemple 4 ===
+Cet exemple utilise le modèle {{m|Diagramme d'échecs}}.
+
+{{Animation
+|float=left
+|delai=1.5
+|Contenu=
+{{Animation/Contenu|1=
+{{Diagramme d'échecs
+|
+| [[Défense sicilienne]]
+
+|rd|nd|bd|qd|kd|bd|nd|rd
+|pd|pd|pd|pd|pd|pd|pd|pd
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|pl|pl|pl|pl|pl|pl|pl|pl
+|rl|nl|bl|ql|kl|bl|nl|rl
+
+|Position initiale}}
+}}{{Animation/Contenu|1=
+{{diagramme d'échecs
+|
+| [[Défense sicilienne]]
+
+|rd|nd|bd|qd|kd|bd|nd|rd
+|pd|pd|  |pd|pd|pd|pd|pd
+|  |  |  |  |  |  |  |  
+|  |  |pd|  |  |  |  |  
+|  |  |  |  |pl|  |  |  
+|  |  |  |  |  |  |  |  
+|pl|pl|pl|pl|  |pl|pl|pl
+|rl|nl|bl|ql|kl|bl|nl|rl
+
+|Après 2 coups}}
+}}{{Animation/Contenu|1=
+{{diagramme d'échecs
+|
+| [[Défense sicilienne]]
+
+|rd|  |  |qd|  |rd|kd|  
+|pd|pd|  |  |pd|pd|bd|pd
+|  |  |nd|  |bd|nd|pd|  
+|  |  |  |pd|  |pl|  |  
+|  |  |  |  |pl|  |pl|  
+|  |nl|nl|  |bl|  |  |  
+|pl|pl|pl|  |bl|  |  |pl
+|rl|  |  |ql|kl|  |  |rl
+
+|Position après 11.f5}}
+}}{{Animation/Contenu|1=
+{{diagramme d'échecs
+|
+| [[Défense sicilienne]]
+
+|rd|  |bd|  |  |rd|kd|  
+|pd|pd|  |  |pd|pd|bd|pd
+|  |  |  |  |  |  |pd|  
+|  |  |  |  |  |pl|  |  
+|  |bl|  |  |  |  |bl|  
+|  |nl|nl|  |  |  |qd|  
+|pl|pl|pl|  |  |  |  |  
+|rl|  |  |ql|kl|rl|  |  
+
+|Position finale}}
+}}
+}}
+<pre>
+{{Animation
+|float=left
+|delai=1.5
+|Contenu=
+{{Animation/Contenu|1=
+{{Diagramme d'échecs
+|
+| [[Défense sicilienne]] 
+
+|rd|nd|bd|qd|kd|bd|nd|rd
+|pd|pd|pd|pd|pd|pd|pd|pd
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|pl|pl|pl|pl|pl|pl|pl|pl
+|rl|nl|bl|ql|kl|bl|nl|rl
+
+|Position initiale}}
+}}{{Animation/Contenu|1=
+{{diagramme d'échecs
+|
+| [[Défense sicilienne]]
+
+|rd|nd|bd|qd|kd|bd|nd|rd
+|pd|pd|  |pd|pd|pd|pd|pd
+|  |  |  |  |  |  |  |  
+|  |  |pd|  |  |  |  |  
+|  |  |  |  |pl|  |  |  
+|  |  |  |  |  |  |  |  
+|pl|pl|pl|pl|  |pl|pl|pl
+|rl|nl|bl|ql|kl|bl|nl|rl
+
+|Après 2 coups}}
+}}{{Animation/Contenu|1=
+{{diagramme d'échecs
+|
+| [[Défense sicilienne]]
+
+|rd|  |  |qd|  |rd|kd|  
+|pd|pd|  |  |pd|pd|bd|pd
+|  |  |nd|  |bd|nd|pd|  
+|  |  |  |pd|  |pl|  |  
+|  |  |  |  |pl|  |pl|  
+|  |nl|nl|  |bl|  |  |  
+|pl|pl|pl|  |bl|  |  |pl
+|rl|  |  |ql|kl|  |  |rl
+
+|Position après 11.f5}}
+}}{{Animation/Contenu|1=
+{{diagramme d'échecs
+|
+| [[Défense sicilienne]]
+
+|rd|  |bd|  |  |rd|kd|  
+|pd|pd|  |  |pd|pd|bd|pd
+|  |  |  |  |  |  |pd|  
+|  |  |  |  |  |pl|  |  
+|  |bl|  |  |  |  |bl|  
+|  |nl|nl|  |  |  |qd|  
+|pl|pl|pl|  |  |  |  |  
+|rl|  |  |ql|kl|rl|  |  
+
+|Position finale}}
+}}
+}}
+</pre>
+{{clr}}
+
+== Javascript ==
+
+Pour fonctionner, ce modèle nécessite un code javascript. Il est stocké dans la page [[MediaWiki:Common.js]] (chercher l'objet <code>Diaporama</code>).
+
+<includeonly>
+
+{{DEFAULTSORT:Animation}}
+[[Catégorie:Modèle utilisant du code JavaScript|{{BASEPAGENAME}}]]
+[[Catégorie:Modèle cadre]]
+[[Catégorie:Modèle d'image]]
+</includeonly>

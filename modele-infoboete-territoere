@@ -1,0 +1,74 @@
+<includeonly>{{Infobox Subdivision administrative
+|modèle                   = Infobox Territoire<!--Paramètre obligatoire pour un modèle-->
+|nom                      = {{{nom|{{PAGENAME}} }}}
+|autres noms              = <!--
+-->{{#if:{{{nom_local_1|}}}        |{{{nom_local_1}}}&nbsp;{{{{{langue_1}}}}}
+   }}<!--
+-->{{#if:{{{nom_local_2|}}}
+  |{{#if:{{{nom_local_1|}}}|<br />}}{{{nom_local_2}}}&nbsp;{{{{{langue_2}}}}}
+   }}<!--
+-->{{#if:{{{nom_local_3|}}}
+  |{{#if:{{{nom_local_2|}}}|<br />}}{{{nom_local_3}}}&nbsp;{{{{{langue_3}}}}}
+   }}<!--
+-->{{#if:{{{nom_local_4|}}}
+  |{{#if:{{{nom_local_3|}}}|<br />}}{{{nom_local_4}}}&nbsp;{{{{{langue_4}}}}}
+   }}
+|couleur                  = e0e0e0
+|blason                   = {{{blason|}}}
+|drapeau                  = {{{drapeau|}}}
+|légende blason           = {{{légende blason|Armoiries}}}
+|légende drapeau          = {{{légende drapeau|Drapeau}}}
+|image                    = {{{image|}}}
+|légende                  = {{{légende|}}}
+|image2                   = {{{imageloc|}}}
+|légende2                 = {{{légende imageloc|}}}
+|pays                     = {{{pays|}}}
+|pays2                    = {{{pays2|}}}
+|nom de division          = éstatut politike
+|division                 = {{{statut|}}}
+|nom de division2         = {{{titre_capitale|[[Capitale]]}}}
+|division2                = {{{capitale|}}}
+|nom de division3         = [[Gouvern'mint]]{{#if:{{{titres_dirigeants|}}}|<br />- ''{{{titres_dirigeants|}}}''}}
+|division3                = {{#if:{{{type_gouvernement|}}}{{{noms_dirigeants|}}}|{{{type_gouvernement|}}}<br />{{{noms_dirigeants|}}} }}
+|titre autorité           = {{{titre dirigeant1|}}}
+|autorité                 = {{{nom dirigeant1|}}}
+|mandat autorité          = {{{mandat dirigeant1|}}}
+|titre autorité2          = {{{titre dirigeant2|}}}
+|autorité2                = {{{nom dirigeant2|}}}
+|mandat autorité2         = {{{mandat dirigeant2|}}}
+|titre autorité3          = {{{titre dirigeant3|}}}
+|autorité3                = {{{nom dirigeant3|}}}
+|mandat autorité3         = {{{mandat dirigeant3|}}}
+|titre autorité4          = {{{titre dirigeant4|}}}
+|autorité4                = {{{nom dirigeant4|}}}
+|mandat autorité4         = {{{mandat dirigeant4|}}}
+|gentilé                  = {{{gentilé|}}}
+|alt mini                 = {{{alt mini|}}}
+|alt maxi                 = {{{alt maxi|}}}
+|population               = {{{population|}}}
+|population notes         = {{{population notes|}}}
+|année_pop                = {{{année_pop|}}}
+|nom divers démographie   = Langue(s)
+|divers démographie       = {{{langues|}}}
+|nom divers démographie2  = PIB {{#if:{{{pib_année|}}}|<small>([[{{{pib_année}}}]])}}</small><br />&nbsp;· PIB/{{abréviation discrète|hab.|habitant}}
+|divers démographie2      = {{#if:{{{pib|}}}{{{pib_hab|}}}|{{{pib|}}}<br />{{{pib_hab|}}} }}
+|superficie               = {{{superficie|}}}
+|superficie ha            = non
+|superficie notes         = {{{superficie notes|}}}
+|nom divers               = Monnoé
+|divers                   = {{{monnaie|}}}
+|nom divers2              = Fuseau horaire
+|divers2                  = {{#if:{{{fuseau_horaire|}}}|[[Temps universel coordonné|UTC]] {{{fuseau_horaire}}} }}
+|nom divers3              = intarnète
+|divers3                  = {{{domaine_internet|}}}
+|nom divers4              = {{nobr|téléfone}}
+|divers4                  = {{{indicatif_téléphonique|}}}
+|nom divers5              = Hymne
+|divers5                  = {{{hymne|}}}
+|nom divers6              = D'vise
+|divers6                  = {{{devise|}}}
+|nom divers7              = Code ISO 3166-1
+|divers7                  = {{{iso3166-1|}}}
+|source1                  = {{{notes|}}}
+|géolocalisation          = {{{géolocalisation|}}}
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

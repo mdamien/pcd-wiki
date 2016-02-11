@@ -1,0 +1,67 @@
+<includeonly><!--
+
+	Pas de paramètre => Chinois : (1)
+
+-->{{#if:{{{c|}}}{{{s|}}}{{{t|}}}{{{p|}}}{{{w|}}}{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}||{{#if:{{{1|}}}|{{#if:{{{court|}}}||{{#ifeq:{{{lien|}}}|non|chinois|[[Langues chinoises|chinois]]}}&nbsp;:}} {{lang|zh|{{{1|}}}}}|{{Indication de langue|chinois|zh}} }} }}<!--
+
+	si c=* => Chinois : (c)
+
+-->{{#if:{{{c|}}}|{{#if:{{{court|}}}||{{#ifeq:{{{lien|}}}|non|chinois|[[Langues chinoises|chinois]]}}&nbsp;:}} {{Lang|zh|{{{c|}}}}}{{#if:{{{s|}}}{{{t|}}}{{{p|}}}{{{w|}}}{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}<!--
+
+	si s=t => Chinois : (s)
+
+-->{{#ifeq:{{{s}}}|{{{t}}}|{{#if:{{{court|}}}||{{#ifeq:{{{lien|}}}|non|chinois|[[Langues chinoises|chinois]]}}&nbsp;:}} {{Lang|zh|{{{s}}}}}{{#if:{{{p|}}}{{{w|}}}{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}|<!--
+
+	sinon, si premier=t, ordre inversé
+
+-->{{#ifeq:{{{premier|}}}|t|<!--
+
+	... traditionnel d'abord
+
+-->{{#if:{{{t|}}}|{{#if:{{{court|}}}||{{#ifeq:{{{lien|}}}|non|chinois traditionnel|[[Sinogramme traditionnel{{!}}chinois traditionnel]]}}&nbsp;:}} {{Lang|zh-Hant|{{{t|}}}}}{{#if:{{{s|}}}|{{#if:{{{court|}}}|&#32;/&#32;|{{{sep|&nbsp;;}}}&#32;}}|{{#if:{{{p|}}}{{{w|}}}{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}}}<!--
+
+	... simplifié ensuite
+
+-->{{#if:{{{s|}}}|{{#if:{{{court|}}}||{{#ifeq:{{{lien|}}}|non|chinois simplifié|[[Sinogramme simplifié{{!}}chinois simplifié]]}}&nbsp;:}} {{Lang|zh-Hans|{{{s|}}}}}{{#if:{{{p|}}}{{{w|}}}{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}|<!--
+
+	sinon, ordre par défaut :
+	... simplifié d'abord
+
+-->{{#if:{{{s|}}}|{{#if:{{{court|}}}||{{#ifeq:{{{lien|}}}|non|chinois simplifié|[[Sinogramme simplifié{{!}}chinois simplifié]]}}&nbsp;:}} {{Lang|zh-Hans|{{{s|}}}}}{{#if:{{{t|}}}|{{#if:{{{court|}}}|&#32;/&#32;|{{{sep|&nbsp;;}}}&#32;}}|{{#if:{{{p|}}}{{{w|}}}{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}}}<!--
+
+	... traditionnel ensuite
+
+-->{{#if:{{{t|}}}|{{#if:{{{court|}}}||{{#ifeq:{{{lien|}}}|non|chinois traditionnel|[[Sinogramme traditionnel{{!}}chinois traditionnel]]}}&nbsp;:}} {{Lang|zh-Hant|{{{t|}}}}}{{#if:{{{p|}}}{{{w|}}}{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}<!--
+
+	... fin si premier=t
+-->}}<!--
+
+	fin si s=t 
+-->}}<!--
+
+	pinyin
+
+-->{{#if:{{{p|}}}|{{#if:{{{court|}}}||{{#ifeq:{{{lien|}}}|non|pinyin|[[Hanyu pinyin|pinyin]]}}&nbsp;:}} <span style="font-style:italic;">{{lang|zh-latn-pinyin|{{{p|}}}}}</span>{{#if:{{{w|}}}{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}<!--
+
+	Wade-Gile
+
+-->{{#if:{{{w|}}}|{{#ifeq:{{{lien|}}}|non|Wade|[[Romanisation Wade-Giles|Wade]]}}&nbsp;: ''{{lang|zh-latn-wadegile|{{{w|}}}}}''{{#if:{{{efeo|}}}{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}<!--
+
+	EFEO
+
+-->{{#if:{{{efeo|}}}|{{#ifeq:{{{lien|}}}|non|EFEO|[[Romanisation de l'EFEO|EFEO]]}}&nbsp;: ''{{lang|zh-latn|{{{efeo|}}}}}''{{#if:{{{j|}}}{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}<!--
+
+	cantoné Jyutping
+
+-->{{#if:{{{j|}}}|{{#ifeq:{{{lien|}}}|non|cantonais Jyutping|[[Jyutping|cantonais Jyutping]]}}&nbsp;: ''{{lang|yue-jyutping|{{{j|}}}}}''{{#if:{{{y|}}}{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}<!--
+
+	cantoné Yale
+
+-->{{#if:{{{y|}}}|{{#ifeq:{{{lien|}}}|non|cantonais Yale|[[Romanisation Yale|cantonais Yale]]}}&nbsp;: ''{{lang|zh-latn|{{{y|}}}}}''{{#if:{{{l|}}}|{{#if:{{{court|}}}|,&#32;|{{{sep|&nbsp;;}}}&#32;}}}}}}<!--
+
+	traduction littérale
+
+-->{{#if:{{{l|}}}|{{#if:{{{court|}}}||littéralement&nbsp;:}} « {{{l|}}} »}}<!--
+
+--></includeonly><noinclude>{{Documentation}}
+</noinclude>

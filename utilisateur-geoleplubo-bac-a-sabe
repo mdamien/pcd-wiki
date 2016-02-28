@@ -619,6 +619,7 @@ L'invariance de l'hamiltonien d'un système sous un groupe continu de transforma
 * vecteurs : <code>\overrightarrow{AB}</code> donne <math>\overrightarrow{AB}</math>
 * limites : <code>\lim_{x \to +\infty} f(x)</code> donne <math>\lim_{x \to +\infty} f(x)</math>
 * taille petite : <code>\scriptstyle{instructions}</code>}}
+* avec <nowiki><math display="inline"></nowiki>, on peut écrire : <math display="inline">df=\frac{\partial f}{\partial x_1}dx_1 + ... +\frac{\partial f}{\partial x_n}dx_n</math> dans le texte sinon on aurait <math>df=\frac{\partial f}{\partial x_1}dx_1 + ... +\frac{\partial f}{\partial x_n}dx_n</math> en plus grand.
 {{BDfin}}
 
 == politique EDP (exemption doctrine policy) ==

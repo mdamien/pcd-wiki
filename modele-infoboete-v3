@@ -187,7 +187,7 @@ Syntaxe complète avec tous les paramètres optionnels :
 {{Article détaillé|Modèle:Infobox V3/Image|amorce=Pour le détail des paramètres, voir}}
 
 {{Infobox V3/Début|text=Exemple}}
-{{Infobox V3/Image|image=Wiki.png|legend=Une image et sa légende}}
+{{Infobox V3/Image|image=Wikipedia-logo-v2-pcd.svg|legend=Une image et sa légende}}
 {{Infobox V3/Fin}}
 
 Ce modèle gère l'image habituelle d'une infobox et sa légende, mais sous la forme d'un ''thumb'' au rendu adapté (largeur définie par les préférences du compte personnel, pas de bordures, pas d'icône loupe, alternative textuelle par défaut optimisée).

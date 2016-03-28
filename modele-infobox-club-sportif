@@ -47,7 +47,7 @@ IMAGE  -->{{Infobox V3/Image
   |alt= Logo du {{{nom|{{PAGENAME}}}}}
 }}<!--
 GENERALITES  -->{{Infobox V3/Tableau début
-  |text=Généralités
+  |text=<!--Généralités-->
   |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
   |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
 }}{{trim|
@@ -73,7 +73,7 @@ GENERALITES  -->{{Infobox V3/Tableau début
   |Disparicion| {{{date de disparition|}}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=10
-  |[[Sport professionnel|Statut professionnel]]| {{{statut professionnel|}}}
+  |éstatut professionnel| {{{statut professionnel|}}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=10
   |Couleurs| {{{couleurs|}}}
@@ -98,13 +98,13 @@ GENERALITES  -->{{Infobox V3/Tableau début
   |Manager| {{{manager|}}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=10
-  | {{{titre entraîneur|[[Entraîneur]]}}} | {{{entraîneur|}}}
+  | {{{titre entraîneur|Entraîneur}}} | {{{entraîneur|}}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=10
   | Capitaine| {{{capitaine|}}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=10
-  |Joueu l' pus capé| {{{joueur le plus capé|}}}
+  |Jueu l' pus capé| {{{joueur le plus capé|}}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=10
   |Meilleur buteu| {{{meilleur buteur|}}}
@@ -279,7 +279,8 @@ NEWS  {{#if: {{{actualité|}}} |{{Infobox V3/Titre Bloc
 | water polo = [[Image:Water polo current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
 }} Pour la saison en cours, voir :<br /> '''''[[{{{actualité}}}]]'''''<br />{{0}}</center>
 }}{{#if: {{{maj|}}}|
-<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V3/Fin|Modèle:{{#if:{{{modèle|}}}|{{{modèle}}}|Infobox Club sportif}}|class=bordered|border-color=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }} |border-width=2}}-->  </includeonly><noinclude> </noinclude>
+<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V3/Fin|Modèle:{{#if:{{{modèle|}}}|{{{modèle}}}|Infobox Club sportif}}|class=bordered|border-color=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }} |border-width=2}} --> 
+</includeonly><noinclude> </noinclude>
 |}
 </includeonly><noinclude>
 __NOTOC__

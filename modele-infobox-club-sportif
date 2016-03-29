@@ -2,70 +2,24 @@
 <includeonly>{| class="infobox_v2" cellspacing="7" border="0"
 | colspan="2" class="entete sport" style="background-color:rgb(23,165,165);" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
 |-
-|}</includeonly>
-<includeonly>{| class="infobox_v2" cellspacing="7" border="0"
-<!--
-IMAGE  -->{{Infobox V3/Image
-  |image= {{{logo|}}}
-  |upright= {{#if: {{{upright logo|}}} | {{{upright logo|}}} |0.6}}
-  |légende= {{{légende logo|}}}
-  |alt= Logo du {{{nom|{{PAGENAME}}}}}
-}}
-<!--{{Infobox V3/Début
-  |icon={{ #switch: {{lcfirst:{{{charte}}}}}
-| aikido | judo  = artsmartiauxjap
-| athlétisme = athletisme
-| aviron = aviron
-| baseball = baseball
-| basket-ball = basket-ball
-| canoë-kayak = kayak
-| catch = catch
-| cyclisme = cyclisme
-| escrime = escrime
-| floorball = floorball
-| football = {{#if: {{{personnage blanc|}}}{{{Personnage blanc|}}} | football | footballblack }}
-| futsal = futsal
-| gymnastique = gymnastique
-| handball = handball
-| hockey = hockey
-| hockey sur gazon | hockey-sur-gazon = hockey-sur-gazon
-| karaté = karate
-| natation = natation
-| omnisports = omnisports
-| pingpong | ping pong | tennis de table | tennis-de-table = {{#if: {{{personnage blanc|}}}{{{Personnage blanc|}}} | tennis-de-table | tennis-de-tableblack }}
-| rugby | rugby à XIII | rugby à XV = {{#if: {{{personnage blanc|}}}{{{Personnage blanc|}}} | rugby | rugbyblack }}
-| sport-automobile = sport-automobile
-| rink hockey = rinkhockey
-| tennis = tennis
-| tir sportif = tir sportif
-| ultimate = ultimate
-| volley-ball = volleyball
-| water polo = water-polo
-| autre =
-| sport = sport
-}}
-  |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
-  |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
-  |text= {{#if: {{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
-  |width=28
-}}-->
-
-<!--GENERALITES  -->
-{{#if:{{{image|}}} |
-! scope=row {{!}}
-{{!}} {{{image|}}}
+{{#if:{{{logo|}}} | 
+{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{logo}}}|{{#if:{{{taille logo|}}}|{{{taille logo}}}|80px}}|{{#if:{{{légende|}}}|{{{légende}}}|Image}}]]
 {{!-}}
 }}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+<!--GENERALITES  -->
 {{Infobox V3/Tableau début
   |text=<!--Généralités-->
   |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
   |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
 }}{{trim|
-{{#if:{{{nom de naissance|}}} |
-! scope=row {{!}} Nom
-{{!}} {{{nom de naissance|}}}
-{{!-}}
-}}
 {{#if:{{{surnom|}}} |
 ! scope=row {{!}} Surnom
 {{!}} {{{surnom|}}}
@@ -119,7 +73,7 @@ IMAGE  -->{{Infobox V3/Image
   |Présidint| {{{président|}}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=10
-  |Manager| {{{manager|}}}
+  |Directeu ésportif| {{{manager|}}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=10
   | {{{titre entraîneur|Entraîneur}}} | {{{entraîneur|}}}
@@ -275,35 +229,7 @@ MAILLOTS  --><!--{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}
   socks      = {{{socks3|}}} |
   title      = {{#if:{{{titre3|}}}|{{{titre3}}}|Autre}}
 }}}}}}
-|}--> <!--
-NEWS  {{#if: {{{actualité|}}} |{{Infobox V3/Titre Bloc
-  |text=Actualités
-  |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
-  |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}} }}
-<center>{{ #switch: {{lcfirst:{{{charte}}}}}
-| aikido | aviron | canoë-kayak | catch | futsal | judo | karaté | sport-automobile | autre | omnisports | sport = 
-| athlétisme = [[Image:Athletics current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| baseball = [[Image:Sports current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| basket-ball = [[Image:Basketball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| cyclisme = [[Image:Cycling current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| escrime = [[Image:Fencing current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| floorball = [[Image:Floorball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| football = [[Image:Soccerball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| gymnastique = [[Image:Gymnastics current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| handball = [[Image:Handball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| hockey = [[Image:Hockey current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| hockey sur gazon | hockey-sur-gazon = [[Image:Field hockey current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| natation = [[Image:Swimming current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| pingpong | ping pong | tennis de table | tennis-de-table = [[Image:TableTennis current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| rink hockey = [[Image:Roller hockey current event.png{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| rugby | rugby à XIII | rugby à XV = [[Image:Rugby current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| tennis = [[Image:Tennisball current event.png{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| tir sportif = [[Image:Shooting pictogram.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| volley-ball = [[Image:Volleyball current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-| water polo = [[Image:Water polo current event.svg{{!}}30px{{!}}left{{!}}alt={{!}}link=]]
-}} Pour la saison en cours, voir :<br /> '''''[[{{{actualité}}}]]'''''<br />{{0}}</center>
-}}{{#if: {{{maj|}}}|
-<p style="font-size: 90%; text-align: left; color: #808080;">''Dernière mise à jour : {{{maj}}}.''</p>}}{{Infobox V3/Fin|Modèle:{{#if:{{{modèle|}}}|{{{modèle}}}|Infobox Club sportif}}|class=bordered|border-color=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }} |border-width=2}} --> 
+|}-->  
 |}</includeonly>
 <noinclude>
 __NOTOC__

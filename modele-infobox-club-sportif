@@ -102,8 +102,12 @@
 {{Infobox V3/Tableau Ligne mixte|width=10
   |Site web|{{#if: {{{site web|}}} |<span class="plainlinks">{{{site web|}}}</span>|}}
 }}
-}}{{Infobox V3/Tableau fin}}<!--
-PALMARÈS  {{#if: {{{palmarès national|}}} {{{palmarès international|}}} {{{complément|}}}
+}}{{Infobox V3/Tableau fin}}
+|}
+{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete sport" style="background-color:rgb(23,165,165);" | Palmarès
+|-
+<!--PALMARÈS-->  {{#if: {{{palmarès national|}}} {{{palmarès international|}}} {{{complément|}}}
 |{{Infobox V3/Tableau début
   |text=Palmarès principal
   |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
@@ -118,10 +122,15 @@ PALMARÈS  {{#if: {{{palmarès national|}}} {{{palmarès international|}}} {{{co
 {{#if: {{{complément|}}}|
 {{{complément|}}}
 }}
-}}--><!--{{Infobox V3/Tableau fin}}}}--><!--
-MAILLOTS  --><!--{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}{{{corps1|}}}
-|{{Infobox V3/Titre Bloc
-  |text={{{titre maillots|Maillots}}}
+}}{{Infobox V3/Tableau fin}}}}
+|}<!--
+MAILLOTS  -->
+{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete sport" style="background-color:rgb(23,165,165);" | Maillots
+|-{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}{{{corps1|}}}
+|{{Infobox V3/Tableau début<!--
+|{{Infobox V3/Titre Bloc-->
+  |text=<!--{{{titre maillots|Maillots}}}-->
   |background=#{{#if: {{{couleur cadre|}}} | {{{couleur cadre|}}} | {{charte sportive/Niveau 1|{{lcfirst:{{{charte|}}}}}}} }}
   |color=#{{#if: {{{couleur écriture|}}} |{{{couleur écriture|}}}|000000}}
 }}}}
@@ -229,7 +238,7 @@ MAILLOTS  --><!--{{#if:{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}
   socks      = {{{socks3|}}} |
   title      = {{#if:{{{titre3|}}}|{{{titre3}}}|Autre}}
 }}}}}}
-|}-->  
+|} 
 |}</includeonly>
 <noinclude>
 __NOTOC__

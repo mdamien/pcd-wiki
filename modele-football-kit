@@ -6,5 +6,5 @@
 <div style="border:none;padding:0;width:100px;background:#{{{socks|FFF}}}">[[Image:kit socks{{{pattern_so|}}}.{{{filetype|png}}}|link=Image:kit socks{{{pattern_so|}}}.{{{filetype|png}}}|100x40px|Couleurs de l’équipe]]</div>
 {{ #if:{{{title|}}} |<div style="border:none;padding:0">'''{{{title}}}'''</div>}}
 </div><noinclude>
-<!--{{Documentation}}-->
+<!--{{Documentation}}-->{{Modèle:Football kit/Documentation}}
 </noinclude>

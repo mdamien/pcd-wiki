@@ -1,0 +1,10 @@
+<div style="margin:0 auto;border:0 none transparent;width:100px;background:transparent;text-align:center">
+<div style="float: left;border:none;padding:0;width:31px;height:59px;background:#{{{leftarm|FFF}}}">[[Image:kit left arm{{{pattern_la|}}}.{{{filetype|png}}}|link=Image:kit left arm{{{pattern_la|}}}.{{{filetype|png}}}|31x59px|Couleurs de l’équipe]]</div>
+<div style="float: left;border:none;padding:0;width:38px;height:59px;background:#{{{body|FFF}}}">[[Image:kit body{{{pattern_b|_unknown}}}.{{{filetype_b|png}}}|link=Image:kit body{{{pattern_b|_unknown}}}.{{{filetype_b|png}}}|38x59px|Couleurs de l’équipe]]</div>
+<div style="float: left;border:none;padding:0;width:31px;height:59px;background:#{{{rightarm|FFF}}}">[[Image:kit right arm{{{pattern_ra|}}}.{{{filetype|png}}}|link=Image:kit right arm{{{pattern_ra|}}}.{{{filetype|png}}}|31x59px|Couleurs de l’équipe]]</div>
+<div style="clear: left;border:none;padding:0;width:100px;height:36px;background:#{{{shorts|FFF}}}">[[Image:kit shorts{{{pattern_sh|}}}.{{{filetype|png}}}|link=Image:kit shorts{{{pattern_sh|}}}.{{{filetype|png}}}|100x36px|Couleurs de l’équipe]]</div>
+<div style="border:none;padding:0;width:100px;background:#{{{socks|FFF}}}">[[Image:kit socks{{{pattern_so|}}}.{{{filetype|png}}}|link=Image:kit socks{{{pattern_so|}}}.{{{filetype|png}}}|100x40px|Couleurs de l’équipe]]</div>
+{{ #if:{{{title|}}} |<div style="border:none;padding:0">'''{{{title}}}'''</div>}}
+</div><noinclude>
+<!--{{Documentation}}-->
+</noinclude>

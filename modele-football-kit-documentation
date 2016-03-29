@@ -1,0 +1,71 @@
+
+'''Informacion:''' documintacion des maillots du dsous-modèle à {{m|Infobox Club de rugby}}.
+
+== Syntaxe ==
+<pre>
+{{Football kit
+ | filetype   = <!-- type des motifs sauf le corps ; facultatif (par défaut = png) -->
+ | filetype_b = <!-- type du motif du corps ; facultatif (par défaut = png) -->
+ | pattern_la = <!-- motif de la manche gauche (left arm) -->
+ | pattern_b  = <!-- motif du corps (body) --> 
+ | pattern_ra = <!-- motif de la manche droite (right arm) --> 
+ | pattern_sh = <!-- motif du short -->
+ | pattern_so = <!-- motif des chaussettes (sockets) -->
+ | leftarm = <!-- couleur RGB d’arrière-plan de la manche gauche ; facultatif (par défaut = FFF) --> 
+ | body = <!-- couleur RGB d’arrière-plan du corps ; facultatif (par défaut = FFF) --> 
+ | rightarm =  <!-- couleur RGB d’arrière-plan de la manche droite ; facultatif (par défaut = FFF) --> 
+ | shorts = <!-- couleur RGB d’arrière-plan du short ; facultatif (par défaut = FFF) --> 
+ | socks = <!-- couleur RGB d’arrière-plan des chaussettes ; facultatif (par défaut = FFF) --> 
+ | title = <!-- titre de l’équipe, affiché en gras sous la tenue ; obligatoire -->
+}}
+</pre>
+
+==Egzimpe==
+{| style="float:right"
+|
+{{Football kit
+ | filetype = png
+ | filetype_b = svg
+ | pattern_la =_white_stripes
+ | pattern_b  =_3stripesonwhite
+ | pattern_ra =_white_stripes
+ | pattern_sh =_Galatasaray0809 Home
+ | pattern_so =_band_black
+ | leftarm    = 1F24B4
+ | body       = 1F24B4
+ | rightarm   = 1F24B4
+ | shorts     = 1F24B4
+ | socks      = F00
+ | title      = Principal
+}}
+|}
+
+<pre>
+{{Football kit
+ | filetype = png
+ | filetype_b = svg
+ | pattern_la =_white_stripes
+ | pattern_b  =_3stripesonwhite
+ | pattern_ra =_white_stripes
+ | pattern_sh =_Galatasaray0809 Home
+ | pattern_so =_band_black
+ | leftarm    = 1F24B4
+ | body       = 1F24B4
+ | rightarm   = 1F24B4
+ | shorts     = 1F24B4
+ | socks      = F00
+ | title      = Principal
+}}
+</pre>
+''pattern_ra'' ch'est ch' modèle pour canger l'image du bros droét (in inglé ra = right arm) aveuc pèr égzimpe "_white_stripes" pour créer ch' fichié-lo pour ch'bros droét ''kit_right_arm_white_stripes.png''
+
+==Créer un nouvieu modèle==
+pour un nouvieu modèle, vir [[:en:Template:Football_kit#Creating_a_new_pattern]] 
+
+==Format des patterns==
+Des ''patterns'' sont au format svg et poin in png . Pour uzer un pattern au format svg, i feut uzer chés paramètres filetype : ''filetype = svg'' (pour pattern_la et pi pattern_ra) pi ''filetype_b = svg'' (pour pattern_b).
+
+
+<includeonly>
+[[Catégorie:Modèle]]
+</includeonly>

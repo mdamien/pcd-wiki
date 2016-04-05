@@ -17,3 +17,19 @@
 == Bot ==
 * https://fr.wikibooks.org/wiki/Wikimedia/Cr%C3%A9er_un_bot
 * https://fr.wikiversity.org/wiki/Utilisateur:Crochet.david.bot/Scripts
+
+== test musique ==
+[[File:Quarter tone on C sharps.svg|left|thumb|Quarter tone between C and C{{music|t}}(half sharp), 50 cents. {{audio|Quarter tone on C.mid|Play}}]]
+[[File:Augmented unison on C.svg|left|thumb|Half-tone between C and C{{music|#}}(sharp), 100 cents. {{audio|Minor second on C.mid|Play}}]]
+[[File:C-sharp-major a-sharp-minor.svg|thumb|C{{music|#}}-major/A{{music|#}}-minor key signature.]]
+[[File:Three-quarter tone on C sharps.svg|left|thumb|Three-quarter tone between C and C{{music|#t}}(three-quarter sharp), 150 cents. {{audio|Neutral second on C.mid|Play}}]]
+;Unicode
+in [[Unicode]], assigned sharp signs are:
+* {{uniCar|266f|MUSIC SHARP SIGN|html=|nlink=Sharp (music)}}
+* {{uniCar|1D12A|MUSICAL SYMBOL DOUBLE SHARP|html=}}
+* {{uniCar|1D130|MUSICAL SYMBOL SHARP UP|html=}}
+* {{uniCar|1d131|MUSICAL SYMBOL SHARP DOWN|html=}}
+* {{uniCar|1d132|MUSICAL SYMBOL QUARTER TONE SHARP|html=}}
+
+car[1D130]
+{{UniCar|023B|lettre majuscule latine c barré}}

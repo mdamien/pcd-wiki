@@ -19,6 +19,141 @@
 
 <br />
 
+Vous disposez de jeux prédéfinis de noms de note et altérations pour plusieurs autres langues. Pour les utiliser, il suffit de déclarer, en début de fichier, la langue que vous utilisez. Voici comment, par exemple, utiliser l’italien pour votre saisie : 
+
+\language "italiano"
+
+\relative {
+  do' re mi sib
+}
+
+et les suffixes d’altération correspondants : 
+
+ Langue        dièse  bémol   double dièse  double bémol
+français   -d  -b  -dd/-x  -bb 
+english  -s/--sharp  -f/--flat  -ss/-x/--sharpsharp  -ff/--flatflat
+nederlands     -is   -es      -isis         -eses
+catalan -d/-s  -b  -dd/-ss  -bb
+deutsch  -is  -es  -isis  -eses
+espanol ou español  -s   -b   -ss/-x  -bb
+
+    \relative c'' { a2 as e es a ases e eses }
+
+
+Certaines musiques utilisent des microtonalités, pour lesquelles les altérations sont des fractions de dièse ou bémol « normaux ». Le tableau suivant répertorie les noms de note en quart de ton, tels que définis dans plusieurs fichiers linguistiques. Les préfixes semi- et sesqui- correspondent au demi- et trois demis.
+
+ Langue  semi-dièse  semi-bémol  sesqui-dièse  sesqui-bémol 
+ français  -sd  -sb  -dsd  -bsb 
+ english  -qs  -qf  -tqs  -tqf 
+
+
+
+Dans certains cas où la notation standard est utilisée, ces différences de hauteur seront implicites. Par exemple, la musique arabe est reproduite en notation standard et utilise des quarts de ton, l’altération réelle dépendant du contexte. Elle utilise traditionnellement la dénomination italienne, étendue dans le fichier ‘arabic.ly’ par un certain nombre de macros – voir Musique arabe pour plus de détails.
+
+D’autres, par contre, font appel à une notation étendue, voire toute particulière. La musique classique turque, ou musique ottomane, utilise des formes mélodiques appelées makamlar, dans laquelle les tons sont divisés en neuf intervalles. Du point de vue actuel des pratiques de notation, il est possible d’utiliser les notes occidentales (do, ré, mi…) auxquelles on ajoutera l’altération spécifique à la musique turque. Ces différentes altérations sont définies dans le fichier ‘makam.ly’. Pour de plus amples informations, reportez-vous à la rubrique Musique classique turque.
+
+Pour savoir où se trouvent les fichiers ‘arabic.ly’ et ‘makam.ly’ sur votre système,
+
+ Exemple de musique « Makam »
+
+Le « makam » est une forme de mélodie turque qui utilise des altérations d’un neuvième de ton. Consultez le fichier d’initialisation ‘makam.ly’ pour plus de détails sur les hauteurs et altérations utilisées (voir le chapitre 4.6.3 - Autres sources d’information du manuel d’initiation pour le localiser). 
+<blockquote>
+<pre>
+
+% Initialize makam settings
+\include "makam.ly"
+
+\relative c' {
+  \set Staff.keyAlterations = #`((6 . ,(- KOMA)) (3 . ,BAKIYE))
+  c4 cc db fk
+  gbm4 gfc gfb efk
+  fk4 db cc c
+}
+</pre>
+</blockquote>
+http://lilypond.org/doc/v2.19/Documentation/notation-big-page.fr.html#turkish-classical-music
+
+musique arabe
+<blockquote>
+<pre>
+\include "arabic.ly"
+\relative {
+  do' re misb fa sol la sisb do sisb la sol fa misb re do
+}
+</pre>
+</blockquote>
+
+Le symbole indiquant un demi-bémol ne correspond pas au symbole utilisé dans la notation arabe. Si le symbole particulier du demi-bémol arabe doit absolument être utilisé, il est possible de s’en approcher en faisant précéder la note par la commande \dwn définie dans le fichier ‘arabic.ly’. Cette méthode ne peut toutefois pas être utilisée pour modifier l’aspect du demi-bémol dans l’armure. 
+
+<blockquote>
+<pre>
+\include "arabic.ly"
+\relative {
+  \set Staff.extraNatural = ##f
+  dod' dob dosd \dwn dob dobsb dodsd do do
+}
+</pre>
+</blockquote>
+
+{|
+|[[File:Music-doubleflat.svg|80px]]
+|[[File:Music-sesquiflat.svg|80px]]
+|[[File:Music-flat.svg|80px]]
+|[[File:Music-demiflat.svg|80px]]
+|[[File:Music-natural.svg|80px]]
+|[[File:Music-demisharp.svg|80px]]
+|[[File:Music-sharp.svg|80px]]
+|[[File:Music-sesquisharp.svg|80px]]
+|[[File:Music-doblesharp.svg|80px]]
+|}
+
+=== Altérations quart-de-tonales ===
+Les quarts-de-tons sont parfois simplement indiqués par des flèches (vers le haut ou vers le bas), par rapport à l'altération conventionnelle en demi-tons.
+Le schéma suivant indique les formes d'altérations quart-de-tonales qui semblent les plus répandues aujourd'hui.
+<center>''Altérations en quarts-de-tons''<br />
+<score vorbis="1">
+\relative c' {
+  \override Score.SpacingSpanner #'shortest-duration-space = #15
+  
+  \time 10/4
+  
+  \override Staff.TimeSignature #'stencil = ##f
+  \override Staff.Clef #'stencil = ##f
+  \override Staff.BarLine #'stencil = ##f
+  
+  \set Staff.extraNatural = ##f
+  
+  \override Voice.TextScript #'padding = #1.7
+  %\override Voice.TextScript #'color = #blue
+  \textLengthOn
+  
+  s
+  feses^\markup { \center-align "−1 ton" }
+  feseh^\markup { \center-align "−¾ ton" }
+  fes^\markup { \center-align "−½ ton" }
+  feh^\markup { \center-align "−¼ ton" }
+  %\once \override Voice.TextScript #'color = #red
+  f
+  fih^\markup { \center-align "+¼ ton" }
+  fis^\markup { \center-align "+½ ton" }
+  fisih^\markup { \center-align "+¾ ton" }
+  fisis^\markup { \center-align "+1 ton" }
+}
+</score>
+</center>
+Cependant, si celles correspondant aux demi-dièse et dièse-et-demi semblent bien acceptées, on trouve, parmi les compositeurs, une plus grande variété de formes pour écrire le demi-bémol et le bémol-et-demi.
+
+==== Altérations barrées ====
+* Le '''bémol barré''' <s>♭</s> représente le demi-bémol, utilisé pour baisser la note d'un [[quart de ton]].
+Cette forme de demi-bémol semble être consacrée par l'usage, depuis le {{s-|XX|e}}, dans la notation des ''[[maqâm]]at'' des [[musique arabe|musiques arabes]].
+Le '''dièse barré''' <s>♯</s> représente le demi-dièse, utilisé pour élever la note d'un [[quart de ton]].
+
+Oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+http://lilypond.org/doc/v2.19/Documentation/notation-big-page.fr.html#accidentals
+
+
+
+
 
 === Accords ===
 

@@ -31,5 +31,14 @@ in [[Unicode]], assigned sharp signs are:
 * {{uniCar|1d131|MUSICAL SYMBOL SHARP DOWN|html=}}
 * {{uniCar|1d132|MUSICAL SYMBOL QUARTER TONE SHARP|html=}}
 
-car[1D130]
+car[1D130] U+023B  002A
 {{UniCar|023B|lettre majuscule latine c barré}}
+
+{|
+|[[image:HE syntonic comma - flat down.png|50px]]
+|[[image:HE syntonic comma - flat up.png|50px]]
+|[[image:HE syntonic comma - natural down.png|50px]]
+|[[image:HE syntonic comma - natural up.png|50px]]
+|[[image:HE syntonic comma - sharp down.png|50px]]
+|[[image:HE syntonic comma - sharp up.png|50px]]
+|}

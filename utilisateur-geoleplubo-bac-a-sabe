@@ -2,6 +2,25 @@
 * [[Utilisateur:Geoleplubo/Tests]]
 * [[Utilisateur:Geoleplubo/Musique]]
 * [[Utilisateur:Geoleplubo/Caouette]]
+* https://pcd.wikipedia.org/wiki/Spécial:Téléverser
+
+
+;Geoleplubo@pcd.wikipedia =
+;sr-request
+<!--
+{{sr-request
+ |status    = <!--don't change this line-->
+<!--
+ |domain    = pcd.wikipedia
+ |user name =  Geoleplubo
+ |discussion= [[w:pcd:Wikipédia:Adménistrateu]]
+}}
+
+I had rights for adminship from 25 december 2012  and I am requesting a prolongation of my adminship statut.-->
+* [[Wikip%C3%A9dia:Adm%C3%A9nistrateu]]
+* https://meta.wikimedia.org/wiki/Steward_requests/Permissions#Administrator_access
+* https://meta.wikimedia.org/wiki/Steward_requests/Permissions/Approved_temporary
+
 
 * <nowiki>{{Sommaire à droéte}}</nowiki>
 {{Sommaire à droéte}}
@@ -24,7 +43,7 @@
 *<nowiki> __HIDDENCAT__ </nowiki> donne une catégorie cachée
 * <nowiki> <span style="float:right;">'''Texte à droite'''</span></nowiki>  <span style="float:right;">'''Texte à droite'''</span>
 * {{Abréviation|P.I.B.|produit intérieur brut}}
-* https://pcd.wikipedia.org/wiki/Spécial:Téléverser
+
 
 * <nowiki> {{ping|matanya}} </nowiki> donne un message à matanya
 
@@ -640,21 +659,7 @@ des contributeurs ;
 :       3. cliquer sur « Comparer les versions sélectionnées » ;
 :       4. cliquer sur « défaire »."
 
-=== Geoleplubo@pcd.wikipedia ===
-;sr-request
-<!--
-{{sr-request
- |status    = <!--don't change this line-->
-<!--
- |domain    = pcd.wikipedia
- |user name =  Geoleplubo
- |discussion= [[w:pcd:Wikipédia:Adménistrateu]]
-}}
 
-I had rights for adminship from 25 december 2012  and I am requesting a prolongation of my adminship statut.-->
-* [[Wikip%C3%A9dia:Adm%C3%A9nistrateu]]
-* https://meta.wikimedia.org/wiki/Steward_requests/Permissions#Administrator_access
-* https://meta.wikimedia.org/wiki/Steward_requests/Permissions/Approved_temporary
 
 === phabricator.wikimedia.org ===
 https://phabricator.wikimedia.org/

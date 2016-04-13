@@ -1,20 +1,28 @@
-<noinclude>
-<!--==============================================================
-
-          ATTENTION : LA MODIFICATION D'UNE INFOBOX PEUT ENTRAÎNER DES PROBLÈMES 
-         SUR TOUTES LES PAGES DANS LESQUELLES ELLE EST INCLUSE.
-
-Veuillez ne pas tenter de le modifier à moins que vous ne soyez certain de bien comprendre sa conception. 
-D'autre part, le présent modèle ayant fait l'objet d'un consensus, l'ajout ou la suppression de champs doivent 
-être préalablement discutés sur la page consacrée.
-
-==============================================================-->
-</noinclude><includeonly>{{Infobox V3/Début|class=|width=|icon={{Infobox Musique classique (personnalité)/Charte bandeau|{{{charte}}}}}|background=#{{Infobox Musique classique (personnalité)/Charte couleurs|{{{charte}}}}}|text={{{nom|}}}{{#if:{{{nom autre|}}}|<span style="font-size: 75%; display: block; font-style: italic">{{{nom autre|}}}</span>}}}}<!-- IMAGE
--->{{#if:{{{image|}}}|
-{{Infobox V3/Image|image={{{image|}}}|legend={{{légende|}}}}}
+{{nobots}}
+<includeonly>{| class="infobox_v2" cellspacing="7" border="0"
+| colspan="2" class="entete musique" style="background-color:rgb(23,165,165);" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+|-
+{{#if:{{{image|}}} | 
+{{!}} colspan="2" style="text-align:center;" {{!}} [[Image:{{{image}}}|{{#if:{{{taille image|}}}|{{{taille image}}}|180px}}|{{#if:{{{légende|}}}|{{{légende}}}|Image associée à la personnalité}}]]
+{{!-}}
+| [[Catégorie:Article à illustrer/Personnalité du cinéma]]
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+{{#if:{{{nom de naissance|}}} |
+! scope=row {{!}} Nom
+{{!}} {{{nom de naissance|}}}
+{{!-}}
+}}
+<!--GENERALITES  -->
 {{Infobox V3/Séparateur|background=#aaa|height=1}}
-}}<!-- DONNEES CLE
--->{{Infobox V3/Tableau début|class=hidden}}{{trim|
+<!-- DONNEES CLE {{Infobox V3/Tableau début|class=hidden}}{{trim|-->
 {{Infobox V3/Tableau Ligne mixte|Surnom|''{{{surnom|}}}''|if={{{surnom|}}}}}
 {{Infobox V3/Tableau Ligne mixte|Nom de naissance|{{{nom de naissance|}}}}}
 {{Infobox V3/Tableau Ligne mixte|Naissance|{{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|{{#if:{{{date de naissance|}}}|<br />}}{{{lieu de naissance|}}}}}|if={{{date de naissance|}}}{{{lieu de naissance|}}}}}
@@ -38,23 +46,28 @@ D'autre part, le présent modèle ayant fait l'objet d'un consensus, l'ajout ou 
 {{Infobox V3/Tableau Ligne mixte|Récompenses|{{{récompenses|}}}}}
 {{Infobox V3/Tableau Ligne mixte|Distinctions honorifiques|{{{distinctions|}}}}}
 {{Infobox V3/Tableau Ligne mixte|Site internet|{{{web|}}}}}
-}}{{Infobox V3/Tableau fin}}<!-- POUR LES CREATEURS (COMPOSITEURS, LIBRETTISTES OU CHORÉGRAPHES) UNIQUEMENT
--->{{#if:{{{œuvres|}}}|
-{{Infobox V3/Titre Bloc|background=#{{Infobox Musique classique (personnalité)/Charte couleurs|{{{charte|}}}}}|text=Œuvres principales}}
-<div style="font-size: 90%;">
-{{{œuvres|}}}
-</div>
+<!-- POUR LES CREATEURS (COMPOSITEURS, LIBRETTISTES OU CHORÉGRAPHES) UNIQUEMENT
+-->
+{{#if:{{{œuvres|}}} |
+! scope=row {{!}} Euves
+{{!}} {{{œuvres|}}}
+{{!-}}
 }}<!-- POUR LES INTERPRETES (CHANTEURS, INSTRUMENTISTES OU CHEFS D'ORCHESTRE) UNIQUEMENT
--->{{#if:{{{répertoire|}}}|
-{{Infobox V3/Titre Bloc|background=#{{Infobox Musique classique (personnalité)/Charte couleurs|{{{charte|}}}}}|text=Répertoire}}
-<div style="font-size: 90%;">
-{{{répertoire|}}}
-</div>
+-->
+{{#if:{{{répertoire|}}} |
+! scope=row {{!}} Répértoére
+{{!}} {{{répertoire|}}}
+{{!-}}
 }}<!-- POUR LES DIRECTEURS (DE SALLES DE CONCERT, D'OPÉRAS, DE FESTIVALS) UNIQUEMENT
--->{{#if:{{{scènes|}}}|
-{{Infobox V3/Titre Bloc|background=#{{Infobox Musique classique (personnalité)/Charte couleurs|{{{charte|}}}}}|text=Scènes principales}}
-<div style="font-size: 90%;">
-{{{scènes|}}}
-</div>
+-->
+{{#if:{{{scènes|}}} |
+! scope=row {{!}} Scènes
+{{!}} {{{scènes|}}}
+{{!-}}
 }}
-{{Infobox V3/Fin|Modèle:Infobox Musique classique (personnalité)|class=bordered|border-color=#aaa}}{{Suivi des biographies|Musique}}</includeonly><noinclude>{{Documentation}}</noinclude>
+{{Infobox V3/Tableau fin}}
+|}</includeonly>
+<noinclude>
+__NOTOC__
+[[catégorie:Modèle]]
+</noinclude>

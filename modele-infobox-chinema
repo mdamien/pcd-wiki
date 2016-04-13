@@ -74,12 +74,9 @@
 ! colspan="2" scope="row" style="text-align:center" {{!}} [[IMDbName:{{{imdb|}}}{{!}}Fiche IMDb]]
 {{!-}}
 }}
-|}</includeonly><noinclude>{{/Documentation}}
+|}</includeonly><noinclude><!--{{/Documentation}}-->
 __NOTOC__
-
-[[Category:Modéle infobox chinéma|Perchonnalité]]
-
-
+[[Category:Modèle]]
 [[en:Template:Infobox actor]]
 [[ko:틀:배우 정보]]
 [[uk:Шаблон:Картка:Актор]]

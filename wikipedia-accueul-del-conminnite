@@ -1,1 +1,232 @@
-#REDIRECTION [[Wikipedia:Accueul del conminnité/2015]]
+[[Catégorie:Wikipédia|Accueul del conminnité]]
+::::;Binv'nute su eul Wikipédia in lingue picarde. 
+
+:::::::;Ch'est un prodjé copératif pou foaire eune libe inciclopédie in Picard. 
+
+::::::::::; L'pache-lo ch'est por àrchuwòér chés Wikipédiens.
+
+<center>
+{| align=center style="margin-bottom:20px; background: #DDDDFF; padding: 5px"
+|colspan="13" align=center|'''Chés Arkives Wikipedia:Accueul del conminnité :'''
+|-
+| align=center|[[Fichier:Nuvola apps kopete.png|20px]]
+| align=center|[[Fichier:Nuvola devices nfs mount.png|20px]]
+| align=center|[[Fichier:Nuvola devices nfs mount.png|20px]]
+|-
+| align=center width=30px|<small>[[Wikipedia:Accueul del conminnité|En cours]]</small>
+| align=center width=30px|<small>[[Wikipedia:Accueul del conminnité/2009-2014| 2009-2014]]</small>
+| align=center width=30px|<small>[[Wikipedia:Accueul del conminnité/2015| 2015]]</small>
+|}
+</center>
+
+
+
+Vlo quèques trucs pou chés nouvieus uzeus su ch' Wikipédia picard.
+
+
+
+'''<u>''Métte chés modèles Babel por chés langues su vote pache d'Uzeu''</u>'''
+
+<!-- faux modèle babel pour que cette sous-page et Wikipédia:Accueil ne soient pas incluses dans les catégories babel --> 
+{| style="float: right; margin-left: 1em; margin-bottom: 0.5em; width: 242px; border: #99B3FF solid 1px"
+|-
+| style="text-align: center" | '''[[Wikipédia:Babel]]'''
+|-
+| {{Babel field|color 1=#99B3FF|color 2=#E0E8FF|letter code size=1.5em|text size=0.83em|letter code= pcd -N |text= Pou echl'uzeu-lo, ch' [[Picard]] ch'est l'langue éd ses pérints, il o un '''[[: Catégorie:Uzeu_pcd-N|natif]] pérlache''' in ''': Catégorie:Uzeu_pcd|picard'''.}}
+|-
+| {{Babel field|color 1=#6EF7A7|color 2=#C5FCDC|letter code size=1.5em|text size=0.83em|letter code= fr |text=Cet utilisateur a pour '''[[:Category:Uzeu fr-M|langue maternelle]]''' le '''[[:Category:Uzeu fr|français]]'''.}}
+|-
+| {{Babel field|color 1=#99B3FF|color 2=#E0E8FF|letter code size=1.5em|text size=0.83em|letter code= en-2 |text=This user is able to contribute with an '''[[:Category:Uzeu en-2|intermediate]]''' level of '''[[:Category:Uzeu en|English]].'''}}
+|-
+| {{Babel field|color 1=#99B3FF|color 2=#E0E8FF|letter code size=1.5em|text size=0.83em|letter code= wa-1 |text=Cist uzeu chal pout contribouwer avou on '''[[:Category:Uzeu wa-1|livea fwebe]]''' e '''[[:Category:Uzeu wa|walon]]'''.}}
+|}
+<!-- fin faux modèle babel --> 
+
+Conme chés uzeus is pérle'te diférintes lingues, il y o su Wikipédia des modèles pou chés langues (Modèles Babel).
+
+O r'treuve chés boétes Babel din tous chés prodjés Wiki ( [[commons:Commons:Babel/fr|Wikimedia Commons]] ou [[meta:Template:User language|Meta-Wiki]] ).
+
+I feut mètte chés boétes Babel su vote ''Pache d'Uzeu''.  L' sintacse, pèr egzimpe, pou troés langues en pus d'euch pitchard, ch'est:
+
+:::;<nowiki>{{babel|pcd-natif|fr|en-2|wa-1}}</nowiki>    
+::::::::::(vir chés boétes éd-sérant).
+
+L' sintacse ale est détalhée pi éspliquée [[Wikipédia:Babel|ichi]].
+
+'''<u>''Foaire des écrivures dseur ch'Wikipédia''</u>'''
+* i feut éditer l'nouvèle pache édpui l'Moaite Pache o bin éditer eune pache anthieusse.
+
+::;Chés balisses
+Eune balisse cha foait l'mise in pache:
+{| class="wikitable" style="text-align:center; width:80%;"
+|-
+! scope=col | Balisse Html
+! scope=col | Eute fachon wiki
+|-
+| <nowiki><br /> ou <br></nowiki>  pou foaire un értour al line<br>
+| foaire deus intrés dsu ech cleftieu.
+|-
+| <nowiki><I>teske</I></nowiki> : ''teske in italique''  
+|           <nowiki>' ' teske ' '</nowiki> cha donne ''teske''
+|-
+| <nowiki><b>teske</b></nowiki> : '''teske in cros'''
+| <nowiki>' ' ' teske ' ' '</nowiki> cha donne '''teske'''
+|-
+| <nowiki><u>teske</u></nowiki> : <u>teske ... </u>
+|-
+| <nowiki><big>teske</big></nowiki> : <big>teske in grand</big>
+|-
+| <nowiki><small>teske</small></nowiki> : <small>tiot teske</small>
+|-
+| <nowiki>teske<sup>coucou</sup></nowiki> : teske<sup>coucou</sup>
+|-
+| <nowiki>teske<sub>indice</sub></nowiki> : teske<sub>indice</sub>
+|-
+| <nowiki>teske<strike> berlure </strike></nowiki> teske... : teske<strike> berlure </strike> teske...
+|-
+| <nowiki>teske <tt>coucou</tt></nowiki> : teske <tt>coucou</tt>
+|-
+| <nowiki>teske <center>coucou</center></nowiki> : teske <center>coucou</center>
+|}
+
+cha foait aveuc tertous chés balisses
+
+* <nowiki><I><u><b><big>teske</big></b></u></I> <sup>33</sup> <center><tt>coucou<sub>2</sub></tt></center></nowiki> : <br><I><u><b><big>teske</big></b></u></I> <sup>33</sup> <center><tt>coucou<sub>2</sub> </tt></center>
+
+
+== Wikimania 2016 Scholarships - Deadline soon! ==
+
+:{{int:Please-translate}}
+A reminder - applications for scholarships for Wikimania 2016 in Esino Lario, Italy, are closing soon! Please get your applications in by January 9th.  To apply, visit the page below:
+:*[https://wikimania2016.wikimedia.org/wiki/Scholarships Wikimania 2016 Scholarships]
+[[User:PEarley (WMF)|Patrick Earley (WMF)]] via [[Utilisateur:MediaWiki message delivery|MediaWiki message delivery]] ([[Discussion utilisateur:MediaWiki message delivery|discussion]]) 5 ed Janvié 2016 à 01:49 (UTC)
+<!-- Message envoyé par User:PEarley (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:PEarley_(WMF)/Mass_Message_-_large&oldid=15209973 -->
+
+== 2016 WMF Strategy consultation ==
+
+:{{int:Please-translate}}
+Hello, all.
+
+The Wikimedia Foundation (WMF) has launched a consultation to help create and prioritize WMF strategy beginning July 2016 and for the 12 to 24 months thereafter. This consultation will be open, on Meta, from 18 January to 26 February, after which the Foundation will also use these ideas to help inform its Annual Plan. (More on our timeline can be found on that Meta page.)
+
+Your input is welcome (and greatly desired) at the Meta discussion, [[:m:2016 Strategy/Community consultation|2016 Strategy/Community consultation]].
+
+Apologies for English, where this is posted on a non-English project. We thought it was more important to get the consultation translated as much as possible, and good headway has been made there in some languages. There is still much to do, however! We created [[:m:2016 Strategy/Translations]] to try to help coordinate what needs translation and what progress is being made. :)
+
+If you have questions, please reach out to me on my talk page or on the strategy consultation's talk page or by email to mdennis@wikimedia.org.
+
+I hope you'll join us! [[:m:User:Mdennis (WMF)|Maggie Dennis]] via [[Utilisateur:MediaWiki message delivery|MediaWiki message delivery]] ([[Discussion utilisateur:MediaWiki message delivery|discussion]]) 18 ed Janvié 2016 à 19:06 (UTC)
+<!-- Message envoyé par User:Mdennis (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:PEarley_(WMF)/Mass_Message_-_large&oldid=15253743 -->
+
+== Picard is missing ==
+Picard is missing from this page:<br />
+https://meta.wikimedia.org/wiki/There_is_also_a_Wikipedia_in_your_language<br />
+Thank you, [[Utilisateur:Varlaam|Varlaam]] ([[Discussion utilisateur:Varlaam|discussion]]) 21 ed Janvié 2016 à 19:28 (UTC)
+
+== Completion suggestor ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+== Updates to wiki search auto completion are arriving 10 March==
+
+Hello!
+
+{{Int:Please-translate}}. {{Int:Feedback-thanks-title}}
+
+The [[:m:User:CKoerner (WMF)/Work/Completion Suggester beta reminder and coming soon|completion suggester beta feature]] will become the default at the first group of wikis on '''Thursday, 10 March'''. This initial rollout will start with some of the smaller wikis to ensure the change happens in an organized way. The remaining wikis will receive the update on Wednesday, 16 March. This update brings three major improvements to search. Improved search result ordering, a tolerance for a small number of spelling errors, and suggests fewer typos.
+
+Since December 2015, 19,000 editors have already opted into the completion suggester beta feature. Contributors are encouraged to [[Special:Preferences#mw-prefsection-betafeatures|try out the feature]] ahead of the release. Please share any comments on the Completion Suggester [[mw:Help:CirrusSearch/CompletionSuggester|discussion page]] in any language.
+
+To learn more about the work of the Discovery department and other improvements to search, please check out [[wmfblog:2015/12/23/search-and-discovery-on-wikipedia/|the Wikimedia blog]]. Read about  [[mw:Special:MyLanguage/Help:CirrusSearch|CirrusSearch]], the MediaWiki extension that makes wiki search possible.</div> - [[User:CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 8 ed Marche 2016 à 00:09 (UTC)
+<!-- Message envoyé par User:Keegan (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:CKoerner_(WMF)/Work/Completion_Suggester_inital_rollout/Target_list&oldid=15420104 -->
+
+== New Wikipedia Library Accounts Available Now (March 2016) ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''Apologies for writing in English. {{int:Please-translate}}''
+
+Hello Wikimedians! 
+[[File:Wikipedia_Library_owl.svg|thumb|upright|The TWL OWL says sign up today!]]
+[[m:The Wikipedia Library|The Wikipedia Library]] is announcing signups today for free, full-access accounts to published research as part of our [[m:The_Wikipedia_Library/Journals|Publisher Donation Program]]. You can sign up for access to research materials from:
+* '''[[w:en:WP:Cambridge|Cambridge University Press]]''' - a major publisher of academic journals and e-books in a variety of subject areas. Access includes both Cambridge Journals Online and Cambridge Books. 25 accounts.
+* '''[[w:en:WP:Alexander Street|Alexander Street ''Academic Video Online'']]''' - a large academic video collection good for a wide range of subjects, including news programs (such as PBS and BBC), music and theatre, lectures and demonstrations, and documentaries. 25 accounts.
+* '''[[w:en:WP:Baylor|Baylor University Press]]''' - a publisher of academic e-books primarily in religious studies and the humanities. 50 accounts.
+* '''[[w:en:WP:Future Science Group|Future Science Group]]''' - a publisher of medical, biotechnological and scientific research. 30 accounts.
+* '''[[w:en:WP:Annual Reviews|Annual Reviews]]''' - a publisher of review articles in the biomedical sciences. 100 accounts.
+* '''[[w:en:WP:Miramar|Miramar Ship Index]]''' - an index to ships and their histories since the early 19th century. 30 accounts. 
+
+'''Non-English'''
+*'''[[w:fa:ویکی‌پدیا:نورمگز|Noormags]]''' - Farsi-language aggregator of academic and professional journals and magazines. 30 accounts.
+*'''[[w:ar:ويكيبيديا:مكتبة ويكيبيديا/كتبنا|Kotobna]]''' - Arabic-language ebook publishing platform. 20 accounts.
+
+'''Expansions'''
+*'''[[w:en:WP:Gale|Gale]]''' - aggregator of newspapers, magazines and journals. 50 accounts.
+*'''[[w:en:WP:Elsevier|Elsevier ScienceDirect]]''' - an academic publishing company that publishes medical and scientific literature. 100 accounts.
+Many other partnerships with accounts available are listed on [[w:en:WP:The_Wikipedia_Library/Journals|our partners page]], including [[w:en:WP:Project MUSE|Project MUSE]], [[w:en:WP:De Gruyter|De Gruyter]], [[w:en:WP:EBSCO|EBSCO]], [[w:en:WP:Newspapers.com|Newspapers.com]] and [[w:en:WP:BNA|British Newspaper Archive]]. Do better research and help expand the use of high quality references across Wikipedia projects: sign up today!
+<br>--[[w:en:Wikipedia:TWL/Coordinators|The Wikipedia Library Team]] 17 ed Marche 2016 à 20:30 (UTC)
+
+
+:''You can host and coordinate signups for a Wikipedia Library branch in your own language. Please contact [[m:User:Ocaasi_(WMF)|Ocaasi (WMF)]].''
+:<small>This message was delivered via the [https://meta.wikimedia.org/wiki/MassMessage#Global_message_delivery Global Mass Message] tool to [https://meta.wikimedia.org/wiki/Global_message_delivery/Targets/Wikipedia_Library The Wikipedia Library Global Delivery List].</small>
+</div>
+<!-- Message envoyé par User:Sadads@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/Wikipedia_Library&oldid=15424370 -->
+
+== Open Call for Individual Engagement Grants ==
+
+[[File:IEG barnstar 2.png|right|100px]]
+{{int:Please-translate}}:
+
+Greetings!  The '''[[m:Special:MyLanguage/IEG|Individual Engagement Grants (IEG) program]] is accepting proposals''' until April 12th to fund new tools, research, outreach efforts, and other experiments that enhance the work of Wikimedia volunteers.
+Whether you need a small or large amount of funds (up to $30,000 USD), IEGs can support you and your team’s project development time in addition to project expenses such as materials, travel, and rental space.
+*[[m:Special:MyLanguage/Grants:IEG#ieg-apply|'''Submit''' a grant request]] or [[m:Special:MyLanguage/Grants:IdeaLab|'''draft''' your proposal]] in IdeaLab
+*[[m:Special:MyLanguage/Grants:IdeaLab/Events#Upcoming_events|'''Get help''' with your proposal]] in an upcoming Hangout session
+*[[m:Special:MyLanguage/Grants:IEG#ieg-engaging|'''Learn from examples''' of completed Individual Engagement Grants]]
+
+With thanks, [[m:User:I JethroBT (WMF)|I JethroBT (WMF)]] 31 ed Marche 2016 à 15:47 (UTC)
+<!-- Message envoyé par User:I JethroBT (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=User:I_JethroBT_(WMF)/IEG_2015_Targets&oldid=15490024 -->
+
+== Wikimania à Esino Lario ==
+
+* [https://wikimania2016.wikimedia.org/w/index.php?title=Main_Page/fr&uselang=fr Wikimania à Esino Lario] province de Lecco, région Lombardie, Italie, au 22–23 ed join (pré-conférence), 24–26 (conférence principale) et pi 27–28 ed join 2016 (post-conférence). 
+*Comme chaque année, Wikimédia France offre des bourses pour permettre à une partie d'entre vous de participer à cette rencontre. Si vous souhaitez bénéficier de ce dispositif, il vous faut remplir et retourner le formulaire que vous trouverez sur [[meta:Wikim%C3%A9dia_France/Bourses_Wikimania_2016#Allocation_criteria]]. Vous avez jusqu'à la fin du mois d'avril pour retourner vos réponses aux questions, en utilisant l'adresse suivante : wikimania-2016-bourses *at* lists.wikimedia.fr Après quoi, le jury, constitué pour l'occasion, précédera à l'arbitrage et rendra sa décision mi-mai. 
+[[Utilisateur:Geoleplubo|Geoleplubo]] ([[Discussion utilisateur:Geoleplubo|discussion]]) 13 d'Avri 2016 à 17:44 (UTC)
+
+== Server switch 2016 ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The [[foundation:|Wikimedia Foundation]] will be testing its newest data center in Dallas.
+This will make sure Wikipedia and the other Wikimedia wikis can stay online even after a disaster.
+To make sure everything is working, the Wikimedia Technology department needs to conduct a planned test.  This test will show whether they can reliably switch from one data center to the other. It requires many teams to prepare for the test and to be available to fix any unexpected problems.
+
+They will switch all traffic to the new data center on '''Tuesday, 19 April'''.<br/>
+On '''Thursday, 21 April''', they will switch back to the primary data center.
+
+Unfortunately, because of some limitations in [[mw:Manual:What is MediaWiki?|MediaWiki]], all editing must stop during those two switches.
+We apologize for this disruption, and we are working to minimize it in the future.
+
+'''You will be able to read, but not edit, all wikis for a short period of time.'''
+
+*You will not be able to edit for approximately 15 to 30 minutes on Tuesday, 19 April and Thursday, 21 April, starting at 14:00 UTC (15:00 BST, 16:00 CEST, 10:00 EDT, 07:00 PDT).
+
+If you try to edit or save during these times, you will see an error message.
+We hope that no edits will be lost during these minutes, but we can't guarantee it.
+If you see the error message, then please wait until everything is back to normal.
+Then you should be able to save your edit.
+But, we recommend that you make a copy of your changes first, just in case.
+
+''Other effects'':
+
+*Background jobs will be slower and some may be dropped.
+Red links might not be updated as quickly as normal.
+If you create an article that is already linked somewhere else, the link will stay red longer than usual.
+Some long-running scripts will have to be stopped.
+*There will be a code freeze for the week of 18 April.
+No non-essential code deployments will take place.
+
+This test was originally planned to take place on March 22.
+April 19th and 21st are the new dates. 
+You can [[wikitech:Switch Datacenter#Schedule for Q3 FY2015-2016 rollout|read the schedule at wikitech.wikimedia.org]].
+They will post any changes on that schedule.
+There will be more notifications about this.
+'''Please share this information with your community.''' /[[m:User:Whatamidoing (WMF)|User:Whatamidoing (WMF)]] ([[m:User talk:Whatamidoing (WMF)|talk]]) 17 d'Avri 2016 à 21:07 (UTC)
+</div>
+<!-- Message envoyé par User:Johan (WMF)@metawiki en utilisant la liste à https://meta.wikimedia.org/w/index.php?title=Tech/Server_switch_2016/Delivery_list&oldid=15533827 -->

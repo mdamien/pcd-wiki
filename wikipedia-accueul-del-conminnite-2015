@@ -31,6 +31,8 @@ Vlo quèques trucs pou chés nouvieus uzeus su ch' Wikipédia picard.
 |-
 | style="text-align: center" | '''[[Wikipédia:Babel]]'''
 |-
+| {{Babel field|color 1=#99B3FF|color 2=#E0E8FF|letter code size=1.5em|text size=0.83em|letter code= pcd -N |text= Pou echl'uzeu-lo, ch' [[Picard]] ch'est l'langue éd ses pérints, il o un '''[[: Catégorie:Uzeu_pcd-N|natif]] pérlache''' in ''': Catégorie:Uzeu_pcd|picard'''.}}
+|-
 | {{Babel field|color 1=#6EF7A7|color 2=#C5FCDC|letter code size=1.5em|text size=0.83em|letter code= fr |text=Cet utilisateur a pour '''[[:Category:Uzeu fr-M|langue maternelle]]''' le '''[[:Category:Uzeu fr|français]]'''.}}
 |-
 | {{Babel field|color 1=#99B3FF|color 2=#E0E8FF|letter code size=1.5em|text size=0.83em|letter code= en-2 |text=This user is able to contribute with an '''[[:Category:Uzeu en-2|intermediate]]''' level of '''[[:Category:Uzeu en|English]].'''}}
@@ -43,9 +45,9 @@ Conme chés uzeus is pérle'te diférintes lingues, il y o su Wikipédia des mod
 
 O r'treuve chés boétes Babel din tous chés prodjés Wiki ( [[commons:Commons:Babel/fr|Wikimedia Commons]] ou [[meta:Template:User language|Meta-Wiki]] ).
 
-I feut mètte chés boétes Babel su vote ''Pache d'Uzeu''.  L' sintacse, pèr egzimpe, pou troés langues ch'est:
+I feut mètte chés boétes Babel su vote ''Pache d'Uzeu''.  L' sintacse, pèr egzimpe, pou troés langues en pus d'euch pitchard, ch'est:
 
-:::;<nowiki>{{babel|fr|en-2|wa-1}}</nowiki>    
+:::;<nowiki>{{babel|pcd-natif|fr|en-2|wa-1}}</nowiki>    
 ::::::::::(vir chés boétes éd-sérant).
 
 L' sintacse ale est détalhée pi éspliquée [[Wikipédia:Babel|ichi]].

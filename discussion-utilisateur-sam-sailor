@@ -1,4 +1,6 @@
-<table style="background:#F8EABA; width:100%"><tr><td>
-[[Image:Imbox notice.png|left|40px]] 
-{{{{{|safesubst:}}}#ifeq:{{{noheader}}}|yes||=={{{header|Feel free to leave me a message here, but you will get a quicker response if you visit [[:w:en:User talk:Sam Sailor|my English Wikipedia user talk page]].}}}==}}
-</td></tr></table>
+{| class="messagebox standard-talk"
+|-
+|style="text-align:center;"|[[Image:Imbox notice.png|left|40px]] 
+|style="text-align:left;" width="100%"|Hi, and welcome to my talk page on {{SERVERNAME}}. Feel free to leave me a message here, but you will get a quicker response if you visit [[en:User talk:Sam Sailor|my user talk page on English Wikipedia]].
+Thanks, Sam Sailor.
+|}

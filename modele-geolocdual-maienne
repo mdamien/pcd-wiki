@@ -1,0 +1,15 @@
+<noinclude>{{Documentation}}</noinclude><!--
+--> <div class="img_toogle">
+  <div class="geobox" title="Carte topografike">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Mayenne|image|{{{type|relief}}}}}|280px|Vir l' carte topografike]]
+{{#ifexpr:{{{2|}}}|{{G|Mayenne|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|...}}|City|1{{{statut|4}}}}}| }}
+{{Fin de carte}}
+  </div>
+  <div class="geobox" title="Carte adménistrative">
+{{Début de carte}}[[Fichier:{{Géolocalisation/Mayenne|image|{{{type|}}}}}|280px|Vir l' carte adménistrative]]
+{{#ifexpr:{{{2|}}}|{{G|Mayenne|{{#expr:{{{2|}}}}}|{{#expr:{{{1|}}}}}|{{#if:{{{nom|}}}|{{{nom}}}|...}}|City|1{{{statut|4}}}}}| }}
+{{Fin de carte}}
+  </div>
+</div><noinclude><!--
+{{Catégorie Mayenne}}-->
+</noinclude>

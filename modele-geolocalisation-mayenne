@@ -1,0 +1,21 @@
+<includeonly>{{#switch:{{{1}}}
+|y={{#expr: ({{{2}}}-(48.625))*-108.10810810811}} 
+|x={{#expr: ({{{3}}}-(-1.3))*76.923076923077}}
+|image={{#switch: {{{2|}}}
+|relief=Mayenne_department_relief_location_map.jpg
+|#default=Mayenne_department_location_map.svg
+}}
+|iwidth=1036
+|iheight=1105
+|name=Maïenne (départémint){{!}}Maïenne
+|zone=département français
+|geo=-6742
+|genre=fs
+|top=48.625
+|bottom=47.7
+|left=-1.3
+|right=0
+|projection=Projection équirectangulaire
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

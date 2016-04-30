@@ -1,6 +1,6 @@
 {{Conmune du Pas-d'Calés
  | géoloc-département = Pas-d'Caleus
-|nomcommune         = Liauwette
+|nomcommune         = Éleu-dit-Liauwette
 |région=[[Heuts-d'Franche]]
 |région avant=[[Nord-Pas-d'Caleus|Nord-Pas-d'Calés]]
 |département=[[Pas-d'Caleus (départémint)|Pas-d'Calés]]
@@ -34,8 +34,8 @@
 |hectares=117
 |dens=
 | nomhab=Éleusien(s) , Éleusiènne(s)
- | population         = {{Dernière population commune de France}}<!-- Insertion automatique, ne pas modifier -->
- | année_pop          = {{Dernière population commune de France|date}}<!-- Insertion automatique, ne pas modifier -->
+ | population         = 
+ | année_pop          =
  | population agglomération = 
  | gentilé            = Éleusien(s) , Éleusiènne(s)
  | siteweb            = [http://www.ville-eleuditleauwette.fr/ ville-eleuditliauwette.fr]
@@ -47,7 +47,7 @@
 == Aménistrachon ==
 {{ÉluDébut |Titre= Lisse d’chés maires }}
 {{ÉluDonnées}}
-{{Élu |Début=févrié 1989 |Fin=2001|Identité=Gisèle Hernu|Parti=[[PS (fr)|PS]]|Qualité= }}
+{{Élu |Début=févrié 1989 |Fin=2001|Identité=Gisèle Hernu|Parti=PS|Qualité= }}
 {{Élu |Début=marche 2001|Identité=Bernard Pruneau|Parti=PS|Qualité= | Date à jour = }}
 {{ÉluFin}}
 
@@ -60,10 +60,45 @@
 
 ==Nombe ed gins==
 {{Démografie2
-<!--Le paragraphe que vous essayez de modifier est rédigé automatiquement par un modèle. 
-Veuillez insérer votre texte après {{Section démographie d'article de commune de France}} -->
+ | 1793 | {{formatnum:51}}
+ | 1800 | {{formatnum:52}}
+ | 1806 | {{formatnum:62}}
+ | 1821 | {{formatnum:71}}
+ | 1831 | {{formatnum:66}}
+ | 1836 | {{formatnum:64}}
+ | 1841 | {{formatnum:62}}
+ | 1846 | {{formatnum:60}}
+ | 1851 | {{formatnum:49}}
+ | 1856 | {{formatnum:52}}
+ | 1861 | {{formatnum:62}}
+ | 1866 | {{formatnum:73}}
+ | 1872 | {{formatnum:96}}
+ | 1876 | {{formatnum:111}}
+ | 1881 | {{formatnum:135}}
+ | 1886 | {{formatnum:177}}
+ | 1891 | {{formatnum:232}}
+ | 1896 | {{formatnum:258}}
+ | 1901 | {{formatnum:282}}
+ | 1906 | {{formatnum:554}}
+ | 1911 | {{formatnum:806}}
+ | 1921 | {{formatnum:445}}
+ | 1926 | {{formatnum:1568}}
+ | 1931 | {{formatnum:2308}}
+ | 1936 | {{formatnum:2100}}
+ | 1946 | {{formatnum:2283}}
+ | 1954 | {{formatnum:2260}}
+ | 1962 | {{formatnum:2813}}
+ | 1968 | {{formatnum:2967}}
+ | 1975 | {{formatnum:2878}}
+ | 1982 | {{formatnum:3710}}
+ | 1990 | {{formatnum:3402}}
+ | 1999 | {{formatnum:3107}}
+ | 2006 | {{formatnum:3004}}
+ | 2009 | {{formatnum:2958}}
+ | 2013 | 2865
+ | sources           = Base Cassini dousqu'in 1962 pi base Insee à partir d'1968
+}}						
 
-{{Sekcion démografie Franche}}
 
 
 

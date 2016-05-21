@@ -1,0 +1,227 @@
+<includeonly>{| class="infobox_v2" cellspacing="4" border="0"
+| colspan="5" | 
+{| cellpadding="1" cellspacing="0" style="text-align: center;" width="100%" 
+|- class="entete" style="background-color:#{{charte sportive/Niveau 1|tennis}};"
+| width="90%" style="padding-left:45px;width:80%;color:#{{charte sportive/Texte|tennis}};" | {{#if:{{{nom|}}} | {{{nom|}}} <span style="font-size:80%">{{#if:{{{nom d'épouse|}}}|<br />({{{nom d'épouse}}})|}}</span> | {{PAGENAME}} {{#if:{{{nom d'épouse|}}}|<br />({{{nom d'épouse}}})|}} }}
+| width="10%"| [[Fichier:Tennis pictogram.svg|45px|alt=|link=]]
+|}
+|-
+{{#if: {{{image|}}} |
+{{!}} colspan="5" style="font-size: smaller; text-align: center;" {{!}} [[Fichier:{{{image}}}|{{#if: {{{taille image|}}}|{{{taille image}}}px|280x200px}}|{{#if: {{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}]] {{#if:{{{légende|}}}|<br /><center>{{{légende}}}</center>|}}
+}}
+|- 
+{{#if: {{{handisport|}}} |
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|tennis}};" {{!}} 
+|}}
+|- 
+{{#if: {{{handisport|}}} |
+! colspan="5" style="text-align: center; color:#{{charte sportive/Texte|tennis}};" {{!}} [[Tennis en fauteuil roulant]]
+|}}
+|- 
+{{#if: {{{handisport|}}} |
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|tennis}}" {{!}} 
+|}}
+|- 
+{{#if: {{{premier match pro|}}} |
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|tennis}};" {{!}} 
+|}}
+|- 
+{{#if: {{{premier match pro|}}} |
+! colspan="5" style="text-align: center; color:#{{charte sportive/Texte|tennis}};" {{!}} Carrière professionnelle
+|}}
+|-
+{{#if: {{{premier match pro|}}} |
+! colspan="5" style="text-align: center; color:#{{charte sportive/Texte|tennis}};" {{!}} {{{premier match pro|}}} {{#if: {{{dernier match pro|}}} |– {{{dernier match pro}}}|}} 
+|}}
+|- 
+{{#if: {{{premier match pro|}}} |
+{{!}} colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|tennis}};" {{!}} 
+|}}
+|- 
+{{#if: {{{nationalité|}}} |
+{{!}} colspan="1" width="42%" {{!}} '''Nationalité'''
+{{!}} colspan="4" width="58%" {{!}} {{{nationalité}}}
+|}}
+|- 
+{{#if: {{{pays|}}} |
+{{!}} colspan="1" width="42%" {{!}} '''Pays'''
+{{!}} colspan="4" width="58%" {{!}} {{{pays}}}
+|}}
+|-
+{{#if: {{{date de naissance|}}} |
+! scope=row style="vertical-align: top;" {{!}} Naissance
+{{!}} colspan="4" {{!}} {{{date de naissance}}}{{#ifeq:{{#property:P569}}{{NAMESPACE}}||[[Category:P569 absent de Wikidata‎]]}}{{#if: {{{lieu de naissance|}}}|<br />{{{lieu de naissance}}}|}}
+}}
+|-
+{{#if: {{{date de décès|}}} |
+{{!}} colspan="1" width="42%" {{!}} '''Décès'''
+{{!}} colspan="4" width="58%" {{!}} {{{date de décès}}}{{#ifeq:{{#property:P570}}{{NAMESPACE}}||[[Category:P570 absent de Wikidata‎]]}}{{#if: {{{lieu de décès|}}}|<br />{{{lieu de décès}}}|}}
+|}}
+|- 
+{{#if: {{{taille|}}} {{{poids|}}} |
+{{!}} colspan="1" width="42%" {{!}} '''Taille / poids'''
+{{!}} colspan="4" width="58%" {{!}} {{{taille|}}}{{#if: {{{taille|}}}|&nbsp;/&nbsp;|}}{{{poids|}}}
+|}}
+|- 
+{{#if: {{{prise de raquette|}}} |
+{{!}} colspan="1" width="42%" {{!}} '''Prise de raquette'''
+{{!}} colspan="4" width="58%" {{!}} {{{prise de raquette}}}{{#if:{{{revers|}}}|, revers {{{revers}}}|}}
+|}}
+|- 
+{{#if: {{{entraîneur(s)|}}} |
+{{!}} colspan="1" width="42%" {{!}} '''Entraîneur{{#ifeq:{{#invoke:String|find|{{{entraîneur(s)|}}}|<br ?/?>|1|false}}|0||s}}'''
+{{!}} colspan="4" width="58%" {{!}} {{{entraîneur(s)|}}}
+|}}
+|-
+{{#if: {{{gains en tournois|}}} |
+{{!}} colspan="1" width="42%" {{!}} '''Gains en tournois'''
+{{!}} colspan="4" width="58%" {{!}} {{formatnum:{{{gains en tournois}}}}}
+|}}
+|- 
+{{#if: {{{date d'entrée à l'ITHF|}}} |
+{{!}} colspan="1" width="42%" {{!}} '''[[International Tennis Hall of Fame|Hall of Fame]]'''
+{{!}} colspan="4" width="58%" {{!}} Membre depuis {{{date d'entrée à l'ITHF}}}
+|}}
+|-
+{{#if:{{{site web|}}} | 
+{{!}} colspan="1" width="42%" {{!}} '''Site Internet'''
+{{!}} colspan="4" width="58%" {{!}} <span class="plainlinks">{{{site web}}}</span>
+}}
+|-
+{{#if: {{{titres|}}} {{{titres simple|}}} {{{finales perdues simple|}}} {{{meilleur classement simple|}}} {{{titres double|}}} {{{finales perdues double|}}} {{{meilleur classement double|}}} {{{Open d'Australie simple|}}} {{{Roland-Garros simple|}}} {{{Wimbledon simple|}}} {{{US Open simple|}}} {{{Open d'Australie double|}}} {{{Roland-Garros double|}}} {{{Wimbledon double|}}} {{{US Open double|}}} {{{Open d'Australie mixte|}}} {{{Roland-Garros mixte|}}} {{{Wimbledon mixte|}}} {{{US Open mixte|}}} {{{médaille d'or simple|}}} {{{médaille d'argent simple|}}} {{{médaille de bronze simple|}}} {{{médaille d'or double|}}} {{{médaille d'argent double|}}} {{{médaille de bronze double|}}} {{{Coupe Davis|}}} {{{Fed Cup|}}} {{{Hopman Cup|}}} |
+! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 1|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} Palmarès
+|}}
+|-
+{{#if: {{{titres|}}} {{{titres simple|}}} {{{finales perdues simple|}}} {{{meilleur classement simple|}}} |
+! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} En simple
+|}}
+|- 
+{{#if: {{{titres simple|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''Titres'''
+{{!}} colspan="3" width="58%" {{!}} {{{titres simple}}}
+|}}
+|- 
+{{#if: {{{titres|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''Titres'''
+{{!}} colspan="3" width="58%" {{!}} {{{titres}}}
+|}}
+|- 
+{{#if: {{{finales perdues simple|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''Finales perdues'''
+{{!}} colspan="3" width="58%" {{!}} {{{finales perdues simple}}}
+|}}
+|- 
+{{#if: {{{meilleur classement simple|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''Meilleur classement'''
+{{!}} colspan="3" width="58%" {{!}} {{{meilleur classement simple}}}
+|}}
+|- 
+{{#if: {{{titres double|}}} {{{finales perdues double|}}} {{{meilleur classement double|}}}|
+! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} En double
+|}}
+|- 
+{{#if: {{{titres double|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''Titres'''
+{{!}} colspan="3" width="58%" {{!}} {{{titres double}}}
+|}}
+|- 
+{{#if: {{{finales perdues double|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''Finales perdues'''
+{{!}} colspan="3" width="58%" {{!}} {{{finales perdues double}}}
+|}}
+|- 
+{{#if: {{{meilleur classement double|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''Meilleur classement'''
+{{!}} colspan="3" width="58%" {{!}} {{{meilleur classement double}}}
+|}}
+|-  
+{{#if: {{{Open d'Australie simple|}}} {{{Roland-Garros simple|}}} {{{Wimbledon simple|}}} {{{US Open simple|}}} {{{Open d'Australie double|}}} {{{Roland-Garros double|}}} {{{Wimbledon double|}}} {{{US Open double|}}} {{{Open d'Australie mixte|}}} {{{Roland-Garros mixte|}}} {{{Wimbledon mixte|}}} {{{US Open mixte|}}} |
+! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} Meilleurs résultats en [[Grand Chelem de tennis|Grand Chelem]]
+|}}
+|-
+{{#if: {{{Open d'Australie simple|}}} {{{Roland-Garros simple|}}} {{{Wimbledon simple|}}} {{{US Open simple|}}} {{{Open d'Australie double|}}} {{{Roland-Garros double|}}} {{{Wimbledon double|}}} {{{US Open double|}}} {{{Open d'Australie mixte|}}} {{{Roland-Garros mixte|}}} {{{Wimbledon mixte|}}} {{{US Open mixte|}}} |
+{{!}} colspan="1" width="40%" {{!}} 
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} '''[[Open d'Australie|Aust.]]'''
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} '''[[Internationaux de France de tennis|R-G.]]'''
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} '''[[Tournoi de Wimbledon|Wim.]]'''
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} '''[[US Open de tennis|US.]]'''
+|}}
+|- 
+{{#if: {{{Open d'Australie simple|}}} {{{Roland-Garros simple|}}} {{{Wimbledon simple|}}} {{{US Open simple|}}} |
+{{!}} colspan="1" width="40%" {{!}} '''Simple'''
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Open d'Australie simple|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Roland-Garros simple|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Wimbledon simple|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{US Open simple|}}}
+|}}
+|- 
+{{#if: {{{Open d'Australie double|}}} {{{Roland-Garros double|}}} {{{Wimbledon double|}}} {{{US Open double|}}} |
+{{!}} colspan="1" width="40%" {{!}} '''Double'''
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Open d'Australie double|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Roland-Garros double|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Wimbledon double|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{US Open double|}}}
+|}}
+|- 
+{{#if: {{{Open d'Australie mixte|}}} {{{Roland-Garros mixte|}}} {{{Wimbledon mixte|}}} {{{US Open mixte|}}} |
+{{!}} colspan="1" width="40%" {{!}} '''Mixte'''
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Open d'Australie mixte|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Roland-Garros mixte|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{Wimbledon mixte|}}}
+{{!}} colspan="1" bgcolor="FFEADD" width="15%" align="center" {{!}} {{{US Open mixte|}}}
+|}}
+|- 
+{{#if: {{{médaille d'or simple|}}} {{{médaille d'argent simple|}}} {{{médaille de bronze simple|}}} {{{médaille d'or double|}}} {{{médaille d'argent double|}}} {{{médaille de bronze double|}}} {{{médaille d'or mixte|}}} {{{médaille d'argent mixte|}}} {{{médaille de bronze mixte|}}} |
+! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} [[Tennis aux Jeux olympiques d'été|Médailles olympiques]]
+|}}
+|-
+{{#if: {{{médaille d'or simple|}}} {{{médaille d'argent simple|}}} {{{médaille de bronze simple|}}} |
+{{!}} colspan="1" width="40%" {{!}} '''Simple'''
+{{!}} colspan="1" width="15%" {{!}} 
+{{!}} colspan="1" bgcolor="gold" width="15%" align="center" {{!}} {{{médaille d'or simple|}}} 
+{{!}} colspan="1" bgcolor="silver" width="15%" align="center" {{!}} {{{médaille d'argent simple|}}} 
+{{!}} colspan="1" bgcolor="DarkGoldenrod" width="15%" align="center" {{!}} {{{médaille de bronze simple|}}}
+|}}
+|-
+{{#if: {{{médaille d'or double|}}} {{{médaille d'argent double|}}} {{{médaille de bronze double|}}} |
+{{!}} colspan="1" width="40%" {{!}} '''Double'''
+{{!}} colspan="1" width="15%" {{!}} 
+{{!}} colspan="1" bgcolor="gold" width="15%" align="center" {{!}} {{{médaille d'or double|}}} 
+{{!}} colspan="1" bgcolor="silver" width="15%" align="center" {{!}} {{{médaille d'argent double|}}} 
+{{!}} colspan="1" bgcolor="DarkGoldenrod" width="15%" align="center" {{!}} {{{médaille de bronze double|}}}
+|}}
+|-
+{{#if: {{{médaille d'or mixte|}}} {{{médaille d'argent mixte|}}} {{{médaille de bronze mixte|}}} |
+{{!}} colspan="1" width="40%" {{!}} '''Mixte'''
+{{!}} colspan="1" width="15%" {{!}} 
+{{!}} colspan="1" bgcolor="gold" width="15%" align="center" {{!}} {{{médaille d'or mixte|}}} 
+{{!}} colspan="1" bgcolor="silver" width="15%" align="center" {{!}} {{{médaille d'argent mixte|}}} 
+{{!}} colspan="1" bgcolor="DarkGoldenrod" width="15%" align="center" {{!}} {{{médaille de bronze mixte|}}}
+|}}
+|-
+{{#if: {{{Coupe Davis|}}} {{{Fed Cup|}}} {{{World Team Cup|}}} {{{Hopman Cup|}}} |
+! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} Titres par équipe nationale
+|}}
+|- 
+{{#if: {{{Coupe Davis|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''[[Coupe Davis]]'''
+{{!}} colspan="3" width="58%" {{!}} {{{Coupe Davis}}}
+|}}
+|- 
+{{#if: {{{Fed Cup|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''[[Fed Cup]]'''
+{{!}} colspan="3" width="58%" {{!}} {{{Fed Cup}}}
+|}}
+|- 
+{{#if: {{{World Team Cup|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''[[World Team Cup]]'''
+{{!}} colspan="3" width="58%" {{!}} {{{World Team Cup}}}
+|}}
+|- 
+{{#if: {{{Hopman Cup|}}} |
+{{!}} colspan="2" width="42%" {{!}} '''[[Hopman Cup]]'''
+{{!}} colspan="3" width="58%" {{!}} {{{Hopman Cup}}}
+|}}
+|-
+| colspan="5" | <p class="navbar noprint" style="border-top:2px #{{charte sportive/Niveau 1|tennis}} solid; font-size:80%; line-height:1.1em; text-align: right !important; padding: 5px;"><span class="plainlinks" style="float:left;">[{{fullurl:{{FULLPAGENAME}}|action=edit&section=0}} modifier]</span><span>{{#if:{{{date de mise à jour|}}}|{{Gris|Dernière {{Abréviation discrète|MàJ|Mise à jour}} : {{{date de mise à jour|}}}&nbsp;&nbsp;}}|}}[[Image:Gtk-dialog-info.svg|12px|link=Modèle:Infobox Joueur de tennis|Consultez la documentation du modèle]]</span></p>
+|}{{Suivi des biographies|Sport}}{{Wikidata image|1={{{image|}}} }}</includeonly><noinclude>{{Bandeau Infobox V2}}{{Documentation}}</noinclude>

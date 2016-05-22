@@ -1,0 +1,23 @@
+{{#if:{{NAMESPACE}}||
+  {{#if:{{{1|}}} 
+  | {{#if:{{#property:P18}}
+    | {{#ifeq:{{filepath:{{{1|}}} }}|{{filepath:{{#property:P18}} }}
+      | [[Catégorie:Image locale correspondant à celle de Wikidata]]
+      | [[Catégorie:Image locale différente de celle de Wikidata]]
+      }}
+    | {{#if:{{#property:P41}}{{#property:P94}}{{#property:P117}}{{#property:P154}}{{#property:P242}}
+      | 
+      | [[Catégorie:Image locale sans image sur Wikidata]] 
+      }}
+    }}
+  | {{#if:{{#property:P18}}
+    | {{#if:{{{2|}}} 
+      | 
+      | [[Catégorie:Pas d'image locale mais image sur Wikidata]] 
+     }}
+    | [[Catégorie:Pas d'image locale ni d'image sur Wikidata]]
+    }}
+  }}
+}}<noinclude>
+{{Documentation}}
+</noinclude>

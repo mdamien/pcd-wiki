@@ -1,0 +1,31 @@
+<includeonly>{{#switch: {{{1|}}}
+ | athletisme
+ | athlétisme          = EBC3BD
+ | baseball            = AAC7C7
+ | basket-ball         = EEC7AB
+ | boxe                = 
+ | cyclisme            = FFEFC0
+ | escrime             = E0DDED
+ | football américain           
+ | football            = CCE6CC
+ | football canadien   = DFE99E
+ | gymnastique         = D8E2EF
+ | handball            = F0E8C0
+ | patinage
+ | ski
+ | sports d'hiver      
+ | hockey sur glace    = EFF6FF
+ | natation            = 98C6F3
+ | rugby à XV          = 99B3CC
+ | sport automobile    
+ | sport-automobile    
+ | sports équestres    = E6CDAD
+ | sport mécanique     = DADCE1
+ | sports de combat    = FFEFD1
+ | surf                = DDEEFF
+ | tennis              = FFD5BB
+ | tir à l'arc         = FDF3AB
+ | volley-ball         = BAE6B3
+ | sport
+ | #default             = DFEBFF
+}}</includeonly><noinclude>{{Documentation}}</noinclude>

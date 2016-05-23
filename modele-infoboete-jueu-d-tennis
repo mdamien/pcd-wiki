@@ -27,7 +27,7 @@
 |}}
 |- 
 {{#if: {{{premier match pro|}}} |
-! colspan="5" style="text-align: center; color:#{{charte sportive/Texte|tennis}};" {{!}} Carrière professionnelle
+! colspan="5" style="text-align: center; color:#{{charte sportive/Texte|tennis}};" {{!}} Carriére proféchionnelle
 |}}
 |-
 {{#if: {{{premier match pro|}}} |
@@ -39,22 +39,22 @@
 |}}
 |- 
 {{#if: {{{nationalité|}}} |
-{{!}} colspan="1" width="42%" {{!}} '''Nationalité'''
+{{!}} colspan="1" width="42%" {{!}} '''Nacionalité'''
 {{!}} colspan="4" width="58%" {{!}} {{{nationalité}}}
 |}}
 |- 
 {{#if: {{{pays|}}} |
-{{!}} colspan="1" width="42%" {{!}} '''Pays'''
+{{!}} colspan="1" width="42%" {{!}} '''Poéyis'''
 {{!}} colspan="4" width="58%" {{!}} {{{pays}}}
 |}}
 |-
 {{#if: {{{date de naissance|}}} |
-! scope=row style="vertical-align: top;" {{!}} Naissance
+! scope=row style="vertical-align: top;" {{!}} Néchainche
 {{!}} colspan="4" {{!}} {{{date de naissance}}}{{#ifeq:{{#property:P569}}{{NAMESPACE}}||[[Category:P569 absent de Wikidata‎]]}}{{#if: {{{lieu de naissance|}}}|<br />{{{lieu de naissance}}}|}}
 }}
 |-
 {{#if: {{{date de décès|}}} |
-{{!}} colspan="1" width="42%" {{!}} '''Décès'''
+{{!}} colspan="1" width="42%" {{!}} '''Défuncté(e)'''
 {{!}} colspan="4" width="58%" {{!}} {{{date de décès}}}{{#ifeq:{{#property:P570}}{{NAMESPACE}}||[[Category:P570 absent de Wikidata‎]]}}{{#if: {{{lieu de décès|}}}|<br />{{{lieu de décès}}}|}}
 |}}
 |- 
@@ -64,27 +64,27 @@
 |}}
 |- 
 {{#if: {{{prise de raquette|}}} |
-{{!}} colspan="1" width="42%" {{!}} '''Prise de raquette'''
+{{!}} colspan="1" width="42%" {{!}} '''Prise éd ratchette'''
 {{!}} colspan="4" width="58%" {{!}} {{{prise de raquette}}}{{#if:{{{revers|}}}|, revers {{{revers}}}|}}
 |}}
 |- 
 {{#if: {{{entraîneur(s)|}}} |
-{{!}} colspan="1" width="42%" {{!}} '''Entraîneur{{#ifeq:{{#invoke:String|find|{{{entraîneur(s)|}}}|<br ?/?>|1|false}}|0||s}}'''
+{{!}} colspan="1" width="42%" {{!}} '''Entraîneu{{#ifeq:{{#invoke:String|find|{{{entraîneur(s)|}}}|<br ?/?>|1|false}}|0||s}}'''
 {{!}} colspan="4" width="58%" {{!}} {{{entraîneur(s)|}}}
 |}}
 |-
 {{#if: {{{gains en tournois|}}} |
-{{!}} colspan="1" width="42%" {{!}} '''Gains en tournois'''
+{{!}} colspan="1" width="42%" {{!}} '''Gains in tornoés'''
 {{!}} colspan="4" width="58%" {{!}} {{formatnum:{{{gains en tournois}}}}}
 |}}
 |- 
 {{#if: {{{date d'entrée à l'ITHF|}}} |
-{{!}} colspan="1" width="42%" {{!}} '''[[International Tennis Hall of Fame|Hall of Fame]]'''
-{{!}} colspan="4" width="58%" {{!}} Membre depuis {{{date d'entrée à l'ITHF}}}
+{{!}} colspan="1" width="42%" {{!}} '''Hall of Fame'''
+{{!}} colspan="4" width="58%" {{!}} Mimbe édpuis {{{date d'entrée à l'ITHF}}}
 |}}
 |-
 {{#if:{{{site web|}}} | 
-{{!}} colspan="1" width="42%" {{!}} '''Site Internet'''
+{{!}} colspan="1" width="42%" {{!}} '''Site Intarnète'''
 {{!}} colspan="4" width="58%" {{!}} <span class="plainlinks">{{{site web}}}</span>
 }}
 |-
@@ -93,16 +93,16 @@
 |}}
 |-
 {{#if: {{{titres|}}} {{{titres simple|}}} {{{finales perdues simple|}}} {{{meilleur classement simple|}}} |
-! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} En simple
+! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} In simpe
 |}}
 |- 
 {{#if: {{{titres simple|}}} |
-{{!}} colspan="2" width="42%" {{!}} '''Titres'''
+{{!}} colspan="2" width="42%" {{!}} '''Tites'''
 {{!}} colspan="3" width="58%" {{!}} {{{titres simple}}}
 |}}
 |- 
 {{#if: {{{titres|}}} |
-{{!}} colspan="2" width="42%" {{!}} '''Titres'''
+{{!}} colspan="2" width="42%" {{!}} '''Tites'''
 {{!}} colspan="3" width="58%" {{!}} {{{titres}}}
 |}}
 |- 
@@ -112,16 +112,16 @@
 |}}
 |- 
 {{#if: {{{meilleur classement simple|}}} |
-{{!}} colspan="2" width="42%" {{!}} '''Meilleur classement'''
+{{!}} colspan="2" width="42%" {{!}} '''Meilleur classemint'''
 {{!}} colspan="3" width="58%" {{!}} {{{meilleur classement simple}}}
 |}}
 |- 
 {{#if: {{{titres double|}}} {{{finales perdues double|}}} {{{meilleur classement double|}}}|
-! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} En double
+! colspan="5" style="text-align: center; background:#{{charte sportive/Niveau 3|tennis}}; color:#{{charte sportive/Texte|tennis}};" {{!}} In doube
 |}}
 |- 
 {{#if: {{{titres double|}}} |
-{{!}} colspan="2" width="42%" {{!}} '''Titres'''
+{{!}} colspan="2" width="42%" {{!}} '''Tites'''
 {{!}} colspan="3" width="58%" {{!}} {{{titres double}}}
 |}}
 |- 
@@ -131,7 +131,7 @@
 |}}
 |- 
 {{#if: {{{meilleur classement double|}}} |
-{{!}} colspan="2" width="42%" {{!}} '''Meilleur classement'''
+{{!}} colspan="2" width="42%" {{!}} '''Meilleur classemint'''
 {{!}} colspan="3" width="58%" {{!}} {{{meilleur classement double}}}
 |}}
 |-  

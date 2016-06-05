@@ -1,0 +1,191 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nom|{{PAGENAME}}}}} | {{Charte sportive/Niveau 1|boxe}} | entete boxe
+}}
+|-
+{{#if: {{{image|}}}|
+{{!}} colspan="5" style="font-size: smaller; text-align: center;" {{!}} [[image:{{{image}}}|frameless|{{{tailleimage}}}  ]]<br /><center> {{#if:{{{légende|}}}|{{{légende|}}}|}} </center>}}
+|-
+{{Infobox/Sous-titre
+ | Fiche d’identité | b0c4de
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Nom complet | {{{nom de naissance|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Surnom | {{{surnom|}}}
+}}
+|- 
+{{#if: {{{nationalité|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Nacionalité'''
+{{!}} colspan="4" width="65%" {{!}} {{{nationalité}}}|}}
+|- 
+{{#if: {{{date de naissance|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''L'est né(e)'''
+{{!}} colspan="4" width="65%" {{!}} {{{date de naissance}}}|}}
+|- 
+{{#if: {{{lieu de naissance|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Liu'''
+{{!}} colspan="4" width="65%" {{!}} {{{lieu de naissance}}} {{#if: {{{pays|}}}|{{{pays}}}}} |}}
+|- 
+{{#if: {{{date de décès|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Défuncté'''
+{{!}} colspan="4" width="65%" {{!}} {{{date de décès}}}|}}
+|- 
+{{#if: {{{lieu de décès|}}}|
+{{!}} colspan="1" width="35%" {{!}} '''Liu'''
+{{!}} colspan="4" width="65%" {{!}} {{{lieu de décès}}} {{#if: {{{pays|}}}|{{{pays}}}}} |}}
+|-
+{{Infobox/Ligne mixte optionnelle
+ | Style | {{{style|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Taille | {{{taille|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Catégorie | {{{catégorie|}}}
+}}
+{{#if:{{{carrière|}}}{{{combats|}}}{{{victoires|}}}{{{KO|}}}{{{défaites|}}}{{{matchs nuls|}}}{{{sans décision|}}}{{{carrière amateurs|}}}{{{combats amateurs|}}}{{{victoires amateurs|}}}{{{KO amateurs|}}}{{{défaites amateurs|}}}{{{matchs nuls amateurs|}}}{{{sans décision amateurs|}}}{{{titres|}}}{{{titres amateurs|}}} |
+{{Infobox/Sous-titre
+ | Palmarès
+ | b0c4de
+}}
+{{ #switch: {{{carrière|}}}{{{combats|}}}{{{victoires|}}}{{{KO|}}}{{{défaites|}}}{{{matchs nuls|}}}{{{sans décision|}}}{{{carrière amateurs|}}}{{{combats amateurs|}}}{{{victoires amateurs|}}}{{{KO amateurs|}}}{{{défaites amateurs|}}}{{{matchs nuls amateurs|}}}{{{sans décision amateurs|}}}
+<!---------------------- Si paramètres professionnels uniquement ------------------------>
+|{{{carrière|}}}{{{combats|}}}|{{{victoires|}}}|{{{KO|}}}|{{{défaites|}}}|{{{matchs nuls|}}}|{{{sans décision|}}}|{{{carrière|}}}{{{combats|}}}{{{victoires|}}}{{{KO|}}}{{{défaites|}}}{{{matchs nuls|}}}{{{sans décision|}}} = {{Infobox/Ligne mixte optionnelle
+ | &nbsp;
+ | {{{carrière|}}}{{{combats|}}}{{{victoires|}}}{{{KO|}}}{{{défaites|}}}{{{matchs nuls|}}}{{{sans décision|}}}
+ | Professionnel
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Carrière
+ | {{{carrière|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Combats
+ | {{{combats|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Victoéres
+ | {{{victoires|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Victoéres par KO
+ | {{{KO|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Défoaites
+ | {{{défaites|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Matchs nuls
+ | {{{matchs nuls|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Sans décision
+ | {{{sans décision|}}} | 
+}}
+<!------------------------- Si paramètres amateurs uniquement --------------------------->
+|{{{carrière amateurs|}}}{{{combats amateurs|}}}|{{{victoires amateurs|}}}|{{{KO amateurs|}}}|{{{défaites amateurs|}}}|{{{matchs nuls amateurs|}}}|{{{sans décision amateurs|}}}|{{{combats amateurs|}}}{{{victoires amateurs|}}}{{{KO amateurs|}}}{{{défaites amateurs|}}}{{{matchs nuls amateurs|}}}{{{sans décision amateurs|}}} = {{Infobox/Ligne mixte optionnelle
+ | &nbsp;
+ | {{{carrière amateurs|}}}{{{combats amateurs|}}}{{{victoires amateurs|}}}{{{KO amateurs|}}}{{{défaites amateurs|}}}{{{matchs nuls amateurs|}}}{{{sans décision amateurs|}}}
+ | Amateur
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Carrière
+ | {{{carrière amateurs|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Combats
+ | {{{combats amateurs|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Victoéres
+ | {{{victoires amateurs|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Victoéres par KO
+ | {{{KO amateurs|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Défoaites
+ | {{{défaites amateurs|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Matchs nuls
+ | {{{matchs nuls amateurs|}}} | 
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Sans décision
+ | {{{sans décision amateurs|}}} | 
+}}
+<!------------------------ Si tous les paramètres sont remplis -------------------------->
+|{{{carrière|}}}{{{combats|}}}{{{victoires|}}}{{{KO|}}}{{{défaites|}}}{{{matchs nuls|}}}{{{sans décision|}}}{{{carrière amateurs|}}}{{{combats amateurs|}}}{{{victoires amateurs|}}}{{{KO amateurs|}}}{{{défaites amateurs|}}}{{{matchs nuls amateurs|}}}{{{sans décision amateurs|}}} = {{!}} colspan = "2" {{!}}
+{{(!}} width=100% class="wikitable" style="text-align:center; margin-top:0; margin-bottom:0;" 
+{{!-}}
+{{!}}
+{{!}} style="text-align:left;width:30%" {{!}} Professionnel
+{{!}} style="text-align:left;width:30%" {{!}} Amateur
+{{!-}}
+{{#if:{{{carrière|}}} | 
+! Carrière
+{{!}} style="text-align:left" {{!}} {{{carrière|}}}
+{{!}} style="text-align:left" {{!}} {{{carrière amateurs|}}}  
+{{!-}}
+}}
+{{#if:{{{combats|}}}{{{combats amateurs|}}} | 
+! Combats
+{{!}} style="text-align:left" {{!}} {{{combats|}}}
+{{!}} style="text-align:left" {{!}} {{{combats amateurs|}}}
+{{!-}}
+}}
+{{#if:{{{victoires|}}}{{{victoires amateurs|}}} | 
+! Victoéres
+{{!}} style="text-align:left" {{!}} {{{victoires|}}}
+{{!}} style="text-align:left" {{!}} {{{victoires amateurs|}}}
+{{!-}}
+}}
+{{#if:{{{KO|}}}{{{KO amateurs|}}} | 
+! Victoéres par KO
+{{!}} style="text-align:left" {{!}} {{{KO|}}}
+{{!}} style="text-align:left" {{!}} {{{KO amateurs|}}}
+{{!-}}
+}}
+{{#if:{{{défaites|}}}{{{défaites amateurs|}}} | 
+! Défoaites
+{{!}} style="text-align:left" {{!}} {{{défaites|}}}
+{{!}} style="text-align:left" {{!}} {{{défaites amateurs|}}}
+{{!-}}
+}}
+{{#if:{{{matchs nuls|}}}{{{matchs nuls amateurs|}}} | 
+! Matchs nuls
+{{!}} style="text-align:left" {{!}} {{{matchs nuls|}}}
+{{!}} style="text-align:left" {{!}} {{{matchs nuls amateurs|}}}
+{{!-}}
+}}
+{{#if:{{{sans décision|}}}{{{sans décision amateurs|}}} | 
+! Sans décision
+{{!}} style="text-align:left" {{!}} {{{sans décision|}}}
+{{!}} style="text-align:left" {{!}} {{{sans décision amateurs|}}}
+{{!-}}
+}}
+{{!)}}
+{{!-}}
+|}}
+<!------------------------------------ Fin switch -------------------------------------->
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Tites professionnels | {{{titres|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+ | Tites amateurs | {{{titres amateurs|}}}
+}}
+{{Infobox/Sous-titre optionnel
+ | <small>Dernière mise à jour : {{{date de mise à jour}}} </small>
+ | {{{date de mise à jour|}}}
+ | eeeeff
+}}
+{{Infobox/Notice
+ | Infobox Boxeur
+}}
+{{Infobox/Fin}}</includeonly><noinclude>{{Documentation}}</noinclude>

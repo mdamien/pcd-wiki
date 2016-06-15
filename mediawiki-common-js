@@ -65,7 +65,7 @@ function eregReplace(search, replace, subject) {
  * Script pour alterner entre plusieurs cartes de géolocalisation
  */
  
-if(( mw.config.get('wgAction')=="view" || mw.config.get('wgAction')=="purge" || mw.config.get('wgAction')=="submit")) addOnloadHook(GeoBox_Init);
+if(( mw.config.get('wgAction')=="view" || mw.config.get('wgAction')=="purge" || mw.config.get('wgAction')=="submit")) $(GeoBox_Init);
  
 function GeoBox_Init(Element){ 
      if(!Element) Element = document.body; 

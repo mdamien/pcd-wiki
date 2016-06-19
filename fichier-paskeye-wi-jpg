@@ -1,2 +1,27 @@
 Pasquille novèle
+<div class="hproduct commons-file-information-table">
+<table class="toccolours vevent fileinfotpl-type-information" style="width: 100%;" cellpadding="4">
+
+<!-- Description -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_desc" class="fileinfo-paramfield">{{int:wm-license-information-description}}<span class="summary fn" style="display:none">{{PAGENAME}}</span></td>
+<td class="description">Pasquille novèle</td>
+</tr>
+
+<!-- Source -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_src" class="fileinfo-paramfield">{{int:wm-license-information-source}}</td>
+<td>[https://wa.wikipedia.org/wiki/Im%C3%A5dje:Paskeye_wi.jpg wa.wikipedia.org]</td>
+</tr>
+
+<!-- Author -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_aut" class="fileinfo-paramfield">{{int:wm-license-information-author}}</td>
+<td>[https://wa.wikipedia.org/wiki/Uzeu:Lucyin Uzeu:Lucyin]</td>
+</tr>
+
+</table>
+</div>
+== Licince deul image ==
+'''PD''' = Dominne publik = Ciste imådje a stî metowe dins l' dominne publik pa l' ci k' end aveut ls abondroets, oudonbén c' est ene viye imådje et les abondroets sont houte, oudonbén ele ni pout nén esse dizo abondroets. Çouchal est valide po tos les payis.
 [[catégorie:Litérature]]

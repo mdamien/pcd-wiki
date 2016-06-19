@@ -1,4 +1,29 @@
 Information: Description = Vue de l'église de Saint-Amé d'Annay. Source = Photo déposée sur fr.wikipedia.org par Floflo62 le 08/09/2013 https://fr.wikipedia.org/wiki/Utilisateur:Floflo62
+<div class="hproduct commons-file-information-table">
+<table class="toccolours vevent fileinfotpl-type-information" style="width: 100%;" cellpadding="4">
+
+<!-- Description -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_desc" class="fileinfo-paramfield">{{int:wm-license-information-description}}<span class="summary fn" style="display:none">{{PAGENAME}}</span></td>
+<td class="description">Vue de l'église de Saint-Amé d'Annay.</td>
+</tr>
+
+<!-- Source -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_src" class="fileinfo-paramfield">{{int:wm-license-information-source}}</td>
+<td>Photo déposée sur fr.wikipedia.org par Floflo62 le 08/09/2013 https://fr.wikipedia.org/wiki/Utilisateur:Floflo62</td>
+</tr>
+
+<!-- Author -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_aut" class="fileinfo-paramfield">{{int:wm-license-information-author}}</td>
+<td>Photo déposée sur fr.wikipedia.org par Floflo62 le 08/09/2013 https://fr.wikipedia.org/wiki/Utilisateur:Floflo62</td>
+</tr>
+
+</table>
+</div>
+
+
 == Conditions d'utilisation ==
 {{Bâtiment récent|GFDL|CC-BY-SA-3.0|mort de l'architecte=}}
 

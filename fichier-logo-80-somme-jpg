@@ -1,10 +1,31 @@
 Logo Sonme
-== Licence ==
+<div class="hproduct commons-file-information-table">
+<table class="toccolours vevent fileinfotpl-type-information" style="width: 100%;" cellpadding="4">
+
+<!-- Description -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_desc" class="fileinfo-paramfield">{{int:wm-license-information-description}}<span class="summary fn" style="display:none">{{PAGENAME}}</span></td>
+<td class="description">Logo Sonme</td>
+</tr>
+
+<!-- Source -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_src" class="fileinfo-paramfield">{{int:wm-license-information-source}}</td>
+<td>départémint Sonme (site officiel du conseil général http://www.somme.fr/var/storage/original/image/0758ec0bdc9957736625405830bcd84e.jpg)</td>
+</tr>
+
+<!-- Author -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_aut" class="fileinfo-paramfield">{{int:wm-license-information-author}}</td>
+<td>déposé pèr Louis Kehlweiler l'13 éd jinvié 2009 à 16:56 dsu ch' fr.wikipedia: [[:fr:Fichier:Logo_80_somme.jpg]] </td>
+</tr>
+
+</table>
+</div>
+== Licince ==
 {{màrque rinbanite}}
 
 [[Catégorie:Logo d’chés départémints franchoés]]
 
-
-
-foait pèr Louis Kehlweiler l'13 éd janvié 2009 à 16:56 dsu ch' fr.wikipedia: [[:fr:Fichier:Logo_80_somme.jpg]]
+* déposé pèr Louis Kehlweiler l'13 éd janvié 2009 à 16:56 dsu ch' fr.wikipedia: [[:fr:Fichier:Logo_80_somme.jpg]]
 (Nouvelle version (source : site officiel du conseil général http://www.somme.fr/var/storage/original/image/0758ec0bdc9957736625405830bcd84e.jpg))

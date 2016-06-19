@@ -1,2 +1,36 @@
 ech dessin-lo il est din ch'live ''Oeuvres Facétieuses'' , éditeu : Em. Hoyois, (1841).
+<div class="hproduct commons-file-information-table">
+<table class="toccolours vevent fileinfotpl-type-information" style="width: 100%;" cellpadding="4">
+
+<!-- Description -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_desc" class="fileinfo-paramfield">{{int:wm-license-information-description}}<span class="summary fn" style="display:none">{{PAGENAME}}</span></td>
+<td class="description">ech dessin-lo il est din ch'live ''Oeuvres Facétieuses'' , éditeu : Em. Hoyois, (1841).</td>
+</tr>
+
+<!-- Source -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_src" class="fileinfo-paramfield">{{int:wm-license-information-source}}</td>
+<td>éditeu : Em. Hoyois</td>
+</tr>
+
+<!-- Author -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_aut" class="fileinfo-paramfield">{{int:wm-license-information-author}}</td>
+<td>Henri-Delmotte</td>
+</tr>
+
+</table>
+</div>
+
+== {{int:license-header}} ==
+Permission=CC‑BY‑SA‑3.0.
+* licensetpl_short
+*'''cc-by-sa-3.0''' - This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. You are free:
+* to share – to copy, distribute and transmit the work
+* to remix – to adapt the work
+::Under the following conditions:
+* attribution – You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+* share alike – If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
 [[catégorie:Écrivin]]

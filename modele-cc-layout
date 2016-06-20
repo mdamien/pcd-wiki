@@ -1,0 +1,8 @@
+<noinclude>{|</noinclude> style="width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:#f9f9f9; border:2px solid #e0e0e0; padding: 0; border-spacing: 8px;" class="layouttemplate licensetpl mw-content-{{dir|{{{lang|}}}}}" lang="{{{lang|}}}" {{License template tag}}<noinclude>
+| example
+|}
+
+{{heavily used template}}
+{{documentation|template:Style formatting license template/doc}}
+
+</noinclude>

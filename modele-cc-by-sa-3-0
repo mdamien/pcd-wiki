@@ -5,5 +5,4 @@
 }}<includeonly>{{#ifeq:{{NAMESPACE}}|File|{{{category|[[Category:CC-BY-SA-3.0|{{PAGENAME}}]]}}}}}</includeonly><noinclude>
 
 {{In category|CC-BY-SA-3.0}}
-
-[[Catégorie:Modèle]]
+<noinclude>[[Catégorie:Licinces]]</noinclude>

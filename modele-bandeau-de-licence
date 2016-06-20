@@ -1,0 +1,139 @@
+<noinclude>Ce modèle est inclus dans {{m|Bâtiment récent}} et {{m|Fair use monnaie}}. Il permet d'indiquer la licence libre d'une photographie. Si aucune licence n'est indiquée, le message par défaut est : </noinclude>
+<table align="center" class="bandeau-niveau-information bandeau {{#ifeq:{{{commonsmetadata|}}}|non||licensetpl}}" style="width: 80%; background-color: #f8f8ff; border-color: #c0c0ff; padding: 5px;">
+<tr>
+<td align="center" style="margin: 1em">[[{{#switch: {{{1|}}}
+| Art Libre = Image:GreenCopyleft.svg
+| Attribution = Image:Green copyright.svg
+| CC-BY-1.0 = Image:CC-BY icon.svg
+| CC-BY-2.0 = Image:CC-BY icon.svg
+| CC-BY-2.5 = Image:CC-BY icon.svg
+| CC-BY-3.0 = Image:CC-BY icon.svg
+| CC-BY-4.0 = Image:CC-BY icon.svg
+| CC-BY-SA-1.0 = Image:CC-BY-SA icon.svg
+| CC-BY-SA-2.0 = Image:CC-BY-SA icon.svg
+| CC-BY-SA-2.0 FR = Image:CC-BY-SA icon.svg
+| CC-BY-SA-2.5 = Image:CC-BY-SA icon.svg
+| CC-BY-SA-2.5,2.0,1.0 = Image:CC-BY-SA icon.svg
+| CC-BY-SA-3.0 = Image:CC-BY-SA icon.svg
+| CC-BY-SA-3.0,2.5,2.0,1.0 = Image:CC-BY-SA icon.svg
+| CC-BY-SA-4.0 = Image:CC-BY-SA icon.svg
+| CC-BY-SA-4.0,3.0,2.5,2.0,1.0 = Image:CC-BY-SA icon.svg
+| CC-zero = Image:Cc-zero.svg
+| Domaine public perso = Image:PD-icon.svg
+| Domaine public par auteur = Image:PD-icon.svg
+| PD-1923 | PD-old-100 | Domaine public expiré = Image:PD-icon.svg
+| GFDL = Image:Heckert GNU white.svg
+| GPL = Image:Heckert GNU white.svg
+| Image:Icon no license.svg
+}}|64px|Icône de licence]]{{#ifeq:{{{commonsmetadata|}}}|non||<div class="licensetpl_short" style="display:none;">{{{1|}}}</div>}}</td>
+<td style="margin: 1em; padding: 1em;">{{#switch: {{{1|}}}
+| Art Libre = 
+;Art Libre
+Copyleft : cette photographie est libre, vous pouvez la redistribuer et/ou la modifier selon les termes de la '''[[licence Art Libre]]'''. Vous trouverez un exemplaire de cette Licence sur le site Copyleft Attitude http://www.artlibre.org ainsi que sur d'autres sites.
+
+| Attribution = 
+;Attribution
+Le détenteur du [[copyright]] de ce fichier autorise n’importe qui à l’utiliser '''pour n’importe quelle utilisation, pourvu que le détenteur du copyright soit correctement attribué'''. La redistribution, les travaux dérivés, l’utilisation commerciale et toutes les autres utilisations sont autorisés.
+
+| CC-BY-1.0 = 
+;Licence Creative Commons « Paternité »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by/1.0/deed.fr ''Paternité'' v.&nbsp;1.0] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑1.0 ».
+
+| CC-BY-2.0 = 
+;Licence Creative Commons « Paternité »
+Les droits de l'image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by/2.0/deed.fr ''Paternité'' v.&nbsp;2.0] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑2.0 ».
+
+| CC-BY-2.5 = 
+;Licence Creative Commons « Paternité »
+Les droits de l'image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by/2.5/deed.fr ''Paternité'' v.&nbsp;2.5] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑2.5 ».
+
+| CC-BY-3.0 = 
+;Licence Creative Commons « Paternité »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by/3.0/deed.fr ''Paternité 3.0 Unported''] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑3.0 ».
+
+| CC-BY-4.0 = 
+;Licence Creative Commons « Paternité »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [https://creativecommons.org/licenses/by/4.0/deed.fr ''Paternité 4.0 International''] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑4.0 ».
+
+| CC-BY-SA-1.0 = 
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by-sa/1.0/deed.fr ''Paternité – Partage des conditions initiales à l’identique'' v. 1.0] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑SA ».
+
+| CC-BY-SA-2.0 = 
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by-sa/2.0/deed.fr ''Paternité – Partage des conditions initiales à l’identique 2.0 Générique''] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑SA‑2.0 ».
+
+| CC-BY-SA-2.0 FR = 
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by-sa/2.0/fr/ ''Paternité – Partage des conditions initiales à l’identique France v.&nbsp;2.0''] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑SA‑2.0 FR ».
+
+| CC-BY-SA-2.5 = 
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits du fichier ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by-sa/2.5/deed.fr ''Paternité – Partage des conditions initiales à l'identique'' v.&nbsp;2.5] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑SA‑2.5 ».
+
+| CC-BY-SA-2.5,2.0,1.0 = 
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément les versions [http://creativecommons.org/licenses/by-sa/2.5/deed.fr 2.5], [http://creativecommons.org/licenses/by-sa/2.0/deed.fr 2.0] et [http://creativecommons.org/licenses/by-sa/1.0/deed.fr 1.0] (Paternité – Partage des conditions initiales à l’identique) de [[Creative Commons]], plus connues sous le nom de « CC‑BY‑SA ».
+
+| CC-BY-SA-3.0 = 
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [http://creativecommons.org/licenses/by-sa/3.0/deed.fr ''Paternité - Partage des Conditions Initiales à l'Identique 3.0 Unported''] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑SA‑3.0 ».
+
+| CC-BY-SA-3.0,2.5,2.0,1.0 = 
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément les versions [http://creativecommons.org/licenses/by-sa/3.0/deed.fr 3.0], [http://creativecommons.org/licenses/by-sa/2.5/deed.fr 2.5], [http://creativecommons.org/licenses/by-sa/2.0/deed.fr 2.0] et [http://creativecommons.org/licenses/by-sa/1.0/deed.fr 1.0] (Paternité – Partage des conditions initiales à l’identique) de [[Creative Commons]], plus connues sous le nom de « CC‑BY‑SA ».
+
+| CC-BY-SA-4.0 = 
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément par la licence [https://creativecommons.org/licenses/by-sa/4.0/deed.fr ''Paternité - Partage des Conditions Initiales à l'Identique 4.0 International''] de [[Creative Commons]], plus connue sous le nom de « CC‑BY‑SA‑4.0 ».
+
+| CC-BY-SA-4.0,3.0,2.5,2.0,1.0 =
+;Licence Creative Commons « Paternité – Partage des conditions initiales à l’identique »
+Les droits de l’image ci-avant sont régis par une '''[[licence Creative Commons]]''', et plus précisément les versions [https://creativecommons.org/licenses/by-sa/4.0/deed.fr 4.0 International], [http://creativecommons.org/licenses/by-sa/3.0/deed.fr 3.0 Unported], [http://creativecommons.org/licenses/by-sa/2.5/deed.fr 2.5 Generic], [http://creativecommons.org/licenses/by-sa/2.0/deed.fr 2.0 Generic] et [http://creativecommons.org/licenses/by-sa/1.0/deed.fr 1.0 Generic] (Paternité – Partage des conditions initiales à l’identique) de [[Creative Commons]], plus connues sous le nom de « CC‑BY‑SA ».
+
+| CC-zero =
+;Licence Creative Commons CC0 don universel au domaine public
+Ce fichier est disponible selon les termes de la [[Creative Commons|licence Creative Commons]] [http://creativecommons.org/publicdomain/zero/1.0/deed.fr CC0 don universel au domaine public]. La personne qui a associé une œuvre avec cet acte l’a placée dans le [[Domaine public (propriété intellectuelle)|domaine public]] en renonçant mondialement à tous ses droits sur cette œuvre en vertu des lois relatives au droit d’auteur, ainsi qu’à tous les droits juridiques connexes et voisins qu’elle possédait sur l’œuvre, sans autre limite que celles imposées par la loi. Vous pouvez copier, modifier, distribuer et utiliser cette œuvre, y compris à des fins commerciales, sans qu’il soit nécessaire d’en demander la permission. 
+
+| Domaine public perso = 
+;Domaine public
+« Moi, le créateur de cette photographie, la place ici dans le '''[[Domaine public (propriété intellectuelle)|domaine public]]'''. Cela vaut pour tous les pays. » <br />
+<small>Si cela n'est pas légalement possible :</small> <br />
+« Moi, le créateur de cette photographie, accorde à quiconque le droit de l'utiliser, de la modifier et de la diffuser ''pour tout usage'', sans condition, sauf celles requises par la loi. »
+
+| Domaine public par auteur = 
+;Domaine public
+Cette photographie a été — ou est ici-même — placée dans le '''[[Domaine public (propriété intellectuelle)|domaine public]]''' par son créateur, {{{auteur}}}. Cela vaut pour tous les pays. <br />
+<small>Si cela n'est pas légalement possible :</small> <br />
+Le créateur de cette photographie, {{{auteur}}}, accorde à quiconque le droit de l'utiliser, de la modifier et de la diffuser ''pour tout usage'', sans condition, sauf celles requises par la loi.
+
+| PD-1923 | PD-old-100 | Domaine public expiré = 
+;Domaine public
+Cette photographie se trouve dans le '''[[Domaine public (propriété intellectuelle)|domaine public]]''' car son copyright a expiré. Ceci est valable dans l'Union Européenne ainsi que dans les autres pays où les droits d'auteur s'éteignent au plus tard '''70 ans après la mort de l'auteur'''.
+
+| GFDL = 
+;GFDL
+Vous avez la permission de copier, distribuer et/ou modifier ce document selon les termes de la '''[[licence de documentation libre GNU]]''', [https://www.gnu.org/licenses/fdl-1.2.html version 1.2] ou plus récente publiée par la [[Free Software Foundation]] ; sans sections inaltérables, sans texte de première page de couverture et sans texte de dernière page de couverture.
+
+| GPL = 
+;GPL
+Ce document est un [[logiciel libre]] : vous pouvez le redistribuer et/ou le modifier selon les termes de la '''[[licence publique générale GNU]]''', tels que publiés par la [[Free Software Foundation]] ; soit la [http://www.gnu.org/licenses/old-licenses/gpl-2.0.html version 2] de cette licence ou (à votre choix) toute version ultérieure. Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE, ni explicite ni implicite ; sans même les garanties de commercialisabilité ou d'adaptation à un but spécifique. Se référer à la [http://www.gnu.org/copyleft/gpl.html GNU General Public License] pour plus de détails.
+
+| =
+;La licence libre concernant la prise de la photo doit être précisée.
+Ce fichier ne dispose d'aucune information concernant son [[Wikipédia:Droit d'auteur|droit d'auteur]]. '''En l'absence de précisions supplémentaires, il pourra être supprimé.''' <br />
+Vous devez définir ici-même '''[[Aide:Licences|la licence compatible avec Wikipédia]]''' que vous avez choisie dans la [[Aide:Listes de modèles pour images#Licences|liste des licences]] en utilisant la syntaxe :
+* pour les bâtiments récents : <code><nowiki>{{Bâtiment récent |</nowiki> [[Modèle:Bandeau de licence|licence]]<nowiki>}}</nowiki></code> ;
+* pour les monnaies : <code><nowiki>{{Fair use monnaie |</nowiki> [[Modèle:Bandeau de licence|licence]]<nowiki>}}</nowiki></code>.
+{{#ifeq:{{NAMESPACE}}|{{ns:6}}|[[Catégorie:Maintenance des fichiers]]|}}
+
+| #default =
+;<span class="error">Licence invalide : "{{{1|}}}"</span>
+Les licences acceptées sont : Art Libre, Attribution, CC-BY-1.0, CC-BY-2.0, CC-BY-2.5, CC-BY-3.0, CC-BY-4.0, CC-BY-SA-1.0, CC-BY-SA-2.0, CC-BY-SA-2.0 FR, CC-BY-SA-2.5, CC-BY-SA-2.5,2.0,1.0, CC-BY-SA-3.0, CC-BY-SA-3.0,2.5,2.0,1.0, CC-BY-SA-4.0, CC-BY-SA-4.0,3.0,2.5,2.0,1.0, CC-zero, Domaine public perso, Domaine public par auteur, Domaine public expiré, GFDL, GPL.<br>
+'''En l'absence d'une indication de licence valide, ce fichier pourra être supprimé.'''
+{{#ifeq:{{NAMESPACE}}|{{ns:6}}|[[Catégorie:Maintenance des fichiers]]|}}
+
+}}</td>
+</tr>
+</table>
+<noinclude><!--{{Documentation}}--></noinclude>

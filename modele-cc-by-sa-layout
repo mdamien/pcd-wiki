@@ -1,0 +1,20 @@
+<includeonly>{| {{CC-Layout|lang={{int:lang}}}} 
+| style="width:90px;" rowspan="3" | [[Image:CC some rights reserved.svg|90px|link=|[[{{int:wm-license-cc-wiki-link}}]]]]<br>[[Image:Cc-by new white.svg|24px|link=|{{int:wm-license-cc-conditions-attribution-header}}]] [[File:Cc-sa white.svg|24px|link=|{{int:wm-license-cc-conditions-share_alike-header}}]]
+| lang="{{int:lang}}" | {{int:wm-license-cc-by-sa-{{{version|}}}{{#if:{{{country|}}}|-{{{country|}}}}}-text}}
+| style="width:90px;" rowspan="3" | {{#if:{{{country|}}} | [[{{Cc-country-flags|{{{country|}}}}}|90px|border|link=|right]] }}
+|- style="text-align:center;"
+| {{#if:{{{attribution|}}}| '''{{int:wm-license-cc-attribution|}}: <span style="font-size: larger;" class="licensetpl_attr">{{{attribution|}}}</span>''' }}
+|- style="text-align:{{#ifeq:{{Dir|{{int:lang}}}}|ltr|left|right}};" lang="{{int:lang}}"
+|
+:{{int:wm-license-cc-free}}
+:*'''{{int:wm-license-cc-free-to-share-header}}''' – {{int:wm-license-cc-free-to-share-text}}
+:*'''{{int:wm-license-cc-free-to-remix-header}}''' – {{int:wm-license-cc-free-to-remix-text}}
+:{{int:wm-license-cc-conditions}}
+:*'''{{int:wm-license-cc-conditions-attribution-header}}''' – {{int:wm-license-cc-conditions-attribution-text}}
+:*'''{{int:wm-license-cc-conditions-share_alike-header}}''' – {{int:wm-license-cc-conditions-share_alike-text}}
+<span class="licensetpl_link" style="display:none;"><nowiki>http://</nowiki>creativecommons.org/licenses/by-sa/{{#ifeq: {{{version}}} | 3.0-2.5-2.0-1.0 | 3.0 | {{{version}}} }}{{#if:{{{country|}}}|/{{{country}}}/deed.en}}
+</span><span class="licensetpl_short" style="display:none;">CC BY-SA {{#ifeq: {{{version}}} | 3.0-2.5-2.0-1.0 | 3.0 | {{{version}}} }} {{{country|}}}
+</span><span class="licensetpl_long" style="display:none;">Creative Commons Attribution-Share Alike {{#ifeq: {{{version}}} | 3.0-2.5-2.0-1.0 | 3.0 | {{{version}}} }} {{{country|}}}
+</span><span class="licensetpl_link_req" style="display:none;">true</span><span class="licensetpl_attr_req" style="display:none;">true</span>
+|}</includeonly><noinclude>
+{{heavily used template}}

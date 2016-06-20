@@ -1,0 +1,6 @@
+<noinclude>{{heavily used template}}</noinclude>{{#switch:{{{1}}}|ar|arc|arz|azb|bcc|ckb|bqi|dv|fa|glk|he|kk-arab|kk-cn|ks|ku-arab|mzn|pnb|ps|sd|ug|ur|ydd|yi={{{2|rtl}}}|{{{3|ltr}}}}}<noinclude>
+{{documentation}}
+
+[[Category:Internationalization templates|{{PAGENAME}}]]
+[[Category:Function templates|{{PAGENAME}}]]
+</noinclude>

@@ -1,0 +1,30 @@
+{{Icône de titre|id=batiment-recent|lien=Droit d'auteur|texte=Cette illustration montre une œuvre architecturale récente, sur laquelle l’architecte ou ses ayant-droits peuvent exercer leur droit d'auteur. |image=Red copyright.svg|taille=32}}
+<table align="center" class="bandeau-niveau-information bandeau licensetpl" style="width: 80%; background-color: #ffe8bf; border-color: #e7bb6f; padding: 5px;">
+<tr>
+<td align="center" style="margin: 1em">[[Image:Red copyright.svg|64px|Copyright – utilisation restreinte]] [[Image:Crystal Clear app home.png|48px|Bâtiment récent]]<div class="licensetpl_short" style="display:none;">Image non libre</div></td>
+<td style="margin: 1em; padding: 1em">
+Cette illustration montre un '''bâtiment protégé par le droit d'auteur'''. L'auteur ou l'architecte possède des [[Droit d'auteur|droits]] sur cette image, droits garantis par la [[convention de Berne pour la protection des œuvres littéraires et artistiques|convention de Berne]], article 2, 1°. Dans certains pays n'acceptant pas la [[liberté de panorama]] (comme la [[France]] ou la [[Belgique]] *), la diffusion de cette œuvre est probablement illégale. <br />Son utilisation sur Wikipédia est actuellement tolérée comme « exception au droit d'auteur » conformément aux votes de la communauté [[Wikipédia:Prise de décision/Exceptions à l'interdiction du fair-use|de 2006]] et [[Wikipédia:Prise de décision/Remise en cause de l'exception au droit d'auteur sur les bâtiments récents|de 2011]]. Selon les [[Wikipédia:Exceptions au droit d'auteur#Exceptions|dispositions de Wikipédia]] :
+{{citation bloc|L'importation sur la Wikipédia francophone de photographies libres de bâtiments récents est tolérée. Cependant, l'importation est interdite dans les cas où les ayants droit ont explicitement exprimé leur opposition.}}
+
+{{#ifeq:{{{mort|{{{mort de l'architecte|}}}}}}|non| |{{#if:{{{mort|{{{mort de l'architecte|}}}}}}|Le droit d'auteur de l'architecte sur cette œuvre expire le {{1er}} janvier {{#expr:{{{mort|{{{mort de l'architecte|}}}}}}+71}}.|}}}}
+
+<small><nowiki>*</nowiki> [[:commons:Commons:Freedom of panorama/fr|Il est possible de vérifier ici les politiques de liberté de panorama pays par pays.]] Si vous êtes titulaire des droits sur cette image et que vous souhaitez qu'elle soit retirée, [[Wikipédia:Contact/Copyvio|contactez-nous]].</small>
+</td>
+</tr>
+</table>
+
+{{#if:{{{1|}}}|<center>'''''La photographie est publiée sous {{#if:{{{2|}}}|les licences suivantes|la licence suivante}} :'''''</center>}}
+{{Bandeau de licence|{{{1|}}}|auteur={{{auteur}}}|commonsmetadata=non}} {{#if:{{{1|}}}|[[Catégorie:Image de bâtiment récent {{{1|}}}]]| }}<!--
+-->{{#if:{{{2|}}}|{{Bandeau de licence|{{{2|}}}}} [[Catégorie:Image de bâtiment récent {{{2|}}}]]| }}<!--
+-->{{#if:{{{3|}}}|{{Bandeau de licence|{{{3|}}}}} [[Catégorie:Image de bâtiment récent {{{3|}}}]]| }}<!--
+-->{{#if:{{{4|}}}|{{Bandeau de licence|{{{4|}}}}} [[Catégorie:Image de bâtiment récent {{{4|}}}]]| }}<!--
+-->
+<table class="bandeau-niveau-information bandeau" style="width: 80%; background-color: #ff8888; border-color: #8888aa; text-align: center;">
+<tr>
+<td>[[Image:To Commons Bin.svg|80px|None]]</td>
+<td align="center">'''''Attention :''''' '''Un fichier avec ce bandeau ''ne peut pas'' être transféré sur [[Wikimedia Commons]]''' car la politique sur les copyrights de Commons est plus restrictive. Le fichier y serait donc supprimé.</td>
+</tr>
+</table>
+
+{{#ifeq:{{NAMESPACE}}|{{ns:6}}|[[Catégorie:Wikipédia:Exceptions au droit d'auteur]][[Catégorie:Image non libre de bâtiment récent]] {{#ifeq:{{{mort|{{{mort de l'architecte|}}}}}}|non|[[Catégorie:Œuvre architecturale dont l'architecte est vivant]]|{{#if:{{{mort|{{{mort de l'architecte|}}}}}}|[[Catégorie:Œuvre architecturale dans le domaine public en {{#expr:{{{mort|{{{mort de l'architecte}}}}}}+71}}]]|[[Catégorie:Œuvre architecturale dont les droits d'auteur sont inconnus‎]]}}}}|}}
+<noinclude>{{Documentation}}</noinclude>

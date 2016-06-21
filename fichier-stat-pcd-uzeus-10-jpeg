@@ -1,6 +1,30 @@
-éstatistiques treuvées édseur http://stats.wikimedia.org/EN/ChartsWikipediaPCD.htm - nombe d'uzeus aveuc 10 édichons pi plus dseur ch'wikipédia picard
-{{cc-by-sa-4.0}}
+<div class="hproduct commons-file-information-table">
+<table class="toccolours vevent fileinfotpl-type-information" style="width: 100%;" cellpadding="4">
 
-== Now commons ==
+<!-- Description -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_desc" class="fileinfo-paramfield">{{int:wm-license-information-description}}<span class="summary fn" style="display:none">{{PAGENAME}}</span></td>
+<td class="description">'''Picard :''' éstatistiques : nombe d'uzeus aveuc 10 édichons pi plus dseur ch'wikipédia picard.</td>
+</tr>
 
-{{NowCommons}}
+<!-- Source -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_src" class="fileinfo-paramfield">{{int:wm-license-information-source}}</td>
+<td>http://stats.wikimedia.org/EN/ChartsWikipediaPCD.htm
+</td>
+</tr>
+
+<!-- Author -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_aut" class="fileinfo-paramfield">{{int:wm-license-information-author}}</td>
+<td>Borgoboca/td>
+</tr>
+
+</table>
+</div>
+
+
+
+== {{int:license-header}} ==
+{{cc-by-sa-3.0}}
+[[catégorie:Wikipédia]]

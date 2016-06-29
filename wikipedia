@@ -2,7 +2,21 @@
 '''Wikipédia''', el libe inciclopédie.
 
 == Ech Wikipédia picard - éstatistiques ==
+
+<center>
+{| class="wikitable" style="text-align:center"
+|+ '''Éstatistikes deul wikipèdia in picard'''
+|-
+! Uzeus !! Uzeus ouvreus !! Artikes !! Paches!!Administrateus !! Burocrates
+|-
+| {{NUMBEROFUSERS}} || {{NUMBEROFACTIVEUSERS}} || {{NUMBEROFARTICLES}} || {{NUMBEROFPAGES}} || {{NUMBEROFADMINS}} ||{{NUMBERINGROUP:bureaucrat}}
+|}
+</center>
+
+
 * vir http://stats.wikimedia.org/EN/SummaryPCD.htm
+
+== Histoére deul wikipédia ==
 
 * '''Moai 201'''2 = 
 ::Paches vues pèr moés = 	'''170 575 paches'''

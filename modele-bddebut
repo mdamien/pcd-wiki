@@ -1,0 +1,6 @@
+<includeonly><div style="clear:both" class="NavFrame" title="{{{dérouler|[ Dérouler ]}}}/{{{enrouler|[ Enrouler ]}}}">
+<div class="NavHead" align="{{{alignT|center}}}" style="background-color:{{{couleur|}}}">{{{titre|{{{1|}}}}}}</div>
+<div class="NavContent" align="{{{align|left}}}" {{#ifeq:{{{visible}}}|oui|style="display:block"}}></includeonly><noinclude></div></div>
+<!--{{Documentation}}-->
+[[Catégorie:Modèle]]
+</noinclude>

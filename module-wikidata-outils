@@ -1,0 +1,228 @@
+--Fonctions élémentaires de gestion des snaks Wikidata
+local p = {}
+p.i18n = require "Module:Wikidata/I18n"
+local defaultlang = mw.getContentLanguage():getCode()
+
+function p.translate(str, rep1, rep2)
+	str = p.i18n[str] or str
+	if rep1 then
+		str = str:gsub('$1', rep1)
+	end
+	if rep2 then
+		str = str:gsub('$2', rep2)
+	end
+	return str
+end
+
+function p.snaktype(snak)
+	return snak.snaktype
+end
+	
+function p.isSpecial(snak)
+	return (snak.snaktype ~= 'value')
+end
+
+function p.isValue(snak)
+	return (snak.snaktype == 'value')
+end
+
+function p.getId(snak)
+	if p.isValue(snak) then
+		return 'Q' .. snak.datavalue.value['numeric-id']
+	end
+end
+
+function p.getNumericId(snak)
+	if p.isValue(snak) then
+		return snak.datavalue.value['numeric-id']
+	end
+end
+
+function p.getMainId(claim)
+	return p.getId(claim.mainsnak)
+end
+
+function p.EntityId(entity)
+	if type(entity) == 'string' then
+		return entity
+	end
+	return entity.id
+end
+
+function p.getValue(snak)
+	return snak.datavalue.value
+end
+
+function p.formatError( key )
+    return error(p.i18n[key] or key)
+end
+
+function p.addcat(cat, sortkey)
+	if sortkey then
+		return  '[[Category:' .. cat .. '|' .. (sortkey or '') .. ']]'
+	end
+	return '[[Category:' .. cat  .. ']]'
+end
+
+function p.getEntity( val ) 
+	if type(val) == 'table' then
+		return val
+	end
+	if val == '-' then
+		return nil
+	end
+	if val == '' then
+		val = nil
+	end
+	return mw.wikibase.getEntityObject(val)
+end
+
+function p.splitStr(val) -- transforme en table les chaînes venant du Wikitexte qui utilisent des virgules de séparatin
+	if type(val) == 'string' then
+		val = mw.text.split(val, ",")
+	end
+	return val
+end
+
+function p.isHere(searchset, val)
+	for i, j in pairs(searchset) do
+		if val == j then
+			return true
+		end
+	end
+	return false
+end
+
+function p.alreadyHere(searchset, val) -- obsolète
+	return p.isHere(searchset, val)
+end
+
+function p.getEntityPagename(entity)
+	if (not entity) then
+		return nil -- ou option de gestion des erreurs ?
+	end
+	local name ="d:"
+	if entity["type"] == "property" then
+		name = "d:Property:"
+	end
+	return name .. entity.id
+end
+
+function p.getEntityPagename(entity)
+	if (not entity) then
+		return nil -- ou option de gestion des erreurs ?
+	end
+	local name ="d:"
+	if entity["type"] == "property" then
+		name = "d:Property:"
+	end
+	return name .. entity.id
+end
+
+local function wikidataLink(entity)
+	local name =':d:'
+	
+	if type(entity) == 'string' then
+		if entity:match("P[0-9+]") then
+			entity = "Property:" .. entity
+		end
+		return name .. entity
+	elseif type(entity) == 'table' then
+		if entity["type"] == "property" then
+			name = ":d:Property:"
+		end
+		return name .. entity.id
+	elseif type(entity) == nil then
+		return formatError('entity-not-found')
+	end
+end
+
+function p.siteLink(entity, project, lang)
+	-- returns 3 values: a sitelink (with the relevant prefix) a project name and a language
+	lang = lang or defaultlang
+	if (type(project) ~= 'string') then
+		project = 'wiki'
+	end
+	project = project:lower()
+	if project == 'wikipedia' then
+		project = 'wiki'
+	end
+	if type(entity) == 'string' and (project == 'wiki') and ( (not lang or lang == defaultlang) ) then -- évite de charger l'élément entier
+		return  mw.wikibase.sitelink(entity), 'wiki', defaultlang
+	end
+	if project == 'wikidata' then
+		return wikidataLink(entity), 'wikidata'
+	end
+	local projects = {
+		-- nom = {préfixe sur Wikidata, préfix pour les liens sur Wikipédia, ajouter préfixe de langue}
+		wiki = {'wiki', nil, true}, -- wikipedia
+		commons = {'commonswiki', 'commons', false},
+		commonswiki = {'commonswiki', 'commons', false},
+		wikiquote = {'wikiquote', 'q', true},
+		wikivoyage = {'wikivoyage', 'voy', true},
+		wikibooks = {'wikibooks', 'b', true},
+		wikinews = {'wikinews', 'n', true},
+		wikiversity = {'wikiversity', 'v', true},
+		wikisource = {'wikisource', 's', true},
+		-- meta
+		-- mediawiki
+	}
+
+	entity = p.getEntity(entity)
+	if not entity then
+		return nil
+	end
+
+	local projectdata = projects[project:lower()]
+	if not projectdata then -- sinon, on peut avoir des liens du type "enwiki" plutôt que "en" et lang = "wikipedia'
+		for k, v in pairs(projects) do
+			if project:match( k .. '$' ) 
+				and mw.language.isKnownLanguageTag(project:sub(1, #project-#k))
+			then
+				lang = project:sub(1, #project-#k)
+				projectdata = k
+				break
+			end
+		end
+		if not mw.language.isKnownLanguageTag(lang) then
+			return p.formatError('invalid project code: ' .. (project or '?'))
+		end
+	end
+	if not projectdata then
+		return p.formatError('invalid project code: ' .. (project or '?'))
+	end
+	
+	local linkcode = projectdata[1]
+	local prefix = projectdata[2]
+	local multiversion = projectdata[3]
+	if multiversion then
+		linkcode = lang .. linkcode
+	end
+	local link = entity:getSitelink(linkcode)
+	if not link then
+		return nil
+	end
+	
+	if prefix then
+		link = prefix .. ':' .. link
+	end
+	if multiversion then
+		link = ':' .. lang .. ':' .. link
+	end
+	return link, project, lang
+end
+
+-- add new values to a list, avoiding duplicates
+function p.addnewvalues(old, new)
+	if not new then
+		return old
+	end
+	for _, j in pairs(new) do
+		if not p.isHere(old, j) then
+			table.insert(old, j)
+		end
+	end
+	return old
+end
+
+return p

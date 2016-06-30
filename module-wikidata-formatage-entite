@@ -1,0 +1,131 @@
+local p = {}
+local defaultlang = mw.getContentLanguage():getCode()
+local tools = require 'Module:Wikidata/Outils'
+local getClaims = require "Module:Wikidata/Récup".getClaims
+local i18n = tools.i18n
+
+local formatError = tools.formatError
+
+
+function p.getLabel(entity, lang, labelformat)
+	if (not entity) then
+		return nil -- ou option de gestion des erreurs ?
+	end
+
+	lang = lang or defaultlang
+
+	if type(labelformat) == 'function' then
+		return labelformat(entity)
+	end
+	
+	if (type(entity) == 'string') and (lang == defaultlang) then -- le plus économique
+		return mw.wikibase.label(entity)
+	end
+
+	if type(entity) == 'string' then
+		entity = mw.wikibase.getEntityObject(entity)
+	end
+	
+	if entity.labels and entity.labels[lang] then
+		return entity.labels[lang].value, true
+	end
+end
+
+function p.formatEntity( entity, params )
+
+	if (not entity) then
+		return nil --formatError('entity-not-found')
+	end
+	local id = entity
+	if type(id) == 'table' then
+		id = id.id
+	end
+
+	params = params or {}
+	local lang = params.lang or defaultlang
+	local speciallabels = params.speciallabels
+	local displayformat = params.displayformat
+	local labelformat = params.labelformat
+	local defaultlabel = params.defaultlabel or id
+	local linktype = params.link
+	local defaultlinktype = params.defaultlink
+	local defaultlinkquery = params.defaultlinkquery
+
+	if speciallabels and speciallabels[id] then --speciallabels override the standard label + link combination
+		return speciallabels[id]
+	end
+	if params.displayformat == 'raw' then
+		return id
+	end
+
+	local link, label
+	local str = '' -- l'intégralité du text à retourner	
+	
+	
+	label = p.getLabel(entity, lang, labelformat)
+
+	if not label then
+		if (defaultlabel == '-') then 
+			return nil
+		end
+		link = tools.siteLink(id, 'wikidata')
+		return str .. '[[' .. link .. '|' .. id .. ']]' .. tools.addcat(i18n['to translate'])
+-- si pas de libellé, on met un lien vers Wikidata pour qu'on comprenne à quoi ça fait référence
+	end
+
+	if (linktype == '-') then
+		return str .. label
+	end
+
+	local link	= tools.siteLink(entity, linktype, lang)
+	if (not link) and defaultlinkquery then
+		defaultlinkquery.excludespecial = true
+		defaultlinkquery.entity = entity
+		local claims = getClaims(defaultlinkquery)
+		if claims then
+			for i, j in pairs(claims) do
+				local id = tools.getMainId(j)
+				link = tools.siteLink(id, linktype, lang)
+				if link then
+					break
+				end
+			end
+		end	
+	end
+	
+	if link then
+		return str .. '[[' .. link .. '|' .. label .. ']]'
+	end
+	
+	if (defaultlinktype ~= '-') then
+		local linktype
+		local sidelink, site, langcode
+		if defaultlinktype then
+			sidelink, site, langcode = tools.siteLink(entity, linktype, lang)
+		else
+			sidelink, site, langcode = tools.siteLink(entity, 'wiki', 'en')
+		end
+		if not sidelink then
+			sidelink, site = tools.siteLink(entity, 'wikidata')
+		end
+		
+		local icon, class, title = site, nil, nil -- le texte affiché du lien
+		if site == 'wiki' then
+			icon, class, title = langcode, "indicateur-langue", tools.translate('see-another-language', mw.language.fetchLanguageName(langcode, defaultlang))	
+		elseif site == 'wikidata' then
+			icon, class, title = 'd',  "indicateur-langue", tools.translate('see-wikidata')		
+		else
+			title = tools.translate('see-another-project', site)
+		end
+		local val = '[[' .. sidelink .. '|' .. '<span class = "' .. (class or '').. '" title = "' .. (title or '') .. '">' .. icon .. '</span>]]'
+		return str  .. label .. '<small>&nbsp;(' .. val .. ')</small>'
+	end 
+	return str .. label
+end
+
+-- Fonction dépréciée
+function p.getLink(entity, linktype, lang)
+	return tools.siteLink(entity, linktype, lang)
+end
+
+return p

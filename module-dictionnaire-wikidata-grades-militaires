@@ -1,0 +1,58 @@
+return {
+ 	               -- Allemagne (marines militaires), parfois aussi la marine austro-hongroise
+	Q22814748 = "<i>[[Korvettenkapitän]]</i>",
+	Q22815070 = "<i>[[Fregattenkapitän]]</i>",
+	Q17113189 = "<i>[[Kapitän zur See]]</i>", 
+	Q17068369 = "<i>[[Kommodore]]</i>",
+	Q23023995 = "<i>[[Konteradmiral]]</i>",
+	Q19254761 = "<i>[[Vizeadmiral]]</i>",
+	Q23011769 = "<i>[[Flottillenadmiral]]</i>",
+ 	Q4683633 = "<i>[[Admiral (Allemagne)|Admiral]]</i>",
+ 	Q161546 = "<i>[[Großadmiral]]</i>",
+ 	               -- Allemagne (armée de terre)
+ 	Q3756713 = "<i>[[Oberst (Allemagne)|Oberst]]</i>",
+ 	               -- Australie (Royal Australian Navy)
+ 	Q4683733 = "<i>[[Admiral of the fleet (Australie)|Admiral of the fleet]]</i>",
+ 	               -- Australie (Royal Australian Army)	
+ 	Q5531645 = "<i>[[General (Australie)|General]]</i>",
+ 	      	       -- Etats-Unis (marines militaires)
+ 	Q3983433 = "<i>[[Lieutenant commander (États-Unis)|Lieutenant commander]]</i>",
+ 	Q13543682 = "<i>[[Commander (États-Unis)|Commander]]</i>",
+ 	Q7925090 = "<i>[[Vice admiral (États-Unis)|Vice admiral]]</i>",
+	Q4057849 = "<i>[[Admiral (États-Unis)|Admiral]]</i>",
+	               -- Italie (marine militare)
+	Q23055884 = "<i>[[Capitano di corvetta]]</i>",
+	Q12793380 = "<i>[[Capitano di fregata]]</i>",
+	Q12793386 = "<i>[[Capitano di vascello]]</i>",
+	Q23647846 = "<i>[[Contrammiraglio]]</i>",
+	Q23639363 = "<i>[[Ammiraglio di divisione]]</i>",
+	Q23058551 = "<i>[[Ammiraglio di squadra]]</i>",
+	Q3614448 = "<i>[[Ammiraglio d'armata]]</i>",
+ 	               -- Royaume-Uni (Royal Navy)
+ 	Q5036514 = "<i>[[Captain (Royal Navy)|Captain]]</i>",
+	Q5257199 = "<i>[[Commodore (Royal Navy)|Commodore]]</i>",
+	Q15615347 = "<i>[[Rear admiral (Royal Navy)|Rear admiral]]</i>",
+	Q4902790 = "<i>[[Vice admiral (Royal Navy)|Vice admiral]]</i>",
+	Q2916006 = "<i>[[Admiral (Royal Navy)|Admiral]]</i>",
+	Q2501631 = "<i>[[Admiral of the fleet (Royal Navy)|Admiral of the fleet]]</i>",
+ 	                -- Royaume-Uni (Royal Air Force)
+	Q3106078 = "<i>[[Air vice-marshal]]</i>",
+	Q407517 = "<i>[[Air marshal]]</i>",
+	Q2828191 = "<i>[[Air Chief Marshal]]</i>",
+ 	Q2452755 = "<i>[[Marshal of the Royal Air Force]]</i>",
+ 	 	            -- Royaume-Uni (Army)
+	Q2501631 = "<i>[[Field marshal (Royaume-Uni)|Field marshal]]</i>",
+ 	                -- Russie et URSS (marine)
+ 	Q23021506 = "<i>[[Kapitan-leïtenant]]</i>",     
+ 	Q23021487 = "<i>[[Kapitan 3-go ranga]]</i>",
+ 	Q23020967 = "<i>[[Kapitan 2-go ranga]]</i>",
+ 	Q23021092 = "<i>[[Kapitan 1-go ranga]]</i>",     
+	Q23022368 = "<i>[[Kontr-admiral]]</i>",
+	Q23023949 = "<i>[[Vitse-admiral]]</i>",
+	Q23024093 = "<i>[[Admiral (Russie)|Admiral]]</i>",
+	Q5765236 = "<i>[[Admiral flota (Russie)|Admiral flota]]</i>",
+	Q21824635= "<i>[[Admiral flota]]</i>",
+	       -- Autres à trier
+	Q11141137 = "<i>[[Midshipman]]</i>",
+
+}

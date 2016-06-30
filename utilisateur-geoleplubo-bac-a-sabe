@@ -625,6 +625,9 @@ L'invariance de l'hamiltonien d'un système sous un groupe continu de transforma
 
 
 {{BDdebut|titre=Boite à outils TeX}}
+essai BD
+{{BDfin}}
+
 {{Boîte déroulante|titre=Boite à outils TeX|contenu=
 * forcer le PNG, quel que soit le mode choisi : <code>\,\!</code> (petit espace et espace négatif)
 * ensembles : <code>\mathbb{...}</code> exemple : <math>\mathbb{R}</math>
@@ -640,7 +643,8 @@ L'invariance de l'hamiltonien d'un système sous un groupe continu de transforma
 * limites : <code>\lim_{x \to +\infty} f(x)</code> donne <math>\lim_{x \to +\infty} f(x)</math>
 * taille petite : <code>\scriptstyle{instructions}</code>}}
 * avec <nowiki><math display="inline"></nowiki>, on peut écrire : <math display="inline">df=\frac{\partial f}{\partial x_1}dx_1 + ... +\frac{\partial f}{\partial x_n}dx_n</math> dans le texte sinon on aurait <math>df=\frac{\partial f}{\partial x_1}dx_1 + ... +\frac{\partial f}{\partial x_n}dx_n</math> en plus grand.
-{{BDfin}}
+}}
+
 
 ; egzimpes
 Si on reporte l'expression du vecteur vitesse dans la définition du moment cinétique en <math>O</math> on obtient <math>\vec{\sigma}_O = \overrightarrow{OM} \wedge m \left( \vec{\Omega} \wedge \overrightarrow{OM} \right)</math> ou encore <math>\vec{\sigma}_O = m \left[ \overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) \right]</math> et, en utilisant la formule du [[double produit vectoriel]] <math>\vec{A} \wedge \left( \vec{B} \wedge \vec{C} \right) = \left( \vec{A} \cdot \vec{C} \right) \vec{B} - \left( \vec{A} \cdot \vec{B} \right) \vec{C}</math>, cela donne <math>\overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) = \left( \overrightarrow{OM} \cdot \overrightarrow{OM} \right) \vec{\Omega} - \cancel{\left( \overrightarrow{OM} \cdot \vec{\Omega} \right) \overrightarrow{OM}} = r^2\, \vec{\Omega} </math> car <math>\overrightarrow{OM} \perp \vec{\Omega} \quad\text{et}\quad \lVert \overrightarrow{OM} \rVert = r </math> ; finalement :

@@ -1,0 +1,1338 @@
+-- Functions utilisées par les infobox personnes
+local p = {}
+local wikidata = require "Module:Interface Wikidata".fromLua
+local general = require "Module:Infobox/Fonctions"
+local datemodule = require "Module:Date"
+local complexdate = require "Module:Date complexe"
+local linguistic = require "Module:Linguistique"
+local militaryranks = require "Module:Dictionnaire Wikidata/Grades militaires"
+
+--=== Accord en genre
+
+-- établit la variable gender pour l'élément
+local function setgender()
+	local vals = {
+		['Q6581072'] = 'f',
+		['Q6581097'] = 'm',
+		default      = '?'
+	}
+	local gender = wikidata.formatStatements{entity = item, property = 'P21', displayformat = 'raw'}
+	return vals[gender] or vals.default
+end
+
+local gender = setgender()
+
+-- récupération des libellés spéciaux codés en dur sur Wikipédia (attention : contient à la fois le libellé et le lien)
+local occupationlabels = require "Module:Dictionnaire Wikidata/Métiers"[gender]
+
+-- récupération des libellés genrés de Wikidata
+local function genderedlabel(id)
+	local label
+	if gender == 'f' then -- femme : chercher le libellé dans P2521 (libellé féminin)
+		label = wikidata.formatStatements{entity = id, property = 'P2521', isinlang = 'fr', numval = 1, ucfirst = '-'}
+	end
+	if not label then
+		label = wikidata.getLabel(id)
+	end
+	return label
+end
+
+-- === Gestion des dates
+
+-- Liens thématiques vers les dates
+local datelinks = { -- lien vers le domaine d'activité approprié
+	Q483501 = 'en arts plastiques', -- artiste
+	Q1028181 = 'en arts plastiques', -- peintre
+	Q1281618 = 'en arts plastiques', -- sculpteur
+	Q2309784 = 'en cyclisme', -- cycliste
+	Q16947657 = 'en arts plastiques', -- lithographe
+	Q15966904 = 'en arts plastiques', -- graveur
+}
+
+local function getdatetopic() -- obtient le lien le plus approprié pour une date en fonction de la profession
+	local claims = wikidata.stringTable{entity = item, property = 'P106', excludespecial = true, displayformat = "raw"}
+	if not claims then
+		return nil
+	end
+	for i, j in pairs(claims) do
+		if datelinks[j] then
+			return datelinks[j]
+		end
+	end
+end
+
+local linktopic = getdatetopic()
+
+--=====
+local function wikidatadate(prop, args) 	-- fonction à vocation généraliste, à externaliser
+	if not args then
+		args = {}
+	end
+	args.linktopic = args.linktopic or linktopic
+	return wikidata.wikidataDate(prop, item, args)
+end
+local unknowndatelabel = "date inconnue"
+local birthdate = localdata['naissance'] or localdata['date de naissance'] or wikidatadate('P569', {unknownlabel = unknowndatelabel})
+local deathdate = localdata['décès'] or localdata['date de décès'] or wikidatadate('P570', {unknownlabel =unknowndatelabel })
+
+
+local function format1(event, period, predecessor, successor, displayformat)
+	local mainstr = event
+	if predecessor then
+		local s = 'précédé par ' .. predecessor
+		if gender == 'f' then
+			s = 'précédée par ' .. predecessor
+		end
+		mainstr = mainstr .. '<small><br />&nbsp;' .. s .. '</small>'
+	end
+	if successor then
+		local s = 'suivi par ' .. successor
+		if gender == 'f' then
+			s = 'suivie par ' .. successor
+		end
+		mainstr = mainstr .. '<small><br />&nbsp;' .. s .. '</small>'
+	end
+	return {type = 'row', label = period or '', value = function() return mainstr end}
+end
+
+-----------------
+
+local function format2(event, period, predecessor, successor, displayformat)
+	if (not event) then
+		return nil
+	end
+	
+	local rows = {}
+
+	local eventrow = {type = 'row1col', color = 'secondcolor', value = event }
+	table.insert(rows, eventrow)
+
+	if period then
+		local periodrow = {type = 'row1col', color = '#F9F9F9', value = period }
+		table.insert(rows, periodrow)
+	end
+
+	if predecessor then
+		local prederow = {type = 'row', label = 'Prédécesseur', value = function() return predecessor end}
+		table.insert(rows, prederow)
+	end
+
+	if successor then
+		local succrow = {type = 'row', label = 'Successeur', value = function() return successor end}
+		table.insert(rows, succrow)
+	end
+	return {type = 'multi', rows = rows}
+end
+
+
+local function format3(event, period, predecessor, successor, displayformat, details)
+	if details then
+		details = '<span style="font-weight:normal">' .. details .. '</span>'
+		event = linguistic.conj({event, details}, "new line")
+	end
+	local mainrow =  {type = 'row1col', color = 'secondcolor', value = event }
+	if period then
+		period = '<span style="font-weight:normal">' .. period .. '</span>'
+	end
+	local periodrow = {type = 'row1col', color = '#F9F9F9', value = period }
+	local successionrow = {
+		style = {['background-color'] = secondcolor, ['padding-bottom'] = '2%'},
+		type = 'navbox',
+		inner = true,
+		previousval = function() return predecessor end,
+		nextval = function() return successor end,
+	}
+
+	return {type = 'multi', rows = {mainrow, periodrow, successionrow}}
+end
+
+
+local function timeline(localparam, wdconf, timelineformat, title, singtitle, details) -- affiche date : événement (suppose les événements déjà triés)
+	local rows = {}
+	local function returnTable()
+		return {
+			type = "table",
+			title = title,
+			rows = rows
+	}
+	end
+	
+	-- avec données locales
+	local val = localdata[localparam]
+	if val then
+		table.insert(rows, {type = 'row1col', color = 'secondcolor', value = val})
+		return returnTable()
+	end
+	-- avec données wikidata
+	if not wdconf then
+		return nil
+	end
+	
+	wdconf.entity = wdconf.entity or item
+	wdconf.sorttype = wdconf.sorttype or "chronological"
+	wdconf.labelformat = wdconf.labelformat  or function(id) return genderedlabel(id) end
+	wdconf.linktopic = wdconf.linktopic or "-"
+	wdconf.stilltrue = not(deathdate) -- si la personne est vivante, on emploie "depuis" plutôt que "à partir de" (mais lorsque c'est fini mais que la date de fin manque, ça devient faux)
+
+	local statements = wikidata.getClaims(wdconf)
+	if not statements then
+		return nil
+	end
+	if #statements == 1 then
+		title = singtitle
+	end
+	local displayformats = {
+		A = format1,
+		B = format2,
+		C = format3,
+	}
+	local applyformat = displayformats[timelineformat] or displayformats['A']
+	
+	rows = {}
+	for i, statement in pairs(statements) do
+		local event =  linguistic.ucfirst(wikidata.formatStatement(statement, wdconf))
+		local predecessor = wikidata.getFormattedQualifiers(statement, {'P155', 'P1365'})
+		local successor = wikidata.getFormattedQualifiers(statement, {'P156', 'P1366'})
+		local period = wikidata.statementDate(statement, wdconf )
+		local detailstr		
+		if type(details) == "function" then
+			detailstr = details(statement)
+		end
+		local row = applyformat(event, period, predecessor, successor, wdconf, detailstr)
+		if row then
+			table.insert(rows, row)
+		end
+	end
+	table.insert(rows, {type = "external text", value = function() return wikidata.addtrackingcat(wdconf.property) end})
+	return returnTable()
+end
+
+
+local function dateandplace(thedate, theplace)
+	if thedate and theplace and mw.ustring.find(thedate, "inconnu") and mw.ustring.find(theplace, "inconnu") then
+		theplace = nil
+		thedate =  mw.ustring.gsub(thedate, unknowndatelabel, "Date et lieu inconnus")	
+	end
+	return linguistic.conj({thedate, theplace}, "new line")
+end
+
+
+--Titre
+function p.title(icon, style)
+	return general.title(icon, style)
+end
+
+--Image
+function p.mainimage()
+	
+	 -- demande d'illustration que si la personne est née après 1900, sinon c'est souvent impossible à trouver
+	local defaultimage = 'Defaut 2.svg'
+	local age = wikidata.stringTable{property = 'P569', entity = item, displayformat = 'raw', excludespecial = true}
+
+	if age then
+		local pattern = "(%W)(%d+)%-(%d+)%-(%d+)"
+		local era, year = age[1]:match(pattern)
+		if (era == '-') or (tonumber(year)) < 1900 then
+			defaultimage = nil
+		end
+	end
+	return  general.mainimage('Article à illustrer/Biographie', defaultimage)
+end
+
+-- Noms
+function p.othernames()
+
+	local names = {
+		{'P1477', 'Nom de naissance', 'Noms de naissance', 'nom de naissance'},
+		{'P1449', 'Surnom', 'Surnoms', 'surnom'},
+		{'P742', 'Pseudonyme', 'Pseudonymes', 'pseudonyme'},
+		{'P1782', 'Prénom social', 'Prénoms sociaux', 'prénom social'},
+		{'P1786', 'Nom posthume', 'Noms posthumes', 'nom posthume'},
+		{'P1785', 'Nom de temple', 'Noms de temple', 'nom de temple'},
+		{'P1787', 'Nom de pinceau', 'Noms de pinceau', 'nom de pinceau'},
+		{'P428', 'Abréviation en botanique', 'abréviation en botanique'},
+		{'P835', 'Abréviation', 'abréviation'},
+		{nil, 'Autres noms', 'autres noms'},
+	}
+
+	local birthnamerow = { -- un peu particulier, donc à part
+		type = "row",
+		wikidata  = function()
+			local s = wikidata.formatAndCat{entity = item, property = "P1559"}
+			if (not s) then
+				return nil
+			end
+			-- regarde si le nom de la valeur ressemble au libellé (en tenant compte de la pollution des marqueures de langue
+			local label = mw.ustring.lower(wikidata.getLabel(item) or "")
+			local useless
+			if mw.ustring.find(mw.ustring.lower(s), label) then
+				useless = true
+			end
+			if useless then
+				return nil
+			end
+			return s		
+			end,
+		label = 'Nom dans la langue maternelle',
+		plurallabel = 'Noms dans la langue maternelle',
+		value = 'nom dans la langue maternelle',
+	}
+	
+	local rows = {type = "multi", rows = {birthnamerow}}
+	for i, j in pairs(names) do
+		local query
+		if j[1] and not localdata['autres noms'] then -- lorsqu'il y a un paramètre "autres noms", Wikidata est désactivée pour éviter risques de doublon
+			query = {property = j[1], showqualifiers = {'P1721'}, conjtype = 'new line'}
+		end
+		table.insert(rows.rows, {type = 'row', value = j[4], wikidata = query, label = j[2], plurallabel = j[3]})
+	end
+	return rows
+end
+
+-- NAISSANCE ET MORT
+function p.birth() -- date de naissance en première ligne, lieu de naissance en deuxième
+	return {
+		type = 'row',
+		label = 'Naissance',
+		value =
+			function()
+			local thedate = datemodule.dateInfobox{args = {[1] = 'naissance', [2] = birthdate or '', [3] = deathdate or '', qualificatif = linktopic}}
+			local theplace = localdata['lieu de naissance'] or wikidata.formatAndCat({entity =item, property= 'P19', rank = 'best', conjtype= ' ou ', unknownlabel = "lieu inconnu"})
+			return dateandplace(thedate, theplace)
+			end
+	}
+end
+
+function p.death() -- même fonctionnement que la fonction p.birth
+	return {
+		type = 'row',
+		label = 'Décès',
+		value = 
+			function()
+			local thedate = datemodule.dateInfobox{args = {[1] = 'mort', [2] = birthdate or '', [3] = deathdate or '', qualificatif = linktopic, unknownlabel = "date inconnue"}}
+			local theplace = localdata['lieu de décès'] or wikidata.formatAndCat({entity = item, property= 'P20', rank = 'best', conjtype= ' ou ', unknownlabel = "lieu inconnu"})
+			return dateandplace(thedate, theplace)
+			end
+	}
+end
+
+function p.floruit()
+	return {
+		type = 'row',
+		label = 'Période d’activité',
+		value = "Période d'activité",
+		wikidata = function() return wikidatadate('P1317')	end
+	}
+end
+
+function p.placeofburial()
+	return
+		{type = 'row', label = "Lieu d'enterrement", value = "Lieu d'enterrement", property = 'P119'}
+end
+
+function p.nationality() 
+	
+	-- à améliorer étant donnée les moeurs Wikidata comme nationalité : Empire allemand (1901-1918)  République de Weimar (1918-1933)
+	local function wdDate()
+		local nation = require "Module:Country data".nationality
+		
+		-- désactivation si date de naissance avant l'Ère contemporaine : trop d'imprécisions et d'anachronismes
+		local mindate = '1789'
+		
+		local birthdate = wikidata.formatStatements{entity = item, property = 'P569', displayformat = 'raw', numval = 1}
+		if (not birthdate) or complexdate.before(mindate, birthdate) then
+			return nil
+		end
+		
+		return {
+			property = 'P27',
+			vals = statements,
+			showdate = true,
+			entity = item,
+			conjtype = 'comma',
+			removedupes = true,
+			linktopic = '-',
+			displayformat = 
+				function(snak)
+					local g = gender -- genre de la personne, pour affichage du gentilé
+					if g == '?' then -- si inconnu, au masculin
+						g = 'm'
+					end
+					local val, success = nation(wikidata.getid(snak), g)
+					if not success then
+						val = wikidata.formatSnak(snak)
+					end
+					return val
+				end
+			}
+	end
+		
+	return {
+		type = 'row',
+		label = 'Nationalité',
+		plurallabel = 'Nationalités',
+		value = 'nationalité',
+		wikidata = wdDate() -- wdDate() retourne une table
+	}
+
+end
+function p.nativelanguage()
+	return
+	{type = 'row', label = 'Langue maternelle', value = 'langue maternelle', property = 'P103'}
+end
+
+-- Domiciles
+function p.places()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Dème',
+		plurallabel = 'Dèmes',
+		value = 'dème',
+		wikidata = {property = 'P2462', showdate = true, sorttype= 'chronological', precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Domicile',
+		plurallabel = 'Domiciles',
+		value = 'domicile',
+		wikidata = {property = 'P551', showdate = true, sorttype= 'chronological', precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Lieu de travail',
+		plurallabel = 'Lieux de travail',
+		value = 'lieu de travail',
+		wikidata = {property = 'P937', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+	}}
+end
+
+-- parcours professionel
+function p.education() -- à améliorer
+	local query = {sorttype= 'chronological', property = 'P69', showdate = true, showqualifiers = 'P512', conjtype = 'new line', linktopic = '-'}
+	return {
+		type = 'row',
+		value = {'éducation', 'formation'},
+		wikidata = query,
+		label = 'Formation',
+	}
+end
+
+function p.occupation()
+	return {
+		type = 'row', 
+		value = {'activité', 'activités'},
+		wikidata = {
+			property = 'P106',
+			defaultlink = '-',
+			defaultlinkquery = {property = 'P425'},
+			labelformat = function(id) return genderedlabel(id) end,
+			speciallabels = occupationlabels,
+			excludevalues = { -- les occupations qui ne méritent pas d'être affichées 
+				'Q482980', -- auteur
+				'Q15980158', -- auteur de non-fiction
+				'Q18814623', -- autobiographe
+				'Q948329', -- acteur de genre
+			}
+		},
+		label = 'Activité',
+		plurallabel = 'Activités'
+	}
+end
+
+function p.employer()
+	return {
+		type = 'row', 
+		value = 'employeur',
+		wikidata = {property = 'P108', showdate = true, sorttype= 'chronological'}, 
+		label = function() return localdata['intitulé employeur'] or 'A travaillé pour' end,
+	}
+end
+
+function p.victories() 
+	local title, singtitle = "Victoires", "Victoire" 
+	local localparam = "victoire"
+	local wdconf = {property = 'P2522'}
+	local displayformat = "B"
+	
+	return timeline(localparam, wdconf, displayformat, title, singtitle)
+end
+
+
+function p.officialposition() 
+	local title, singtitle = "Fonctions", "Fonction"
+	local localparam = "fonction"
+	local wdconf =  {
+		property = 'P39',
+		rank = 'valid',
+		sorttype = 'inverted',
+		speciallabels = occupationlabels,
+		defaultlinkquery =  {property = {'P2354', 'P2389', 'P453', 'P361'}}, -- liens par défaut : liste, puise organisme dirigé, "membre de" et "partie de"
+	}
+	-- sur une ligne séparée : juridiction, "de", circonsription, diocèse, affiliation, assemblée, parti, emmloyeur
+	local details = function(statement) return wikidata.getFormattedQualifiers(statement, {'P1001', 'P642', 'P768', 'P708', 'P1416', 'P194', 'P102', 'P108'}) end
+	local displayformat = "C"
+	
+	return timeline(localparam, wdconf, displayformat, title, singtitle, details)
+end
+
+function p.nobilitytitle() 
+	local title, singtitle = "Titres de noblesse", "Titre de noblesse"
+	local localparam = "titre de noblesse"
+	local wdconf = {
+		property = 'P97', 
+		entity = item, rank = 'valid', 
+		showqualifiers =  {'P642'},
+		defaultlinkquery =  {property = {'P2354', 'P361'}}, -- liens par défaut : liste, puise organisme dirigé, "membre de" et "partie de"
+	}
+	local displayformat = "B"
+	
+	return timeline(localparam, wdconf, displayformat, title, singtitle)
+end
+
+
+function p.honorifictitle() 
+	local title, singtitle = "Titres honorifiques", "Titre honorifique"
+	local localparam = "titre honorifique"
+	local wdconf = {property = 'P511', entity = item, rank = 'valid'}
+	local displayformat = "C"
+	
+	return timeline(localparam, wdconf, displayformat, title, singtitle)
+end
+
+function p.blason()
+	return {
+		type = 'images',
+		imageparameters =  {'blason'},
+		defaultimages = nil,
+		defaultupright = 0.7,
+		uprightparameter = 'upright blason',
+		sizeparameter = 'taille blason', -- obsolète
+		captionparameter = 'légende blason',
+		defaultcaption = '',
+		property = 'P94',
+		numval = 1,
+	}
+end
+
+function p.sceau()
+	return {
+		type = 'images',
+		imageparameters =  {'sceau'},
+		defaultimages = nil,
+		defaultupright = 0.7,
+		uprightparameter = 'upright sceau',
+		sizeparameter = 'taille sceau', -- obsolète
+		captionparameter = 'légende sceau',
+		defaultcaption = '',
+		property = 'P158',
+		numval = 1,
+	}
+end
+
+function p.monogram()
+	return {
+		type = 'images',
+		imageparameters =  {'monogramme'},
+		defaultimages = nil,
+		defaultsize = 	'100px',
+		sizeparameter = 'taille monogramme',
+		captionparameter = 'légende monogramme',
+		defaultcaption = 'Monogramme',
+		property = 'P1543',
+		numval = 1,
+	}
+end
+
+function p.flag()
+	return {
+		type = 'images',
+		imageparameters =  {'drapeau'},
+		defaultimages = nil,
+		defaultsize = 	'150px',
+		sizeparameter = 'taille drapeau',
+		captionparameter = 'légende drapeau',
+		defaultcaption = 'Drapeau',
+		property = 'P41',
+		numval = 1,
+	}
+end
+
+function p.logo()
+	return {
+		type = 'images',
+		imageparameters =  {'logo'},
+		defaultimages = nil,
+		defaultsize = 	'150px',
+		sizeparameter = 'taille logo',
+		captionparameter = 'légende logo',
+		defaultcaption = 'Marque ou logotype',
+		property = 'P154',
+		numval = 1,
+	}
+end
+
+function p.politicalparty()
+	return {
+		type = 'row', 
+		value = 'parti politique',
+		label = 'Parti politique',
+		plurallabel = 'Partis politiques',
+		wikidata = { property = 'P102', sorttype= 'chronological', showdate = true, conjtype = 'new line', excludespecial = true}, 
+	}
+end
+
+function p.memberof()
+	return {type = 'multi', rows = {
+{
+	type = 'row', 
+	value = 'ordre de chevalerie',
+	label = 'Ordre de chevalerie',
+	plurallabel = 'Ordres de chevalerie',
+	wikidata = {property = 'P550', sorttype= 'chronological', showdate = true}, 
+},
+{
+	type = 'row', 
+	label = 'Membre de', 
+	value = 'membre de', 
+	wikidata = {property = 'P463', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+	}}
+end
+
+function p.awards()
+	
+
+	local function awardsList()
+		local majorawards = require "Module:Dictionnaire Wikidata/Distinctions"
+		local query = {
+			entity = item,
+			property= 'P166',
+			sorttype= 'chronological',
+			grouped = true,
+			showqualifiers = 'P642',
+			showdate= true,
+			precision = 'year',
+			conjtype = 'new line',
+			textformat = 'minimum',
+			linktopic = '-',
+			defaultlinkquery = {property = {'P2354', 'P361'}},
+			speciallabels = majorlist
+		}
+		local claims = wikidata.getClaims(query)
+		if (not claims) then
+			return nil
+		end
+		local str = wikidata.formatAndCat(query)
+		if #claims < 4 then
+			return str, #claims
+		end
+
+		--si trop de valeurs, n'afficher que les importantes de [[Module:Dictionnaire Wikidata/Distinctions]], et mettre les autrs dans un menu pliant
+
+		--- récupération des importantes
+		local majorlist, majorStr
+		local targetvalues = {}
+		for i, j in pairs(majorawards) do
+			table.insert(targetvalues, i)
+		end
+		query.targetvalue = targetvalues
+		query.value, query.claims, query.valuetable = nil, nil, nil -- apparemment sinon ce n'est pas le cas, pourquoi ? BUG IMPORTANT
+		majorStr = wikidata.formatAndCat(query)
+
+		--- repliage des autres
+		local message = "'''Liste détaillée'''"
+		local allAwardsTable = mw.html.create('div') 
+			:addClass("toccolours mw-collapsible mw-collapsed")
+			:wikitext(message)
+			:css{border = "none"}
+			:tag('div')
+				:addClass("mw-collapsible-content")
+				:css{['line-height'] = '150%'} -- sinon c'est vraiment serré
+				:wikitext( str)
+				:done()
+			:allDone()
+
+	return linguistic.conj({majorStr, tostring(allAwardsTable)}, "<br />"), #claims
+end
+	
+	return {
+		type = 'row', 
+		value = {'prix', 'récompenses', 'distinction', 'distinctions'},
+		label = 'Distinctions',
+		singularlabel = 'Distinction',
+		wikidata = function() return awardsList() end
+	}
+end
+
+-- Influences 
+function p.influencedby()
+	return {
+		type = 'row',
+		label = 
+		function(localdata, item)
+		if gender == 'f' then
+			return 'Influencée par'
+		elseif gender == 'm' then
+			return 'Influencé par'
+		else
+			return 'Influencé(e) par'
+		end
+		end,
+		value = 'influencé par',
+		wikidata = {property = 'P737'},
+    }
+end
+
+function p.influenced()
+	return {
+		type = 'row',
+		label = 'A influencé',
+		value = {'a influencé', 'influence de'},
+}
+end
+
+-- Appartenances
+function p.movement()
+	return
+	{
+	type = 'row',
+	label = 'Mouvement',
+	value = 'mouvement',
+	wikidata = {property = 'P135', sorttype= 'chronological', showdate = true, precision = 'year'},
+}
+end
+
+-- Religion
+function p.religion()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Religion',
+		plurallabel = 'Religions',
+		value = 'religion',
+		wikidata = {property = 'P140', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Date de baptême',
+		value = 'date de baptême',
+		property = 'P1636',
+},
+{
+		type = 'row',
+		label = 'Parrain',
+		plurallabel = 'Parrains',
+		value = 'parrain',
+		property = 'P1290',
+},
+{
+		type = 'row',
+		label = 'Nom en religion',
+		plurallabel = 'Noms en religion',
+		value = 'nom en religion',
+		property = 'P1635',
+},
+{
+		type = 'row',
+		label = 'Ordre religieux',
+		plurallabel = 'Ordres religieux',
+		value = 'ordre religieux',
+		property = 'P611',
+},
+{
+		type = 'row',
+		label = 'Consécrateur',
+		plurallabel = 'Consécrateurs',
+		value = 'consécrateur',
+		property = 'P1598',
+},
+{
+		type = 'row',
+		label = 
+		function(localdata, item) 
+		if gender == 'f' then
+			return 'Vénérée par'
+		elseif gender == 'm' then
+			return 'Vénéré par'
+		else
+			return 'Vénéré(e) par'
+		end
+		end,
+		value = 'vénéré par',
+		property = 'P1049',
+},
+{
+		type = 'row',
+		label = 'Étape de canonisation',
+		value = 'étape de canonisation',
+		property = 'P411',
+},
+	}}
+end
+
+-- Carrière militaire
+function p.military()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Arme',
+		plurallabel = 'Armes',
+		value = 'arme',
+		wikidata = {property = 'P241', showdate = true, sorttype= 'chronological', precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Grade militaire',
+		plurallabel = 'Grades militaires',
+		value = 'grade militaire',
+		wikidata = {property = 'P410', showdate = true, sorttype= 'chronological', precision = 'year', speciallabels = militaryranks, conjtype ='new line'},
+},
+{
+		type = 'row',
+		label = 'Conflit',
+		plurallabel = 'Conflits',
+		value = 'conflit',
+		wikidata = {property = 'P607', showdate = true, sorttype= 'chronological', precision = 'year'},
+},
+	}}
+end
+
+-- Carrière de torero
+function p.torero()
+	return {type = 'multi', rows = {
+{
+		type = "row",
+		label = "Alternative",
+		value = "alternative",
+		wikidata = function() return wikidata.keyDate("Q2840411", item) end
+},
+{
+		type = "row",
+		label = "Confirmation d'alternative",
+		value = "confirmation alt",
+		wikidata = function() return wikidata.keyDate("Q23308805", item) end
+},
+	}}
+end
+
+-- Sport
+function p.sport()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Spécialité',
+		plurallabel = 'Spécialités',
+		value = 'spécialité',
+		wikidata = {property = 'P413'},
+},
+{
+		type = 'row',
+		label = 'Discipline sportive',
+		plurallabel = 'Disciplines sportives',
+		value = 'discipline sportive',
+		wikidata = {property = 'P2416'},
+},
+{
+		type = 'row',
+		label = 'Prise de raquette',
+		value = 'prise de raquette',
+		wikidata = {property = 'P741'},
+},
+{
+		type = 'row',
+		label = 'Tire de la',
+		value = 'tire',
+		wikidata = {property = 'P423'},
+},
+{
+		type = 'row',
+		label = 'Équipe',
+		plurallabel = 'Équipes',
+		value = 'équipe',
+		wikidata = {
+			property = 'P54',
+			sorttype= 'chronological',
+			conjtype = "new line",
+			statementformat = function(statement)
+				local str = wikidata.formatStatement(statement, {showdate = true})
+				local compets = wikidata.getFormattedQualifiers(statement, {"P1350"})
+				if compets and (tonumber(compets) > 1) then
+					compets = compets .. " matchs joués"
+				elseif compets then
+					compets = compets .. " match joué"
+				end
+				local points = wikidata.getFormattedQualifiers(statement, {"P1351"})
+				if points and (tonumber(points) > 1) then
+					points = points .. " points marqués"
+				elseif points then
+					points = points  .. "point marqué"
+				end
+				local qualifiers = linguistic.conj{compets, points}
+				if qualifiers then
+					str= str .. " <small> – " .. qualifiers .. " </small>"
+				end
+				return str
+			end
+		}
+},
+{
+		type = 'row',
+		label = 'Capes internationales',
+		value = 'capes',
+		wikidata = {property = 'P1129', numval = 1},
+},
+{
+		type = 'row',
+		label = 'Classement Elo',
+		value = 'classement elo',
+		wikidata = {property = 'P1087', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Record détenu',
+		plurallabel = 'Records détenus',
+		value = 'record détenu',
+		wikidata = {property = 'P1000', sorttype= 'chronological', showdate = true},
+},
+{
+		type = 'row',
+		label = 'Entraîneur',
+		plurallabel = 'Entraîneurs',
+		value = 'entraîneur',
+		wikidata = {property = 'P286', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Copilote',
+		plurallabel = 'Copilotes',
+		value = 'copilote',
+		wikidata = {property = 'P2095', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Sponsor',
+		plurallabel = 'Sponsors',
+		value = 'sponsor',
+		wikidata = {property = 'P859', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+	}}
+end
+
+-- Contacts
+function p.contacts()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Maître',
+		plurallabel = 'Maîtres',
+		value = {'maître', 'maîtres'},
+		wikidata = {property = 'P1066', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Directeur de thèse',
+		plurallabel = 'Directeurs de thèse',
+		value = 'directeur de thèse',
+		wikidata = {property = 'P184', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+{
+		type = 'row',
+		label = 'Agent',
+		label = 
+		function(localdata, item) 
+		if gender == 'f' then
+			return 'Représentée par'
+		elseif gender == 'm' then
+			return 'Représenté par'
+		else
+			return 'Représenté(e) par'
+		end
+		end,
+		value = 'représenté par',
+		wikidata = {property = 'P1875'},
+},
+{
+		type = 'row',
+		label = 'Partenaire',
+		plurallabel = 'Partenaires',
+		value = 'partenaire',
+		wikidata = {property = 'P1327'},
+},
+{
+		type = 'row',
+		label = "Nombre d'Erdős",
+		value = "nombre d'Erdős",
+		wikidata = {property = 'P2021'},
+},
+{
+		type = 'row',
+		label = localdata['intitulé élève'] or 'Élève',
+		plurallabel = 'Élèves',
+		value = {'élève', 'élèves'},
+		wikidata = {property = 'P802', sorttype= 'chronological', showdate = true, precision = 'year', numval = 5},
+},
+{
+		type = 'row',
+		label = 'Étudiant de thèse',
+		plurallabel = 'Étudiants de thèse',
+		value = 'étudiant de thèse',
+		wikidata = {property = 'P185', sorttype= 'chronological', showdate = true, precision = 'year', numval = 5},
+},
+	}}
+end
+
+-- Mécénat
+function p.patron()
+	return {
+		type = 'row', 
+		label = '[[Mécénat|Mécènes]]',
+		singularlabel = '[[Mécénat|Mécène]]',
+		plurallabel = '[[Mécénat|Mécènes]]', 
+		value = 'mécènes', 
+		wikidata = {property = 'P1962', showdate = true, sorttype = 'chronological', conjtype = 'comma'},
+		}
+end
+
+-- Musique
+function p.music()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Tessiture',
+		value = 'tessiture',
+		property = 'P412',
+},
+{
+		type = 'row',
+		label = 'Fach',
+		value = 'fach',
+		property = 'P1731',
+},
+{
+		type = 'row',
+		label = 'Instrument',
+		plurallabel = 'Instruments',
+		value = 'instrument',
+		wikidata = {property = 'P1303', sorttype= 'chronological'},
+},
+{
+		type = 'row',
+		label = 'Label',
+		plurallabel = 'Labels',
+		value = 'label',
+		wikidata = {property = 'P264', sorttype= 'chronological', showdate = true, precision = 'year'},
+},
+	}}
+end
+
+-- Victimes
+function p.victims()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Victimes',
+		value = 'victimes',
+		wikidata = {property = 'P1345'},
+},
+	}}
+end
+
+-- Condamnations
+function p.penalties()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 
+		function(localdata, item) 
+		if gender == 'f' then
+			return 'Condamnée pour'
+		elseif gender == 'm' then
+			return 'Condamné pour'
+		else
+			return 'Condamné(e) pour'
+		end
+		end,
+		value = 'condamné pour',
+		wikidata = {property = 'P1399', showdate = true, sorttype = 'chronological', precision = 'year', conjtype = 'comma'},
+},
+{
+		type = 'row', 
+		label = 'Condamnation',
+		plurallabel = 'Condamnations', 
+		value = 'condamnation', 
+		wikidata = {property = 'P1596', showdate = true, sorttype = 'chronological', precision = 'year', conjtype = 'comma'},
+},
+{
+		type = 'row', 
+		label = 'Lieu de détention',
+		plurallabel = 'Lieux de détention', 
+		value = 'lieu de détention', 
+		wikidata = {property = 'P2632', showdate = true, sorttype = 'chronological', precision = 'year', conjtype = 'comma'},
+},
+	}}
+end
+
+-- Physique
+function p.appearance()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Taille',
+		value = 'taille',
+		wikidata = {property = 'P2048'},
+},
+{
+		type = 'row',
+		label = 'Poids',
+		value = 'poids',
+		wikidata = {property = 'P2067'},
+},
+{
+		type = 'row',
+		label = 'Cheveux',
+		value = 'cheveux',
+		wikidata = {property = 'P1884'},
+},
+{
+		type = 'row',
+		label = 'Yeux',
+		value = 'yeux',
+		wikidata = {property = 'P1340'},
+},
+	}}
+end
+
+-- Famille
+function p.family()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Famille',
+		plurallabels = 'Familles',
+		value = 'famille',
+		property = 'P53',
+},
+{
+		type = 'row',
+		label = 'Père', 
+		value = 'père',
+		property = 'P22',
+},
+{
+		type = 'row',
+		label = 'Mère',
+		value = 'mère',
+		property = 'P25',
+},
+{
+		type = 'row',
+		label = 'Beau-père',
+		plurallabel = 'Beaux-pères',
+		value = 'beau-père',
+		property = 'P43',
+},
+{
+		type = 'row',
+		label = 'Belle-mère',
+		plurallabel = 'Belles-mères',
+		value = 'belle-mère',
+		property = 'P44',
+},
+{
+		type = 'row',
+		label = 'Frère',
+		plurallabel = 'Frères',
+		value = 'frère',
+		wikidata = {
+			property = 'P7',
+			sorttype = 'chronological',
+			conjtype = 'new line',
+			textformat = 'long',
+			precision = 'year',
+			stilltrue = (not deathdate),
+			precision = 'year',
+		}
+},
+{
+		type = 'row',
+		label = 'Sœur',
+		plurallabel = 'Sœurs',
+		value = 'sœur',
+		wikidata = {
+			property = 'P9',
+			sorttype = 'chronological',
+			conjtype = 'new line',
+			textformat = 'long',
+			precision = 'year',
+			stilltrue = (not deathdate),
+			precision = 'year',
+		}
+},
+{
+		type = 'row',
+		label = 'Conjoint', -- todo : adapter le libellé en genre ?
+		plurallabel = 'Conjoints',
+		value = 'conjoint',
+		wikidata = {
+			property = 'P26',
+			sorttype = 'chronological',
+			conjtype = 'new line',
+			textformat = 'long',
+			precision = 'year',
+			stilltrue = (not deathdate),
+			precision = 'year',
+		}
+},
+{
+		type = 'row',
+		label = 
+		function(localdata, item) 
+		if gender == 'f' then
+			return 'Concubin'
+		elseif gender == 'm' then
+			return 'Concubine'
+		else
+			return 'Partenaire'
+		end
+		end,
+		plurallabel = 
+		function(localdata, item) 
+		if gender == 'f' then
+			return 'Concubins'
+		elseif gender == 'm' then
+			return 'Concubines'
+		else
+			return 'Partenaires'
+		end
+		end,
+		value = 'partenaire',
+		wikidata = {
+			property = 'P451',
+			sorttype = 'chronological',
+			conjtype = 'new line',
+			textformat = 'long',
+			precision = 'year',
+			stilltrue = (not deathdate),
+			precision = 'year',
+		}
+},
+{
+		type = 'row',
+		label = 'Enfant', -- todo : adapter le libellé en genre ?
+		plurallabel = 'Enfants',
+		value = 'enfant',
+		wikidata = {
+			property = 'P40',
+			sorttype = 'chronological',
+			conjtype = 'new line',
+			textformat = 'long',
+			precision = 'year',
+			stilltrue = (not deathdate),
+			precision = 'year',
+		}
+},
+{
+		type = 'row',
+		label = 'Parentèle',
+		value = 'parentèle',
+		wikidata = {
+			property = 'P1038',
+			showqualifiers = {'P1039'},
+			conjtype = 'new line',
+		}
+},
+	}}
+end
+
+-- Esclavage
+function p.slavery()
+	return {type = 'multi', rows = {
+{
+		type = 'row',
+		label = 'Propriétaire',
+		plurallabels = 'Propriétaires',
+		value = 'propriétaire',
+		property = 'P127',
+},
+	}}
+end
+
+-- Œuvres
+function p.works(params)
+	params = params or {}
+	local title = params.title or 'Œuvres réputées'
+	local singulartitle = params.singulartitle or 'Œuvre réputée'
+
+	local wikidata = {
+		excludespecial = true,
+		numval = 5,
+		property = 'P800',
+		defaultlink = 'image',
+		showdate= true,
+		labelformat = function(id) local label =  wikidata.getLabel(id) if label then return '<i>' .. label .. '</i>' end end,
+	}
+	
+	for i, j in pairs(params) do
+		wikidata[i] = j
+	end
+	
+	return 
+	{type = 'table', title = title, singulartitle = singtitle, rows =
+		{
+			{
+			type = 'row',
+			value = 'œuvres principales',
+			wikidata = wikidata
+			}
+		}
+	}
+end
+
+function p.filmography()
+	local title = 'Films notables'
+	return
+	{type = 'row', label = 'Films notables', value = 'films notables', property = 'P1283'}
+	end
+
+function p.discography()
+	local title = 'Discographie'
+	return
+	{type = 'row', label = 'Discographie', value = 'discographie', property = 'P358'}
+end
+
+-- Signature
+function p.signature(default)
+	return {
+		type = 'images',
+		imageparameters =  {'signature'},
+		defaultimage = default,
+		captionparameter = 'légende signature',
+		defaultcaption = 'signature',
+		uprightparameter = 'upright signature',
+		defaultupright = 0.5,
+		property = 'P109',
+		numval = 1
+	}
+end
+
+-- Enregistrement vocal
+function p.voice()
+	return {
+		type		     = 'images',
+		style            = {['padding-top'] = '25px'},--{['border-width'] = '10px', ['border-style'] = 'solid'},
+		label		     = 'Enregistrement vocal',
+		captionparameter = 'légende voix',
+		value		     = 'voix',
+		property	     = 'P990',
+		numval           = 1,
+	}
+end
+
+--== Site web
+function p.website()
+	return general.website()
+end
+
+return p

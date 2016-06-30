@@ -262,7 +262,15 @@ blaü
 |}
 
 == encart ==
+<source lang="text">
+{{Encart
+  | symbole = note
+  | contenu = '''Notation'''
 
+texte azerty
+}}
+</source>
+donne :
 {{Encart
   | symbole = note
   | contenu = '''Notation'''
@@ -274,6 +282,101 @@ texte azerty
   | symbole = exemple
   | contenu = '''Exemple'''
 texte azerty
+}}
+
+;Couleurs =
+
+<source lang="text">
+{{Encart | couleur = 15e23f |
+aveuc ène couleur
+}}
+</source>
+donne :
+{{Encart | couleur = 15e23f |
+aveuc ène couleur
+}}
+
+à choisir parmi : mauve, ocre, vert, olive, orange, jaune, bleu, chocolat, marron, rouge, carmin, violet, indigo, noir, blanc (vir: [[w:Liste de noms de couleur|Liste de noms de couleur]] sur Wikipédia). 
+
+<source lang="text">
+{{Encart | couleur = chocolat |
+aveuc ène couleur
+}}
+</source>
+donne :
+{{Encart | couleur = chocolat |
+aveuc ène couleur
+}}
+
+ou :
+<source lang="text">
+{{Encart | couleur = cuisse de nymphe émue |
+cuisse de nymphe émue
+}}
+</source>
+donne :
+{{Encart | couleur = cuisse de nymphe émue |
+cuisse de nymphe émue
+}}
+
+'''Remarque''' : Aveuc « couleur = blanc », cha donne eune simpe marge et pi o put canjer el largeur aveuc ch' paramète « largeur ».
+
+<source lang="text">
+{{Encart
+ | largeur = large
+ | couleur = jaune
+ | symbole = anecdote
+ | cadre   = mauve
+ |
+anecdote
+}}
+</source>
+donne :
+{{Encart
+ | largeur = large
+ | couleur = jaune
+ | symbole = anecdote
+ | cadre   = mauve
+ |
+anecdote
+}}
+
+obin coèr : :
+<source lang="text">
+{{Encart
+ | cadre   = olive
+ | symbole = [[Fichier:Aire de répartition du picard.PNG|80px]]
+ |
+ch' picard, ch'est el langque de ch'nord de l'France (Nord-Pas-Calés, Picardie) et auchi d'eune partie de l'Walonnie à mon d'chés Bèrches, din l'prouvinche du Hénau (à l'ouess deul line R'bécque-Biaumont-Chimai). Ch'Picard, ch'est eune lanque d'oil aveuc grandmain d'dialecs (anmiénoé, vimeu, vermindoé, bieuvaisis, chti, hénau, etc.) et pis din chés patoés (ou parlés) i o étou chés variantes aveuc chés vilaches qui parl't à leu mot'.
+}}
+</source>
+donne :
+{{Encart
+ | cadre   = olive
+ | symbole = [[Fichier:Aire de répartition du picard.PNG|80px]]
+ |
+ch' picard, ch'est el langque de ch'nord de l'France (Nord-Pas-Calés, Picardie) et auchi d'eune partie de l'Walonnie à mon d'chés Bèrches, din l'prouvinche du Hénau (à l'ouess deul line R'bécque-Biaumont-Chimai). Ch'Picard, ch'est eune lanque d'oil aveuc grandmain d'dialecs (anmiénoé, vimeu, vermindoé, bieuvaisis, chti, hénau, etc.) et pis din chés patoés (ou parlés) i o étou chés variantes aveuc chés vilaches qui parl't à leu mot'.
+}}
+
+obin coèr :
+<source lang="text">
+{{Encart
+ | largeur = large
+ | couleur = noir
+ | cadre   = oui
+ | symbole = [[Fichier:2-gold Rhomboeder.gif|70px]]
+ |
+ch' picard, ch'est el langque de ch'nord de l'France
+}}
+</source>
+donne :
+{{Encart
+ | largeur = large
+ | couleur = noir
+ | cadre   = oui
+ | symbole = [[Fichier:2-gold Rhomboeder.gif|70px]]
+ |
+ch' picard, ch'est el langque de ch'nord de l'France
 }}
 
 == color ==

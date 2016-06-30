@@ -1,0 +1,110 @@
+-- Helpers for queries using transitive properties
+
+local p = {}
+local wd = require "Module:Wikidata"
+local tools = require "Module:Wikidata/Outils"
+
+local function getids(item, query) 
+	query.excludespecial = true
+	query.displayformat = 'raw'
+	query.entity = item
+	return wd.stringTable(query)
+end
+
+
+-- add new items to a list, avoiding duplicates
+local function addnewvalues(olditems, newitems, maxnum, stopval)
+	if not newitems then
+		return olditems
+	end
+	for _, qid in pairs(newitems) do
+		if stopval and (qid == stopval) then
+			table.insert(olditems, qid)
+		return olditems
+		end
+		if maxnum and (#olditems >= maxnum) then
+			return olditems
+		end
+		if not tools.isHere(olditems, qid) then
+			table.insert(olditems, qid)
+		end
+	end
+	return olditems
+end
+
+-- recursively adds a list of qid to an existing list, based on the results of a query
+function p.addVals(list, query, maxdepth, maxnodes, stopval)
+	maxdepth = maxdepth or 10
+	maxnodes = maxnodes or 100
+	if (maxdepth < 0) then
+		return list
+	end
+	if stopval and tools.isHere(list, stopval) then
+		return list
+	end
+	local origsize = #list
+	for i = 1, origsize do
+	-- tried a  "checkpos" param instead of starting to 1 each time, but no impact on performance
+	local candidates = getids(list[i], query)
+	list = addnewvalues(list, candidates, maxnum, stopval)
+	if list[#list] == stopval then
+		return list
+	end
+	if #list >= maxnodes then
+		return list
+	end
+	end
+	if (#list == origsize) then
+		return list
+	end
+	return p.addVals(list, query, maxdepth - 1, maxnodes, stopval, origsize + 1)
+end
+
+-- returns a list of items transitively matching a query (orig item is not included in the list)
+function p.transitiveVals(item, query, maxdepth, maxnodes, stopval)
+	maxdepth = maxdepth or 10
+	local vals = getids(item, query)
+	if not vals then
+		return nil
+	end
+return p.addVals(vals, query, maxdepth - 1, maxnodes, stopval)
+end
+
+-- returns true if an item is the value of a query, transitively
+function p.inTransitiveVals(searchedval, sourceval, query, maxdepth, maxnodes )
+	local vals = p.transitiveVals(sourceval, query, maxdepth, maxnodes, searchedval )
+	if vals and vals[#vals] == searchedval then
+		return true
+	end
+	return false
+end
+
+-- returns true if an item is a superclass of another, based on P279
+function p.isSubclass(class, item, maxdepth)
+	local query = {property = 'P279'}
+	if class == item then -- item is a subclass of itself iff it is a class
+	if getids(item, query) then
+		return true
+	end
+	return false
+	end
+	return p.inTransitiveVals(class, item, query, maxdepth )
+end
+
+-- returns true if one of the best ranked P31 values of an item is the target or a subclass of the target
+-- rank = 'valid' would seem to make sense, but it would need to check for date qualifiers as some P31 values have begin or end date
+function p.isInstance(targetclass, item, maxdepth)
+	maxdepth = maxdepth or 10
+	local directclasses = p.transitiveVals(item, {property = 'P31'}, 1)
+	if not directclasses then
+	return false
+	end
+	for i, class in pairs(directclasses) do
+		if p.isSubclass(targetclass, class, maxdepth - 1) then
+			return true
+		end
+	end
+	return false
+end
+
+return p

@@ -1,0 +1,396 @@
+-- TODO: améliorer les synergies avec Module:Date (gestion par module:Date de dates sans lien et de "XIe siècle en astronautique"
+
+local datemodule = require 'Module:Date'
+local linguistic = require 'Module:Linguistique'
+local roman = require 'Module:Romain'
+local p = {}
+
+local numericprecision = { -- convertir les précisions en valeurs numériques = à celles utilisées par Wikidata
+	gigayear = 0,
+	megayear = 3,
+	millenium = 6,
+	century = 7,
+	decade = 8,
+	year = 9,
+	month = 10,
+	day = 11,
+	hour = 12,
+	minute = 13,
+	second = 14,
+}
+
+local function vowelfirst(str)
+	return linguistic.vowelfirst(str)
+end
+
+local function setprecision(obj, maxprecision)
+	if (not obj) or (type(obj) == 'string') then
+		return obj
+	end
+	local precision = tonumber(obj.precision) or numericprecision[obj.precision]
+	if maxprecision then
+		maxprecision = tonumber(maxprecision) or numericprecision[maxprecision]
+	end
+	if maxprecision then
+		return math.min(precision, maxprecision)
+	end
+	return precision
+end
+
+local function bigDate(year, precision) -- TODO : gestion de la précision
+	local format = require "Module:Format"
+	local val, unit = 0, ""
+	if year > 999999999 then
+		unit = " [[giga|G]][[Année julienne|a]]"
+		val = year / 1000000000
+	elseif year > 999999 then
+		unit = " [[méga|M]][[Année julienne|a]]"
+		val = year / 1000000
+	end
+	val = format.do_formatnum({val})
+	return val .. unit
+end
+
+
+local function milleniumString(millenium, era, hideera)
+	local str = roman.toRoman(millenium) .. '<sup>e</sup> millénaire'
+	if era == '-' and (not hideera) then
+		str = str .. ' av. J.-C.'
+	end
+	return str
+end
+
+local function centuryString(century, era, hideera)
+	local str = roman.toRoman(century) .. '<sup>e</sup> siècle'
+	if era == '-' and (not hideera) then
+		str = str .. ' av. J.-C.'
+	end
+	return '' -- trop d'erreurs sur Wikidata, en attente du UI correcte
+end
+
+local function decadeString(decade, era, hideera)
+	local str = 'années ' .. decade .. '0'
+	if era == '-' and (not hideera) then
+		str = str .. ' av. J.-C.'
+	end
+	return '[[' .. str .. ']]'
+end
+
+function p.simplestring(dateobject, displayformat)
+
+	-- transforme un object date ponctuel en texte
+	-- les dates de type ISO devraient passer par Module:Date, mais il faut pouvoir désactiver les liens
+	if type(dateobject) == 'string' or type(dateobject) == 'nil' then
+		return dateobject
+	end
+	if (not dateobject.year) and (not dateobject.month) and dateobject.day then -- si seul le jour est passé, par exemple à cause de removeclutter, le format n'est pas pris en charge par module:Date
+		return dateobject.day
+	end
+
+	local era = dateobject.era
+
+	if not displayformat then
+		displayformat = {}
+	end
+	local linktopic = displayformat.linktopic
+	local nolinks
+	if linktopic == '-' then
+		nolinks = true
+	end
+
+	local str
+	local precision = setprecision(dateobject, displayformat.precision)
+	
+	-- formats gérés par ce module
+	local year = tonumber( dateobject.year) or 0
+	
+	if year > 999999 then -- grosses dates pour l'astronomie, la paléontologie
+		return bigDate(year, precision)
+	end
+	
+	if precision == 6 then
+		local millenium = math.floor(year/1000) + 1
+		str = milleniumString(millenium, era, hideera)
+	elseif precision == 7 then
+		local century = math.floor(year/100) + 1
+		str = centuryString(century, era, hideera)
+	elseif precision == 8 then
+		local decade = tostring(math.floor(year/10))
+		str = decadeString(decade, era, hideera)
+	end
+	if str then
+		return str
+	end
+	
+	-- formats gérés par Module:Date
+	local year = dateobject.year
+	if year and (era == '-') then
+		year = 0 - year
+	end
+	local month, day
+	
+	if precision > 9 then
+		month = dateobject.month
+		if precision > 10 then
+			day = dateobject.day
+		end
+	end
+	
+	local avJC -- équivalent de hideera pour modeleDate
+	if displayformat.hideera then
+		avJC = 'non'
+	end
+	str = datemodule.modeleDate{jour = day, mois = month, annee = year, qualificatif = linktopic, nolinks = nolinks, avJC = avJC}
+	return str or ''
+end
+
+local function fromToNow(d, datestr, precision) -- retourne "depuis" plutôt que "à partir de" quand c'est pas terminé
+	if (precision >= 11) or (precision == 7) or (precision == 6)  then -- ont dit "à partir du pour les dates avec jour, les siècles, les millénaires
+		if vowelfirst(datestr) then -- suppose l'absence de lien interne
+			return "depuis l'" .. datestr
+		else
+			return "depuis le " .. datestr
+		end
+	end
+	return "depuis " .. datestr
+end
+
+local function fromdate(d, displayformat)  -- retourne "à partir de date" en langage naturel
+	displayformat = displayformat or {}
+	local precision = setprecision(d, displayformat.precision)
+	local datestr = p.simplestring(d, displayformat)
+	if displayformat and displayformat.textformat == 'minimum' then
+		return datestr -- par exemple pour les classements MH, juste afficher la date de début
+	end
+	if displayformat and displayformat.textformat == 'infobox' then
+		return datestr .. '-' -- pour certaines infobox (footballeur par exemple), afficher date de début et un tiret
+	end
+	if displayformat.stilltrue then return
+		fromToNow(d, datestr, precision)
+	end
+	if (precision >= 11) or (precision == 7) or (precision == 6)  then -- ont dit "à partir du pour les dates avec jour, les siècles, les millénaires
+		return 'à partir du ' .. datestr
+	end
+	if (precision == 10) and (vowelfirst(datemodule.nomDuMois(d.month))) then
+		return "à partir d'" .. datestr
+	end
+	return 'à partir de ' .. datestr
+end
+
+local function upto(d, displayformat)  -- retourne "jusqu'à date' en langage naturel
+	displayformat = displayformat or {}
+	local datestring = p.simplestring(d, displayformat)
+	local precision = setprecision(d, displayformat.precision)
+	if (precision >= 11) or (precision == 7) or (precision == 6) then --on dit "jusqu'au" pour les dates avec jour, et pour les siècles
+		return "jusqu'au " .. datestring
+	elseif (precision > 9) then
+		return "jusqu'à " .. datestring
+	else
+		return "jusqu'en " .. datestring
+	end
+end
+
+local function fromuntillong(startstr, endstr, era, precision)
+	-- on dit "du 3 au 14 janvier" mais "de septembe à octobre
+	if precision >= 11 then -- >= day
+		return "du " .. startstr .. " au " ..  endstr .. era
+	else
+		if vowelfirst(startstr) then
+			return "d'" .. startstr .. " à ".. endstr .. era
+		else
+			return "de " .. startstr .. " à " .. endstr .. era
+		end
+	end
+end
+
+local function removeclutter(startpoint, endpoint, precision, displayformat) -- prépare à rendre la date plus jolie : "juin 445 av-JC-juillet 445 av-JC -> juin-juillet 445-av-JC"
+	if (type(startpoint) ~= 'table') or (type(endpoint) ~= 'table') then
+		return startpoint, endpoint, precision, displayformat
+	end
+	local era = endpoint.era
+	local sameera
+	if startpoint.era == endpoint.era then
+		sameera = true
+	end
+	if (endpoint.year == startpoint.year) then
+		startpoint.year = nil
+		if (startpoint.month == endpoint.month) then
+			startpoint.month = nil
+			if (startpoint.day == endpoint.day) then
+				startpoint.day = nil
+			end
+		end
+	end
+	return startpoint, endpoint, era, displayformat, sameera
+end
+
+function p.between(startpoint, endpoint, displayformat)
+	displayformat = displayformat or {}
+	local precision = setprecision(endpoint, displayformat.precision) or 9
+
+	local startpoint = p.simplestring(startpoint, displayformat)
+	local endpoint = p.simplestring(endpoint, displayformat)
+	
+	if not (startpoint or endpoint) then
+		return nil
+	end
+	if not endpoint then
+		if precision <= 10 then
+			return "après " ..  startpoint
+		else
+			return "après le " ..  startpoint
+		end
+	end
+	if not startpoint then
+		if precision <= 10 then
+			return "avant " ..  endpoint
+		else
+			return "avant le " ..  endpoint
+		end
+	end
+
+ 	-- analyse les paramètres pour éviter les redondances
+ 	
+	local startpoint, endpoint, era, displayformat, sameera = removeclutter(startpoint, endpoint, precision, displayformat)
+
+	local startstr, endstr =  p.simplestring(startpoint, displayformat), p.simplestring(endpoint, displayformat)
+	displayformat.hideera = true
+	
+	if (startstr == '') or (startstr == endstr) then
+		if (not sameera) then
+			displayformat.hideera = false --sinon c'est incompréhensible
+			return p.simplestring(endpoint, displayformat)
+		end
+		return endstr
+	end
+	-- pour éviter les tournures répétitives comme  "du 13 septembre 2006 au 18 september 2006"
+	if era == "-" then
+		era = " av J-C"
+	else
+		era = ""
+	end
+	
+	if precision <= 9 then
+		return "entre " .. startstr .. " et " .. endstr .. " " .. era
+	else
+		return "entre le " .. startstr .. " et le " .. endstr .. " " .. era
+	end
+end
+
+local function fromuntil(startpoint, endpoint, displayformat)
+	displayformat = displayformat or {}
+	local precision = setprecision(endpoint, displayformat.precision)
+
+ 	-- analyse les paramètres pour éviter les redondances
+ 	
+	local startpoint, endpoint, era, displayformat, sameera = removeclutter(startpoint, endpoint, precision, displayformat)
+
+	local hiderea= displayformat.hideera	
+	displayformat.hideera = true -- pour les chaînes intermédiaires
+	
+	local startstr, endstr =  p.simplestring(startpoint, displayformat), p.simplestring(endpoint, displayformat)
+	
+	if (startstr == '') or (startstr == endstr) then
+		displayformat.hideera = hidera -- on va faire une chaîne simple, on reprend donc le format initialement demandé
+		if (not sameera) then
+			displayformat.hideera = false --sinon c'est incompréhensible
+		end
+		return p.simplestring(endpoint, displayformat)
+	end
+	-- pour éviter les tournures répétitives comme  "du 13 septembre 2006 au 18 september 2006"
+	if era == '-' then
+		era = ' av J-C'
+	else
+		era = ''
+	end
+	if displayformat.textformat == 'long' then
+		return fromuntillong(startstr, endstr, era, precision)
+	elseif (type(precision) == "number") and (precision > 9) then -- si les date contiennent des mois ou jours, il vaut mieux un espace
+		return startstr .. ' -<wbr> ' .. endstr .. era
+	else
+		return startstr .. '-<wbr>' .. endstr .. era
+	end
+end
+
+
+function p.fuzzydate(dateobject, displayformat)
+	local str = p.simplestring(dateobject, displayformat)
+	if not str then
+		return nil
+	end
+	return "vers " .. str
+end
+
+function p.daterange(startpoint, endpoint, displayformat)
+	if startpoint and endpoint then
+		return fromuntil(startpoint, endpoint, displayformat)
+	elseif startpoint then
+		return fromdate(startpoint, displayformat)
+	elseif endpoint then
+		return upto(endpoint, displayformat)
+	else
+		return nil
+	end
+end
+
+function p.duration(start, ending)
+	if (not start) or (not ending) then
+		return nil -- ?
+	end
+	return datemodule.age(start.year, start.month, start.day, ending.year, ending.month, ending.day)
+end
+
+local function splitWDdate(str) -- depuis datavalue.value.time de Wikidata, fonctionnerait aussi en utilisant simplement splitISO
+	local pattern = "(%W)(%d+)%-(%d+)%-(%d+)"
+	local era, year, month, day = str:match(pattern)
+	return era, year, month, day
+end
+
+local function splitISO(str)
+	local era, year, month, day
+	era = string.sub(str, 1, 1)
+	if tonumber(era) then
+		era = '+'
+	end
+	local f = string.gmatch(str, '%d+')
+	year, month, day = f(), f(), f()
+	return era, year, month, day
+end
+
+function p.splitDate(orig, calendar)
+	if not orig then
+		return nil
+	end
+	if type(orig) == 'table' then
+		return orig
+	end
+	if type(orig) ~= 'string' then
+		return error("bad datatype for date, string expected, got " .. type(orig))
+	end
+	local era, y, m, d = splitWDdate(orig) 
+	if not era then
+		era, y, m, d = splitISO(orig)
+	end
+
+	y, m, d = tonumber(y or 1), tonumber(m or 1), tonumber(d or 1)
+	return {day = d, month = m, year = y, era = era, timestamp = timestamp, type = 'dateobject', calendar = calendar}
+end
+
+function p.before(a, b) -- return true if b is before a or if at least one of a or b is missing
+	a = p.splitDate(a) 
+	b = p.splitDate(b)
+	if (not a) or (not b) then
+		return true
+	end
+	local order = {'era', 'year', 'month', 'day'}
+	for i, j in pairs(order) do
+		if b[j] < a[j] then
+			return true
+		elseif b[j] > a[j] then
+			return false
+		end
+	end
+	return true
+end
+
+return p

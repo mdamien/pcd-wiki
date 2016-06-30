@@ -1,0 +1,279 @@
+local person = require "Module:Infobox/Fonctions/Personne"
+local wd = require "Module:Interface Wikidata".fromLua
+local linguistic = require "Module:Linguistique"
+		-- Si vous modifiez ce tableau, n'oubliez pas de mettre à jour la section 'Chartes graphiques' de [[Modèle:Infobox Biographie2/Documentation]]
+local occupationformats = {
+	--{profession, profession, couleur titre, couleur sous-titre, couleur texte, icône)  doivent être classés du plus spécifique au plus général
+	{'Q947873',  'animateur audiovisuel', '#D9D9FF', '#7ABCF9', '#000000', 'television'}, 
+	{'Q191633',  'mangaka', '#80DDBF', '#B0FFD0', '#000000', 'bd'}, 
+	{'Q3285854',  'manhwaga', '#80DDBF', '#B0FFD0', '#000000', 'bd'}, 
+	{'Q3285832',  'manhuajia', '#80DDBF', '#B0FFD0', '#000000', 'bd'}, 
+	{'Q715301',  'auteur de bande dessinée', '#FFEEAA', '#FFEEAA', '#000000', 'bd'}, 
+	{'Q1350189', 'égyptologue', '#CCCCAA', '#CCCCAA', '#000000', 'egypte-antique'}, 
+	{'Q3621491', 'archéologue', '#CCCCAA', '#CCCCAA', '#000000', 'defaut'}, 
+	{'Q42973', 'architecte', '#4C6099', '#7090E0', '#FFFFFF', 'defaut'}, 
+	{'Q2159907', 'criminel', '#F2F2F2', '#F2F2F2', '#000000', 'defaut'}, 
+	{'Q11900058', 'explorateur', '#EEEEFF', '#F6F6FF', '#000000', 'map'}, 
+	{'Q10873124', "joueur d'échecs", '#F0E0F0', '#F0E0F0', '#000000', 'defaut'}, 
+	{'Q12039558', 'joueur de go', '#EEEEFF', '#F6F6FF', '#000000', 'jeu'}, 
+	{'Q15295720', 'joueur de poker', '#4E957D', '#A6D0C1', '#442200', 'poker'}, 
+	{'Q14467526', 'linguiste', '#CFA0E9', '#E3C8F2', '#000000', 'auteur'},  
+	{'Q212980', 'psychologue', '#BFD7FF', '#CFE1FF', '#000000', 'psychologie'},   
+	{'Q39631', 'médecin', '#DDFFDD', '#DDFFDD', '#000000', 'medecine'}, 
+	{'Q177220', 'chanteur', '#B6CCDE', '#B6CCDE', '#000000', 'musique'}, 
+	{'Q1278335', 'instrumentiste', '#D2C6B6', '#D2C6B6', '#000000', 'musique'}, 
+	{'Q3089940', 'producteur de musique', '#B4CDCD', '#B4CDCD', '#000000', 'musique'}, 
+	{'Q36834', 'compositeur', '#B4CDCD', '#B4CDCD', '#000000', 'musique'}, 
+	{'Q1643514', 'arrangeur', '#B4CDCD', '#B4CDCD', '#000000', 'musique'}, 
+	{'Q15981151', 'musicien de jazz', '#B2FFC6', '#B2FFC6', '#000000', 'musique'}, 
+	{'Q5716684', 'danseur', '#FFFF80', '#FFFF80', '#000000', 'musique'}, 
+	{'Q1954956', 'acteur de comédie musicale', '#D9B2FF', '#D9B2FF', '#000000', 'musique'}, 
+	{'Q2259451', 'acteur de théâtre', '#AA3333', '#AA3333', '#000000', 'persofiction'}, 
+	{'Q4964182', 'philosophe', '#B0C4DE', '#CFDBEB', '#000000', 'auteur'}, 
+	{'Q11631', 'astronaute', '#FFDEAD', '#FFDEAD', '#000000', 'defaut'}, 
+	{'Q17125263', 'YouTubeur', '#D62020', '#E96B6B', '#000000', 'informatique'}, 
+	{'Q854997', 'moine bouddhiste', '#FFD068', '#FFE6AA', '#000000', 'defaut'}, 
+	{'Q245068', 'humoriste', '#FF8080', '#FFC0C0', '#000000', 'persofiction'}, 
+	{'Q488111', 'acteur de films pornographiques', '#FF66B3', '#FFA0EE', '#000000', 'cinema'}, 
+	{'Q10800557', 'acteur de films', '#09C8BD', '#5CF8F0', '#000000', 'cinema'}, 
+	{'Q7042855', 'monteur', '#09C8BD', '#5CF8F0', '#000000', 'cinema'}, 
+	{'Q3282637', 'producteur de cinéma', '#09C8BD', '#5CF8F0', '#000000', 'cinema'}, 
+	{'Q37110', 'pharaon', '#AAAA80', '#CCCCAA', '#000000', 'egypte-antique'}, 
+	{'Q728711', 'Playmate', '#FF66B3', '#FFA0EE', '#000000', 'humain'}, 
+	{'Q18581305', 'participant à un concours de beauté', '#FFDAB9', '#FFDAB9', '#000000', 'humain'}, 
+	{'Q193391', 'diplomate', '#4682B4', '#B0C4DE', '#000000', 'defaut'}, 
+	{'Q203184', 'première dame', '#4682B4', '#B0C4DE', '#000000', 'defaut'}, 
+	{'Q5784340', 'consort', '#723E64', '#CDBAC8', '#FFFFFF', 'pretendant'}, 
+	{'Q207293', 'prince héritier', '#5977A8', '#C4CFE0', '#000000', 'pretendant'}, 
+	{'Q2747456', 'prince', '#878787', '#D4D4D4', '#000000', 'pretendant'}, 
+	{'Q863048', 'princesse', '#878787', '#D4D4D4', '#000000', 'pretendant'}, 
+	{'Q845929', 'prétendant au trône', '#EAAC00', '#F7E1A5', '#000000', 'pretendant'}, 
+	{'Q4610556', 'mannequin', '#FFB6C1', '#FFB6C1', '#000000', 'humain'}, 
+	{'Q1409420', 'feudataire', '#4682B4', '#B0C4DE', '#FFFFFF', 'defaut'}, 
+	{'Q2478141', 'aristocrate', '#DFDFDF', '#DFDFDF', '#000000', 'defaut'}, 
+	{'Q37349', 'dalaï-lama', '#FF8888', '#FF8888', '#000000', 'humain'}, 
+	{'Q842606', 'empereur romain', '#FFB6C1', '#FFC4EB', '#000000', 'defaut'}, 
+	{'Q268218', 'empereur de Chine', '#FFD700', '#FFEC80', '#000000', 'defaut'}, 
+	{'Q116', 'monarque', '#000080', '#BFC5F9', '#FFFFFF', 'pretendant'}, 
+	{'Q11811941', 'conseiller fédéral suisse', '#FF0000', '#FFDDDD', '#000000', 'defaut'}, 
+	{'Q2285706', 'chef de gouvernement', '#6688FF', '#E1E1FF', '#000000', 'defaut'}, 
+	{'Q48352', "chef d'État", '#0033CC', '#BFC5F9', '#000000', 'defaut'}, 
+	{'Q15319501', 'spécialiste des sciences sociales', '#5A71CE', '#7B8DD8', '#FFFFFF', 'default'}, 
+	{'Q133485', 'rabbin', '#B7B7FF', '#B7B7FF', '#000000', 'israel-judaisme'}, 
+	{'Q191421', 'lama', '#FF8888', '#FF8888', '#000000', 'defaut'}, 
+	{'Q619896', 'catholicos', '#8000FF', '#8000FF', '#000000', 'defaut'}, 
+	{'Q9149093', 'alpiniste', '#BFD7FF', '#BFD7FF', '#000000', 'alpinisme'}, 
+	{'Q13382355', 'archer', '#FADA5E', '#FCE684', '#000000', 'arc'}, 
+	{'Q11513337', 'athlète', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q13381753', 'coureur de demi-fond', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q13381494', 'coureur de fond', '#D7877B', '#E1A59C', '#000000',  'athletisme'}, 
+	{'Q4009406', 'sprinteur', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q13464497', 'perchiste', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q13856320', 'lanceur de marteau', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q18510502', 'lanceur de javelot', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q13381689', 'lanceur de disque', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q18534714', 'lanceur de poids', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q13382122', 'sauteur en hauteur', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q13381428', 'sauteur en longueur', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q13848274', 'triple sauteur', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q17405793', 'marcheur', '#D7877B', '#E1A59C', '#000000', 'athletisme'}, 
+	{'Q19595175', 'lutteur', '#FFDFA2', '#FFE7B9', '#000000', 'lutte'}, 
+	{'Q13382576', 'avironneur', '#BFD7FF', '#BFD7FF', '#000000', 'aviron'}, 
+	{'Q10871364', 'joueur de baseball', '#336699', '#408080', '#FFFFFF', 'baseball'}, 
+	{'Q3665646', 'joueur de basket-ball', '#DD8F56', '#E6AB80', '#FFFFFF', 'basket-ball'}, 
+	{'Q5137571', 'entraîneur de basket-ball', '#DD8F56', '#E6AB80', '#FFFFFF', 'basket-ball'}, 
+	{'Q11338576', 'boxeur', '#85A3C2', '#ADC2D6', '#000000', 'boxe'}, 
+	{'Q13382566', 'canoéiste', '#BFD7FF', '#BFD7FF', '#000000', 'kayak'}, 
+	{'Q2309784', 'coureur cycliste', '#FFDF80', '#FFE7A0', '#000000', 'cyclisme'}, 
+	{'Q13381863', 'escrimeur', '#C0BBDB', '#D0CCE4', '#000000', 'escrime'}, 
+	{'Q18515558', 'joueur de futsal', '#99CC99', '#B3D9B3', '#000000', 'futsal'}, 
+	{'Q937857', 'footballeur', '#99CC99', '#B3D9B3', '#000000', 'footballblack'}, 
+	{'Q19204627', 'joueur de football américain', '#369', '#CCCCFF', '#000000', 'defaut'}, 
+	{'Q19841381', 'joueur de football canadien', '#BFD33C', '#CFDE6D', '#000000', 'defaut'}, 
+	{'Q16947675', 'gymnaste', '#B0C4DE', '#C4D3E6', '#000000', 'gymnastique'}, 
+	{'Q13156709', 'golfeur', '#007700', '#007700', '#FFFFFF', 'golf'}, 
+	{'Q3951423', 'grimpeur', '#BFD7FF', '#BFD7FF', '#000000', 'escalade'}, 
+	{'Q13365117', 'handballeur', '#E0D080', '#E8DCA0', '#000000', 'handballblack'}, 
+	{'Q9017214', 'karatéka', '#FFDFA2', '#FFE7B9', '#000000', 'karate'}, 
+	{'Q6665249', 'judoka', '#FFDFA2', '#FFE7B9', '#000000', 'judo'}, 
+	{'Q16004471', 'kayakiste', '#BFD7FF', '#BFD7FF', '#000000', 'kayak'}, 
+	{'Q11774891', 'joueur de hockey sur glace', '#DFEDFF', '#E7F2FF', '#000000', 'hockey'}, 
+	{'Q10843263', 'joueur de hockey sur gazon', '#99CC99', '#B3D9B3', '#000000', 'hockey-sur-gazon'}, 
+	{'Q10843402', 'nageur', '#318CE7', '#65A9ED', '#FFFFFF', 'natation'}, 
+	{'Q2465611', 'co-pilote automobile', '#B4B9C3', '#C7CBD2', '#000000', 'sport-automobile'}, 
+	{'Q15958185', 'pilote automobile', '#B4B9C3', '#C7CBD2', '#000000', 'sport-automobile'}, 
+	{'Q3014296', 'pilote de moto', '#B4B9C3', '#C7CBD2', '#000000', 'sport-automobile'}, 
+	{'Q2730732', 'cavalier', '#C3906E', '#D2B48C', '#000000', 'equitation'}, 
+	{'Q20900796', 'joueur de rink hockey', '#BFD7FF', '#BFD7FF', '#000000', 'rinkhockey'}, 
+	{'Q13415036', 'rugbyman', '#336699', '#668CB3', '#FFFFFF', 'rugby'}, 
+	{'Q13561328', 'surfeur', '#99CCFF', '#BBDDFF', '#000000', 'surf'}, 
+	{'Q10833314', 'joueur de tennis', '#FFAA77', '#FFBF99', '#000000', 'tennis'}, 
+	{'Q15306067', 'triathlète', '#BFD7FF', '#BFD7FF', '#000000', 'triathlon'}, 
+	{'Q13141064', 'joueur de badminton', '#FFAA77', '#FFBF99', '#000000', 'badminton'}, 
+	{'Q16278103', 'joueur de squash', '#FFAA77', '#FFBF99', '#000000', 'squash'}, 
+	{'Q13382519', 'joueur de tennis de table', '#FFAA77', '#FFBF99', '#000000', 'tennis-de-tableblack'}, 
+	{'Q15117302', 'volleyeur', '#74CC66', '#97D98C', '#000000', 'volleyball'}, 
+	{'Q17524364', 'joueur de water-polo', '#BFD7FF', '#BFD7FF', '#000000', 'water-polo'}, 
+	{'Q549322', 'torero', '#AA3333', '#D87C7C', '#FFFFFF', 'defaut'}, 
+	{'Q12299841', 'joueur de cricket', '#F5F5DC', '#F5F5DC', '#000000', 'defaut'}, 
+	{'Q13474373', 'catcheur', '#306090', '#306090', '#000000', 'catch'}, 
+	{'Q202648', 'arbitre sportif', '#CCE6CC', '#E6F2E6', '#000000', 'arbitre'}, 
+	{'Q611644', 'évêque catholique', '#66CC80', '#BFFFBF', '#000000', 'eveque'}, 
+	{'Q29182',  'évêque', '#66CC80', '#BFFFBF', '#000000', 'eveque'}, 
+	{'Q49476', 'archévêque', '#66CC80', '#BFFFBF', '#000000', 'eveque'}, 
+	{'Q171692', 'patriarche', '#66CC80', '#BFFFBF', '#000000', 'defaut'}, 
+	{'Q45722', 'cardinal', '#DE143C', '#EF7777', '#000000', 'cardinal'}, 
+	{'Q19546', 'pape', '#FED600', '#FFFF00', '#000000', 'defaut'}, 
+	{'Q172748', 'antipape', '#FED600', '#FFFF00', '#000000', 'defaut'}, 
+	{'Q9591034', 'bienheureux', '#FED600', '#FFFF00', '#000000', 'defaut'}, 
+	{'Q43115', 'saint', '#FED600', '#FFFF00', '#000000', 'defaut'}, 
+	{'Q733786', 'moine', '#8C8C8C', '#E1E1E1', '#000000', 'defaut'}, 
+	{'Q831474', 'prêtre chrétien', '#8C8C8C', '#E1E1E1', '#000000', 'defaut'}, 
+	{'Q250867', 'prêtre catholique', '#8C8C8C', '#E1E1E1', '#000000', 'defaut'}, 
+	{'Q103163', 'abbé', '#8C8C8C', '#E1E1E1', '#000000', 'defaut'}, 
+	{'Q1646408', 'abbesse', '#8C8C8C', '#E1E1E1', '#000000', 'defaut'}, 
+	{'Q725440', 'prélat', '#AA0052', '#D580A9', '#000000', 'defaut'}, 
+	{'Q81066', "secrétaire général de l'ONU", '#6495ED', '#6495ED', '#FFFFFF', 'defaut'}, 
+	{'Q20778343', 'magistrat romain', '#F2F2F2', '#F2F2F2', '#000000', 'defaut'}, 
+	{'Q15253558', 'militant', '#E1E1E1', '#E1E1E1', '#000000', 'defaut'}, 
+	{'Q1250916', 'guerrier', '#EEEEFF', '#F6F6FF', '#000000', 'defaut'}, 
+	{'Q2722764','animateur de radio', '#D9D9FF', '#7ABCF9', '#000000', 'communication'}, 
+	{'Q3186984', 'journaliste de presse écrite', '#D9D9FF', '#7ABCF9', '#000000', 'presse'}, 
+	{'Q1930187', 'journaliste', '#D9D9FF', '#7ABCF9', '#000000', 'defaut'}, 
+	{'Q17291399', 'personnalité du cinéma', '#09C8BD', '#5CF8F0', '#000000', 'cinema'}, 
+	{'Q16029547', 'biathlète', '#DFEDFF', '#E7F2FF', '#000000', 'biathlon'}, 
+	{'Q13382608', 'fondeur', '#DFEDFF', '#E7F2FF', '#000000', 'fondeur'}, 
+	{'Q4144610', 'skieur alpin', '#DFEDFF', '#E7F2FF', '#000000', 'ski-alpin'},
+	{'Q13382603', 'sauteur à ski', '#DFEDFF', '#E7F2FF', '#000000', 'sautski'},
+	{'Q20965770', "pratiquant de sports d'hiver", '#DFEDFF', '#E7F2FF', '#000000', 'defaut'}, 
+	{'Q11607585', "pratiquant d'arts martiaux mixtes", '#FFDFA2', '#FFE7B9', '#000000', 'artsmartiauxjap'}, 
+	{'Q11124885', "pratiquant d'arts martiaux", '#FFDFA2', '#FFE7B9', '#000000', 'artsmartiauxjap'}, 
+	{'Q2066131', 'sportif', '#BFD7FF', '#BFD7FF', '#000000', 'defaut'}, 
+	{'Q82955', 'personnalité politique', '#4682B4', '#B0C4DE', '#FFFFFF', 'defaut'}, 
+	{'Q82955', 'homme politique', '#4682B4', '#B0C4DE', '#FFFFFF', 'defaut'}, 
+	{'Q82955', 'femme politique', '#4682B4', '#B0C4DE', '#FFFFFF', 'defaut'}, 
+	{'Q36180', 'écrivain', '#4C6099', '#7090E0', '#FFFFFF', 'auteur'}, 
+	{'Q2526255', 'réalisateur', '#09C8BD', '#5CF8F0', '#000000', 'cinema'}, 
+	{'Q33999', 'acteur', '#EEEEFF', '#F6F6FF', '#000000', 'persofiction'}, 
+	{'Q639669', 'musicien', '#EEEEFF', '#F6F6FF', '#000000', 'musique'}, 
+	{'Q483501', 'artiste', '#7DA7D9', '#7DA7D9', '#000000', 'artiste'}, 
+	{'Q901', 'scientifique', '#EEEEFF', '#F6F6FF', '#000000', 'defaut'}, 
+}
+
+local function setformat() --retourne une table contenant la couleur principale de l'infobox et l'icône de titre
+	local occupations = wd.stringTable{entity = item, property = 'P106', displayformat = 'raw', excludespecial = true} -- récupère les Qid des professions
+	if not occupations or (#occupations > 1) then -- si plusieurs occupations, on ne sait pas laquelle choisir
+		return  {'Q', '', '#EEEEFF', '#F6F6FF', '#000000', 'defaut'}
+	end
+	occupations = wd.addVals(occupations, {property = 'P279'}, 2) -- nombre d'étages de sous-classes à remonter
+	for i, j in pairs(occupations) do
+		for k, l in pairs(occupationformats) do
+			if l[1] == j then
+				return l
+			end
+		end
+	end
+	return {'Q', '', '#EEEEFF', '#F6F6FF', '#000000', 'defaut'}
+end
+local function setcharte()
+	if localdata['charte'] then
+		charte = localdata['charte']
+		for i, j in pairs(occupationformats) do
+			if j[2] == charte then
+				return j
+			end
+		end
+	end
+	return setformat()
+end
+local personformat = setcharte()
+return
+	{
+	maincolor = personformat[3],
+	secondcolor = personformat[4],
+	thirdcolor = personformat[5],
+	parts =
+    	{
+			person.title(personformat[6]),
+			person.mainimage(),
+			person.officialposition(),
+			person.nobilitytitle(),
+			{type = 'table',title='Biographie',rows = {
+				person.birth(),
+				person.death(),
+				person.floruit(),
+				person.othernames(),
+				{type = 'row', label = 'Époque', value = 'époque', property = 'P2348'},
+				person.nationality(),
+				{type = 'row', label = 'Allégeance', plurallabel = 'Allégeances', value = 'allégeance', property = 'P945'},
+				person.places(),
+				person.education(),
+				person.occupation(),
+				{type = 'row', label = 'Appartenance ethno-culturelle', plurallabel = 'Appartenances ethno-culturelles', value= 'ethnicité', wikidata = {
+				-- ethnicité veut dire appartenance à une ethnie d'après [[Ethnie]]
+				-- essai de expl=true qui est normalement fait pour données mises à jour mais à utilité dans chaque article difficile à décider automatiquement
+					property = 'P172',
+					expl = true, 
+					-- désactivé si la valeur est une instance de race humaine (Q3254959)
+					condition = function(claim)
+						local v = wd.getmainid(claim)
+						return (not wd.isInstance("Q3254959", v, 2))
+					end
+					}
+				},
+				person.family(),
+				person.slavery(),
+				},
+			},
+			{type = 'table',title='Autres informations',rows = {
+				{type = 'row', label = 'Organisation', plurallabel = 'Organisations', value = 'organisation', property = 'P1268'},
+				person.employer(),
+				{type = 'row', label = 'Chaire', plurallabel = 'Chaires', value = 'chaire', property = 'P803'},
+				{type = 'row', label = 'Domaine', plurallabel = 'Domaines', value = 'domaine', property = 'P101'},
+                {type = 'row', label = 'Propriétaire de', value = 'propriétaire de', property = 'P1830'},
+				person.religion(),
+				person.politicalparty(),
+				person.memberof(),
+				{type = 'row', label = "[[Huit Bannières|Bannière]]", plurallabel = "[[Huit Bannières|Bannières]]", value = "bannière d'appartenance", wikidata = {
+					property = 'P470',
+					labelformat = function(id)
+						local label = wd.getLabel(id)
+						if label then
+							return mw.ustring.gsub(label, "[Bb]annière ", "")
+						end
+					end
+					}
+ 				},
+				person.military(),
+				person.movement(),
+				person.appearance(),
+				person.sport(),
+				{type = 'row', label = 'Grade', plurallabel = 'Grades', value= 'grade', property = 'P468'},
+				{type = 'row', label = 'Commandement', plurallabel = 'Commandements', wikidata = {property = 'P598', sorttype= 'chronological', showdate = true, precision = 'year'},},
+				{type = 'row', label = 'A participé à', value = 'participant à', wikidata = {property = 'P1344', sorttype= 'chronological', conjtype = 'new line'},},
+				person.torero(),
+				person.music(),
+				person.contacts(),
+				{type = 'row', label = 'Genre artistique', plurallabel= 'Genres artistiques', value= 'genre artistique', property = 'P136'},
+				person.influencedby(),
+				person.victims(),
+				person.penalties(),
+				{type = 'row', label = 'Adjectifs dérivés', value = 'adjectifs dérivés'},
+				person.website(),
+				{type = 'row', label = 'Blog officiel', value = 'blog officiel', property = 'P1581', ucfirst = '-' },
+				person.awards(),
+				person.filmography(),
+				person.discography(),
+				},
+			},
+			person.honorifictitle(),
+			person.voice(),
+			person.blason(),
+			person.sceau(),
+			person.monogram(),
+			person.flag(),
+			person.logo(),
+			person.works(),
+			person.signature(),
+		}
+	}

@@ -1,0 +1,139 @@
+local p = {}
+local d = require 'Module:Wikidata'
+local entities = require 'Module:Wikidata/Formatage entité'
+local tools = require 'Module:Wikidata/Outils'
+local analysis = require 'Module:Wikidata/Analyse transitive'
+local util = require "Module:Utilitaire Wikidata"
+
+
+-- fonctions ne pouvant être appelées que depuis un autre module
+p.fromLua = {
+	
+	-- manipulation d'une liste d'affirmations
+	getClaims = d.getClaims,
+	stringTable = d.stringTable,
+	tableToText = d.tableToText,
+	formatStatements = d.formatStatements,
+	formatQualifiers = d.showQualifier,
+	formatAndCat = d.formatAndCat,
+	wikidataDate = d.wikidataDate,
+	addLinkback = d.addLinkback,
+	addtrackingcat = d.addtrackingcat,
+	
+	-- manipulation d'une affirmation individelle
+	getmainid = tools.getMainId,
+	formatStatement = d.formatStatement,
+	statementDate = d.getFormattedDate, -- récupère la date des qualificatifs
+	getFormattedQualifiers = d.getFormattedQualifiers,
+	getQualifiers = d.getQualifiers,
+	getReferences = d.getReferences,
+
+	-- manipulation de snaks	
+	getid = tools.getId,
+	formatSnak = d.formatSnak,
+	
+	-- utilisation de qids
+	getEntity = tools.getEntity,
+	formatEntity = entities.formatEntity,
+	getLink = tools.siteLink,
+	getLabel = entities.getLabel, --getLabel est plus simple que formatEntity
+
+	-- utilisation des propriétés transitives
+	isInstance = analysis.isInstance,
+	isSubclass = analysis.isSubclass,
+	addVals = analysis.addVals,
+	transitiveVals = analysis.transitiveVals,
+	inTransitiveVals = analysis.inTransitiveVals,
+
+	-- gestion des dates
+	mainDate = util.maindate,
+	getDate = d.getTheDate,
+	keyDate = util.keydate,
+
+	-- Fonctions diverses
+	citeItem = d.citeitem,
+	translate = tools.translate,
+	Dump = d.Dump,
+}
+
+-- Fonctions frame pour usage depuis le Wikitexte (avec parfois des options pour gérer des données moins propres
+local function cleanargs(args)
+	local newargs = {}
+	for i, j in pairs(args) do
+		if j ~= '' then
+			newargs[i] = j
+		end
+	end
+	return newargs
+end
+
+
+function p.formatStatements( frame ) -- pour [[Modèle:Wikidata]]
+	local args = {}
+	if frame == mw.getCurrentFrame() then
+		args = frame:getParent().args -- paramètres du modèle appelant (est-ce vraiment une bonne idée ?)
+		for k, v in pairs(frame.args) do
+			args[k] = v
+		end
+	else
+		args = frame
+	end
+	return p.fromLua.formatStatements( args )
+end
+
+function p.formatEntity(frame)
+	local args = cleanargs(frame.args)
+	local entity = args.entity or args[1]
+	if (not entity) or (entity == '') then
+		entity = mw.wikibase.getEntityObject()
+	end
+	return p.fromLua.formatEntity(entity, args)
+end
+
+function p.formatAndCat(frame)
+	local args = cleanargs(frame.args)
+	return p.fromLua.formatAndCat(args)
+end
+
+function p.citeItem(frame)
+	local args = cleanargs(frame.args)
+	local item, page = args[1], args['page']
+	return p.fromLua.citeItem(item, page)
+end
+
+function p.getLabel(frame)
+	local args = cleanargs(frame.args)
+	local item = args[1]
+	local lang = args[2] or "fr"
+	return p.fromLua.getLabel(item, lang)
+end
+
+
+function p.mainDate(frame)
+	return p.fromLua.mainDate(frame.args['entity'])	
+end
+
+function p.Dump(frame)
+	return p.fromLua.Dump(frame.args[1])
+end
+
+function p.formatQualifiers(frame)
+	local args = frame.args
+	return p.fromLua.formatQualifiers(args)
+end
+
+function p.getDescription(frame) -- fonction simpliste, mais bon, les descriptions Wikidata, c'est pas non plus super utile
+	return  mw.wikibase.description(frame.args[1])
+end
+
+function p.getLink(frame)
+	local args = frame.args
+	local link, proj, lang = p.fromLua.getLink(args[1], args[2], args[3])
+	return link
+end
+
+function p.translate(frame)
+	return p.fromLua.translate(frame.args[1])
+end
+
+return p

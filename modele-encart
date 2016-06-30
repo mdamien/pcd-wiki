@@ -1,0 +1,25 @@
+<includeonly>{| {{#if: {{{cadre|}}} | style="width:{{{largeur_cadre|}}};border: 3px solid #{{#ifeq: {{{cadre|}}} | oui | {{#if: {{{couleur|}}} | {{#invoke:Couleur|nuance|{{{couleur}}}}} | 999999}} | {{#invoke:Couleur|nuance|{{{cadre}}}}}}};"}}
+{{#if: {{{marge|}}} | {{!}} style="width: {{#switch: {{{marge}}} | mince = 5px | étroit = 40px | moyen = 60px | large = 80px | {{{marge}}}}};" {{!}}}}
+| style="text-align: center; background: #{{#if: {{{couleur|}}} | {{#invoke:Couleur|nuance|{{{couleur}}}}} | 999999}}; width: {{#switch: {{{largeur|}}} | mince = 5px | étroit = 40px | large = 80px | {{#if: {{{largeur|}}} | {{{largeur}}} | 60px}}}}; min-height: 80px;" |
+{{#switch: {{{symbole|}}}
+ | anecdote = [[Image:Emoticon white icon.svg|40px]]
+ | attention = [[Image:Warning symbol.svg|40px]]
+ | démonstration = [[Image:Symbol thumbs up white.svg|40px]]
+ | exemple = [[Image:Exclamation mark white icon.svg|40px]]
+ | musique = [[Image:30x-Music.png|40px]]
+ | notation = [[Image:White pencil icon.svg|30px]]
+ | note = [[Image:30x-Checkmark.png|40px]]
+ | question = [[Image:Question mark white icon.svg|40px]]
+ | texte = [[Image:White open book.svg|40px]]
+ | voir = [[Image:Stylized eye.svg|60px]]
+ | {{{symbole|}}}
+}}
+| valign="top" style="padding-left: 20px;" |
+{{{contenu|{{{1}}}}}}
+|}</includeonly><noinclude>
+<!--
+
+{{Documentation}}-->
+
+[[Catégorie:Modèle]]
+</noinclude>

@@ -1,0 +1,312 @@
+local p = {}
+local datequalifiers = {'P585', 'P571', 'P580', 'P582'}
+local tools = require "Module:Wikidata/Outils"
+local datemod = require "Module:Date complexe"
+
+local function notSpecial(claim)
+	return tools.isValue(claim.mainsnak)
+end
+
+local function hastargetvalue(claim, targets) -- retourne true si la valeur est dans la liste des target, ou si c'est une valeur spéciale filtrée séparément par excludespecial
+	local id = tools.getMainId(claim)
+	local targets = tools.splitStr(targets)
+	return tools.isHere(targets, id) or tools.isSpecial(claim.mainsnak)
+end
+
+local function excludevalues(claim, values) -- true si la valeur n'est pas dans la liste, ou si c'est une valeur spéciale (filtrée à part par excludespecial)
+	return tools.isSpecial(claim.mainsnak) or not ( hastargetvalue(claim, values) )
+end
+
+local function bestranked(claims)
+	if not claims then
+		return nil
+	end
+	local preferred, normal = {}, {}
+	for i, j in pairs(claims) do
+		if j.rank == 'preferred' then
+			table.insert(preferred, j)
+		elseif j.rank == 'normal' then
+			table.insert(normal, j)
+		end
+	end
+	if #preferred > 0 then
+		return preferred
+	else
+		return normal
+	end
+end
+
+local function withrank(claims, target)
+	if target == 'best' then
+		return bestranked(claims)
+	end
+	local newclaims = {}
+	for pos, claim in pairs(claims)  do
+		if target == 'valid' then
+			if claim.rank ~= 'deprecated' then
+				table.insert(newclaims, claim)
+			end
+		elseif claim.rank == target then
+			table.insert(newclaims, claim)
+		end
+	end
+	return newclaims
+end
+
+function p.hasqualifier(claim, acceptedqualifs, acceptedvals, excludequalifiervalues)
+	local claimqualifs = claim.qualifiers
+	
+	if (not claimqualifs) then
+		return false
+	end
+
+	acceptedqualifs = tools.splitStr(acceptedqualifs)
+	acceptedvals = tools.splitStr( acceptedvals)
+
+
+	local function ok(qualif) -- vérification pour un qualificatif individuel
+		if not claimqualifs[qualif] then
+			return false
+		end
+		if not (acceptedvals) then  -- si aucune valeur spécifique n'est demandée, OK
+			return true
+		end
+		for i, wanted in pairs(acceptedvals) do
+			for j, actual in pairs(claimqualifs[qualif]) do
+				if tools.getId(actual) == wanted then
+					return true
+				end
+			end
+		end
+	end
+
+	for i, qualif in pairs(acceptedqualifs) do
+		if ok(qualif) then
+			return true
+		end
+	end
+	return false
+ end
+
+local function hassource(claim, targetsource, sourceproperty)
+	sourceproperty = sourceproperty or 'P248'
+	if not claim.references or not claim.references[sourceproperty] then
+		return false
+	end
+	if not targetsource then -- si toutes les sources sont valides, du moment qu'elles utilisent sourceproperty
+		return true
+	end
+	targetsource = tools.splitStr(targetsource)
+	for _, source in pairs(claim.references[sourceproperty]) do
+		local s = tools.getId(source)
+		for i, target in pairs(targetsource) do
+			if s == target then return true end
+		end
+	end
+	return true
+end
+
+local function excludequalifier(claim, qualifier, qualifiervalues)
+	return not p.hasqualifier(claim, qualifier, qualifiervalues)
+end
+
+
+local function hasdate(claim)
+	local claimqualifs = claims.qualifiers
+	if not claimqualifs then
+		return false
+	end
+	for _, qualif in pairs(claimqualifs) do
+		if claimsqualifs[qualif] and claimsqualifs[qualif][1].snaktype == 'value' then
+			return true
+		end
+	end
+	return false
+end
+
+local function haslink(claim, site, lang)
+	if not(tools.isValue(claim.mainsnak)) then -- ne pas supprimer les valeurs spéciales, il y a une fonction dédiée pour ça
+		return true
+	end
+	local id = tools.getMainId(claim)
+	local link = tools.siteLink(id, site, lang)
+	if link then
+		return true
+	end
+end
+
+local function isinlanguage(claim, lang) -- ne fonctionne que pour les monolingualtext / étendre aux autres types en utilisant les qualifiers ?
+	local snak = claim.mainsnak
+	if tools.isSpecial(snak) then
+		return false
+	end
+	if snak.datavalue.type == 'monolingualtext' and snak.datavalue.value.language == lang then
+		return true
+	end
+	return false
+end
+
+local function firstvals(claims, numval) -- retourn les numval premières valeurs de la table claims
+    local numval = tonumber(numval) or 0 -- raise a error if numval is not a positive integer ?
+    if not claims then
+    	return nil
+    end
+    while (#claims > numval) do
+    	table.remove(claims)
+    end
+    return claims
+end
+
+local function valinQualif(claim, qualifs)
+	local claimqualifs = claim.qualifiers
+	if not claimqualifs then
+		return nil
+	end
+	for i, qualif in pairs(qualifs) do
+		local vals = claimqualifs[qualif]
+		if vals and tools.isValue(vals[1]) then
+			return tools.getValue(vals[1]).time
+		end
+	end
+end
+
+local function chronosort(claims, inverted)
+	table.sort(
+		claims,
+		function(a,b)
+			local timeA = valinQualif(a, datequalifiers) or ''
+			local timeB = valinQualif(b, datequalifiers) or ''
+			if inverted then
+				return timeA > timeB -- marche sauf pour les dates < 10 000 av-JC utiliser datemod.before produit un bug
+			else
+				return timeB > timeA
+			end
+		end
+	)
+	return claims
+end
+
+local function atDate(claim, mydate)
+	local newclaims = {}
+	local mindate = valinQualif(claim, {'P580'}) 
+	local maxdate = valinQualif(claim, {'P582'})
+	if datemod.before(mydate, mindate) and datemod.before(maxdate, mydate) then
+		return true
+	end
+end
+
+local function check(claim, condition)
+	if type(condition) == 'function' then -- cas standard
+		return condition(claim)
+	end
+	local msg = "args.condition should be a function"
+	return error(msg)
+end
+
+function p.sortclaims(claims, sorttype)
+	if not claims then
+		return nil
+	end
+	if sorttype == 'chronological' then
+		return chronosort(claims)
+	elseif sorttype == 'inverted' then
+		return chronosort(claims, true)
+	elseif type(sorttype) == 'function' then
+		table.sort(claims, sorttype)
+		return claims
+	end
+	return claims
+end
+
+
+function p.filterClaims(claims, args) --retire de la tables de claims celles qui sont éliminés par un des filters de la table des filters
+
+	local function filter(condition, filterfunction, funargs)
+		if not args[condition] then
+			return
+		end
+		for i = #claims, 1, -1 do
+			if not( filterfunction(claims[i], args[funargs[1]], args[funargs[2]], args[funargs[3]]) ) then
+				table.remove(claims, i)
+			end
+		end
+	end
+
+	filter('targetvalue', hastargetvalue, {'targetvalue'} )
+	filter('isinlang', isinlanguage, {'isinlang'} )
+	filter('atdate', atDate, {'atdate'} )
+	filter('qualifier', p.hasqualifier, {'qualifier', 'qualifiervalue'} )
+	filter('excludequalifier', excludequalifier, {'excludequalifier', 'excludequalifiervalue'} )
+	filter('source', hassource, {'source', 'sourceproperty'} )
+	filter('withdate', hasdate, {} )
+	filter('excludespecial', notSpecial, {} )
+	filter('excludevalues', excludevalues, {'excludevalues'})
+	filter('withlink', haslink, {'withlink', 'linklang'} )
+	filter('condition', check, {'condition'})
+
+	claims = withrank(claims, args.rank or 'best')
+	if args.sorttype then
+		claims = p.sortclaims(claims, args.sorttype)
+	end
+	if #claims == 0 then
+		return nil
+	end
+	if args.numval then
+		claims = firstvals(claims, args.numval)
+	end
+	return claims
+
+end
+
+function p.loadEntity(entity, cache)
+	if type(entity) ~= 'table' then
+		if cache then
+			if not cache[entity] then 
+				cache[entity] = mw.wikibase.getEntity(entity)
+				mw.log("cached")
+     		end
+			return cache[entity]
+        else
+			if entity == '' then
+				entity = nil
+			end
+        	return mw.wikibase.getEntity(entity)
+        end
+    else 
+    	return entity
+    end
+end
+
+
+function p.getClaims( args ) -- returns a table of the claims matching some conditions given in args
+	if args.claims then -- if claims have already been set, return them
+		return args.claims
+	end
+	local properties = tools.splitStr(args.property)
+
+	if not properties then
+		return error( 'property-param-not-provided' )
+	end
+
+	--Get entity
+	local entity = args.entity
+ 	entity = p.loadEntity(args.entity, args.cache)
+    
+	if (not entity) or (not entity.claims) then
+		return nil
+	end
+	local claims = {}
+	for i, prop in pairs(properties) do
+		prop = string.upper(prop)
+		for j, claim in pairs(entity.claims[prop] or {}) do
+			table.insert(claims, claim)
+		end
+	end
+
+	if (#claims == 0) then
+		return nil
+	end
+	return p.filterClaims(claims, args)
+end
+
+return p

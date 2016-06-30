@@ -642,6 +642,11 @@ L'invariance de l'hamiltonien d'un système sous un groupe continu de transforma
 * avec <nowiki><math display="inline"></nowiki>, on peut écrire : <math display="inline">df=\frac{\partial f}{\partial x_1}dx_1 + ... +\frac{\partial f}{\partial x_n}dx_n</math> dans le texte sinon on aurait <math>df=\frac{\partial f}{\partial x_1}dx_1 + ... +\frac{\partial f}{\partial x_n}dx_n</math> en plus grand.
 {{BDfin}}
 
+; egzimpes
+Si on reporte l'expression du vecteur vitesse dans la définition du moment cinétique en <math>O</math> on obtient <math>\vec{\sigma}_O = \overrightarrow{OM} \wedge m \left( \vec{\Omega} \wedge \overrightarrow{OM} \right)</math> ou encore <math>\vec{\sigma}_O = m \left[ \overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) \right]</math> et, en utilisant la formule du [[double produit vectoriel]] <math>\vec{A} \wedge \left( \vec{B} \wedge \vec{C} \right) = \left( \vec{A} \cdot \vec{C} \right) \vec{B} - \left( \vec{A} \cdot \vec{B} \right) \vec{C}</math>, cela donne <math>\overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) = \left( \overrightarrow{OM} \cdot \overrightarrow{OM} \right) \vec{\Omega} - \cancel{\left( \overrightarrow{OM} \cdot \vec{\Omega} \right) \overrightarrow{OM}} = r^2\, \vec{\Omega} </math> car <math>\overrightarrow{OM} \perp \vec{\Omega} \quad\text{et}\quad \lVert \overrightarrow{OM} \rVert = r </math> ; finalement :
+<center>  <math>\vec{\sigma}_O = J_\Delta\; \vec{\Omega}\;\color{white}{.}</math> avec <math>\color{white}{.}\;\color{black}J_\Delta = m\, r^2\;\color{white}{.}</math> appelé [[moment d'inertie]] de la particule relativement à l'axe de rotation <math>\Delta</math>. </center>
+Dans le [[système international d'unités]] (ou <math>S.I.</math>) le moment d'inertie s'exprime en <math>kg\! \cdot\! m^2</math>.
+
 == politique EDP (exemption doctrine policy) ==
 voir:
 https://fr.wikiversity.org/wiki/Wikiversit%C3%A9:La_salle_caf%C3%A9/32_2014#Des_captures_d.27.C3.A9cran_de_logiciels_et_de_l.27opportunit.C3.A9_d.27une_EDP_sur_Wikiversit.C3.A9_les_autorisant.

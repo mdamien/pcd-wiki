@@ -2,8 +2,11 @@
 * [[Utilisateur:Geoleplubo/Tests]]
 * [[Utilisateur:Geoleplubo/Musique]]
 * [[Utilisateur:Geoleplubo/Caouette]]
+* [[Utilisateur:Geoleplubo/Statistiques]]
+* [[Utilisateur:Geoleplubo/Clarinette]]
+* [[Utilisateur:Geoleplubo/Loyens]]
+;téléverser =
 * https://pcd.wikipedia.org/wiki/Spécial:Téléverser
-
 
 ;Geoleplubo@pcd.wikipedia =
 ;sr-request
@@ -71,10 +74,10 @@ ne marche pas ? modèle animation
 
 
 {{Titre incorrect|'''G''' ''éo <big>L</big> eplubo''|invisible=oui}}
-
+<!--
 {{Début des onglets|Onglet-1=<big><big><big><font color="#008080">'''G&nbsp;''é''&nbsp;<small>o</small>&nbsp;<big>''L''</big>''eplubo'''''</font></big></big></big><br /><br /><br /><big>'''<span class="plainlinks">[//pcd.wikipedia.org/w/index.php?title=Discussion_utilisateur:Geoleplubo&action=edit&section=new Me laisser un message]</span>'''</big>|URL-1={{FULLPAGENAME}}|bordure=3px solid #170279|fond cadre=#ffff00|arrondi=3em|alignement onglet=center}}<div style="color:#008080"><center>Os sommes ch' '''{{CURRENTDAYNAME}} {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}},'''<br />éj suis édseur '''Wikipédia''' édpuis '''{{#expr: {{CURRENTJULIANDAY}}-{{JULIANDAY|2008|9|19}} round 0}}''' jours.</center></div><br />
 
-<!--
+
 {{Début des onglets
 |Onglet-1='''Moi'''
 |URL-1=Utilisateur:Starus

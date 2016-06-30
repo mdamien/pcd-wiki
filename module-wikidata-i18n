@@ -1,0 +1,28 @@
+return {
+-- Messages d'erreurs
+	["property-param-not-provided"] = "paramètre 'property' manquant",
+	["qualifier-param-not-provided"] = "paramètre 'qualifier' manquant",
+	["entity-param-not-provided"] = "paramètre 'entity' manquant",
+	["entity-not-found"] = "entité non trouvée",
+	["unknown-claim-type"] = "type d'affirmation inconnu",
+	["unknown-snak-typeg"] = "unknown snak type",
+	["unknown-datavalue-type"] = "unknown datavalue type.",
+	["unknown-entity-type"] = "unknown entity type",
+	["invalid-id"] = "identifiant inconnu",
+	["invalid-datatype"] = "type de données inconnu",
+	["invalid-linktype"] = "type de lien inconnu",
+	
+-- Autres messages
+	["no-label"] = "pas de libellé",
+	['no description'] = "pas description",
+	["novalue"] = "-",
+	["somevalue"] = "inconnu",
+	["sometime"] = "date inconnue",
+	['to translate'] = 'Page utilisant des données de Wikidata à traduire',
+	["trackingcat"] = 'Page utilisant $1',
+	['see-wikidata-value'] = "Voir et modifier les données sur Wikidata", -- lien vers des valeurs sur une propriété Wikidata
+	['see-wikidata'] = "Voir l'élément Wikidata correspondant", -- utilisé sur les liens Wikidata par défaut en l'absence de lien interne disponible
+	['see-another-project'] = "Article sur $1",
+	['see-another-language'] = "Article sur Wikipédia en $1",
+	['activate-query'] = "<div class='par wikidata'></div>" -- activates an on-demand-only query
+}

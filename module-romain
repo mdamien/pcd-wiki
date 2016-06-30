@@ -1,0 +1,65 @@
+local p = {}
+
+-- barre horizontale au-dessus des nombres élevés
+local function overline( s )
+    return mw.ustring.format( '<span style="text-decoration:overline;">%s</span>', s )
+end
+
+-- Gets the Roman numerals for a given numeral table. Returns both the string of
+-- numerals and the value of the number after it is finished being processed.
+local function getLetters( num, t )
+    local ret = {}
+    for _, v in ipairs( t ) do
+        local val, letter = unpack( v )
+        while num >= val do
+            num = num - val
+            table.insert( ret, letter )
+        end
+    end
+    return table.concat( ret ), num
+end
+
+
+function p.toRoman(num, default)
+    num = tonumber(num)
+    if not num or num < 1 or num == math.huge then
+        return
+    end
+    num = math.floor( num )
+    
+    -- Return a message for numbers too big to be expressed in Roman numerals.
+    if num >= 5000000 then
+        return default or 'N/A'
+    end
+    
+    local ret = ''
+    -- Find the Roman numerals for the large part of numbers 5000 and bigger.
+    -- The if statement is not strictly necessary, but makes the algorithm 
+    -- more efficient for smaller numbers.
+    if num >= 5000 then
+        local bigRomans = {
+            { 1000000, 'M' },
+            { 900000, 'CM' }, { 500000, 'D' }, { 400000, 'CD' }, { 100000, 'C' },
+            { 90000, 'XC' }, { 50000, 'L' }, { 40000, 'XL' }, { 10000, 'X' },
+            { 5000, 'V' }
+        }
+        local bigLetters
+        bigLetters, num = getLetters( num, bigRomans )
+        ret = overline( bigLetters )
+    end
+    
+    -- Find the Roman numerals for numbers 4999 or less.
+    local smallRomans = {
+        {1000, "M"},
+        {900, "CM"}, {500, "D"}, {400, "CD"}, {100, "C"},
+        {90, "XC"}, {50, "L"}, {40, "XL"}, {10, "X"},
+        {9, "IX"}, {5, "V"}, {4, "IV"}, {1, "I"} 
+    }
+    local smallLetters = getLetters( num, smallRomans )
+    ret = ret .. smallLetters
+    
+    return ret
+
+end
+
+return p

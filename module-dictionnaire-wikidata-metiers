@@ -1,0 +1,15 @@
+-- permet de donner un meilleur libellé lorsque celui de l'élément Wikidata n'est pas satisfaisant (mauvais genre grammatical etc.)
+return {
+
+m = { -- masculin
+	Q82955 = '[[Personnalité politique|homme politique]]',
+	Q43845 = '[[Personnalité du monde des affaires|homme d’affaires]]',
+	Q137185 = '[[Liste d’ambassadeurs canadiens en France|ambassadeur en France]]',
+	Q21500772 = '[[Cour des comptes|conseiller maître à la [[Cour des comptes (France)|]]',
+	Q15964890 = '[[Chambre des communes du Canada|député de la chambre des communes du Canada]]',
+	Q157146 = '[[Résistance intérieure française|résistant]]',
+},
+f = { -- féminin
+	Q15964890 = '[[Chambre des communes du Canada|députée de la chambre des communes du Canada]]',
+}
+}

@@ -1,0 +1,42 @@
+-- Module de requêtes Wikidata de plus haut niveau que Module:Wikidata
+local p = {}
+local wd = require "Module:Wikidata"
+local formatDate = require "Module:Date complexe"
+
+function p.keydate (event, item)
+	if type(event) == 'table' then
+		for i, j in pairs(event) do
+			local s = p.keydate(j)
+			if s then
+				return s
+			end
+		end
+	elseif type(event) ~= 'string' then
+		 return error('event should be a string starting with a P or S, datatype is ' .. type(event))
+	elseif string.sub(event, 1, 1) == 'Q' then -- on demande un élément utilisé dans P:P793 (événement clé)
+		return  wd.getTheDate{property = 'P793', targetvalue = event, addcat = true, entity = item}
+	elseif string.sub(event, 1, 1) == 'P'  then -- on demande une propriété
+		return wd.formatAndCat{property = event, entity = item}
+	else
+		return error('event string should start with P or S, is "' .. event .. '"')
+	end
+end
+
+function p.maindate(entity)	
+	-- essaye P580/P582
+	local startpoint = wd.wikidataDate('P580', entity, {linkback = "-"})
+	local endpoint = wd.wikidataDate('P582', entity, {linkback = "-"})
+	local str
+	if startpoint or endpoint then
+		str = (startpoint or '') .. ' - ' .. (endpoint or '')
+		str = wd.addLinkback(str, entity, 'P582')
+	end
+
+	if str then
+		return str
+	end
+	-- défaut : P585
+	return wd.wikidataDate('P585', entity)
+end
+
+return p

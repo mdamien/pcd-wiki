@@ -1,0 +1,17 @@
+{{#if: {{{deathyear|{{{year|{{{1|}}} }}} }}}|
+{{#switch:{{Years since| {{{deathyear|{{{year|{{{1}}} }}} }}}+1 |min=49 |max=100 |mod=5 }} 
+ |49          = {{PD-1923}} {{#ifeq:{{NAMESPACE}}|File|[[Category:PD Old auto: author died less than 50 years ago]]}}<!-- no PD-old yet author died <= 50 years ago -->
+ |50|55       = {{PD-old-X-1923|X=50|deathyear={{{deathyear|{{{year|{{{1}}} }}} }}}}}
+ |60|65       = {{PD-old-X-1923|X=60|deathyear={{{deathyear|{{{year|{{{1}}} }}} }}}}}
+ |70          = {{PD-old-X-1923|X=70|deathyear={{{deathyear|{{{year|{{{1}}} }}} }}}}}
+ |75          = {{PD-old-X-1923|X=75|deathyear={{{deathyear|{{{year|{{{1}}} }}} }}}}}
+ |80|85|90    = {{PD-old-X-1923|X=80|deathyear={{{deathyear|{{{year|{{{1}}} }}} }}}}}
+ |95          = {{PD-old-X-1923|X=95|deathyear={{{deathyear|{{{year|{{{1}}} }}} }}}}}
+ |100         = {{PD-old-X-1923|X=100|deathyear={{{deathyear|{{{year|{{{1}}} }}} }}}}}
+ |#default    = {{PD-1923}} {{#ifeq:{{NAMESPACE}}|File|[[Category:PD Old auto: no death date]]}}<!-- {{{1}}} is not a number -->
+}}
+|{{PD-1923}} {{#ifeq:{{NAMESPACE}}|File|[[Category:PD Old auto: no death date]]}}<!-- {{{1}}} not provided --> }}<noinclude>
+<!--
+{{documentation}}-->
+
+</noinclude>

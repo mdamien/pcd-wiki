@@ -3,6 +3,25 @@
           AFFUTE ! : L' MODIFICATION D'EUNE INFOBOÈTE ALE PEUT ENTRAÎNER DES PROBLÈMES 
          EDSEUR TOUTES CHÉS PACHES DOUSQU'ALE EST INCLUSE.
 ==============================================================-->
+<source lang="text">
+{{Infoboète biografie
+| nom                 = 
+| image               = 
+| légende             = 
+| nom de naissance    =
+| surnom              = 
+| date de naissance   = 
+| lieu de naissance   = à [[Mon]] ([[Bergike]])
+| date de décès       =
+| lieu de décès       = 
+| nationalité         = [[File:Flag of Belgium.svg|20px]] [[Bergike|Bérche]]
+| pays de résidence   = 
+| profession          = 
+| formation           = 
+| hommage             = 
+| activités autres    = 
+| famille             = 
+}}</source>
 </noinclude><includeonly>{| class="infobox_v2 vcard" cellspacing="7" border="0" style="border-color:#8888AA;"
 | colspan="2" class="entete {{#if:{{{entete|}}}|{{{entete|}}}|defaut}}" style="background-color:#EEEEFF;color:black;" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
 |-

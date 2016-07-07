@@ -1,7 +1,7 @@
 <includeonly>{{Infobox Subdivision administrative
 |modèle                   = Infoboète Étot des Étots-Unis<!--Paramètre obligatoire pour un modèle-->
 |nom                      = {{{nom|{{PAGENAME}}}}}
-|autres noms              = {{#if:{{{nom français|}}}|{{fr}} {{{nom français|}}} }}
+|autres noms              = {{#if:{{{nom français|}}}|{{pcd}} {{{nom français|}}} }}
 |couleur                  = BBDEFD
 |blason                   = {{{blason|}}}
 |légende blason           = {{{légende blason|}}}
@@ -38,7 +38,7 @@
 |superficie               = {{{superficie|}}}
 |superficie ha            = non
 |nom divers géo           = Rang
-|divers géo               = {{#if:{{{rang superficie|}}}|[[États des États-Unis par superficie|{{{rang superficie}}}{{#ifeq:{{{rang superficie}}}|1|{{er}}|{{e}}}}]]}}
+|divers géo               = {{#if:{{{rang superficie|}}}|{{{rang superficie}}}{{#ifeq:{{{rang superficie}}}|1|{{er}}|{{e}}}}}}
 |nom divers géo2          = – Tière
 |divers géo2              = {{#if:{{{superficie terre|}}}| {{Unité|{{{superficie terre|}}}|km|2}} }}
 |nom divers géo3          = – Iau (%)
@@ -48,8 +48,8 @@
 |population               = {{{population|}}}
 |année_pop                = {{{année_pop|}}}
 |nom divers démographie   = Rang
-|divers démographie       = {{#if:{{{rang population|}}}|[[États des États-Unis par population|{{{rang population}}}{{#ifeq:{{{rang population}}}|1|{{er}}|{{e}}}}]]}}
-|nom divers démographie2  = Pus grand vile
+|divers démographie       = {{#if:{{{rang population|}}}|{{{rang population}}}{{#ifeq:{{{rang population}}}|1|{{er}}|{{e}}}}}}
+|nom divers démographie2  = Pus grande vile
 |divers démographie2      = {{{plus grande ville|}}}
 |nom divers3              = Langues offichièles
 |divers3                  = {{{langues|}}}

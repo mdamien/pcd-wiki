@@ -12,7 +12,7 @@
 |légende                  = Carte des Étots-Unis aveuc {{Infobox Étot des Étots-Unis/Déterminant|le|{{{nom}}}}} en rouge.<!--
 -->{{#if:{{{surnom|}}}|<br /><br />'''Surpitchet'''<br />{{{surnom|}}}{{#if:{{{surnom français|}}}|<br />in [[frinsé|franchoé]] : « {{{surnom français|}}} » }} }}<!--
 -->{{#if:{{{devise|}}}|<br /><br />'''D'vise'''<br />{{{devise|}}}{{#if:{{{devise française|}}}|<br /><i>« {{{devise française|}}} »</i>}} }}
-|pays                     = Étots-Unis
+|pays                     = [[Étots-Unis]]
 |nom de division          = Capitale
 |division                 = {{{capitale|}}}
 |nom de division2         = Eutes viles

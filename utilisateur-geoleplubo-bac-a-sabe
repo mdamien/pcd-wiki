@@ -107,7 +107,29 @@ ne marche pas ? modèle animation
 |arrondi=5em
 }}
 -->
+== Sidebar ==
+{{Sidebar
+| title  = Sommaire
+| navbar = none
+| topimage = [[Image:Namespace-mediawiki.svg|link=Utilisateur:Geoleplubo|alt=|75px]]
 
+| headingstyle = 
+| bodystyle = width:20em;
+| contentstyle = text-align:left;
+
+| content1 = 
+documintacion - Volet 2
+# [[Aide]]
+# deus
+# troés
+
+| content2 = 
+; [[Aide]]
+: Lisse
+| content3 = 
+Coucou
+<small>[[Utilisateur:Geoleplubo]]</small>
+}}
 
 == Infoboète ==
 <nowiki>

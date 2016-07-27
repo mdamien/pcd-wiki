@@ -1,0 +1,16 @@
+{| align="center" style="text-align: center; font-weight: bold"
+!scope="col"|{{pour}}
+!scope="col"|{{contre}}
+!scope="col"|{{neutre}}
+!scope="col"|Taux favorable<br />(pour/pour+contre)
+|---- bgcolor={{#ifexpr: ({{{pour|0}}} * 100 / ( {{{pour|0}}} + {{{contre|0}}} ) round 2)  >= 75 | "#99FF99" | "#ff6635" }}
+|{{{pour|paramètre pour oublié}}}
+|{{{contre|paramètre contre oublié}}}
+|{{{neutre|paramètre neutre oublié}}}
+|{{#expr: {{{pour|0}}} * 100 / ( {{{pour|0}}} + {{{contre|0}}} ) round 2 }} %
+|-
+|colspan="7" align="center" style="padding-top: 0.5em" | {{#ifexpr: ({{{pour|0}}} * 100 / ( {{{pour|0}}} + {{{contre|0}}} ) round 2)  >= 75 | 
+{{pour}} | {{contre}} }} ({{{date}}}).
+|}<noinclude>
+[[Catégorie:Modèle]]
+</noinclude>

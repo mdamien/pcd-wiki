@@ -2,7 +2,7 @@
 !scope="col"|{{pour}}
 !scope="col"|{{contre}}
 !scope="col"|{{neutre}}
-!scope="col"|Taux favorable<br />(pour/pour+contre)
+!scope="col"|Pourchintache favorabe<br />(pour/pour+contre)
 |---- bgcolor={{#ifexpr: ({{{pour|0}}} * 100 / ( {{{pour|0}}} + {{{contre|0}}} ) round 2)  >= 75 | "#99FF99" | "#ff6635" }}
 |{{{pour|paramètre pour oublié}}}
 |{{{contre|paramètre contre oublié}}}

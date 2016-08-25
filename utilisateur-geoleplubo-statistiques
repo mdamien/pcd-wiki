@@ -37,6 +37,8 @@
 [//toolserver.org/~dispenser/cgi-bin/embeddedincount.py?title=Chapitre&ns=10&db=frwikiversity Nombre de pages liées à un modèle] (il suffit de changer le nom du modèle dans l’adresse internet (qui ici est ''Chapitre''), pour voir le nombre de pages liées à un autre modèle que le [[modèle:Chapitre]]). Il s’agit du nombre de pages qui font appel au moins une fois au modèle.<br/>
 [//toolserver.org/~dispenser/cgi-bin/backlinkscount.py?title=Java&ns=&db=frwikiversity Nombre de pages liées à une page] (en l’occurrence, il s’agit dans cet exemple du nombre de pages liées à l’article ''Java'' - c’est-à-dire du nombre de pages qui contiennent au moins une fois le lien [[Java]] - ; il suffit de toucher à l’[[w:URL|URL]] pour trouver le nombre de pages liées à une autre page que ''Java'').
 
+* https://wikistats.wmflabs.org/largest_html.php?s=total_asc&th=1000&lines=500
+
 ===wikiversité===
 ;wikiversité francophone
 

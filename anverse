@@ -14,6 +14,10 @@
 | ins                 = 11002
 | latitude            = 51/13/N
 | longitude           = 04/24/E
+|lat_deg=51
+|lat_min=13
+|lon_deg=04
+|lon_min=24
 | statut              = 2
 | bourgmestre         = Bart De Wever
 | majorite            = N-VA, CD&V, Open Vld

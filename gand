@@ -1,0 +1,198 @@
+{{Conmune bérche
+ | nom                 = Gand
+ | nom_nl              = Gent
+ | nom_de              = Gent
+ | image               = Gent vanuit Meestentoren1.JPG
+ | légende             = Ch' viu Gand aveuc chés troés heutes tours médiévales
+ | imageloc            = GemGentLocation.png
+ | légende imageloc    = Situation de la ville au sein de l'arrondissement de Gand et de la province de Flandre-Orientale
+ | blason              = Blason ville be Gand (Flandre-Orientale).svg
+ | drapeau             = Vlag van Gent.svg
+ | region              = BE-VLG
+ | communaute          = BE-NL
+ | province            = BE-VOV
+ | arrondissement      = Gand
+ | ins                 = 44021
+|lat_deg=51
+|lat_min=03
+|lon_deg=03
+|lon_min=44
+ | latitude            = 51/03/N
+ | longitude           = 03/44/E
+ | statut              = 2
+ | bourgmestre         = Daniël Termont (sp.a) (2007-)
+ | majorite            =  sp.a - Groen ,  Open Vld  (2007-12)
+ | partis              =  Sp.a - Groen <br /> N-VA <br /> Open Vld <br /> CD&V <br /> Vlaams Belang 
+ | sieges              = '''51''' (2013-18)<br />26<br />9<br />9<br />4<br />3
+ | communes-cp         = 9000<br />9030<br />9031<br />9032<br />9040<br />9041<br />9042<br />9042<br />9042<br />9050<br />9050<br />9051<br />9051<br />9052
+ | communes-fusionnees = Gand<br /> Mariakerke <br /> Drongen <br /> Wondelgem <br /> Sint-Amandsberg <br /> Oostakker <br /> Desteldonk <br /> Mendonk <br /> Sint-Kruis-Winkel <br /> Gentbrugge <br /> Ledeberg <br /> Afsnee <br /> Sint-Denijs-Westrem <br /> Zwijnaarde 
+ | gentilé             = Gantois(e)
+ | zone-telephonique   = 09
+ | site                = [http://www.gent.be/ www.gent.be]
+}}
+
+'''Gand''' ( prononcé API = /ɡɑ̃/  in picard, in [[nirlindé]] : '''''Gent''''', prononcé API = /ʝɛnt/ ) ch'est éne conmune [[Bergike|berche]] [[nirlindé|nirlindofone]], située in [[Région flaminke]] au confluint éd la [[Lys (rivière)|Lys]] et pi éd l'[[Escaut]].
+
+{|
+|[[Fichier:Hires 1534 STAM GENT.jpg|thumb|left| Gand in 1534]]
+|[[Fichier:Belgium-6318 - Belfry Tower (13896821937).jpg|thumb|left|Ch' beffroé d' Gand pi l’Heutel d'ville]]
+|[[Fichier:Map Union of Arras and Utrecht 1579-fr.svg|thumb|left| l’Union d'Utrecht]]
+|}
+
+== Nombe éd gins ==
+
+<timeline>
+Colors=
+  id:a value:gray(0.9)
+  id:b value:gray(0.7)
+  id:c value:rgb(1,1,1)
+  id:d value:rgb(0.7,0.8,0.9)
+  id:e value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:1000 height:373
+PlotArea   = left:50 bottom:30 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:280000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:b increment:35000 start:0
+ScaleMinor = gridcolor:a increment:7000 start:0
+BackgroundColors = canvas:c
+
+BarData=
+  bar:1806 text:1806
+  bar:1816 text:1816
+  bar:1830 text:1830
+  bar:1846 text:1846
+  bar:1856 text:1856
+  bar:1866 text:1866
+  bar:1876 text:1876
+  bar:1880 text:1880
+  bar:1890 text:1890
+  bar:1900 text:1900
+  bar:1910 text:1910
+  bar:1920 text:1920
+  bar:1930 text:1930
+  bar:1947 text:1947
+  bar:1961 text:1961
+  bar:1970 text:1970
+  bar:1977 text:1977
+  bar:1980 text:1980
+  bar:1990 text:1990
+  bar:2000 text:2000
+  bar:2008 text:2008
+  bar:2012 text:2012
+  bar:2015 text:2015
+
+PlotData=
+  color:d width:20 align:left
+
+  bar:1806 from:0 till: 58199
+  bar:1816 from:0 till: 61147
+  bar:1830 from:0 till: 83783
+  bar:1846 from:0 till: 102977
+  bar:1856 from:0 till: 108925
+  bar:1866 from:0 till: 115354
+  bar:1876 from:0 till: 127653
+  bar:1880 from:0 till: 131431
+  bar:1890 from:0 till: 148729
+  bar:1900 from:0 till: 160133
+  bar:1910 from:0 till: 166445
+  bar:1920 from:0 till: 167042
+  bar:1930 from:0 till: 170358
+  bar:1947 from:0 till: 166096
+  bar:1961 from:0 till: 157811
+  bar:1970 from:0 till: 148860
+  bar:1977 from:0 till: 139812
+  bar:1980 from:0 till: 129488
+  bar:1990 from:0 till: 119245
+  bar:2000 from:0 till: 111158
+  bar:2008 from:0 till: 119880
+  bar:2012 from:0 till: 111158
+  bar:2015 from:0 till: 119880
+
+  color:e width:20 align:left
+  bar:1977 from:139812 till:248657
+  bar:1980 from:129488 till: 241695
+  bar:1990 from:119245 till: 230543
+  bar:2000 from:111158 till: 224180
+  bar:2008 from:119880 till: 237250
+  bar:2012 from:111158 till: 248242
+  bar:2015 from:119880 till: 253948
+
+PlotData=
+
+  bar:1806 at: 58199 fontsize:s text: 58.199 shift:(-10,5)
+  bar:1816 at: 68147 fontsize:S text: 61.147 shift:(-10,5)
+  bar:1830 at: 83783 fontsize:S text: 83.783 shift:(-10,5)
+  bar:1846 at: 102977 fontsize:S text: 102.977 shift:(-10,5)
+  bar:1856 at: 113925 fontsize:S text: 108.925 shift:(-10,5)
+  bar:1866 at: 125354 fontsize:S text: 115.354 shift:(-10,5)
+  bar:1876 at: 137653 fontsize:S text: 127.653 shift:(-10,5)
+  bar:1880 at: 146431 fontsize:S text: 131.431 shift:(-10,5)
+  bar:1890 at: 158729 fontsize:S text: 148.729 shift:(-10,5)
+  bar:1900 at: 170133 fontsize:S text: 160.133 shift:(-10,5)
+  bar:1910 at: 180445 fontsize:S text: 166.445 shift:(-10,5)
+  bar:1920 at: 167042 fontsize:S text: 167.042 shift:(-10,5)
+  bar:1930 at: 180358 fontsize:S text: 170.358 shift:(-10,5)
+  bar:1947 at: 166096 fontsize:S text: 166.096 shift:(-10,5)
+  bar:1961 at: 157811 fontsize:S text: 157.811 shift:(-10,5)
+  bar:1970 at: 148860 fontsize:S text: 148.860 shift:(-10,5)
+  bar:1977 at: 139812 fontsize:S text: 139.812 shift:(-10,5)
+  bar:1977 at: 253657 fontsize:S text: 248.657 shift:(-10,5)
+  bar:1980 at: 129488 fontsize:S text: 129.488 shift:(-10,5)
+  bar:1980 at: 243695 fontsize:S text: 241.695 shift:(-10,5)
+  bar:1990 at: 119245 fontsize:S text: 119.245 shift:(-10,5)
+  bar:1990 at: 233543 fontsize:S text: 230.543 shift:(-10,5)
+  bar:2000 at: 111158 fontsize:S text: 111.158 shift:(-10,5)
+  bar:2000 at: 224180 fontsize:S text: 224.180 shift:(-10,5)
+  bar:2008 at: 119880 fontsize:S text: 119.880 shift:(-10,5)
+  bar:2008 at: 237250 fontsize:S text: 237.250 shift:(-10,5)
+  bar:2012 at: 111158 fontsize:S text: 111.158 shift:(-10,5)
+  bar:2012 at: 248242 fontsize:S text: 248.242 shift:(-10,5)
+  bar:2015 at: 119880 fontsize:S text: 119.880 shift:(-10,5)
+  bar:2015 at: 253948 fontsize:S text: 253.948 shift:(-10,5)
+
+</timeline>
+
+[[Fichier:Gent - Ringvaart (brug Beukenlaan).jpg|thumb|Le Ringvaart à la hauteur de Sint-Pieters-Aaigem.]]
+
+
+[[Fichier:Graslei gent avondlicht2.jpg|vignette|centre|500px|Chés riches moaisons du Graslei (''Quai aux Hèrbes''), au bord éd la [[Lys (rivière)|Lys]].]]
+
+== Lius pi monumints ==
+
+<gallery mode="packed" heights=200>
+Fichier:Sint-Niklaaskerk (Gent).JPG| l'église Saint-Colas
+Fichier:20111023 Gent (0063).jpg|Chés troés tours d' Gand : l'église Saint-Colas, ch' beffroé pi l' catédrale Saint-Bavon
+Fichier:Gent belfort stadshal 675.jpg|ch' beffroé pi la halle aux draps
+</gallery>
+
+
+<gallery mode="packed">
+Fichier:Gravensteen Hdr.JPG|Ch' catiau des comtes éd Flande
+Fichier:Gravensteen 32-2.JPG|Ch' catiau des comtes éd Flande (Gravensteen).
+Fichier:Jielbeaumadier gent 2005 12.jpeg|Chés troés tours
+Fichier:Ghent city.jpg|La [[Lys (rivière)|Lys]], ch' Graslei pi l' tour d'horloge éd l'heutel des postes
+Fichier:20110410 Gent (0032).jpg|La [[Lys (rivière)|Lys]], ch' pont Saint-Michel, aveuc ch' donjon du catiau des comtes éd Flande 
+Fichier:Ghent canal, night.jpg|ch' pont Saint-Michel pi l'église Saint-Michel
+Fichier:Gent Sint-Michielskerk-PM 05411.jpg|l'église Saint-Michel
+Fichier:qai2.JPG|Ch' quai aux Hèrbes (Graslei) pi l' tour d'horloge éd l'heutel des postes
+Fichier:Gent river.JPG|Moaisons au bord de l'iau
+Fichier:Gand-canale.jpg|La Lys aveuc d' vièles moaisons
+Fichier:Gent centrum 299.JPG|maisons édseur un chenal
+Fichier:Gent I70888.jpg|l' plache du Marché au Grains (Korenmarkt).
+Fichier:Gent Korenmarkt Oud Postkantoor 9-11-2010 16-28-56.JPG|L'heutel des postes
+Fichier:Gent - Stadhuis 02.JPG| l'heutel d'ville
+Fichier:Gent Belfort.JPG|Ch' dragon in cuive doré du beffroé  (londjeur: 3,55 mètes)
+Fichier:20091105 Belfort (0011).jpg|L'église Saint-Jacques
+Fichier:Gent-Sint-Baafskathedraal vom Belfried aus gesehen.jpg|Clohié éd la catédrale Saint-Bavon
+Fichier:Geraard de Duivel castle IMG 4957 ghent.JPG|Ch' catiau à Gérard ch' Diabe
+</gallery>
+
+
+
+
+== Notes pi référinches ==
+<references/>
+[[catégorie:Bergike]]

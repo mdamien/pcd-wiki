@@ -1,0 +1,517 @@
+<noinclude><!-- 
+
+Affute !
+
+--></noinclude><includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+  |{{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}} {{#if:{{{autres noms|}}}|{{espace}}<br /><small>{{{autres noms|}}}</small>}}
+  |{{{couleur|DDFFDD}}}
+  |entete map
+  |{{{couleur titre|}}}
+}}
+
+{{#ifeq:{{lc:{{{blason sous image|}}} }}|oui
+  |
+  |{{#if:{{{blason|}}}
+    |{{#ifexist: Media:{{{blason|}}}
+      |{{Infobox/Image double
+        |{{{blason|}}}<!--
+     -->|{{{légende blason|Héraldique}}}
+        |{{{taille blason|65}}}
+        |{{{légende blason|Blason de {{{nom|{{PAGENAME}} }}} }}}
+        |
+        |
+        |{{#if:{{{ drapeau|}}}|{{#ifeq:{{{cadre drapeau|}}}|non|{{{drapeau|}}}|{{{drapeau|}}}{{!}}border}} }}<!--
+     -->|{{{légende drapeau|Drapiau}}}
+        |{{{taille drapeau|130}}}
+        |{{{légende drapeau|Drapeau de {{{nom|{{PAGENAME}} }}} }}}
+       }}
+      |{{Infobox/Ligne optionnelle|{{{blason|}}}{{#if:{{{drapeau|}}}|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{{drapeau|}}} }} }} 
+       {{#if: {{NAMESPACE}} || <!--[[Catégorie:Infobox Subdivision administrative - Image mal codifiée|blason]]-->}}
+     }}
+    |{{#if:{{{drapeau|}}}
+      |{{Infobox/Image
+        |{{#ifeq:{{{cadre drapeau|}}}|non|{{{drapeau|}}}|{{{drapeau|}}}{{!}}border}}
+        |{{{légende drapeau|[[Drapeau]]}}}
+        |{{{taille drapeau|130}}}
+        |{{{légende drapeau|Drapeau de {{{nom|{{PAGENAME}} }}} }}}
+        |
+        |
+        |Subdivision administrative
+       }}
+     }}
+   }}
+}}
+{{#if:{{{image|}}}
+  |{{#ifexist: Media:{{{image|}}}
+     |{{Infobox/Image
+       |{{{image}}}
+       |{{{légende|}}}
+       |{{{taille image|}}}
+       |{{{alt|{{{légende|{{PAGENAME}} }}} }}}
+       |
+       |
+       |Subdivision administrative
+      }}
+     |{{Infobox/Ligne optionnelle|{{{image|}}} }}
+      {{#if: {{NAMESPACE}} || {{#ifeq:{{padright:|6|{{{image|}}}}} | <table |<!--Modèle:Photomontage-->|[[Catégorie:Infobox Subdivision administrative - Image mal codifiée|Image]]}} }}
+   }}
+}}
+{{#if:{{{image2|}}}
+  |{{#ifexist: Media:{{{image2|}}} 
+     |{{Infobox/Image
+       |{{{image2|}}}
+       |{{{légende2|}}}
+       |{{{taille image2|}}}
+       |{{{légende2|}}}
+       |
+       |
+       |Subdivision administrative
+      }} 
+     |{{Infobox/Ligne optionnelle|{{{image2|}}} }}
+      {{#if: {{NAMESPACE}} || <!--[[Catégorie:Infobox Subdivision administrative - Image mal codifiée|Image2]]-->}}
+   }}
+}}
+{{#if:{{{image3|}}}
+  |{{#ifexist: Media:{{{image3|}}}  
+     |{{Infobox/Image
+       |{{{image3|}}}
+       |{{{légende3|}}}
+       |{{{taille image3|}}}
+       |{{{légende3|}}}
+       |
+       |
+       |Subdivision administrative
+      }}
+     |{{Infobox/Ligne optionnelle|{{{image3|}}} }}
+      {{#if: {{NAMESPACE}} || <!--[[Catégorie:Infobox Subdivision administrative - Image mal codifiée|Image3]]-->}}
+   }}
+}}
+{{Infobox/Ligne optionnelle|{{{imageloc2|}}} }}
+{{#ifeq:{{lc:{{{blason sous image|}}} }}|oui
+  |{{#if:{{{blason|}}}
+    |{{#ifexist: Media:{{{blason|}}}  
+      |{{Infobox/Image double
+        |{{{blason|}}}<!--
+     -->|{{{légende blason|Héraldike}}}
+        |{{{taille blason|65}}}
+        |Blason de {{{nom|{{PAGENAME}} }}}
+        |
+        |
+        |{{#if:{{{ drapeau|}}}|{{#ifeq:{{{cadre drapeau|}}}|non|{{{drapeau|}}}|{{{drapeau|}}}{{!}}border}} }}<!--
+     -->|{{{légende drapeau|[[Drapeau]]}}}
+        |{{{taille drapeau|130}}}
+        |{{{légende drapeau|Drapiau éd {{{nom|{{PAGENAME}} }}} }}} 
+       }}
+      |{{Infobox/Ligne optionnelle|{{{blason|}}}{{#if:{{{drapeau|}}}|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{{drapeau|}}} }} }} 
+     }}
+    |{{#if:{{{drapeau|}}}
+      |{{Infobox/Image
+        |{{#ifeq:{{{cadre drapeau|}}}|non|{{{drapeau|}}}|{{{drapeau|}}}{{!}}border}}
+        |{{{légende drapeau|Drapiau}}}
+        |{{{taille drapeau|130}}}
+        |{{{légende drapeau|Drapiau d' {{{nom|{{PAGENAME}} }}} }}}
+        |
+        |
+        |Subdivision administrative
+       }}
+     }}
+   }}
+}}<!-- 
+
+Noms
+
+-->
+{{Infobox/Sous-titre optionnel|Noms|{{{nom2|}}}{{{nom3|}}}{{{nom4|}}}{{{nom5|}}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nom {{{langue nom2}}}|{{{nom2|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nom {{{langue nom3}}}|{{{nom3|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nom {{{langue nom4}}}|{{{nom4|}}}}}
+{{Infobox/Ligne mixte optionnelle|Nom {{{langue nom5}}}|{{{nom5|}}}}}
+{{#if: {{{langue nom6|}}}|
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom6}}}|{{{nom6|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom7}}}|{{{nom7|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom8}}}|{{{nom8|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom9}}}|{{{nom9|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom10}}}|{{{nom10|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom11}}}|{{{nom11|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom12}}}|{{{nom12|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom13}}}|{{{nom13|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom14}}}|{{{nom14|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom15}}}|{{{nom15|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom16}}}|{{{nom16|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom17}}}|{{{nom17|}}}}}
+  {{Infobox/Ligne mixte optionnelle|Nom {{{langue nom18}}}|{{{nom18|}}}}}
+}}
+<!-- 
+
+Aménistracion 
+
+-->
+{{Infobox/Sous-titre|Aménistrachon|{{{couleur|DDFFDD}}}|{{{couleur titre|}}} }}
+{{Infobox/Ligne mixte optionnelle
+  |Poéyis
+  |{{#ifexist: Modèle:{{{pays|}}} 
+    | {{ {{{pays}}} }} 
+    | {{{pays|}}} 
+  }} {{#if:{{{pays2|}}}
+    | <br> {{#ifexist: Modèle:{{{pays2|}}}|{{ {{{pays2}}} }} | {{{pays2|}}} }}
+  }} 
+}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division|}}}|{{{division|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division2|}}}|{{{division2|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division3|}}}|{{{division3|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division4|}}}|{{{division4|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division5|}}}|{{{division5|}}}}} 
+{{Infobox/Ligne mixte optionnelle|{{{nom de division6|}}}|{{{division6|}}}}} 
+{{Infobox/Ligne mixte optionnelle|{{{nom de division7|}}}|{{{division7|}}}}} 
+{{Infobox/Ligne mixte optionnelle|{{{nom de division8|}}}|{{{division8|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division9|}}}|{{{division9|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division10|}}}|{{{division10|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division11|}}}|{{{division11|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division12|}}}|{{{division12|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division13|}}}|{{{division13|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division14|}}}|{{{division14|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de division15|}}}|{{{division15|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{titre autorité|}}}|{{#if:{{{autorité|}}}|{{{autorité}}}{{#if:{{{mandat autorité|}}}|{{espace}}<br />{{{mandat autorité}}}|}}|}}}}
+{{Infobox/Ligne mixte optionnelle|{{{titre autorité2|}}}|{{#if:{{{autorité2|}}}|{{{autorité2}}}{{#if:{{{mandat autorité2|}}}|{{espace}}<br />{{{mandat autorité2}}}|}}|}}}}
+{{Infobox/Ligne mixte optionnelle|{{{titre autorité3|}}}|{{#if:{{{autorité3|}}}|{{{autorité3}}}{{#if:{{{mandat autorité3|}}}|{{espace}}<br />{{{mandat autorité3}}}|}}|}}}}
+{{Infobox/Ligne mixte optionnelle|{{{titre autorité4|}}}|{{#if:{{{autorité4|}}}|{{{autorité4}}}{{#if:{{{mandat autorité4|}}}|{{espace}}<br />{{{mandat autorité4}}}|}}|}}}}
+{{Infobox/Ligne mixte optionnelle|{{{titre autorité5|}}}|{{#if:{{{autorité5|}}}|{{{autorité5}}}{{#if:{{{mandat autorité5|}}}|{{espace}}<br />{{{mandat autorité5}}}|}}|}}}}
+{{Infobox/Ligne mixte optionnelle|{{#if:{{{article maire|}}}|[[{{{article maire}}}|Maire]]|[[Maire]]}}{{#if:{{{mandat maire|}}}|{{espace}}<br />[[Mandat politique|Mandat]]|}}|{{#if:{{{maire|}}}|{{{maire}}}{{#if:{{{mandat maire|}}}|{{espace}}<br />{{{mandat maire}}}|}}|}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de préfet|[[Préfet]]}}}|{{#if:{{{préfet|}}}|{{{préfet}}}{{#if:{{{mandat préfet|}}}|{{espace}}<br />{{{mandat préfet}}}|}}|}}}}
+{{Infobox/Ligne mixte optionnelle|Gouvérneu|{{#if:{{{gouverneur|}}}|{{{gouverneur}}}{{#if:{{{mandat gouverneur|}}}|{{espace}}<br />{{{mandat gouverneur}}}|}}|}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de code postal|[[Code postal]]}}}|{{{cp|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de code1|}}}|{{{code1|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de code2|}}}|{{{code2|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de code3|}}}|{{{code3|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de code4|}}}|{{{code4|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de code5|}}}|{{{code5|}}}}}
+
+<!-- 
+
+Histoére deul division
+
+-->
+
+{{Infobox/Sous-titre optionnel|Histoére deul division|{{{date1|}}}|{{{couleur|}}}|{{{couleur titre|}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{nom de date1|}}}|{{{date1|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de date2|}}}|{{{date2|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de date3|}}}|{{{date3|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de date4|}}}|{{{date4|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de date5|}}}|{{{date5|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de date6|}}}|{{{date6|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom de date7|}}}|{{{date7|}}}}}
+
+<!-- 
+
+Démografie 
+
+-->
+{{Infobox/Sous-titre optionnel|Démografie|{{{population|}}}{{{population agglomération|}}}{{{population division|}}}{{{gentilé|}}}{{{divers démographie|}}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}}}}
+{{Infobox/Ligne mixte optionnelle |gentilé|{{{gentilé|}}}}}
+{{Infobox/Ligne mixte optionnelle
+  |{{{nom_pop|Nombe ed gins}}}
+  |{{{population|}}}
+  |{{#iferror:{{#expr:{{#invoke:Suppress categories|main|{{{population|}}}}}}}
+     |{{{population|}}}&nbsp;{{abréviation discrète|hab.|habitants}}
+     |{{Unité |{{{population|}}}|{{abréviation discrète|hab.|habitants}} }}
+   }}{{#if:{{{population notes|}}} 
+     |{{#if: {{padright:| 1 |{{{population notes|}}} }}<!-- vide si population notes est entre balises ref -->
+        |{{#tag:ref |{{{population notes|}}}}}
+        |{{{population notes|}}}
+	  }}
+   }} {{#if:{{{année_pop|}}}|{{espace}}<small>({{{année_pop|}}})<small>}}
+}}
+{{#if: {{{densité|}}} 
+  |{{Infobox/Ligne mixte|Dinsité|{{Unité|{{{densité|}}}|{{abrd|hab.|habitant(s)}}/km<sup>2</sup> }} }}
+  |{{#iferror:{{#expr:{{#invoke:Suppress categories|main|{{{population|}}}}}/{{{superficie|}}} }}
+    |
+    |{{Infobox/Ligne mixte densité optionnelle|Dinsité|{{{superficie|}}}|{{#invoke:Suppress categories|main|{{{population|}}}}} }}
+   }}
+}}
+{{Infobox/Ligne mixte optionnelle
+  |Population {{{nom_pop division a|{{{nom_pop agglomération|de l'agglomération}}} }}}
+  |{{{population division a|{{{population agglomération|}}} }}}
+  |{{#iferror:{{#expr:{{{population division a|{{{population agglomération|}}} }}} }}
+    |{{{population division a|{{{population agglomération|}}} }}}&nbsp;{{#if:{{{nom_pop division a|{{{nom_pop agglomération|}}} }}}| |{{abréviation discrète|hab.|habitants}} }}
+    |{{Unité|{{{population division a|{{{population agglomération|}}} }}}|{{abréviation discrète|hab.|habitants}}}}
+   }} {{#if:{{{année_pop division a|{{{année_pop agglomération|}}} }}}|{{espace}}<small>({{{année_pop division a|{{{année_pop agglomération|}}}}}})<small>}}
+}}
+{{#iferror:{{#expr:{{{population division a|{{{population agglomération|}}} }}}/{{{superficie division a|{{{superficie agglomération|}}} }}} }}
+  |
+  |{{Infobox/Ligne mixte densité optionnelle|Dinsité|{{{superficie division a|{{{superficie agglomération|}}} }}}|{{{population division a|{{{population agglomération|}}} }}} }}
+}}
+
+{{Infobox/Ligne mixte optionnelle
+  |Population {{{nom_pop division b|{{{nom_pop division|}}} }}}
+  |{{{population division b|{{{population division|}}} }}}
+  |{{#iferror:{{#expr:{{{population division b|{{{population division|}}} }}} }}
+    |{{{population division b|{{{population division|}}} }}}&nbsp;{{abréviation discrète|hab.|habitants}}
+    |{{Unité|{{{population division b|{{{population division|}}} }}}|{{abréviation discrète|hab.|habitants}}}}
+   }} {{#if:{{{année_pop division b|{{{année_pop division|}}} }}}|{{espace}}<small>({{{année_pop division b|{{{année_pop division|}}}}}})<small>}}
+}}
+{{#iferror:{{#expr:{{{population division b|{{{population division|}}} }}}/{{{superficie division b|{{{superficie division|}}} }}} }}
+  |
+  |{{Infobox/Ligne mixte densité optionnelle|Dinsité|{{{superficie division b|{{{superficie division|}}} }}}|{{{population division b|{{{population division|}}} }}} }}
+}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers démographie|Divers}}}|{{{divers démographie|}}} }} 
+{{Infobox/Ligne mixte optionnelle|{{{nom divers démographie2|Divers}}}|{{{divers démographie2|}}} }}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers démographie3|Divers}}}|{{{divers démographie3|}}} }}
+<!-- 
+
+Jografie 
+
+-->
+{{Infobox/Sous-titre optionnel|Jografie|{{{latitude|}}}{{{longitude|}}}{{{altitude|}}}{{{alt mini|}}}{{{alt maxi|}}}{{{superficie|}}}{{{superficie division2|{{{superficie agglomération|}}} }}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}} }}
+{{Infobox/Ligne mixte latitude longitude optionnelle|[[Coordonnées géographiques|Coordonnées]]|{{{latitude|}}}|{{{longitude|}}}|{{{type coord|city}}}|title={{#ifeq:{{{coord titre|}}}|non| |oui}}|géolocalisation={{{géolocalisation dans coords|{{{géolocalisation|}}}}}}|inline={{{inline|}}}}}
+{{Infobox/Ligne mixte optionnelle
+  |Altitude
+  |{{#if:{{{altitude|}}}
+    |{{Unité|{{{altitude}}}|m}}{{espace}}<!--
+  -->{{#if:{{{alt mini|}}}|(min.&nbsp;:&nbsp;{{Unité|{{{alt mini}}}|m}}){{espace}} }}<!--
+  -->{{#if:{{{alt maxi|}}}|(max.&nbsp;:&nbsp;{{Unité|{{{alt maxi}}}|m}})}}
+    |{{#if:{{{alt mini|}}}|Min.&nbsp;{{Unité|{{{alt mini}}}|m}}{{#if:{{{alt maxi|}}}|&nbsp;–{{espace}}}}}}<!--
+  -->{{#if:{{{alt maxi|}}}|Max.&nbsp;{{Unité|{{{alt maxi}}}|m}}}}
+   }}
+}}
+{{Infobox/Ligne mixte optionnelle
+  |Supérfichie
+  |{{#if:{{{superficie|}}}
+    |{{#iferror:{{#expr:{{{superficie}}}}}
+      |{{Rouge|{{{superficie}}}&nbsp;km<sup>2</sup>}}
+      |{{#ifeq:{{lc:{{{superficie ha|}}} }}|non
+        |
+        |{{Unité|{{#expr:{{{superficie}}}*100}}|ha}}&nbsp;=&nbsp;
+       }}{{Unité|{{{superficie}}}|km<sup>2</sup>}}
+     }} {{#if:{{{superficie notes|}}} 
+      |{{#if: {{padright:| 1 |{{{superficie notes|}}} }}<!-- vide si population notes est entre balises ref -->
+        |{{#tag:ref |{{{superficie notes|}}}}}
+        |{{{superficie notes|}}}
+       }}
+     }}
+  }}
+}}
+{{Infobox/Ligne mixte optionnelle
+  |Superficie {{{nom_pop division a|{{{nom_pop agglomération|de l'agglomération}}} }}}
+  |{{#if:{{{superficie division a|{{{superficie agglomération|}}} }}}
+    |{{#iferror:{{#expr:{{{superficie division a|{{{superficie agglomération|}}} }}} }}
+      |{{Rouge|{{{superficie division a|{{{superficie agglomération|}}} }}}&nbsp;km{{2}}}}
+      |{{#ifeq:{{lc:{{{superficie ha|}}} }}|non
+        |
+        |{{Unité|{{#expr:{{{superficie division a|{{{superficie agglomération|}}} }}}*100}}|ha}}&nbsp;=&nbsp;
+       }}{{Unité|{{{superficie division a|{{{superficie agglomération|}}} }}}|km|2}}
+    }}
+  }}
+}}
+{{Infobox/Ligne mixte optionnelle
+  |Superficie {{{nom_pop division b|{{{nom_pop division|}}} }}}
+  |{{#if:{{{superficie division b|{{{superficie division|}}} }}}
+    |{{#iferror:{{#expr:{{{superficie division b|{{{superficie division|}}} }}} }}
+      |{{Rouge|{{{superficie division b|{{{superficie division|}}} }}}&nbsp;km{{2}}}}
+      |{{#ifeq:{{lc:{{{superficie ha|}}} }}|non
+        |
+        |{{Unité|{{#expr:{{{superficie division b|{{{superficie division|}}}}}}*100}}|ha}}&nbsp;=&nbsp;
+       }}{{Unité|{{{superficie division b|{{{superficie division|}}} }}}|km|2}}
+    }}
+  }}
+}}
+{{Infobox/Ligne mixte optionnelle
+  |{{{nom divers géo|Divers}}}
+  |{{{divers géo|}}}
+}} 
+{{Infobox/Ligne mixte optionnelle
+  |{{{nom divers géo2|Divers}}}
+  |{{{divers géo2|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+  |{{{nom divers géo3|Divers}}}
+  |{{{divers géo3|}}}
+}}
+{{Infobox/Ligne mixte optionnelle
+  |{{{nom divers géo4|Divers}}}
+  |{{{divers géo4|}}}
+}}
+<!--
+
+Divers
+
+-->
+{{Infobox/Sous-titre optionnel|{{{titre divers|Divers}}}| {{{sites touristiques|}}}{{{divers|}}}{{{divers2|}}}{{{divers3|}}}{{{divers4|}}}{{{divers5|}}}{{{divers6|}}}{{{divers7|}}}{{{divers8|}}}| {{{couleur|DDFFDD}}}|{{{couleur titre|}}}}}
+{{Infobox/Ligne mixte optionnelle|Site(s) touristike(s)|{{{sites touristiques|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers|Divers}}}|{{{divers|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers2|}}}|{{{divers2|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers3|}}}|{{{divers3|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers4|}}}|{{{divers4|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers5|}}}|{{{divers5|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers6|}}}|{{{divers6|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers7|}}}|{{{divers7|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom divers8|}}}|{{{divers8|}}}}}
+<!--
+
+Géolocalisacion 
+
+-->
+{{Infobox/Sous-titre optionnel|Localisacion|{{{imageloc|}}} {{#ifexpr:{{#if:{{{carte|}}}|1|0}} and {{#if:{{{latitude}}}|1|0}} and {{#if:{{{longitude}}}|1|0}} |OK}}|{{{couleur|DDFFDD}}}|{{{couleur titre|000000}}}}}
+{{#if: {{{imageloc|}}}
+  | {{Infobox/Image|{{{imageloc|}}}|{{{légende imageloc|}}}|{{{taille imageloc|}}}|{{{légende imageloc|Localisation de {{{nom|{{PAGENAME}} }}} }}} | | |Subdivision administrative}}
+}}
+{{#if: {{{carte|}}}  
+  |{{#ifeq:{{lc:{{{géolocdual}}} }}| oui |  <!-- 2/3 cartes avec géolocdual sur la première -->
+    {{Infobox/Géolocalisation multiple
+      |géolocalisation ={{#titleparts: {{{carte|}}}|1|1}}/{{{carte|}}}
+      |latitude = {{{latitude|}}}
+      |longitude = {{{longitude|}}}
+      |toponyme = {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+      |point =  {{{point|Ville sans {{#ifeq:{{lc:{{{position|ne}}} }}|aucune|toponyme|lien}} }}}
+      |parampoint1 = {{#if:{{{point|}}}|{{{arg1}}}|{{#if:{{{statut|}}}|{{#expr:10+{{{statut}}}}}|14}} }}
+      |parampoint2 = {{#if:{{{point|}}}
+        |{{{arg2}}}
+        |{{#if:{{{position|}}}
+          |{{{position}}}
+          |{{#ifexpr:({{Coordonnées/dms2dec|{{{longitude}}}}}-{{Géolocalisation/{{#titleparts: {{{carte|}}}|1|1}}| left}})/({{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|right}}-{{Coordonnées/dms2dec|{{{longitude}}}}})>3|nw|ne}}
+         }} 
+       }}
+      |largeur1 = {{{taille carte|280}}}
+      |type1 =  relief
+      |alt1 = Voir la carte topographique {{du?|{{#titleparts:{{{carte|}}}|1|1}}}}{{#titleparts:{{{carte|}}}|1|1}}
+      |largeur2 = {{{taille carte|280}}}
+      |type2 = {{{type|}}}
+      |alt2 = Voir la carte administrative {{du?|{{#titleparts:{{{carte|}}}|1|1}}}}{{#titleparts:{{{carte|}}}|1|1}}
+      |largeur3 = {{{taille carte2|280}}}
+      |type3 = {{{type carte2|}}}
+      |alt3 = Voir sur la carte {{#switch:{{{type carte2|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte2|}}}
+       }} {{du?|{{#titleparts:{{{carte|}}}|1|2}}}}{{#titleparts:{{{carte|}}}|1|2}}
+      |parampoint2-3 = {{#if:{{{position2|}}} | {{{position2|}}} | {{#if:{{{position|}}} | {{{position|}}} | {{#ifexpr:( {{Coordonnées/dms2dec|{{{longitude}}}}} - {{Géolocalisation/{{#titleparts: {{{carte|}}}|1|2}}| left}} ) / ( {{Géolocalisation/{{#titleparts:{{{carte|}}}|1|2}}|right}} - {{Coordonnées/dms2dec|{{{longitude}}}}} ) > 3 | nw | ne }} }} }}
+      |largeur4 = {{{taille carte3|280}}}
+      |type4 = {{{type carte3|}}}
+      |alt4 = Voir sur la carte {{#switch:{{{type carte3|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte3|}}}
+       }} {{du?|{{#titleparts:{{{carte|}}}|1|3}}}}{{#titleparts:{{{carte|}}}|1|3}}
+      |parampoint2-4 = {{#if:{{{position3|}}} | {{{position3|}}} | {{#if:{{{position|}}} | {{{position|}}} | {{#ifexpr:( {{Coordonnées/dms2dec|{{{longitude}}}}} - {{Géolocalisation/{{#titleparts: {{{carte|}}}|1|3}}| left}} ) / ( {{Géolocalisation/{{#titleparts:{{{carte|}}}|1|3}}|right}} - {{Coordonnées/dms2dec|{{{longitude}}}}} ) > 3 | nw | ne }} }} }}
+    }}|
+    {{Infobox/Géolocalisation multiple     <!-- 2/3/4 cartes simple -->
+      |géolocalisation ={{{carte|}}}
+      |latitude = {{{latitude|}}}
+      |longitude = {{{longitude|}}}
+      |toponyme = {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+      |point = {{{point| Ville sans {{#ifeq:{{lc:{{{position|ne}}} }}| aucune |toponyme|lien}} }}}
+      |parampoint1 = {{#if:{{{point|}}}|{{{arg1}}}|{{#if:{{{statut|}}}|{{#expr:10+{{{statut}}}}}|14}} }}
+      |parampoint2 = {{#if:{{{point|}}}
+        |{{{arg2}}}
+        |{{#if:{{{position|}}}
+          |{{{position}}}
+          |{{#ifexpr:({{Coordonnées/dms2dec|{{{longitude}}}}}-{{Géolocalisation/{{#titleparts: {{{carte|}}}|1|1}}| left}})/({{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|right}}-{{Coordonnées/dms2dec|{{{longitude}}}}})>3|nw|ne}}
+         }} 
+       }}
+      |largeur1 = {{#if: {{{taille carte|}}} | {{{taille carte|}}} | 280 }}
+      |type1 = {{{type|}}}
+      |alt1 = Voir sur la carte {{#switch:{{{type|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type|}}}
+       }} {{du?|{{#titleparts:{{{carte|}}}|1|1}}}}{{Géolocalisation/{{#titleparts:{{{carte|}}}|1|1}}|name}}
+      |largeur2 = {{#if: {{{taille carte2|}}} | {{{taille carte2|}}} | 280 }} 
+      |type2 = {{{type carte2|}}}
+      |alt2 = Voir sur la carte {{#switch:{{{type carte2|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte2|}}}
+       }} {{du?|{{#titleparts:{{{carte|}}}|1|2}}}}{{Géolocalisation/{{#titleparts:{{{carte|}}}|1|2}}|name}}
+      |parampoint2-2 = {{#if:{{{position2|}}} | {{{position2|}}} | {{#if:{{{position|}}} | {{{position|}}} | {{#ifexpr:( {{Coordonnées/dms2dec|{{{longitude}}}}} - {{Géolocalisation/{{#titleparts: {{{carte|}}}|1|2}}| left}} ) / ( {{Géolocalisation/{{#titleparts:{{{carte|}}}|1|2}}|right}} - {{Coordonnées/dms2dec|{{{longitude}}}}} ) > 3 | nw | ne }} }} }}
+      |largeur3 = {{#if: {{{taille carte3|}}} | {{{taille carte3|}}} | 280 }} 
+      |type3 = {{{type carte3|}}}
+      |alt3 = Voir sur la carte {{#switch:{{{type carte3|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte3|}}}
+       }} {{du?|{{#titleparts:{{{carte|}}}|1|3}}}}{{Géolocalisation/{{#titleparts:{{{carte|}}}|1|3}}|name}}
+      |parampoint2-3 = {{#if:{{{position3|}}} | {{{position3|}}} | {{#if:{{{position|}}} | {{{position|}}} | {{#ifexpr:( {{Coordonnées/dms2dec|{{{longitude}}}}} - {{Géolocalisation/{{#titleparts: {{{carte|}}}|1|3}}| left}} ) / ( {{Géolocalisation/{{#titleparts:{{{carte|}}}|1|3}}|right}} - {{Coordonnées/dms2dec|{{{longitude}}}}} ) > 3 | nw | ne }} }} }}
+      |largeur4 = {{#if: {{{taille carte4|}}} | {{{taille carte4|}}} | 280 }} 
+      |type4 = {{{type carte4|}}}
+      |alt4 = Voir sur la carte {{#switch:{{{type carte4|}}}
+        |relief=topographique
+        |=administrative
+        |{{{type carte4|}}}
+       }} {{du?|{{#titleparts:{{{carte|}}}|1|4}}}}{{Géolocalisation/{{#titleparts:{{{carte|}}}|1|4}}|name}}
+      |parampoint2-4 = {{#if:{{{position3|}}} | {{{position3|}}} | {{#if:{{{position|}}} | {{{position|}}} | {{#ifexpr:( {{Coordonnées/dms2dec|{{{longitude}}}}} - {{Géolocalisation/{{#titleparts: {{{carte|}}}|1|4}}| left}} ) / ( {{Géolocalisation/{{#titleparts:{{{carte|}}}|1|4}}|right}} - {{Coordonnées/dms2dec|{{{longitude}}}}} ) > 3 | nw | ne }} }} }}
+    }}
+  }}
+}}
+<!-- 
+
+Intarnète 
+
+-->
+{{Infobox/Sous-titre optionnel|Loyens|{{{site ville|}}}{{{url|}}}{{{url2|}}}{{{url3|}}}{{{url4|}}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{#if:{{{nom site|}}}|{{{nom site}}}|Site ouèbe}}|{{{site ville|{{{url|}}}}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom site2|}}}|{{{url2|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom site3|}}}|{{{url3|}}}}}
+{{Infobox/Ligne mixte optionnelle|{{{nom site4|}}}|{{{url4|}}}}}
+<!-- 
+
+Sources éstatistikes
+
+-->
+{{Infobox/Sous-titre optionnel|Sources|{{{source1|}}}{{{source2|}}}{{{source3|}}}{{{source4|}}}|{{{couleur|DDFFDD}}}|{{{couleur titre|}}}}}
+{{Infobox/Ligne optionnelle|{{{source1|}}}||left }}
+{{Infobox/Ligne optionnelle|{{{source2|}}}||left}}
+{{Infobox/Ligne optionnelle|{{{source3|}}}||left}}
+{{Infobox/Ligne optionnelle|{{{source4|}}}||left}}
+{{Infobox/Ligne|{{références|groupe=rev}}||left}}
+{{#if:{{{modèle|}}}|
+{{Infobox/Notice|{{{modèle}}}|{{{couleur|DDFFDD}}}}}
+}}
+{{Infobox/Fin}}<!--
+
+chés mawais paramétraches
+
+-->{{#ifeq:{{NAMESPACENUMBER}}/{{{nocat|}}}|10/|{{#ifeq: {{localurl:{{{modèle|}}}}} | {{localurl:{{BASEPAGENAME}}}}||[[Catégorie:Infobox Subdivision administrative - Paramètre modèle mal renseigné]]}}}}<!--
+
+Categorisation geolocalisation
+-->{{#if: {{NAMESPACE}} ||{{#if:{{{latitude|}}}|[[Catégorie:Article géolocalisé sur Terre]]}}
+ {{#ifeq:{{{géolocalisation|}}}|pas pertinent
+   |{{#if:{{{latitude|}}}| |[[Catégorie:Article à ne pas géolocaliser]]}}
+   |{{#if:{{{latitude|}}}
+     |{{#ifeq:{{{géolocalisation|}}}|non
+       | 
+       |{{#if:{{{carte|}}}
+         |{{#ifexpr: {{Géolocalisation/{{#titleparts:{{{carte}}}|1|1}}|x|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude}}}}}}}<=0
+          or  {{Géolocalisation/{{#titleparts:{{{carte}}}|1|1}}|x|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude}}}}}}}>=100 
+          or  {{Géolocalisation/{{#titleparts:{{{carte}}}|1|1}}|y|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude}}}}}}}<=0
+          or  {{Géolocalisation/{{#titleparts:{{{carte}}}|1|1}}|y|{{Coordonnées/dms2dec|{{{latitude|}}}}}|{{Coordonnées/dms2dec|{{{longitude}}}}}}}>=100  
+           | [[Catégorie:Article avec une géolocalisation hors-carte]]
+          }}
+         |[[Catégorie:Infobox Subdivision administrative - Article géolocalisable sans carte]]
+        }}
+      }}
+     |{{#if:{{{carte|}}}
+         |{{#if:{{#invoke: coordinates|latitude|{{{latitude|}}}|wikidata={{{wikidata|true}}}}}
+             ||[[Catégorie:Subdivision administrative géolocalisable sans coordonnées paramétrées]]
+          }}
+      }}
+    }}
+ }}
+ {{#if:{{{latitude|}}}|{{#iferror:{{#expr:{{Coordonnées/dms2dec|{{{latitude}}} }}*1}} |[[Catégorie:Infobox Subdivision administrative - Coordonnées mal renseignées]] | }} }}
+ {{#if:{{{longitude|}}}|{{#iferror:{{#expr:{{Coordonnées/dms2dec|{{{longitude}}} }}*1}} |[[Catégorie:Infobox Subdivision administrative - Coordonnées mal renseignées]] | }} }}
+ {{#if:{{{population|}}}|{{#ifeq:{{#iferror:{{#expr:{{#invoke:Suppress categories|main|{{{population|}}}}} round 0}} }} | {{#invoke:Suppress categories|main|{{{population|}}}}} | |[[Catégorie:Infobox Subdivision administrative - Population non numérique]] | }} }}
+ {{#if:{{{superficie|}}}|{{#iferror:{{#expr:{{{superficie|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Superficie non numérique]] | }}  }}
+ {{#if:{{{population division|}}}|{{#iferror:{{#expr:{{{population division|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Population non numérique]] | }} }}
+ {{#if:{{{superficie division|}}}|{{#iferror:{{#expr:{{{superficie division|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Superficie non numérique]] | }} }}
+ {{#if:{{{population agglomération|}}}|{{#iferror:{{#expr:{{{population agglomération|}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Population non numérique]] | }} }}
+ {{#if:{{{superficie agglomération|}}}|{{#iferror:{{#expr:{{{superficie agglomération}}}*1}} |[[Catégorie:Infobox Subdivision administrative - Superficie non numérique]] | }} }}
+ {{#if:{{{pays|}}}|{{#ifexist: Modèle:{{{pays|}}} | |[[Catégorie:Infobox Subdivision administrative - Pays mal codifié]] }} }}
+ {{#if: {{{densité|}}} {{{densité division|}}} {{{densité agglomération|}}} | [[Catégorie: Page utilisant un modèle avec un paramètre obsolète|densité]] }}
+ {{#if:{{{modèle|}}} | |[[Catégorie:Infobox Subdivision administrative - Page faisant un appel direct au modèle|{{{pays|}}} ]] }}
+}}<!-- 
+
+Illustrations
+
+-->{{#if:{{NAMESPACE}}||
+         {{#if:{{{image|}}}{{{image2|}}}{{{image3|}}}{{{imageloc2|}}}||[[Catégorie:Article à illustrer Subdivision administrative]]}}<!--
+-->{{#ifeq:{{lc:{{{image|}}}}}|defaut.svg|[[Catégorie:Subdivision administrative illustrée par defaut.svg]]|{{#ifeq:{{lc:{{{image|}}}}}|defaut 2.svg|[[Catégorie:Subdivision administrative illustrée par defaut.svg]]|}}}}
+   }}</includeonly><noinclude>{{Documentation}}</noinclude>

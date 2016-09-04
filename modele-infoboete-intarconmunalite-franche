@@ -1,0 +1,46 @@
+<includeonly>{{Infoboète Subdivision aménistrative
+|modèle                   = Infoboète Intarconmunalité Franche <!--Infobox Intercommunalité de France - Paramètre obligatoire pour un modèle-->
+|nom                      = {{{nom|{{PAGENAME}} }}}
+|couleur                  = FFE2BF
+|blason                   = {{{logo|}}}
+|taille blason            = {{{taille logo|}}}
+|légende blason           = 
+|image                    = {{{image|}}}
+|taille image             = {{{taille image|}}}
+|légende                  = {{{légende|}}}
+|pays                     = Franche
+|nom de division          = Région
+|division                 = {{{région|}}}
+|nom de division2         = Départémint]]
+|division2                = {{{département|}}}
+|nom de division3         = Forme
+|division3                = {{{forme|}}}
+|nom de division4         = Siège
+|division4                = {{{siège|}}}
+|nom de division5         = Conmunes
+|division5                = {{formatnum:{{{nbre communes|}}} }}
+|titre autorité           = {{#if:{{{présidente|}}}|Présidtnte|Présidint}}
+|autorité                 = {{{présidente|{{{président|}}}}}} {{#if:{{{étiquette|}}}|<small>({{{étiquette}}})</small>|}}
+|titre autorité2          = Budget
+|autorité2                = {{#if:{{{budget|}}}|{{unité|{{{budget|}}}|[[Euro|€]]}} {{#if:{{{date-budget|}}}|<small>({{{date-budget}}})</small>|}} }}
+|nom de code1             = Date créachon
+|code1                    = {{{date-création|}}}
+|latitude                 = {{{latitude|}}} 
+|longitude                = {{{longitude|}}} 
+|type coord               = city_region:FR
+|coord titre              = oui
+|géolocalisation          = pas pertinent
+|nom de code2             = Date fin
+|code2                    = {{{date-disparition|}}}
+|nom de code3             = Code SIREN
+|code3                    = {{formatnum:{{{SIREN|}}}}}
+|population               = {{{population|{{Dernière population EPCI|siren={{{SIREN|}}}}}}}}
+|année_pop                = {{{année_pop|{{Dernière population EPCI|date|siren={{{SIREN|}}}}}}}}
+|population notes         = {{{population notes|}}}
+|superficie               = {{{superficie|}}}
+|superficie ha            = non
+|imageloc                 = {{{imageloc|}}}
+|légende imageloc         = {{{légende imageloc|}}}
+|imageloc2                = {{{imageloc2|}}}
+|url                      = {{{site web|}}}
+}}</includeonly><noinclude><!--{{Documentation}}--></noinclude>

@@ -1,0 +1,69 @@
+<includeonly>{{Infobox/Début}}
+{{Infobox/Titre
+ | {{{nom|{{PAGENAME}}}}}|0000A0|entete map|ffffff
+}}
+{{Infobox/Image
+ | {{{logo|}}}||{{#if:{{{logo-taille|}}}|{{{logo-taille}}}|100}}||||Groupement de collectivités européennes
+}}
+{{Infobox/Image
+ | {{{image|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|Carte du groupement}}|{{#if:{{{image-taille|}}}|{{{image-taille}}}|280}}||||Groupement de collectivités européennes
+}}
+{{Infobox/Sous-titre
+ | Aménistrachon|0000A0|ffffff
+}}
+{{Infobox/Ligne mixte
+ | Poéyis|{{{{{pays1|}}}}} {{#if:{{{région1|}}}|<br />'''{{{région1|}}}'''}}{{#if:{{{région11|}}}|,<br /> '''{{{région11|}}}'''}} {{#if:{{{région12|}}}|,<br /> '''{{{région12|}}}'''}} {{#if:{{{région13|}}}|,<br /> '''{{{région13|}}}'''}} {{#if:{{{région14|}}}|,<br /> '''{{{région14|}}}'''}}
+}}
+{{Infobox/Ligne mixte
+ | Poéyis|{{{{{pays2|}}}}} {{#if:{{{région2|}}}|<br />'''{{{région2|}}}'''}} {{#if:{{{région21|}}}|,<br /> '''{{{région21|}}}'''}} {{#if:{{{région22|}}}|,<br /> '''{{{région22|}}}'''}} {{#if:{{{région23|}}}|,<br /> '''{{{région23|}}}'''}} {{#if:{{{région24|}}}|,<br /> '''{{{région24|}}}'''}}
+}}
+{{#if:{{{pays3|}}}|{{Infobox/Ligne mixte
+ | Poéyis|{{{{{pays3|}}}}} {{#if:{{{région3|}}}|<br />'''{{{région3|}}}'''}} {{#if:{{{région31|}}}|,<br /> '''{{{région31|}}}'''}} {{#if:{{{région32|}}}|,<br /> '''{{{région32|}}}'''}} {{#if:{{{région33|}}}|,<br /> '''{{{région33|}}}'''}} {{#if:{{{région34|}}}|,<br /> '''{{{région34|}}}'''}}
+}}}}
+{{#if:{{{pays4|}}}|{{Infobox/Ligne mixte
+ | Poéyis|{{{{{pays4|}}}}} {{#if:{{{région4|}}}|<br />'''{{{région4|}}}'''}} {{#if:{{{région41|}}}|,<br /> '''{{{région41|}}}'''}} {{#if:{{{région42|}}}|,<br /> '''{{{région42|}}}'''}} {{#if:{{{région43|}}}|,<br /> '''{{{région43|}}}'''}} {{#if:{{{région44|}}}|,<br /> '''{{{région44|}}}'''}}
+}}}}
+{{#if:{{{pays5|}}}|{{Infobox/Ligne mixte
+ | Poéyis|{{{{{pays5|}}}}} {{#if:{{{région5|}}}|<br />'''{{{région5|}}}'''}} {{#if:{{{région51|}}}|,<br /> '''{{{région51|}}}'''}} {{#if:{{{région52|}}}|,<br /> '''{{{région52|}}}'''}} {{#if:{{{région53|}}}|,<br /> '''{{{région53|}}}'''}} {{#if:{{{région54|}}}|,<br /> '''{{{région54|}}}'''}}
+}}}}
+{{Infobox/Ligne mixte
+ | Forme actuelle|{{{forme|}}} 
+}}
+{{#if:{{{forme ant|}}}|{{Infobox/Ligne mixte
+ | Forme avant|{{{forme ant|}}} 
+}}}}
+{{Infobox/Ligne mixte
+ | Siège|{{{siège|}}}
+}}
+{{Infobox/Ligne mixte
+ | Date éd créachon|{{{date-création|}}}
+}}
+{{#if:{{{président|}}}|{{Infobox/Ligne mixte
+ | Présidint|{{{président}}} 
+}}}}
+{{Infobox/Ligne mixte optionnelle
+ | Budget|{{{budget|}}}|{{formatnum:{{{budget|}}}}} € {{#if:{{{date-budget|}}}|<small>([[{{{date-budget}}}]])</small>|}}
+}}
+{{Infobox/Ligne mixte site web optionnelle
+ | Site web|{{{site web|}}}|
+}}
+{{Infobox/Sous-titre
+ | Éstatistikes|0000A0|ffffff
+}}
+{{Infobox/Ligne mixte
+ | Populachon|{{formatnum:{{{pop|}}}}} {{hab.}} {{#if:{{{date-pop|}}}|<small>([[{{{date-pop|}}}]])</small>}}
+}}
+{{Infobox/Ligne mixte
+ | Supérfichie|{{unité|{{{km²|}}}|km|2}}
+}}
+{{Infobox/Ligne mixte densité optionnelle
+ | Dinsité|{{{km²|}}}|{{{pop|}}}
+}}
+{{#if:{{{nbre communes|}}}|{{Infobox/Sous-titre
+ | Subdivisions|0000A0|ffffff
+}}
+{{Infobox/Ligne mixte
+ | Conmeunes|{{{nbre communes|}}}
+}}}}
+{{Infobox/Notice|Infobox Groupement de collectivités européennes}}
+{{Infobox/Fin}}</includeonly><noinclude>{{Documentation}}</noinclude>

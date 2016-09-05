@@ -51,7 +51,7 @@
  | Éstatistikes|0000A0|ffffff
 }}
 {{Infobox/Ligne mixte
- | Populachon|{{formatnum:{{{pop|}}}}} {{hab.}} {{#if:{{{date-pop|}}}|<small>([[{{{date-pop|}}}]])</small>}}
+ | Populachon|{{formatnum:{{{pop|}}}}} gins {{#if:{{{date-pop|}}}|<small>({{{date-pop|}}})</small>}}
 }}
 {{Infobox/Ligne mixte
  | Supérfichie|{{unité|{{{km²|}}}|km|2}}

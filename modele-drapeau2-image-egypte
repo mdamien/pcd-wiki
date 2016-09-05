@@ -1,4 +1,4 @@
-<includeonly>{{#ifexpr: {{{1}}} > 1984| Flag of Egypt.svg|{{#ifexpr: {{{1}}} > 1972|Flag of Egypt 1972.svg|{{#ifexpr: {{{1}}} > 1958| Flag of United Arab Republic.svg | {{#ifexpr: {{{1}}} > 1952| Flag of Egypt 1952.svg | {{#ifexpr: {{{1}}} > 1922| Flag of Egypt 1922.svg | Egypt flag 1882.svg}}}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de l'Égypte}}
+<includeonly>{{#ifexpr: {{{1}}} > 1984| Flag of Egypt.svg|{{#ifexpr: {{{1}}} > 1972|Flag of Egypt 1972.svg|{{#ifexpr: {{{1}}} > 1958| Flag of the United Arab Republic.svg | {{#ifexpr: {{{1}}} > 1952| Flag of Egypt 1952.svg | {{#ifexpr: {{{1}}} > 1922| Flag of Egypt 1922.svg | Egypt flag 1882.svg}}}}}}}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau de l'Égypte}}
 {| class="wikitable"
 |-
 ! De !! À !! Statut !! Drapeau

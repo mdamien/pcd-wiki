@@ -1,0 +1,24 @@
+<includeonly><center style="margin: 2em 0; overflow: hidden;" class="blocEmphase"><table><tr><td style="border: {{{bord|{{{border|1px}}}}}} solid #000; padding: {{{espacement|1em}}}; background-color: {{{fond|#fff}}};">{{{texte|{{{1}}}}}}</td></tr></table></center></includeonly><noinclude>
+<!--{{Documentation|contenu=-->
+
+Ch'modèle-lo i permet d'incadrer un teske
+
+== Syntakse ==
+ <nowiki>{{Bloc emphase| texte=</nowiki>{{param|contenu}}<nowiki> | fond=</nowiki>{{param|couleur}}<nowiki> | espacement=</nowiki>{{param|dimension}}<nowiki> | bord=</nowiki>{{param|épaisseur}}<nowiki> }}</nowiki>
+
+== Paramètes ==
+# <code>teske</code> : Obligatoire (ch' nom du paramète i put ète omis – vir chés égzimpes) ;
+# <code>fond</code> : Facultatif (par défaut : <code>white</code>) ;
+# <code>éspacemint</code> : Facultatif (par défaut : <code>1em</code>).
+# <code>bord</code> : Facultatif (par défaut : <code>1px</code>).
+
+== Egzimpes ==
+* <nowiki>{{Bloc emphase|&lt;math>\mathbf g \ = \ g_{\mu \nu}(x) \ \mathrm{d}x^{\mu} \ \otimes \ \mathrm{d} x^{\nu}</math>}}</nowiki>
+{{Bloc emphase|<math>\mathbf g \ = \ g_{\mu \nu}(x) \ \mathrm{d}x^{\mu} \ \otimes \ \mathrm{d} x^{\nu}</math>}}
+* <nowiki>{{Bloc emphase|''Il faut aimer les maths''|fond=skyblue|espacement=2em}}</nowiki>
+{{Bloc emphase|''Ch'est bon conme cha !''|fond=skyblue|espacement=2em}}
+*<nowiki>{{Bloc emphase|&lt;math>\text{SCE} = \sum_i (y_i - \overline{y})^2</math>|bord=1px solid gray;}}</nowiki>
+{{Bloc emphase| <math>\text{SCE} = \sum_i (y_i - \overline{y})^2 </math> |bord=1px solid gray;}}
+
+[[Catégorie:Modèle]]
+</noinclude>

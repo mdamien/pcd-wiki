@@ -753,7 +753,7 @@ L'invariance de l'hamiltonien d'un système sous un groupe continu de transforma
 <math>L=K.\int\limits_{380~nm}^{780~nm} S(\lambda)\cdot\big(\overbrace{ 1\cdot\overline{r}(\lambda)+4,5907\cdot\overline{v}(\lambda)+0,0601\cdot \overline{b}(\lambda) }^{\overline{y}(\lambda)=V(\lambda)}\big)\cdot \mathrm d\lambda~.</math>
 
 * '''modèle Encadre''' <center> {{Encadre|couleur=rouge|contenu= <math> m_p = \frac {\Sigma v_i \times f_i}{\Sigma f_i} </math> }}</center>
-
+* '''Bloc emphase'''  {{Bloc emphase|<math>\ R_{ij}-\frac{1}{2}g_{ij}.R = \chi  \  T_{ij}</math>|fond=#fff8ff}}
 
 {{BDdebut|titre=Boite à outils TeX}}
 essai BD

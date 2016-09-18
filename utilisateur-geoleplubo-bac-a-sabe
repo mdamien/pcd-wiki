@@ -38,7 +38,8 @@ I had rights for adminship from 25 december 2012  and I am requesting a prolonga
 
 * <nowiki>Si la même note est utilisée plusieurs fois dans le texte, préférer la syntaxe <ref name="nom de la note"> … </ref> une fois dans le texte, puis <ref name="nom de la note" /> les autres fois. Elles peuvent aussi être nommées pour des appels multiples ou/et regroupées via des attributs à la balise : <ref name="nom" group="groupe"> … </ref></nowiki>
 
-* Pour faire un espace : &nbsp; <nowiki> &nbsp; </nowiki> <code> &nbsp; </code> &nbsp; & nbsp ; (attaché)
+* Pour faire '''un espace''' : &nbsp; <nowiki> &nbsp; </nowiki> <code> &nbsp; </code> &nbsp; & nbsp ; (attaché)<br> ou alors avec une astuce = points blancs = la vitesse et<span style="color:#ffffff;"><small>...........................................</small></span>« la relativité générale » ; i.e. par:  <nowiki> <span style="color:#ffffff;"> .....</span></nowiki> 
+
 #des corrections typographiques,
 ## Je retire les espaces insécables <code>&amp;nbsp;</code> devant les deux-points, les guillemets, etc. parce qu’ils sont gérés directement par le logiciel moteur MediaWiki
 ## Je remplace les <code>&amp;nbsp;</code> par un <nowiki>{{formatnum:}}</nowiki> pour les chiffres et même par le modèle {{M|Nombre}} (qui utilise formatnum).

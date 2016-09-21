@@ -14,6 +14,9 @@
 {{Infobox/Ligne mixte
  | Poéyis|{{{pays|}}}|40|
 }}
+{{Infobox/Ligne mixte
+ | Région|{{{région|}}}|40|
+}}
 {{Infobox/Ligne mixte optionnel
  | Localité|{{{ville|}}}
 }}

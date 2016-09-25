@@ -179,12 +179,21 @@ Coucou
 * Pour les chercheurs et les créateurs qui n'ont pas trouvé d'éditeur afin que leurs idées ne soient pas perdues et servent à tous, il est évident que ce qui sera partagé tombera dans le domaine public mais les auteurs conservent le bénéfice de l'antériorité, ce qui leur permet d'éditer leurs créations, fruit de leurs recherches, sans leur en réserver le copyright.
 * Inversement, tout exploitation de leurs travaux par autrui est libre et exempte de droits, mais on ne peut leur opposer un copyright, de la même façon qu'une enveloppe Soleau permet à son auteur d'éditer et de faire fructifier ses travaux.
 
-== vidéo ==
+== vidéos et pi images ==
 
 :::{{VideoSRT
  |titre=Essai
  |align=left
  |Fichier:Elementary Statistics Video Lecture The Chi-Square Distribution.ogv‎}}
+
+; Créer un lien depuis une image =
+
+Par défaut, le lien proposé renvoi vers la page des propriétés de l’image.
+[[Image:Flag of Picardie.svg|60px]]
+
+Pour établir un lien à partir de l’image vers une autre page. Ajouter le paramètre "link=" suivi du titre de la page à atteindre.
+Le code suivant va établir un lien vers la page «Picard». <br>
+:::<code><nowiki>[[Image:Flag of Picardie.svg|100px|link=Picard]]</nowiki></code>  [[Image:Flag of Picardie.svg|60px|link=Picard]]
 
 ==Cartes==
 

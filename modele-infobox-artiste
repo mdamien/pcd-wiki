@@ -31,7 +31,7 @@
 }}
 {{#if:{{{date de naissance|}}} |
 ! scope=row {{!}} Né(e) l’
-{{!}} {{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|<br>{{{lieu de naissance}}}|}}
+{{!}} {{{date de naissance|}}}{{#if:{{{lieu de naissance|}}}|<br>à {{{lieu de naissance}}}|}}
 {{!-}}
 }}
 {{#if:{{{nationalité|}}} |
@@ -40,8 +40,13 @@
 {{!-}}
 }}
 {{#if:{{{date de mort|}}} |
-! scope=row {{!}} Défuncté(e)
-{{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>{{{lieu de mort}}}|}}
+! scope=row {{!}} Défuncté(e) au
+{{!}} {{{date de mort|}}}{{#if:{{{lieu de mort|}}}|<br>à {{{lieu de mort}}}|}}
+{{!-}}
+}}
+{{#if:{{{date de décès|}}} |
+! scope=row {{!}} Défuncté(e) au
+{{!}} {{{date de décès|}}}{{#if:{{{lieu de décès|}}}|<br>à {{{lieu de décès}}}|}}
 {{!-}}
 }}
 {{#if:{{{activités|{{{activités|}}}}}}|
@@ -55,48 +60,48 @@
 {{!}} {{{formation|}}}
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Moaite|{{{maître|}}}}}<!--
+{{Infobox V3/Tableau Ligne mixte|width=9|Moaite|{{{maîtres|}}}}}
 {{#if:{{{maître|}}} |
 ! scope=row {{!}} Moaite
-{{!}} {{{maître|}}}-->
+{{!}} {{{maître|}}}
 {{!-}}
 }}
 {{Infobox V3/Tableau Ligne mixte|width=9|Élèves|{{{élèves|}}}}}<!--
 {{#if:{{{élèves|}}} |
 ! scope=row {{!}} élèves
-{{!}} {{{élèves|}}}-->
+{{!}} {{{élèves|}}}
 {{!-}}
-}}
-{{Infobox V3/Tableau Ligne mixte|width=9|Mouvemint artistique|{{{mouvement|}}}}}<!--
+}}-->
+{{Infobox V3/Tableau Ligne mixte|width=9|Mouvemint artistike|{{{mouvement|}}}}}<!--
 {{#if:{{{mouvement|}}} |
 ! scope=row {{!}} Mouvemint artistique
-{{!}} {{{mouvement|}}}-->
+{{!}} {{{mouvement|}}}
 {{!-}}
-}}
+}}-->
 {{Infobox V3/Tableau Ligne mixte|width=9|Œuves réputées|{{{œuvres|}}}}}<!--
 {{#if:{{{œuvres|}}} |
 ! scope=row {{!}} Œuves réputées
-{{!}} {{{œuvres|}}}-->
+{{!}} {{{œuvres|}}}
 {{!-}}
-}}
+}}-->
 {{Infobox V3/Tableau Ligne mixte|width=9|Mécènes|{{{mécènes|}}}}}<!--
 {{#if:{{{mécènes|}}} |
 ! scope=row {{!}} mécènes
-{{!}} {{{mécènes|}}}-->
+{{!}} {{{mécènes|}}}
 {{!-}}
-}}
+}}-->
 {{Infobox V3/Tableau Ligne mixte|width=9|Influincé par|{{{influencé_par|{{{influencé par|}}}}}}}}<!--
 {{#if:{{{influencé par|}}} |
 ! scope=row {{!}} Influincé par
-{{!}} {{{influencé par|}}}-->
+{{!}} {{{influencé par|}}}
 {{!-}}
-}}
+}}-->
 {{Infobox V3/Tableau Ligne mixte|width=9|Il o influinçé|{{{influence_de|{{{influence de|}}}}}}}}<!--
 {{#if:{{{influence de|}}} |
 ! scope=row {{!}} Il o influinçé
-{{!}} {{{influence de|}}}-->
+{{!}} {{{influence de|}}}
 {{!-}}
-}}
+}}-->
 {{#if:{{{site internet|{{{site web|}}}}}}|
 ! scope=row {{!}} Site oficièl
 {{!}} {{{site internet|{{{site web}}}}}}

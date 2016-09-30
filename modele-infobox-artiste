@@ -54,12 +54,12 @@
 {{!}} {{{activités|{{{activités}}}}}}
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Formacion|{{{formation|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Formacion|{{{formation|}}}}}<!--
 {{#if:{{{formation|}}} |
 ! scope=row {{!}} formacion
 {{!}} {{{formation|}}}
 {{!-}}
-}}
+}}-->
 {{Infobox V3/Tableau Ligne mixte|width=9|Moaite|{{{maîtres|}}}}}
 {{#if:{{{maître|}}} |
 ! scope=row {{!}} Moaite

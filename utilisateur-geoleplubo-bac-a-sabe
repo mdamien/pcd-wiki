@@ -8,6 +8,8 @@
 * [[Utilisateur:Geoleplubo/Statistiques]]
 * [[Utilisateur:Geoleplubo/Clarinette]]
 * [[Utilisateur:Geoleplubo/Loyens]]
+
+== réderie ==
 ;téléverser =
 * https://pcd.wikipedia.org/wiki/Spécial:Téléverser
 
@@ -38,7 +40,82 @@ I had rights for adminship from 25 december 2012  and I am requesting a prolonga
 
 * <nowiki>Si la même note est utilisée plusieurs fois dans le texte, préférer la syntaxe <ref name="nom de la note"> … </ref> une fois dans le texte, puis <ref name="nom de la note" /> les autres fois. Elles peuvent aussi être nommées pour des appels multiples ou/et regroupées via des attributs à la balise : <ref name="nom" group="groupe"> … </ref></nowiki>
 
-* Pour faire '''un espace''' : &nbsp; <nowiki> &nbsp; </nowiki> <code> &nbsp; </code> &nbsp; & nbsp ; (attaché)<br> ou alors avec une astuce = points blancs = la vitesse et<span style="color:#ffffff;"><small>...........................................</small></span>« la relativité générale » ; i.e. par:  <nowiki> <span style="color:#ffffff;"> .....</span></nowiki> 
+== codes ==
+
+[[w:Table des caractères Unicode (2000-2FFF)]]
+
+
+{| class="wikitable"
+! HTML
+! Unicode
+! Rendu
+! TeX
+! Rendu
+|-----
+| &amp;equiv; || &amp;#x2261; || ≡ || \equiv || <math>\equiv</math>
+|-----
+| &amp;le; || &amp;#x2264; || ≤ || \leq || <math>\leq</math>
+|-----
+|  || &amp;#x2A7D; || ⩽ || \leqslant || <math>\leqslant</math>
+|-----
+| &amp;ge; || &amp;#x2265; || ≥ || \geq || <math>\geq</math>
+|-----
+|  || &amp;#x2A7E; || ⩾ || \geqslant || <math>\geqslant</math>
+|-----
+| &amp;isin; || &amp;#x2208 || ∈ || \in || <math>\in</math>
+|-----
+| &amp;ni; || &amp;#x220b; || ∋ || \ni || <math>\ni</math>
+|-----
+| &amp;prop; || &amp;#x221d; || ∝ || \propto || <math>\propto</math>
+|-----
+| &amp;there4; || &amp;#x2234; || ∴ ||  || <math></math>
+|-----
+| &amp;sim; || &amp;#x223c; || ∼ || \sim || <math>\sim</math>
+|-----
+| &amp;cong; || &amp;#x2245; || ≅ || \cong || <math>\cong</math>
+|-----
+| &amp;asymp; || &amp;#x2248; || ≈ || \approx || <math>\approx</math>
+|-----
+| &amp;sub; || &amp;#x2282; || ⊂ || \subset || <math>\subset</math>
+|-----
+| &amp;sup; || &amp;#x2283; || ⊃ || \supset || <math>\supset</math>
+|-----
+| &amp;sube; || &amp;#x2286; || ⊆ || \subseteq || <math>\subseteq</math>
+|-----
+| &amp;supe; || &amp;#x2287; || ⊇ || \supseteq || <math>\supseteq</math>
+|-----
+| || &amp;#x2225; || ∥ || \&#124;|| <math>\|</math>
+|}
+
+
+
+* Pour faire '''un espace''' : &nbsp; <nowiki> &nbsp; </nowiki> <code> &nbsp; </code> &nbsp;  <code>&amp;nbsp;</code> faire: & nbsp ; (attaché)<br> ou alors avec une astuce = points blancs = la vitesse et<span style="color:#ffffff;"><small>...........................................</small></span>« la relativité générale » ; i.e. par:  <nowiki> <span style="color:#ffffff;"> .....</span></nowiki> 
+* pour faire &#8193; un grand espace &#8198; avec <code>&amp;#8193;</code> ou <code>&amp;#8198;</code> ( déc de 8192 à 8207 pour espaces )
+
+
+* Pour faire '''un tiret''' :  &nbsp;2008&ndash;2014 &nbsp;  <code>&amp;ndash;</code> &nbsp; faire & ndash ; (attaché) 
+
+* voir = http://www.w3schools.com/charsets/ref_utf_punctuation.asp
+<p> tiret  &#8211; avec <code>&amp;#8211;</code> en décimal  </p>
+<p> tiret  &#x2013; avec <code>&amp;#x2013;</code> en hexa</p>
+<p> tiret  &ndash; avec <code>&amp;ndash;</code></p>
+<p> tiret  &mdash; avec <code>&amp;mdash;</code> <code>&amp;#8212;</code> <code>&amp;#x2014;</code></p>
+
+
+'''&#1304;''' <code>&amp;#1304;</code> vir UTF-8 Cyrillic Supplement http://www.w3schools.com/charsets/ref_utf_cyrillic_supplement.asp
+:€ 	&#8364; 	&euro; 	EURO SIGN
+:&	38	&amp;	ampersand
+:ƒ	131	&fnof;	Latin small letter f with hook
+:†	134	&dagger;	dagger
+:‡	135	&Dagger;	double dagger
+:∀ 	&#8704; 	&forall; 	for all
+:∂ 	&#8706; 	&part; 	part
+:∃ 	&#8707; 	&exist; 	exists
+:ℏ	8463	210F	 	PLANCK CONSTANT OVER TWO PI
+:ℛ	8475	211B	 	SCRIPT CAPITAL R vir= http://www.w3schools.com/charsets/ref_utf_letterlike.asp
+:∭	8749	222D	 	TRIPLE INTEGRAL vir = http://www.w3schools.com/charsets/ref_utf_math.asp
+:➀	10112	2780	 	DINGBAT CIRCLED SANS-SERIF DIGIT ONE vir = http://www.w3schools.com/charsets/ref_utf_dingbats.asp
+
 
 #des corrections typographiques,
 ## Je retire les espaces insécables <code>&amp;nbsp;</code> devant les deux-points, les guillemets, etc. parce qu’ils sont gérés directement par le logiciel moteur MediaWiki
@@ -460,53 +537,6 @@ xxxxxxxxxxxxxxxxxxxx
 </table>
 <span style="font-family: Comic Sans MS">
 coucou</span>
-
-== codes ==
-
-[[w:Table des caractères Unicode (2000-2FFF)]]
-
-
-{| class="wikitable"
-! HTML
-! Unicode
-! Rendu
-! TeX
-! Rendu
-|-----
-| &amp;equiv; || &amp;#x2261; || ≡ || \equiv || <math>\equiv</math>
-|-----
-| &amp;le; || &amp;#x2264; || ≤ || \leq || <math>\leq</math>
-|-----
-|  || &amp;#x2A7D; || ⩽ || \leqslant || <math>\leqslant</math>
-|-----
-| &amp;ge; || &amp;#x2265; || ≥ || \geq || <math>\geq</math>
-|-----
-|  || &amp;#x2A7E; || ⩾ || \geqslant || <math>\geqslant</math>
-|-----
-| &amp;isin; || &amp;#x2208 || ∈ || \in || <math>\in</math>
-|-----
-| &amp;ni; || &amp;#x220b; || ∋ || \ni || <math>\ni</math>
-|-----
-| &amp;prop; || &amp;#x221d; || ∝ || \propto || <math>\propto</math>
-|-----
-| &amp;there4; || &amp;#x2234; || ∴ ||  || <math></math>
-|-----
-| &amp;sim; || &amp;#x223c; || ∼ || \sim || <math>\sim</math>
-|-----
-| &amp;cong; || &amp;#x2245; || ≅ || \cong || <math>\cong</math>
-|-----
-| &amp;asymp; || &amp;#x2248; || ≈ || \approx || <math>\approx</math>
-|-----
-| &amp;sub; || &amp;#x2282; || ⊂ || \subset || <math>\subset</math>
-|-----
-| &amp;sup; || &amp;#x2283; || ⊃ || \supset || <math>\supset</math>
-|-----
-| &amp;sube; || &amp;#x2286; || ⊆ || \subseteq || <math>\subseteq</math>
-|-----
-| &amp;supe; || &amp;#x2287; || ⊇ || \supseteq || <math>\supseteq</math>
-|-----
-| || &amp;#x2225; || ∥ || \&#124;|| <math>\|</math>
-|}
 
 <br />
 ==figures==

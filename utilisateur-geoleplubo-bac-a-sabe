@@ -755,6 +755,11 @@ L'invariance de l'hamiltonien d'un système sous un groupe continu de transforma
 * '''[http://fr.wikipedia.org/wiki/Aide:Formules_TeX fr:Aide:Formules TeX]''', '''[https://meta.wikimedia.org/wiki/Help:Formula Méta:Help:TeX]  édition des formules mathématiques,
 * écriture droite : <math>\mathrm{ZnO}</math>.  <nowiki><math>\mathrm{ZnO}</math></nowiki>
 * '''texte gras''' : <nowiki><math>\mathbf{ABCD}</math></nowiki> =  <math>\mathbf{ABCD}</math> <br/>
+
+* \ll et \gg pour «  »
+
+* http://tug.ctan.org/tex-archive/info/symbols/comprehensive/symbols-letter.pdf
+
 * <math>\left( \frac{1}{2} \right)</math> = <nowiki><math>\left( \frac{1}{2} \right)</math></nowiki>
 * <math>\left\{ {A \over B} \right\} \to X</math> = <nowiki><math>\left\{ {A \over B} \right\} \to X</math></nowiki>
 
@@ -818,9 +823,9 @@ essai BD
 
 
 ; egzimpes
-Si on reporte l'expression du vecteur vitesse dans la définition du moment cinétique en <math>O</math> on obtient <math>\vec{\sigma}_O = \overrightarrow{OM} \wedge m \left( \vec{\Omega} \wedge \overrightarrow{OM} \right)</math> ou encore <math>\vec{\sigma}_O = m \left[ \overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) \right]</math> et, en utilisant la formule du [[double produit vectoriel]] <math>\vec{A} \wedge \left( \vec{B} \wedge \vec{C} \right) = \left( \vec{A} \cdot \vec{C} \right) \vec{B} - \left( \vec{A} \cdot \vec{B} \right) \vec{C}</math>, cela donne <math>\overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) = \left( \overrightarrow{OM} \cdot \overrightarrow{OM} \right) \vec{\Omega} - \cancel{\left( \overrightarrow{OM} \cdot \vec{\Omega} \right) \overrightarrow{OM}} = r^2\, \vec{\Omega} </math> car <math>\overrightarrow{OM} \perp \vec{\Omega} \quad\text{et}\quad \lVert \overrightarrow{OM} \rVert = r </math> ; finalement :
-<center>  <math>\vec{\sigma}_O = J_\Delta\; \vec{\Omega}\;\color{white}{.}</math> avec <math>\color{white}{.}\;\color{black}J_\Delta = m\, r^2\;\color{white}{.}</math> appelé [[moment d'inertie]] de la particule relativement à l'axe de rotation <math>\Delta</math>. </center>
-Dans le [[système international d'unités]] (ou <math>S.I.</math>) le moment d'inertie s'exprime en <math>kg\! \cdot\! m^2</math>.
+Si on reporte l'expression du vecteur vitesse dans la définition du moment cinétique en <math>O</math> on obtient <math>\vec{\sigma}_O = \overrightarrow{OM} \wedge m \left( \vec{\Omega} \wedge \overrightarrow{OM} \right)</math> ou encore <math>\vec{\sigma}_O = m \left[ \overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) \right]</math> et, en utilisant la formule du double produit vectoriel <math>\vec{A} \wedge \left( \vec{B} \wedge \vec{C} \right) = \left( \vec{A} \cdot \vec{C} \right) \vec{B} - \left( \vec{A} \cdot \vec{B} \right) \vec{C}</math>, cela donne <math>\overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) = \left( \overrightarrow{OM} \cdot \overrightarrow{OM} \right) \vec{\Omega} - \cancel{\left( \overrightarrow{OM} \cdot \vec{\Omega} \right) \overrightarrow{OM}} = r^2\, \vec{\Omega} </math> car <math>\overrightarrow{OM} \perp \vec{\Omega} \quad\text{et}\quad \lVert \overrightarrow{OM} \rVert = r </math> ; finalement :
+<center>  <math>\vec{\sigma}_O = J_\Delta\; \vec{\Omega}\;\color{white}{.}</math> avec <math>\color{white}{.}\;\color{black}J_\Delta = m\, r^2\;\color{white}{.}</math> appelé moment d'inertie de la particule relativement à l'axe de rotation <math>\Delta</math>. </center>
+Dans le système international d'unités (ou <math>S.I.</math>) le moment d'inertie s'exprime en <math>kg\! \cdot\! m^2</math>.
 
 == politique EDP (exemption doctrine policy) ==
 voir:

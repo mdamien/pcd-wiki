@@ -1,9 +1,9 @@
-<noinclude>{{Infobox V2}}
+<noinclude>
 <!--==============================================================
-
+          AFFUTE : N'poin canger.
 ==============================================================-->
-</noinclude><includeonly>{| class="infobox_v2" cellspacing="7" border="0"
-| colspan="2" class="artiste" style="background-color:#7DA7D9;" | {{#if:{{{nom|}}}|{{{nom}}}|{{PAGENAME}}}}
+</noinclude><includeonly>{| class="infobox_v2" cellspacing="7"
+| class="entete" colspan="2" style="background-color: #7DA7D9; color: white;" | {{{nom|{{PAGENAME}}}}}
 |-
 <!-- IMAGE -->
 {{#if:{{{image|}}} | 

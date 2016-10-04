@@ -116,6 +116,7 @@ I had rights for adminship from 25 december 2012  and I am requesting a prolonga
 :∭	8749	222D	 	TRIPLE INTEGRAL vir = http://www.w3schools.com/charsets/ref_utf_math.asp
 :➀	10112	2780	 	DINGBAT CIRCLED SANS-SERIF DIGIT ONE vir = http://www.w3schools.com/charsets/ref_utf_dingbats.asp
 
+<code>&amp&#273;</code> faire: & #273 ;  ou  & #x00111 ;  (attaché) pour avoir &#273;  &#x00111;
 
 #des corrections typographiques,
 ## Je retire les espaces insécables <code>&amp;nbsp;</code> devant les deux-points, les guillemets, etc. parce qu’ils sont gérés directement par le logiciel moteur MediaWiki

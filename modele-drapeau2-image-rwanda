@@ -1,4 +1,4 @@
-<includeonly>{{#ifexpr: {{{1}}} > 2001| Flag of Rwanda.svg|{{#ifexpr: {{{1}}} > 1962|Flag of Rwanda (1962-2001).svg|Flag Rwanda 1959.svg}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau du Rwanda}}
+<includeonly>{{#ifexpr: {{{1}}} > 2001| Flag of Rwanda.svg|{{#ifexpr: {{{1}}} > 1962|Flag of Rwanda (1962-2001).svg|Flag of Rwanda (1959-1961).svg}}}}</includeonly><noinclude>{{Drapeau2/Docimage|drapeau du Rwanda}}
 {| class="wikitable"
 |-
 ! De !! À !! Statut !! Drapeau

@@ -1,0 +1,798 @@
+<table style="border-spacing: 0px; {{{style|}}}">
+<tr style="text-align: center;">
+<td rowspan="126" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="126"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="126"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{2|}}}|62|126}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{2|}}}|62|126}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{2|}}}|62|126}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{16|}}}|6|{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{16|}}}|6|{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{16|}}}|6|{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{32|}}}|2|{{#if:{{{16|}}}|6|{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{32|}}}|2|{{#if:{{{16|}}}|6|{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{32|}}}|2|{{#if:{{{16|}}}|6|{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{32|}}}|2|{{#if:{{{16|}}}|6|{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{32|}}}|2|{{#if:{{{16|}}}|6|{{#if:{{{8|}}}|14|{{#if:{{{4|}}}|30|{{#if:{{{2|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td></tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{32|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div>
+</td>
+<td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{32}}}</td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{32|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">
+{{#if:{{{32|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{16|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{16}}}</td>
+<td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{16|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{16|}}}|<td rowspan="6" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{33|}}}|2|6}}" {{#if:{{{33|}}}|" style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{33|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div>
+</td><td rowspan="{{#if:{{{33|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{33|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{33|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{33|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{33}}}</td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{33|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{33|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{8|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_4|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_4|}}}">{{{8}}}</td><td rowspan="2" colspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{8|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{8|}}}|<td rowspan="14" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{17|}}}|6|14}}" {{#if:{{{17|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{17|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{17|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{34|}}}|2|{{#if:{{{17|}}}|6|14}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{34|}}}|2|{{#if:{{{17|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{34|}}}|2|{{#if:{{{17|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{34|}}}|2|{{#if:{{{17|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{34|}}}|2|{{#if:{{{17|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{34|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{34}}}</td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{34|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{34|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{17|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{17}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{17|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{17|}}}|<td rowspan="6" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{35|}}}|2|6}}"  {{#if:{{{35|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{35|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{35|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{35|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{35|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{35|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{35}}}</td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{35|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{35|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{4|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2" colspan="4" style="border:{{{border_3|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_3|}}}">{{{4}}}</td>
+<td rowspan="2" colspan="9"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{4|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{4|}}}|<td rowspan="30" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="30"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="30"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{9|}}}|14|30}}" {{#if:{{{9|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{9|}}}|14|30}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{9|}}}|14|30}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{18|}}}|6|{{#if:{{{9|}}}|14|30}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{18|}}}|6|{{#if:{{{9|}}}|14|30}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{18|}}}|6|{{#if:{{{9|}}}|14|30}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{36|}}}|2|{{#if:{{{18|}}}|6|{{#if:{{{9|}}}|14|30}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{36|}}}|2|{{#if:{{{18|}}}|6|{{#if:{{{9|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{36|}}}|2|{{#if:{{{18|}}}|6|{{#if:{{{9|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{36|}}}|2|{{#if:{{{18|}}}|6|{{#if:{{{9|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{36|}}}|2|{{#if:{{{18|}}}|6|{{#if:{{{9|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{36|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{36}}}</td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{36|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{36|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{18|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{18}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{18|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{18|}}}|<td rowspan="6" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{37|}}}|2|6}}" {{#if:{{{17|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{37|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{37|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{37|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{37|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{37|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{37}}}</td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{37|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{37|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{9|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_4|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_4|}}}">{{{9}}}</td><td rowspan="2" colspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{9|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{9|}}}|<td rowspan="14" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{19|}}}|6|14}}" {{#if:{{{19|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{19|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{19|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{38|}}}|2|{{#if:{{{19|}}}|6|14}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{38|}}}|2|{{#if:{{{19|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{38|}}}|2|{{#if:{{{19|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{38|}}}|2|{{#if:{{{19|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{38|}}}|2|{{#if:{{{19|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{38|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{38}}}</td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{38|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{38|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{19|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{19}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{19|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{19|}}}|<td rowspan="6" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{39|}}}|2|6}}" {{#if:{{{39|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{39|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{39|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{39|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{39|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{39|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{39}}}</td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{39|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{39|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{2|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_2|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_2|}}}">{{{2}}}</td><td rowspan="2" colspan="12"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{2|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{2|}}}|<td rowspan="62" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="62"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="62"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{5|}}}|30|62}}"  {{#if:{{{5|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{5|}}}|30|62}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{5|}}}|30|62}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{20|}}}|6|{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{20|}}}|6|{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{20|}}}|6|{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{40|}}}|2|{{#if:{{{20|}}}|6|{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{40|}}}|2|{{#if:{{{20|}}}|6|{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{40|}}}|2|{{#if:{{{20|}}}|6|{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{40|}}}|2|{{#if:{{{20|}}}|6|{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{40|}}}|2|{{#if:{{{20|}}}|6|{{#if:{{{10|}}}|14|{{#if:{{{5|}}}|30|62}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{40|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{40}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{40|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{40|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{20|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{20}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{20|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{20|}}}|<td rowspan="6" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{41|}}}|2|6}}" {{#if:{{{41|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{41|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{41|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{41|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{41|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{41|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{41}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{41|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{41|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{10|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_4|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_4|}}}">{{{10}}}</td><td rowspan="2" colspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{10|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{10|}}}|<td rowspan="14" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{21|}}}|6|14}}" {{#if:{{{21|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{21|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{21|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{42|}}}|2|{{#if:{{{21|}}}|6|14}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{42|}}}|2|{{#if:{{{21|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{42|}}}|2|{{#if:{{{21|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{42|}}}|2|{{#if:{{{21|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{42|}}}|2|{{#if:{{{21|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{42|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{42}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{42|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{42|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{21|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{21}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{21|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{21|}}}|<td rowspan="6" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{43|}}}|2|6}}" {{#if:{{{43|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{43|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{43|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{43|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{43|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{43|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{43}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{43|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{43|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{5|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_3|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_3|}}}">{{{5}}}</td><td rowspan="2" colspan="9"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{5|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{5|}}}|<td rowspan="30" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="30"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="30"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{11|}}}|14|30}}" {{#if:{{{11|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{11|}}}|14|30}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{11|}}}|14|30}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{22|}}}|6|{{#if:{{{11|}}}|14|30}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{22|}}}|6|{{#if:{{{11|}}}|14|30}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{22|}}}|6|{{#if:{{{11|}}}|14|30}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{44|}}}|2|{{#if:{{{22|}}}|6|{{#if:{{{11|}}}|14|30}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{44|}}}|2|{{#if:{{{22|}}}|6|{{#if:{{{11|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{44|}}}|2|{{#if:{{{22|}}}|6|{{#if:{{{11|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{44|}}}|2|{{#if:{{{22|}}}|6|{{#if:{{{11|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{44|}}}|2|{{#if:{{{22|}}}|6|{{#if:{{{11|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{44|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{44}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{44|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{44|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{22|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{22}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{22|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{22|}}}|<td rowspan="6" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{45|}}}|2|6}}" {{#if:{{{45|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{45|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{45|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{45|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{45|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{45|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{45}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{45|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{45|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{11|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_4|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_4|}}}">{{{11}}}</td><td rowspan="2" colspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{11|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{11|}}}|<td rowspan="14" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{23|}}}|6|14}}" {{#if:{{{23|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{23|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{23|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{46|}}}|2|{{#if:{{{23|}}}|6|14}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{46|}}}|2|{{#if:{{{23|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{46|}}}|2|{{#if:{{{23|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{46|}}}|2|{{#if:{{{23|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{46|}}}|2|{{#if:{{{23|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{46|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{46}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{46|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{46|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{23|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{23}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{23|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{23|}}}|<td rowspan="6" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{47|}}}|2|6}}" {{#if:{{{47|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{47|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{47|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{47|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{47|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{47|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{47}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{47|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{47|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;"><td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_1|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_1|}}}">{{{1|{{PAGENAME}}}}}</td><td rowspan="2" colspan="15"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td></tr>
+
+<tr style="text-align: center;"><td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td></tr>
+
+<tr style="text-align: center;">
+<td rowspan="126" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="126"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="126"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{3|}}}|62|126}}" {{#if:{{{3|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{3|}}}|62|126}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{3|}}}|62|126}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{24|}}}|6|{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{24|}}}|6|{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{24|}}}|6|{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{48|}}}|2|{{#if:{{{24|}}}|6|{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{48|}}}|2|{{#if:{{{24|}}}|6|{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{48|}}}|2|{{#if:{{{24|}}}|6|{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{48|}}}|2|{{#if:{{{24|}}}|6|{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{48|}}}|2|{{#if:{{{24|}}}|6|{{#if:{{{12|}}}|14|{{#if:{{{6|}}}|30|{{#if:{{{3|}}}|62|126}}}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td></tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{48|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{48}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{48|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{48|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{24|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{24}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{24|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{24|}}}|<td rowspan="6" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{49|}}}|2|6}}" {{#if:{{{49|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{49|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{49|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{49|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{49|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{49|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{49}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{49|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{49|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{12|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_4|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_4|}}}">{{{12}}}</td><td rowspan="2" colspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{12|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{12|}}}|<td rowspan="14" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{25|}}}|6|14}}" {{#if:{{{9|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{25|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{25|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{50|}}}|2|{{#if:{{{25|}}}|6|14}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{50|}}}|2|{{#if:{{{25|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{50|}}}|2|{{#if:{{{25|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{50|}}}|2|{{#if:{{{25|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{50|}}}|2|{{#if:{{{25|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{50|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{50}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{50|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{50|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{25|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{25}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{25|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{25|}}}|<td rowspan="6" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{51|}}}|2|6}}" {{#if:{{{51|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{51|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{51|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{51|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{51|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{51|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{51}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{51|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{51|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{6|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_3|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_3|}}}">{{{6}}}</td><td rowspan="2" colspan="9"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{6|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{6|}}}|<td rowspan="30" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="30"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="30"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{13|}}}|14|30}}" {{#if:{{{13|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{13|}}}|14|30}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{13|}}}|14|30}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{26|}}}|6|{{#if:{{{13|}}}|14|30}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{26|}}}|6|{{#if:{{{13|}}}|14|30}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{26|}}}|6|{{#if:{{{13|}}}|14|30}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{52|}}}|2|{{#if:{{{26|}}}|6|{{#if:{{{13|}}}|14|30}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{52|}}}|2|{{#if:{{{26|}}}|6|{{#if:{{{13|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{52|}}}|2|{{#if:{{{26|}}}|6|{{#if:{{{13|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{52|}}}|2|{{#if:{{{26|}}}|6|{{#if:{{{13|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{52|}}}|2|{{#if:{{{26|}}}|6|{{#if:{{{13|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{52|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{52}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{52|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{52|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{26|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{26}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{26|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{26|}}}|<td rowspan="6" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{53|}}}|2|6}}" {{#if:{{{53|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{53|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{53|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{53|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{53|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{53|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{53}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{53|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{53|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{13|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_4|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_4|}}}">{{{13}}}</td><td rowspan="2" colspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{13|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{13|}}}|<td rowspan="14" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{27|}}}|6|14}}" {{#if:{{{27|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{27|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{27|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{54|}}}|2|{{#if:{{{27|}}}|6|14}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{54|}}}|2|{{#if:{{{27|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{54|}}}|2|{{#if:{{{27|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{54|}}}|2|{{#if:{{{27|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{54|}}}|2|{{#if:{{{27|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{54|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{54}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{54|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{54|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{27|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{27}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{27|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{27|}}}|<td rowspan="6" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{55|}}}|2|6}}" {{#if:{{{55|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{55|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{55|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{55|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{55|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{55|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{55}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{55|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{55|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{3|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="2" colspan="4" style="border:{{{border_2|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_2|}}}">{{{3}}}</td>
+<td rowspan="2" colspan="12"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{3|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{3|}}}|<td rowspan="62" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="62"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="62"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{7|}}}|30|62}}" {{#if:{{{7|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{7|}}}|30|62}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{7|}}}|30|62}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{28|}}}|6|{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{28|}}}|6|{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{28|}}}|6|{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{56|}}}|2|{{#if:{{{28|}}}|6|{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{56|}}}|2|{{#if:{{{28|}}}|6|{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{56|}}}|2|{{#if:{{{28|}}}|6|{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{56|}}}|2|{{#if:{{{28|}}}|6|{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{56|}}}|2|{{#if:{{{28|}}}|6|{{#if:{{{14|}}}|14|{{#if:{{{7|}}}|30|62}}}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{56|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{56}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{56|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{56|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{28|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{28}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{28|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{28|}}}|<td rowspan="6" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{57|}}}|2|6}}" {{#if:{{{57|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{57|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{57|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{57|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{57|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{57|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{57}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{57|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{57|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{14|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_4|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_4|}}}">{{{14}}}</td><td rowspan="2" colspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{14|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{14|}}}|<td rowspan="14" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{29|}}}|6|14}}" {{#if:{{{29|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{29|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{29|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{58|}}}|2|{{#if:{{{29|}}}|6|14}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{58|}}}|2|{{#if:{{{29|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{58|}}}|2|{{#if:{{{29|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{58|}}}|2|{{#if:{{{29|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{58|}}}|2|{{#if:{{{29|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{58|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{58}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{58|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{58|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{29|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{29}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{29|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{29|}}}|<td rowspan="6" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{59|}}}|2|6}}" {{#if:{{{59|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{59|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{59|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{59|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{59|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{59|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{59}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{59|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{59|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{7|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_3|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_3|}}}">{{{7}}}</td><td rowspan="2" colspan="9"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{7|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{7|}}}|<td rowspan="30" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="30"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="30"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{15|}}}|14|30}}" {{#if:{{{7|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{15|}}}|14|30}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{15|}}}|14|30}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{30|}}}|6|{{#if:{{{15|}}}|14|30}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{30|}}}|6|{{#if:{{{15|}}}|14|30}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{30|}}}|6|{{#if:{{{15|}}}|14|30}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{60|}}}|2|{{#if:{{{30|}}}|6|{{#if:{{{15|}}}|14|30}}}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{60|}}}|2|{{#if:{{{30|}}}|6|{{#if:{{{15|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{60|}}}|2|{{#if:{{{30|}}}|6|{{#if:{{{15|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{60|}}}|2|{{#if:{{{30|}}}|6|{{#if:{{{15|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{60|}}}|2|{{#if:{{{30|}}}|6|{{#if:{{{15|}}}|14|30}}}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{60|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{60}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{60|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{60|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{30|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{30}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{30|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{30|}}}|<td rowspan="6" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{61|}}}|2|6}}" {{#if:{{{61|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{61|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{61|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{61|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{61|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{61|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{61}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{61|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{61|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{15|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_4|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_4|}}}">{{{15}}}</td><td rowspan="2" colspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{15|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{15|}}}|<td rowspan="14" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="14"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{31|}}}|6|14}}" {{#if:{{{31|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{31|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{31|}}}|6|14}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+
+<td rowspan="{{#if:{{{62|}}}|2|{{#if:{{{31|}}}|6|14}}}}" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{62|}}}|2|{{#if:{{{31|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{62|}}}|2|{{#if:{{{31|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{62|}}}|2|{{#if:{{{31|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{62|}}}|2|{{#if:{{{31|}}}|6|14}}}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{62|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{62}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{62|}}}|<td style="border-left: 1px solid black; border-top: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{62|}}}|<td rowspan="2" style="border-left: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{31|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_5|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_5|}}}">{{{31}}}</td><td rowspan="2" colspan="3"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{31|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+
+<tr style="text-align: center;">{{#if:{{{31|}}}|<td rowspan="6" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="6"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{63|}}}|2|6}}" {{#if:{{{63|}}}|style="border-left: 1px solid black;"}}><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{63|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{63|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{63|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>
+<td rowspan="{{#if:{{{63|}}}|2|6}}"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+<tr style="text-align: center;">{{#if:{{{63|}}}|<td style="border-left: 1px solid black; border-bottom: 1px solid black;"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2" colspan="4" style="border:{{{border_6|{{{border|2}}}}}}px solid black;padding:0 0.2em;{{{boxstyle|}}};{{{boxstyle_6|}}}">{{{63}}}</td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{63|}}}|<td><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;">{{#if:{{{63|}}}|<td rowspan="2" style=""><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td><td rowspan="2"><div style="width: 0.5em; height: 0.5em;"><span style="font: 1px/1px serif;">&nbsp;</span></div></td>}}</tr>
+<tr style="text-align: center;"></tr>
+
+</table><noinclude>
+{{DEFAULTSORT:Ancetres-compact6}}
+[[Catégorie:Modèle]]
+</noinclude>

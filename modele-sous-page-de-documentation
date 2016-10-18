@@ -1,9 +1,6 @@
 <includeonly>{{#ifeq: {{lc:{{SUBPAGENAME}}}} | {{{sous-page|documentation}}} |
 <div class="bandeau-simple" style="width: 80%; margin: 0 auto 1em; padding: 0.5em; background: #f9f9f9; border-color: #aaa;">
 <div style="display:table-cell; vertical-align:middle; width:50px;">[[File:Edit-copy green.svg|40px|alt=Illustration de documentation|link=]]</div>
-<div style="display:table-cell;">'''Ceci est la [[Aide:Documentation de modèle|page de documentation]] {{{1|de [[{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}'''&nbsp;<span class="plainlinks" style="font-size:89%; font-style:normal;">[[{{fullurl:{{SUBJECTSPACE}}:{{BASEPAGENAME}}|action=edit}} modifier]]&nbsp;[[{{fullurl:{{SUBJECTSPACE}}:{{BASEPAGENAME}}|action=purge}} purger]]</span>. <br />Cette [[Wikipédia:Sous-page|sous-page]] {{#if:{{{1|}}}||contient les instructions, les [[Wikipédia:Conventions sur les catégories|catégories]] de son {{lc:{{SUBJECTSPACE}}}} d'origine et elle}} n'est pas destinée à être visualisée directement.</div></div>{{#if:{{{nocat|}}}||[[Catégorie:Documentation de {{#switch:{{SUBJECTSPACE}}
-| Module = module
-| Modèle
-| #default = modèle}}|{{PAGENAME}}]]}}}}<nowiki /></includeonly><noinclude>
+<div style="display:table-cell;">'''Ch'pache-lo ch'est l' pache ed documintacion {{{1|éd [[{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}'''&nbsp;<span class="plainlinks" style="font-size:89%; font-style:normal;">[[{{fullurl:{{SUBJECTSPACE}}:{{BASEPAGENAME}}|action=edit}} modifier]]&nbsp;[[{{fullurl:{{SUBJECTSPACE}}:{{BASEPAGENAME}}|action=purge}} purger]]</span>. <br />Chole dsous-pache {{#if:{{{1|}}}||contient chés instrukcions, chés catégories éd sin {{lc:{{SUBJECTSPACE}}}} d'origine et pi ale}} n'est poin déstinèe à ète vue directemint.</div></div>{{#if:{{{nocat|}}}||[[Catégorie:Documintacion]]}}}}<nowiki /></includeonly><noinclude>
 {{Documentation}}
 </noinclude>

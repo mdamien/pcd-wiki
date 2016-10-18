@@ -51,6 +51,9 @@ Note: The y-axis starts from zero
 <tt><nowiki>{{Graph:Chart|width=100|height=100|type=pie|legend=Leginde|x=A,B,C,D,E,F,G,H,I|y1=100,200,150,300,100,100,150,50,200|showValues=}}</nowiki></tt><br />
 {{Graph:Chart|width=100|height=100|type=pie|legend=Leginde|x=A,B,C,D,E,F,G,H,I|y1=100,200,150,300,100,100,150,50,200|showValues=}}
 
+<tt><nowiki>{{Graph:Chart|width=100|height=100|type=pie|legend=Legende|x=A,B,C,D,E,F,G,H,I|y1=100,200,150,300,100,100,150,50,200|y2=7,8,9,8,8,9,10,9,5|showValues=}}</nowiki></tt><br />
+{{Graph:Chart|width=100|height=100|type=pie|legend=Legende|x=A,B,C,D,E,F,G,H,I|y1=100,200,150,300,100,100,150,50,200|y2=7,8,9,8,8,9,10,9,5|showValues=}}
+
 '''Diagramme in anniau:'''<br />
 <tt><nowiki>{{Graph:Chart|width=100|height=100|type=pie|innerRadius=40|legend=Leginde|x=A,B,C,D,E,F,G,H,I|y1=100,200,150,300,100,100,150,50,200}}</nowiki></tt><br />
 {{Graph:Chart|width=100|height=100|type=pie|innerRadius=40|legend=Leginde|x=A,B,C,D,E,F,G,H,I|y1=100,200,150,300,100,100,150,50,200}}

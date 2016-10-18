@@ -14,6 +14,62 @@
 ::'''colors='''seagreen, orchid
 ::'''interpolate='''monotone
 
+<small> <center> voér [[w:Module:Graph/doc]]</center>
+== Functions for templates ==
+=== <tt>map</tt> ===
+Creates a JSON object for <tt><nowiki><graph></nowiki></tt> to display a political map with colored highlights. In the article namespace the template [[Template:Graph:Map]] should be used instead. See its page for use cases.
+
+Maps can be found at [[Special:Prefixindex/Module:Graph/]] (for example [[Module:Graph/WorldMap-iso2.json|WorldMap-iso2.json]] with country borders) and new maps should also be saved under Module:Graph/.
+
+'''Parameters:'''
+}}{{#ifeq:{{{1|map}}}|map|<!-- Parts to be transcluded from the wrapper Template:Graph:Map -->
+* '''basemap''': Sets the base map. The map definitions must follow the [https://github.com/mbostock/topojson/wiki TopoJSON] format and if saved in Wikipedia are available for this module. Maps in the default directory [[Special:Prefixindex/Module:Graph/]] such as [[Module:Graph/WorldMap-iso2.json|WorldMap-iso2.json]] should only be referenced by their name while omitting the Module:Graph/ prefix to allow better portability. The parameter also accepts URLs, e.g. maps from other Wikipedia versions (the link should follow the scheme of <tt>//en.wikipedia.org/w/index.php?title=''mapname''&action=raw</tt>, i.e. protocol-relative without leading http/s and a trailing action=raw to fetch the raw content only). <small>URLs to maps on external sites should be avoided for the sake of link stability, performance, security, and she be assumed to be blocked by the software or browser anyway.
+* '''scale''': the scaling factor of the map (default: 100)
+* '''projection''': the [[map projection]] to use. Supported values are listed at https://github.com/mbostock/d3/wiki/Geo-Projections. The default value is <tt>equirectangular</tt> for an [[equirectangular projection]].
+* ids of geographic entities: The actual parameter names depend on the base map. For example, for the above mentioned world map the ids are [[ISO country codes]]. The values can be either colors or numbers in case the geographic entities should be associated with numeric data: <tt>DE=lightblue</tt> marks Germany in light blue color, and <tt>DE=80.6</tt> assigns Germany the value 80.6 (population in millions). In the latter case, the actual color depends on the following parameters.
+** '''colorScale''': the color palette to use for the color scale. The palette must be provided as a comma-separated list of color values. The color values must be given either as <tt>#rgb</tt>/<tt>#rrggbb</tt> or by a [[Web colors#X11 colour names|CSS color name]]. Instead of a list, the built-in color palettes [https://github.com/mbostock/d3/wiki/Ordinal-Scales#categorical-colors <tt>category10</tt> and <tt>category20</tt>] can also be used.
+** '''scaleType''': supported values are <tt>linear</tt> for a linear mapping between the data values and the color scale, <tt>log</tt> for a log mapping, <tt>pow</tt> for a power mapping (the exponent can be provided as <tt>pow 0.5</tt>), <tt>sqrt</tt> for a square-root mapping, and <tt>quantize</tt> for a quantized scale, i.e. the data is grouped in as many classes as the color palette has colors.
+** '''domainMin''': lower boundary of the data values, i.e. smaller data values are mapped to the lower boundary
+** '''domainMax''': upper boundary of the data values, i.e. larger data values are mapped to the upper boundary
+** '''legend''': show color legend (does not work with <tt>quantize</tt>)
+* '''defaultValue''': default value for unused geographic entities. In case the id values are colors the default value is <tt>silver</tt>, in case of numbers it is 0.
+}}{{#if:{{{1|}}}||
+* '''formatjson''': format JSON object for better legibility <small>
+=== <tt>chart</tt> ===
+Creates a JSON object for <tt><nowiki><graph></nowiki></tt> to display charts. In the article namespace the template [[Template:Graph:Chart]] should be used instead. See its page for use cases.
+
+'''Parameters:'''
+}}{{#ifeq:{{{1|chart}}}|chart|<!-- Parts to be transcluded from the wrapper Template:Graph:Chart -->
+* '''width''': width of the chart <small>
+* '''height''': height of the chart <small>
+* '''type''': type of the chart: <tt>line</tt> for [[:en:line chart|line chart]]s, <tt>area</tt> for [[:en:area chart|area chart]]s, and <tt>rect</tt> for (column) [[:en:bar chart|bar chart]]s, and <tt>pie</tt> for [[:en:pie chart|pie chart]]s. Multiple series can stacked using the <tt>stacked</tt> prefix, e.g. <tt>stackedarea</tt>. <small>
+* '''interpolate''': [[:en:interpolation|interpolation]] method for line and area charts. It is recommended to use <tt>monotone</tt> for a [[:en:monotone cubic interpolation|monotone cubic interpolation]] – further supported values are listed at https://github.com/vega/vega/wiki/Marks#area. <small>
+* '''colors''': color palette of the chart as a comma-separated list of colors. The color values must be given either as <tt>#rgb</tt>/<tt>#rrggbb</tt>/<tt>#aarrggbb</tt> or by a [[:en:Web colors#X11 colour names|CSS color name]]. For <tt>#aarrggbb</tt> the <tt>aa</tt> component denotes the [[:en:alpha channel|alpha channel]], i.e. FF=100% opacity, 80=50% opacity/transparency, etc. (The default color palette is [//github.com/d3/d3-scale/blob/master/README.md#schemeCategory10 <tt>category10</tt>]). <small>
+* '''xAxisTitle''' and '''yAxisTitle''': captions of the x and y axes <small>
+* '''xAxisMin''', '''xAxisMax''', '''yAxisMin''', and '''yAxisMax''': minimum and maximum values of the x and y axes <small>
+* '''xAxisFormat''' and '''yAxisFormat''': changes the formatting of the axis labels. Supported values are listed at //github.com/mbostock/d3/wiki/Formatting and //github.com/mbostock/d3/wiki/Time-Formatting. For example, the format <tt>%</tt> can be used to output percentages. <small>
+* '''xType''' und '''yType''': Data types of the values, e.g. <tt>integer</tt> for integers, <tt>number</tt> for real numbers, <tt>date</tt> for dates (e.g. YYYY/MM/DD), and <tt>string</tt> for ordinal values. <small>
+* '''x''': the x-values as a comma-separated list <small>
+* '''y''' or '''y1''', '''y2''', …: the y-values for one or several data series, respectively. For pie charts <tt>y2</tt> denotes the radiuses of the corresponding sectors.
+* '''legend''': show legend (only works in case of multiple data series)
+* '''y1Title''', '''y2Title''', …: defines the label of the respective data series in the legend
+* '''linewidth''': line width for line charts or distance between the pie segments for pie charts
+* '''showValues''': Additionally, output the y values as text. (Currently, only (non-stacked) bar and pie charts are supported.) The output can be configured used the following parameters provided as <tt>name1:value1, name2:value2</tt>:
+** '''format''': Format the output according to //github.com/mbostock/d3/wiki/Formatting#numbers for numbers and //github.com/mbostock/d3/wiki/Time-Formatting for date/time.
+** '''fontcolor''': text color
+** '''fontsize''': text size
+** '''offset''': move text by the given offset. For bar charts and pie charts with <tt>midangle</tt> this also defines if the text is inside or outside the chart.
+** '''angle''' (pie charts only): text angle in degrees or <tt>midangle</tt> (default) for dynamic angles based on the mid-angle of the pie sector.
+* '''innerRadius''': For pie charts: defines the inner radius to create a ''doughnut chart''.
+}}{{#if:{{{1|}}}||
+* '''formatjson''': format JSON object for better legibility
+
+=== Template wrappers ===
+The functions <tt>mapWrapper</tt> and <tt>chartWrapper</tt> are wrappers to pass all parameters of the calling template to the respective <tt>map</tt> and <tt>chart</tt> functions.
+}}
+
+'''Note:''' In the editor preview the graph extension creates a [[canvas element]] with vector graphics. However, when saving the page a [[Portable Network Graphics|PNG]] raster graphics is generated instead.
+</small>
 
 == Égzimpes ==
 === Grafe linéaire: type=line  === 

@@ -3,34 +3,34 @@
 <!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
 
 == Paramètes ==
-...
-
+... width=400|height=100|type=...|x=1,2,3|y=3, 2, 1
+::type= line ,  area , rect , stackedarea , stackedrect
 == Égzimpes ==
-=== Line Chart === 
+=== Grafe linéaire: type=line  === 
 <tt><nowiki>{{Graph:Chart|width=400|height=100|type=line|x=1,2,3,4,5,6,7,8|y=10, 12, 6, 14, 2, 10, 7, 9}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|type=line|x=1,2,3,4,5,6,7,8|y=10, 12, 6, 14, 2, 10, 7, 9}}<br />
 Note: Chl' axe y  kmince aveuc l'pus tiote value y , mais o put uzer ch' paramète <tt>yAxisMin</tt> .
 
-===Area chart===
+===Diagramme éd zone: type=area ===
 <tt><nowiki>{{Graph:Chart|width=400|height=100|type=area|x=1,2,3,4,5,6,7,8|y=10, 12, 6, 14, 2, 10, 7, 9}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|type=area|x=1,2,3,4,5,6,7,8|y=10, 12, 6, 14, 2, 10, 7, 9}}<br />
 Note: The y-axis starts from zero
 
-===Bar chart:===
+===Histogramme: type=rect ===
 <tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|type=rect|x=1,2,3,4,5,6,7,8|y=10, 12, 6, 14, 2, 10, 7, 9}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|type=rect|x=1,2,3,4,5,6,7,8|y=10, 12, 6, 14, 2, 10, 7, 9}}
 
-===Line chart with more than one data series, using colors:===
-<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=line|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#0000aa,#ff8000}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=line|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#0000aa,#ff8000}}
+===Grafe linéaire aveuc pusse qu'ène courbe: ===
+<tt><nowiki>{{Graph:Chart|width=400|height=200|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=line|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#0000aa,#ff8000}}</nowiki></tt><br />{{Graph:Chart|width=400|height=200|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=line|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#0000aa,#ff8000}}
 
-===Area chart with more than one data series showing blended overlap:===
-<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=area|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#800000aa,#80ff8000}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=area|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#800000aa,#80ff8000}}
+===Diagramme éd zone aveuc pusse qu'ène série éd données:===
+<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=area|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#800000aa,#80ff8000}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=area|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#800000aa,#80ff8000}}
 
-===Bar chart with multiple data series:===
-<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=rect|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#800000aa,#80ff8000}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=rect|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#800000aa,#80ff8000}}
+===Histogramme aveuc des séries éd données multipes:===
+<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=rect|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#800000aa,#80ff8000}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=rect|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|colors=#800000aa,#80ff8000}}
 
-===Area chart with smoothed data values:===
-<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=stackedarea|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|interpolate=monotone|colors=seagreen, orchid}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=stackedarea|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|interpolate=monotone|colors=seagreen, orchid}}
+===Diagramme éd zone aveuc des courbes splines:===
+<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=stackedarea|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|interpolate=monotone|colors=seagreen, orchid}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=stackedarea|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|interpolate=monotone|colors=seagreen, orchid}}
 
-===Bar chart with stacked data series:===
-<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=stackedrect|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|y1Title=Data A|y2Title=Data B|colors=seagreen, orchid}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Legend|type=stackedrect|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|y1Title=Data A|y2Title=Data B|colors=seagreen, orchid}}
+===Histogramme aveuc des données imbérnatchées:===
+<tt><nowiki>{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=stackedrect|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|y1Title=Data A|y2Title=Data B|colors=seagreen, orchid}}</nowiki></tt><br />{{Graph:Chart|width=400|height=100|xAxisTitle=X|yAxisTitle=Y|legend=Léginde|type=stackedrect|x=1,2,3,4,5,6,7,8|y1=10, 12, 6, 14, 2, 10, 7, 9 |y2=2,4,6,8,13,11,9,2|y1Title=Data A|y2Title=Data B|colors=seagreen, orchid}}
 <includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
 <!-- Categories below this line, please; interwikis at Wikidata -->
 [[Catégorie:Modèle courbe]]

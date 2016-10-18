@@ -1,1 +1,2 @@
-<includeonly>{{#tag:graph|{{#invoke:Graph|chartWrapper}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
+<includeonly>{{#tag:graph|{{#invoke:Graph|chartWrapper}}}}</includeonly>
+<noinclude>{{Documentation}}[[catégorie:modèle]] <br><center> '''[[Modèle:Graph:Chart/Documentation]]'''</center></noinclude>

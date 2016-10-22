@@ -8,15 +8,15 @@
 |drapeau                  = {{{drapeau|}}}
 |légende drapeau          = Drapiau
 |image                    = {{{imageloc|}}}
-|légende                  = Carte éd localisacion
+|légende                  = Carte de localisation
 |pays                     = Canada
 |nom de division          = Capitale
 |division                 = {{{capitale|}}}
 |nom de division2         = {{{titre_plus_grande_ville|}}}
 |division2                = {{{plus_grande_ville|}}}
 |nom de division3         = {{#switch: {{PAGENAME}} |Territoires du Nord-Ouest|Yukon|Nunavut=Création|#default=Admission dins l'Confédération}}
-|division3                = {{{date_admission|}}}{{#if:{{{rang_admission|}}}|&nbsp;({{{rang_admission}}}{{#ifeq:{{{rang_admission}}}|1|<sup>er</sup>|{{e}}}})}}
-|titre autorité           = {{#if:{{{titre_vice-roi|}}}|{{{titre_vice-roi}}} {{{de|de}}}{{{nom|{{PAGENAME}} }}}|{{{titre_vice-roi}}}|Vice-Roé}}
+|division3                = {{{date_admission|}}}{{#if:{{{rang_admission|}}}|&nbsp;({{{rang_admission}}}{{#ifeq:{{{rang_admission}}}|1|{{er}}|{{e}}}})}}
+|titre autorité           = {{#if:{{{titre_vice-roi|}}}|[[{{{titre_vice-roi}}} {{{de|de}}}{{{nom|{{PAGENAME}} }}}|{{{titre_vice-roi}}}]]|Vice-Roi}}
 |autorité                 = {{{vice-roi|}}}
 |titre autorité2          = {{#if:{{{première_ministre|}}} | Prumier minisse  }}
 |autorité2                = {{#if:{{{première_ministre|}}} | {{{première_ministre|}}} | {{{premier_ministre|}}} }}{{#if:{{{parti_premier_ministre|}}}|&nbsp;({{{parti_premier_ministre|}}})}}
@@ -25,7 +25,7 @@
 |titre autorité4          = Sièges au Sénat
 |autorité4                = {{{sièges_sénat|}}}
 |cp                       = {{{cp|}}}
-|nom de code1             = code postale
+|nom de code1             = Abréviation postale
 |code1                    = {{{abréviation_postale|}}}
 |nom de code2             = ISO 3166-2:CA
 |code2                    = {{#Property:P300}}
@@ -40,19 +40,19 @@
 |population notes         = {{{population notes|}}}
 |année_pop                = {{{année_pop|}}}
 |nom divers démographie   = Rang
-|divers démographie       = {{#if:{{{population_rang|}}}|{{{population_rang}}}{{#ifeq:{{{population_rang}}}|1|<sup>er</sup>|{{e}}}}}}
-|nom divers démographie2  = {{#if: {{#switch: {{{nom|{{PAGENAME}} }}} |Yukon|Nouvelle-Écosse|Nouveau-Brunswick|Manitoba|Ontario|Territoires du Nord-Ouest|Nunavut=1}} | Langues offichielles | [[Langue offichielle}}
+|divers démographie       = {{#if:{{{population_rang|}}}|[[Liste des provinces et territoires canadiens par population|{{{population_rang}}}{{#ifeq:{{{population_rang}}}|1|{{er}}|{{e}}}}]]}}
+|nom divers démographie2  = {{#if: {{#switch: {{{nom|{{PAGENAME}} }}} |Yukon|Nouvelle-Écosse|Nouveau-Brunswick|Manitoba|Ontario|Territoires du Nord-Ouest|Nunavut=1}} | [[Langue officielle|Langues officielles]] | [[Langue officielle]]}}
 |divers démographie2      = {{{langue(s)|}}}
 |superficie               = {{{superficie|}}}
 |superficie ha            = non
 |nom divers géo           = Rang
-|divers géo               = {{#if:{{{superficie_rang|}}}|{{{superficie_rang}}}{{#ifeq:{{{superficie_rang}}}|1|<sup>er</sup>|{{e}}}}}}
+|divers géo               = {{#if:{{{superficie_rang|}}}|[[Liste des provinces et territoires canadiens par superficie|{{{superficie_rang}}}{{#ifeq:{{{superficie_rang}}}|1|{{er}}|{{e}}}}]]}}
 |nom divers géo2          = Terre
 |divers géo2              = {{#if:{{{superficie_terre|}}}|{{Unité|{{{superficie_terre|}}}|km|2}} }}
-|nom divers géo3          = Ieu
+|nom divers géo3          = Eau
 |divers géo3              = {{#if:{{{superficie_eau|}}}|{{Unité|{{{superficie_eau|}}}|km|2}}&nbsp;({{{pourcentage_eau|}}} %)}}
 |nom divers géo4          = Fusiau horaire
-|divers géo4              = {{#if:{{{fuseau_horaire|}}}|UTC {{{fuseau_horaire|}}} }}
+|divers géo4              = {{#if:{{{fuseau_horaire|}}}|[[Temps universel coordonné|UTC]] {{{fuseau_horaire|}}} }}
 |coord wikidata           = {{#property:p625}}
 |nom divers               = D'vise
 |divers                   = {{{devise|}}}

@@ -241,7 +241,7 @@ BIOGRAPHIE
 
 SIGNATURE, EMBLÈME et LISTE
 
--->{{Infobox/Ligne optionnelle|{{{signature|}}}|{{Clear}}}}
+-->{{Infobox/Ligne optionnelle|{{{signature|}}}|{{Clr}}}}
 {{Infobox/Image optionnelle|{{{signature|}}}|{{{signature|}}}||{{#if:{{{taille signature|}}}|{{{taille signature}}}|110}}|Signature}}
 {{Infobox/Ligne optionnelle|{{{emblème|}}}{{{légende emblème|}}}{{{armoiries avec ornements communs|}}}|{{Clear}}}}
 {{Infobox/Image double|{{{emblème|}}}||{{#if:{{{taille emblème|}}}|{{{taille emblème}}}|110}}||||{{{emblème2|}}}||{{#if:{{{taille emblème2|}}}|{{{taille emblème2}}}|110}}}}

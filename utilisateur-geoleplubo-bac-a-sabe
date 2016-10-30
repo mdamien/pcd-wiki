@@ -32,6 +32,9 @@ I had rights for adminship from 25 december 2012  and I am requesting a prolonga
 * [[#TeX]]
 
 
+* {{notif|Machin}} Dans ce cas là {{m|notif}} est d'usage, ou dans le cas d'aspect typographique <nowiki><nowiki>[[user:Machin|]]</nowiki></nowiki> fait exactement la même chose puisque un wikilien avec un texte alternatif vide recopie à l'enregistrement de la page de nom de la page sans son espace de nom.
+* <nowiki> {{ping|matanya}} </nowiki> donne un message à matanya
+
 
 * <nowiki>#REDIRECTION  [[eute nom]]</nowiki>
 
@@ -130,8 +133,6 @@ I had rights for adminship from 25 december 2012  and I am requesting a prolonga
 * <nowiki> <span style="float:right;">'''Texte à droite'''</span></nowiki>  <span style="float:right;">'''Texte à droite'''</span>
 * {{Abréviation|P.I.B.|produit intérieur brut}}
 
-
-* <nowiki> {{ping|matanya}} </nowiki> donne un message à matanya
 
 * https://fr.wikipedia.org/wiki/Aide:Partitions
 

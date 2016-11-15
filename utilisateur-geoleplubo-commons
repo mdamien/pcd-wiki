@@ -1,0 +1,71 @@
+* https://commons.wikimedia.org/wiki/Commons:Multi-license_copyright_tags
+
+== auteu ==
+<!-- Author -->
+<tr style="vertical-align: top">
+<td id="fileinfotpl_aut" class="fileinfo-paramfield">{{int:wm-license-information-author}}</td>
+<td>Anonymous</td>
+</tr>
+
+</table>
+</div>
+
+== Licince ==
+<nowiki>
+{{PD-OLD}}</nowiki>
+
+<nowiki>
+{{PD-scan|PD-Anonymous-EU}}</nowiki>
+
+* 1905 is 20 years too recent to assume that the author has been dead since 1946. If you can show that the postcard does not have the photographer's name on it, then it can be kept as an anonymous work. It was deleted, however, because you used a strange format for the file description with the result that none of it actually showed. Also, you claimed to be the author, which you clearly are not, and you have no right to license it under CC-BY -- it is either PD-OLD or not acceptable.
+
+You can show, that the postcard is anonymous, by uploading front side and back side into Commons. This can be done using the same filename: at first back side and then front side on top of it, so that everybody can see: author is not mentioned. After that license {{PD-scan|PD-Anonymous-EU}} will apply.
+Back of postcard should be uploaded, then front of postcard should be uploaded over it with the "Upload a new version of this file" function.
+
+
+== Usage examples <nowiki>{{PD-Art}}</nowiki> ==
+The {{tl|PD-Art}}
+tag should indicate why the original work is in the public domain in both the source country and in the United States. How to do this depends on the work.
+=== Works whose authors died at least 100 years ago ===
+Usually, works by authors who died at least 100 years ago are in the public domain in all nations, and so you can simply use {{tl|PD-Art}} with {{tl|PD-old-100}}:
+* <nowiki>{{PD-Art|PD-old-100}}</nowiki>
+For the rare exception of unpublished and recently published works, see one of the other sections below.
+
+=== Works first published in the United States ===
+For these, use <nowiki>{{PD-Art|</nowiki>''US license tag''<nowiki>}}</nowiki> where the US license tag is chosen from [[Commons:Copyright tags#United States]]. Examples:
+* <nowiki>{{PD-Art|PD-1923}}</nowiki>
+* <nowiki>{{PD-Art|PD-US-not renewed}} <nowiki>
+
+=== Works first published outside the United States before 1923 ===
+{{info}} Information on copyright duration for works first published outside the US can be found on [http://www.publicdomainsherpa.com/copyright-duration3.html publicdomainsherpa.com]
+* <nowiki>{{PD-Art-two|</nowiki>''license tag explaining why it is PD in source country''<nowiki>|PD-1923}}</nowiki>
+
+Example:
+* A photograph of a 1911 English work whose author died in 1925 may be tagged <nowiki>{{PD-Art-two|PD-old-70|PD-1923}}</nowiki>
+
+=== Works first published outside the United States that were in the public domain on the URAA date ===
+For most source countries, the [[Commons:Licensing#Uruguay Round Agreements Act|URAA date]] is 1996. If the work was in the public domain in its source country on that country's URAA date, it is often in the public domain in both that country and in the United States, and you should use:
+
+* <nowiki>{{PD-Art-two|</nowiki>''license tag explaining why it is PD in source country''<nowiki>|PD-1996}}</nowiki>
+
+Example:
+* A photograph of a Canadian photograph created in 1945 may be tagged <nowiki>{{PD-Art-two|PD-Canada|PD-1996}}</nowiki>
+
+=== Works first published outside the United States that were not in the public domain on the URAA date ===
+These works are not in the public domain in the United States. You should not upload the work. If you find an existing such work, nominate it immediately for deletion.
+
+xxxxxxxxxxxxxxxxx
+
+egzimpes =  {{tl|PD-Art|PD-old-auto-1923|deathyear=1920}}
+*  <nowiki> {{PD-Art|PD-old-auto-1923|deathyear=1920}}  </nowiki>
+*  <nowiki> {{PD-scan|PD-old-100}}  </nowiki>
+*  <nowiki> {{PD-1923}} for works published before 1 January 1923.</nowiki>
+
+*  <nowiki>    {{PD-old-80}} for works by authors who died more than 80 years ago.</nowiki>
+*  <nowiki> {{PD-old-75}} for works by authors who died more than 75 years ago.</nowiki>
+*  <nowiki>    {{PD-old-70}} for works by authors who died more than 70 years ago.</nowiki>
+*  <nowiki>    {{PD-1923}} for works published before 1 January 1923.</nowiki>
+*  <nowiki>    {{PD-1996}} for works that are in the public domain in their source countries on 1 January 1996.</nowiki>
+*  <nowiki>    {{PD-old-auto-1923}} for works published before 1 January 1923 where the author's date of death is known.</nowiki>
+*  <nowiki>   {{PD-chord}}
+</nowiki>

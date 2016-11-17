@@ -6,6 +6,8 @@
 <td id="fileinfotpl_aut" class="fileinfo-paramfield">{{int:wm-license-information-author}}</td>
 <td>Anonymous</td>
 </tr>
+<nowiki>
+|author={{anonymous}}</nowiki>
 
 </table>
 </div>

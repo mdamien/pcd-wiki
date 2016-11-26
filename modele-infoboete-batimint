@@ -42,7 +42,11 @@
 {{Infobox/Sous-titre optionnel|Historike|{{{noms|}}}{{{protection|}}}|E1E1E1}}
 {{Infobox/Ligne mixte optionnelle|Anchiens noms|{{{noms|}}}}}
 {{Infobox/Ligne mixte optionnelle|Protekcion|{{{protection|}}}}}
-
+<!-- Gares -->
+{{Infobox/Ligne mixte optionnelle|sérvices|{{{services|}}}}}
+{{Infobox/Ligne mixte optionnelle|lines|{{{lignes|}}}}}
+{{Infobox/Ligne mixte optionnelle|ouvérture|{{{ouverture|}}}}}
+<!--gtatte-ciels-->
 {{Infobox/Ligne mixte optionnelle|heuteur flèke|{{{antenne flèche|}}}}}
 {{Infobox/Ligne mixte optionnelle|étages|{{{étages|}}}}}
 {{Infobox/Ligne mixte optionnelle|supérfichie|{{{superficie|}}}}}

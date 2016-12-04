@@ -6,6 +6,10 @@
 <!--
 IMAGE  -->
 {{Infobox/Image
+ | {{{image|}}}|{{#if:{{{légende|}}}|{{{légende|}}}|}}|280|{{{légende|}}}|
+<!-- | {{{image}}}|frameless|{{{tailleimage}}} <br /><center> {{#if:{{{légende|}}}|{{{légende|}}}|}} </center>}}-->
+}}
+{{Infobox/Image
  | {{{Logo|}}}|{{#if:{{{image-desc|}}}|{{{image-desc|}}}|}}|280|{{{image-desc|}}}|
 }}
 <!--

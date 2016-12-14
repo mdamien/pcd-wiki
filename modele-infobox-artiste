@@ -104,6 +104,26 @@
 {{!}} {{{influence de|}}}
 {{!-}}
 }}
+{{#if:{{{ascendants|}}} |
+! scope=row {{!}} ascendant(s)
+{{!}} {{{ascendants|}}}
+{{!-}}
+}}
+{{#if:{{{conjoint|}}} |
+! scope=row {{!}} conjoint
+{{!}} {{{conjoint|}}}
+{{!-}}
+}}
+{{#if:{{{descendant|}}} |
+! scope=row {{!}} descendant
+{{!}} {{{descendant|}}}
+{{!-}}
+}}
+{{#if:{{{famille|}}} |
+! scope=row {{!}} famille
+{{!}} {{{famille|}}}
+{{!-}}
+}}
 {{#if:{{{site internet|{{{site web|}}}}}}|
 ! scope=row {{!}} Site ofichièl
 {{!}} {{{site internet|{{{site web}}}}}}

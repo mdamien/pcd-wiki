@@ -46,7 +46,12 @@
 }}
 {{#if:{{{date de décès|}}} |
 ! scope=row {{!}} Défuncté(e) au
-{{!}} {{{date de décès|}}}{{#if:{{{lieu de décès|}}}|<br>à {{{lieu de décès}}}|}}
+{{!}} {{{date de décès|}}}{{#if:{{{lieu de décès|}}}|<br>à {{{lieu de décès}}}|}}      
+{{!-}}
+}}
+{{#if:{{{profession|{{{profession|}}}}}}|
+! scope=row {{!}} métié
+{{!}} {{{profession|{{{profession}}}}}}
 {{!-}}
 }}
 {{#if:{{{activités|{{{activités|}}}}}}|
@@ -54,62 +59,64 @@
 {{!}} {{{activités|{{{activités}}}}}}
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Formacion|{{{formation|}}}}}<!--
+{{#if:{{{activités autres|{{{activités autres|}}}}}}|
+! scope=row {{!}} eutes activités
+{{!}} {{{activités autres|{{{activités autres}}}}}}
+{{!-}}
+}}
 {{#if:{{{formation|}}} |
 ! scope=row {{!}} formacion
 {{!}} {{{formation|}}}
 {{!-}}
-}}-->
-{{Infobox V3/Tableau Ligne mixte|width=9|Moaite|{{{maîtres|}}}}}
+}}
 {{#if:{{{maître|}}} |
 ! scope=row {{!}} Moaite
 {{!}} {{{maître|}}}
 {{!-}}
 }}
-{{Infobox V3/Tableau Ligne mixte|width=9|Élèves|{{{élèves|}}}}}<!--
 {{#if:{{{élèves|}}} |
 ! scope=row {{!}} élèves
 {{!}} {{{élèves|}}}
 {{!-}}
-}}-->
-{{Infobox V3/Tableau Ligne mixte|width=9|Mouvemint artistike|{{{mouvement|}}}}}<!--
+}}
 {{#if:{{{mouvement|}}} |
 ! scope=row {{!}} Mouvemint artistique
 {{!}} {{{mouvement|}}}
 {{!-}}
-}}-->
-{{Infobox V3/Tableau Ligne mixte|width=9|Œuves réputées|{{{œuvres|}}}}}<!--
+}}
 {{#if:{{{œuvres|}}} |
 ! scope=row {{!}} Œuves réputées
 {{!}} {{{œuvres|}}}
 {{!-}}
-}}-->
-{{Infobox V3/Tableau Ligne mixte|width=9|Mécènes|{{{mécènes|}}}}}<!--
+}}
 {{#if:{{{mécènes|}}} |
 ! scope=row {{!}} mécènes
 {{!}} {{{mécènes|}}}
 {{!-}}
-}}-->
-{{Infobox V3/Tableau Ligne mixte|width=9|Influincé par|{{{influencé_par|{{{influencé par|}}}}}}}}<!--
+}}
 {{#if:{{{influencé par|}}} |
 ! scope=row {{!}} Influincé par
 {{!}} {{{influencé par|}}}
 {{!-}}
-}}-->
-{{Infobox V3/Tableau Ligne mixte|width=9|Il o influinçé|{{{influence_de|{{{influence de|}}}}}}}}<!--
+}}
 {{#if:{{{influence de|}}} |
-! scope=row {{!}} Il o influinçé
+! scope=row {{!}} Il o influincé
 {{!}} {{{influence de|}}}
 {{!-}}
-}}-->
+}}
 {{#if:{{{site internet|{{{site web|}}}}}}|
-! scope=row {{!}} Site oficièl
+! scope=row {{!}} Site ofichièl
 {{!}} {{{site internet|{{{site web}}}}}}
 {{!-}}
 }}
 {{#if:{{{récompense|}}} |
 ! scope=row {{!}} Distinction(s)
 {{!}} {{{récompense|}}}
+{{!-}}
+}}
+{{#if:{{{notes|}}} |
+! scope=row {{!}} note(s)
+{{!}} {{{notes|}}}
 {{!-}}
 }}
 |}</includeonly><noinclude>[[catégorie:Infoboète]]

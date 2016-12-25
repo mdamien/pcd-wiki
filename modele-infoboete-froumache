@@ -1,1 +1,87 @@
-<includeonly>{{#invoke:Infobox|build|nom=Fromage}}</includeonly><noinclude>{{Documentation}}</noinclude>
+<noinclude>{{Bandeau Infobox V2}}[[catégorie:Infoboète]]
+<!--==============================================================
+          AFFUTE ! : L' MODIFICATION D'EUNE INFOBOÈTE ALE PEUT ENTRAÎNER DES PROBLÈMES 
+         EDSEUR TOUTES CHÉS PACHES DOUSQU'ALE EST INCLUSE.
+==============================================================-->
+<source lang="text">
+{{Infoboète froumache
+| nom                 = 
+| image               = 
+| légende             = 
+| eute nom            = 
+| lieu =
+| lait =
+}}</source>
+</noinclude><includeonly>{| class="infobox_v2 vcard" cellspacing="7" border="0" style="border-color:#8888AA;"
+| colspan="2" class="entete {{#if:{{{entete|}}}|{{{entete|}}}|defaut}}" style="background-color:#EEEEFF;color:black;" | {{#if:{{{nom|}}} | {{{nom|}}} | {{PAGENAME}} }}
+|-
+{{#if:{{{image|}}} |
+{{!}} colspan="2" align="center" {{!}} [[Image:{{{image|}}}|{{#if:{{{taille image|}}}|{{{taille image}}}px|220px}}|center|{{{légende|}}}]]
+{{!-}}
+|[[Catégorie:Artique à illustrer]]
+}}
+{{#if:{{{légende|}}} |
+{{!}} colspan="2" style="text-align:center;" {{!}} <div style="line-height:12px;font-size: 85%;">{{{légende}}}</div>
+{{!-}}
+}}
+{{#if:{{{légende|{{{image|}}}}}} |
+{{!}} colspan="2" {{!}} <hr />
+{{!-}}
+}}
+{{#if:{{{nationalité|}}} |
+! scope=row {{!}} Poéyis
+{{!}} {{{nationalité|}}}
+{{!-}}
+}}
+{{#if:{{{pays|}}} |
+! scope=row {{!}} Poéyis
+{{!}} {{{pays|}}}
+{{!-}}
+}}
+{{#if:{{{lieu|}}} |
+! scope=row {{!}} liu
+{{!}} {{{lieu|}}}
+{{!-}}
+}}
+{{#if:{{{eute nom|}}} |
+! scope=row {{!}} Eute nom
+{{!}} {{{eute nom|}}}
+{{!-}}
+}}
+{{#if:{{{lait|}}} |
+! scope=row {{!}} lait
+{{!}} {{{lait|}}}
+{{!-}}
+}}
+{{#if:{{{pâte|}}} |
+! scope=row {{!}} pâte
+{{!}} {{{pâte|}}}
+{{!-}}
+}}
+
+{{#if:{{{aoc|}}} |
+! scope=row {{!}} aoc
+{{!}} {{{aoc|}}}
+{{!-}}
+}}
+{{#if:{{{genre|}}} |
+! scope=row {{!}} Ginre
+{{!}} {{{genre|}}}
+{{!-}}
+}}
+
+{{#if:{{{site web|}}} |
+! scope=row {{!}} Site offichièl
+{{!}} {{{site web|}}}
+{{!-}}
+}}
+<!--{{Infobox V3/Tableau Ligne mixte|width=9|Influences|{{{influences|}}}}}
+{{Infobox V3/Tableau Ligne mixte|width=9|Site officiel|{{{site web|}}}}}-->
+
+{{#if:{{{note|}}} 
+|<tr><td colspan="2" style="text-align:center; background:#EEEEFF;"><span style="font-size: 95%;">'''Compléments'''</span></td></tr><tr><td colspan="2" style="text-align:left;"><span style="font-size: 90%;">{{{note}}}</span></td></tr>
+}}
+
+<!--{{Suivi des biographies}}--></includeonly><noinclude>
+<!--{{Documentation}}-->
+<!-- Chés catégories pi intérwikis is doétte ète rajoutés dins l'edsous-pache /Documentation et pi poin ichi. Merchi. --></noinclude>

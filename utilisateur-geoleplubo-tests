@@ -25,6 +25,22 @@
 </div>
 |}
 {{clr}}
+
+{{#if:{{{init|}}}|<div style="margin-right:200px; padding:1em; margin-bottom:1.5em; border: 1px solid #aaa;">|}}
+<div style="position: fixed; right:0; bottom:0; display:block; height:{{{hauteur|100}}}px; width:{{{largeur|210}}}px; z-index:0">
+<div style="border:1px solid #aaa; border-right:0px; background:white">
+{| style="background-color:transparent"
+| width="*" valign="middle" | '''Achteur, éj foais des artikes édseur :'''<br />
+chés conmeunes du Pas-d'Calés<br />
+{{{article|rien}}}<br />
+{{{article2|}}}<br />
+{{{article3|}}}<br />
+{{{article4|}}}
+| width="*" valign="bottom" | {{{image|}}}
+|}
+</div>
+</div>
+
 == Grafike ==
 {{Graph:Chart|width=400|height=100|type=line|x=1,2,3,4,5,6,7,8|y=10, 12, 6, 14, 2, 10, 7, 9}}
 

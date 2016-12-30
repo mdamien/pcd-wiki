@@ -629,6 +629,14 @@ coucou</span>
 *9
  |}
 
+<math>
+\begin{array}{|c|c|c|c|c|}
+a_n & a_{n-1} & a_{n-2} & a_{n-3} & a_{n-4} \\
+a_4 & a_3 & a_2 & a_1 & a_0 \\
+3 & 0 & -2 & 1 & -1 \\ 
+\end{array}
+</math>.
+
 == Texte sur plusieurs colonnes ==
 
 === Avec le modèle 'colonnes' ===

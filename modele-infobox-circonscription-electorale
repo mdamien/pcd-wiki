@@ -1,12 +1,12 @@
 <includeonly>{{Infobox/Début}}
 {{Infobox/Titre|{{{nom|{{PAGENAME}}}}}|E1E1E1|entete map}}
 {{Infobox/Image|{{{carte|}}}|Carte de la circonscription.|{{#if:{{{carte-taille|}}}|{{{carte-taille|}}}|260}}|Carte de la circonscription.|||Circonscription électorale}}
-{{Infobox/Sous-titre|Élection|{{{couleur|E1E1E1}}}|{{{couleur titre|}}} }}
-{{Infobox/Ligne mixte optionnelle|Élection|{{{élection|}}}}}
-{{Infobox/Ligne mixte optionnelle|Chambre|{{{chambre|}}}}}
-{{Infobox/Sous-titre|Administration|{{{couleur|E1E1E1}}}|{{{couleur titre|}}} }}
+{{Infobox/Sous-titre|Vote|{{{couleur|E1E1E1}}}|{{{couleur titre|}}} }}
+{{Infobox/Ligne mixte optionnelle|Élékcion|{{{élection|}}}}}
+{{Infobox/Ligne mixte optionnelle|Cambe|{{{chambre|}}}}}
+{{Infobox/Sous-titre|Aménistrachon|{{{couleur|E1E1E1}}}|{{{couleur titre|}}} }}
 {{Infobox/Ligne mixte optionnelle
-  |[[Liste des pays du monde|Pays]]
+  |Poéyis
   |{{#ifexist: Modèle:{{{pays|}}} 
     | {{ {{{pays}}} }} 
     | {{{pays|}}} 
@@ -17,17 +17,17 @@
 {{Infobox/Ligne mixte optionnelle|{{{nom de division|}}}|{{{division|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom de division2|}}}|{{{division2|}}}}}
 {{Infobox/Ligne mixte optionnelle|{{{nom de division3|}}}|{{{division3|}}}}}
-{{Infobox/Sous-titre|Représentation|E1E1E1}}
+{{Infobox/Sous-titre|Arprésintacion|E1E1E1}}
 {{Infobox/Ligne mixte optionnelle|{{{titre représentant|}}}|{{#if:{{{représentant|}}}|{{{représentant}}}{{#if:{{{mandat représentant|}}}|<br />{{{mandat représentant}}}|}}|}}}}
 {{Infobox/Ligne mixte optionnelle|{{{titre parti représentant|Parti politique}}}|{{#if:{{{parti représentant|}}}|{{{parti représentant}}}|}}}}
 {{Infobox/Ligne mixte optionnelle|{{{titre représentant2|}}}|{{#if:{{{représentant2|}}}|{{{représentant2}}}{{#if:{{{mandat représentant2|}}}|<br />{{{mandat représentant2}}}|}}|}}}}
 {{Infobox/Ligne mixte optionnelle|{{{titre parti représentant2|Parti politique}}}|{{#if:{{{parti représentant2|}}}|{{{parti représentant2}}}|}}}}
 {{Infobox/Ligne mixte optionnelle|{{{titre représentant3|}}}|{{#if:{{{représentant3|}}}|{{{représentant3}}}{{#if:{{{mandat représentant3|}}}|<br />{{{mandat représentant3}}}|}}|}}}}
 {{Infobox/Ligne mixte optionnelle|{{{titre parti représentant2|Parti politique}}}|{{#if:{{{parti représentant2|}}}|{{{parti représentant2}}}|}}}}
-{{Infobox/Sous-titre|Autres informations|E1E1E1}}
-{{Infobox/Ligne mixte optionnelle|Population|{{{pop|}}}|{{formatnum:{{{pop}}}}} hab. {{#if:{{{pop-année|}}}|<small>([[{{{pop-année}}}]])</small>|}}}}
-{{Infobox/Ligne mixte optionnelle|Électeurs|{{{électeurs|}}}|{{formatnum:{{{électeurs}}}}} {{#if:{{{électeurs-année|}}}|<small>([[{{{électeurs-année}}}]])</small>|}}}}
-{{Infobox/Ligne mixte optionnelle|Date de création|{{{date création|}}}}}
-{{Infobox/Ligne mixte optionnelle|Date de suppression|{{{date suppression|}}}}}
+{{Infobox/Sous-titre|Eutes informacions|E1E1E1}}
+{{Infobox/Ligne mixte optionnelle|Nombe ed gins|{{{pop|}}}|{{formatnum:{{{pop}}}}} hab. {{#if:{{{pop-année|}}}|<small>([[{{{pop-année}}}]])</small>|}}}}
+{{Infobox/Ligne mixte optionnelle|Élécteus|{{{électeurs|}}}|{{formatnum:{{{électeurs}}}}} {{#if:{{{électeurs-année|}}}|<small>([[{{{électeurs-année}}}]])</small>|}}}}
+{{Infobox/Ligne mixte optionnelle|Date éd créachon|{{{date création|}}}}}
+{{Infobox/Ligne mixte optionnelle|Date éd fin|{{{date suppression|}}}}}
 {{Infobox/Notice|Infobox Circonscription électorale}}
 {{Infobox/Fin}}</includeonly><noinclude>{{Documentation}}</noinclude>

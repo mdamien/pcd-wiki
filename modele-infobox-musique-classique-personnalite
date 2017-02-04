@@ -12,7 +12,7 @@
 {{!-}}
 }}
 {{#if:{{{légende|{{{image|}}}}}} |
-{{!}} colspan="2" {{!}} <hr ></hr>
+{{!}} colspan="2" {{!}} <hr />
 {{!-}}
 }}
 {{#if:{{{nom de naissance|}}} |

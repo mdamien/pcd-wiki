@@ -54,6 +54,21 @@ Dans le système international d'unités (ou <math>S.I.</math>) le moment d'iner
 
 <math>L=K.\int\limits_{380~nm}^{780~nm} S(\lambda)\cdot\big(\overbrace{ 1\cdot\overline{r}(\lambda)+4,5907\cdot\overline{v}(\lambda)+0,0601\cdot \overline{b}(\lambda) }^{\overline{y}(\lambda)=V(\lambda)}\big)\cdot \mathrm d\lambda~.</math>
 
+== cinétike ==
+ <nowiki><math>\underscriptrightarrow{Λ}</math></nowiki>  fonction inconnue « \underscriptrightarrow »
+
+<nowiki><math>\xlongrightarrow{abc}</math></nowiki> '''fonction inconnue'''
+
+ <nowiki><math>\xrightarrow[\text{edv}]{\text{Λ}}</math></nowiki>
+<math>\xrightarrow[\text{edv}]{\text{Λ}}</math>
+
+\land (?) fonction inconnue
+
+\wedge fonction inconnue
+
+ <nowiki><math>\xrightarrow[\text{edv}]{\text{xxx}}</math></nowiki>
+<math>\xrightarrow[\text{edv}]{\text{xxx}}</math>
+
 == Kémie ==
 
 * l'éthane :
@@ -86,15 +101,6 @@ Dans le système international d'unités (ou <math>S.I.</math>) le moment d'iner
 *<nowiki><math>\begin{matrix} & {}_{\rm{T\ >\ 90^\circ\ C }} & \\ \mathrm{ZnS +  Fe_2(SO_4)_3} & \overrightarrow{\qquad\qquad\qquad} & \mathrm{ZnSO_4 + 2FeSO_4 + S\ (solide)}\ \\\end{matrix}</math></nowiki>
 
 
- <nowiki><math>\xrightarrow[\text{edv}]{\text{Λ}}</math></nowiki>
-<math>\xrightarrow[\text{edv}]{\text{Λ}}</math>
-
-\land (?)
-
-\wedge
-
- <nowiki><math>\xrightarrow[\text{edv}]{\text{xxx}}</math></nowiki>
-<math>\xrightarrow[\text{edv}]{\text{xxx}}</math>
 
 
 * https://meta.wikimedia.org/wiki/Help:Displaying_a_formula

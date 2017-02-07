@@ -4,6 +4,7 @@
 * <nowiki>{{Sommaire à droéte}}</nowiki>
 {{Sommaire à droéte}}
 <nowiki><includeonly><div style="float:right; padding: 0 0 0 1em;">__TOC__</div></includeonly><noinclude></nowiki>
+* [[Utilisateur:Geoleplubo/Latex]]
 * [[Utilisateur:Geoleplubo/Tests]]
 * [[Utilisateur:Geoleplubo/Musique]]
 * [[Utilisateur:Geoleplubo/Caouette]]
@@ -772,83 +773,6 @@ On peut aussi s'en servir pour noter des choses importantes :
 |style="padding-left: 0.5em;"|
 L'invariance de l'hamiltonien d'un système sous un groupe continu de transformation a pour conséquence la conservation du générateur infinitésimal du groupe.
 |}
-
-== TeX ==
-
-* '''[http://fr.wikipedia.org/wiki/Aide:Formules_TeX fr:Aide:Formules TeX]''', '''[https://meta.wikimedia.org/wiki/Help:Formula Méta:Help:TeX]  édition des formules mathématiques,
-* écriture droite : <math>\mathrm{ZnO}</math>.  <nowiki><math>\mathrm{ZnO}</math></nowiki>
-* '''texte gras''' : <nowiki><math>\mathbf{ABCD}</math></nowiki> =  <math>\mathbf{ABCD}</math> <br/>
-
-* \ll et \gg pour «  »
-
-* http://tug.ctan.org/tex-archive/info/symbols/comprehensive/symbols-letter.pdf
-
-* <math>\left( \frac{1}{2} \right)</math> = <nowiki><math>\left( \frac{1}{2} \right)</math></nowiki>
-* <math>\left\{ {A \over B} \right\} \to X</math> = <nowiki><math>\left\{ {A \over B} \right\} \to X</math></nowiki>
-
-* <math>\left. {A \over B} \right\} \to X</math> = <nowiki><math>\left. {A \over B} \right\} \to X</math></nowiki>
-* <math>{}^{14}_{\ 6}\mathrm C\,</math> : <nowiki><math>{}^{14}_{\ 6}\mathrm C\,</math></nowiki>
-
-* l'éthane :
-{| border="1" width=90%
-|
-<pre>
-<math>
-  \begin{array}{lcl}
-&\rm H &\rm H\\
-&| &|\\
-\rm H-\!\!\!\! &\rm C-\!\!\!\! &\rm C - H\\
-&| &|\\
-&\rm H &\rm H\\
-  \end{array}
-</math>
-</pre>
-|
-<math>
-  \begin{array}{lcl}
-&\rm H &\rm H\\
-&| &|\\
-\rm H-\!\!\!\! &\rm C-\!\!\!\! &\rm C - H\\
-&| &|\\
-&\rm H &\rm H\\
-  \end{array}
-</math>
-|}
-
-::::<math>\begin{matrix} & {}_{\rm{T\ >\ 90^\circ\ C }} & \\ \mathrm{ZnS +  Fe_2(SO_4)_3} & \overrightarrow{\qquad\qquad\qquad} & \mathrm{ZnSO_4 + 2FeSO_4 + S\ (solide)}\ \\\end{matrix}</math>
-*<nowiki><math>\begin{matrix} & {}_{\rm{T\ >\ 90^\circ\ C }} & \\ \mathrm{ZnS +  Fe_2(SO_4)_3} & \overrightarrow{\qquad\qquad\qquad} & \mathrm{ZnSO_4 + 2FeSO_4 + S\ (solide)}\ \\\end{matrix}</math></nowiki>
-
-<math>L=K.\int\limits_{380~nm}^{780~nm} S(\lambda)\cdot\big(\overbrace{ 1\cdot\overline{r}(\lambda)+4,5907\cdot\overline{v}(\lambda)+0,0601\cdot \overline{b}(\lambda) }^{\overline{y}(\lambda)=V(\lambda)}\big)\cdot \mathrm d\lambda~.</math>
-
-* '''modèle Encadre''' <center> {{Encadre|couleur=rouge|contenu= <math> m_p = \frac {\Sigma v_i \times f_i}{\Sigma f_i} </math> }}</center>
-* '''Bloc emphase'''  {{Bloc emphase|<math>\ R_{ij}-\frac{1}{2}g_{ij}.R = \chi  \  T_{ij}</math>|fond=#fff8ff}}
-
-{{BDdebut|titre=Boite à outils TeX}}
-essai BD
-{{BDfin}}
-
-{{Boîte déroulante|titre=Boite à outils TeX|contenu=
-* forcer le PNG, quel que soit le mode choisi : <code>\,\!</code> (petit espace et espace négatif)
-* ensembles : <code>\mathbb{...}</code> exemple : <math>\mathbb{R}</math>
-* système d'équations : <code>\begin{cases} ax+by=c \\ dx+ey=f \end{cases}</code> donne <math>\begin{cases} ax+by=c \\ dx+ey=f \end{cases}</math>
-* coefficients binomiaux :
-** ''taille normale'' : <code>\binom{n}{k}</code> => <math>\binom{n}{k}</math>
-** ''taille petite'' : <code>\tbinom{n}{k}</code> => <math>\tbinom{n}{k}</math>
-* intégrale : <code>\int_{-N}^{N} e^x\, dx</code> donne <math>\int_{-N}^{N} e^x dx</math>
-* somme : <code>\sum_{k=1}^{n^2} k</code> donne <math>\sum_{k=1}^{n^2} k</math>
-* pour la physique/chimie : <code>{}_1^2\!X_3^4</code> donne <math>{}_1^2\!X_3^4</math>
-* changement de base (arithmétique) : <code>\overline{abc}^n</code> donne <math>\overline{abc}^n</math>
-* vecteurs : <code>\overrightarrow{AB}</code> donne <math>\overrightarrow{AB}</math>
-* limites : <code>\lim_{x \to +\infty} f(x)</code> donne <math>\lim_{x \to +\infty} f(x)</math>
-* taille petite : <code>\scriptstyle{instructions}</code>}}
-* avec <nowiki><math display="inline"></nowiki>, on peut écrire : <math display="inline">df=\frac{\partial f}{\partial x_1}dx_1 + ... +\frac{\partial f}{\partial x_n}dx_n</math> dans le texte sinon on aurait <math>df=\frac{\partial f}{\partial x_1}dx_1 + ... +\frac{\partial f}{\partial x_n}dx_n</math> en plus grand.
-}}
-
-
-; egzimpes
-Si on reporte l'expression du vecteur vitesse dans la définition du moment cinétique en <math>O</math> on obtient <math>\vec{\sigma}_O = \overrightarrow{OM} \wedge m \left( \vec{\Omega} \wedge \overrightarrow{OM} \right)</math> ou encore <math>\vec{\sigma}_O = m \left[ \overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) \right]</math> et, en utilisant la formule du double produit vectoriel <math>\vec{A} \wedge \left( \vec{B} \wedge \vec{C} \right) = \left( \vec{A} \cdot \vec{C} \right) \vec{B} - \left( \vec{A} \cdot \vec{B} \right) \vec{C}</math>, cela donne <math>\overrightarrow{OM} \wedge \left( \vec{\Omega} \wedge \overrightarrow{OM} \right) = \left( \overrightarrow{OM} \cdot \overrightarrow{OM} \right) \vec{\Omega} - \cancel{\left( \overrightarrow{OM} \cdot \vec{\Omega} \right) \overrightarrow{OM}} = r^2\, \vec{\Omega} </math> car <math>\overrightarrow{OM} \perp \vec{\Omega} \quad\text{et}\quad \lVert \overrightarrow{OM} \rVert = r </math> ; finalement :
-<center>  <math>\vec{\sigma}_O = J_\Delta\; \vec{\Omega}\;\color{white}{.}</math> avec <math>\color{white}{.}\;\color{black}J_\Delta = m\, r^2\;\color{white}{.}</math> appelé moment d'inertie de la particule relativement à l'axe de rotation <math>\Delta</math>. </center>
-Dans le système international d'unités (ou <math>S.I.</math>) le moment d'inertie s'exprime en <math>kg\! \cdot\! m^2</math>.
 
 == politique EDP (exemption doctrine policy) ==
 voir:

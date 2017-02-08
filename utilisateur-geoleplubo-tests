@@ -132,3 +132,17 @@ car[1D130] U+023B  002A
 == carte ? ==
 <mapframe latitude="30.1" longitude="0.0" zoom="2" width="400" height="300" align="right">
 </mapframe>
+
+== planches ==
+
+<table border="0" cellspacing="0" cellpadding="0" style="margin:0;border:none;padding:0">
+<tr><td style="border:none;padding:0"><div style="position:relative;">
+[[Fichier:Human skeleton front - no labels.svg|none|436|Squelette humain]]
+<div style="position:absolute; margin-left:0.8em; left:200px; top:20px; color:black; font-size:100%;" title="crane" >[[crâne]]</div>
+<div style="position:absolute; margin-left:0.8em; left:210px; top:110px; color:black; font-size:100%;" title="mandibule" >[[mandibule]]</div>
+<div style="position:absolute; margin-left:0.8em; left:290px; top:200px; color:black; font-size:100%;" title="humerus" >[[humérus]]</div>
+<div style="position:absolute; margin-left:0.8em; left:280px; top:350px; color:black; font-size:100%;" title="cubitus" >[[cubitus]]</div>
+<div style="position:absolute; margin-left:0.8em; left:330px; top:370px; color:black; font-size:100%;" title="radius" >[[radius]]</div>
+<div style="position:absolute; margin-left:0.8em; left:330px; top:370px; color:black; font-size:100%;" title="radius" >[[radius]]</div>
+<div style="position:absolute; margin-left:0.8em; left:350px; top:450px; color:black; font-size:100%;" title="paluche" >[[paluche]]</div>
+</div></td></tr></table>

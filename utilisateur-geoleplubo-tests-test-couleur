@@ -8,9 +8,11 @@
 }}
 
 {{Infoboète X 
-|
+  | idfaculté   = langues régionales
+  | département = Picard
+  | titre       = Grammaire picarde
 |number=1
 |previous=V
 |next=W
-|background-color=#FFCB60;
+|background-color=FFCB60
 }}

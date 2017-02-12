@@ -1,0 +1,7 @@
+local p = {}
+
+function p.idfac(frame)
+	return model(frame.args[1],"Leçon","idfaculté")
+end
+
+return p

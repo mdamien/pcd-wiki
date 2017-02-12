@@ -1,7 +1,7 @@
 local p = {}
 
 function p.color(frame)
-	return model(frame.args[1],"background-color")
+	return model(frame.args[1],"Infoboète X","background-color")
 end
 
 return p

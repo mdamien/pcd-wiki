@@ -1,4 +1,15 @@
-{{Infoboète X
+{{Leçon
+  | idfaculté   = langues régionales
+  | département = Picard
+  | titre       = Grammaire picarde
+  | 1           = {{C|Introduction|2|2}}
+  | 2           = {{C|Nom|2|2}}
+  | niveau      = 2
+}}
+
+<!--
+{{Infoboète X -->
+|
 |number=1
 |previous=V
 |next=W

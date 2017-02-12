@@ -1,19 +1,15 @@
-<includeonly>__NOTOC__ __NOEDITSECTION__{{#ifeq:{{NAMESPACENUMBER}}|0|
-{{#if:{{{idfaculté|}}}||[[Catégorie:Manque paramètre « idfaculté » dans modèle « Leçon »]]}}
-{{#if:{{{département|}}}||[[Catégorie:Manque paramètre « département » dans modèle « Leçon »]]}}
-{{#if:{{{1|}}}||[[Catégorie:Manque paramètre « 1 » dans modèle « Leçon »]]}}
-}}<!--
+<includeonly>__NOTOC__ __NOEDITSECTION__<!--
 -->{{En-tête de leçon
  | idfaculté = {{{idfaculté}}}
  | titre     = {{{titre|{{PAGENAME}}}}}
  | nocat     = {{{nocat|}}}
 }}<!--
 --><div style="margin-top: 1em; padding: 1em; overflow: auto; border: 1px solid #AAA; border-radius: 10px;">
-<div style="float: right; margin-left: 3em; width: 280px; border: 2px solid #{{idfaculté/couleur/{{{idfaculté}}}}}; border-radius: 10px; background: #{{#invoke:Lire-couleur|color}}; text-align: center;">
+<div style="float: right; margin-left: 3em; width: 280px; border: 2px solid #{{idfaculté/couleur/{{{idfaculté}}}}}; border-radius: 10px; <!--background: #{{#invoke:Lire-couleur|color}};--> background-color: #{{idfaculté/pastel/{{{idfaculté|{{#invoke:Lire|idfac|{{BASEPAGENAME}}}}}}}}}; text-align: center;">
 <div style="font-size: 1.2em; padding: .6em .2em;">
   <div>{{#if:{{{département|}}}|<div style="font-size: .85em;">''Département''</div>'''[[Département:{{{département}}}|{{{département}}}]]'''}}</div>
   <div>{{#if:{{{cours|}}}|<small>'''Cours :<br />{{{cours}}}'''</small>}}</div>
-  <div style="margin-top: .6em;">[[Fichier:{{Idfaculté/logo/{{{idfaculté}}}}}|100px|link=Faculté:{{{idfaculté}}}]]</div>
+  <!--<div style="margin-top: .6em;">[[Fichier:{{Idfaculté/logo/{{{idfaculté}}}}}|100px|link=Faculté:{{{idfaculté}}}]]</div>-->
 </div>
 {{Liste de chapitres
   | idfaculté   = {{{idfaculté|}}}
@@ -62,23 +58,9 @@
   | wikispecies titre= {{{wikispecies titre|{{{wikispecies|}}} }}}
   | wikidata titre   = {{{wikidata titre|{{{wikidata|}}} }}}
   | mediawiki titre   = {{{mediawiki titre|{{{mediawiki|}}} }}}
-}}|<!--[[Catégorie:Leçons sans interwiki]]-->
+}}|
 }}</div>
-<!--{{Leçon/Présentation}}
-{{Leçon/Objectifs}}
-{{Leçon/Prérequis|niveau={{{niveau|}}}}}
-{{Leçon/Plusloin|PlusLoin={{{PlusLoin|}}}}}
-{{Leçon/Référents}}-->
 </div></div></div>
-<!--
-{{#ifeq: {{NAMESPACE}}|Aide||{{#ifeq: {{NAMESPACE}}|Utilisateur||{{#ifeq: {{NAMESPACE}}|Recherche||{{#ifexist: {{TALKPAGENAME}}||[[Catégorie:Leçons sans discussion]]}}}}}}}}
-{{#ifeq: {{NAMESPACENUMBER}}|0||[[Catégorie:Leçons hors espace principal]]}}
-{{#if: {{{leçonracine|}}}|[[Catégorie:Leçons chapitre]]}}
-
-{{#ifeq: {{NAMESPACENUMBER}}|0|[[Catégorie:Leçons de la faculté {{{idfaculté|}}}]]}}
-{{#if: {{{nocat|}}}|[[Catégorie:Leçons sans catégorisation automatique]]}}
-{{#ifeq: {{NAMESPACE}}|Aide||{{#ifeq: {{NAMESPACE}}|Utilisateur||{{#ifexist: Catégorie:{{PAGENAME}}||[[Catégorie:Leçons non catégorisées]]}}}}}}
--->
 
 </includeonly><noinclude><!--
 

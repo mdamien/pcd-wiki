@@ -13,7 +13,7 @@
 |
 {|border="0" cellspacing="0" cellpadding="0" align="right"  width="240"|
 |-
-|style="background-color:#f1f5f1"| {{/annexe}}
+|style="background-color:#f1f5f1"| {{/Annexe}}
 | style="background-color:#f1f5f1"|<small>Si vous ne pouvez pas dérouler</br>cette boîte, décidez-vous à</br>naviguez avec {{Lien avec icône|image=Firefox free icon 43px.png|largeur=20px|lien=Mozilla Firefox}} !</small>
 |-
 |<div style="float:left;border:solid #909090 1px;margin:1px">
@@ -25,6 +25,7 @@
 </div>
 |}
 {{clr}}
+* [[Utilisateur:Geoleplubo/Tests/Test-couleur]]
 
 {{#if:{{{init|}}}|<div style="margin-right:200px; padding:1em; margin-bottom:1.5em; border: 1px solid #aaa;">|}}
 <div style="position: fixed; right:0; bottom:0; display:block; height:{{{hauteur|100}}}px; width:{{{largeur|210}}}px; z-index:0">

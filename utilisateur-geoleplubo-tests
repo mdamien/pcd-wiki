@@ -134,6 +134,14 @@ car[1D130] U+023B  002A
 <mapframe latitude="30.1" longitude="0.0" zoom="2" width="400" height="300" align="right">
 </mapframe>
 
+== Modèle:Truc ==
+<!--Modèle:Truc évasif = {{Truc évasif|bla bla ...}}
+<includeonly><span style="cursor:help; text-decoration: underline; background-color: #FCCCCC;" title="Passage évasif dont on se demande ce qu'il peut bien vouloir dire, mais qui donne une impression de sérieux. Voir en page de discussion.">{{{1}}}</span><sup style="padding-left:2px; color:red;">Truc évasif</sup>
+</includeonly><noinclude>{{Documentation}}</noinclude>-->
+
+texte, <span style="cursor:help; text-decoration: underline; background-color: #FCCCCC;" title="Passage évasif dont on se demande ce qu'il peut bien vouloir dire, mais qui donne une impression de sérieux. Voir en page de discussion.">bla bla ...</span><sup style="padding-left:2px; color:red;">Truc évasif</sup> texte.
+
+
 == planches ==
 
 <table border="0" cellspacing="0" cellpadding="0" style="margin:0;border:none;padding:0">

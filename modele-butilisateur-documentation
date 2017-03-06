@@ -1,0 +1,321 @@
+{|
+|[[Modèle:BUtilisateur|Modèle]] | [[Modèle:BUtilisateur/Documentation|Documentation]] | [[Discussion modèle:BUtilisateur|Discussion]]
+----
+Ce Méta-modèle permet de générer facilement des boîtes utilisateur standardisées.
+
+{{Modèle utilisant les ParserFunctions}}
+| align="center" valign = "top" width=200px| {{sommaire à droite}}
+|}
+
+== Constantes ==
+* largeur de la boîte : 238px
+* largeur de l'emplacement de l'icone : 45px
+* images et textes sont centrés dans leurs cellules
+
+== Modèles courants à recopier ==
+{|class="wikitable" width="100%"
+!Modèle de base<br />avec image, titre<br />et lien de catégorie
+!Modèle simple<br />sans titre en haut<br />ni lien de catégorie
+!Modèle avec double-image
+!Modèle avec icône texte
+!Modèle avec double-texte
+|-
+|valign="top" width="20%"|
+<source lang="text">
+{{BUtilisateur
+  | couleur   =
+  | img       =
+  | titre     =
+  | texte     =
+  | catégorie = Utilisateur xxx
+  | nocat     = {{{nocat|}}}
+}}
+</source>
+|valign="top" width="20%"|
+<source lang="text">
+{{BUtilisateur
+  | couleur   =
+  | img       =
+  | img-titre =
+  | texte     =
+}}</source>
+|valign="top" width="20%"|
+<source lang="text">
+{{BUtilisateur
+  | couleur     = 
+  | img-couleur = 
+  | img         =
+  | img-taille  =
+  | img-titre   =
+  | img2        =
+  | img2-taille = 
+  | img2-titre  = 
+  | titre       =
+  | texte       =
+}}
+</source>
+|valign="top" width="20%"|
+<source lang="text">
+{{BUtilisateur
+  | couleur           =
+  | img-couleur       =
+  | img-texte         =
+  | img-texte-couleur =
+  | img-texte-taille  =
+  | titre             =
+  | texte             = 
+}}
+</source>
+|valign="top" width="20%"|
+<source lang="text">
+{{BUtilisateur|
+  | couleur =
+  | img     =
+  | titre   =
+  | texte   =
+  | texte2  =
+}}
+</source>
+|}
+
+== Syntaxe ==
+<pre><nowiki>{{BUtilisateur|
+  bordure=#999999|             <!-- facultatif - par défaut, #999999 (gris) -->
+  couleur=#EEEEEE|             <!-- facultatif - par défaut, #EEEEEE (gris clair) -->
+  texte-couleur=#000000|       <!-- facultatif - par défaut, #000000 (noir) -->
+  img-couleur=#FFFFFF|         <!-- facultatif - par défaut, #FFFFFF (blanc) -->
+  img=icone.svg|               <!-- facultatif mais fortement conseillé - si absent, pas d'image -->
+  img-taille=45px|             <!-- facultatif - par défaut, 45px -->
+  img-titre=Titre Icône|       <!-- facultatif mais conseillé - par défaut, {{{img}}} -->
+  titre-taille=8pt|            <!-- facultatif - par défaut, 8pt -->
+  titre=Poker|                 <!-- facultatif - la boîte peut ne pas comporter de titre en gras  -->
+  texte-taille=8pt|            <!-- facultatif - par défaut, 8pt (augmenter pour arabe et chinois) -->
+  texte=Je joue au [[poker]].| <!-- facultatif mais fortement conseillé - si absent, pas de texte -->
+}}</nowiki></pre>
+Note : le titre partage la même couleur que le texte.
+
+Si la boîte doit contenir deux images, l'une à côté de l'autre, il faut renseigner trois autres paramètres pour l’image de droite :
+<pre><nowiki>
+  imgd=icone2.svg|           <!-- facultatif - si absent, pas d'image -->
+  imgd-taille=45px|          <!-- facultatif - par défaut, 45px -->
+  imgd-titre=Titre Icône 2|  <!-- facultatif mais conseillé - par défaut, {{{imgd}}} -->
+</nowiki></pre>
+
+Si la boîte doit contenir deux images, l'une au dessus de l'autre, il faut renseigner trois autres paramètres pour la seconde ligne :
+<pre><nowiki>
+  img2=logo.svg|             <!-- facultatif - si absent, pas d'image -->
+  img2-taille=45px|          <!-- facultatif - par défaut, 45px -->
+  img2-titre=Titre Logo|     <!-- facultatif mais conseillé - par défaut, {{{img2}}} -->
+</nowiki></pre>
+
+La boîte peut contenir jusqu'à quatre images, img et imgd en première ligne, img2 et impd2 en seconde ligne :
+<pre><nowiki>
+  imgd2=logo2.svg|           <!-- facultatif - si absent, pas d'image -->
+  imgd2-taille=45px|         <!-- facultatif - par défaut, 45px -->
+  imgd2-titre=Titre Logo 2|  <!-- facultatif mais conseillé - par défaut, {{{imgd2}}} -->
+</nowiki></pre>
+
+À la place des 1 à 4 images, on peut mettre un texte :
+<pre><nowiki>
+  img-texte=Abbrev|          <!-- facultatif - si absent, pas de texte dans la partie gauche -->
+  img-texte-couleur=#000000| <!-- facultatif - par défaut, #000000 (noir) -->
+  img-texte-taille=14pt|     <!-- facultatif - par défaut, 14pt -->
+</nowiki></pre>
+
+Si on veut ajouter un second texte séparé par un filet horizontal (par exemple une traduction dans une autre langue), on peut renseigner (ce second texte utilise les mêmes couleurs que le premier texte et le titre mais peut avoir une taille différente) :
+<pre><nowiki>
+  texte2=I play [[poker]].|  <!-- facultatif - si absent, pas de second texte séparé par un filet -->
+  texte2-taille=8pt|         <!-- facultatif - par défaut, 8pt (augmenter pour arabe ou chinois) -->
+</nowiki></pre>
+
+Si la boîte doit contenir un lien de type ''Pages liées'', il faut renseigner un paramètre supplémentaire (cela affiche un triangle vers une page spéciale listant toutes les pages liées au modèle) : 
+<pre><nowiki>
+  lien=Poker| <!-- Fin du nom de la boîte utilisateur (ici pour le Modèle:Utilisateur Poker) -->
+</nowiki></pre>
+
+Cependant, s'il existe une catégorie correspondante pour les pages d’utilisateurs, on utilisera plutôt :
+<pre><nowiki>
+  catégorie=Utilisateur Poker| <!-- facultatif - en principe le même nom que la boîte utilisateur (ici pour le Modèle:Utilisateur Poker) -->
+  catégorie2=Utilisateur Tarot| <!-- facultatif - pour une seconde catégorie (ici pour le Modèle:Utilisateur Tarot) -->
+  nocat={{{nocat|}}}|          <!-- facultatif - par défaut, vide -->
+</nowiki></pre>
+Avec ce paramètre, les utilisateurs qui insèrent cette boîte dans leur page personnelle ont leur page personnelle automatiquement catégorisée. Note : on doit indiquer le nom complet de la catégorie, car pour des raisons de compatibilité avec d'ancien noms de catégories, le préfixe "Catégorie:Utilisateur xxx" n’est pas toujours présent (on trouve aussi "Catégorie:User xxx").<br />
+Le paramètre optionnel nocat, s'il est non vide (par exemple nocat=o), évite de catégoriser automatiquement une page "Utilisateur:xxx" qui incluerait ce modèle. En principe, on ne doit l'employer que dans une sous-page "Utilisateur:xxx/xxx" (archive, essais…) pour ne pas polluer les catégories d’utilisateurs. (Des sous-modèles de Boîtes Utilisateur suffixés par "/nocat" peuvent être créés pour indiquer ce paramètre en plus du modèle normal de boîte utilisateur qui n'inclue pas ce paramètre).
+
+== Valeurs détaillées des paramètres ==
+<u>'''La boîte globale positionnée dans la page'''</u> :
+* '''<code>bordure</code>''' : facultatif (défaut=#999999, gris foncé) la couleur de bordure de la boîte, exemple : "black" ou "#0000FF"
+* '''<code>align</code>''' : facultatif, (défaut=left) ; Alignement de flottaison de la boîte, uniquement dans le cas d’une utilisation directement dans une page personnelle, mais '''pas''' dans un modèle de boîte commune. Les valeurs possibles sont ''left'', ''center'', ''right'', ou ''none'' (boîte non flottante).
+
+<u>'''Partie de gauche'''</u> : généralement l’image :
+* '''<code>img-couleur</code>''' : facultatif (défaut=#FFFFFF, blanc) la couleur de fond de l’image ou des images, exemple : "#906090" ou "#ccc"; pour les drapeaux à bandes blanches le long d’un bord, il est utile de spécifier la couleur en #EEEEEE qui permet de remarquer la bande blanche du drapeau et mesurer ses proportions (par exemple, avec le drapeau de Monaco ou de l'Algérie).
+* <u>''première image''</u> (optionnelle) :
+** '''<code>img</code>''' : facultatif (défaut=''pas d'image'') le nom de l’image, par exemple "Flag of France.svg"
+** '''<code>img-taille</code>''' : facultatif (défaut=45px) la largeur de l’image exprimée en pixels, exemple : "30px"; pour les images en paysages (drapeaux, la plupart des photos), inutile de spécifier le paramètre qui sert surtout à réduire la largeur par défaut pour que la hauteur ne dépasse pas 45px (ce qui conserve la taille des boîtes et permet de les aligner)
+** '''<code>img-titre</code>''' : facultatif (défaut=''valeur du paramètre '''titre''''' si défini ci-dessous, sinon ''nom de l’image'') exemple : "Drapeau de la France"
+* <u>''seconde image''</u>, à droite de la première image (optionnelle) :
+** '''<code>imgd</code>''' : facultatif (défaut=''pas d'image'')
+** '''<code>imgd-taille</code>''' : facultatif (défaut=45px)
+** '''<code>imgd-titre</code>''' : facultatif (défaut=''nom de l’image'')
+* <u>''première image''</u>, en deuxième ligne, donc sous la première image (optionnelle) :
+** '''<code>img2</code>''' : facultatif (défaut=''pas d'image'')
+** '''<code>img2-taille</code>''' : facultatif (défaut=45px)
+** '''<code>img2-titre</code>''' : facultatif (défaut=''nom de l’image'')
+* <u>''seconde image''</u>, en deuxième ligne, à droite de la première image en deuxième ligne (optionnelle) :
+** '''<code>imgd2</code>''' : facultatif (défaut=''pas d'image'')
+** '''<code>imgd2-taille</code>''' : facultatif (défaut=45px)
+** '''<code>imgd2-titre</code>''' : facultatif (défaut=''nom de l’image'')
+* <u>''ou alors un texte''</u> (optionnel) :
+** '''<code>img-texte</code>''' : facultatif (défaut=''pas de texte'') le texte remplaçant l’image, par exemple "E=mc²"
+** '''<code>img-texte-couleur</code>''' : facultatif (défaut=#000) la couleur du texte/image, par exemple "red"
+** '''<code>img-texte-taille</code>''' : facultatif (défaut=14pt) la taille du texte/image, par exemple "10pt"
+
+<u>'''Partie de droite'''</u>, le texte affiché :
+* '''<code>couleur</code>''' : facultatif (défaut=#DDDDDD, gris clair) la couleur de fond de la boîte, exemple : "#906090" ou "#ccc"
+* '''<code>texte-couleur</code>''' : facultatif (défaut=#000000, noir) la couleur des textes et du titre dans la boîte, exemple : "yellow" ou "#0CCCC"
+*: Normalement la couleur de boîte est claire (pastel), et les textes restent dans la couleur par défaut en noir (inutile de préciser texte-couleur sauf si le paramètre couleur précise une teinte foncée). Voir [[Wikipédia:Modèles/Espace Utilisateur/Boîte Utilisateur/Charte graphique|la charte graphique des boîtes]]
+* Le titre facultatif (automatiquement en gras et sur une ligne séparée en haut du texte)
+** '''<code>titre</code>''' : facultatif (défaut=''pas de titre'') le titre de la boîte ; sera affiché en gras suivi d’un saut de ligne; s'il est défini, il sert aussi de titre par défaut pour la première image (cas d’utilisation le plus courant)
+** '''<code>titre-taille</code>''' : facultatif (défaut='''texte-taille''' si défini, sinon 8pt; augmenter à 13pt pour l'arabe ou le chinois)
+* Le texte principal (affiché directement dans un paragraphe sous le titre)
+** '''<code>texte</code>''' : obligatoire, mais sa valeur peut être vide, le texte de la boîte, à la suite du titre
+** '''<code>texte-taille</code>''' : facultatif (défaut=8pt, augmenter à 13pt pour l'arabe ou le chinois)
+* Un second texte optionnel (séparé du titre et du premier texte par un mince filet horizontal de la couleur de la bordure).
+** '''<code>texte2</code>''' : facultatif (défaut=''pas de texte'') un second paragraphe, par exemple pour le texte dans une seconde langue.
+** '''<code>texte2-taille</code>''' : facultatif (défaut='''texte-taille''' si défini, sinon 8pt; augmenter à 13pt pour l'arabe ou le chinois)
+
+<u>'''Partie optionnelle un lien de navigation'''</u> en bas à droite (un petit triangle pointé vers le bas). On peut afficher ce lien de deux façons exclusives l'une de l'autre :
+* soit vers une page spéciale "Special:Whatlinkshere" :
+** '''<code>lien</code>''' : facultatif, le nom du modèle de boîte lui-même sans le préfixe "Modèle:".
+* soit vers une catégorie d’utilisateurs de cette boîte qui y seront automatiquement catégorisés :
+** '''<code>catégorie</code>''' : facultatif, indique le nom de la catégorie des utilisateurs de cette boîte, sans le préfixe "Catégorie:". Noter que '''seules''' les pages de l'espace "Utilisateur:" y seront catégorisées. On peut utiliser la même boîte ailleurs dans des discussions ou dans "Wikipédia:" sans que ces discussions soient catégorisées parmi les utilisateurs de la boîte. Note: si on utilise ce paramètre, le paramètre "lien=Utilisateur …|" mentionnant le nom du modèle est ignoré et c’est le lien vers la catégorie d’utilisateurs qui apparaîtra.
+** '''<code>nocat</code>''' : facultatif, par défaut les utilisateurs de la boîte sont tous catégorisés si le paramètre catégorie est présent . La valeur recommandée est <tt><nowiki>nocat={{nocat|}}}|</nowiki></tt> ce qui permet de créer un second modèle de boîte utilisateur nommé avec le suffixe "/nocat" et appelant le premier modèle de boîte en précisant seulement le paramètre "nocat=o" (valeur quelconque non vide). Ce paramètre ne supprime pas le lien affiché vers la catégorie mais l'utilisateur de la boîte n'y sera pas listé. À l’utilisation du modèle, il n’est pas nécessaire de créer un modèle "/nocat" juste pour inclure la boîte dans une page de discussion (le seul intérêt de créer un second modèle nommé "Modèle:Utilisateur xxx/nocat" est de faire apparaîte la boîte utilisateur "<source lang="text">{{Utilisateur xxx|nocat=o}}</source>" pour pouvoir l’utiliser dans "<tt><nowiki>{{Boîte Utilisateur| xxx/nocat | …}}}</nowiki></tt>" ou dans "<tt><nowiki>{{Boîte Babel| xxx/nocat | …}}}</nowiki><tt>" inclus dans le code d’une page "Utilisateur:Untel", où on ne peut préciser aucun paramètre avec le nom, et la plupart des utilisateurs n'utiliseront pas cette option : c'est-à-dire qu’à partir du moment où ils affichent publiquement la boîte sur leur page personnelle, ils sont catégorisés parmi les utilisateurs de la boîte).
+* Pour n'afficher aucun lien, il suffit de ne renseigner dans la boîte ni le paramètre '''<code>lien</code>''', ni le paramètre '''<code>catégorie</code>'''.
+
+== Exemples ==
+{|width="100%"
+!width="70%"|Code!!width="30%"|Résultat
+|-
+|<pre><nowiki>{{BUtilisateur|
+ img=Wikiversity-logo.svg|
+ img-titre=Wikipédia|
+ couleur=#d0ffe0|
+ titre=[[w:Wikipédia|Wikipédia]]|
+ texte=Mon encyclopédie libre et gratuite est '''[[w:Wikipédia|Wikipédia]]'''.|
+ catégorie=Wikipédiens|
+}}</nowiki></pre>
+|{{BUtilisateur|
+ img=Wikiversity-logo.svg|
+ img-titre=Wikipédia|
+ couleur=#d0ffe0|
+ titre=[[w:Wikipédia|Wikipédia]]|
+ texte=Mon encyclopédie libre et gratuite est '''[[w:Wikipédia|Wikipédia]]'''.|
+ catégorie=Wikipédiens|
+}}
+|-
+|<pre><nowiki>{{BUtilisateur|
+ img=Jolly-old-saint-nick.gif|
+ img-titre=Père Noël|
+ couleur=#FF8080|
+ titre=Père Noël|
+ texte=Je crois au '''[[w:père Noël|Père Noël]]'''.|
+ catégorie=Utilisateur Père Noël|
+}}
+</nowiki></pre>
+|{{BUtilisateur|
+ img=Jolly-old-saint-nick.gif|
+ img-titre=Père Noël|
+ couleur=#FF8080|
+ titre=Père Noël|
+ texte=Je crois au '''[[w:père Noël|Père Noël]]'''.|
+ catégorie=Utilisateur Père Noël|
+}}
+|-
+|<pre><nowiki>{{BUtilisateur|
+ img=Armoiries Languedoc.png|
+ img-titre=Armoiries Languedoc|
+ img-taille=21px|
+ imgd=Coat of Arms of Switzerland.svg|
+ imgd-titre=Blason Suisse|
+ imgd-taille=21px|
+ img2=CARTE DRAPEAU FRANCE.svg|
+ img2-titre=France|
+ img2-taille=21px|
+ imgd2=|
+ imgd2-titre=Blason Champagne Ardennes|
+ imgd2-taille=21px|
+ couleur=#FFF0F5|
+ titre=4 images|
+ texte=On peut placer jusqu’à quatre images dans la partie gauche.|
+}}
+</nowiki></pre>
+|{{BUtilisateur|
+ img=Armoiries Languedoc.png|
+ img-titre=Armoiries Languedoc|
+ img-taille=21px|
+ imgd=Coat of Arms of Switzerland.svg|
+ imgd-titre=Blason Suisse|
+ imgd-taille=21px|
+ img2=CARTE DRAPEAU FRANCE.svg|
+ img2-titre=France|
+ img2-taille=21px|
+ imgd2=|
+ imgd2-titre=Blason Champagne Ardennes|
+ imgd2-taille=21px|
+ couleur=#FFF0F5|
+ titre=Quatre images|
+ texte=On peut placer jusqu’à quatre images dans la partie gauche.|
+}}
+|-
+|<pre><nowiki>{{BUtilisateur|
+ texte=Cet utilisateur ne s’intéresse à rien.|
+}}</nowiki></pre>
+|{{BUtilisateur|
+ texte=Cet utilisateur ne s’intéresse à rien.|
+}}
+|-
+|<pre><nowiki>{{BUtilisateur|
+ img-couleur=red|
+ img-texte-couleur=yellow|
+ img-texte-taille=12pt|
+ img-texte='''e=<br />mc²'''|
+ couleur=darkblue|
+ texte-couleur=white|
+ texte=Cet utilisateur est un '''<span style="font-size:1.2em"><span style="font-size:1.2em">génie</span></span>'''.|
+}}</nowiki></pre>
+|{{BUtilisateur|
+ img-couleur=red|
+ img-texte-couleur=yellow|
+ img-texte-taille=12pt|
+ img-texte='''e=<br />mc²'''|
+ couleur=darkblue|
+ texte-couleur=white|
+ texte=Cet utilisateur est un '''<span style="font-size:1.2em"><span style="font-size:1.2em">génie</span></span>'''.|
+}}
+|-
+|<pre><nowiki>{{BUtilisateur|
+ img-couleur=#FFBBBB|
+ img-texte-taille=13pt|
+ img-texte='''en-0'''|
+ couleur=#FFEEEE|
+ bordure=#FFBBBB|
+ texte=Cet utilisateur '''[[:Catégorie:Utilisateur en|ne comprend rien]]'''
+à l’'''[[:Catégorie:Utilisateur en|anglais]]''',
+ou ne veut pas parler cette langue.|
+ texte2=This user '''[[:Catégorie:Utilisateur en|does not]]''' speak
+'''[[:Catégorie:Utilisateur en|English]]''', or does not want to speak English.|
+ catégorie=Utilisateur en-0|
+}}</nowiki></pre>
+|{{BUtilisateur|
+ img-couleur=#FFBBBB|
+ img-texte-taille=13pt|
+ img-texte='''en-0'''|
+ couleur=#FFEEEE|
+ bordure=#FFBBBB|
+ texte=Cet utilisateur '''[[:Catégorie:Utilisateur en|ne comprend rien]]'''
+à l’'''[[:Catégorie:Utilisateur en|anglais]]''', ou ne veut pas parler cette langue.|
+ texte2=This user '''[[:Catégorie:Utilisateur en|does not]]''' speak
+'''[[:Catégorie:Utilisateur en|English]]''', or does not want to speak English.|
+ catégorie=Utilisateur en-0|
+}}
+|}

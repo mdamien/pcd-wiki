@@ -33,7 +33,7 @@
 {{!-}}
 }}
 {{#if:{{{département|}}} | 
-! scope=row style=font-weight:normal valign=top {{!}} '''{{#if:{{{lien subdivision|}}}|{{{lien subdivision}}}|Département}}'''
+! scope=row style=font-weight:normal valign=top {{!}} '''{{#if:{{{lien subdivision|}}}|{{{lien subdivision}}}|Départémint}}'''
 {{!}} {{{département}}}
 {{!-}}
 }}
